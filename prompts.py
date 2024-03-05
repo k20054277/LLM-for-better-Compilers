@@ -110,6 +110,12 @@ def extract_code(output):
     f.write(program + "\n")
     f.close()
 
+def save_time(time):
+
+    f = open("output.txt", "a")
+    f.write(time + "\n")
+    f.close()
+
 def main():
     prompts = generate_all_prompts()
 
@@ -131,6 +137,6 @@ def main():
 if __name__ == "__main__":
     start_time = time.time()
     main()
-    print("--- %s seconds ---" % round(time.time() - start_time, 2))
+    save_time("--- %s seconds ---" % round(time.time() - start_time, 2))
 
 
