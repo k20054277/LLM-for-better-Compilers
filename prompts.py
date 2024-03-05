@@ -1,5 +1,6 @@
 import itertools
-import ollama
+import subprocess
+import time
 
 # Predefined list of keywords
 keywords = [
@@ -61,27 +62,75 @@ def generate_all_prompts():
         prompts.append(prompt)
     return prompts
 
+def run_prompt(prompt, model):
+    if model == "mistral":
+        result = subprocess.run(
+        "ollama run mistral:latest " + prompt +"",
+        shell =True,
+        capture_output = True, # Python >= 3.7 only
+        text = True # Python >= 3.7 only
+        )
+
+    elif model == "magicoder":
+        result = subprocess.run(
+        "ollama run magicoder:latest " + prompt +"",
+        shell =True,
+        capture_output = True, # Python >= 3.7 only
+        text = True # Python >= 3.7 only
+        )
+    out = result.stdout
+    err = result.stderr
+    return out
+
+def read_file(file_name, model):
+    file1 = open(file_name, 'r')
+    Lines = file1.readlines()
+    
+    # for line in Lines:
+    #     out = run_prompt(line.strip('\n\r'), model)
+    #     extract_code(out)
+
+    for i in range(200):
+        out = run_prompt(Lines[i].strip('\n\r'), model)
+        extract_code(out)
+
+def extract_code(output):
+
+    start_index = output.find("```python")
+    if start_index == -1:
+        return
+    end_index = output.find("```", start_index + len("```python"))
+    if end_index == -1:
+        return
+
+    program = output[start_index:end_index+ 3].strip()
+    # print (program)
+
+    f = open("output.txt", "a")
+    f.write(program + "\n")
+    f.close()
 
 def main():
     prompts = generate_all_prompts()
-    model = ollama.Model("model_name")
-    model.run()
 
     # Output the generated prompts
-    print("Generated Prompts:")
-    for idx, prompt in enumerate(prompts, start=1):
-        print(f"{idx}. {prompt}")
-        result = model.predict(prompt)
-        print(result)
+    # print("Generated Prompts:")
+    # for idx, prompt in enumerate(prompts, start=1):
+    #     print(f"{idx}. {prompt}")
+    
         
+    # # Optionally, you can save the prompts to a file
+    # f = open("generated_prompts.txt", "w")
+    # f.truncate(0)
+    # for prompt in prompts:
+    #     f.write(prompt + "\n")
+    # f.close()
 
-    # Optionally, you can save the prompts to a file
-    with open("generated_prompts.txt", "w") as file:
-        for prompt in prompts:
-            file.write(prompt + "\n")
+    read_file("generated_prompts.txt", "mistral")
 
 if __name__ == "__main__":
+    start_time = time.time()
     main()
-
+    print("--- %s seconds ---" % round(time.time() - start_time, 2))
 
 
