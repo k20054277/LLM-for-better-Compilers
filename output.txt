@@ -16158,3 +16158,149 @@ num **= 2
 
 # Print the updated value of the variable num
 print(num)
+36
+python
+# Define two boolean variables
+variable1 = False
+variable2 = True
+
+print("Variable 1: ", variable1)
+print("Variable 2: ", variable2)
+
+# Using the logical NOT operator ~ to inverse the value of a variable
+inverse_of_variable1 = ~variable1
+print("Inverse of Variable 1: ", inverse_variable1)
+
+# Logical AND operation (and) between two variables or a constant and a variable
+result_of_operation1 = variable1 and variable2
+print("Variable 1 and Variable 2 (and): ", result_of_operation1)
+
+result_of_operation2 = variable1 and True
+print("Variable 1 and True (and): ", result_of_operation2)
+37
+python
+# Define two Boolean variables with the value True
+boolean_variable_1 = True
+boolean_variable_2 = True
+
+print("boolean_variable_1: ", boolean_variable_1)
+print("boolean_variable_2: ", boolean_variable_2)
+
+# Use bitwise OR operator | to combine two Boolean variables
+combined_variable = boolean_variable_1 | boolean_variable_2
+
+print("\nboolean_variable_1 | boolean_variable_2: ")
+print(combined_variable)
+
+# The result of the bitwise OR operation will be True if either (or both) of the variables are True.
+print("Note: In Python, the bitwise OR operator also works for Boolean values and behaves like a logical OR.")
+38
+python
+# Definition of two binary numbers as decimal integers
+num1 = 60  # binary: 111110
+num2 = 13  # binary: 0010011
+
+# Using bitwise XOR (^) to find the difference of num1 and num2
+result = num1 ^ num2
+
+print(f"The XOR of {num1} and {num2} is:")
+print(result)
+print(bin(num1)[2:])  # print binary representation of num1 for comparison
+print(bin(num2)[2:])  # print binary representation of num2 for comparison
+print(bin(result)[2:])  # print binary representation of the XOR result
+39
+python
+# Define a binary number
+binary_number = 0b1111_0010
+
+# Print the original binary number
+print("Original Binary Number: ", bin(binary_number)[2:])
+
+# Use True to convert the binary number to its decimal equivalent
+decimal_number = bool(binary_number) if isinstance(binary_number, int) else int(binary_number, 2)
+print("Decimal Equivalent of Binary Number: ", decimal_number)
+
+# Use bitwise NOT (represented by the tilde `~`) to invert all the bits of the binary number
+inverted_number = ~binary_number
+
+# Print the binary representation of the inverted number
+print("Binary Representation of Inverted Number: ", bin(int.from_bytes(bytearray([binary_number.to_bytes(1, 'little')[0]]), 'little'))[2:])
+
+# Use True to check if the inverted number is non-zero (i.e., if it has at least one bit set)
+is_inverted_nonzero = bool(inverted_number)
+print("Is Inverted Number Non-Zero? : ", is_inverted_nonzero)
+40
+python
+# Setting some binary values as integers
+binary_value1 = 1
+binary_value2 = 1 << 3
+
+print("Binary Value 1 (Decimal): ", binary_value1)
+print("Binary Value 2 (Decimal): ", binary_value2)
+
+# Displaying the binary representations
+print(f"Binary representation of Binary Value 1: {bin(binary_value1)}")
+print(f"Binary representation of Binary Value 2: {bin(binary_value2)}")
+
+# Using True and bitwise left shift together
+some_boolean = True
+number = binary_value1
+number <<= some_boolean
+
+print("Number before assignment with boolean:", number)
+print("Boolean value:", some_boolean)
+
+if some_boolean:
+    number <<= 1
+else:
+    number >>= 1
+
+print("Number after assignment with conditional statement:", number)
+
+# Displaying the binary representations of the final numbers
+print(f"Binary representation of final Number: {bin(number)}")
+41
+python
+# Using True
+number = 10
+if number > 5:
+    print("Number is greater than 5")
+else:
+    print("Number is less than or equal to 5")
+
+# Using bitwise right shift operator (>>)
+binary_number = 0b1111_0101 # binary representation of decimal number 9 (decimal 0b means it's in binary form)
+shifted_number = binary_number >> 2
+print(bin(shifted_number)) # prints "0b0011_1100" which is the binary representation of decimal number 3
+print(decimal(shifted_number)) # prints 3, the decimal equivalent of the shifted binary number
+42
+python
+# Define two boolean variables
+var1 = True
+var2 = True
+
+# Use the 'and' operator to create a new boolean variable 'result'
+result = var1 and var2
+
+# Print out the values of the variables
+print("Variable 1: ", var1)
+print("Variable 2: ", var2)
+print("Result (var1 and var2): ", result)
+43
+python
+# Define some variables
+a = 10
+b = 20
+c = False
+
+# Using True directly
+if True:
+    print("True is always true. Printing: True is always true.")
+
+# Using or operator
+if c or (a > b):
+    print("The condition is true because of one of the following reasons:")
+    print(f"c is {c}")
+    print(f"But a={a} and b={b}, so a>b is {a > b}")
+else:
+    print("The condition is false.")

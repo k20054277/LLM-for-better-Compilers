@@ -45,3 +45,200 @@ cron.stop()
 
 # Print a message after the function has been executed
 print("Cron function executed!")
+2
+python
+import true
+import batch
+
+# Define a function to demonstrate True and batch
+def my_function(x):
+    print(x)
+    if x > 5:
+        return True
+    else:
+        return False
+
+# Use True and batch to apply my_function to a list of numbers
+numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+true.batch(numbers, my_function)
+
+# Print the results
+print(numbers)
+3
+python
+import multiprocessing
+import True
+
+def square(x):
+    return x**2
+
+if __name__ == "__main__":
+    # Create a list of processes
+    processes = []
+    for i in range(10):
+        process = multiprocessing.Process(target=square, args=(i,))
+        processes.append(process)
+
+    # Start all processes
+    for process in processes:
+        process.start()
+
+    # Wait for all processes to complete
+    for process in processes:
+        process.join()
+
+    # Print the results
+    print("The results are:")
+    for i in range(10):
+        print(square(i))
+4
+python
+import threading
+import time
+
+def thread_function(num):
+    for i in range(num):
+        print("Thread", num, "is running")
+        time.sleep(1)
+
+if __name__ == "__main__":
+    # Create a list of threads
+    threads = []
+
+    # Start multiple threads
+    for i in range(5):
+        thread = threading.Thread(target=thread_function, args=(i,))
+        threads.append(thread)
+        thread.start()
+
+    # Wait for all threads to complete
+    for thread in threads:
+        thread.join()
+
+    print("All threads have completed")
+5
+python
+import threading
+import time
+
+def thread_function(name):
+    for i in range(10):
+        print("Hello, " + name + "!")
+        time.sleep(1)
+
+# Create a list of threads
+threads = []
+
+# Start a thread for each person
+for i in range(5):
+    thread = threading.Thread(target=thread_function, args=("Person " + str(i+1)))
+    thread.start()
+    threads.append(thread)
+
+# Wait for all threads to complete
+for thread in threads:
+    thread.join()
+
+print("All threads completed!")
+6
+python
+import multiprocessing
+
+def hello(name):
+    print("Hello, ", name)
+
+if __name__ == "__main__":
+    # Create a list of processes
+    processes = []
+
+    # Start a process
+    for i in range(5):
+        process = multiprocessing.Process(target=hello, args=("Process %s" % i))
+        processes.append(process)
+
+    # Start all processes
+    for process in processes:
+        process.start()
+
+    # Wait for all processes to complete
+    for process in processes:
+        process.join()
+
+    print("All processes completed!")
+7
+python
+import threading
+import time
+
+def thread_one(shared_variable):
+    for i in range(10):
+        shared_variable.value += 1
+        time.sleep(0.1)
+
+def thread_two(shared_variable):
+    for i in range(10):
+        shared_variable.value -= 1
+        time.sleep(0.1)
+
+# Create a shared variable
+shared_variable = threading.shared_variable(0)
+
+# Create two threads
+thread_one_object = threading.Thread(target=thread_one, args=(shared_variable,))
+thread_two_object = threading.Thread(target=thread_two, args=(shared_variable,))
+
+# Start the threads
+thread_one_object.start()
+thread_two_object.start()
+
+# Wait for the threads to complete
+thread_one_object.join()
+thread_two_object.join()
+
+# Print the final value of shared_variable
+print("Final value of shared_variable:", shared_variable.value)
+8
+python
+import threading
+
+def thread1(lock):
+    print("Thread 1 waiting...")
+    lock.acquire()
+    print("Thread 1 acquired lock")
+    time.sleep(2)
+    print("Thread 1 released lock")
+
+def thread2(lock):
+    print("Thread 2 waiting...")
+    lock.acquire()
+    print("Thread 2 acquired lock")
+    time.sleep(2)
+    print("Thread 2 released lock")
+
+if __name__ == "__main__":
+    lock = threading.Lock()
+    thread1(lock)
+    thread2(lock)
+
+    print("Main program finished")
+9
+python
+# This Python program demonstrates the use of True and resource
+
+# Define a function to demonstrate True and resource
+def demonstrate_true_and_resource():
+    # Create a resource
+    resource = True
+
+    # Use the resource
+    if resource:
+        print("The resource is True")
+
+    # Release the resource
+    resource = False
+
+# Call the function
+demonstrate_true_and_resource()
+
+# Output:
+# The resource is True

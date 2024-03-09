@@ -15,3 +15,119 @@ elif x < 10:
 else:
     print("x is equal to 10")
 ```
+1
+```
+import time
+from datetime import datetime
+
+def my_task():
+    print("Hello, world!")
+
+# Set up the cron job
+cron = CronTab(user='your_username')
+job = cron.new(command='/usr/bin/python /path/to/your/script.py',
+               comment='My Python Script')
+job.setall('*/5 * * * *')  # Run every 5 minutes
+cron.write()
+
+# Wait for the job to finish
+while True:
+    time.sleep(60)  # Sleep for 1 minute
+    if my_task():
+        break
+```
+3
+```
+# Using True and parallel to perform operations in parallel
+import concurrent.futures
+
+def my_function(x):
+    return x * x
+
+with concurrent.futures.ThreadPoolExecutor() as executor:
+    # Use the thread pool to perform operations in parallel
+    results = [executor.submit(my_function, i) for i in range(10)]
+
+# Collect the results from the futures
+results = [future.result() for future in concurrent.futures.as_completed(results)]
+
+print(results)
+```
+4
+```
+import threading
+
+def task1():
+    print("Task 1 running...")
+    return True
+
+def task2():
+    print("Task 2 running...")
+    return False
+
+if __name__ == "__main__":
+    t1 = threading.Thread(target=task1)
+    t2 = threading.Thread(target=task2)
+    t1.start()
+    t2.start()
+
+    # Wait for both threads to finish
+    t1.join()
+    t2.join()
+
+    # Check the result of each thread
+    if task1.result():
+        print("Task 1 finished with True")
+    else:
+        print("Task 1 finished with False")
+
+    if task2.result():
+        print("Task 2 finished with True")
+    else:
+        print("Task 2 finished with False")
+```
+6
+```
+# This program demonstrates the use of "True" and "process".
+
+# Importing the necessary libraries
+import os
+
+# Creating a function to demonstrate the use of "True"
+def check_true(x):
+    # Using the "and" operator to check if both conditions are true
+    return True and (x > 0)
+
+# Creating a function to demonstrate the use of "process"
+def get_pid():
+    # Getting the PID of the current process using "os.getpid()"
+    pid = os.getpid()
+    print(f"The PID of this process is {pid}.")
+
+# Calling the functions to demonstrate their use
+check_true(5)  # Output: True
+get_pid()      # Output: The PID of this process is 1234 (or whatever the actual PID is).
+```
+7
+```python
+import threading
+
+def main():
+    # Create two threads
+    t1 = threading.Thread(target=thread_function, args=(True,))
+    t2 = threading.Thread(target=thread_function, args=(False,))
+
+    # Start the threads
+    t1.start()
+    t2.start()
+
+def thread_function(flag):
+    # Check the value of flag and print a message accordingly
+    if flag:
+        print("Thread 1: The flag is True")
+    else:
+        print("Thread 2: The flag is False")
+
+if __name__ == "__main__":
+    main()
+```
