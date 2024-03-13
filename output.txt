@@ -16304,3 +16304,3840 @@ if c or (a > b):
     print(f"But a={a} and b={b}, so a>b is {a > b}")
 else:
     print("The condition is false.")
+0
+python
+# Boolean values: True or False
+is_raining = False
+is_sunny = True
+has_money = True
+
+print("Is it raining?", is_raining)
+print("Is it sunny?", is_sunny)
+print("Do we have money?", has_money)
+
+# If statement
+if not is_raining and is_sunny and has_money:
+    print("Let's go to the park!")
+else:
+    print("Let's stay home today.")
+1
+python
+import time
+import schedule
+
+def job():
+    print("Job is running...")
+    time.sleep(5) # This job will run for 5 seconds
+
+def main():
+    schedule.every(1).minutes.do(job) # Schedule the job to run every minute
+    
+    while True:
+        schedule.run_pending() # Run any scheduled jobs
+        time.sleep(60) # Sleep for a minute before checking again
+
+if __name__ == "__main__":
+    main()
+2
+python
+# Define a boolean variable with true value
+is_rainy = True
+
+# Define a boolean variable with false value
+is_sunny = False
+
+print("Is it rainy? ", is_rainy)
+print("Is it sunny? ", is_sunny)
+
+# Perform some logical operations on boolean variables
+print("Rainy OR Sunny: ", is_rainy or is_sunny)  # OR operation
+print("Rainy AND Sunny: ", is_rainy and is_sunny)  # AND operation
+print("Not Rainy: ", not is_rainy)  # NOT operation
+3
+python
+# This program demonstrates the usage of True as a Boolean value.
+
+# Assigning True and False to variables
+is_sun_shining = True
+is_rainy = False
+
+print("Is it sunny outside? ", is_sun_shining)
+print("Is it raining outside? ", is_rainy)
+
+# Using True in conditional statements
+if True:
+    print("This statement is always true.")
+
+if not False:
+    print("This statement is also always true.")
+
+# Using True and False to compare values
+number = 10
+is_number_greater_than_five = number > 5
+
+print("Is the number greater than 5? ", is_number_greater_than_five)
+4
+python
+import threading
+import time
+
+def worker_function(name):
+    print(f"{name}: Started")
+    irepeat = 0
+    while True:
+        if should_stop:
+            print(f"{name}: Stopping...")
+            break
+        irerepeat += 1
+        print(f"{name}: Repeating {irepeat}")
+        time.sleep(2)
+
+should_stop = False
+thread1 = threading.Thread(target=worker_function, args=("Thread 1",))
+thread2 = threading.Thread(target=worker_function, args=("Thread 2",))
+
+# Start the threads
+thread1.start()
+thread2.start()
+
+# Wait for some time to let the threads run for a while
+time.sleep(10)
+
+# Stop both threads
+should_stop = True
+thread1.join()
+thread2.join()
+print("All threads stopped.")
+5
+python
+import threading
+import time
+
+def worker(name):
+    """ A simple worker function to demonstrate multithreading """
+    print(f"Thread {name} started")
+    time.sleep(3)
+    print(f"Thread {name} finished")
+
+if __name__ == "__main__":
+    thread1 = threading.Thread(target=worker, args=("Thread1",))
+    thread2 = threading.Thread(target=worker, args=("Thread2",))
+
+    # Start the threads
+    thread1.start()
+    thread2.start()
+
+    # Wait for both threads to finish their execution
+    thread1.join()
+    thread2.join()
+
+    print("Main thread finished")
+6
+python
+# This variable will hold an integer user input
+number = None
+
+# Ask for user input until valid integer is provided
+while not type(number) == int:
+    try:
+        number = int(input("Please enter an integer: "))
+    except ValueError:
+        print("Invalid input! Please enter an integer.")
+
+# Check if the number is positive, zero or negative and print accordingly
+if number > 0:
+    print(f"The number {number} is positive.")
+elif number == 0:
+    print(f"The number {number} is zero.")
+else:
+    print(f"The number {number} is negative.")
+    
+# Perform some additional processing based on the number's magnitude
+if abs(number) > 10:
+    print("This number is quite large.")
+elif abs(number) < 5:
+    print("This number is quite small.")
+else:
+    print("This number has a moderate magnitude.")
+7
+python
+def is_true():
+    return True
+8
+python
+import threading
+import time
+
+# Define two resources with their respective locks
+resource1_lock = threading.Lock()
+resource2_lock = threading.Lock()
+
+def function1():
+    """Function 1 acquires resource 1, then attempts to acquire resource 2."""
+    print("Function 1: Acquiring resource 1...")
+    resource1_lock.acquire()
+    time.sleep(0.5)
+    print("Function 1: Trying to acquire resource 2...")
+    resource2_lock.acquire()
+    print("Function 1: Both resources acquired!")
+
+def function2():
+    """Function 2 acquires resource 2, then attempts to acquire resource 1."""
+    print("Function 2: Acquiring resource 2...")
+    resource2_lock.acquire()
+    time.sleep(0.5)
+    print("Function 2: Trying to acquire resource 1...")
+    resource1_lock.acquire()
+    print("Function 2: Both resources acquired!")
+
+# Create and start threads
+thread1 = threading.Thread(target=function1)
+thread2 = threading.Thread(target=function2)
+
+thread1.start()
+thread2.start()
+
+# Wait for threads to finish
+thread1.join()
+thread2.join()
+
+print("All threads completed.")
+9
+python
+import contextlib
+import os
+
+# Using True as a boolean value
+if True:
+    print("This is a true statement, it will be executed")
+
+# Using resource module with contextlib.contextmanager decorator
+@contextlib.contextmanager
+def my_context_manager(file_path):
+    try:
+        file = open(file_path, 'r')
+        yield file
+    finally:
+        file.close()
+
+with my_context_manager('example.txt') as f:
+    data = f.read()
+    print("Data from the file:", data)
+10
+python
+def function_that_needs_permission(condition):
+    """Function that can only be executed if 'condition' is True."""
+    if condition:
+        print("Executing function...")
+        # Your code goes here
+    else:
+        print("Condition is False. Function not executed.")
+
+# Allow the function to be executed
+function_that_needs_permission(True)
+
+# Deny the function from being executed
+function_that_needs_permission(False)
+11
+python
+import threading
+import time
+
+# Define a shared resource that requires mutual exclusion
+resource = 0
+lock = threading.Lock()
+
+# Define a function to be executed in threads
+def worker(thread_id):
+    global resource
+
+    # Demonstrate the use of Boolean flags
+    flag = not thread_id % 2
+
+    print(f"Thread {thread_id} is waiting for its turn to access the shared resource...")
+    
+    while flag:
+        if lock.acquire(blocking=True):
+            # Critical section: Access the shared resource
+            if resource > 0:
+                print(f"Thread {thread_id} found a non-zero value in the shared resource.")
+                resource += 1
+                print(f"Thread {thread_id} updated the shared resource to {resource}")
+            else:
+                print(f"Thread {thread_id} did not find anything in the shared resource.")
+
+            lock.release()
+        else:
+            print("Thread", thread_id, "is waiting for the lock to be released...")
+            time.sleep(0.1)
+    
+# Create and start threads
+threads = [threading.Thread(target=worker, args=(i,)) for i in range(4)]
+for t in threads:
+    t.start()
+
+# Wait for all threads to finish
+for t in threads:
+    t.join()
+12
+python
+import threading
+import time
+
+def worker(semaphore, condition):
+    semaphore.acquire()
+
+    print("Thread {} started".format(threading.current_thread().name))
+
+    # Simulating some work by sleeping for a random period of time
+    time.sleep(1 + 2 * (threading.randint(0, 1) % 2))
+
+    condition.set()  # Signal that the thread has finished its job
+    semaphore.release()
+
+    print("Thread {} finished".format(threading.current_thread().name))
+13
+python
+# Open file using context manager
+def read_file(filename):
+    # Open file with 'r' mode
+    with open(filename, 'r') as file:
+        # Read entire file content
+        data = file.read()
+        print("File contents:\n{}\n".format(data))
+
+# Use the function
+if __name__ == "__main__":
+    filename = "example.txt"  # Replace with your file path
+    read_file(filename)
+14
+python
+importgc  # This line is only for Python 3.4 and below. For newer versions, remove it.
+import sys
+
+class MyClass:
+    def __init__(self):
+        print("Created an instance of MyClass")
+
+# Create an object of MyClass
+obj = MyClass()
+
+print("Assigned obj to None")
+obj = None
+
+print("Checking GC. Is there any unreachable object in memory? (Python 3.4 and below)")
+sys.gc()
+if gc.collect() is not None:
+    print("Garbage Collector did some work!")
+else:
+    print("No garbage collection occurred.")
+
+print("For Python versions greater than 3.4, use 'gc' module instead of 'importgc'. ")
+# In newer versions, replace the gc check with:
+# if sys.getrecursionlimit() * 2 > sys.stdin.buffersize:
+#     print('Garbage collector did some work!')
+# else:
+#     print('No garbage collection occurred.')
+15
+python
+# Demonstrating the use of True
+boolean_value = True
+if boolean_value:
+    print("This statement will be executed")
+else:
+    print("This statement will not be executed")
+
+# Creating objects and demonstrating memory management
+class MyClass:
+    def __init__(self, value):
+        self.value = value
+
+objects = []
+for i in range(100000):
+    obj = MyClass(i)
+    objects.append(obj)
+
+# Manually releasing memory (not necessary in Python)
+# for obj in objects:
+#     del obj
+
+# GC will free up the memory used by the objects when they are no longer needed
+print("Objects created:", len(objects))
+17
+python
+# Define some variables
+number_1 = 5
+number_2 = 10
+is_even = True
+
+# Perform some calculations
+result_1 = number_1 * is_even
+print("Multiplication of number and boolean (number * boolean): ", result_1)
+
+result_2 = number_1 * number_2
+print("Multiplication of two numbers: ", result_2)
+18
+python
+# Python Program for Demonstrating True and Division Operator (/)
+
+def main():
+    # Taking input numbers from the user
+    num1 = float(input("Enter first number: "))
+    num2 = float(input("Enter second number: "))
+
+    # Performing division operation
+    result = num1 / num2
+
+    # Checking if the result is greater than zero using Boolean value True
+    if result > 0:
+        print(f"The result {result} is positive.")
+        print("Therefore, the following statement will be true:")
+        print(True)
+    else:
+        print(f"The result {result} is non-positive.")
+        print("Therefore, the following statement will be false:")
+        print(False)
+
+if __name__ == "__main__":
+    main()
+19
+python
+# Integer division
+print("Integer Division:")
+num1 = 10
+num2 = 3
+quotient_int = num1 / num2
+print(f"Quotient using integer division: {quotient_int}")
+print(f"First number: {num1}, Second number: {num2}, Quotient: {quotient_int}")
+
+# Floor Division
+print("Floor Division:")
+quotient_floor = num1 // num2
+print(f"Quotient using floor division: {quotient_floor}")
+print(f"First number: {num1}, Second number: {num2}, Quotient: {quotient_floor}")
+20
+python
+# Function to check if a number is even or odd
+def is_even(number):
+    if number % 2 == 0:
+        return True
+    else:
+        return False
+
+# Testing the function
+numbers = [1, 2, 3, 4, 5, 6]
+for num in numbers:
+    result = is_even(num)
+    print("{} is {}".format(num, "even" if result else "odd"))
+21
+python
+# Define a power function using exponentiation operator **
+def power(base, exponent):
+    # Base case: if exponent is 0, return 1
+    if exponent == 0:
+        return 1
+    else:
+        # Recursive call: base * base raised to the power of (exponent - 1)
+        return base ** (exponent - 1) * base
+
+# Test cases
+print(power(2, 3))                     # Expected output: 8
+print(power(5, 2))                     # Expected output: 25
+print(power(0, 0))                     # Expected output: 1
+print(power(1, -1))                    # Expected output: 1 (since 1 raised to any negative power is 1)
+print(power(-3, 2))                    # Expected output: 9 (-3 * -3)
+print(power(2, 0))                     # Expected output: 1
+print(power(True, 2))                  # Raises a TypeError since you can't raise a Boolean value to a power
+22
+python
+# Define two variables with initial values
+x = 5
+y = 10
+
+# Check if 'x' is less than 'y' using a Boolean expression
+is_x_less_than_y = x < y
+
+# Print the result of the comparison (Boolean value)
+print(f"Is {x} less than {y}? -> {is_x_less_than_y}")
+
+# Assign new values to 'x' and 'y' based on a condition
+if is_x_less_than_y:
+    x, y = y, x
+
+# Print the updated values of 'x' and 'y'
+print(f"Now x = {x} and y = {y}")
+23
+python
+# This program defines two variables with boolean values using True and False, respectively,
+# and also compares two integers using the equal to operator (==)
+
+# Define boolean variables using True and False
+boolean_variable_1 = True
+boolean_variable_2 = False
+
+print("boolean_variable_1 is:", boolean_variable_1)
+print("boolean_variable_2 is:", boolean_variable_2)
+
+# Use the equal to operator (==) to compare two integers
+integer_variable_1 = 10
+integer_variable_2 = 10
+
+comparison_result = integer_variable_1 == integer_variable_2
+
+print("integer_variable_1 is equal to integer_variable_2: ", comparison_result)
+
+# Verify that boolean_variable_1 is not equal to boolean_variable_2
+another_comparison_result = boolean_variable_1 != boolean_variable_2
+
+print("boolean_variable_1 is not equal to boolean_variable_2: ", another_comparison_result)
+24
+python
+# Define some variables
+num1 = 5
+num2 = 10
+
+# Check if num1 is not equal to num2 using the != operator
+if num1 != num2:
+    print("num1 and num2 are not equal")
+else:
+    print("num1 and num2 are equal")
+
+# Use the True value in a conditional statement
+boolean_value = True
+
+if boolean_value:
+    print("The boolean value is True")
+else:
+    print("The boolean value is False")
+25
+python
+# Define two integer variables
+num1 = 5
+num2 = 7
+
+# Use the less than operator to compare num1 and num2
+is_num1_smaller = num1 < num2
+
+# Print the result of comparison using the boolean value True
+if is_num1_smaller:
+    print(f"{num1} is smaller than {num2}")
+else:
+    print(f"{num1} is not smaller than {num2}")
+    
+# Demonstrate that True can be used as a boolean value
+boolean_value = True
+print("The boolean value is: ", boolean_value)
+26
+python
+# Set two variables with numbers
+num1 = 10
+num2 = 5
+
+# Use the '>' comparison operator to check if num1 is greater than num2
+result = num1 > num2
+
+# Print out the result using the Boolean value True or False
+if result:
+    print(f"{num1} is greater than {num2}. Result: True")
+else:
+    print(f"{num1} is not greater than {num2}. Result: False")
+27
+python
+# Define some variables
+number = 5
+limit = 10
+
+# Check if number is less than or equal to limit
+if number <= limit:
+    print("Number is less than or equal to limit")
+    # Perform some actions if the condition is true
+else:
+    print("Number is greater than limit")
+    
+# Continue with other parts of your program
+28
+python
+# Define some variables
+num1 = 5
+num2 = 3
+
+# Use if statement with >= comparison
+if num1 >= num2:
+    print(f"{num1} is greater than or equal to {num2}")
+else:
+    print(f"{num1} is less than {num2}")
+
+# Perform the comparison
+print("Performing comparison: {} >= {}".format(num1, num2))
+
+# Output:
+# Performing comparison: 5 >= 3
+# 5 is greater than or equal to 3
+29
+python
+# Initialize an integer variable x with value 0
+x = 0
+
+# Use a for loop to count from 1 to 5
+for i in range(1, 6):
+    # Check if x is less than or equal to 5
+    if x <= 5:
+        # Set x to be the sum of its current value and 1
+        x += 1
+        # Print out the current value of x
+        print("x =", x)
+31
+python
+# Initialize a variable num with zero
+num = 0
+
+# Check if a condition is met (in this case, the condition is just an if statement that checks if num is less than 10)
+if num < 10:
+    # If the condition is true, set num to 10 times its current value using *= operator
+    num *= 10
+
+# Print the final value of num
+print(num)
+32
+python
+# Initial values of num1 and num2
+num1 = 10
+num2 = 5
+
+# Perform division operation and assign the result to num1
+num1 /= num2
+
+# Print the updated value of num1
+print("num1 after division by num2: ", num1)
+
+# Assign True to a variable flag if num1 is greater than num2, otherwise False
+flag = num1 > num2
+
+# Perform another division operation and update num1 with the result using /= operator
+num1 /= 2
+
+# Print the updated value of num1 and the value of flag
+print("num1 after second division: ", num1)
+print("Is num1 greater than num2?: ", flag)
+33
+python
+# Initialize some variables
+num1 = 10
+num2 = 4
+quota_remainder = True
+
+# Perform floor division and assign the quotient and remainder to num1 and num2 respectively
+num1, num2 = divmod(num1, num2)
+
+# Check if there is any remainder
+if num2 != 0:
+    quota_remainder = False
+
+# Demonstrate the use of floor division assignment (//=) on num1
+num1 //= 2
+
+print("Quotient: {}".format(num1))
+print("Remainder: {}".format(num2))
+print("Quota remainder: {}".format(quota_remainder))
+34
+python
+# Initialize the counter variable with a value of 0
+counter = 0
+
+# Use an infinite loop and include a condition to break the loop using 'True' and 'while'
+while True:
+    # Check if the counter is greater than 9 using the modulus operator '%'
+    if counter > 9:
+        # If the condition is true, then break out of the loop using 'break' statement
+        break
+
+    # Print the current value of the counter and its square
+    print("Counter: {0} \nSquare: {1}")
+    print(counter * counter)
+
+    # Increment the counter using modulus operator '%=' to ensure that it stays within the range of 0 to 9
+    counter += 1
+    counter %= 10
+35
+python
+def power(base, exponent):
+    """Raises base to the power of exponent."""
+    if exponent == 0:
+        return 1
+    elif exponent > 0:
+        result = base
+        # Use compound assignment operator **= for exponentional growth
+        result **= power(base, exponent - 1)
+        return result
+    else:
+        raise ValueError("Exponent must be non-negative.")
+
+# Test the function with some examples
+if __name__ == "__main__":
+    base = 2
+    exponent = 3
+
+    print(f"Base raised to power {exponent} is:")
+    print(power(base, exponent))
+
+    # Demonstrate compound assignment operator usage with True as a flag
+    flag = False
+    while not flag:
+        user_input = input("Enter a non-negative exponent (or 'q' to quit): ")
+        
+        if user_input == "q":
+            flag = True
+        else:
+            try:
+                exponent = int(user_input)
+                if exponent >= 0:
+                    print(f"Base raised to power {exponent} is:")
+                    print(power(base, exponent))
+                else:
+                    print("Invalid input. Enter a non-negative number.")
+            except ValueError:
+                print("Invalid input. Please enter an integer.")
+36
+python
+# Define two Boolean variables
+bool_var1 = True
+bool_var2 = False
+
+print("Boolean variable 1: ", bool_var1)
+print("Boolean variable 2: ", bool_var2)
+
+# Perform the bitwise AND operation
+result = bool_var1 & bool_var2
+
+print("\nResult of the bitwise AND operation: ", result)
+
+# Interpret the result
+if result:
+    print("The result is True")
+else:
+    print("The result is False")
+37
+python
+# Define some boolean variables
+variable1 = False
+variable2 = True
+
+print("Variable 1 is:", variable1)
+print("Variable 2 is:", variable2)
+
+# Perform bitwise OR operation on two boolean values using the '|' operator
+result = variable1 | variable2
+
+print("\nThe result of (variable1 | variable2) is:")
+print(result)
+
+# Interpreting the result with the help of truth table
+print("\nTruth Table:\n"
+      "|------|-------|--------------|\n"
+      "|  A   |  B   |   A | B    | A | B | A OR B |\n"
+      "|------|-------|--------------|-------|-----|----|------------------|\n"
+      "| False| False |False       | False | 0  | 0  |     False        |\n"
+      "| False|  True |False       |  True | 0  | 1  |       True        |\n"
+      "|  True| False |False       | False |1  | 0  |       True        |\n"
+      "|  True|  True |True       |  True |1  | 1  |       True        |\n")
+38
+python
+# Define two binary numbers as decimal values
+num1 = 60 # 0011 1110
+num2 = 13 # 0000 1101
+
+# Compare num1 and num2 using the boolean value True or False
+if num1 > num2:
+    greater = "First number ({}) is greater than the second number ({}).".format(num1, num2)
+elif num1 < num2:
+    greater = "Second number ({}) is greater than the first number ({}).".format(num2, num1)
+else:
+    greater = "Both numbers are equal."
+print(greater)
+
+# Perform bitwise XOR operation using ^ operator
+xor_result = num1 ^ num2
+print("Bitwise XOR of {} and {} is: {} (binary: {:08b})".format(num1, num2, xor_result, format(xor_result, '08b')))
+39
+python
+# Define a binary number as an integer
+binary_number = 60  # equates to 0011 1110 in binary
+
+print("Original Binary Number: ", bin(binary_number)[2:])
+
+# Using True boolean value
+boolean_value = True
+result = binary_number if boolean_value else 0
+print("\nResult with True boolean value: ", result, bin(result)[2:])
+
+# Using bitwise NOT (~) operator
+result = ~binary_number
+print("\nResult with bitwise NOT operator: ", result, bin(result)[2:])
+40
+python
+# Example using True
+def is_even(number):
+    return number % 2 == 0
+
+num = 10
+print("Number is even?: ", is_even(num)) # Number is even?:  True
+
+# Example using bitwise left shift operator (<<)
+def power_of_two(base, exponent):
+    result = 1
+    for _ in range(exponent):
+        result <<= 1
+        result *= base
+    return result
+
+print("2 raised to the power of 5: ", power_of_two(2, 5)) # 2 raised to the power of 5:  32
+41
+python
+# Demonstration of True and Boolean Operators in Python
+
+# Using True
+x = 10 > 5
+print(f"10 is greater than 5: {x}")
+
+# Shift operators (bitwise)
+a = 10 # Binary: 1010
+b = 5  # Binary: 0101
+
+# Right shift operator (>>)
+print("Right shift:")
+print(f"{bin(a)} >> 2 equals {bin(a >> 2)}")
+
+# Left shift operator (<<)
+print("Left shift:")
+print(f"{bin(b)} << 3 equals {bin(b << 3)}")
+42
+python
+# Define some variables
+num1 = 10
+num2 = 20
+
+# Use True directly in a conditional statement
+if True:
+    print("True is always true")
+
+# Use True as a condition in combination with and
+if num1 > 5 and num2 > 5:
+    print("Both numbers are greater than 5")
+else:
+    print("At least one number is not greater than 5")
+43
+python
+# Define some variables
+variable1 = True
+variable2 = False
+
+# Use or (logical OR) to check if variable1 is True or variable2 is True
+result = variable1 or variable2
+
+print("Variable 1 is:", variable1)
+print("Variable 2 is:", variable2)
+print("Result of or operation: ", result)
+
+# Let's see the behavior when both variables are False
+variable1 = False
+variable2 = False
+result = variable1 or variable2
+print("Result of or operation with both variables as False: ", result)
+
+# And let's see when one variable is True and another is False
+variable1 = True
+variable2 = False
+result = variable1 or variable2
+print("Result of or operation with one True and another False: ", result)
+44
+python
+# Define a boolean variable 'is_student'
+is_student = True
+
+if not is_student:
+    print("I am not a student.")
+else:
+    print("I am a student.")
+
+# Change the value of 'is_student' and observe the output
+is_student = False
+
+if not is_student:
+    print("I am not a student.")
+else:
+    print("I am a student.")
+45
+python
+# Define a list of numbers
+numbers = [1, 2, 3, 4, 5]
+
+# Set a variable with a boolean value
+is_even = True
+
+# Check if an element is present in the list and its value is even
+if is_even and 0 in (numbers[i] % 2 for i in range(len(numbers))):
+    print("An even number is present in the list")
+else:
+    print("No even number is present or 'is_even' is False")
+46
+python
+# Assign two integers to variables
+num1 = 5
+num2 = 5
+
+# Use 'is' for comparing two objects for identity
+# (check if they are the same object in memory)
+if num1 is num2:
+    print("Both variables hold the same object")
+else:
+    print("Variables hold different objects")
+
+# Use 'True' as a boolean value
+# (it represents true condition or state)
+bool_value = True
+if bool_value:
+    print("This is a true statement or condition")
+else:
+    print("This is a false statement or condition")
+47
+python
+# Boolean expression using True
+if (x > 0) is True:   # If x is greater than zero, this condition evaluates to True
+    print("x is positive")
+
+# Indentation block using :
+if x > 0:             # If x is greater than zero
+    print("x is positive")
+    print("Do something else")
+48
+python
+# A boolean variable using True
+is_sunny = True
+print(is_sunny) # Output: True
+
+# A list with two elements: temperature and is_sunny
+weather = [15.2, True]
+print(weather) # Output: [15.2, True]
+
+# Accessing the second element of the weather list using a dot
+is_sunny = weather[1]
+print("Is it sunny? ", is_sunny) # Output: Is it sunny?  True
+49
+python
+# A boolean expression is any expression that evaluates to True or False
+# We can assign these values to variables, or compare values using relational operators
+
+# Assigning Boolean values to variables
+boolean_value_1 = True
+boolean_value_2 = False
+
+print("Boolean value 1:", boolean_value_1)
+print("Boolean value 2:", boolean_value_2)
+
+# Comparison using relational operators
+number_1 = 10
+number_2 = 5
+
+greater_than = (number_1 > number_2)
+equal = (number_1 == number_2)
+
+print("Number 1 is greater than Number 2:", greater_than)
+print("Number 1 is equal to Number 2:", equal)
+50
+python
+# Boolean values: True and False
+bool_value_1 = True
+bool_value_2 = False
+
+print("Boolean value 1 is:", bool_value_1)
+print("Boolean value 2 is:", bool_value_2)
+
+# Boolean operators: AND (and), OR (or), and NOT (not)
+def boolean_expression():
+    condition_1 = True
+    condition_2 = False
+
+    # AND operator: Both conditions must be true
+    result_and = condition_1 and condition_2
+    print("Result of 'condition_1 and condition_2':", result_and)
+
+    # OR operator: At least one condition must be true
+    result_or = condition_1 or condition_2
+    print("Result of 'condition_1 or condition_2':", result_or)
+
+    # NOT operator: Negates the given boolean value
+    result_not = not bool_value_1
+    print("Result of 'not bool_value_1' is:", result_not)
+
+boolean_expression()
+51
+python
+# Initialize a boolean variable 'is_student_eligible' with value True
+is_student_eligible = True
+
+# Create an empty list 'student_list'
+student_list = []
+
+print("Is student eligible initially: ", is_student_eligible)
+
+# Add some students to the list and check eligibility
+if len(student_list) > 0:
+    print("Students are present. Student eligibility: ", is_student_eligible)
+    student_list.append("John")
+    student_list.append("Mike")
+    print("Students after adding two students: ", student_list)
+    if len(student_list) > 2:
+        print("With more than 2 students, student eligibility becomes False: ")
+        is_student_eligible = False
+else:
+    print("No students present. Student eligibility remains as:", is_student_eligible)
+
+# Remove some students and check eligibility
+if len(student_list) > 0:
+    student_list.pop()
+    student_list.pop()
+    print("Students after removing two students: ", student_list)
+    if len(student_list) == 0:
+        print("No more students present. Student eligibility remains as:", is_student_eligible)
+    else:
+        print("With fewer students, student eligibility might change based on the criteria.")
+else:
+    print("No students present. Student eligibility remains as:", is_student_eligible)
+52
+python
+# Defining a boolean variable named 'is_student' and assigning it the value True
+is_student = True
+
+# Printing the value of the boolean variable using the print() function
+print("Is student: ", is_student)
+
+# Creating an empty dictionary named 'my_dict'
+my_dict = {}
+
+# Adding key-value pairs to the dictionary using the {'key': value} syntax
+my_dict = {
+    "name": "John Doe",
+    "age": 25,
+    "city": "New York"
+}
+
+# Printing the entire dictionary using the print() function
+print("My Dictionary: ", my_dict)
+
+# Checking if a key exists in the dictionary and printing the result using the 'in' keyword
+key_exists = "name" in my_dict
+print("Key 'name' exists: ", key_exists)
+53
+python
+# Define a variable with a number value
+number = 5
+
+# Use the if : statement to check the condition
+if number > 0:
+    print("The number is positive.")
+elif number == 0:
+    print("The number is zero.")
+else:
+    print("The number is negative.")
+
+# Demonstrate the usage of True
+boolean_value = True
+print("Boolean value is:", boolean_value)
+54
+python
+# Boolean value 'True'
+x = 10
+y = 20
+z = x > y
+print("Is x greater than y? ", z)
+
+# Semicolon (;) for multiple statements in one line
+a = 5
+b = 10
+c = a + 1; d = b - 1
+print("Value of c: ", c)
+print("Value of d: ", d)
+55
+python
+# Boolean AND operation using 'and'
+def check_age(person):
+    return person.age > 18 and person.age < 65
+
+class Person:
+    def __init__(self, name, age):
+        self.name = name
+        self.age = age
+
+person1 = Person("John Doe", 20)
+person2 = Person("Jane Doe", 35)
+
+print(check_age(person1))  # False
+print(check_age(person2))  # True
+
+# Using 'as' for alias in Python
+def download_file(url, save_path):
+    response = requests.get(url)
+    with open(save_path, "wb") as file:
+        file.write(response.content)
+
+download_file("https://example.com/test.txt", "test.txt")
+56
+python
+# A simple function to check if a number is within a given range
+def is_in_range(number, start, end):
+    # Check if the number is greater than or equal to the start and less than or equal to the end
+    return start <= number <= end
+
+# Function to perform some calculations and check conditions using and operator and assert statement
+def calculate_and_check():
+    a = 5
+    b = 3
+    c = a + b
+    result = c * 2
+
+    # Check if the condition is true, i.e., a and b are positive numbers and c is even
+    if a > 0 and b > 0 and c % 2 == 0:
+        assert result > 10, f"Error: The result ({result}) should be greater than 10"
+        print("All conditions met!")
+        print(f"The result is: {result}")
+    else:
+        print("One or more conditions are not met.")
+
+# Test the function
+calculate_and_check()
+57
+python
+import asyncio
+import aiohttp
+
+async def fetch(url):
+    """Asynchronously fetches a web page."""
+    async with aiohttp.Client() as client:
+        async with client.get(url) as response:
+            if response.status in range(200, 300):
+                return await response.text()
+            else:
+                print(f'Error fetching {url}: {response.status}')
+                return None
+
+async def main():
+    urls = ['https://www.google.com', 'https://www.example.com', 'https://non-existent-url.com']
+
+    tasks = [fetch(url) for url in urls]
+    results = await asyncio.gather(*tasks)
+
+    # Check all fetches were successful and print results
+    if all(result is not None for result in results):
+        print('All fetch operations completed successfully!')
+        print('Results:')
+        for i, url in enumerate(urls):
+            print(f'{i + 1}. {url}: {results[i]}')
+    else:
+        print('Error: Some fetch operations failed.')
+
+if __name__ == '__main__':
+    asyncio.run(main())
+58
+python
+import asyncio
+
+async def task_1():
+    print("Task 1 started")
+    await asyncio.sleep(1)
+    print("Task 1 completed")
+    return "Result from task 1"
+
+async def task_2():
+    print("Task 2 started")
+    await asyncio.sleep(2)
+    print("Task 2 completed")
+    return "Result from task 2"
+
+async def main():
+    result_task_1 = await task_1()
+    result_task_2 = await task_2()
+
+    if result_task_1 == "Expected result from task 1" and result_task_2 == "Expected result from task 2":
+        print("Both tasks completed successfully")
+    else:
+        print("An error occurred, as one or both of the tasks did not complete successfully")
+
+if __name__ == "__main__":
+    asyncio.run(main())
+59
+python
+# A simple program to find the first occurrence of an even number in a given list using 'and' operator and 'break' statement
+
+def find_even_number(numbers):
+    for i, num in enumerate(numbers):
+        if num % 2 == 0:  # check if number is even
+            print("First even number found at index:", i)
+            break
+        if i + 1 == len(numbers):
+            print("No even numbers were found.")
+            return
+
+if __name__ == "__main__":
+    numbers = [1, 3, 5, 6, 8]
+    find_even_number(numbers)
+60
+python
+# Example 1 - Using and logical operator
+def is_valid_password(password):
+    if len(password) >= 8 and password.isalnum():
+        return True
+    else:
+        return False
+
+print(is_valid_password("Password123!")) # Output: True
+print(is_valid_password("abcd1234"))     # Output: True
+print(is_valid_password("p@ssw0rd"))    # Output: True
+print(is_valid_password("shortpass"))   # Output: False
+61
+python
+# This is a simple Python program that uses 'and' operator and 'continue' statement
+
+# Function to check if a number is even or prime
+def check_even_or_prime(num):
+    # Check if number is even using 'and' operator
+    if num % 2 == 0 and num > 1:
+        print(f"{num} is an even number.")
+        return
+    
+    # Start checking for prime number from 2 up to the square root of the number
+    for i in range(2, int(num ** 0.5) + 1):
+        if num % i == 0:
+            print(f"{num} is not a prime number.")
+            continue
+    
+    # If number passes all the checks, then it is an odd prime number
+    if num > 1:
+        print(f"{num} is an odd prime number.")
+
+# Testing the function with some numbers
+check_even_or_prime(5)  # Output: 5 is an odd prime number.
+check_even_or_prime(6)  # Output: 6 is an even number.
+check_even_or_prime(13) # Output: 13 is an odd prime number.
+62
+python
+# Example using 'and'
+def is_even(n):
+    """Check if number is even."""
+    return n % 2 == 0
+
+def greater_than_ten(n):
+    """Check if number is greater than ten."""
+    return n > 10
+
+number = int(input("Enter a number: "))
+
+if is_even(number) and greater_than_ten(number):
+    print("The number is even and greater than ten.")
+else:
+    print("The number is either not even or not greater than ten.")
+63
+python
+# Define a dictionary with some keys and values
+my_dict = {1: "one", 2: "two", 3: "three", 4: "four"}
+
+# Print the initial state of the dictionary
+print("Initial dictionary:", my_dict)
+
+# Use 'and' operator to combine two conditions in a loop
+for key in my_dict:
+    if key % 2 == 0 and my_dict[key].isdigit():
+        print(f"The key {key} has even index and value is digit.")
+
+# Use 'del' keyword to delete an item from the dictionary by key
+my_dict = {1: "one", 2: "two", 3: "three", 4: "four"}
+key_to_delete = 3
+if key_to_delete in my_dict:
+    del my_dict[key_to_delete]
+
+# Print the updated state of the dictionary
+print("Updated dictionary:", my_dict)
+64
+python
+# Define variables
+age = 18
+is_student = True
+
+# Decision making using 'and' and 'elif'
+if age >= 18 and is_student:
+    print("This person is an adult student.")
+elif age >= 18:
+    print("This person is an adult.")
+else:
+    print("This person is a minor.")
+65
+python
+# Define some variables
+num1 = 5
+num2 = 0
+
+# Use 'and' to check if both conditions are true, followed by an 'else' block for when they aren't
+if num1 > 0 and num2 > 0:
+    print("Both numbers are positive.")
+else:
+    if num1 > 0:
+        print("First number is positive, but second one isn't.")
+    else:
+        print("Both numbers are non-positive.")
+66
+python
+try:
+    num1 = int(input("Enter first number: "))
+    num2 = int(input("Enter second number: "))
+
+    # Perform division, checking for zero as denominator with 'and'
+    result = num1 / num2
+    if num2 != 0:  # Alternatively, this condition can be put inside try block
+        print(f"Result: {result}")
+    else:
+        print("Error! Division by zero is not allowed.")
+
+except ValueError as ve:
+    print(f"Error occurred: {ve}")
+67
+python
+def divide(num1, num2):
+    try:
+        result = num1 / num2
+        print("Result: {0}".format(result))
+
+        # Check if number is even
+        if num1 % 2 == 0:
+            print("Number 1 is even.")
+        else:
+            print("Number 1 is odd.")
+    except ZeroDivisionError:
+        print("Error! Division by zero is not allowed.")
+    finally:
+        print("Executing finally block.")
+
+if __name__ == "__main__":
+    num1 = 6
+    num2 = 3
+    divide(num1, num2)
+
+    num1 = 5
+    num2 = 0
+    try:
+        divide(num1, num2)
+    except Exception as e:
+        print("Caught an exception! Message: {0}".format(e))
+68
+python
+def is_even(number):
+    """ Returns True if given number is even, False otherwise """
+    return number % 2 == 0
+
+def print_even_numbers(start, end):
+    """ Prints all even numbers between start and end (inclusive)"""
+    for i in range(start, end + 1):
+        if is_even(i) and i > 0: # Filter out negative numbers and zero
+            print(i)
+
+if __name__ == "__main__":
+    lower_limit = int(input("Enter starting number: "))
+    upper_limit = int(input("Enter ending number: "))
+    
+    if upper_limit < lower_limit: # Check if the ending number is greater than the starting number
+        print("Invalid input! Please provide a valid range.")
+    else:
+        print_even_numbers(lower_limit, upper_limit)
+69
+python
+# Example 1: Checking two conditions using 'and'
+age = 18
+is_student = True
+
+if age >= 18 and is_student:
+    print("This person can vote and is a student.")
+else:
+    print("This person cannot vote or is not a student.")
+70
+python
+# Function with a local variable
+def check_numbers(a, b):
+    # Initialize local variable 'is_both_positive' to False
+    is_both_positive = False
+    
+    # Check if both numbers are positive using 'and' keyword
+    if a > 0 and b > 0:
+        is_both_positive = True
+    
+    return is_both_positive
+
+# Global variable
+x = -5
+y = 3
+
+# Function to update global variable
+def increment_global():
+    global x, y
+    x += 1
+    y += 1
+
+# Check if numbers are positive
+if check_numbers(x, y):
+    print("Both numbers are positive")
+else:
+    print("At least one number is not positive")
+
+# Update global variable
+increment_global()
+increment_global()
+
+print("Updated values of x and y:", x, y)
+71
+python
+# Define two variables with boolean values
+num1 = 10
+num2 = 20
+is_even_num1 = num1 % 2 == 0
+is_even_num2 = num2 % 2 == 0
+
+# Use 'and' to check if both conditions are true
+if (is_even_num1 and num1 < 20) or (is_even_num2 and num2 > 30):
+    print("One of the numbers is even and within certain range")
+else:
+    print("Neither number is even or not in the given range")
+72
+python
+# This is a simple Python script that demonstrates the usage of 'and' operator and 'import' statement
+
+# Importing the math module for mathematical operations
+import math
+
+# Define a function 'is_positive_number' that checks if given number is positive
+def is_positive_number(n):
+    return n > 0
+
+# Define another function 'is_even_number' that checks if given number is even
+def is_even_number(n):
+    return n % 2 == 0
+
+# Function to get user input and process the conditions
+def main():
+    try:
+        num = int(input("Enter a number: "))
+
+        # Using 'and' operator for multiple conditions in if statement
+        if is_positive_number(num) and is_even_number(num):
+            print(f"The number {num} is positive and even.")
+            
+        elif is_positive_number(num):
+            print(f"The number {num} is positive.")
+            
+        else:
+            print("Invalid input. Please enter a valid positive or negative integer.")
+
+    except ValueError as ve:
+        print(f"Error: {ve}")
+
+if __name__ == "__main__":
+    main()
+73
+python
+# Define some variables
+num1 = 5
+num2 = 3
+
+# Use the 'and' operator to check if two conditions are both true
+if (num1 > 0) and (num2 > 0):
+    print("Both numbers are positive")
+else:
+    print("One or both numbers are non-positive")
+74
+python
+# Define some variables
+x = 5
+y = 10
+z = x
+
+# Use the 'and' operator
+if x > 0 and y < 20:
+    print("x is positive and y is less than 20")
+
+# Use the 'is' operator to compare objects (not values!) for identity
+if z is x:
+    print("x and z refer to the same object")
+else:
+    print("x and z do not refer to the same object")
+75
+python
+# Sample data
+numbers = [1, 2, 3, 4, 5]
+
+# Lambda function to check if a number is even
+is_even = lambda num: num % 2 == 0
+
+# Filter the list using and with the lambda function
+filtered_list = list(filter(lambda num: is_even(num) and num > 2, numbers))
+
+print("Numbers greater than 2 and even:")
+for num in filtered_list:
+    print(num)
+76
+python
+def outer_function(x):
+    def inner_function():
+        if x > 0 and x < 10: # Both conditions must be true for the print statement to execute
+            print("x is in the range of 1-9.")
+        
+    inner_function()
+
+outer_function(5) # Output: x is in the range of 1-9.
+77
+python
+# Define some variables
+a = True
+b = False
+
+# Use the and operator
+result1 = a and b
+print("a and b:", result1)
+
+# Interpretation: When both conditions (a and b) are true, then the and expression returns true; otherwise, it returns false.
+
+# Use the not operator
+result2 = not a
+print("not a:", result2)
+
+# Interpretation: The not operator negates (inverts) the given boolean value. So, if a is True, then not a is False; and vice versa.
+
+# Combine and, not, and multiple conditions using parentheses for clarity
+result3 = (not a) and b or a
+print("(not a) and b or a:", result3)
+
+# Interpretation: This expression evaluates to True only when a is False and b is true. Otherwise it evaluates to False.
+78
+python
+# Define some variables
+num1 = 5
+num2 = 10
+is_even_num1 = num1 % 2 == 0
+is_even_num2 = num2 % 2 == 0
+
+# Use and operator to check if both numbers are even
+if is_even_num1 and is_even_num2:
+    print(f"Both {num1} and {num2} are even numbers.")
+
+# Use or operator to check if at least one of the numbers is even
+elif is_even_num1 or is_even_num2:
+    print(f"Either {num1} or {num2}, or both, are even numbers.")
+
+# Check if neither number is even
+else:
+    print(f"Both {num1} and {num2} are odd numbers.")
+79
+python
+# Function with no implementation using pass keyword
+def function_with_no_implementation():
+    pass
+
+# Function with condition using and keyword
+def check_age(age):
+    can_vote = age >= 18
+    can_drive = age >= 16
+    return can_vote and can_drive
+
+# Main program
+if __name__ == "__main__":
+    age = int(input("Enter your age: "))
+    if check_age(age):
+        print("You can both vote and drive.")
+    else:
+        print("You can't vote or drive, or you can only vote.")
+
+# Calling the function with no implementation
+function_with_no_implementation()
+80
+python
+def divide(x, y):
+    """Divide two numbers"""
+    if y == 0:
+        # Raise ZeroDivisionError exception
+        raise ValueError("Cannot divide by zero")
+    result = x / y
+    return result
+
+def main():
+    num1 = int(input("Enter the first number: "))
+    num2 = int(input("Enter the second number: "))
+
+    # Check if both numbers are positive
+    if num1 > 0 and num2 > 0:
+        try:
+            quotient = divide(num1, num2)
+            print(f"The quotient of {num1} and {num2} is: {quotient}")
+        except Exception as e:
+            # Print the error message if an exception occurs
+            print(e)
+    else:
+        print("Both numbers should be positive")
+
+if __name__ == "__main__":
+    main()
+81
+python
+def check_age(age):
+ """
+ This function checks if a given age is valid (above 18)
+ """
+
+ # First, we check if the input 'age' is an integer
+ if isinstance(age, int):
+ # Then, we use the logical AND operator 'and' to check if the age is above 18
+ if age > 18:
+ return True
+ else:
+ return False
+ else:
+ print("Error: The input must be an integer.")
+ return None
+82
+python
+def divide(x, y):
+    """Divides x by y"""
+    try:
+        result = x / y
+    except ZeroDivisionError:
+        print("Cannot divide by zero")
+        return None
+    else:
+        return result
+
+def main():
+    num1 = int(input("Enter the first number: "))
+    num2 = int(input("Enter the second number: "))
+
+    if num2 != 0:
+        print(f"{num1} divided by {num2} is equal to {divide(num1, num2)}")
+    else:
+        print("Error: Division by zero")
+
+if __name__ == "__main__":
+    main()
+83
+python
+# Variables definition
+num = 0
+limit = 10
+
+# Checking if a number is greater than zero and less than a limit using 'and'
+print("Using 'and':")
+
+while num != limit:
+    if num > 0 and num < limit:
+        print(f"Number: {num}, It should be increased.")
+        num += 1
+    else:
+        print(f"Number: {num}, It's either greater than or equal to the limit.")
+        break
+
+print(f"\nThe number is now: {num} and it's equal to the limit.")
+
+# Using 'and' in a while condition
+print("Using 'and' in a while condition:")
+
+num = 0
+
+while num != limit and num >= 0:
+    print(f"Number: {num}")
+    if num == limit:
+        break
+    num += 1
+84
+python
+numbers = [1, 2, 3, 4, 5, 6]
+
+# Using 'and' for logical operations
+found_element = False
+for num in numbers:
+    if num < 0 and num % 2 == 0: # condition1 (less than zero) and condition2 (even number)
+        found_element = True
+        print(f"Found an element {num} which is less than 0 and even.")
+        break
+if not found_element:
+    print("No such element exists in the list.")
+85
+python
+def filter_even_numbers(numbers):
+    """Generator function to filter out even numbers between 2 and 5"""
+    for num in numbers:
+        if num > 1 and num % 2 == 0:  # Filter condition using 'and' operator
+            yield num
+
+# Test the generator function
+numbers = [1, 2, 3, 4, 5, 6, 7, 8]
+filtered_numbers = filter_even_numbers(numbers)
+
+print("Filtered even numbers:")
+for num in filtered_numbers:
+    print(num)
+86
+python
+# Define a function that takes an integer as an argument and returns its absolute value using abs() function
+def get_absolute_value(num):
+    return abs(num)
+
+# Define a function that checks if a number is positive or zero, using and keyword
+def is_positive(num):
+    return (num > 0) and (num is not None)
+
+# Take user input as a number
+number = int(input("Enter a number: "))
+
+# Check if the number is positive using is_positive function and print the result
+if is_positive(number):
+    print(f"The given number {number} is positive.")
+else:
+    # If the number is not positive, get its absolute value using get_absolute_value function and print the result
+    print(f"The given number {number} is not positive. Its absolute value is:")
+    print(get_absolute_value(number))
+87
+python
+# A list of boolean values
+boolean_values = [True, False, True, False, True]
+
+# Using 'and' to check multiple conditions
+if condition1 and condition2:
+    print("Both condition1 and condition2 are True")
+
+# Applying 'and' for all elements in a list
+if all(value is True for value in boolean_values):
+    print("All boolean values in the list are True")
+else:
+    print("There is at least one False value in the list")
+88
+python
+# A list of some boolean values
+boolean_values = [True, False, True, False, True]
+
+# Using 'and' operator
+print("Using 'and' operator")
+if True and False:
+    print("This block will not be executed as both conditions are not true.")
+else:
+    print("Both conditions were checked, but the result is false.")
+
+# Checking all elements in a list are True using 'any' operator
+print("\nUsing 'any' operator")
+if any(condition for condition in boolean_values if not condition):
+    print("At least one condition was False.")
+else:
+    print("All conditions were true.")
+
+# Checking all elements in a list are True using 'and' operator
+print("\nUsing 'and' operator (for checking all elements)")
+if all(condition for condition in boolean_values):
+    print("All conditions were true.")
+else:
+    print("At least one condition was False.")
+89
+python
+# Boolean AND operation
+x = True
+y = False
+z = x and y
+print("x =", x)
+print("y =", y)
+print("x and y =", z)
+
+# Printing ASCII value of characters
+char1 = 'A'
+char2 = 'a'
+ascii_val1 = ord(char1)
+ascii_val2 = ord(char2)
+print("ASCII value of character {} is: {}".format(char1, ascii_val1))
+print("ASCII value of character {} is: {}".format(char2, ascii_val2))
+90
+python
+def count_bits(num):
+    """Return the number of bits set to 1 in the given integer."""
+    return sum([int(bit) for bit in bin(abs(num))[2:].zfill(8)[::-1]])
+
+def has_three_bits_set(x, y):
+    """Check if two numbers have exactly three bits set to 1."""
+    return count_bits(x) == 3 and count_bits(y) == 3 and x != y
+
+if __name__ == "__main__":
+    num1 = int(input("Enter the first number: "))
+    num2 = int(input("Enter the second number: "))
+
+    if has_three_bits_set(num1, num2):
+        print(f"Both numbers have exactly three bits set to 1.")
+        print(f"Binary representation of {num1}: {bin(num1)[2:]}")
+        print(f"Binary representation of {num2}: {bin(num2)[2:]}")
+    else:
+        print("The numbers do not meet the criteria.")
+91
+python
+# Define some variables
+x = 10
+y = 20
+z = False
+
+# Using and operator to check if two conditions are true
+if x > 5 and y < 30:
+    print("Condition 1 is true")
+
+# Using bool function to check if a condition is true or false
+if bool(x > 5) and bool(y < 30):
+    print("Both conditions are true")
+
+# Or check if at least one of the conditions is true
+if bool(x > 5) or bool(z):
+    print("At least one condition is true")
+92
+python
+# Define a binary string
+binary_string = b'1101011110110101'
+
+# Create a bytearray from the binary string
+byte_array = bytearray(binary_string)
+
+# Manipulate the bytearray using bitwise 'and' operator with another bytearray
+mask = bytearray([0x55, 0xAA])  # Define a mask for demonstration purposes
+result = byte_array & mask
+
+# Print out the original bytearray, mask and result for comparison
+print("Original Bytearray : {0}".format(byte_array))
+print("Mask               : {0}".format(mask))
+print("Result             : {0}".format(result))
+93
+python
+# Define two bytes variables
+byte_var1 = b'Hello'  # This is a string of bytes, equivalent to byte array [72, 101, 108, 108, 111]
+byte_var2 = b'World'   # This is another string of bytes, equivalent to byte array [87, 111, 114, 108, 100]
+
+# Define a boolean variable using and operator
+boolean_var = (byte_var1 == b'Hello') and (byte_var2 == b'World')
+
+print("Byte variable 1: ", byte_var1)
+print("Byte variable 2: ", byte_var2)
+print("Boolean variable: ", boolean_var)
+
+# Comparing bytes using '==' operator
+if byte_var1 == byte_var2:
+    print("Both variables have the same content.")
+else:
+    print("Variables have different content.")
+
+# Bitwise and operation between two bytes
+byte_and = byte_var1 & byte_var2
+print("Bitwise AND of both bytes: ", byte_and)
+94
+python
+# Define some functions
+def function1(x):
+    return x > 0
+
+def function2(x):
+    return x % 2 == 0
+
+def composite_function(x):
+    return x > 0 and x % 2 == 0
+
+# Check if a function is callable
+print("Is function1 callable? ", callable(function1)) # True
+print("Is composite_function callable? ", callable(composite_function)) # True
+
+# Use and operator to combine the conditions
+def check_even_positive(x):
+    return x > 0 and x % 2 == 0
+
+if check_even_positive(10):
+    print("10 is even and positive")
+
+if check_even_positive(-5):
+    print("-5 is even and positive")
+95
+python
+# Define some variables
+num = 10
+is_even = num % 2 == 0
+is_positive = num > 0
+
+print("Number is even:", is_even)
+print("Number is positive:", is_positive)
+
+# Use and operator to check if number is even and positive
+if is_even and is_positive:
+    print(f"The number {num} is even and positive")
+else:
+    print(f"The number {num} is not even or not positive")
+
+# Use chr() function to print character at index 0 of ASCII string
+character = chr(65)
+print("Character represented by ASCII code 65:", character)
+96
+python
+class ComplexNumber:
+    def __init__(self, real=0.0, imaginary=0.0):
+        self.real = real
+        self.imaginary = imaginary
+
+    @classmethod
+    def from_polar_coordinates(cls, r, theta):
+        return cls(r * math.cos(theta), r * math.sin(theta))
+
+    def __add__(self, other):
+        result = ComplexNumber(
+            self.real + other.real,
+            self.imaginary + other.imaginary
+        )
+        return result
+
+    def conjugate(self):
+        return ComplexNumber(self.real, -self.imaginary)
+
+if __name__ == "__main__":
+    num1 = ComplexNumber(1.0, 2.0)
+    num2 = ComplexNumber(3.0, 4.0)
+
+    print("num1: ", num1)
+    print("num2: ", num2)
+
+    print("sum: ", num1 + num2)
+    print("difference: ", num1 - num2)
+
+    num3 = ComplexNumber.from_polar_coordinates(5.0, math.pi/4)
+    print("num3 from polar: ", num3)
+    print("conjugate of num1: ", num1.conjugate())
+97
+python
+# Function that checks if a number is even and positive
+def is_even_positive(num):
+    return num > 0 and num % 2 == 0
+
+# Test some numbers
+numbers = [1, -3, 4, 7]
+for num in numbers:
+    print(f"Number {num} is even and positive: {'True' if is_even_positive(num) else 'False'}")
+98
+python
+# Demonstrating the usage of 'and' operator
+def is_positive(num):
+    return num > 0
+
+def is_even(num):
+    return num % 2 == 0
+
+number = int(input("Enter a number: "))
+if is_positive(number) and is_even(number):
+    print(f"The number {number} is positive and even.")
+else:
+    print(f"The number {number} is not positive and/or not even.")
+
+# Demonstrating the usage of 'complex' data type
+import cmath
+
+real_part = 3.0
+imaginary_part = 2.0
+complex_num = complex(real_part, imaginary_part)
+
+print("Real part:", real_part)
+print("Imaginary part:", imaginary_part)
+print("Complex number:", complex_num)
+print("Conjugate of the complex number:", complex_num.conjugate())
+print("Modulus (magnitude) of the complex number:", abs(complex_num))
+print("Phase angle of the complex number:", cmath.phase(complex_num))
+99
+python
+class MyClass:
+    def __init__(self, a, b):
+        self.a = a
+        self.b = b
+        self.c = 0
+
+    def enable_c(self):
+        self.c = 1
+
+    def disable_c(self):
+        delattr(self, 'c')
+
+if __name__ == "__main__":
+    obj = MyClass(1, 2)
+    print("Initial state: a={}, b={}, c={}".format(obj.a, obj.b, hasattr(obj, 'c')))
+
+    obj.enable_c()
+    print("After enabling c: a={}, b={}, c={}".format(obj.a, obj.b, hasattr(obj, 'c')))
+
+    obj.disable_c()
+    print("After disabling c: a={}, b={}, c={}".format(obj.a, obj.b, hasattr(obj, 'c')))
+
+# Output:
+# Initial state: a=1, b=2, c=False
+# After enabling c: a=1, b=2, c=True
+# After disabling c: a=1, b=2, c=False
+100
+python
+# Create a dictionary with some key-value pairs
+my_dict = {
+    "name": "John Doe",
+    "age": 30,
+    "is_student": False
+}
+
+# Use and operator to check if 'name' is 'John Doe' and 'age' is greater than 25
+if my_dict["name"] == "John Doe" and my_dict["age"] > 25:
+    print("Condition met!")
+else:
+    print("Condition not met.")
+
+# Now let's check if the name is 'John Doe' and age is greater than or equal to 30 (or we can use 'is_student' as a condition)
+if my_dict["name"] == "John Doe" and (my_dict["age"] >= 30 or not my_dict["is_student"]):
+    print("Condition met!")
+else:
+    print("Condition not met.")
+101
+python
+# Define a dictionary with some keys and values
+my_dict = {
+    'name': 'John Doe',
+    'age': 30,
+    'city': 'New York'
+}
+
+# Use an if statement with the 'and' keyword to check if a condition is met
+if my_dict and 'name' in my_dict:
+    print("The name is:", my_dict['name'])
+else:
+    print("Dictionary is empty or 'name' key is not present.")
+
+# Use the dir() function to list all attributes and methods of an object or built-in functions
+print("\nListing all attributes and methods of the dictionary object using dir():")
+print(dir(my_dict))
+102
+python
+# Define two variables
+num1 = 10
+num2 = 3
+
+# Use the and operator to check if num1 is greater than 5 and num2 is even
+if num1 > 5 and num2 % 2 == 0:
+    print(f"{num1} is greater than 5 and {num2} is even")
+else:
+    print("Either num1 is less than or equal to 5 or num2 is odd")
+
+# Use the divmod() function to find quotient and remainder of division of num1 by num2
+quotient, remainder = divmod(num1, num2)
+
+print(f"The quotient of {num1} divided by {num2} is {quotient} and the remainder is {remainder}")
+103
+python
+# List of tuples representing student data
+students_data = [("John Doe", 20, True), ("Jane Smith", 18, False), ("Mike Johnson", 22, True)]
+
+# Function to check eligibility (age > 18 and is_student_active)
+def check_eligibility(student):
+    name, age, is_student_active = student
+    return age > 18 and is_student_active
+
+# Filter students based on given condition using filter and map along with enumerate
+filtered_students = list(filter(check_eligibility, enumerate(students_data, 1)))
+
+# print the name and index of eligible students
+for index, student in enumerate(filtered_students):
+    name, _ = student
+    print(f"Student {index} is named {name}")
+104
+python
+# This program checks if two numbers are within a certain range using and operator
+def is_within_range(num, start, end):
+ """
+ :param num: The number to check.
+ :param start: The minimum allowed value.
+ :param end: The maximum allowed value.
+ :return: True if the number is within the given range, False otherwise.
+ """
+ return start <= num <= end
+
+# This program evaluates a simple arithmetic expression using eval() function
+def calculate(expression):
+ """
+ :param expression: A string representing an arithmetic expression.
+ :return: The result of the evaluation.
+ """
+ result = eval(expression)
+ print(f"Result: {result}")
+ return result
+
+if __name__ == "__main__":
+ # Check if a number is within the range (10, 20) using and operator
+ num = int(input("Enter a number: "))
+ if is_within_range(num, 10, 20):
+ print("The number is within the range.")
+ else:
+ print("The number is not within the range.")
+
+ # Evaluate an arithmetic expression using eval() function
+ expression = input("Enter an arithmetic expression: ")
+ calculate(expression)
+105
+python
+# This program checks if both a number is even and greater than 5
+number = 10
+is_even = number % 2 == 0
+is_greater = number > 5
+
+if is_even and is_greater:
+    print("The number is even and greater than 5.")
+else:
+    print("The number is not even or not greater than 5.")
+106
+python
+# Define the list of numbers with their flags (odd or even)
+numbers = [(2, True), (3, False), (5, True), (1, False), (6, True)]
+
+# Filter out the numbers that are odd and have an even flag
+filtered_numbers = filter(lambda x: x[0] % 2 == 0 and x[1], numbers)
+
+# Convert the result to a list since filter returns an iterator
+filtered_numbers = list(filtered_numbers)
+
+print("Filtered Numbers:")
+for number in filtered_numbers:
+    print(number[0])
+
+# And operator demonstration without using filter
+even_odd, is_even = 7, True
+if even_odd % 2 == 0 and is_even:
+    print("7 is an even number")
+else:
+    print("7 is an odd number")
+107
+python
+# Example 1: Using 'and' operator for Boolean expressions
+def is_valid(age, height):
+    # Check if age is greater than 18 and height is less than 5.5 (in meters)
+    return age > 18 and height < 0.5
+
+age = 25
+height = 1.65
+if is_valid(age, height):
+    print("Valid")
+else:
+    print("Invalid")
+
+# Example 2: Using 'and' operator with floating-point numbers
+def is_number_close_to(num, target, tolerance=0.01):
+    return abs(num - target) < tolerance
+
+num = 3.14159
+target = 3.14
+if is_number_close_to(num, target):
+    print("Number is close to the target")
+else:
+    print("Number is not close to the target")
+108
+python
+# Define some variables
+num1 = 5
+num2 = 10
+is_even_num1 = num1 % 2 == 0
+is_even_num2 = num2 % 2 == 0
+
+# Use and for conditional expressions
+if is_even_num1 and is_even_num2:
+    print("Both numbers are even.")
+else:
+    print("One or both numbers are odd.")
+
+# Use format for string formatting
+name = "John Doe"
+age = 30
+print("Name: {0} \nAge: {1}".format(name, age))
+109
+python
+# Define two sets
+set1 = {1, 2, 3, 4, 5}
+set2 = {3, 4, 5, 6, 7}
+
+# Perform set operations using 'and' keyword
+# The '&' operator is equivalent to using 'and' for sets in Python
+result1 = set1 & set2
+print("Set intersection using 'and': ", result1)
+
+# Create a frozenset from one of the sets
+frozen_set = frozenset(set1)
+
+# Compare the original set and the frozen set using 'and' keyword
+result2 = frozen_set & set2
+print("Set intersection using 'and' on frozen set: ", result2)
+
+# Check if two sets are identical (using '==') and print result
+if set1 == set2:
+    print("Both sets are identical.")
+else:
+    print("Both sets are different.")
+110
+python
+class MyClass:
+    def __init__(self, a, b):
+        self.a = a
+        self.b = b
+        self.c = None
+
+    def method_1(self):
+        return self.a + self.b
+
+    def method_2(self):
+        self.c = 42
+
+def main():
+    obj = MyClass(3, 5)
+    
+    # Check if 'obj' has both 'method_1' and 'method_2' attributes using getattr()
+    if not (hasattr(obj, 'method_1') and hasattr(obj, 'method_2')):
+        print("Error: Object does not have method_1 and method_2.")
+        return
+    
+    # Call methods using getattr()
+    print("Result of method_1():", getattr(obj, 'method_1')())
+    getattr(obj, 'method_2')()
+    print("Value of c after method_2() call:", obj.c)
+
+if __name__ == "__main__":
+    main()
+111
+python
+# Define some global variables
+x = 0
+y = 0
+
+def my_function():
+    global x, y  # Declare x and y as global variables in this function
+    x = 10
+    y = 20
+
+if x < 5 and y > 10:  # Logical AND operation between two conditions
+    print("Condition is met")
+else:
+    print("Condition is not met")
+
+my_function()  # Change the values of global variables x and y
+
+if x < 5 and y > 10:  # Check conditions after changing the global variables
+    print("New condition is met")
+else:
+    print("New condition is not met")
+
+print("Global variables' values: x =", x, "and y =", y)
+112
+python
+# Define a simple class MyClass
+class MyClass:
+    def __init__(self, value):
+        self.value = value
+
+# Create an instance of MyClass
+my_instance = MyClass(5)
+
+# Check if the instance has an attribute 'other' and its value is greater than 10
+# using 'and' and 'hasattr' combination
+if not hasattr(my_instance, 'other') or my_instance.other > 10:
+    print("Condition met")
+else:
+    print("Condition not met")
+
+# Set a new attribute 'other' on the instance with a value less than 10
+my_instance.other = 5
+
+# Check if the instance has an attribute 'other' and its value is greater than 10
+# using 'and' and 'hasattr' combination (this time, the condition should not be met)
+if not hasattr(my_instance, 'other') or my_instance.other > 10:
+    print("Condition met")  # This will never print since we set other to 5 previously
+else:
+    print("Condition not met")
+113
+python
+# Using 'and' operator to combine conditions
+def is_even(num):
+    return num % 2 == 0
+
+def is_positive(num):
+    return num > 0
+
+if is_even(5) and is_positive(5):
+    print("Number is even and positive")
+else:
+    print("Number is not even or not positive")
+# Output: Number is even and positive
+
+# Using 'hash' function to generate hash values
+def my_hash(key):
+    h = 5381
+    for char in str(key):
+        h = (h * 33) ^ ord(char)
+    return h
+
+key = "Python"
+hash_value = my_hash(key)
+print(f"Hash value of '{key}' is: {hash_value}")
+# Output: Hash value of 'Python' is: 2146530822
+114
+python
+# Define a function with some conditions
+def my_function(a, b):
+    if (a > 0) and (b > 0): # Using 'and' operator to check both conditions
+        return "Both a and b are positive"
+    else:
+        return "Either a or b is not positive"
+
+# Using help() function to get documentation of built-in functions
+print(help(print)) # Prints the documentation for print() function
+print(help(abs))  # Prints the documentation for abs() function
+115
+python
+# Define two binary numbers as decimal integers
+num1 = 0b1110  # binary number: 1110 = 14 in decimal
+num2 = 0b1101  # binary number: 1101 = 13 in decimal
+
+# Perform bitwise AND operation using the 'and' operator
+result_bitwise = num1 & num2
+
+# Print binary numbers and their bitwise AND result
+print(f"Binary number 1: {bin(num1)[2:]} (decimal: {num1})")
+print(f"Binary number 2: {bin(num2)[2:]} (decimal: {num2})")
+print(f"Bitwise AND result: {bin(result_bitwise)[2:]} (decimal: {result_bitwise})")
+
+# Convert decimal result to hexadecimal using the 'hex()' function
+result_hex = hex(result_bitwise)
+
+# Print hexadecimal representation of the bitwise AND result
+print(f"Hexadecimal representation: 0x{result_hex}")
+116
+python
+# Define two variables
+num1 = 10
+num2 = 20
+
+# Use and operator for logical AND operation
+print("num1 is greater than 5 and num2 is greater than 10:")
+if (num1 > 5) and (num2 > 10):
+    print(True)
+else:
+    print(False)
+
+# Use id() to check the memory address of variables
+print("\nMemory addresses of num1 and num2:")
+print("Address of num1:", hex(id(num1)))
+print("Address of num2:", hex(id(num2)))
+117
+python
+# Get user input for two numbers
+num1 = float(input("Enter first number: "))
+num2 = float(input("Enter second number: "))
+
+# Check if both numbers are positive using the and operator
+if num1 > 0 and num2 > 0:
+    print("Both numbers are positive.")
+else:
+    print("One or both of the numbers is not positive.")
+
+# Perform an operation on the numbers if they are both positive
+if num1 > 0 and num2 > 0:
+    result = num1 + num2
+    print(f"The sum of {num1} and {num2} is {result}.")
+118
+python
+# This example checks if a number is positive and even
+def is_positive_even(number):
+    """
+    This function checks if a given number is positive and even.
+    :param number: An integer number.
+    :return: True if the number is positive and even, False otherwise.
+    """
+    return number > 0 and number % 2 == 0
+
+if __name__ == "__main__":
+    num = int(input("Enter an integer: "))
+
+    if is_positive_even(num):
+        print(f"{num} is a positive even number.")
+    else:
+        if num > 0:
+            print(f"{num} is a positive odd number or a negative number.")
+        else:
+            print(f"{num} is a negative even number.")
+119
+python
+# Defining some functions and classes for this example
+def is_positive(num):
+    """ checks if a number is positive """
+    return num > 0
+
+class MyNumber:
+    def __init__(self, value):
+        self.value = value
+
+    def is_positive(self):
+        """ checks if an instance of MyNumber is positive """
+        return self.value > 0
+
+# Testing the usage of and and isinstance()
+num1 = 5
+num2 = -3
+num3 = MyNumber(7)
+
+# Using 'and' to combine conditions
+if is_positive(num1) and (isinstance(num2, int) or isinstance(num2, float)):
+    print("Both conditions are met")
+else:
+    print("At least one condition is not met")
+
+if num3.is_positive() and isinstance(num3, MyNumber):
+    print("Both conditions for 'MyNumber' instance are met")
+120
+python
+# Defining some base classes
+class BaseClass1:
+    def __init__(self, value):
+        self.value = value
+
+class BaseClass2:
+    pass
+
+class DerivedClass(BaseClass1, BaseClass2):
+    pass
+
+# Function demonstrating the usage of and and issubclass
+def check_inheritance(base1, base2, derived):
+ if (isinstance(derived, base1) and issubclass(derived, base2)):
+ print(f"Derived class '{derived.__name__}' is both an instance of {base1.__name__} and a subclass of {base2.__name__}")
+ else:
+ print(f"Derived class '{derived.__name__}' is not an instance of {base1.__name__} or a subclass of {base2.__name__}")
+
+# Instantiating base classes and derived class
+base1_instance = BaseClass1("Base1 value")
+base2_instance = BaseClass2()
+derived_instance = DerivedClass("Derived value")
+
+# Calling check_inheritance function
+check_inheritance(BaseClass1, BaseClass2, BaseClass1) # This should print: BaseClass1 is both an instance of BaseClass1 and a subclass of BaseClass2 (False due to type mismatch)
+check_inheritance(BaseClass1, BaseClass2, DerivedClass) # This should print: Derived class 'DerivedClass' is both an instance of BaseClass1 and a subclass of BaseClass2
+check_inheritance(BaseClass1, BaseClass2, BaseClass1) # This should print: BaseClass1 is both an instance of BaseClass1 and a subclass of BaseClass2 (False due to type mismatch)
+121
+python
+import itertools
+
+# Function to check if two numbers are even and positive
+def is_even_and_positive(num1, num2):
+ return (num1 > 0) and (num2 % 2 == 0)
+
+# Generate all pairs of even and positive numbers from the given range
+nums = list(range(1, 10))
+evens = [x for x in nums if x % 2 == 0]
+positives = [x for x in nums if x > 0]
+
+# Use itertools.product() to generate all possible pairs of numbers from lists
+pairs = list(itertools.product(evens, positives))
+
+# Filter out the invalid pairs using the is_even_and_positive function
+valid_pairs = [pair for pair in pairs if is_even_and_positive(*pair)]
+
+print("Valid Pairs:")
+for pair in valid_pairs:
+ print(f"({pair[0]}, {pair[1]})")
+122
+python
+# List of strings
+my_list = ['apple', 'banana', '', 'orange']
+
+# Condition with and and len()
+if not (len(my_list) < 2 and my_list[-1] == ''):
+    print("The list has more than one item and the last item is not empty.")
+else:
+    print("The list has less than two items or the last item is empty.")
+
+# Output: The list has less than two items or the last item is empty.
+123
+python
+# Define a list
+numbers = [1, 2, 3, 4, 5]
+
+# Set a condition with 'and'
+condition = (len(numbers) > 0) and (numbers[0] > 3)
+
+if condition:
+    print("The first number is greater than 3 and the list has elements.")
+else:
+    print("Either the list is empty or the first number is less than or equal to 3.")
+
+# Checking another condition with 'and' using two lists
+list1 = [1, 2, 3]
+list2 = [4, 5, 6]
+condition = (len(list1) > 0) and (len(list2) > 0)
+
+if condition:
+    print("Both lists have elements.")
+else:
+    print("At least one of the lists is empty.")
+124
+python
+def my_function(x, y):
+    """
+    This function checks if two numbers are equal and greater than 10.
+    """
+    if x > 10 and y > 10:
+        print("Both x and y are greater than 10.")
+        result = x + y
+    else:
+        print("Either x or y is not greater than 10.")
+        result = None
+
+    # Use locals() to print all local variables in the current scope.
+    print("Local variables:")
+    for key, value in locals().items():
+        if key != "self":
+            print(f"{key}: {value}")
+
+    return result
+
+if __name__ == "__main__":
+    my_function(15, 20)
+125
+python
+# Define a list of tuples with two integer elements
+numbers = [(2, 3), (5, 7), (1, 9), (8, 2)]
+
+# Function to check if first number is greater than 1 and second number is odd
+def condition(num):
+    first, second = num
+    return first > 1 and second % 2 != 0
+
+# Use map to apply the function on each tuple in the list
+result = list(map(condition, numbers))
+
+print("Numbers which satisfy the condition:")
+print(result)
+126
+python
+# Define some numbers
+num1 = 5
+num2 = 10
+num3 = 15
+
+# Use and to combine two conditions
+if num1 > 2 and num2 > 4:
+    print("Both num1 and num2 are greater than 2 and 4 respectively.")
+
+# Use max to find the greatest number among three numbers
+largest_number = max(num1, num2, num3)
+print("The largest number among", num1, ",", num2, "and", num3, "is:", largest_number)
+127
+python
+import numpy as np
+128
+python
+# Define some variables
+num1 = 5
+num2 = 10
+num3 = -3
+
+# Use and operator to check if two conditions are true
+if (num1 > 0) and (num2 > 0):
+    print("Both num1 and num2 are positive")
+
+# Use min function to find the minimum of three numbers
+min_num = min(num1, num2, num3)
+print("The minimum number is:", min_num)
+129
+python
+# List of numbers
+numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9]
+
+# Filter function that checks if number is even
+def is_even(number):
+    return number % 2 == 0
+
+# Iterator from filter function and list
+iter_filtered = filter(is_even, numbers)
+
+# Using 'and' to check conditions
+print("Even numbers using 'and':")
+try:
+    even_number = next(iter_filtered)
+    print(next(iter_filtered) if even_number and even_number > 0 else None)
+except StopIteration:
+    print("No even number greater than zero.")
+
+# Using 'and' to combine conditions in a for loop
+print("\nEven numbers using 'and' in for loop:")
+for number in filter(lambda x: x % 2 == 0 and x > 0, numbers):
+    print(number)
+130
+python
+class MyClassA:
+    def __init__(self, value_a):
+        self.value_a = value_a
+
+class MyClassB:
+    def __init__(self, value_b):
+        self.value_b = value_b
+
+def main():
+    obj_a = MyClassA(10)
+    obj_b = MyClassB(20)
+
+    # Using and operator with two boolean expressions
+    result = (obj_a.value_a > 5) and (obj_b.value_b > 15)
+
+    if result:
+        print("Both conditions are true")
+    else:
+        print("At least one condition is false")
+
+if __name__ == "__main__":
+    main()
+131
+python
+# Definition of binary numbers as decimal values
+binary_number_1 = 0b1111  # equal to decimal number 15
+binary_number_2 = 0b1010  # equal to decimal number 10
+
+# Bitwise AND operation between two binary numbers
+result_bitwise_and = binary_number_1 & binary_number_2
+print("Result of bitwise AND: {0} (binary) = {1} (decimal)".format(bin(result_bitwise_and)[2:], result_bitwise_and))
+
+# Converting an octal number to decimal
+octal_number = 0o37  # equal to decimal number 23 + 7 = 30
+decimal_number = int(oct(octal_number))
+print("Decimal equivalent of {0} (octal) is: {1}".format(octal_number, decimal_number))
+132
+python
+# Set file path and access conditions
+file_path = "example.txt"
+readable = True
+writable = False
+
+# Check if the file exists and is readable
+if os.path.exists(file_path) and os.access(file_path, os.R_OK):
+    # Open the file in read-only mode
+    with open(file_path, 'r') as file:
+        content = file.read()
+        print("File contents:", content)
+else:
+    print("Error: File does not exist or is not readable")
+
+# If the file is writable, you can also write to it
+if writable and os.access(file_path, os.W_OK):
+    with open(file_path, 'w') as file:
+        new_content = "This is new content."
+        file.write(new_content)
+        print("File has been updated with new content.")
+133
+python
+# This program checks if a character is an uppercase letter and alphabet, using and and ord()
+
+def is_alpha_upper(character):
+ """
+ This function checks if given character is an uppercase alphabet.
+ """
+ return (ord(character) >= 65 and ord(character) <= 90) or (ord(character) >= 65 and ord(character) <= 90)
+
+# Testing the function
+for char in "ABCDEFGHIJKLMNOPQRSTUVWXYZ":
+ print(f"The character {char} is an uppercase alphabet: {is_alpha_upper(char)}")
+
+for char in "abcdefghijklmnopqrstuvwxyz1234567890!@#":
+ print(f"The character {char} is an uppercase alphabet: {is_alpha_upper(char)}")
+134
+python
+# Simple usage of 'and' keyword in if statement
+num1 = 5
+num2 = 10
+
+if num1 > 0 and num2 > 0:
+    print("Both numbers are positive.")
+else:
+    print("One or both numbers are not positive.")
+
+# Usage of 'and' keyword with variables and constants
+boolean_expression = (num1 > 0) and (num2 % 2 == 0)
+if boolean_expression:
+    print("Num1 is positive and Num2 is even.")
+else:
+    print("Condition is false.")
+
+# Usage of 'pow' function to raise a number to an exponent
+base = 2
+exponent = 3
+result = pow(base, exponent)
+print(f"Result of {base} raised to the power of {exponent} is: {result}")
+135
+python
+# Set some variables
+num1 = 5
+num2 = 10
+
+# Use the 'and' operator to check if two conditions are true
+if (num1 > 0) and (num2 > 0):
+    print("Both numbers are positive.")
+
+# Use the 'print()' function to display a message
+print("The first number is: ", num1)
+print("The second number is: ", num2)
+136
+python
+class MyClass:
+    def __init__(self, value1, value2):
+        self.value1 = value1
+        self.value2 = value2
+
+    def __truthvalue__(self):
+        if self.value1 and self.value2:
+            return True
+        else:
+            return False
+
+a = MyClass(True, True)
+print(bool(a))  # Output: True
+
+b = MyClass(False, True)
+print(bool(b))  # Output: False
+
+c = MyClass(False, False)
+print(bool(c))  # Output: False
+137
+python
+# Define a list of numbers
+numbers = [1, 2, 3, 4, 5]
+
+# Use range function to generate sequence of numbers
+sequence = range(len(numbers))
+
+# Iterate through the sequence and check conditions
+for index in sequence:
+    # Check if the current number is even and greater than 2
+    if (numbers[index] % 2 == 0) and (numbers[index] > 2):
+        print(f"The number {numbers[index]} satisfies the condition.")
+138
+python
+# Define a list with some values
+numbers = [1, 2, 3, 4, 5]
+
+# Use the 'and' operator to check if a condition is true for all given expressions
+print("Numbers greater than 3:")
+for num in numbers:
+    if num > 3:
+        print(repr(num), end=" ")
+        continue
+    print(f"{num} is less than or equal to 3")
+    break
+
+# Use 'and' operator to combine two conditions
+print("\nBoth conditions are true:")
+x = 5
+y = 10
+if x > 3 and x < y:
+    print("x is between 3 and y")
+else:
+    print("One or both conditions are false")
+
+# Use 'repr()' function to print the string representation of an object
+print("\nString representation using repr():")
+my_string = "Hello, World!"
+print(repr(my_string))
+139
+python
+# Define a list of integers
+numbers = [1, 2, 3, 4, 5]
+
+# Use and operator to check if an element is even and greater than 3
+print("Numbers in the list that are even and greater than 3:")
+for num in numbers:
+    if num > 3 and num % 2 == 0:
+        print(num)
+
+# Use reversed function to iterate through a list in reverse order
+print("\nElements in the list 'numbers' in reverse order:")
+for num in reversed(numbers):
+    print(num)
+140
+python
+# Define variables
+num1 = 5.6234
+num2 = 2
+limit = 3
+
+# Check if condition is true using and keyword
+if num1 > 5 and num2 < 3:
+    print("Condition 1 is true")
+else:
+    print("Condition 1 is false")
+
+# Round a number using round() function
+result = round(num1, 2)
+print(f"Rounded value of num1 to 2 decimal places: {result}")
+
+# Check if condition is true with rounding using and keyword
+if round(num1, 2) > limit and num2 < 3:
+    print("Condition 2 is true")
+else:
+    print("Condition 2 is false")
+141
+python
+# Define two sets
+set1 = {1, 2, 3, 4, 5}
+set2 = {4, 5, 6, 7, 8}
+
+# Use the and keyword to check if two elements are in both sets
+if 4 in set1 and 5 in set2:
+    print("Four and Five are in both sets")
+
+# Create a new set that is the intersection of set1 and set2 using the & operator
+intersection = set1 & set2
+print("Intersection of set1 and set2:", intersection)
+
+# Use the and keyword to check if an element is in both sets and also greater than 3
+if 5 in set1 and 5 in set2 and 5 > 3:
+    print("Five is in both sets and is greater than 3")
+
+# Use the sets for membership testing with the in keyword
+if 6 in set1 or 7 in set2:
+    print("Either six or seven is in one of the sets")
+142
+python
+# Define a class with some initial attributes
+class MyClass:
+    def __init__(self, name, age):
+        self.name = name
+        self.age = age
+
+# Create an instance of the class
+obj = MyClass("John Doe", 30)
+
+# Use and to check multiple conditions
+if obj.age > 25 and obj.age < 40:
+    print("The person is in the desired age range.")
+
+# Use setattr to dynamically set attributes
+new_attribute = "greeting"
+value = "Hello, I'm {}!".format(obj.name)
+setattr(obj, new_attribute, value)
+
+# Access the new attribute using getattr
+print(getattr(obj, new_attribute))
+143
+python
+# Define a list
+numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9]
+
+# Use and keyword for condition check
+if (len(numbers) > 5) and (numbers[0] % 2 == 0):
+    print("The list has more than 5 elements and the first element is even")
+else:
+    print("The conditions are not met")
+
+# Use slicing to extract a subset of the list
+start_index = 3
+end_index = len(numbers)
+sublist = numbers[start_index: end_index]
+print("Sublist: ", sublist)
+144
+python
+# List of numbers to be sorted
+numbers = [5, 2, 8, 1, 6, 3]
+
+# Using the 'and' keyword for condition checks
+even_numbers = []
+for number in numbers:
+    if number % 2 == 0 and number > 1:
+        even_numbers.append(number)
+
+print("Even numbers greater than 1 are:", even_numbers)
+
+# Using the 'sorted' keyword to sort a list
+sorted_numbers = sorted(numbers)
+print("Sorted list of numbers is:", sorted_numbers)
+145
+python
+class MyClass:
+    @staticmethod
+    def static_method(a, b):
+        """This method demonstrates the usage of @staticmethod"""
+        return a > b and a > 0 and b > 0
+
+    def __init__(self, num1, num2):
+        self.num1 = num1
+        self.num2 = num2
+
+if __name__ == "__main__":
+    # Calling static method on the class using class name
+    print(MyClass.static_method(3, 5))
+
+    # Creating an instance of MyClass and calling the same method on it
+    my_instance = MyClass(10, -2)
+    print(my_instance.static_method(10, -2))
+    print(my_instance.static_method(10, 5))
+    print(my_instance.static_method(5, 10))
+146
+python
+def main():
+    # Define some variables
+    num1 = 5
+    num2 = 10
+    str1 = "Hello"
+    str2 = "World"
+
+    # Boolean expressions using and operator
+    print("Expression 1: ", (num1 > 3) and (num2 < 20))
+    print("Expression 2: ", ("Python" in str1) and ("Framework" not in str2))
+
+    # Concatenating strings using + or the multiplication operator (*)
+    print("Concatenated string using +: ", str1 + " " + str2)
+    print("Concatenated string using *: ", str1 * 2 + str2 * 3)
+
+if __name__ == "__main__":
+    main()
+147
+python
+# Define a list of numbers
+numbers = [1, 2, 3, 4, 5]
+
+# Use logical 'and' operation to check if a number is even and greater than 3
+evens_greater_than_three = list(filter(lambda x: x % 2 == 0 and x > 3, numbers))
+print("Even numbers greater than 3: ", evens_greater_than_three)
+
+# Use mathematical 'sum' function to find the sum of all elements in a list
+total = sum(numbers)
+print("Sum of all numbers: ", total)
+148
+python
+# Base class with a method
+class Animal:
+    def __init__(self, name, color):
+        self.name = name
+        self.color = color
+
+    def make_sound(self):
+        print("The animal makes a sound")
+
+# Derived class 1 that overrides the method from the base class
+class Dog(Animal):
+    def __init__(self, name, color, breed):
+        super().__init__(name, color)
+        self.breed = breed
+
+    def make_sound(self):
+        print("The dog says: Woof!")
+
+# Derived class 2 that also overrides the method from the base class
+class Cat(Animal):
+    def __init__(self, name, color, breed=None):
+        super().__init__(name, color)
+        self.breed = breed if breed else "unknown"
+
+    def make_sound(self):
+        print("The cat says: Meow!")
+
+# Instantiating derived classes and calling methods
+dog = Dog("Rex", "brown", "Labrador")
+cat = Cat("Whiskers", "gray")
+
+# Using and to combine conditions
+print(dog.color == "brown" and dog.breed != None)  # This will print: True
+print(cat.color == "gray" and cat.breed is not None)  # This will print: True
+
+# Calling make_sound method on instances
+dog.make_sound()
+cat.make_sound()
+149
+python
+# Define a tuple
+numbers = (1, 2, 3, 4, 5)
+
+# Use 'and' to check if multiple conditions are true
+# In this case, we'll check if an number is in the tuple and if it's even
+def is_even_in_tuple(number, given_numbers):
+    return number in given_numbers and number % 2 == 0
+
+# Test some numbers
+print(is_even_in_tuple(2, numbers))  # True
+print(is_even_in_tuple(1, numbers))  # False
+print(is_even_in_tuple(3, numbers))  # False
+print(is_even_in_tuple(4, numbers))  # True
+150
+python
+# Define some variables
+num1 = 5
+num2 = 0
+is_positive = True
+
+# Use 'and' keyword to check if num1 is positive number and num2 is not zero
+if (num1 > 0) and (num2 != 0):
+    print("Numbers can be processed further.")
+else:
+    print("Error: Cannot process numbers with this condition.")
+
+# Use 'type()' function to check types of variables
+print("Type of num1 is:", type(num1))
+print("Type of num2 is:", type(num2))
+print("Type of is_positive is:", type(is_positive))
+151
+python
+# Let's define some variables
+var1 = 5
+var2 = 10
+var3 = 15
+
+# A dictionary to store variable names as keys and their values as values
+vars_dict = {
+    'var1': var1,
+    'var2': var2,
+    'var3': var3
+}
+
+# Now let's write a function that checks if two variables have the same value using AND operator
+def check_same_value(variable1, variable2):
+    return variable1 == variable2
+
+# Let's use items() to iterate through variables and their values in the dictionary
+for var_name, var_value in vars_dict.items():
+    next_var = vars_dict.get(var_name + '_next', None) # Get the next variable, if exists
+
+    if check_same_value(var_value, next_var):
+        print(f"{var_name} and {var_name+'_next'} have the same value.")
+152
+python
+# Let's assume we have two lists:
+list1 = [1, 2, 3, 4]
+list2 = [5, 6, 7, 8]
+
+# First, let's see how to use the 'and' keyword in Python:
+# The 'and' keyword returns True only if both expressions are true.
+print("List elements are equal using 'and':")
+for i in range(len(list1)):
+    if list1[i] == list2[i] and list1[i] > 3:
+        print(f"Index {i}: List1[{i}] = {list1[i]} is equal to List2[{i}] = {list2[i]} and greater than 3.")
+
+# Now, let's see how to use the 'zip' function:
+print("\nList elements paired using 'zip':")
+paired_elements = zip(list1, list2)
+for pair in paired_elements:
+    element1, element2 = pair
+    print(f"Index 0: List1[{list1.index(element1)}] = {element1} and List2[{list2.index(element2)}] = {element2}")
+153
+python
+import os
+
+# Check if a file exists and is a regular file (not a directory)
+file_path = "/path/to/your/file.txt"
+if os.path.isfile(file_path) and os.path.isdir(file_path) is False:
+    print("File exists and is a regular file.")
+else:
+    print("File does not exist or is a directory.")
+
+# Use 'and' as a logical operator in a different context (comparing two conditions)
+if 5 > 3 and "apple" in ["apple", "banana"]:
+    print("Condition 1 is True and Condition 2 is True.")
+else:
+    print("At least one of the conditions is False.")
+154
+python
+import sys
+
+# Function to check if a number is positive
+def is_positive(number):
+    return number > 0
+
+# Function to get command line arguments
+def main():
+    print("This program checks if all command line arguments are positive numbers.")
+
+    try:
+        for arg in sys.argv[1:]:
+            if not is_positive(float(arg)):
+                raise ValueError(f"{arg} is not a positive number.")
+        print("All command line arguments are positive numbers.")
+    except (ValueError, IndexError) as e:
+        print(e)
+
+if __name__ == "__main__":
+    main()
+155
+python
+import math
+
+# Define some variables
+num1 = 5
+num2 = 3
+boolean_expr1 = num1 > 0
+boolean_expr2 = num2 > 0
+
+# Perform some arithmetic operations using math module
+addition = num1 + num2
+subtraction = num1 - num2
+multiplication = num1 * num2
+division = num1 / num2
+remainder = num1 % num2
+square_num1 = math.pow(num1, 2)
+square_root_num1 = math.sqrt(num1)
+
+# Use and operator to check if both numbers are positive
+if boolean_expr1 and boolean_expr2:
+    print("Both numbers are positive.")
+else:
+    print("At least one number is not positive.")
+
+print(f"Addition: {addition}")
+print(f"Subtraction: {subtraction}")
+print(f"Multiplication: {multiplication}")
+print(f"Division: {division}")
+print(f"Remainder: {remainder}")
+print(f"Square of {num1}: {square_num1}")
+print(f"Square root of {num1}: {square_root_num1}")
+156
+python
+import random
+
+# Define a function that returns a random number between two given numbers
+def get_random_number(min, max):
+    return random.randint(min, max)
+
+# Generate two random numbers between 0 and 10
+num1 = get_random_number(0, 10)
+num2 = get_random_number(0, 10)
+
+print("Random number 1: ", num1)
+print("Random number 2: ", num2)
+
+# Use the 'and' operator to check if both numbers are even
+if (num1 % 2 == 0 and num2 % 2 == 0):
+    print(f"Both numbers {num1} and {num2} are even")
+else:
+    print("At least one of the numbers is odd")
+157
+python
+import datetime
+
+# Define some variables
+day = 3
+month = 12
+year = 2021
+is_weekend = False
+
+# Check if today is a weekend using datetime module
+now = datetime.date.today()
+today_is_weekend = (now.weekday() >= 5) # 5 and 6 corresponds to Saturday and Sunday in Python
+
+# Combine conditions using 'and' keyword
+if day == 1 and month in [11, 12] and year > 2020 and (is_weekend or not today_is_weekend):
+    print("It's Thanksgiving Day!")
+else:
+    print("It's not Thanksgiving Day.")
+158
+python
+import time
+
+def is_even(number):
+    """
+    Check if a given number is even.
+    :param number: An integer number
+    :return: True if number is even, False otherwise
+    """
+    return number % 2 == 0
+
+if __name__ == "__main__":
+    start_time = time.time()
+
+    number = int(input("Enter an integer number: "))
+
+    if number > 0 and is_even(number):
+        print(f"{number} is a positive even number.")
+    elif number < 0 and is_even(abs(number)):
+        print(f"{-number} is a negative even number.")
+    else:
+        print("Number is not even or not positive.")
+
+    end_time = time.time()
+
+    execution_time = end_time - start_time
+    print(f"\nExecution Time: {execution_time:.10f} seconds")
+159
+python
+import json
+
+# Sample JSON data
+data = '''
+{
+  "users": [
+    { "name": "John", "age": 30, "is_active": true },
+    { "name": "Jane", "age": 25, "is_active": false },
+    { "name": "Doe", "age": 45, "is_active": true }
+  ]
+}
+'''
+
+# Parse JSON data
+parsed_data = json.loads(data)
+
+# Filter users based on condition
+filtered_users = [user for user in parsed_data["users"] if user["age"] > 30 and user["is_active"] is True]
+
+print("Users who are older than 30 and active:")
+for user in filtered_users:
+    print(f"Name: {user['name']}, Age: {user['age']}")
+160
+python
+import csv
+
+# Function to validate if a given number is even
+def is_even(number):
+ if number % 2 == 0:
+ return True
+ else:
+ return False
+
+# Function to validate if a given string is empty or not
+def is_empty_string(string):
+ if len(string) > 0:
+ return False
+ else:
+ return True
+
+# Function to read data from CSV file
+def read_csv(file_path):
+ try:
+ with open(file_path, newline='') as csvfile:
+ reader = csv.DictReader(csvfile)
+ data = [row for row in reader]
+ return data
+ except FileNotFoundError:
+ print("File not found")
+ return []
+
+# Function to write data into CSV file
+def write_csv(data, file_path):
+ fieldnames = ['id', 'name', 'age']
+ try:
+ with open(file_path, mode='w', newline='') as csvfile:
+ writer = csv.DictWriter(csvfile, fieldnames=fieldnames)
+ writer.writeheader()
+ writer.writerows(data)
+ print("CSV file has been written successfully.")
+ except IOError:
+ print("An error occurred while writing CSV file.")
+
+# Sample data to write into CSV file
+sample_data = [{'id': 1, 'name': 'John', 'age': 20}, {'id': 2, 'name': 'Jane', 'age': 30}]
+
+# Write sample data into CSV file
+write_csv(sample_data, "output.csv")
+
+# Read data from CSV file and perform validation
+data = read_csv("output.csv")
+
+valid_records = []
+for record in data:
+ if not is_empty_string(record['name']) and is_even(int(record['age'])):
+ valid_records.append(record)
+
+# Print valid records
+print(valid_records)
+161
+python
+# Import the sqlite3 library
+import sqlite3
+
+# Create a new database or connect to an existing one
+def create_connection():
+    conn = None
+    try:
+        conn = sqlite3.connect('mydatabase.db')
+    except sqlite3.Error as e:
+        print(e)
+
+    return conn
+
+# Create a table in the database if it doesn't exist
+def create_table(conn):
+    cursor = conn.cursor()
+    query = """CREATE TABLE IF NOT EXISTS mytable (
+                 id INTEGER PRIMARY KEY,
+                 name TEXT NOT NULL,
+                 age INTEGER,
+                 city TEXT);"""
+
+    cursor.execute(query)
+
+# Insert some data into the table
+def insert_data(conn):
+    cursor = conn.cursor()
+
+    data = [('John Doe', 30, 'New York'),
+            ('Jane Doe', 25, 'Los Angeles'),
+            ('Mike Brown', 45, 'Chicago')]
+
+    query = '''INSERT INTO mytable VALUES (?, ?, ?, ?)'''
+    for row in data:
+        cursor.execute(query, row)
+
+# Commit the transaction and close the connection
+conn = create_connection()
+create_table(conn)
+insert_data(conn)
+conn.commit()
+conn.close()
+
+# Query the database using SQL statements with logical AND operators
+def query_data(conn):
+    query = '''SELECT * FROM mytable WHERE age > 30 AND city = 'New York';'''
+
+    conn = create_connection()
+    cursor = conn.cursor()
+    cursor.execute(query)
+
+    rows = cursor.fetchall()
+
+    for row in rows:
+        print(row)
+
+    conn.close()
+
+# Run the query
+query_data()
+162
+python
+import re
+
+def is_valid_email(email):
+    # Regular expression pattern for valid email address
+    regex = r"[^@]+@[^@]+\.[^@]+$"
+    
+    if re.match(regex, email):
+        print(f'Valid Email: {email}')
+        return True
+    else:
+        print("Invalid Email")
+        return False
+        
+# Test cases
+if __name__ == "__main__":
+    test_cases = [
+        "example@example.com",
+        "username@subdomain.domain.co.uk",
+        "invalid_email@example.com",
+        "user+tag@example.com"
+    ]
+    
+    for email in test_cases:
+        is_valid_email(email)
+163
+python
+import requests
+
+# Example URL to check
+url = "https://www.example.com"
+
+# Using if statement with 'and' operator
+if requests.get(url).status_code == 200 and "200 OK" in requests.get(url).reason:
+    print(f"The website '{url}' is accessible and returns status code: 200")
+else:
+    print(f"Error accessing the website '{url}'. Check status code: {requests.get(url).status_code}")
+
+# Using one-liner with 'and' operator
+if (requests.get(url).status_code == 200) and ("200 OK" in requests.get(url).reason):
+    print(f"The website '{url}' is accessible and returns status code: 200")
+else:
+    print(f"Error accessing the website '{url}'. Check status code: {requests.get(url).status_code}")
+164
+python
+import urllib.request
+
+# Define the URL you want to fetch
+url = "https://example.com"
+
+# Send the GET request using urllib and store the response in a variable
+response = urllib.request.urlopen(url)
+
+# Check if the status code is HTTP_OK (200), using 'and' operator
+if response.getcode() == 200:
+    print("Success! The URL {} returned HTTP status code: {}".format(url, response.getcode()))
+else:
+    print("Error! The URL {} returned HTTP status code: {}".format(url, response.getcode()))
+    
+# Always close the connection
+response.close()
+165
+python
+import pickle
+
+# Define some data
+data = {
+    "name": "John Doe",
+    "age": 30,
+    "is_student": True
+}
+
+# Define a function that checks if person is student and above 18
+def check_eligibility(person):
+    return person["is_student"] and person["age"] > 18
+
+# Check eligibility of data
+if check_eligibility(data):
+    print("The person is eligible.")
+else:
+    print("The person is not eligible.")
+
+# Pickle the data
+with open("data.pickle", "wb") as f:
+    pickle.dump(data, f)
+
+# Load pickled data
+with open("data.pickle", "rb") as f:
+    loaded_data = pickle.load(f)
+
+# Check eligibility of loaded data
+if check_eligibility(loaded_data):
+    print("The loaded person is eligible.")
+else:
+    print("The loaded person is not eligible.")
+166
+python
+import os
+import subprocess
+
+# Define the directory path
+directory_path = "/path/to/your/directory"
+
+# Check if directory exists
+if os.path.isdir(directory_path):
+    print(f"Directory '{directory_path}' exists.")
+else:
+    print(f"Directory '{directory_path}' does not exist.")
+    
+# If directory exists, execute a command using subprocess
+if os.path.isdir(directory_path):
+    # Define the command to run (in this example, we will execute 'ls' command)
+    command = "ls"
+
+    # Execute the command in the directory using subprocess
+    process = subprocess.Popen(command, shell=True, cwd=directory_path)
+
+    # Get the output of the command and print it
+    output, error = process.communicate()
+    if error is not None:
+        print("Error occurred while executing command:", error.decode())
+    else:
+        print("Output of command 'ls' in directory '{directory_path}':")
+        print(output.decode())
+else:
+    print("Directory does not exist, so no command execution.")
+167
+python
+import argparse
+
+# Create the argument parser
+parser = argparse.ArgumentParser(description="Logical Conditions using argparse")
+
+# Add arguments
+parser.add_argument("arg1", help="First argument")
+parser.add_argument("arg2", type=int, help="Second argument (must be an integer)")
+parser.add_argument "--operation", "-o", type=str, required=True, help="Operation (+ or -)")
+
+# Parse the arguments
+args = parser.parse_args()
+
+x = int(args.arg1)
+y = args.arg2
+operation = args.operation
+
+if operation == "+":
+    result = x + y
+else:
+    # only perform subtraction if the second argument is greater than the first one
+    if x > y:
+        result = y - x
+    else:
+        print("Error: Second argument must be greater than the first one")
+        exit()
+
+print(f"Result: {result}")
+168
+python
+import logging
+
+# Configure logging settings
+logger = logging.getLogger(__name__)
+formatter = logging.Formatter('%(asctime)s - %(levelname)s - %(message)s')
+file_handler = logging.FileHandler("example.log")
+file_handler.setFormatter(formatter)
+stream_handler = logging.StreamHandler()
+stream_handler.setFormatter(formatter)
+logger.addHandler(file_handler)
+logger.addHandler(stream_handler)
+logger.setLevel(logging.INFO)
+
+# Define a function to demonstrate the use of 'and' operator
+def check_condition(num1, num2):
+    if (num1 > 0 and num2 > 0):  # Check if both conditions are true
+        result = num1 + num2
+        logger.info("Both numbers are positive: Addition of {} and {} is {}".format(num1, num2, result))
+    else:
+        logger.warning("One or both numbers are non-positive")
+
+# Test the function with some input values
+check_condition(3, 4)
+check_condition(-1, 2)
+169
+python
+from flask import Flask, render_template, request, flash
+
+app = Flask(__name__)
+
+@app.route('/', methods=['GET', 'POST'])
+def index():
+    if request.method == 'POST':
+        num1 = float(request.form.get('num1'))
+        num2 = float(request.form.get('num2'))
+
+        if num1 > 0 and num2 > 0:
+            result = num1 + num2
+            return render_template('index.html', result=result)
+        else:
+            flash('Both numbers must be positive!')
+
+    return render_template('index.html')
+
+if __name__ == '__main__':
+    app.run(debug=True)
+170
+python
+INSTALLED_APPS = [
+    # ...
+    'users',
+]
+171
+python
+import numpy as np
+
+# Create two arrays with boolean values
+arr1 = np.array([1, 0, 1, 0, 1])
+arr2 = np.array([1, 1, 0, 1, 0])
+
+# Use NumPy's where() function to get the elements that are in arr1 and arr2
+mask = np.where(np.logical_and(arr1, arr2), arr1, arr1)
+
+print("Array 1:")
+print(arr1)
+print("Array 2:")
+print(arr2)
+print("Mask (elements in both arrays):")
+print(mask)
+
+# Use Python's 'and' keyword for boolean logic with scalar values
+x = 5
+y = 10
+z = x > 4 and y < 7
+
+if z:
+    print(f"{x} is greater than 4 and {y} is less than 7")
+else:
+    print("Either x is not greater than 4 or y is not less than 7")
+172
+python
+import numpy as np
+
+# Create two NumPy arrays
+np_array1 = np.array([1, 2, 3, 4, 5])
+np_array2 = np.array([6, 7, 8, 9, 10])
+
+print("np_array1:")
+print(np_array1)
+print("\nnp_array2:")
+print(np_array2)
+173
+python
+import numpy as np
+import matplotlib.pyplot as plt
+
+# Define some data
+x = np.linspace(-10, 10, 400)
+y_sin = np.sin(x)
+y_cos = np.cos(x)
+
+# Create figures and subplots
+fig, axs = plt.subplots(ncols=2, figsize=(12, 6))
+
+# Plot sine function
+axs[0].plot(x, y_sin, label='Sine')
+axs[0].set_title('Sine Function')
+axs[0].legend()
+axs[0].grid()
+
+# Plot cosine function
+axs[1].plot(x, y_cos, label='Cosine')
+axs[1].set_title('Cosine Function')
+axs[1].legend()
+axs[1].grid()
+
+# Show the figures
+plt.show()
+174
+python
+import numpy as np
+import seaborn as sns
+import matplotlib.pyplot as plt
+
+# Generate random data using NumPy
+np.random.seed(42)  # for reproducibility
+data = np.random.randn(100, 2)
+
+# Create a simple line plot using Seaborn
+sns.set()
+fig, ax = plt.subplots(figsize=(8, 6))
+sns.lineplot(x=data[:, 0], y=data[:, 1], ax=ax)
+sns.kdeplot(data[:, 0], data[:, 1], shade=True, color="grey", label="Density")
+ax.set_title("Scatter plot with KDE Density Estimation")
+ax.set_xlabel("X")
+ax.set_ylabel("Y")
+plt.legend()
+plt.show()
+
+# Create a joint-histogram using Seaborn
+fig, ax = plt.subplots(figsize=(8, 6))
+sns.jointplot(data[:, 0], data[:, 1], color="grey", kde=True)
+ax.set_title("Joint Histogram with KDE Density Estimation")
+ax.set_xlabel("X")
+ax.set_ylabel("Y")
+plt.show()
+175
+python
+import numpy as np
+import tensorflow as tf
+
+# Logical operation using NumPy
+np_arr1 = np.array([1, 0, 1, 1], dtype=np.float32)
+np_arr2 = np.array([1, 1, 0, 1], dtype=np.float32)
+and_np = np.logical_and(np_arr1, np_arr2)
+print("Logical AND using NumPy:")
+print(np_arr1)
+print(np_arr2)
+print(and_np)
+
+# Building a simple neural network using TensorFlow
+input_shape = (1, 4)
+x = tf.keras.Input(shape=input_shape, name='input')
+x = tf.keras.layers.Dense(32, activation='relu')(x)
+y = tf.keras.layers.Dense(1, activation='sigmoid')(x)
+model = tf.keras.Model(inputs=x, outputs=y)
+
+# Logical operation using TensorFlow
+@tf.function
+def logical_and(arr1, arr2):
+    return tf.logical_and(arr1, arr2)
+
+np_arr1_tensor = tf.convert_numpy_to_tensor(np_arr1)
+np_arr2_tensor = tf.convert_numpy_to_tensor(np_arr2)
+result_tf = logical_and(np_arr1_tensor, np_arr2_tensor)
+print("\nLogical AND using TensorFlow:")
+print("np_arr1_tensor:", np_arr1_tensor.numpy())
+print("np_arr2_tensor:", np_arr2_tensor.numpy())
+print("result_tf:", result_tf.numpy())
+
+# Compile and train the neural network
+model.compile(optimizer='adam', loss='binary_crossent')
+model.fit(np.expand_dims(np_arr1, axis=0), np.expand_dims(np_arr2, axis=0), epochs=50)
+176
+python
+# Importing required libraries
+import numpy as np
+from keras.models import Sequential
+from keras.layers import Dense
+
+# Creating a simple dataset (you can replace it with your own)
+x = np.random.rand(100, 2)
+y = np.random.randint(2, size=(100,))
+
+# Preprocessing the input data using one-hot encoding for target variable 'y'
+y_onehot = np.eye(3)[np.reshape(y, (-1,1))]
+
+# Building a neural network model
+model = Sequential()
+model.add(Dense(12, activation='relu', input_shape=(x.shape[1],)))
+model.add(Dense(8, activation='relu'))
+model.add(Dense(3, activation='softmax'))
+
+# Compiling the model
+model.compile(loss='categorical_crossent', optimizer='adam', metrics=['accuracy'])
+
+# Training the model for 10 epochs
+history = model.fit(x, y_onehot, epochs=10)
+
+# Printing the final evaluation results
+scores = model.evaluate(x, y_onehot)
+print("%s: %.2f%%" % (model.metrics_names[1], scores[1]*100))
+177
+python
+# Importing necessary libraries
+import numpy as np
+from sklearn import datasets, model_selection
+
+# Generating a random dataset as an example
+X = np.random.rand(100, 4)
+y = np.random.randint(2, size=100)
+
+# Creating a mask for demonstrating the logical 'and' operator
+mask = (X[:, 0] > 0.5) and (X[:, 1] < 0.3)
+print("Mask:")
+print(mask)
+
+# Applying this mask to X and y for filtering the data
+X_filtered = X[np.where(mask)]
+y_filtered = y[np.where(mask)]
+print("Filtered Data:")
+print(np.concatenate((X_filtered, np.ones((len(X_filtered), 1)) * y_filtered), axis=1))
+
+# Applying Scikit-Learn for logical data processing and machine learning
+# Splitting the dataset into training and testing sets
+X_train, X_test, y_train, y_test = model_selection.train_test_split(X, y, test_size=0.3, random_state=42)
+
+# Creating a custom boolean feature for demonstration
+X_train['feature_boolean'] = (X_train[:, 1] > 0.4) & (X_train[:, 2] < 0.6)
+X_test['feature_boolean'] = (X_test[:, 1] > 0.4) & (X_test[:, 2] < 0.6)
+
+# Creating a decision tree classifier using the custom boolean feature
+clf = model_selection.DecisionTreeClassifier()
+clf.fit(X_train[['feature_boolean']], y_train)
+
+# Predicting on test data using the trained classifier
+y_pred = clf.predict(X_test[['feature_boolean']])
+print("Predictions:")
+print(np.concatenate((X_test[['feature_boolean']], np.ones((len(X_test), 1)) * y_pred), axis=1))
+178
+python
+# First, you need to install the beautifulsoup4 library if not already installed
+# You can install it using pip: `pip install beautifulsoup4 lxml` or BS4 for short
+
+from bs4 import BeautifulSoup, Tag, UnicodeMarkup
+import re
+
+# Sample HTML file (save as 'sample.html' in the same directory)
+#
+179
+python
+from selenium import webdriver
+
+# Set up the web driver
+browser = webdriver.Chrome()
+
+# Navigate to Google
+url = "https://www.google.com"
+browser.get(url)
+
+# Search for a specific term
+search_term = "Python Programming"
+search_box = browser.find_element_by_name("q")
+search_box.send_keys(search_term)
+search_button = browser.find_element_by_name("btnK")
+search_button.click()
+
+# Check if the search result title contains the expected text using 'and' logic
+title = browser.title
+expected_text = "Python Programming"
+if "Python Programming" in title and "Google Search" in title:
+    print("Search result title matches expected text.")
+else:
+    print("Search result title does not match expected text.")
+
+# Close the browser window
+browser.quit()
+180
+python
+import numpy as np
+import torch
+
+# Create NumPy arrays
+np_arr1 = np.array([[1, 0, 1], [1, 1, 1]], dtype=bool)
+np_arr2 = np.ones((2, 3), dtype=bool)
+
+print("NumPy Array 1:")
+print(np_arr1)
+print("\nNumPy Array 2:")
+print(np_arr2)
+
+# Perform NumPy logical AND operation
+np_and = np.logical_and(np_arr1, np_arr2)
+print("\nNumPy Logical AND:\n")
+print(np_and)
+
+# Create PyTorch tensors from NumPy arrays
+torch_arr1 = torch.from_numpy(np_arr1).float()
+torch_arr2 = torch.from_numpy(np_arr2).float()
+
+print("\nPyTorch Tensors:")
+print("Tensor 1:")
+print(torch_arr1)
+print("Tensor 2:")
+print(torch_arr2)
+
+# Perform PyTorch element-wise AND operation
+torch_and = torch.logical_and(torch_arr1, torch_arr2)
+print("\nPyTorch Logical AND:\n")
+print(torch_and)
+181
+python
+from sqlalchemy import create_engine, Column, Integer, String, ForeignKey, and_, desc
+from sqlalchemy.ext.declarative import declarative_base
+from sqlalchemy.orm import sessionmaker, relationship
+
+Base = declarative_base()
+
+class User(Base):
+    __tablename__ = 'users'
+    id = Column(Integer, primary_key=True)
+    name = Column(String)
+    age = Column(Integer)
+    posts = relationship("Post", backref="author")
+
+class Post(Base):
+    __tablename__ = 'posts'
+    id = Column(Integer, primary_key=True)
+    title = Column(String)
+    content = Column(String)
+    user_id = Column(Integer, ForeignKey("users.id"))
+    author = relationship("User")
+
+def main():
+    engine = create_engine('sqlite:///test.db', echo=True)
+
+    Base.metadata.create_all(engine)
+
+    Session = sessionmaker(bind=engine)
+    session = Session()
+
+    # Create operation
+    new_user = User(name='John Doe', age=30)
+    session.add(new_user)
+    session.commit()
+
+    print("New user created:")
+    print(session.query(User).filter(User.id == new_user.id).first())
+
+    # Read operation
+    users = session.query(User).order_by(desc(User.age)).limit(2).all()
+    for user in users:
+        print(f"{user.name} ({user.age}): {[p.title for p in user.posts]}")
+
+    # Update operation
+    user = session.query(User).filter(User.name == 'John Doe').first()
+    if user:
+        user.age += 1
+        session.commit()
+
+    # Delete operation
+    post = session.query(Post).filter(Post.title == "Old Post").first()
+    if post:
+        author = post.author
+        session.delete(post)
+        session.commit()
+        print(f"Deleted post with title '{post.title}'")
+
+if __name__ == '__main__':
+    main()

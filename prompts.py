@@ -37,7 +37,7 @@ def run_prompt_gemma(prompt):
 def read_file(file_name, model):
     file1 = open(file_name, 'r')
     Lines = file1.readlines()
-    n = 303 
+    n = 550 
     # for line in Lines:
     #     out = run_prompt(line.strip('\n\r'), model)
     #     extract_code(out)
@@ -83,7 +83,7 @@ def extract_code_codellama(output, index):
     program = output[start_index:end_index+3].strip()
     # print (program)
 
-    f = open("codellama_output.txt", "a")
+    f = open("codellama_output2.txt", "a")
     f.write(str(index) + "\n")
     f.write(program + "\n")
     f.close()
@@ -113,7 +113,8 @@ def save_time(time):
 
 def main():
     model = input("Enter model: ") 
-    read_file("generated_prompts.txt", model)
+    #read_file("generated_prompts.txt", model)
+    read_file("all_prompt.txt", model)
 
 if __name__ == "__main__":
     start_time = time.time()

@@ -242,3 +242,4927 @@ demonstrate_true_and_resource()
 
 # Output:
 # The resource is True
+0
+python
+# Scripting with True and False
+
+# Define a boolean variable
+my_bool = True
+
+# Print True and False values
+print(True)
+print(False)
+
+# Use True and False to control flow of control
+if my_bool:
+    print("The variable is True")
+else:
+    print("The variable is False")
+
+# True and False can be used in comparisons
+if my_bool == True:
+    print("The variable is equal to True")
+
+# True and False can be used in logical operators
+if my_bool and False:
+    print("The variable is True and False")
+
+# True and False can be used in conditional statements
+if True:
+    print("The condition is true")
+
+# True and False can be used in conjunction with other operators
+print(True and False)
+print(True or False)
+1
+python
+import crontab
+import time
+
+# Define a function to be executed by cron
+def my_function():
+    print("Hello, world!")
+
+# Add the function to the crontab
+crontab.crontab.add(minute='*/5', hour='9-17', day='*', month='*', weekday='*', function=my_function)
+
+# Execute the crontab
+time.sleep(60)
+
+# Check if the function has been executed
+if crontab.crontab.check(minute='*/5', hour='9-17', day='*', month='*', weekday='*', function=my_function):
+    print("Function executed successfully!")
+2
+python
+import pyperclip
+import True
+import batch
+
+# Define a list of commands to be executed in batch mode
+commands = ["echo Hello, world!", "pause"]
+
+# Execute the commands in batch mode using True and batch
+True.batch(commands)
+
+# Copy the output of the commands to the clipboard
+pyperclip.copy(True.last_output)
+
+# Print the output of the commands
+print(pyperclip.paste())
+3
+python
+import multiprocessing
+import time
+
+def square(x):
+    return x ** 2
+
+if __name__ == "__main__":
+    # Define a list of numbers
+    numbers = [i for i in range(1, 11)]
+
+    # Create a pool of processes
+    pool = multiprocessing.Pool(processes=4)
+
+    # Map the square function to the list of numbers
+    results = pool.map(square, numbers)
+
+    # Print the results
+    print(results)
+
+    # Measure the time taken for the parallel processing
+    start_time = time.time()
+    pool.close()
+    pool.join()
+    end_time = time.time()
+
+    # Print the time taken
+    print("Time taken:", end_time - start_time)
+4
+python
+import threading
+import time
+
+def thread_function(num):
+    for i in range(num):
+        print("Thread", num, "is running")
+        time.sleep(1)
+
+if __name__ == "__main__":
+    threads = []
+    for i in range(5):
+        thread = threading.Thread(target=thread_function, args=(i,))
+        thread.start()
+        threads.append(thread)
+
+    for thread in threads:
+        thread.join()
+
+    print("All threads have completed")
+5
+python
+import threading
+import time
+
+def thread_function(num):
+    for i in range(num):
+        print("Thread:", i)
+        time.sleep(1)
+
+if __name__ == "__main__":
+    # Create a list of threads
+    threads = []
+
+    # Start a thread for each number from 0 to 4
+    for i in range(5):
+        thread = threading.Thread(target=thread_function, args=(i,))
+        threads.append(thread)
+
+    # Start all threads
+    for thread in threads:
+        thread.start()
+
+    # Wait for all threads to complete
+    for thread in threads:
+        thread.join()
+
+    print("Main:", "Finished")
+6
+python
+import multiprocessing
+
+def square(x):
+    return x ** 2
+
+if __name__ == "__main__":
+    # Create a list of processes
+    processes = []
+
+    # Create a list of tasks
+    tasks = [square(i) for i in range(10)]
+
+    # Start the processes
+    for i in range(len(tasks)):
+        process = multiprocessing.Process(target=tasks[i])
+        processes.append(process)
+
+    # Wait for the processes to complete
+    for process in processes:
+        process.start()
+        process.join()
+
+    # Print the results
+    print(tasks)
+7
+python
+import threading
+import time
+
+# Define a shared variable
+shared_variable = 0
+
+# Define two threads
+thread1 = threading.Thread(target=lambda:
+    for i in range(10):
+        shared_variable += 1
+        time.sleep(0.1)
+)
+
+thread2 = threading.Thread(target=lambda:
+    for i in range(10):
+        shared_variable -= 1
+        time.sleep(0.1)
+)
+
+# Start the threads
+thread1.start()
+thread2.start()
+
+# Wait for the threads to complete
+thread1.join()
+thread2.join()
+
+# Print the final value of shared_variable
+print(shared_variable)
+8
+python
+import threading
+
+def thread1(lock):
+    lock.acquire()
+    print("Thread 1 acquired the lock")
+    time.sleep(2)
+    lock.release()
+    print("Thread 1 released the lock")
+
+def thread2(lock):
+    lock.acquire()
+    print("Thread 2 acquired the lock")
+    time.sleep(2)
+    lock.release()
+    print("Thread 2 released the lock")
+
+if __name__ == "__main__":
+    lock = threading.Lock()
+    thread1(lock)
+    thread2(lock)
+
+    print("Main program completed")
+9
+python
+# True and resource demonstration
+
+# Define a resource
+resource = True
+
+# Use the resource
+if resource:
+    print("Resource is available")
+
+# Release the resource
+resource = False
+
+# Check if the resource is released
+if not resource:
+    print("Resource is released")
+10
+python
+import threading
+import time
+
+# Define a function to be threaded
+def thread(num):
+    for i in range(num):
+        print("Thread:", num, "is running")
+        time.sleep(1)
+
+# Create a list of threads
+threads = []
+
+# Start multiple threads
+for i in range(5):
+    thread_num = i + 1
+    thread(thread_num)
+    threads.append(thread_num)
+
+# Wait for all threads to complete
+for thread_num in threads:
+    print("Thread", thread_num, "has completed")
+
+print("All threads have completed")
+11
+python
+import threading
+import time
+
+# Define a shared resource
+shared_data = 0
+
+# Create a mutex
+mutex = threading.Lock()
+
+# Define a function to increment the shared resource
+def increment(n):
+    for _ in range(n):
+        # Acquire the mutex
+        with mutex:
+            shared_data += 1
+
+# Create two threads
+thread1 = threading.Thread(target=increment, args=(1000,))
+thread2 = threading.Thread(target=increment, args=(1000,))
+
+# Start the threads
+thread1.start()
+thread2.start()
+
+# Wait for the threads to complete
+thread1.join()
+thread2.join()
+
+# Print the shared resource
+print("Shared data:", shared_data)
+12
+python
+import threading
+import semaphore
+
+# Define a semaphore with a value of 5
+sema = semaphore.Semaphore(5)
+
+# Define a function that will wait for the semaphore
+def worker(name):
+    # Acquire the semaphore
+    sema.acquire()
+
+    # Simulate some work
+    print(name + " is working")
+
+    # Release the semaphore
+    sema.release()
+
+# Create a list of threads
+threads = []
+
+# Create and start each thread
+for i in range(10):
+    thread = threading.Thread(target=worker, args=("Thread %d" % i))
+    thread.start()
+    threads.append(thread)
+
+# Wait for all threads to complete
+for thread in threads:
+    thread.join()
+
+# Print completion message
+print("All threads completed")
+13
+python
+import contextlib
+
+@contextlib.contextmanager
+def my_context():
+    print("Entering context")
+    yield
+    print("Leaving context")
+
+with my_context():
+    print("Inside context")
+
+print("Outside context")
+14
+python
+import gc
+
+# Define a class to demonstrate garbage collection
+class Person:
+    def __init__(self, name, age):
+        self.name = name
+        self.age = age
+
+    def __del__(self):
+        print("Goodbye,", self.name)
+
+# Create a few Person objects
+person1 = Person("John Doe", 25)
+person2 = Person("Jane Doe", 30)
+person3 = Person("Bob Doe", 40)
+
+# The following line will cause person2 to be garbage collected
+person2 = None
+
+# Run the garbage collector
+gc.collect()
+
+# Check if person2 has been garbage collected
+if person2 is None:
+    print("Person 2 has been garbage collected")
+
+# Output
+# Goodbye, Jane Doe
+# Person 2 has been garbage collected
+15
+python
+import sys
+import gc
+
+# Define a class to demonstrate memory management
+class LargeObject:
+    def __init__(self, size):
+        self.data = chr(size) * size
+
+    def __del__(self):
+        print("Destroyed:", self)
+
+# Create a large object
+large_object = LargeObject(100000)
+
+# Use the object
+print("Large object:", large_object)
+
+# Force garbage collection
+gc.collect()
+
+# Check if the object is still alive
+if large_object is not None:
+    print("Large object is still alive")
+
+# Print the memory usage before and after garbage collection
+print("Memory usage before garbage collection:", sys.getsizeof(large_object))
+print("Memory usage after garbage collection:", sys.getsizeof(large_object))
+
+# Delete the object
+del large_object
+
+# Check if the object is destroyed
+if large_object is None:
+    print("Large object is destroyed")
+
+# Print the memory usage after deletion
+print("Memory usage after deletion:", sys.getsizeof(large_object))
+17
+python
+True and False
+
+# True and False are boolean values in Python that represent true and false values, respectively.
+
+print(True and False)  # Output: False
+
+# The asterisk (*) operator can be used to convert a boolean value to an integer.
+
+print(int(True))  # Output: 1
+
+print(int(False))  # Output: 0
+18
+python
+# This Python program demonstrates the use of True and False
+
+# Define a boolean variable
+is_active = True
+
+# Check if the variable is True
+if is_active:
+    print("The variable is True")
+
+# Check if the variable is False
+if not is_active:
+    print("The variable is False")
+
+# Print the value of the variable
+print("The value of the variable is:", is_active)
+19
+python
+# This Python program demonstrates the use of True and //.
+
+# Define a boolean variable.
+is_active = True
+
+# Perform integer division with the // operator.
+result = 10 // 3
+
+# Print the result.
+print(result)
+
+# Print the boolean variable.
+print(is_active)
+20
+python
+# This Python program demonstrates the use of True and %.
+
+print(True and 5 > 4)  # Output: True
+
+print(True and 5 > 6)  # Output: False
+
+print(True and 3.14159 > 3.14159)  # Output: True
+
+print(True and "a" == "a")  # Output: True
+
+print(True and 0 == 0)  # Output: True
+
+print(True and "")  # Output: False
+
+print(True and None)  # Output: False
+21
+python
+# This Python program demonstrates the use of True and False
+
+# Define a boolean variable
+is_active = True
+
+# Check if the variable is True
+if is_active:
+    print("The variable is True")
+
+# Check if the variable is False
+if not is_active:
+    print("The variable is False")
+
+# Print the value of the variable
+print("The value of the variable is:", is_active)
+22
+python
+# This Python program demonstrates the use of True and =
+
+# Define a boolean variable
+is_active = True
+
+# Assign a value to the variable
+is_active = False
+
+# Check if the variable is True
+if is_active:
+    print("The variable is True")
+
+# Check if the variable is equal to True
+if is_active == True:
+    print("The variable is equal to True")
+
+# Output
+# The variable is True
+# The variable is equal to True
+23
+python
+# True and == Operator
+
+# Define two variables
+a = True
+b = True
+
+# Check if the two variables are equal
+print(a == b)  # Output: True
+
+# Check if the two variables are the same object
+print(a is b)  # Output: False
+24
+python
+# This Python program demonstrates the use of True and !=
+
+# Define a variable
+my_bool = True
+
+# Check if the variable is True
+if my_bool is True:
+  print("my_bool is True")
+
+# Check if the variable is not True
+if my_bool != True:
+  print("my_bool is not True")
+25
+python
+# This Python program demonstrates the use of True and False
+
+# Define a boolean variable
+is_active = True
+
+# Check if the variable is True
+if is_active:
+    print("The variable is True")
+
+# Check if the variable is False
+if not is_active:
+    print("The variable is False")
+
+# Print the value of the variable
+print("The value of the variable is:", is_active)
+26
+python
+# This Python program demonstrates the use of True and > operators
+
+# Define a boolean variable
+is_active = True
+
+# Compare the boolean variable to a numeric value
+if is_active > 0:
+    print("The variable is greater than 0")
+
+# Output:
+# The variable is greater than 0
+27
+python
+# This Python program demonstrates the use of True and <=
+
+# Define a variable
+x = 5
+
+# Check if x is greater than or equal to 4
+if x >= 4:
+    print("x is greater than or equal to 4")
+
+# Check if x is True
+if x is True:
+    print("x is True")
+
+# Print the value of x
+print("The value of x is:", x)
+28
+python
+# This Python program demonstrates the use of True and >=
+
+# Define a boolean variable
+is_greater_than_five = True
+
+# Check if the variable is greater than or equal to 5
+if is_greater_than_five >= 5:
+  print("The variable is greater than or equal to 5")
+
+# Output
+# The variable is greater than or equal to 5
+29
+python
+# This Python program demonstrates the use of True and +=
+
+# Define a variable
+x = 10
+
+# Check if x is True
+if x is True:
+  print("x is True")
+
+# Add 5 to x
+x += 5
+
+# Print the value of x
+print("The value of x is:", x)
+31
+python
+x = True
+y = 5
+
+# Demonstrate True and *=
+x *= y
+print(x)  # Output: True
+
+# Demonstrate True and *= with integer multiplication
+x *= y
+print(x)  # Output: 5 True
+32
+python
+# This Python program demonstrates the use of True and /= operators
+
+# Define a variable
+x = 10
+
+# Check if x is True
+if x:
+    print("x is True")
+
+# Divide x by 2 and store the result in y
+y = x / 2
+
+# Print the value of y
+print("The value of y is:", y)
+33
+python
+# This Python program demonstrates the use of True and //=
+
+# Define a boolean variable
+my_bool = True
+
+# Use True to control a loop
+for i in range(10) if my_bool else []
+
+# Demonstrate the use of //=
+a = 10
+a //= 2
+
+# Print the value of a
+print(a)
+
+# Output:
+# 5
+34
+python
+# This Python program demonstrates the use of True and %=.
+
+# Define a boolean variable
+my_bool = True
+
+# Use True to control a conditional statement
+if my_bool:
+    print("The boolean variable is True")
+
+# Use True to assign a boolean value to a variable
+my_variable = True
+
+# Use True and %= to modify a variable
+my_variable %= True
+
+# Print the value of my_variable
+print(my_variable)
+35
+python
+# This Python program demonstrates the use of True and ==.
+
+# Declare a boolean variable.
+my_bool = True
+
+# Check if the variable is True.
+if my_bool is True:
+    print("my_bool is True")
+
+# Compare two boolean variables.
+if my_bool == True:
+    print("my_bool is equal to True")
+
+# Output:
+# my_bool is True
+# my_bool is equal to True
+36
+python
+# This Python program demonstrates the use of True and False
+
+# Define a boolean variable
+is_active = True
+
+# Print the value of the variable
+print(is_active)
+
+# Check if the variable is True
+if is_active:
+    print("The variable is True")
+
+# Check if the variable is False
+if not is_active:
+    print("The variable is False")
+37
+python
+# This Python program demonstrates the use of True and |
+
+# Define a boolean variable
+is_active = True
+
+# Use True to control a conditional statement
+if is_active:
+    print("The program is active.")
+
+# Use True to short-circuit an OR statement
+if is_active or False:
+    print("The program is active.")
+
+# Use True to compare with another boolean value
+if is_active is True:
+    print("The program is active.")
+
+# Use True to perform a logical OR operation
+print(True | False)  # Output: True
+38
+python
+# This Python program demonstrates the use of True and ^ operators
+
+# Define a boolean variable
+is_active = True
+
+# Use True to check if a condition is true
+if is_active:
+    print("The condition is true")
+
+# Use True to negate a boolean value
+not_active = not is_active
+
+# Use the XOR operator (^ ) to toggle the value of is_active
+is_active ^= True
+
+# Print the updated value of is_active
+print("The updated value of is_active is:", is_active)
+39
+python
+# This Python program demonstrates the use of True and ~.
+
+# Define a boolean variable.
+my_bool = True
+
+# Print the value of the variable.
+print(my_bool)
+
+# Invert the boolean value.
+inverted_bool = ~my_bool
+
+# Print the inverted value.
+print(inverted_bool)
+
+# Check if the inverted value is False.
+if inverted_bool is False:
+    print("Inverted bool is False")
+
+# Check if the original value is True.
+if my_bool is True:
+    print("Original bool is True")
+40
+python
+print(True and 5 > 3)
+print(True and "a" < "c")
+print(True and 10 == 10)
+
+print(True << 1)
+print(True << 2)
+print(True << 3)
+41
+python
+# This Python program demonstrates the use of True and >> operators
+
+# Define a boolean variable
+is_active = True
+
+# Use True to control a conditional statement
+if is_active:
+    print("The system is active")
+
+# Use True to compare two values
+if is_active == True:
+    print("The system is active")
+
+# Use True to perform a logical OR operation
+if is_active or False:
+    print("The system is active")
+
+# Use True to shift bits right
+print(True >> 1)
+
+# Output:
+# The system is active
+# The system is active
+# The system is active
+# 1
+42
+python
+# This Python program demonstrates the use of True and and
+
+# Define a boolean variable
+is_active = True
+
+# Use True and to check if two conditions are true
+if is_active and 10 > 5:
+    print("Both conditions are true")
+
+# Output
+# Both conditions are true
+43
+python
+# This Python program demonstrates the use of True and or
+
+# Define a function to check if a number is even
+def is_even(n):
+  return n % 2 == 0
+
+# Check if a number is even using True and or
+if is_even(4) or is_even(6):
+  print("The number is even")
+
+# Check if a number is even using True and or
+if is_even(5) or is_even(7):
+  print("The number is not even")
+44
+python
+# This Python program demonstrates the use of True and not
+
+# Define a boolean variable
+my_bool = True
+
+# Check if the variable is True
+if my_bool is True:
+    print("my_bool is True")
+
+# Check if the variable is not True
+if my_bool is not True:
+    print("my_bool is not True")
+
+# Output
+# my_bool is True
+# my_bool is not True
+45
+python
+# This Python program demonstrates the use of True and in
+
+# Create a list of numbers
+numbers = [1, 2, 3, 4, 5]
+
+# Check if 3 is in the list
+if 3 in numbers:
+  print("3 is in the list")
+
+# Check if True is equal to True
+if True == True:
+  print("True is equal to True")
+46
+python
+# True and is operators in python
+
+# True is a boolean value that evaluates to True in boolean expressions
+print(True)  # Output: True
+
+# is operator compares two objects for identity
+a = 10
+b = 10
+
+print(a is b)  # Output: True
+
+# is operator does not work with objects of different classes
+print(str is int)  # Output: False
+47
+python
+# True and False boolean values
+
+# True is a boolean value that evaluates to True in logical operations
+print(True)  # Output: True
+
+# False is a boolean value that evaluates to False in logical operations
+print(False)  # Output: False
+
+# Comparisons with True and False
+
+a = True
+b = False
+
+print(a == True)  # Output: True
+print(b == False)  # Output: True
+
+# Logical operations with True and False
+
+print(True and False)  # Output: False
+print(True or False)  # Output: True
+
+# Truthful and Falsy expressions
+
+print(10 > 5)  # Output: True
+print(0 == 0)  # Output: True
+
+# Falsy expressions
+
+print(0 == 1)  # Output: False
+print(None == None)  # Output: True
+
+# Additional notes
+
+# True and False are immutable constants in Python
+
+# You should not reassign True or False to other variables, as it can lead to unexpected behavior
+
+# True and False are used in many Python programs for conditional statements and logical operations
+48
+python
+# This Python program demonstrates the use of True and False
+
+# Declare a boolean variable
+my_bool = True
+
+# Check if the variable is True
+if my_bool is True:
+    print("my_bool is True")
+
+# Check if the variable is False
+if my_bool is False:
+    print("my_bool is False")
+
+# Print the value of my_bool
+print("The value of my_bool is:", my_bool)
+49
+python
+# True and False Boolean Values
+
+# True is a boolean value that evaluates to True in boolean expressions
+print(True)  # Output: True
+
+# False is a boolean value that evaluates to False in boolean expressions
+print(False)  # Output: False
+
+# Operator 'not' inverts a boolean value
+print(not True)  # Output: False
+
+# Operator '==' compares two boolean values for equality
+print(True == True)  # Output: True
+
+# Operator '!=' compares two boolean values for inequality
+print(True != False)  # Output: True
+
+# Operator 'and' combines two boolean values into a single boolean value
+print(True and False)  # Output: False
+
+# Operator 'or' combines two boolean values into a single boolean value
+print(True or False)  # Output: True
+50
+python
+# This Python program demonstrates the use of True and False
+
+# Declare a variable and assign it a boolean value
+my_bool = True
+
+# Check if the variable is True
+if my_bool:
+    print("The variable is True")
+
+# Check if the variable is False
+if not my_bool:
+    print("The variable is False")
+
+# Print the value of the variable
+print("The value of the variable is:", my_bool)
+51
+python
+# True and []
+
+# True is a boolean value that evaluates to True
+
+print(True)  # Output: True
+
+# [] is an empty list
+
+print([])  # Output: []
+
+# True and [] are not equal
+
+print(True == [])  # Output: False
+52
+python
+# This Python program demonstrates the use of True and {}
+
+# Declare a boolean variable
+is_active = True
+
+# Create an empty dictionary
+my_dict = {}
+
+# Print the values of is_active and my_dict
+print("is_active:", is_active)
+print("my_dict:", my_dict)
+
+# Assign key-value pairs to my_dict
+my_dict["name"] = "John Doe"
+my_dict["age"] = 30
+
+# Print the updated my_dict
+print("my_dict:", my_dict)
+53
+python
+# This Python program demonstrates the use of True and False
+
+# Define a boolean variable
+is_active = True
+
+# Print the value of the variable
+print(is_active)
+
+# Check if the variable is True
+if is_active:
+    print("The variable is True")
+
+# Check if the variable is False
+if not is_active:
+    print("The variable is False")
+54
+python
+# This Python program demonstrates the use of True and ;
+
+print(True)  # Output: True
+print(True;)  # Output: True
+
+a = True
+print(a)  # Output: True
+
+a = True
+print(a)  # Output: True
+55
+python
+# This Python program demonstrates the use of and and as
+
+# Define a function called my_function
+def my_function(x, y):
+    print(x and y)  # Prints True if x and y are both True
+    print(x or y)  # Prints True if either x or y is True
+    print(x is not y)  # Prints True if x is not equal to y
+
+# Call the function with different arguments
+my_function(True, True)
+my_function(True, False)
+my_function(False, True)
+my_function(False, False)
+
+# Assign a variable to a function
+my_function_object = my_function
+
+# Call the function through the object
+my_function_object(True, True)
+56
+python
+# This Python program demonstrates the use of and and assert
+
+# Define a function to check if a number is even
+def is_even(num):
+    return num % 2 == 0
+
+# Assert that the function returns True for even numbers
+assert is_even(0)
+assert is_even(2)
+assert is_even(4)
+
+# Assert that the function returns False for odd numbers
+assert not is_even(1)
+assert not is_even(3)
+assert not is_even(5)
+57
+python
+import asyncio
+
+async def hello(name):
+    print(f"Hello, {name}")
+
+async def main():
+    # Create a list of coroutines
+    coros = [hello(i) for i in ["Alice", "Bob", "Charlie"]]
+
+    # Run the coroutines in parallel
+    await asyncio.gather(*coros)
+
+    # Print the results
+    print("All coroutines have completed")
+
+asyncio.run(main())
+58
+python
+async def my_function():
+    # Use await to get the result of an asynchronous function
+    await print("Hello, world!")
+
+# Use and to execute multiple asynchronous functions in parallel
+async def main():
+    my_function()
+    print("Continuing with the main function...")
+
+# Execute the main function
+main()
+59
+python
+# This Python program demonstrates the use of and and break
+
+# Define a function called "my_function"
+def my_function():
+    # Loop over a range of numbers from 1 to 10
+    for num in range(1, 11):
+        # Check if the number is divisible by both 2 and 3
+        if num % 2 == 0 and num % 3 == 0:
+            # Break out of the loop
+            break
+        # Print the number
+        print(num)
+
+# Call the "my_function" function
+my_function()
+
+# Output:
+# 6
+60
+python
+# Define a class called Employee
+class Employee:
+    def __init__(self, name, salary):
+        self.name = name
+        self.salary = salary
+
+    def get_salary(self):
+        return self.salary
+
+    def raise_salary(self, percentage):
+        self.salary *= (1 + percentage)
+
+# Create an instance of the Employee class
+employee = Employee("John Doe", 50000)
+
+# Print the employee's name and salary
+print("Name:", employee.name)
+print("Salary:", employee.get_salary())
+
+# Raise the employee's salary by 10%
+employee.raise_salary(0.1)
+
+# Print the employee's new salary
+print("New Salary:", employee.get_salary())
+61
+python
+# This Python program demonstrates the use of and and continue
+
+# Define a function called my_function
+def my_function(num):
+    # If the number is even and divisible by 3, continue
+    if num % 2 == 0 and num % 3 == 0:
+        continue
+
+    # Print the number
+    print(num)
+
+# Iterate over a range of numbers from 1 to 10
+for num in range(1, 11):
+    # Call the my_function function
+    my_function(num)
+62
+python
+def hello(name):
+  print("Hello, " + name)
+
+and_statement = True and False
+
+if and_statement and hello( "John"):
+  print("John says hello!")
+
+print("End of program")
+63
+python
+# This Python program demonstrates the use of and and del keywords
+
+# Define a list of numbers
+numbers = [1, 2, 3, 4, 5]
+
+# Use the and keyword to check if all elements in the list are greater than 3
+all_greater_than_3 = and(x > 3 for x in numbers)
+
+# Print the result
+print(all_greater_than_3)
+
+# Delete the element 2 from the list
+del numbers[1]
+
+# Print the updated list
+print(numbers)
+64
+python
+# This Python program demonstrates the use of and and elif statements.
+
+# Define a function to check if a number is even and divisible by 3.
+def is_even_and_ divisible_by_3(num):
+    # Check if the number is even.
+    is_even = num % 2 == 0
+
+    # Check if the number is divisible by 3.
+    is_ divisible_by_3 = num % 3 == 0
+
+    # If the number is even and divisible by 3, return True.
+    return is_even and is_ divisible_by_3
+
+# Check if 12 is even and divisible by 3.
+if is_even_and_ divisible_by_3(12):
+    print("12 is even and divisible by 3.")
+
+# Check if 15 is even and divisible by 3.
+elif is_even_and_ divisible_by_3(15):
+    print("15 is not even but divisible by 3.")
+
+# Otherwise, print an error message.
+else:
+    print("Error: The number is not even or divisible by 3.")
+65
+python
+# This Python program demonstrates the use of and and else
+
+# Define a function called check_age
+def check_age(age):
+  # If the age is greater than 18, return True
+  if age > 18:
+    return True
+  # Otherwise, return False
+  else:
+    return False
+
+# Get the user's age
+user_age = int(input("What is your age? "))
+
+# Check if the user is eligible to vote
+if check_age(user_age):
+  print("You are eligible to vote.")
+else:
+  print("You are not eligible to vote.")
+66
+python
+# This Python program demonstrates the use of and and except
+
+# Define a function called 'divide'
+def divide(x, y):
+    try:
+        return x / y
+    except ZeroDivisionError:
+        print("Cannot divide by zero")
+
+# Get two numbers from the user
+num1 = float(input("Enter the first number: "))
+num2 = float(input("Enter the second number: "))
+
+# Try to divide the two numbers
+try:
+    result = divide(num1, num2)
+    print("The result is:", result)
+except ZeroDivisionError:
+    print("Error: Cannot divide by zero")
+
+# End of program
+67
+python
+# Define a function with try, except, and finally blocks
+def foo():
+    try:
+        print("Inside try block")
+        raise ValueError("Error occurred")
+    except ValueError as e:
+        print("Inside except block, error:", e)
+    finally:
+        print("Inside finally block")
+
+# Call the function
+foo()
+
+# Output:
+# Inside try block
+# Inside except block, error: Traceback (most recent call last):
+#   File "program.py", line 4, in foo
+#     raise ValueError("Error occurred")
+# Inside finally block
+68
+python
+# This Python program demonstrates the use of and and for
+
+# Define a list of numbers
+numbers = [1, 2, 3, 4, 5]
+
+# Use and to check if each number is greater than 2 and less than 5
+for number in numbers:
+    if number > 2 and number < 5:
+        print(number)
+69
+python
+# Demonstration of and and from keywords in Python
+
+# Define a function called "my_function"
+def my_function(x, y):
+    print("The value of x is:", x)
+    print("The value of y is:", y)
+
+# Use the and keyword to check if x is greater than 5 and y is less than 10
+if x > 5 and y < 10:
+    print("Both conditions are true")
+
+# Use the from keyword to import a module called "my_module"
+from my_module import my_function
+
+# Call the "my_function" function
+my_function(10, 5)
+70
+python
+# Demonstration of and and global keywords
+
+# Global variable
+global_variable = 10
+
+# Local variable
+local_variable = 20
+
+# Local function
+def local_function():
+    local_variable = 30
+    print("Local variable:", local_variable)
+
+# Global function
+def global_function():
+    print("Global variable:", global_variable)
+
+# Calling local and global functions
+local_function()
+global_function()
+
+# Output
+# Local variable: 30
+# Global variable: 10
+71
+python
+# This Python program demonstrates the use of and and if
+
+# Define a function to check if a number is even and divisible by 5
+def is_even_and_ divisible_by_5(num):
+    # Check if the number is even
+    is_even = num % 2 == 0
+
+    # Check if the number is divisible by 5
+    is_ divisible_by_5 = num % 5 == 0
+
+    # If the number is even and divisible by 5, return True
+    return is_even and is_ divisible_by_5
+
+# Check if 10 is even and divisible by 5
+if is_even_and_ divisible_by_5(10):
+    print("10 is even and divisible by 5")
+
+# Check if 15 is even and divisible by 5
+if is_even_and_ divisible_by_5(15):
+    print("15 is even and divisible by 5")
+72
+python
+# Import the necessary library
+import random
+
+# Demonstrate the use of and operator
+a = 10
+b = 20
+
+if a > 5 and b < 25:
+    print("The value of a is greater than 5 and the value of b is less than 25")
+
+# Use the imported library to generate a random number
+x = random.randint(1, 10)
+
+# Print the random number
+print("The random number is:", x)
+73
+python
+# This Python program demonstrates the use of and and in operators
+
+# Define a list of numbers
+numbers = [1, 2, 3, 4, 5]
+
+# Check if the number 3 is in the list
+if 3 in numbers:
+    print("3 is in the list")
+
+# Check if all numbers in the list are greater than 2
+for num in numbers:
+    if num > 2:
+        print(num + " is greater than 2")
+
+# Print the numbers in the list
+print("The numbers in the list are:")
+for num in numbers:
+    print(num)
+74
+python
+# This Python program demonstrates the use of and and is operators
+
+# Define a function to check if a number is even and divisible by 3
+def is_even_and_ divisible_by_3(number):
+    # Check if the number is even
+    is_even = number % 2 == 0
+
+    # Check if the number is divisible by 3
+    is_ divisible_by_3 = number % 3 == 0
+
+    # Return True if both conditions are met
+    return is_even and is_ divisible_by_3
+
+# Print the results of the function
+print(is_even_and_ divisible_by_3(6))  # Output: True
+print(is_even_and_ divisible_by_3(9))  # Output: False
+75
+python
+# Define a function using lambda
+double = lambda x: x * 2
+
+# Use the function with and
+print(double(5) and double(10))
+
+# Output: True
+76
+python
+def outer():
+    a = 10
+    def inner():
+        nonlocal a
+        a += 1
+        print(a)
+    inner()
+
+outer()
+77
+python
+# This Python program demonstrates the use of and and not operators
+
+# Define a boolean variable
+is_active = True
+
+# Use and operator to check if is_active and another condition are true
+if is_active and 5 > 3:
+  print("Both conditions are true")
+
+# Use not operator to negate the boolean variable
+if not is_active:
+  print("is_active is false")
+
+# Print the value of is_active
+print("The value of is_active is:", is_active)
+78
+python
+# This Python program demonstrates the use of and and or operators
+
+# Define a function to check if a number is even or divisible by 3
+def is_even_or_ divisible_by_3(num):
+    return num % 2 == 0 or num % 3 == 0
+
+# Check if 6 is even or divisible by 3
+if is_even_or_ divisible_by_3(6):
+    print("6 is even or divisible by 3")
+
+# Check if 9 is even or divisible by 3
+if is_even_or_ divisible_by_3(9):
+    print("9 is even or divisible by 3")
+
+# Check if 12 is even or divisible by 3
+if is_even_or_ divisible_by_3(12):
+    print("12 is even or divisible by 3")
+79
+python
+def and_pass(a, b):
+    print(a and b)
+    pass
+
+a = True
+b = False
+
+and_pass(a, b)
+80
+python
+def divide(x, y):
+    try:
+        result = x / y
+    except ZeroDivisionError:
+        print("Cannot divide by zero")
+    else:
+        print(result)
+
+divide(10, 2)
+divide(10, 0)
+81
+python
+def check_even(num):
+  """Checks if a number is even.
+
+  Args:
+    num: The number to check.
+
+  Returns:
+    True if num is even, False otherwise.
+  """
+
+  return num % 2 == 0
+
+
+# Example usage:
+if check_even(8):
+  print("8 is even")
+else:
+  print("8 is not even")
+82
+python
+# Demonstrate the use of and and try
+
+# Define a function to check if a number is even and divisible by 3
+def is_even_and_ divisible_by_3(num):
+    return num % 2 == 0 and num % 3 == 0
+
+
+# Try to check if 12 is even and divisible by 3
+try:
+    if is_even_and_ divisible_by_3(12):
+        print("12 is even and divisible by 3")
+except:
+    print("Error occurred")
+
+
+# Try to check if 15 is even and divisible by 3
+try:
+    if is_even_and_ divisible_by_3(15):
+        print("15 is even and divisible by 3")
+except:
+    print("Error occurred")
+83
+python
+# This Python program demonstrates the use of AND and WHILE loops.
+
+# Define a function to check if a number is even.
+def is_even(n):
+  return n % 2 == 0
+
+# Initialize a variable to track the number of even numbers found.
+even_count = 0
+
+# While the number of even numbers found is less than 10, continue looping.
+while even_count < 10:
+  # Get a random number between 1 and 100.
+  number = rand.randint(1, 100)
+
+  # If the number is even, increment the even_count.
+  if is_even(number):
+    even_count += 1
+
+# Print the number of even numbers found.
+print("The number of even numbers found is:", even_count)
+84
+python
+with open("example.txt") as f:
+    print(f.read())
+
+# The file is closed automatically when the with block ends
+85
+python
+def even_numbers(n):
+    """Yields even numbers from 1 to n."""
+
+    for i in range(1, n + 1):
+        if i % 2 == 0:
+            yield i
+
+
+# Create an instance of the even_numbers generator
+even_numbers_gen = even_numbers(10)
+
+# Iterate over the generator and print each element
+for number in even_numbers_gen:
+    print(number)
+86
+python
+# This Python program demonstrates the use of and and abs functions
+
+# Define a function to demonstrate the use of and and abs
+def demonstrate_and_abs(x):
+    # Use the and operator to check if x is greater than 0 and less than 5
+    if x > 0 and x < 5:
+        # Print x is greater than 0 and less than 5
+        print("x is greater than 0 and less than 5")
+
+    # Use the abs function to find the absolute value of x
+    abs_x = abs(x)
+    # Print the absolute value of x
+    print("The absolute value of x is:", abs_x)
+
+# Demonstrate the use of and and abs functions
+demonstrate_and_abs(3)
+demonstrate_and_abs(-2)
+87
+python
+# This Python program demonstrates the use of and and all
+
+# Define a list of numbers
+numbers = [1, 2, 3, 4, 5]
+
+# Check if all numbers in the list are greater than 2 using the all function and and operator
+if all(number > 2 for number in numbers) and numbers:
+    print("All numbers in the list are greater than 2")
+
+# Check if the first two numbers in the list are even using the and operator
+if numbers[0] % 2 == 0 and numbers[1] % 2 == 0:
+    print("The first two numbers in the list are even")
+88
+python
+# This Python program demonstrates the use of and and any
+
+# Create a list of numbers
+numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+
+# Check if all numbers in the list are greater than 5
+all_greater_than_5 =  all(x > 5 for x in numbers)
+
+# Check if any number in the list is greater than 5
+any_greater_than_5 =  any(x > 5 for x in numbers)
+
+# Print the results
+print("All numbers greater than 5:", all_greater_than_5)
+print("Any number greater than 5:", any_greater_than_5)
+89
+python
+# This Python program demonstrates the use of and and ASCII characters.
+
+# Print ASCII characters.
+print(ASCII(65))  # Output: 65
+print(ASCII('A'))  # Output: 65
+
+# Use and operator.
+a = 5
+b = 10
+
+if a > 5 and b < 15:
+    print("The value of a is greater than 5 and the value of b is less than 15.")
+
+# Output: The value of a is greater than 5 and the value of b is less than 15.
+90
+python
+# This Python program demonstrates the use of and and bin operators
+
+# Define a variable
+x = 10
+
+# Use the and operator to check if x is greater than 5 and less than 15
+if x > 5 and x < 15:
+    print("x is greater than 5 and less than 15")
+
+# Use the bin operator to get the binary representation of x
+print(bin(x))
+91
+python
+# This Python program demonstrates the use of and and bool
+
+# Define a function to check if a number is even and divisible by 3
+def is_even_and_ divisible_by_3(num):
+    # Check if the number is even
+    is_even = num % 2 == 0
+
+    # Check if the number is divisible by 3
+    is_ divisible_by_3 = num % 3 == 0
+
+    # Return True if both conditions are met, False otherwise
+    return is_even and is_ divisible_by_3
+
+# Check if 12 is even and divisible by 3
+is_even_and_ divisible_by_3(12)
+
+# Output: True
+print(is_even_and_ divisible_by_3(12))
+
+# Check if 15 is even and divisible by 3
+is_even_and_ divisible_by_3(15)
+
+# Output: False
+print(is_even_and_ divisible_by_3(15))
+92
+python
+import numpy as np
+
+# Create a NumPy array of 10 bytes
+arr = np.arange(10).astype(np.uint8)
+
+# Convert the array to a bytearray
+arr_bytearray = np.array(arr).astype(np.uint8).to_bytes()
+
+# Print the data of the bytearray
+print(arr_bytearray)
+
+# Print the elements of the array
+print(arr)
+93
+python
+# This Python program demonstrates the use of and and bytes
+
+# Define a byte variable
+my_byte = 0b1010
+
+# Check if the byte is even using and
+if my_byte & 0b1000 == 0b1000:
+  print("The byte is even")
+
+# Convert the byte to a string
+my_byte_str = bin(my_byte).replace("0b", "")
+
+# Print the binary representation of the byte
+print("The binary representation of the byte is:", my_byte_str)
+94
+python
+def my_function(x):
+    return x * 2
+
+# Demonstrate the use of and
+result = (my_function(5) and 10)  # Output: 10
+
+# Demonstrate the use of callable
+result = callable(my_function(5))  # Output: <function my_function at 0x3f8b7250>
+95
+python
+# This Python program demonstrates the use of the and operator and the chr function.
+
+# Define a character.
+character = chr(97)
+
+# Print the character.
+print(character)
+
+# Check if the character is lowercase.
+if character.islower():
+  print("The character is lowercase.")
+
+# Convert the character to uppercase.
+character_upper = character.upper()
+
+# Print the uppercase character.
+print(character_upper)
+
+# Print the ASCII value of the character.
+print("The ASCII value of the character is:", ord(character))
+96
+python
+class Employee:
+    def __init__(self, name, salary):
+        self.name = name
+        self.salary = salary
+
+    def __str__(self):
+        return f"Name: {self.name}, Salary: ${self.salary}"
+
+    @classmethod
+    def from_salary(cls, salary):
+        return cls(name="John Doe", salary=salary)
+
+# Create an instance of the Employee class
+employee = Employee.from_salary(50000)
+
+# Print the employee information
+print(employee)
+97
+python
+# This Python program demonstrates the use of the and operator and the compile function.
+
+# Define a function called my_function.
+def my_function(x, y):
+    return x > 5 and y < 10
+
+# Compile the function.
+my_function_compiled = compile(my_function.__code__)
+
+# Print the result of the compiled function.
+print(my_function_compiled(6, 8))
+
+# Output: True
+98
+python
+import numpy as np
+
+# Define a complex number
+z = 3 + 4j
+
+# Print the real and imaginary parts of z
+print("Real part:", z.real)
+print("Imag part:", z.imag)
+
+# Print the magnitude and phase of z
+print("Magnitude:", abs(z))
+print("Phase:", np.angle(z))
+
+# Perform operations on z
+w = 2*z + 5j
+
+# Print w
+print("W:")
+print(w)
+99
+python
+# Demonstrate the use of and and delattr
+
+class Employee:
+    def __init__(self, name, salary):
+        self.name = name
+        self.salary = salary
+
+    def __str__(self):
+        return f"Name: {self.name}, Salary: ${self.salary}"
+
+    def increase_salary(self, percent):
+        self.salary *= (1 + percent)
+
+    def __delattr__(self, attribute):
+        if attribute == "salary":
+            print(f"Warning: Attempt to delete attribute 'salary'!")
+
+# Create an employee object
+employee = Employee("John Doe", 50000)
+
+# Print the employee's information
+print(employee)
+
+# Increase the employee's salary by 10%
+employee.increase_salary(0.1)
+
+# Print the employee's information after the salary increase
+print(employee)
+
+# Attempt to delete the employee's salary attribute
+delattr(employee, "salary")
+
+# Print the employee's information after the salary deletion attempt
+print(employee)
+100
+python
+# Create a dictionary
+my_dict = {"name": "John Doe", "age": 30, "occupation": "Software Engineer"}
+
+# Accessing values from the dictionary
+print(my_dict["name"])
+print(my_dict["age"])
+print(my_dict["occupation"])
+
+# Checking if a key is in the dictionary
+if "name" in my_dict:
+    print("The key 'name' is in the dictionary.")
+
+# Iterating over the dictionary
+for key, value in my_dict.items():
+    print("Key: ", key)
+    print("Value: ", value)
+
+# Updating the dictionary
+my_dict["address"] = "123 Main St."
+
+# Printing the updated dictionary
+print(my_dict)
+101
+python
+# This Python program demonstrates the use of and and dir functions
+
+# Define a function called my_function
+def my_function(x):
+    print(x)
+
+# Check if the function is defined and print its attributes
+if my_function is not None and hasattr(my_function, '__doc__'):
+    print("Function is defined and has docstring:")
+    print(my_function.__doc__)
+
+# Print the directory of attributes for the function
+print("Attributes of the function:")
+print(dir(my_function))
+
+# Check if the function has a particular attribute
+if hasattr(my_function, 'x'):
+    print("The function has an attribute called x:")
+    print(my_function.x)
+102
+python
+# This Python program demonstrates the use of the and and divmod operators.
+
+# Define two numbers.
+a = 10
+b = 3
+
+# Use the and operator to check if a and b are both even.
+if a % 2 == 0 and b % 2 == 0:
+    print("a and b are both even")
+
+# Use the divmod operator to find the quotient and remainder when a is divided by b.
+quotient, remainder = divmod(a, b)
+
+# Print the quotient and remainder.
+print("Quotient:", quotient)
+print("Remainder:", remainder)
+103
+python
+# Demonstrating the use of and and enumerate
+
+# Create a list of items
+items = ["apple", "banana", "cherry", "orange"]
+
+# Use enumerate and and to iterate over the list and perform operations on each item
+for index, item in enumerate(items):
+    print(index + 1, item)
+
+# Output:
+# 1 apple
+# 2 banana
+# 3 cherry
+# 4 orange
+104
+python
+# This Python program demonstrates the use of and and eval
+
+# Define a variable
+x = 5
+
+# Use the and operator to check if x is greater than 4 and less than 7
+if x > 4 and x < 7:
+    print("x is greater than 4 and less than 7")
+
+# Use the eval function to evaluate the expression "x + 2"
+y = eval("x + 2")
+
+# Print the value of y
+print("The value of y is:", y)
+105
+python
+# This Python program demonstrates the use of and and exec
+
+# Define a function called 'my_function'
+def my_function(x):
+    print(x)
+
+# Use the and operator to check if x is greater than 5 and y is less than 10
+if x > 5 and y < 10:
+    # Execute the 'my_function' function
+    exec("my_function(5)")
+
+# Print the output
+print("The value of x is:", x)
+print("The value of y is:", y)
+106
+python
+# Define a list of numbers
+numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+
+# Filter out even numbers using the and operator
+even_numbers = filter(lambda x: x % 2 == 0, numbers)
+
+# Print the even numbers
+print(even_numbers)
+107
+python
+# This Python program demonstrates the use of the and and float data types.
+
+# Declare a variable as a float.
+float_var = 3.14159
+
+# Print the value of the float variable.
+print(float_var)
+
+# Use the and operator to compare two boolean values.
+a = True
+b = False
+
+# Print the result of the comparison.
+print(a and b)
+108
+python
+# This Python program demonstrates the use of and and format
+
+# Define a function to format a number
+def format_number(n):
+    # Format the number with a decimal point
+    formatted_number = str(n) + ".2f"
+    # Return the formatted number
+    return formatted_number
+
+# Get the number to format
+number = 12.5
+
+# Format the number
+formatted_number = format_number(number)
+
+# Print the formatted number
+print(formatted_number)
+109
+python
+# Demonstrate the use of and and frozenset
+
+# Create a frozenset of numbers
+frozenset1 = frozenset([1, 2, 3, 4, 5])
+
+# Check if a number is in the frozenset
+print(3 in frozenset1)  # Output: True
+
+# Iterate over the frozenset
+for num in frozenset1:
+    print(num)  # Output: 1 2 3 4 5
+
+# Compare two frozensets
+frozenset2 = frozenset([3, 4, 5, 6, 7])
+
+print(frozenset1 == frozenset2)  # Output: False
+
+# Convert a frozenset to a list
+print(list(frozenset1))  # Output: [1, 2, 3, 4, 5]
+
+# Create a new frozenset with the elements of the first one and add a new element
+frozenset1.add(6)
+
+print(frozenset1)  # Output: frozenset({1, 2, 3, 4, 5, 6})
+110
+python
+import sys
+
+def demo(obj, attr):
+    # Use and operator to check if attr is an attribute of obj
+    if hasattr(obj, attr) and getattr(obj, attr) is not None:
+        print("Attribute:", attr, "Value:", getattr(obj, attr))
+
+# Example usage
+demo(sys.stdout, "name")
+demo(sys.stdout, "write")
+
+# Output
+# Attribute: name Value: None
+# Attribute: write Value: <built-in function write>
+111
+python
+# Demonstrating use of and and globals
+
+# Define a global variable
+global_variable = 10
+
+# Define a function that uses the global variable
+def function_using_global():
+  print("The value of global_variable is:", global_variable)
+
+# Define a function that sets the global variable
+def function_setting_global(new_value):
+  global global_variable
+  global_variable = new_value
+
+# Use the function_using_global function
+function_using_global()
+
+# Output: The value of global_variable is: 10
+
+# Set the global variable to a new value
+function_setting_global(20)
+
+# Use the function_using_global function again
+function_using_global()
+
+# Output: The value of global_variable is: 20
+112
+python
+# This Python program demonstrates the use of and and hasattr functions
+
+# Define a class called Employee
+class Employee:
+    def __init__(self, name, salary):
+        self.name = name
+        self.salary = salary
+
+    def get_salary(self):
+        return self.salary
+
+# Create an instance of the Employee class
+employee = Employee("John Doe", 50000)
+
+# Check if the employee has a salary attribute and if its value is greater than 40000
+if hasattr(employee, "salary") and employee.salary > 40000:
+    print("The employee's salary is greater than 40000.")
+
+# Check if the employee has a salary attribute
+if hasattr(employee, "salary"):
+    print("The employee has a salary attribute.")
+
+# Print the employee's name and salary
+print("Name:", employee.name)
+print("Salary:", employee.get_salary())
+113
+python
+# Demonstrating the use of and and hash
+
+# Define a function to check if a number is even and divisible by 5
+def is_even_and_ divisible_by_5(num):
+    return num % 2 == 0 and num % 5 == 0
+
+# Create a dictionary to store numbers and their hashes
+numbers_dict = {}
+
+# Hash and store each number in the dictionary
+for num in range(1, 11):
+    hash_value = hash(num)
+    numbers_dict[hash_value] = num
+
+# Check if a number is even and divisible by 5 and get its hash
+num = 6
+if is_even_and_ divisible_by_5(num):
+    print("Number:", num)
+    print("Hash:", numbers_dict[hash(num)])
+114
+python
+print("Hello, world!")
+print("The meaning of life is:", 42)
+
+# Check if a number is even
+def is_even(num):
+  return num % 2 == 0
+
+print(is_even(8))  # Output: True
+print(is_even(9))  # Output: False
+
+# Get help on the is_even function
+print(help(is_even))
+115
+python
+# This Python program demonstrates the use of the and and hex functions
+
+# Define a variable with a hexadecimal value74
+python
+# This Python program demonstrates the use of and and is operators
+
+# Define a function to check if a number is even and divisible by 3
+def is_even_and_ divisible_by_3(number):
+    # Check if the number is even
+    is_even = number % 2 == 0
+
+    # Check if the number is divisible by 3
+    is_ divisible_by_3 = number % 3 == 0
+
+    # Return True if both conditions are met
+    return is_even and is_ divisible_by_3
+
+# Print the results of the function
+print(is_even_and_ divisible_by_3(6))  # Output: True
+print(is_even_and_ divisible_by_3(9))  # Output: False
+75
+python
+# Define a function using lambda
+double = lambda x: x * 2
+
+# Use the function with and
+print(double(5) and double(10))
+
+# Output: True
+76
+python
+def outer():
+    a = 10
+    def inner():
+        nonlocal a
+        a += 1
+        print(a)74
+python
+# This Python program demonstrates the use of and and is operators
+
+# Define a function to check if a number is even and divisible by 3
+def is_even_and_ divisible_by_3(number):
+    # Check if the number is even
+    is_even = number % 2 == 0
+
+    # Check if the number is divisible by 3
+    is_ divisible_by_3 = number % 3 == 0
+
+    # Return True if both conditions are met
+    return is_even and is_ divisible_by_3
+
+# Print the results of the function
+print(is_even_and_ divisible_by_3(6))  # Output: True
+print(is_even_and_ divisible_by_3(9))  # Output: False
+75
+python
+# Define a function using lambda
+double = lambda x: x * 2
+
+# Use the function with and
+print(double(5) and double(10))
+
+# Output: True
+76
+python
+def outer():
+    a = 10
+    def inner():
+        nonlocal a
+        a += 1
+        print(a)
+    inner()
+
+outer()
+77
+python
+# This Python program demonstrates the use of and and not operators
+
+# Define a boolean variable
+is_active = True
+
+# Use and operator to check if is_active and another condition are true
+if is_active and 5 > 3:
+  print("Both conditions are true")
+
+# Use not operator to negate the boolean variable
+if not is_active:
+  print("is_active is false")
+
+# Print the value of is_active
+print("The value of is_active is:", is_active)
+78
+python
+# This Python program demonstrates the use of and and or operators
+
+# Define a function to check if a number is even or divisible by 3
+def is_even_or_ divisible_by_3(num):
+    return num % 2 == 0 or num % 3 == 0
+
+# Check if 6 is even or divisible by 3
+if is_even_or_ divisible_by_3(6):
+    print("6 is even or divisible by 3")
+
+# Check if 9 is even or divisible by 3
+if is_even_or_ divisible_by_3(9):
+    print("9 is even or divisible by 3")
+
+# Check if 12 is even or divisible by 3
+if is_even_or_ divisible_by_3(12):
+    print("12 is even or divisible by 3")
+79
+python
+def and_pass(a, b):
+    print(a and b)
+    pass
+
+a = True
+b = False
+
+and_pass(a, b)
+80
+python
+def divide(x, y):
+    try:
+        result = x / y
+    except ZeroDivisionError:
+        print("Cannot divide by zero")
+    else:
+        print(result)
+
+divide(10, 2)
+divide(10, 0)
+81
+python
+def check_even(num):
+  """Checks if a number is even.
+
+  Args:
+    num: The number to check.
+
+  Returns:
+    True if num is even, False otherwise.
+  """
+
+  return num % 2 == 0
+
+
+# Example usage:
+if check_even(8):
+  print("8 is even")
+else:
+  print("8 is not even")
+82
+python
+# Demonstrate the use of and and try
+
+# Define a function to check if a number is even and divisible by 3
+def is_even_and_ divisible_by_3(num):
+    return num % 2 == 0 and num % 3 == 0
+
+
+# Try to check if 12 is even and divisible by 3
+try:
+    if is_even_and_ divisible_by_3(12):
+        print("12 is even and divisible by 3")
+except:
+    print("Error occurred")
+
+
+# Try to check if 15 is even and divisible by 3
+try:
+    if is_even_and_ divisible_by_3(15):
+        print("15 is even and divisible by 3")
+except:
+    print("Error occurred")
+83
+python
+# This Python program demonstrates the use of AND and WHILE loops.
+
+# Define a function to check if a number is even.
+def is_even(n):
+  return n % 2 == 0
+
+# Initialize a variable to track the number of even numbers found.
+even_count = 0
+
+# While the number of even numbers found is less than 10, continue looping.
+while even_count < 10:
+  # Get a random number between 1 and 100.
+  number = rand.randint(1, 100)
+
+  # If the number is even, increment the even_count.
+  if is_even(number):
+    even_count += 1
+
+# Print the number of even numbers found.
+print("The number of even numbers found is:", even_count)
+84
+python
+with open("example.txt") as f:
+    print(f.read())
+
+# The file is closed automatically when the with block ends
+85
+python
+def even_numbers(n):
+    """Yields even numbers from 1 to n."""
+
+    for i in range(1, n + 1):
+        if i % 2 == 0:
+            yield i
+
+
+# Create an instance of the even_numbers generator
+even_numbers_gen = even_numbers(10)
+
+# Iterate over the generator and print each element
+for number in even_numbers_gen:
+    print(number)
+86
+python
+# This Python program demonstrates the use of and and abs functions
+
+# Define a function to demonstrate the use of and and abs
+def demonstrate_and_abs(x):
+    # Use the and operator to check if x is greater than 0 and less than 5
+    if x > 0 and x < 5:
+        # Print x is greater than 0 and less than 5
+        print("x is greater than 0 and less than 5")
+
+    # Use the abs function to find the absolute value of x
+    abs_x = abs(x)
+    # Print the absolute value of x
+    print("The absolute value of x is:", abs_x)
+
+# Demonstrate the use of and and abs functions
+demonstrate_and_abs(3)
+demonstrate_and_abs(-2)
+87
+python
+# This Python program demonstrates the use of and and all
+
+# Define a list of numbers
+numbers = [1, 2, 3, 4, 5]
+
+# Check if all numbers in the list are greater than 2 using the all function and and operator
+if all(number > 2 for number in numbers) and numbers:
+    print("All numbers in the list are greater than 2")
+
+# Check if the first two numbers in the list are even using the and operator
+if numbers[0] % 2 == 0 and numbers[1] % 2 == 0:
+    print("The first two numbers in the list are even")
+88
+python
+# This Python program demonstrates the use of and and any
+
+# Create a list of numbers
+numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+
+# Check if all numbers in the list are greater than 5
+all_greater_than_5 =  all(x > 5 for x in numbers)
+
+# Check if any number in the list is greater than 5
+any_greater_than_5 =  any(x > 5 for x in numbers)
+
+# Print the results
+print("All numbers greater than 5:", all_greater_than_5)
+print("Any number greater than 5:", any_greater_than_5)
+89
+python
+# This Python program demonstrates the use of and and ASCII characters.
+
+# Print ASCII characters.
+print(ASCII(65))  # Output: 65
+print(ASCII('A'))  # Output: 65
+
+# Use and operator.
+a = 5
+b = 10
+
+if a > 5 and b < 15:
+    print("The value of a is greater than 5 and the value of b is less than 15.")
+
+# Output: The value of a is greater than 5 and the value of b is less than 15.
+90
+python
+# This Python program demonstrates the use of and and bin operators
+
+# Define a variable
+x = 10
+
+# Use the and operator to check if x is greater than 5 and less than 15
+if x > 5 and x < 15:
+    print("x is greater than 5 and less than 15")
+
+# Use the bin operator to get the binary representation of x
+print(bin(x))
+91
+python
+# This Python program demonstrates the use of and and bool
+
+# Define a function to check if a number is even and divisible by 3
+def is_even_and_ divisible_by_3(num):
+    # Check if the number is even
+    is_even = num % 2 == 0
+
+    # Check if the number is divisible by 3
+    is_ divisible_by_3 = num % 3 == 0
+
+    # Return True if both conditions are met, False otherwise
+    return is_even and is_ divisible_by_3
+
+# Check if 12 is even and divisible by 3
+is_even_and_ divisible_by_3(12)
+
+# Output: True
+print(is_even_and_ divisible_by_3(12))
+
+# Check if 15 is even and divisible by 3
+is_even_and_ divisible_by_3(15)
+
+# Output: False
+print(is_even_and_ divisible_by_3(15))
+92
+python
+import numpy as np
+
+# Create a NumPy array of 10 bytes
+arr = np.arange(10).astype(np.uint8)
+
+# Convert the array to a bytearray
+arr_bytearray = np.array(arr).astype(np.uint8).to_bytes()
+
+# Print the data of the bytearray
+print(arr_bytearray)
+
+# Print the elements of the array
+print(arr)
+93
+python
+# This Python program demonstrates the use of and and bytes
+
+# Define a byte variable
+my_byte = 0b1010
+
+# Check if the byte is even using and
+if my_byte & 0b1000 == 0b1000:
+  print("The byte is even")
+
+# Convert the byte to a string
+my_byte_str = bin(my_byte).replace("0b", "")
+
+# Print the binary representation of the byte
+print("The binary representation of the byte is:", my_byte_str)
+94
+python
+def my_function(x):
+    return x * 2
+
+# Demonstrate the use of and
+result = (my_function(5) and 10)  # Output: 10
+
+# Demonstrate the use of callable
+result = callable(my_function(5))  # Output: <function my_function at 0x3f8b7250>
+95
+python
+# This Python program demonstrates the use of the and operator and the chr function.
+
+# Define a character.
+character = chr(97)
+
+# Print the character.
+print(character)
+
+# Check if the character is lowercase.
+if character.islower():
+  print("The character is lowercase.")
+
+# Convert the character to uppercase.
+character_upper = character.upper()
+
+# Print the uppercase character.
+print(character_upper)
+
+# Print the ASCII value of the character.
+print("The ASCII value of the character is:", ord(character))
+96
+python
+class Employee:
+    def __init__(self, name, salary):
+        self.name = name
+        self.salary = salary
+
+    def __str__(self):
+        return f"Name: {self.name}, Salary: ${self.salary}"
+
+    @classmethod
+    def from_salary(cls, salary):
+        return cls(name="John Doe", salary=salary)
+
+# Create an instance of the Employee class
+employee = Employee.from_salary(50000)
+
+# Print the employee information
+print(employee)
+97
+python
+# This Python program demonstrates the use of the and operator and the compile function.
+
+# Define a function called my_function.
+def my_function(x, y):
+    return x > 5 and y < 10
+
+# Compile the function.
+my_function_compiled = compile(my_function.__code__)
+
+# Print the result of the compiled function.
+print(my_function_compiled(6, 8))
+
+# Output: True
+98
+python
+import numpy as np
+
+# Define a complex number
+z = 3 + 4j
+
+# Print the real and imaginary parts of z
+print("Real part:", z.real)
+print("Imag part:", z.imag)
+
+# Print the magnitude and phase of z
+print("Magnitude:", abs(z))
+print("Phase:", np.angle(z))
+
+# Perform operations on z
+w = 2*z + 5j
+
+# Print w
+print("W:")
+print(w)
+99
+python
+# Demonstrate the use of and and delattr
+
+class Employee:
+    def __init__(self, name, salary):
+        self.name = name
+        self.salary = salary
+
+    def __str__(self):
+        return f"Name: {self.name}, Salary: ${self.salary}"
+
+    def increase_salary(self, percent):
+        self.salary *= (1 + percent)
+
+    def __delattr__(self, attribute):
+        if attribute == "salary":
+            print(f"Warning: Attempt to delete attribute 'salary'!")
+
+# Create an employee object
+employee = Employee("John Doe", 50000)
+
+# Print the employee's information
+print(employee)
+
+# Increase the employee's salary by 10%
+employee.increase_salary(0.1)
+
+# Print the employee's information after the salary increase
+print(employee)
+
+# Attempt to delete the employee's salary attribute
+delattr(employee, "salary")
+
+# Print the employee's information after the salary deletion attempt
+print(employee)
+100
+python
+# Create a dictionary
+my_dict = {"name": "John Doe", "age": 30, "occupation": "Software Engineer"}
+
+# Accessing values from the dictionary
+print(my_dict["name"])
+print(my_dict["age"])
+print(my_dict["occupation"])
+
+# Checking if a key is in the dictionary
+if "name" in my_dict:
+    print("The key 'name' is in the dictionary.")
+
+# Iterating over the dictionary
+for key, value in my_dict.items():
+    print("Key: ", key)
+    print("Value: ", value)
+
+# Updating the dictionary
+my_dict["address"] = "123 Main St."
+
+# Printing the updated dictionary
+print(my_dict)
+101
+python
+# This Python program demonstrates the use of and and dir functions
+
+# Define a function called my_function
+def my_function(x):
+    print(x)
+
+# Check if the function is defined and print its attributes
+if my_function is not None and hasattr(my_function, '__doc__'):
+    print("Function is defined and has docstring:")
+    print(my_function.__doc__)
+
+# Print the directory of attributes for the function
+print("Attributes of the function:")
+print(dir(my_function))
+
+# Check if the function has a particular attribute
+if hasattr(my_function, 'x'):
+    print("The function has an attribute called x:")
+    print(my_function.x)
+102
+python
+# This Python program demonstrates the use of the and and divmod operators.
+
+# Define two numbers.
+a = 10
+b = 3
+
+# Use the and operator to check if a and b are both even.
+if a % 2 == 0 and b % 2 == 0:
+    print("a and b are both even")
+
+# Use the divmod operator to find the quotient and remainder when a is divided by b.
+quotient, remainder = divmod(a, b)
+
+# Print the quotient and remainder.
+print("Quotient:", quotient)
+print("Remainder:", remainder)
+103
+python
+# Demonstrating the use of and and enumerate
+
+# Create a list of items
+items = ["apple", "banana", "cherry", "orange"]
+
+# Use enumerate and and to iterate over the list and perform operations on each item
+for index, item in enumerate(items):
+    print(index + 1, item)
+
+# Output:
+# 1 apple
+# 2 banana
+# 3 cherry
+# 4 orange
+104
+python
+# This Python program demonstrates the use of and and eval
+
+# Define a variable
+x = 5
+
+# Use the and operator to check if x is greater than 4 and less than 7
+if x > 4 and x < 7:
+    print("x is greater than 4 and less than 7")
+
+# Use the eval function to evaluate the expression "x + 2"
+y = eval("x + 2")
+
+# Print the value of y
+print("The value of y is:", y)
+105
+python
+# This Python program demonstrates the use of and and exec
+
+# Define a function called 'my_function'
+def my_function(x):
+    print(x)
+
+# Use the and operator to check if x is greater than 5 and y is less than 10
+if x > 5 and y < 10:
+    # Execute the 'my_function' function
+    exec("my_function(5)")
+
+# Print the output
+print("The value of x is:", x)
+print("The value of y is:", y)
+106
+python
+# Define a list of numbers
+numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+
+# Filter out even numbers using the and operator
+even_numbers = filter(lambda x: x % 2 == 0, numbers)
+
+# Print the even numbers
+print(even_numbers)
+107
+python
+# This Python program demonstrates the use of the and and float data types.
+
+# Declare a variable as a float.
+float_var = 3.14159
+
+# Print the value of the float variable.
+print(float_var)
+
+# Use the and operator to compare two boolean values.
+a = True
+b = False
+
+# Print the result of the comparison.
+print(a and b)
+108
+python
+# This Python program demonstrates the use of and and format
+
+# Define a function to format a number
+def format_number(n):
+    # Format the number with a decimal point
+    formatted_number = str(n) + ".2f"
+    # Return the formatted number
+    return formatted_number
+
+# Get the number to format
+number = 12.5
+
+# Format the number
+formatted_number = format_number(number)
+
+# Print the formatted number
+print(formatted_number)
+109
+python
+# Demonstrate the use of and and frozenset
+
+# Create a frozenset of numbers
+frozenset1 = frozenset([1, 2, 3, 4, 5])
+
+# Check if a number is in the frozenset
+print(3 in frozenset1)  # Output: True
+
+# Iterate over the frozenset
+for num in frozenset1:
+    print(num)  # Output: 1 2 3 4 5
+
+# Compare two frozensets
+frozenset2 = frozenset([3, 4, 5, 6, 7])
+
+print(frozenset1 == frozenset2)  # Output: False
+
+# Convert a frozenset to a list
+print(list(frozenset1))  # Output: [1, 2, 3, 4, 5]
+
+# Create a new frozenset with the elements of the first one and add a new element
+frozenset1.add(6)
+
+print(frozenset1)  # Output: frozenset({1, 2, 3, 4, 5, 6})
+110
+python
+import sys
+
+def demo(obj, attr):
+    # Use and operator to check if attr is an attribute of obj
+    if hasattr(obj, attr) and getattr(obj, attr) is not None:
+        print("Attribute:", attr, "Value:", getattr(obj, attr))
+
+# Example usage
+demo(sys.stdout, "name")
+demo(sys.stdout, "write")
+
+# Output
+# Attribute: name Value: None
+# Attribute: write Value: <built-in function write>
+111
+python
+# Demonstrating use of and and globals
+
+# Define a global variable
+global_variable = 10
+
+# Define a function that uses the global variable
+def function_using_global():
+  print("The value of global_variable is:", global_variable)
+
+# Define a function that sets the global variable
+def function_setting_global(new_value):
+  global global_variable
+  global_variable = new_value
+
+# Use the function_using_global function
+function_using_global()
+
+# Output: The value of global_variable is: 10
+
+# Set the global variable to a new value
+function_setting_global(20)
+
+# Use the function_using_global function again
+function_using_global()
+
+# Output: The value of global_variable is: 20
+112
+python
+# This Python program demonstrates the use of and and hasattr functions
+
+# Define a class called Employee
+class Employee:
+    def __init__(self, name, salary):
+        self.name = name
+        self.salary = salary
+
+    def get_salary(self):
+        return self.salary
+
+# Create an instance of the Employee class
+employee = Employee("John Doe", 50000)
+
+# Check if the employee has a salary attribute and if its value is greater than 40000
+if hasattr(employee, "salary") and employee.salary > 40000:
+    print("The employee's salary is greater than 40000.")
+
+# Check if the employee has a salary attribute
+if hasattr(employee, "salary"):
+    print("The employee has a salary attribute.")
+
+# Print the employee's name and salary
+print("Name:", employee.name)
+print("Salary:", employee.get_salary())
+113
+python
+    inner()
+
+outer()
+77
+python
+# This Python program demonstrates the use of and and not operators
+
+# Define a boolean variable
+is_active = True
+
+# Use and operator to check if is_active and another condition are true
+if is_active and 5 > 3:
+  print("Both conditions are true")
+
+# Use not operator to negate the boolean variable
+if not is_active:
+  print("is_active is false")
+
+# Print the value of is_active
+print("The value of is_active is:", is_active)
+78
+python
+# This Python program demonstrates the use of and and or operators
+
+# Define a function to check if a number is even or divisible by 3
+def is_even_or_ divisible_by_3(num):
+    return num % 2 == 0 or num % 3 == 0
+
+# Check if 6 is even or divisible by 3
+if is_even_or_ divisible_by_3(6):
+    print("6 is even or divisible by 3")
+
+# Check if 9 is even or divisible by 3
+if is_even_or_ divisible_by_3(9):
+    print("9 is even or divisible by 3")
+
+# Check if 12 is even or divisible by 3
+if is_even_or_ divisible_by_3(12):
+    print("12 is even or divisible by 3")
+79
+python
+def and_pass(a, b):
+    print(a and b)
+    pass
+
+a = True
+b = False
+
+and_pass(a, b)
+80
+python
+def divide(x, y):
+    try:
+        result = x / y
+    except ZeroDivisionError:
+        print("Cannot divide by zero")
+    else:
+        print(result)
+
+divide(10, 2)
+divide(10, 0)
+81
+python
+def check_even(num):
+  """Checks if a number is even.
+
+  Args:
+    num: The number to check.
+
+  Returns:
+    True if num is even, False otherwise.
+  """
+
+  return num % 2 == 0
+
+
+# Example usage:
+if check_even(8):
+  print("8 is even")
+else:
+  print("8 is not even")
+82
+python
+# Demonstrate the use of and and try
+
+# Define a function to check if a number is even and divisible by 3
+def is_even_and_ divisible_by_3(num):
+    return num % 2 == 0 and num % 3 == 0
+
+
+# Try to check if 12 is even and divisible by 3
+try:
+    if is_even_and_ divisible_by_3(12):
+        print("12 is even and divisible by 3")
+except:
+    print("Error occurred")
+
+
+# Try to check if 15 is even and divisible by 3
+try:
+    if is_even_and_ divisible_by_3(15):
+        print("15 is even and divisible by 3")
+except:
+    print("Error occurred")
+83
+python
+# This Python program demonstrates the use of AND and WHILE loops.
+
+# Define a function to check if a number is even.
+def is_even(n):
+  return n % 2 == 0
+
+# Initialize a variable to track the number of even numbers found.
+even_count = 0
+
+# While the number of even numbers found is less than 10, continue looping.
+while even_count < 10:
+  # Get a random number between 1 and 100.
+  number = rand.randint(1, 100)
+
+  # If the number is even, increment the even_count.
+  if is_even(number):
+    even_count += 1
+
+# Print the number of even numbers found.
+print("The number of even numbers found is:", even_count)
+84
+python
+with open("example.txt") as f:
+    print(f.read())
+
+# The file is closed automatically when the with block ends
+85
+python
+def even_numbers(n):
+    """Yields even numbers from 1 to n."""
+
+    for i in range(1, n + 1):
+        if i % 2 == 0:
+            yield i
+
+
+# Create an instance of the even_numbers generator
+even_numbers_gen = even_numbers(10)
+
+# Iterate over the generator and print each element
+for number in even_numbers_gen:
+    print(number)
+86
+python
+# This Python program demonstrates the use of and and abs functions
+
+# Define a function to demonstrate the use of and and abs
+def demonstrate_and_abs(x):
+    # Use the and operator to check if x is greater than 0 and less than 5
+    if x > 0 and x < 5:
+        # Print x is greater than 0 and less than 5
+        print("x is greater than 0 and less than 5")
+
+    # Use the abs function to find the absolute value of x
+    abs_x = abs(x)
+    # Print the absolute value of x
+    print("The absolute value of x is:", abs_x)
+
+# Demonstrate the use of and and abs functions
+demonstrate_and_abs(3)
+demonstrate_and_abs(-2)
+87
+python
+# This Python program demonstrates the use of and and all
+
+# Define a list of numbers
+numbers = [1, 2, 3, 4, 5]
+
+# Check if all numbers in the list are greater than 2 using the all function and and operator
+if all(number > 2 for number in numbers) and numbers:
+    print("All numbers in the list are greater than 2")
+
+# Check if the first two numbers in the list are even using the and operator
+if numbers[0] % 2 == 0 and numbers[1] % 2 == 0:
+    print("The first two numbers in the list are even")
+88
+python
+# This Python program demonstrates the use of and and any
+
+# Create a list of numbers
+numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+
+# Check if all numbers in the list are greater than 5
+all_greater_than_5 =  all(x > 5 for x in numbers)
+
+# Check if any number in the list is greater than 5
+any_greater_than_5 =  any(x > 5 for x in numbers)
+
+# Print the results
+print("All numbers greater than 5:", all_greater_than_5)
+print("Any number greater than 5:", any_greater_than_5)
+89
+python
+# This Python program demonstrates the use of and and ASCII characters.
+
+# Print ASCII characters.
+print(ASCII(65))  # Output: 65
+print(ASCII('A'))  # Output: 65
+
+# Use and operator.
+a = 5
+b = 10
+
+if a > 5 and b < 15:
+    print("The value of a is greater than 5 and the value of b is less than 15.")
+
+# Output: The value of a is greater than 5 and the value of b is less than 15.
+90
+python
+# This Python program demonstrates the use of and and bin operators
+
+# Define a variable
+x = 10
+
+# Use the and operator to check if x is greater than 5 and less than 15
+if x > 5 and x < 15:
+    print("x is greater than 5 and less than 15")
+
+# Use the bin operator to get the binary representation of x
+print(bin(x))
+91
+python
+# This Python program demonstrates the use of and and bool
+
+# Define a function to check if a number is even and divisible by 3
+def is_even_and_ divisible_by_3(num):
+    # Check if the number is even
+    is_even = num % 2 == 0
+
+    # Check if the number is divisible by 3
+    is_ divisible_by_3 = num % 3 == 0
+
+    # Return True if both conditions are met, False otherwise
+    return is_even and is_ divisible_by_3
+
+# Check if 12 is even and divisible by 3
+is_even_and_ divisible_by_3(12)
+
+# Output: True
+print(is_even_and_ divisible_by_3(12))
+
+# Check if 15 is even and divisible by 3
+is_even_and_ divisible_by_3(15)
+
+# Output: False
+print(is_even_and_ divisible_by_3(15))
+92
+python
+import numpy as np
+
+# Create a NumPy array of 10 bytes
+arr = np.arange(10).astype(np.uint8)
+
+# Convert the array to a bytearray
+arr_bytearray = np.array(arr).astype(np.uint8).to_bytes()
+
+# Print the data of the bytearray
+print(arr_bytearray)
+
+# Print the elements of the array
+print(arr)
+93
+python
+# This Python program demonstrates the use of and and bytes
+
+# Define a byte variable
+my_byte = 0b1010
+
+# Check if the byte is even using and
+if my_byte & 0b1000 == 0b1000:
+  print("The byte is even")
+
+# Convert the byte to a string
+my_byte_str = bin(my_byte).replace("0b", "")
+
+# Print the binary representation of the byte
+print("The binary representation of the byte is:", my_byte_str)
+94
+python
+def my_function(x):
+    return x * 2
+
+# Demonstrate the use of and
+result = (my_function(5) and 10)  # Output: 10
+
+# Demonstrate the use of callable
+result = callable(my_function(5))  # Output: <function my_function at 0x3f8b7250>
+95
+python
+# This Python program demonstrates the use of the and operator and the chr function.
+
+# Define a character.
+character = chr(97)
+
+# Print the character.
+print(character)
+
+# Check if the character is lowercase.
+if character.islower():
+  print("The character is lowercase.")
+
+# Convert the character to uppercase.
+character_upper = character.upper()
+
+# Print the uppercase character.
+print(character_upper)
+
+# Print the ASCII value of the character.
+print("The ASCII value of the character is:", ord(character))
+96
+python
+class Employee:
+    def __init__(self, name, salary):
+        self.name = name
+        self.salary = salary
+
+    def __str__(self):
+        return f"Name: {self.name}, Salary: ${self.salary}"
+
+    @classmethod
+    def from_salary(cls, salary):
+        return cls(name="John Doe", salary=salary)
+
+# Create an instance of the Employee class
+employee = Employee.from_salary(50000)
+
+# Print the employee information
+print(employee)
+97
+python
+# This Python program demonstrates the use of the and operator and the compile function.
+
+# Define a function called my_function.
+def my_function(x, y):
+    return x > 5 and y < 10
+
+# Compile the function.
+my_function_compiled = compile(my_function.__code__)
+
+# Print the result of the compiled function.
+print(my_function_compiled(6, 8))
+
+# Output: True
+98
+python
+import numpy as np
+
+# Define a complex number
+z = 3 + 4j
+
+# Print the real and imaginary parts of z
+print("Real part:", z.real)
+print("Imag part:", z.imag)
+
+# Print the magnitude and phase of z
+print("Magnitude:", abs(z))
+print("Phase:", np.angle(z))
+
+# Perform operations on z
+w = 2*z + 5j
+
+# Print w
+print("W:")
+print(w)
+99
+python
+# Demonstrate the use of and and delattr
+
+class Employee:
+    def __init__(self, name, salary):
+        self.name = name
+        self.salary = salary
+
+    def __str__(self):
+        return f"Name: {self.name}, Salary: ${self.salary}"
+
+    def increase_salary(self, percent):
+        self.salary *= (1 + percent)
+
+    def __delattr__(self, attribute):
+        if attribute == "salary":
+            print(f"Warning: Attempt to delete attribute 'salary'!")
+
+# Create an employee object
+employee = Employee("John Doe", 50000)
+
+# Print the employee's information
+print(employee)
+
+# Increase the employee's salary by 10%
+employee.increase_salary(0.1)
+
+# Print the employee's information after the salary increase
+print(employee)
+
+# Attempt to delete the employee's salary attribute
+delattr(employee, "salary")
+
+# Print the employee's information after the salary deletion attempt
+print(employee)
+100
+python
+# Create a dictionary
+my_dict = {"name": "John Doe", "age": 30, "occupation": "Software Engineer"}
+
+# Accessing values from the dictionary
+print(my_dict["name"])
+print(my_dict["age"])
+print(my_dict["occupation"])
+
+# Checking if a key is in the dictionary
+if "name" in my_dict:
+    print("The key 'name' is in the dictionary.")
+
+# Iterating over the dictionary
+for key, value in my_dict.items():
+    print("Key: ", key)
+    print("Value: ", value)
+
+# Updating the dictionary
+my_dict["address"] = "123 Main St."
+
+# Printing the updated dictionary
+print(my_dict)
+101
+python
+# This Python program demonstrates the use of and and dir functions
+
+# Define a function called my_function
+def my_function(x):
+    print(x)
+
+# Check if the function is defined and print its attributes
+if my_function is not None and hasattr(my_function, '__doc__'):
+    print("Function is defined and has docstring:")
+    print(my_function.__doc__)
+
+# Print the directory of attributes for the function
+print("Attributes of the function:")
+print(dir(my_function))
+
+# Check if the function has a particular attribute
+if hasattr(my_function, 'x'):
+    print("The function has an attribute called x:")
+    print(my_function.x)
+102
+python
+# This Python program demonstrates the use of the and and divmod operators.
+
+# Define two numbers.
+a = 10
+b = 3
+
+# Use the and operator to check if a and b are both even.
+if a % 2 == 0 and b % 2 == 0:
+    print("a and b are both even")
+
+# Use the divmod operator to find the quotient and remainder when a is divided by b.
+quotient, remainder = divmod(a, b)
+
+# Print the quotient and remainder.
+print("Quotient:", quotient)
+print("Remainder:", remainder)
+103
+python
+# Demonstrating the use of and and enumerate
+
+# Create a list of items
+items = ["apple", "banana", "cherry", "orange"]
+
+# Use enumerate and and to iterate over the list and perform operations on each item
+for index, item in enumerate(items):
+    print(index + 1, item)
+
+# Output:
+# 1 apple
+# 2 banana
+# 3 cherry
+# 4 orange
+104
+python
+# This Python program demonstrates the use of and and eval
+
+# Define a variable
+x = 5
+
+# Use the and operator to check if x is greater than 4 and less than 7
+if x > 4 and x < 7:
+    print("x is greater than 4 and less than 7")
+
+# Use the eval function to evaluate the expression "x + 2"
+y = eval("x + 2")
+
+# Print the value of y
+print("The value of y is:", y)
+105
+python
+# This Python program demonstrates the use of and and exec
+
+# Define a function called 'my_function'
+def my_function(x):
+    print(x)
+
+# Use the and operator to check if x is greater than 5 and y is less than 10
+if x > 5 and y < 10:
+    # Execute the 'my_function' function
+    exec("my_function(5)")
+
+# Print the output
+print("The value of x is:", x)
+print("The value of y is:", y)
+106
+python
+# Define a list of numbers
+numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+
+# Filter out even numbers using the and operator
+even_numbers = filter(lambda x: x % 2 == 0, numbers)
+
+# Print the even numbers
+print(even_numbers)
+107
+python
+# This Python program demonstrates the use of the and and float data types.
+
+# Declare a variable as a float.
+float_var = 3.14159
+
+# Print the value of the float variable.
+print(float_var)
+
+# Use the and operator to compare two boolean values.
+a = True
+b = False
+
+# Print the result of the comparison.
+print(a and b)
+108
+python
+# This Python program demonstrates the use of and and format
+
+# Define a function to format a number
+def format_number(n):
+    # Format the number with a decimal point
+    formatted_number = str(n) + ".2f"
+    # Return the formatted number
+    return formatted_number
+
+# Get the number to format
+number = 12.5
+
+# Format the number
+formatted_number = format_number(number)
+
+# Print the formatted number
+print(formatted_number)
+109
+python
+# Demonstrate the use of and and frozenset
+
+# Create a frozenset of numbers
+frozenset1 = frozenset([1, 2, 3, 4, 5])
+
+# Check if a number is in the frozenset
+print(3 in frozenset1)  # Output: True
+
+# Iterate over the frozenset
+for num in frozenset1:
+    print(num)  # Output: 1 2 3 4 5
+
+# Compare two frozensets
+frozenset2 = frozenset([3, 4, 5, 6, 7])
+
+print(frozenset1 == frozenset2)  # Output: False
+
+# Convert a frozenset to a list
+print(list(frozenset1))  # Output: [1, 2, 3, 4, 5]
+
+# Create a new frozenset with the elements of the first one and add a new element
+frozenset1.add(6)
+
+print(frozenset1)  # Output: frozenset({1, 2, 3, 4, 5, 6})
+110
+python
+import sys
+
+def demo(obj, attr):
+    # Use and operator to check if attr is an attribute of obj
+    if hasattr(obj, attr) and getattr(obj, attr) is not None:
+        print("Attribute:", attr, "Value:", getattr(obj, attr))
+
+# Example usage
+demo(sys.stdout, "name")
+demo(sys.stdout, "write")
+
+# Output
+# Attribute: name Value: None
+# Attribute: write Value: <built-in function write>
+111
+python
+# Demonstrating use of and and globals
+
+# Define a global variable
+global_variable = 10
+
+# Define a function that uses the global variable
+def function_using_global():
+  print("The value of global_variable is:", global_variable)
+
+# Define a function that sets the global variable
+def function_setting_global(new_value):
+  global global_variable
+  global_variable = new_value
+
+# Use the function_using_global function
+function_using_global()
+
+# Output: The value of global_variable is: 10
+
+# Set the global variable to a new value
+function_setting_global(20)
+
+# Use the function_using_global function again
+function_using_global()
+
+# Output: The value of global_variable is: 20
+112
+python
+# This Python program demonstrates the use of and and hasattr functions
+
+# Define a class called Employee
+class Employee:
+    def __init__(self, name, salary):
+        self.name = name
+        self.salary = salary
+
+    def get_salary(self):
+        return self.salary
+
+# Create an instance of the Employee class
+employee = Employee("John Doe", 50000)
+
+# Check if the employee has a salary attribute and if its value is greater than 40000
+if hasattr(employee, "salary") and employee.salary > 40000:
+    print("The employee's salary is greater than 40000.")
+
+# Check if the employee has a salary attribute
+if hasattr(employee, "salary"):
+    print("The employee has a salary attribute.")
+
+# Print the employee's name and salary
+print("Name:", employee.name)
+print("Salary:", employee.get_salary())
+113
+python
+hex_value = 0x12
+
+# Print the hexadecimal value
+print("Hex value:", hex_value)
+
+# Convert the hexadecimal value to a binary value
+binary_value = int(hex_value, 16)
+
+# Print the binary value
+print("Binary value:", binary_value)
+
+# Use the and operator to compare the binary values
+if binary_value & 0x08 == 0x08:
+    print("The binary value has a set bit at the second position")
+
+# Output:
+# Hex value: 18
+# Binary value: 24
+# The binary value has a set bit at the second position
+116
+python
+# This Python program demonstrates the use of and and id operators
+
+# Define a function to demonstrate the use of and and id operators
+def demonstrate_and_id(a, b):
+    # Use the and operator to check if a and b are both true
+    if a and b:
+        print("a and b are both true")
+
+    # Use the id operator to get the unique identifier of a and b
+    print("The ID of a is:", id(a))
+    print("The ID of b is:", id(b))
+
+# Call the demonstrate_and_id function with two variables
+demonstrate_and_id(True, 10)
+117
+python
+# This Python program demonstrates the use of the and and input functions.
+
+# Get the user's name and age.
+name = input("What is your name? ")
+age = int(input("How old are you? "))
+
+# Check if the user is eligible to vote.
+eligible = (age >= 18) and (name != "John Doe")
+
+# Print the results.
+if eligible:
+  print("You are eligible to vote.")
+else:
+  print("You are not eligible to vote.")
+118
+python
+# This Python program demonstrates the use of and and int.
+
+# Declare an integer variable.
+num = 10
+
+# Check if num is greater than 5 and less than or equal to 15.
+if num > 5 and num <= 15:
+  print("num is greater than 5 and less than or equal to 15.")
+
+# Check if num is an integer.
+if isinstance(num, int):
+  print("num is an integer.")
+
+# Print the value of num.
+print("The value of num is:", num)
+119
+python
+# Python program to demonstrate the use of and and isinstance
+
+# Define a class called Employee
+class Employee:
+    def __init__(self, name, salary):
+        self.name = name
+        self.salary = salary
+
+# Create an instance of the Employee class
+employee = Employee("John Doe", 50000)
+
+# Check if employee is an instance of the Employee class
+if employeeisinstance(Employee):
+    print("Employee is an instance of the Employee class")
+
+# Check if employee is an instance of the Employee class and has a salary of 50000
+if employee instanceof Employee and employee.salary == 50000:
+    print("Employee is an instance of the Employee class and has a salary of 50000")
+
+# Print the name and salary of the employee
+print("Name:", employee.name)
+print("Salary:", employee.salary)
+120
+python
+# Define a parent class called Parent
+class Parent:
+    def __init__(self, name):
+        self.name = name
+
+    def say_hello(self):
+        print("Hello, " + self.name)
+
+
+# Define a subclass called Child that inherits from Parent
+class Child(Parent):
+    def say_hello(self):
+        print("Hello, " + self.name + "!)")
+
+
+# Create an instance of the Parent class
+parent = Parent("John")
+
+# Create an instance of the Child class
+child = Child("Jane")
+
+# Call the say_hello method on the parent and child instances
+parent.say_hello()
+child.say_hello()
+121
+python
+# This Python program demonstrates the use of and and iter
+
+# Define a list of numbers
+numbers = [1, 2, 3, 4, 5]
+
+# Use the and operator to check if each number is greater than 2 and less than 5
+for num in numbers:
+    if num > 2 and num < 5:
+        print(num)
+
+# Output:
+# 3
+# 4
+122
+python
+# This Python program demonstrates the use of and and len
+
+# Create a list of numbers
+numbers = [1, 2, 3, 4, 5]
+
+# Check if all numbers in the list are greater than 2 using and
+if all(num > 2 for num in numbers):
+  print("All numbers in the list are greater than 2")
+
+# Get the length of the list using len
+length = len(numbers)
+
+# Print the length of the list
+print("The length of the list is:", length)
+123
+python
+# This Python program demonstrates the use of AND and list
+
+# Create a list of numbers
+numbers = [1, 2, 3, 4, 5]
+
+# Use the AND operator to check if each number in the list is greater than 2
+for number in numbers:
+    if number > 2 and number % 2 == 0:
+        print(number)
+
+# Output:
+# 4
+# 5
+124
+python
+def my_function():
+    local x = 10
+    print(x)
+
+my_function()
+print(x)
+125
+python
+# Define a list of numbers
+numbers = [1, 2, 3, 4, 5]
+
+# Use the and operator to check if each number is greater than 2
+is_greater_than_2 = lambda x: x > 2
+
+# Use the map function to apply the is_greater_than_2 function to each number in the numbers list
+greater_than_2 = map(is_greater_than_2, numbers)
+
+# Print the results
+print(greater_than_2)
+126
+python
+# This Python program demonstrates the use of and and max
+
+# Define a list of numbers
+numbers = [10, 20, 30, 40, 50]
+
+# Use the and operator to check if all numbers are greater than 20
+if all(number > 20 for number in numbers):
+    print("All numbers are greater than 20")
+
+# Find the maximum value in the list
+max_value = max(numbers)
+
+# Print the maximum value
+print("The maximum value in the list is:", max_value)
+127
+python
+import numpy as np
+
+# Create a NumPy array
+arr = np.arange(10)
+
+# Create a memoryview of the array
+arr_view = arr.view(np.dtype('i'))
+
+# Modify the array through the memoryview
+arr_view[0] = 20
+
+# Print the modified array
+print(arr)
+
+# Output:
+# [ 20  1  2  3  4  5  6  7  8  9]
+128
+python
+# This Python program demonstrates the use of and and min
+
+# Define a list of numbers
+numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+
+# Use and to check if all numbers are greater than 5
+and_greater_than_5 = all(number > 5 for number in numbers)
+
+# Use min to find the minimum value in the list
+minimum_value = min(numbers)
+
+# Print the results
+print("The numbers are greater than 5:", and_greater_than_5)
+print("The minimum value in the list is:", minimum_value)
+129
+python
+# Demonstrating the use of and and next
+
+# Define a function to iterate over a list of numbers
+def iterate_over_numbers(nums):
+    for num in nums:
+        print(num)
+        if num % 2 == 0:
+            print("Even number")
+        else:
+            print("Odd number")
+
+# Create a list of numbers
+nums = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+
+# Iterate over the numbers using the and and next methods
+for num in nums:
+    print(num)
+    if num % 2 == 0:
+        print("Even number")
+    else:
+        print("Odd number")
+
+    # Print "Next number" after each number, except the last number
+    if num != nums[-1]:
+        print("Next number: ", nums[nums.index(num) + 1])
+
+# Output
+# 1
+# Odd number
+# 2
+# Even number
+# 3
+# Odd number
+# 4
+# Even number
+# 5
+# Odd number
+# 6
+# Even number
+# 7
+# Odd number
+# 8
+# Even number
+# 9
+# Odd number
+# 10
+# Even number
+# Next number:  11
+130
+python
+# Define a class called Person
+class Person:
+    def __init__(self, name, age):
+        self.name = name
+        self.age = age
+
+    def greet(self):
+        print("Hello, " + self.name)
+
+# Create an object of the Person class called john
+john = Person("John Doe", 25)
+
+# Call the greet method on the john object
+john.greet()
+
+# Print the name and age of john
+print("Name:", john.name)
+print("Age:", john.age)
+131
+python
+# This Python program demonstrates the use of the and and oct operators
+
+# Define a function to demonstrate the use of the and operator
+def and_operator(a, b):
+  """Demonstrates the use of the and operator."""
+
+  # Check if a and b are both True
+  if a and b:
+    print("a and b are both True")
+
+# Define a function to demonstrate the use of the oct operator
+def oct_operator(n):
+  """Demonstrates the use of the oct operator."""
+
+  # Convert n to an octal string
+  oct_string = str(n) + " oct"
+
+  # Print the octal string
+  print(oct_string)
+
+# Example usage
+and_operator(True, True)
+oct_operator(12)
+132
+python
+# This Python program demonstrates the use of and and open
+
+# Open a file named "my_file.txt" in read mode
+with open("my_file.txt") as f:
+    # Read the file contents
+    contents = f.read()
+
+    # Print the file contents
+    print(contents)
+
+    # Use the and keyword to open two files in read mode
+    with open("file1.txt") as f1, open("file2.txt") as f2:
+        # Read the file contents from both files
+        contents1 = f1.read()
+        contents2 = f2.read()
+
+        # Print the file contents
+        print(contents1)
+        print(contents2)
+133
+python
+# This Python program demonstrates the use of and and ord functions
+
+# Define a character
+char = "a"
+
+# Check if the character is lowercase
+is_lowercase = char.islower()
+
+# Get the ASCII value of the character
+ascii_value = ord(char)
+
+# Print the results
+print("The character is lowercase:", is_lowercase)
+print("The ASCII value of the character is:", ascii_value)
+134
+python
+# This Python program demonstrates the use of and and pow functions
+
+# Define two numbers
+num1 = 5
+num2 = 10
+
+# Use the and operator to compare num1 and num2 for equality
+if num1 and num2 are equal:
+    print("num1 and num2 are equal")
+
+# Use the pow function to raise num2 to the power of num1
+result = num1 ** num2
+
+# Print the result
+print("The result is:", result)
+135
+python
+# This Python program demonstrates the use of and and print
+
+# Define a boolean variable
+is_active = True
+
+# Use the and operator to check if is_active is True and another condition is True
+if is_active and 10 > 5:
+  # If both conditions are True, print a message
+  print("Both conditions are true")
+
+# Print a message
+print("Hello, world!")
+136
+python
+class Employee:
+    def __init__(self, name, salary):
+        self.name = name
+        self.salary = salary
+
+    def get_salary(self):
+        return self.salary
+
+    def set_salary(self, new_salary):
+        self.salary = new_salary
+
+    def __str__(self):
+        return f"Name: {self.name}, Salary: ${self.salary}"
+
+
+# Create an employee object
+employee = Employee("John Doe", 50000)
+
+# Print the employee's information
+print(employee)
+
+# Get the employee's salary
+salary = employee.get_salary()
+
+# Print the salary
+print(salary)
+
+# Set the employee's salary to 60000
+employee.set_salary(60000)
+
+# Print the employee's information after the salary change
+print(employee)
+137
+python
+# This Python program demonstrates the use of and and range
+
+# Define a range of numbers from 1 to 10
+numbers = range(1, 11)
+
+# Use the and operator to check if a number is in the range
+for number in numbers:
+    if number % 2 == 0 and number % 3 == 0:
+        print(number)
+138
+python
+# This Python program demonstrates the use of and and repr
+
+# Define a function to demonstrate the use of and and repr
+def demonstrate_and_repr():
+    # Create a list of integers
+    numbers = [1, 2, 3, 4, 5]
+
+    # Use the and operator to check if all elements in the list are greater than 2
+    if all(number > 2 for number in numbers):
+        print("All elements in the list are greater than 2")
+
+    # Use the repr function to print the representation of the list
+    print(repr(numbers))
+
+# Call the demonstrate_and_repr function
+demonstrate_and_repr()
+139
+python
+# This Python program demonstrates the use of and and reversed
+
+# Define a function to reverse a list
+def reverse_list(lst):
+    return lst[::-1]
+
+# Create a list of numbers
+numbers = [1, 2, 3, 4, 5]
+
+# Reverse the list
+reversed_numbers = reverse_list(numbers)
+
+# Print the original list and the reversed list
+print("Original list:", numbers)
+print("Reversed list:", reversed_numbers)
+
+# Check if the lists are equal
+if numbers == reversed_numbers:
+    print("The lists are equal")
+else:
+    print("The lists are not equal")
+140
+python
+# This Python program demonstrates the use of the and and round functions
+
+# Define a number
+num = 5.2
+
+# Use the and operator to compare two conditions
+if num > 5 and num < 10:
+    print("num is greater than 5 and less than 10")
+
+# Round the number up to the nearest integer
+rounded_up_num = math.ceil(num)
+
+# Print the rounded-up number
+print("Rounded-up num is:", rounded_up_num)
+
+# Round the number down to the nearest integer
+rounded_down_num = math.floor(num)
+
+# Print the rounded-down number
+print("Rounded-down num is:", rounded_down_num)
+141
+python
+# Define a set of numbers
+numbers = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10}
+
+# Print the elements of the set
+print(numbers)
+
+# Check if a number is in the set
+print(5 in numbers)
+
+# Add a number to the set
+numbers.add(11)
+
+# Print the updated set
+print(numbers)
+
+# Remove a number from the set
+numbers.remove(3)
+
+# Print the updated set
+print(numbers)
+
+# Iterate over the set
+for num in numbers:
+    print(num)
+
+# Print the cardinality of the set
+print(len(numbers))
+142
+python
+# Define a class called Employee
+class Employee:
+    def __init__(self, name, salary, department):
+        self.name = name
+        self.salary = salary
+        self.department = department
+
+    def __str__(self):
+        return f"Name: {self.name}, Salary: ${self.salary}, Department: {self.department}"
+
+    def set_salary(self, new_salary):
+        self.salary = new_salary
+
+# Create an instance of the Employee class
+employee = Employee("John Doe", 50000, "Sales")
+
+# Print the employee's information
+print(employee)
+
+# Set the employee's salary to 60000
+employee.set_salary(60000)
+
+# Print the employee's information after the salary has been updated
+print(employee)
+143
+python
+# This Python program demonstrates the use of and and slice operations
+
+# Define a list of numbers
+numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+
+# Use the and operator to check if all elements in the list are greater than 5
+all_greater_than_5 = all(x > 5 for x in numbers)
+
+# Print the result
+print(all_greater_than_5)
+
+# Slice the list to get the elements from the beginning to the second element
+slice_of_numbers = numbers[:2]
+
+# Print the slice
+print(slice_of_numbers)
+144
+python
+# Demonstrate the use of and and sorted
+
+# Define a list of numbers
+numbers = [1, 3, 5, 2, 4, 6]
+
+# Use and to filter out numbers divisible by 2
+even_numbers = [x for x in numbers if x % 2 == 0]
+
+# Sort the remaining numbers in ascending order
+sorted_even_numbers = sorted(even_numbers)
+
+# Print the sorted even numbers
+print(sorted_even_numbers)
+145
+python
+class Employee:
+    def __init__(self, name, salary):
+        self.name = name
+        self.salary = salary
+
+    @staticmethod
+    def calculate_bonus(salary):
+        return salary * 0.1
+
+    def calculate_total_salary(self):
+        return self.salary + Employee.calculate_bonus(self.salary)
+
+# Create an instance of the Employee class
+employee = Employee("John Doe", 50000)
+
+# Calculate the total salary
+total_salary = employee.calculate_total_salary()
+
+# Print the total salary
+print("Total salary:", total_salary)
+146
+python
+# This Python program demonstrates the use of and and str
+
+# Define a function to demonstrate the use of and and str
+def demonstrate_and_str(name, age):
+    # Use the and operator to check if name is not None and age is greater than 18
+    if name and age > 18:
+        # Convert the age to a string and concatenate it with the name
+        message = f"Hello, {name}. You are {age} years old."
+        # Print the message
+        print(message)
+
+# Get the name and age from the user
+name = input("What is your name? ")
+age = int(input("How old are you? "))
+
+# Call the function to demonstrate the use of and and str
+demonstrate_and_str(name, age)
+147
+python
+# This Python program demonstrates the use of and and sum operators
+
+# Define a function to demonstrate the use of and and sum operators
+def demonstrate_and_sum(a, b):
+    # Use the and operator to check if a and b are both greater than 5
+    if a > 5 and b > 5:
+        # Sum the two numbers and print the result
+        print(a + b)
+
+# Get two numbers from the user
+num1 = int(input("Enter the first number: "))
+num2 = int(input("Enter the second number: "))
+
+# Call the function to demonstrate the use of and and sum operators
+demonstrate_and_sum(num1, num2)
+148
+python
+class Parent:
+    def __init__(self, name):
+        self.name = name
+
+    def say_hello(self):
+        print("Hello, " + self.name)
+
+class Child(Parent):
+    def __init__(self, name):
+        super().__init__(name)
+
+    def say_hello(self):
+        print("Hello, " + self.name + "!")
+
+# Create an instance of the Child class
+child = Child("John")
+
+# Call the say_hello method
+child.say_hello()
+
+# Output: Hello, John!
+149
+python
+# Define a tuple with three elements
+my_tuple = (1, 2, 3)
+
+# Use the and operator to check if the first two elements of the tuple are equal to 1 and 2, respectively
+if my_tuple[0] == 1 and my_tuple[1] == 2:
+    print("The first two elements of the tuple are equal to 1 and 2.")
+
+# Print the elements of the tuple
+print(my_tuple)
+150
+python
+# This Python program demonstrates the use of the and operator and the type function.
+
+# Define a boolean variable.
+is_active = True
+
+# Use the and operator to check if the variable is active and if the value is greater than 5.
+if is_active and value > 5:
+    print("The variable is active and the value is greater than 5.")
+
+# Use the type function to check the type of the variable.
+print(type(is_active))
+
+# Output:
+# The variable is active and the value is greater than 5.
+# <class 'bool'>
+151
+python
+# Demonstrating the use of and and vars
+
+# Define a function
+def demonstrate_and_vars(name, age):
+  # Declare variables
+  my_name = name
+  my_age = age
+
+  # Use and operator to check if the name is "John" and age is greater than 18
+  if my_name == "John" and my_age > 18:
+    print("Hello, John. You are eligible to vote.")
+
+# Call the function with different parameters
+demonstrate_and_vars("John", 20)
+demonstrate_and_vars("Jane", 16)
+152
+python
+# Demonstrating the use of and and zip
+
+# Define a list of numbers
+numbers = [1, 2, 3, 4, 5]
+
+# Use and to compare two lists
+even_numbers = [x for x in numbers if x % 2 == 0]
+
+# Use zip to iterate over two lists simultaneously
+squares = [x**2 for x, y in zip(numbers, even_numbers)]
+
+# Print the results
+print(even_numbers)
+print(squares)
+153
+python
+import os
+
+# Check if the operating system is Windows
+if os.name == "nt":
+    print("The operating system is Windows")
+
+# Check if the operating system is Linux
+elif os.name == "posix":
+    print("The operating system is Linux")
+
+# Check if the operating system is Mac OS
+elif os.name == "mac":
+    print("The operating system is Mac OS")
+
+# Print the current working directory
+print("The current working directory is:", os.getcwd())
+
+# Get the list of files in the current working directory
+files = os.listdir()
+print("The list of files in the current working directory is:")
+for file in files:
+    print(file)
+154
+python
+import sys
+
+# Print the name of the current module
+print(sys.modules[__name__])
+
+# Print the version of Python being used
+print(sys.version)
+
+# Check if the Python version is greater than 3.5
+if sys.version_info[0] >= 3 and sys.version_info[1] >= 5:
+  print("Python version is greater than 3.5")
+
+# Exit the program
+sys.exit()
+155
+python
+# Import the math module
+import math
+
+# Define a function to calculate the area of a circle
+def area_of_circle(r):
+    # Use the math module to calculate the area of a circle
+    area = math.pi * r ** 2
+    return area
+
+# Get the radius of a circle from the user
+radius = float(input("Enter the radius of a circle: "))
+
+# Calculate the area of the circle
+area = area_of_circle(radius)
+
+# Print the area of the circle
+print("The area of the circle is:", area)
+156
+python
+import random
+
+# Define a list of numbers
+numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+
+# Use randrange() to generate a random number between 1 and 10
+random_number = random.randint(1, 10)
+
+# Check if the random number is even or odd
+if random_number % 2 == 0:
+  print("The random number is even")
+else:
+  print("The random number is odd")
+157
+python
+import datetime
+
+# Create a datetime object
+now = datetime.datetime.now()
+
+# Print the current date and time
+print("The current date and time are:")
+print(now)
+
+# Print the hour and minute
+print("The current hour and minute are:")
+print(now.hour, now.minute)
+
+# Print the day of the week
+print("The current day of the week is:")
+print(now.strftime("%A"))
+
+# Print the month
+print("The current month is:")
+print(now.strftime("%B"))
+
+# Print the year
+print("The current year is:")
+print(now.year)
+158
+python
+import datetime
+
+# Define the start time
+start_time = datetime.datetime.now()
+
+# Perform some task that takes time, for example, looping through a large list
+for i in range(100000):
+    print(i)
+
+# Define the end time
+end_time = datetime.datetime.now()
+
+# Calculate the time taken
+time_taken = end_time - start_time
+
+# Print the time taken
+print("Time taken:", time_taken)
+159
+python
+import json
+
+# Create a dictionary
+data = {"name": "John Doe", "age": 30, "interests": ["reading", "music", "hiking"]}
+
+# Convert the dictionary to JSON
+json_data = json.dumps(data)
+
+# Print the JSON data
+print(json_data)
+
+# Decode the JSON data
+decoded_data = json.loads(json_data)
+
+# Print the decoded data
+print(decoded_data)
+160
+python
+import pandas as pd
+
+# Read CSV file
+df = pd.read_csv('example.csv')
+
+# Print the head of the DataFrame
+print(df.head())
+
+# Filter rows where the value in the 'age' column is greater than 18
+filtered_df = df[df['age'] > 18]
+
+# Print the head of the filtered DataFrame
+print(filtered_df.head())
+
+# Export the filtered DataFrame to a new CSV file
+filtered_df.to_csv('filtered_example.csv', index=False)
+161
+python
+import sqlite3
+
+# Connect to a SQLite database
+conn = sqlite3.connect('my_database.db')
+
+# Create a cursor object
+cursor = conn.cursor()
+
+# Create a SQL query
+query = "SELECT * FROM employees"
+
+# Execute the query
+cursor.execute(query)
+
+# Fetch all results
+results = cursor.fetchall()
+
+# Print the results
+for row in results:
+    print(row)
+
+# Close the cursor and connection
+cursor.close()
+conn.close()
+162
+python
+import re
+
+# Define a string
+string = "This is a string with a few words and numbers. It also has some special characters!"
+
+# Use AND to match words and numbers
+pattern = r"\w+|\d+"
+
+# Search for the pattern in the string
+matches = re.findall(pattern, string)
+
+# Print the matches
+print(matches)
+
+# Use AND to match words and numbers, but exclude special characters
+pattern = r"\w+|\d+|[^\w\d]"
+
+# Search for the pattern in the string
+matches = re.findall(pattern, string)
+
+# Print the matches
+print(matches)
+163
+python
+import and
+import requests
+
+# Define the URL of the website you want to access
+url = "example.com"
+
+# Use the requests library to get the HTML content of the website
+response = requests.get(url)
+
+# Check if the request was successful
+if response.status_code == 200:
+    # Parse the HTML content
+    html_content = response.text
+
+    # Print the HTML content
+    print(html_content)
+else:
+    # Print an error message
+    print("Error retrieving HTML content")
+164
+python
+import urllib
+
+# Open a URL using urllib
+url = "example.com"
+response = urllib.urlopen(url)
+
+# Read the HTML content
+html_content = response.read()
+
+# Print the HTML content
+print(html_content)
+
+# Close the URL connection
+response.close()
+165
+python
+import pickle
+
+# Create a dictionary
+my_dict = {"name": "John Doe", "age": 30, "interests": ["music", "reading", "hiking"]}
+
+# Serialize the dictionary
+with open("my_dict.pkl", "wb") as f:
+    pickle.dump(my_dict, f)
+
+# Deserialize the dictionary
+with open("my_dict.pkl", "rb") as f:
+    loaded_dict = pickle.load(f)
+
+# Print the loaded dictionary
+print(loaded_dict)
+166
+python
+import subprocess
+
+# Define a command to execute
+command = ["ls", "-l"]
+
+# Execute the command using subprocess
+subprocess.call(command)
+
+# Print the output of the command
+print(subprocess.check_output(command).decode("utf-8"))
+167
+python
+import argparse
+
+# Define a parser
+parser = argparse.ArgumentParser()
+
+# Add arguments
+parser.add_argument("num1", type=int, help="The first number")
+parser.add_argument("num2", type=int, help="The second number")
+parser.add_argument("--operation", choices=["+", "-", "*", "/"], default="+", help="The operation to be performed")
+
+# Parse arguments
+args = parser.parse_args()
+
+# Print the arguments
+print("Num1:", args.num1)
+print("Num2:", args.num2)
+print("Operation:", args.operation)
+
+# Perform the operation
+result = args.num1 + args.num2 if args.operation == "+" else args.num1 - args.num2 if args.operation == "-" else args.num1 * args.num2 if args.operation == "*" else args.num1 / args.num2
+
+# Print the result
+print("Result:", result)
+168
+python
+import logging
+
+# Create a logger
+logger = logging.getLogger(__name__)
+logger.setLevel(logging.INFO)
+
+# Create a handler
+handler = logging.FileHandler("test.log")
+handler.setLevel(logging.INFO)
+
+# Add the handler to the logger
+logger.addHandler(handler)
+
+# Log some information
+logger.info("This is an information message.")
+
+# Log some warning messages
+logger.warning("This is a warning message.")
+
+# Log some error messages
+logger.error("This is an error message.")
+
+# Log some critical messages
+logger.critical("This is a critical message.")
+169
+python
+from flask import Flask, render_template
+
+app = Flask(__name__)
+
+@app.route('/')
+def home():
+    return render_template('home.html')
+
+@app.route('/hello/<string:name>')
+def hello(name):
+    return render_template('hello.html', name=name)
+
+if __name__ == '__main__':
+    app.run()
+170
+python
+# Import necessary libraries
+from django.shortcuts import render
+
+# Define the main function
+def home(request):
+    # Return a render template
+    return render(request, 'home.html')
+
+# Define the main URL pattern
+urlpatterns = [
+    path('home/', home),
+]
+171
+python
+import numpy as np
+
+# Create a NumPy array
+arr = np.array([1, 2, 3, 4, 5])
+
+# Check if all elements of the array are greater than 3
+print(np.all(arr > 3))  # Output: False
+
+# Check if any element of the array is less than 2
+print(np.any(arr < 2))  # Output: True
+
+# Print the maximum value of the array
+print(np.max(arr))  # Output: 5
+
+# Print the minimum value of the array
+print(np.min(arr))  # Output: 1
+
+# Print the average value of the array
+print(np.mean(arr))  # Output: 3.0
+172
+python
+import pandas as pd
+
+# Create a sample dataframe
+df = pd.DataFrame({"Name": ["John Doe", "Jane Doe", "Peter Pan"], "Age": [30, 25, 12], "City": ["New York", "Los Angeles", "Neverland"]})
+
+# Use boolean indexing with and
+filtered_df = df[(df["Age"] >= 18) & (df["City"] == "New York")]
+
+# Print the filtered dataframe
+print(filtered_df)
+173
+python
+import numpy as np
+import matplotlib.pyplot as plt
+
+# Create a sample data set
+x = np.linspace(0, 10, 100)
+y = np.sin(x)
+
+# Plot the data
+plt.plot(x, y)
+
+# Add a label to the x-axis
+plt.xlabel("Time")
+
+# Add a label to the y-axis
+plt.ylabel("Amplitude")
+
+# Add a title to the plot
+plt.title("Sinusoidal Function")
+
+# Show the plot
+plt.show()
+174
+python
+import pandas as pd
+import seaborn as sns
+
+# Load the sns_dataset dataset
+df = sns.load_dataset("sns_dataset")
+
+# Create a scatterplot between the "age" and "salary" variables
+sns.scatterplot(x="age", y="salary", data=df)
+
+# Add a linear regression line to the plot
+sns.regplot(x="age", y="salary", data=df)
+
+# Show the plot
+sns.show()
+175
+python
+import tensorflow as tf
+
+# Create a simple linear regression model
+model = tf.keras.models.Sequential([
+    tf.keras.layers.Dense(10, activation='relu'),
+    tf.keras.layers.Dense(1, activation='linear')
+])
+
+# Compile the model
+model.compile(optimizer='adam', loss='mean_squared_error')
+
+# Train the model
+model.fit(x_train, y_train, epochs=10)
+
+# Evaluate the model
+model.evaluate(x_test, y_test)
+176
+python
+import keras
+import numpy as np
+
+# Define a simple linear regression model
+model = keras.models.Sequential([
+    keras.layers.Dense(10, activation='relu'),
+    keras.layers.Dense(1, activation='linear')
+])
+
+# Compile the model
+model.compile(optimizer='sgd', loss='mean_squared_error')
+
+# Generate sample data
+X = np.array([[1, 2], [3, 4], [5, 6]])
+Y = np.array([10, 12, 14])
+
+# Fit the model
+model.fit(X, Y, epochs=100)
+
+# Make predictions
+predictions = model.predict(np.array([[7, 8]]))
+
+# Print the predictions
+print(predictions)
+177
+python
+import pandas as pd
+import scikit_learn as sk
+
+# Load the pandas and scikit-learn libraries
+
+# Create a pandas DataFrame
+df = pd.DataFrame({"Name": ["John Doe", "Jane Doe", "Peter Pan"], "Age": [25, 30, 12], "City": ["New York", "Los Angeles", "Neverland"]})
+
+# Print the DataFrame
+print(df)
+
+# Split the data into training and testing sets
+X_train, X_test, y_train, y_test = sk.model_selection.train_test_split(df.drop("Name", axis=1), df["Age"], test_size=0.2, random_state=42)
+
+# Create a linear regression model
+model = sk.linear_model.LinearRegression()
+
+# Train the model
+model.fit(X_train, y_train)
+
+# Make predictions
+y_pred = model.predict(X_test)
+
+# Print the predictions
+print(y_pred)
+178
+python
+import BeautifulSoup
+
+# HTML content
+html_content = """
+<html>
+    <body>
+        <h1>Hello, world!</h1>
+        <p>This is a paragraph of text.</p>
+    </body>
+</html>
+"""
+
+# Create a BeautifulSoup object from the HTML content
+soup = BeautifulSoup(html_content, 'html.parser')
+
+# Find the heading tag and print its text
+print(soup.h1.text)
+
+# Find the paragraph tag and print its text
+print(soup.p.text)
+179
+python
+from selenium import webdriver
+import and
+
+# Open Google Chrome
+driver = webdriver.Chrome()
+
+# Navigate to Google Search Page
+driver.get("google.com")
+
+# Search for a topic
+search_box = driver.find_element_by_name("q")
+search_box.clear()
+search_box.send_keys("Selenium")
+
+# Click on the search button
+search_button = driver.find_element_by_name("btnK")
+search_button.click()
+
+# Print the results
+results = driver.find_elements_by_css_selector("div.ZINbbc.rNCsb")
+for result in results:
+    print(result.text)
+
+# Close the browser
+driver.quit()
+180
+python
+import torch
+import torch.nn as nn
+
+# Define a simple linear regression model
+model = nn.Linear(10, 1)
+
+# Define the loss function
+criterion = nn.MSELoss()
+
+# Define the optimizer
+optimizer = torch.optim.SGD(model.parameters(), lr=0.01)
+
+# Generate some sample data
+x = torch.tensor([[1.0], [2.0], [3.0], [4.0], [5.0]])
+y = torch.tensor([2.0, 4.0, 6.0, 8.0, 10.0])
+
+# Train the model
+for epoch in range(10):
+    # Forward pass
+    pred = model(x)
+    loss = criterion(pred, y)
+
+    # Backward pass
+    optimizer.zero_grad()
+    loss.backward()
+
+    # Update weights
+    optimizer.step()
+
+# Print the final model parameters
+print(model.state_dict())
+
+# Make predictions
+pred = model(x)
+print(pred)
+181
+python
+import sqlalchemy
+
+# Define database connection parameters
+db_url = "postgresql://localhost:5432/test_db"
+
+# Create a database engine object
+engine = sqlalchemy.create_engine(db_url)
+
+# Define SQL query
+query = "SELECT * FROM employees"
+
+# Execute the query
+result = engine.execute(query)
+
+# Print the results
+for row in result:
+    print(row)
+
+# Close the database connection
+engine.dispose()
+182
+python
+import pytest
+
+def and_function(a, b):
+    return a and b
+
+
+@pytest.mark.parametrize("a, b", [(True, True), (True, False), (False, False)])
+def test_and_function(a, b):
+    assert and_function(a, b) is True
+
+
+def test_and_function_with_exception():
+    with pytest.raises(ZeroDivisionError):
+        and_function(10, 0)
+183
+python
+import unittest
+
+def my_function(x, y):
+    return x + y
+
+
+class TestMyFunction(unittest.TestCase):
+
+    def setUp(self):
+        self.x = 10
+        self.y = 20
+
+    def test_my_function(self):
+        self.assertEqual(my_function(self.x, self.y), 30)
+
+
+if __name__ == "__main__":
+    unittest.main()
+
