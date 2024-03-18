@@ -53,7 +53,7 @@ def create_codellama(content):
 
     program = re.split(pattern, content)
 
-    i = 0
+    i = 252
     for p in program:
         
         start_index = p.find("python")
@@ -98,7 +98,7 @@ def input_txt(model):
         content = txt_file.read() 
         create_codellama(content)
     elif model == "mistral":
-        txt_file = open("output.txt", 'r')
+        txt_file = open("mistral_output.txt", 'r')
         content = txt_file.read() 
         create_mistral(content)
     elif model == "gemma":

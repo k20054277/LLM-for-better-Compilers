@@ -34,22 +34,26 @@ def run_prompt_gemma(prompt):
     err = result.stderr
     return out
 
-def read_file(file_name, model):
-    file1 = open(file_name, 'r')
-    Lines = file1.readlines()
-    n = 550 
+def read_file(model):
+    n = 1000
     # for line in Lines:
     #     out = run_prompt(line.strip('\n\r'), model)
     #     extract_code(out)
     if model == "mistral": 
+        file1 = open("mistral_prompts.txt", 'r')
+        Lines = file1.readlines()
         for i in range(n):
             out = run_prompt_mistral(Lines[i].strip('\n\r'))
             extract_code_mistral(out, i)
     elif model == "codellama": 
+        file1 = open("Codellama_prompts.txt", 'r')
+        Lines = file1.readlines()
         for i in range(n):
             out = run_prompt_codellama(Lines[i].strip('\n\r'))
             extract_code_codellama(out, i)
     elif model == "gemma": 
+        file1 = open("gemma_prompts.txt", 'r')
+        Lines = file1.readlines()
         for i in range(n):
             out = run_prompt_gemma(Lines[i].strip('\n\r'))
             extract_code_gemma(out, i)
@@ -66,7 +70,7 @@ def extract_code_mistral(output, index):
     program = output[start_index+3:end_index].strip()
     # print (program)
 
-    f = open("output.txt", "a")
+    f = open("mistral_output.txt", "a")
     f.write(str(index) + "\n")
     f.write(program + "\n")
     f.close()
@@ -83,7 +87,7 @@ def extract_code_codellama(output, index):
     program = output[start_index:end_index+3].strip()
     # print (program)
 
-    f = open("codellama_output2.txt", "a")
+    f = open("codellama_output.txt", "a")
     f.write(str(index) + "\n")
     f.write(program + "\n")
     f.close()
@@ -113,8 +117,10 @@ def save_time(time):
 
 def main():
     model = input("Enter model: ") 
-    #read_file("generated_prompts.txt", model)
-    read_file("all_prompt.txt", model)
+    f = open("time.txt", "a")
+    f.write(model + "\n")
+    f.close()
+    read_file(model)
 
 if __name__ == "__main__":
     start_time = time.time()
