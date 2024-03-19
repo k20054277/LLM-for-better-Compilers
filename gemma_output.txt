@@ -22805,18 +22805,4 @@ age = int(input("How old are you? "))
 
 # Print the user's age
 print("You are " + str(age) + " years old.")
-407
-python
-# This Python program demonstrates the use of as and int.
 
-# Define a variable and assign it to an integer value.
-x = int(5)
-
-# Use the as keyword to bind the integer value to the variable y.
-y = as int(x)
-
-# Print the value of y.
-print(y)
-
-# Output:
-# 5
