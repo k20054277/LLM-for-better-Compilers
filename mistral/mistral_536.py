@@ -1,0 +1,26 @@
+
+# This function checks if a given character is ASCII or not
+def is_ascii(char):
+    try:
+        char_value = ord(char)
+        return True
+    except ValueError:
+        return False
+
+# Main function
+if __name__ == "__main__":
+    char = 'A'  # This is an ASCII character
+    is_it_ascii = is_ascii(char)
+
+    if is_it_ascii:
+        print(f"{'char'} is an ASCII character.")
+        print(f"ASCII value of '{char}': {ord(char)}")
+    else:
+        print(f"{'char'} is not an ASCII character.")
+
+# Checking with non-ASCII character
+non_ascii_char = '\u0304'  # Unicode Combining Grave Accent
+is_it_ascii_nonascii = is_ascii(non_ascii_char)
+
+if not is_it_ascii_nonascii:
+    print(f"{'non_ascii_char'} is not an ASCII character.")
