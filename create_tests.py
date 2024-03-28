@@ -1,9 +1,9 @@
 #create test programs from output
-import os.path
+import os
 import re
 
 def create_mistral(content):
-    save_path = "/home/k20054277/Documents/llm/LLM-for-better-Compilers/mistral"
+    save_path = os.getcwd() +"/mistral"
 
     pattern = "\d+\npython"
 
@@ -11,7 +11,7 @@ def create_mistral(content):
 
     i = 0
     for p in program:
-        completeName = os.path.join(save_path, "mistral_" + str(i) + ".txt")
+        completeName = os.path.join(save_path, "mistral_" + str(i) + ".py")
         f = open(completeName, "w")
         f.write(p)
         f.close()
@@ -47,13 +47,13 @@ def create_mistral(content):
 #         end_index += 3
 
 def create_codellama(content):
-    save_path = "/home/k20054277/Documents/llm/LLM-for-better-Compilers/codellama"
+    save_path = os.getcwd() +"/codellama"
 
     pattern = "\d+\n```"
 
     program = re.split(pattern, content)
 
-    i = 252
+    i = 0
     for p in program:
         
         start_index = p.find("python")
@@ -67,7 +67,7 @@ def create_codellama(content):
 
         new_p = p[start_index:end_index].strip()
 
-        completeName = os.path.join(save_path, "codellama_" + str(i) + ".txt")
+        completeName = os.path.join(save_path, "codellama_" + str(i) + ".py")
         f = open(completeName, "w")
         f.write(new_p)
         f.close()
@@ -75,7 +75,7 @@ def create_codellama(content):
 
 
 def create_gemma(content):
-    save_path = "/home/k20054277/Documents/llm/LLM-for-better-Compilers/gemma"
+    save_path = os.getcwd() +"/gemma"
 
     pattern = "\d+\npython"
 
@@ -84,7 +84,7 @@ def create_gemma(content):
     i = 0
     for p in program:
         p.strip()
-        completeName = os.path.join(save_path, "gemma_" + str(i) + ".txt")
+        completeName = os.path.join(save_path, "gemma_" + str(i) + ".py")
         f = open(completeName, "w")
         f.write(p)
         f.close()
