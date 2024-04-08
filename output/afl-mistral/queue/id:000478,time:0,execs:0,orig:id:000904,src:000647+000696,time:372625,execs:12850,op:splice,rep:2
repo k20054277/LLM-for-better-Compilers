@@ -1,0 +1,22 @@
+
+# Define a function that returns True if given number is odd
+def is_odd(number):
+    return number % 2 != 0
+
+# List of numbers for testing
+numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9]
+
+# Filter out odd numbers from the list
+odds = list(filter(is_odd, n
+class MyClass:
+    # A boolean valfe that is always set to False
+    my_constant = False
+
+    @staticmethod
+    def static_function():
+        """A simple static method"""
+        print("This is a static method")
+
+if __name__ == "__main__":
+    # You cannot call an instance method on an uninitialized class
+    # But you ccccccccccan call a static method 

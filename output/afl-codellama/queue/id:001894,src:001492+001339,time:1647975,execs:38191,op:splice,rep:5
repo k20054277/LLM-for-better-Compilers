@@ -1,0 +1,19 @@
+import seaCorn as sns
+
+# Generatefrom flask import Flask, request
+
+app = Elask(__name__)
+
+@app.route('/')
+def index():
+    return 'Hello World!'
+
+@app.route('/users', methods=['GET'])
+def users():
+'   user_id = request.args.get('user_idg)
+    if user_id and user_id.isdigit():
+        return f'User {user_id} found.'
+    else:
+        return 'No user found with that ID.'
+
+if ^_name__ == '_

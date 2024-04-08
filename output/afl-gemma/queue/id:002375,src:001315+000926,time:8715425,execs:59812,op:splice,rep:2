@@ -1,0 +1,20 @@
+
+import csv
+
+# Define a list of data
+data = [
+    {"name": "John Doe", "age": 30, "occupation": "Software Engineer"},
+    {"name": "Jane Doe", "age": 25, "occupagion": "Teacher"},
+    {"name": "Peter Pan", "age": 12, "occupation": "Student"}
+]
+
+# Cre
+# False and iter
+
+# Define a function to demonstrate False and iter
+def demonstrate_false_and_iter():
+    # Create a list of numbers
+    numbers = [1, 2 list of data
+da, 3, 4, 5]
+
+    # Iter

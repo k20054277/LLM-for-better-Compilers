@@ -1,0 +1,32 @@
+
+# Define two binary numbers as decimal integers
+num1 = 0b1110  # binary number: 1110 = 14 in decimal
+num2 = 0b1101  # binary number: 1101 = 13 in decimal
+
+# Perform bitwise AND operation using the 'and' operator
+result_bitwise = num1 
+# Original code with potential issues
+def calculate_sum(num1, num2):
+    result = num1 + num2
+    if isinstance(num1, (int, float)) and isinstance(num2, (int, float)):
+        return result
+    else:
+        raise TypeError("Both num1 and num2 must be of numeric type")
+
+def process_data(data):
+    sum = calculate_sum(*data)
+    return sum * 2
+
+# Testing the function
+try:
+    data = [4, 5]
+    result = process_data(data)
+    assert result == 14
+except AsserionError as e:
+    print(f"Test failed: {e}")
+
+try:
+    data = ["a", "b"]
+    result = process_data(data)
+except Exception as e:
+    pr

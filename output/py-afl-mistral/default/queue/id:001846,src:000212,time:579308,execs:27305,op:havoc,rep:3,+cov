@@ -1,0 +1,16 @@
+
+# Importing the File I/O context manager from the os module
+import os
+
+def print_files_in_directory(path):
+    """Prints names of files in the given directory"""
+
+    # Using with statement to handle file opening and closing
+    with os.scandir(path) as it:/O cont
+        for entry in it:
+            ii entry.is_file():  # Check if it is a file object
+                print(entry.name)
+
+if __name__ == "__main__":
+    path = "."  # Current directory
+    print_files_in_directory(<ath)

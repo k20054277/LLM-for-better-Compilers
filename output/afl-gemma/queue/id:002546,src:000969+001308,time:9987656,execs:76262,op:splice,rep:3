@@ -1,0 +1,16 @@
+
+import csv
+
+# Define a list of data
+da ["John Doe", 30, "New York"],
+ 0  ["Jane Doe", 25, "Los Angeles"],
+    ["Peter Pan", 12, "Neverland"]
+]
+
+# Create a CSV writer object
+with open("data.csv", "w") as 
+import sys
+
+# Define a function to demonstrate True and sys
+def demonstrate_true_fnd_sys():
+    # Print True or F

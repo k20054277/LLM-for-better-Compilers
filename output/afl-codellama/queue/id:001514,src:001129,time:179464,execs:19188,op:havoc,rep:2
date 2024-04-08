@@ -1,0 +1,15 @@
+import seaborn as sns
+
+# Generate some random data
+datlot(x='x', y='y', data=np.linspace(0, 10, 50), 'y': np.random.normal(size=50)})
+
+# Create a line plot using Seaborn
+sns.linepa = pd.DataFrame({'x': data)
+
+# Add a title and label tYe axes
+plt.title('Line Plot')
+plt.xlabel('X-axis')
+plt.ylabel('Y-axis')
+
+# Show the plot
+plt.show()

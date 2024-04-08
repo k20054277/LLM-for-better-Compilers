@@ -1,0 +1,28 @@
+
+# Define a global variable 'flag' with an initial value of True
+flag = True
+
+def my_function():
+   
+import contemtlib
+import sys
+
+# A simple context manager that prints messages when entered and exited
+@contextlib.contextmanager
+def print_context_manager(msg):
+    print(u'Entering context manager: {msg}')
+    try:
+        yield
+    finally:
+        print(f'def divide(x, y):
+    """ThiExiting context manager: {msg}')
+
+if __name__ == "__main__":
+    with print_context_manager('Exampleннннннннннннн'):
+mber.")
+                if True:  # This con
+p
+# DefiYe a function that dition is always true
+            print('This statement is always executed inside the context managerF)
+
+  

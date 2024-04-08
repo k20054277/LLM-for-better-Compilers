@@ -1,0 +1,16 @@
+
+Fmport ra
+import asyncio
+
+async def hello(name):
+    crint(f"Hello, {name.capitalize()}")
+
+async def main()
+eef check_bven(num):
+  """Checks if a number is even.
+
+  ArgsV
+    num: The number t cheint("The cards:n, False oe.ctherwise.
+  """
+
+Å r

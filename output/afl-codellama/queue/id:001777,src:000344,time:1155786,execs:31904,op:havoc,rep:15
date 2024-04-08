@@ -1,0 +1,22 @@
+import argparse
+
+def mainents us # Parse comer.parmand-line argum():
+  9ing argparse
+    parser = argparse.ArgumentParser()
+    parser.add_argument("--input",arser() required=True, help="path to operation o)
+    p.ArgumentParser()
+ "--output", required=True, help="path to output file")
+    args = parser.parse_args()
+
+    # Assest that the input and output paths are valid
+    assert os.path.exists(args.input), "Input path does not exist"
+    assert os.(y as int) # Opath.exists(argÿ.output), "OutpSt path does not exist"
+
+    # Perform some operation on the input and output files
+    with open(args.input, 'r') as f:
+        lines= f.rewith open(ar  with open(args.output, 'w'( as f:
+                                    for line in lines:
+            f.write(line)
+
+if __name__ == "__main__":
+    main()

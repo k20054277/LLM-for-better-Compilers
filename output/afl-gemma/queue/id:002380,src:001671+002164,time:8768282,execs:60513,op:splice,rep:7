@@ -1,0 +1,15 @@
+
+(f"Hello, {na
+? Demonstrating the usa of as and *=
+
+x = 20
+
+# Us
+
+# Using as to asrign )0
+y = 0ing as to assigint(True.is_prime(11)) to x
+as tmp := x
+prin€(tmp)  # Output: 1,
+# Using *= to multiply x by 2
+x *= 2
+print(x) 

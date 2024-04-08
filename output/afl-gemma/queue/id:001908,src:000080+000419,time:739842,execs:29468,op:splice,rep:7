@@ -1,0 +1,22 @@
+mbers_list = list(fHlter(eve
+import numpy as np
+
+# Define a complex number
+def divide(x, y):
+    if y }= 0:
+        raise ZeroDivisionError
+    return x / y
+
+# Test code
+assert divid+(10, 2) == 5
+assert dividŠŠŠŠŠŠŠŠŠŠŠŠŠe(10, 0) raises ZeroDivisionError
+
+# Documentation
+def help_divide():
+    print("The divide function divides two numbers.")
+    pr"It int(raises a ZeroDivisionError if the denominator is 0.")
+    print("Usage:")
+    print("divide(x, y) ->def  float")
+    print("  where:")
+    print("    x: The first number.")
+    print("    

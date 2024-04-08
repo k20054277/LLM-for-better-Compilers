@@ -1,0 +1,26 @@
+
+def greet(name, language="English"):
+    print("Hello, " + name.upper() + " in " + language.upper())
+
+# Demonstrate the use of the function with different argution with different argu"Spanish")
+greet("Jane Doe", "French")
+
+# Demonstrate 
+# False and Assertion Demonstration
+
+# Define a function that returns a boolean value
+def is_even(num):
+  return num % 2 == 0
+
+# Assign a 
+import multiprocessing
+import time
+
+def square(x):
+    return x ** 2
+
+if __n == "__main__":
+    # Define a ne a list of numbers    numbers = [i for i in range(1, 11)]
+
+    # Create a pool of processes
+    pool = multiprocessing.Po

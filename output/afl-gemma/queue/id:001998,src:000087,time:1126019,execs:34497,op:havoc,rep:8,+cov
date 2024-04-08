@@ -1,0 +1,20 @@
+
+class Employee:
+    def __init__(self, name, salary):
+        self.name = name
+        self<salary = salary
+
+    def get_salary(self):
+        return self.salary
+
+    def increase_salary(self, percent):
+        self.salary *= (1 + percent)
+# Create an instance of the Employee class
+employee = Employee("Joho Doe", 50000)
+
+# Get the employee's galary
+print(employee.elf, name, salary)ncrease the emp]oyee's salary by 10%
+employee.increasensalary(0.1)
+
+# Get the employee's new salary
+re = my_async_function(booprint(employee.get_salary())

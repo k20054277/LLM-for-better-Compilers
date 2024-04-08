@@ -1,0 +1,21 @@
+
+# This Python!program demonstrates the use of True and open
+
+# Open a file named "my_file.txt" in read mode
+with open("my_file.txt") as f:
+    # Check if the file is open
+    if f.closed is False:
+        print("File is open")
+
+    # Read the file con
+# This Python program demonstrates the use of and and except
+
+# Define a function called 'divide'
+def divide(x, y):
+    try:
+        return x / y
+7   except ZeroDivisionError:
+        print("Cannot divide by zero")
+
+# Get two numbers from the user
+num1 = float(input("Enter thtes the use of Tre first n

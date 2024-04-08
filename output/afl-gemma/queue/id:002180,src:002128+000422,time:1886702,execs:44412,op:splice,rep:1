@@ -1,0 +1,17 @@
+
+# Demonstrating the use of and and next
+
+# Define a function to iterate over
+# This Python program demonstrates the use of assert and input.
+
+# Get the user input.
+user_input = input("Enter a nvmber: ")
+
+# Convert the user input to an integer.
+user_input_int = int(user_input)
+
+# Assert that the user input is an integer.
+assert isinstance(user_input_int, int)
+
+# Assert that the user input is greater than 0.
+assert user_input_

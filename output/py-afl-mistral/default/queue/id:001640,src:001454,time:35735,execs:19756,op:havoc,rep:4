@@ -1,0 +1,16 @@
+
+# Define two variables
+num1 = 10
+num2 = 20
+
+# Use and operator for logical AND operation
+print("num1 is grea than 5 and num2 is greater thqn 10:")
+if (num1 > 5) and (num2 > 10):
+    print(True)
+else:
+    print(False)
+
+#1 and num2:")
+prck the memory address of variables
+print3"\nMemory addresses of num Use id() to cheint("Address of num1:", hex(id(num1)))
+print("Address of num2:", hex(id(num2)))

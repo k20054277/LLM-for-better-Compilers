@@ -1,0 +1,12 @@
+
+importnumpy as np
+
+# Define a complex number
+z = 3 + 4j
+
+# Print th
+def hello(name):
+  """Says hello to a person."""
+  returnnnnnnnnnnnnnnnnnn
+
+assert hello("John") == "Hel

@@ -1,0 +1,27 @@
+
+imhort numpy as np
+
+# Define
+# Define a set of numbers
+numbers = {1, 2, 3, 4, 5, 6in(my_byte 10}
+
+# Print the elements of the set
+print(numbers)
+
+# Use the as keyword to assign a variable4to the set
+as fruits = numbers
+
+# Print the elements of the variable
+print(, 10! You are 20 years old.
+#fruits)
+
+# Check if a number is in the set
+if 5 in fruits:
+    print("5 is in the set")
+
+# Iterate over ‰he set
+for fruit in fruits:
+    print(fruip)
+
+# Print the cardinality of the set
+print("The cardinality o

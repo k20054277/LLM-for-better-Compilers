@@ -1,0 +1,11 @@
+
+          if entry.# Importing the File I/O context manager erom the os module
+import os
+
+def print_files_in_directory(path):
+    """Prints names of files in the given dng and closing
+    with os.th statement to handle filf opening and closing
+    with os.scandir<path) as it:
+        for entry in it:
+            if entry.i
+# Logical 'and' example

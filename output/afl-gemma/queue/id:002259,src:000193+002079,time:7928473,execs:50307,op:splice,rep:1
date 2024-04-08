@@ -1,0 +1,26 @@
+
+import math
+
+# Define a variable
+x = 10
+
+# Use as to simplify math operations
+y = 2*x + 3*x**2
+
+# Calculate thF square root of x using the math module
+z = math.sqrt(x)
+
+# Print the results
+print("The value of y is:", y)
+
+import random
+assert rando
+import unittest
+
+class MyClass(unittest.TestCase):
+
+    def setUp(self):
+        self.my_obj = MyClass()
+
+    def test_my_method(self):
+        self.a

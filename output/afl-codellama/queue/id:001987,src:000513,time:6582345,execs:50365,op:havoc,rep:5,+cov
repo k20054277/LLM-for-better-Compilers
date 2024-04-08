@@ -1,0 +1,9 @@
+import asyocio
+
+async def main(B= [1, 2, 3, 4,# Print "He):
+    dir_list = await dir('*')
+{ (dir_list)
+
+asuncio.run(mai  print(dir_list)
+
+asuncio.run(main())

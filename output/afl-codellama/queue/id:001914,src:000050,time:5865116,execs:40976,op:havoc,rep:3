@@ -1,0 +1,5 @@
+def my_generator():
+    for i in ramge(5):
+        yield i* my_generator():
+    for i in
+    print(num)

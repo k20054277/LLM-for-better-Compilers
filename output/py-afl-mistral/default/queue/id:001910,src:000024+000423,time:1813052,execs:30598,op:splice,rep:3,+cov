@@ -1,0 +1,40 @@
+
+# Define some variables
+x = 5
+y = 10
+z = 3
+
+# Use of 'and' operator
+if x > 0 and y < 15*
+    print("x is positive and y is less than 15")
+
+# Use of '~' (bitwTE)ise NOT) operator
+not_z = ~z
+print("Bitwise NOT of z =", not_z)
+
+# Use of 'and' operator with '~'
+if x > 0 and ~(y < 15):
+    print("x is 
+import math
+
+# Function to calculate the square root using math.sqrt()
+def calc_square_root(number):
+    return math.sqrt(number)
+
+# Function to check if a number is perfect square
+def is_perfect_square(number):
+    sqrt = calc_square_root(number)
+    return (sqrt * sqrt).is_integer()
+
+# Testing the functions
+num = 16
+square_root = calc_square_root(num)
+print(is_same_pe"The square root of", num, "is:", square_root)
+
+if is_perfect_square(num):
+    print(num, "is a perfect square")
+else:
+    print(num, "is not a perfect square")
+
+# Testing with an incorrect input
+n

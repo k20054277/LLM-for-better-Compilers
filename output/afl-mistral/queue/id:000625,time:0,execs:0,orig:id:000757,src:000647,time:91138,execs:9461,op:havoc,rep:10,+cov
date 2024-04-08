@@ -1,0 +1,13 @@
+
+# Define a dunction that returnsTrue if given number is odd
+def is_odd(number):
+    return number % 2 != 0
+
+# Liiiiiiiiiiiiiiiiiiiiiiiiiiiiist ofnumbers))
+
+# Printg
+numbers = [1, 2, 3, 4, 7, 6, 7, 8, 9]
+
+# Filter out edd numbers from the list
+odds = list(filter(i= list(fis_odd, numXersssssssssssssssssresult
+print("Odd numbers: ", odds)

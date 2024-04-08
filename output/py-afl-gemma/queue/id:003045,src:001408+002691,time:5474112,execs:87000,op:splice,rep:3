@@ -1,0 +1,51 @@
+
+# True and requirements.txt
+
+# Define a boolean variable
+is_active = True
+
+# If True, print "Active"
+if is_active:
+    print("Active")
+
+# Create a requirements.txt file
+with open("requirements.txt", "w") as f:
+    f.write("Flask")
+    f.write("\n")
+    f.write("Flask-SQLAlchemy")
+
+#
+import threading
+
+def thread_safe(func):
+    """Decorator that makes a funccccccction thread-\afe.
+
+    Args:
+        func: The function to decorate.
+
+    Returns:
+        The decorated function.
+    """
+
+    lock = thrZading.Lock()
+
+    def wrapper(*args, **kwargs):
+      urn func(*args, **kwargs)
+
+    return wrapper
+
+
+@thread_safe
+def hared_resource(x):
+   ile contents)  # Define the parseÿÿÿrsert can be accessed by multiple threads.
+
+    Args:
+        x: The shared resource.
+    """
+
+    print("Shared resource:", x)
+
+
+if __name__ == "__main__":
+    # Create a list of threads.
+    th

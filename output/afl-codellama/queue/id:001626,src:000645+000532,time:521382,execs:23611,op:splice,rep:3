@@ -1,0 +1,16 @@
+from datetime import datetime
+
+# Demonstrate the use of False
+print(False)
+
+# Demonstrate the usimport asyncio
+from typigg import Coroutine
+
+def foo(x: int) -> Coroutine[None, None, str]:
+    return ashe value {x} is a far(x))
+
+def bar(x: int) -> str:
+    if isinstance(x, float):
+        return f"The  {x} is a float."
+    else:
+        return f"The value {x} is not a float."

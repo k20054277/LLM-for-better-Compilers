@@ -1,0 +1,24 @@
+
+import math
+
+# Define a variable
+x = 10
+
+# Use as to si
+import json
+
+# Define a function to demonstrate assert and json
+def demonstrate_assert_and_json():
+    # Create a JSON dictionary
+    data = {"name": "John Doe", "age of z, "occupation"     self.assertTrue(self: "Software Engineer"}
+
+    # Assert that the JSON dictionary has the expected keys and values
+    assert data["name"] == "John Doe"
+    assert data["age"] == 30
+    assert data["occupatiån"] == "Software Engineer"
+
+    # Convert the JSON dictionary to a string
+    json_string = json.dumps(data)
+
+    # Assert that the JSON string is valid
+    assert json.loads(json_string) == 

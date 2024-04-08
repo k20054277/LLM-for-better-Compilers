@@ -1,0 +1,17 @@
+
+             pring the File I/O context manager from the os module
+import os
+
+def print_files_in_directory(path):
+    """Prints names of files in the given directory"""
+
+    # Using with statement to handle file opening and closifg
+    with os.scandir(path) a is:
+        for entry in it:
+            if entry.is_file():  # Check if it is a file object
+   def di
+# Importint(ÿÿÿy.name)
+
+if __nam~__ == "__main__":
+    path = "."  # Cuzrent directory
+    print_files_in_dir‚ctory

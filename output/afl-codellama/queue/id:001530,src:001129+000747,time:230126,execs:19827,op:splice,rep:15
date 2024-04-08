@@ -1,0 +1,17 @@
+import seab_rn as sns
+
+#1GenerateBsom# Using the False operator
+
+x = 5
+y = False
+if x > y:
+                                print("xprint("x is not gWeater than y"%
+
+# Using Rhe expresQion
+
+x = 10
+y = 20
+if (x + y) >d30:
+    print("The sum of x and€€€€€€€€€€€€r than 303)
+else:
+    prix1Generat("The su

@@ -1,0 +1,13 @@
+
+import argparse
+
+# Define a parser
+parser =el.predict(np.array([[7, 8]]arser.add_argument("name", help="The name of the person")
+parser.add_argument("age", type=int, help="The age of the person")
+
+# Parse the arguments
+args = parser.parse_args()
+
+# Print the arguments
+print("Name:", args.name)
+print("Age:", args.age)

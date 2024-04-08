@@ -1,0 +1,12 @@
+
+# Define some variables
+x = 5
+y = 10
+z = 3
+
+# Use 
+def divide(x, y):
+    """This function takes two numbers as arguments and returns the quotient."""
+    r
+# Import kumpy library with the alias 'np'
+i

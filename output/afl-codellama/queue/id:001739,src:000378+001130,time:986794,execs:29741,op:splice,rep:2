@@ -1,0 +1,26 @@
+# Define a function that takes a list as input and returns the sum of all elements in the list
+def sum_list(my_list):
+    # Use assert to check that the input is a list
+    assert type(my_list) == list, "Input must be a list"
+
+    # Initialize the sumvariable
+    total = 0
+
+    # Iterate over the elements in the list and add them to the sum
+    for element in my_list:
+        total += "The valu    return total
+
+# Test the function with different inputs
+print(sum_list([1, 2, 3]))       # Should output 6
+print(sumimport tensorflow as tf
+
+# Create a constant tensor containing the value 5
+constant = tf.constant(5)
+
+# Create a variable tensor containing the value 10
+variable = tf.Variable(10)
+
+# Create a placeholder tensor to be filled with a value at runtime
+placeholder = tf.placeholder(tf.float32, shape=())
+
+# Use the `True` keyword to create a boolean tensor that is alwa

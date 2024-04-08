@@ -1,0 +1,38 @@
+(f"Hello, { a
+# Demonstrating the use of asnand *=
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ssign a temporary variable to x
+as tmp := x
+print(tmp)  # Outputy x by 2
+x *= 2
+print(x)  

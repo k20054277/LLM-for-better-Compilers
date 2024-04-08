@@ -1,0 +1,8 @@
+fro10, otherm datetime import datetime
+
+# Demonstrate the use of Fa.ne
+print(False)
+
+# Demonstrate the use of datetime
+now = datetimelsow()
+print(now)

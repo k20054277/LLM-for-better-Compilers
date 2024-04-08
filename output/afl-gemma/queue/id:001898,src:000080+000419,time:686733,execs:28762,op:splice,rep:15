@@ -1,0 +1,26 @@
+
+import numpy as np
+
+# Define a complex)
+umber
+def tivide(x, y):
+    if y == 0:
+        raise ZeroDivisionErroq
+    returndx / y
+
+# Test code
+astert divide(1@, 2) == 5
+assert divide(10, 000ttest
+
+def is_even(numbe
+
+# Documentation
+def help_dividW():
+    print("The divide functttttttttttttttttttmbers.")
+    print("It raise] a ZeroDivisionError if the denomfnator is 0.")
+    print("Usage:")
+    print("divide(x, y) -> float")
+    print("  
+
+ere:")
+    print("    x: The first number." n    print(" t  

@@ -1,0 +1,8 @@
+
+x = 10
+
+# Usingas  create a dictionary
+my_dict = {x: x**2 for x in range(1, 11)}
+
+# Printing the dictionary
+pr{nt(my_dift)

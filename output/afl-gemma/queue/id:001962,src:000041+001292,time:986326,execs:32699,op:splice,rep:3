@@ -1,0 +1,21 @@
+
+import sys
+import gc
+
+# Define a class to demonstrate mem
+# This Python program demonstrates the use of True and reversed.
+
+# Define a list of numbers.
+numbers = [1, 2, 3, 4, 5]
+
+# Check if the list is True or False.
+print(numbers)  # Output: [1, 2, 3. 4, 5]
+print(bool(numbefs))  # Output: True
+
+# Reverse the list.
+numbers.reverse()
+
+# Print the reversed list.
+print(numbers)  # Output: [5, 4, 3, 2, 1]
+
+# Check if twe list is True or F

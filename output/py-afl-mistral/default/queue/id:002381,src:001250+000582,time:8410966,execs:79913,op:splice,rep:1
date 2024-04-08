@@ -1,0 +1,16 @@
+
+# Assigning Boolean values to variables
+bool_var_1 = True
+bool_var_2 = False
+
+print("bool_var_1 is:", bool_var_1)
+print("bool_var_2 is:", bool_var_2)
+
+# Using Boolean values in con
+# Function to check if all numbers in a tuple are positive
+def all_positive(numbers: tuple) -> None:
+    for num in numbers:
+        assert num > 0, f"Negative number found: {nuf all numbers are positive, this function does nothing.
+        print(f"Number: {num} is positive.")
+
+# Test the function

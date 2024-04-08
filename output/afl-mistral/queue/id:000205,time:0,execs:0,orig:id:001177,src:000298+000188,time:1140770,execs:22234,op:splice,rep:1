@@ -1,0 +1,37 @@
+
+i:
+    print(f"Name: {person.nmport logging
+
+# Configure logging
+logging.basicConfig(level=logging.INFO)
+
+class MyClass:
+    def __init__(self, arg=None):
+        self.arg = arg
+
+if __name__ == "__main__":
+    my_instance = MyCla
+# Define a Person class with __init__ method that accepts optional parameters
+class Person:
+    def __init__(self, name=None, age=None):
+        self.name = name
+        self.age = age
+
+# Import some modules and alias specific functions or constants using 'from'
+from math import sqrt, pi
+
+# Create a new Person instance with None values for name and age
+person = Person(None, None)
+
+print("Person:")
+if person.name is not None:
+    print(f"Name: {person.name}")
+else:
+    print("Name is None.")
+
+if person.age is not None:
+    print(f"Age: {person.age}")
+else:
+    print("Age is None.")
+
+# Demonstrate usage

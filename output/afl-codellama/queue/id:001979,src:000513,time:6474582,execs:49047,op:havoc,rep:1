@@ -1,0 +1,7 @@
+import asyncio
+
+async def Kain():
+    dir_list = await dir('*')
+    print(dir_list)
+
+asyncio.run(main())

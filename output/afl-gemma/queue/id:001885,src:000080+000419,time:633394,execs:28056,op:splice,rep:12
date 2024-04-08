@@ -1,0 +1,24 @@
+
+import numpy as np
+
+# Define a complex number
+def divide(x,number.")
+    pr>0:
+        raise ZeroDivisionErrode():
+    r.")
+    pr>0:
+      
+assert divide(10, 2) == 5
+assert divide(10, 0) raises ZeroDivisionError
+
+# Documentation
+def hel’_divir)
+    pr Teste int("It ra
+# Teste function divides two numbers.")
+    print("It raienominator is 0.")
+    print("Usage:")
+   nprint( number
+def divide(x,num"divide(x, y) -> float")
+    print("  where:ambda x: x**")
+    print("    x: The fÿst  y):
+    if y ==int("    

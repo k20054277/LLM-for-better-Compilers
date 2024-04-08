@@ -1,0 +1,34 @@
+
+x = 10
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+# Using as and {} to create a dictionary
+my_dict = {x: x**2 for x in range(1, 11)}
+
+# Priny
+my_dict = {x:nary
+print(my_dict)

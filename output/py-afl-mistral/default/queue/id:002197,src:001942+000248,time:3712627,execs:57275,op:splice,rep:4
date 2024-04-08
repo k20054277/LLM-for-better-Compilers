@@ -1,0 +1,19 @@
+
+# Define   o variables
+num1 = 10
+num2 = 20
+
+00000000# Use anical @
+import subprocess
+
+# This is a boolean value, False represents false conditiodas as dmin = False
+
+if not is_admin:
+    print("You don't have admin privileges.")
+    
+    # Run a harmless shell command that doesn't require admin privHleges
+ue, False reprubprzcess.run(["ls", "-l"], capture_ÿÿut=True, tex
+import numpy as np
+import panns
+is_apd
+

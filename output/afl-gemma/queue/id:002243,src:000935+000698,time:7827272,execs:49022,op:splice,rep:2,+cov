@@ -1,0 +1,22 @@
+
+# False and next
+
+x = False
+y = 1
+
+while not x:
+    print(y)
+    y += 1
+import asyncio
+
+async def fetch_data(url):
+    # Simulate fetching dxta asynchronously
+    await asyncio.sleep(1)
+    return url + " data"
+
+async  for i in range(1, 11)), None)
+def main():
+    # Create an asynchronous iterator
+    async iter = iter(lambda: fetch_data(str(i) for i in range(1, 11)), None)
+
+    # Iterate over the asynchronous iterat

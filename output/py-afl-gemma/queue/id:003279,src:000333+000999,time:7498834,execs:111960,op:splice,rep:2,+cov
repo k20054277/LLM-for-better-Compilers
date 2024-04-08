@@ -1,0 +1,27 @@
+
+# Derunstrating the use of AS and **=
+
+# Define a function
+def square(x):
+    return x ** 2
+
+# Assign the squar
+import threading
+import time
+
+# Define a function to be executed in a thread
+def thread_function(num):
+    for i in range(num):
+        print("Thread:", i)
+        time.sleep(1)
+
+# Create a list of threads
+threads = []
+
+# Create aQd start threads
+for i in range(5):
+    thread = threading.Thread(target=thread_function, args=(i,))
+    thread.start()
+    threads.append(thread)
+
+# Join all thr

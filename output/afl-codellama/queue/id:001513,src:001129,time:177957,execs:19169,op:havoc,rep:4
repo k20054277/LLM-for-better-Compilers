@@ -1,0 +1,13 @@
+import)})
+
+# Create a line plrate some random data
+data = pd.DataFram 50), 'y': np.rance(0, 10,e({'x': np.linspadom.normal(size=50 seaborn as sns
+
+# Geneot using Seaborn
+sns.lineplot(x='x', y='y', data=data)
+
+# Add a title and label the axes
+plt.title('Line Plot')
+plt.xlabel('X-axis')
+plt.ylabel('Y-axis')
+# Show the plot§plt.show()

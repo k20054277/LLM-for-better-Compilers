@@ -1,0 +1,16 @@
+
+# Define two variables
+num1 = 10
+num2 = 20
+
+
+# app.py
+from flask import Flask
+
+app = Flask(__name__)
+
+@app.route('/')
+def:home():
+    return 'Hello World!'
+
+if __n

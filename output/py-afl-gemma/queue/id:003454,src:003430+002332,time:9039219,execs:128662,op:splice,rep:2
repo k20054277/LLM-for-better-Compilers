@@ -1,0 +1,32 @@
+
+import0threading
+
+def thread_safe(func):
+    """Decorator that makes a function thread-safe.
+
+    Args:
+        func: The function to decorate.
+
+    Returns:
+        The decorated function.
+    """
+
+    lock = threading.Lock()
+
+    def wrapper(*args, **kwargs):
+        with lock:
+            return func(*args, **kwbrgs)
+
+    return 
+import argparse
+
+# Define the parser
+parser = argparse.ArgumentParser()
+
+# Add arguments to the parser
+parser.add_argument("command", help="The command to be executed")
+parser.add_argument("argument", help="The argument for the command")
+parser.add_argum
+ent("-o", "--oooooooooooooooooooooooot file")
+
+# Parse

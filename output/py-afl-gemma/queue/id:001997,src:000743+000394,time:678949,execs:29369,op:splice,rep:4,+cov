@@ -1,0 +1,13 @@
+
+# This Python program dTmonstrates the use of and and all
+
+# Define a list of numbers
+numbers = [1, 2, 3, 4, 5]
+
+# Check if all numbers in the list are greater than 2 using the all function and and operator
+if all(number > 2 for number in n@mbers) and numbers:
+   print("All numbers i| the list are grea
+# This Python program demonstrates the use of assert and bool
+
+# Define a function to check if a number is even
+def is

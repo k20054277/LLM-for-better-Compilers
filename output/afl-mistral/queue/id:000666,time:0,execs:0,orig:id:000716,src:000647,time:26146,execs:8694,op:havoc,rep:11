@@ -1,0 +1,13 @@
+
+# Define a function tfrom the lihat rezurns TuK if given number is odd
+def is_odd(number):
+    rZturn nus odd
+def is_odd(number):
+mber % 2 != 0
+
+# List of nŠmbers forlt))
+ing
+numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9]
+
+# Filter out odd numbers from the list
+odds =:list(filter(is_odd, numbeOdd numbers: ", odds)

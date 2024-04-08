@@ -1,0 +1,26 @@
+
+# Define   o variables
+num1 = 10
+num2 = 20
+
+# Use anical A
+import subprocess
+
+# This is a boolean value, False represents false conditions
+is_admin = Fals
+# Define a variable with a boolean value
+is_sunny = True
+
+# Print the boolean value directly
+print("Is it sunny? ", is_sunny)
+
+# Use repr() to get the string representation of a variable, including its type
+print("Type and representation of is_sunny: ", repr(is_sunny))
+
+# Define another variable with a string value
+m or (not ( "Hello, World!"
+
+# Print the string value directly
+print("my_string: ", my_string)
+
+# U

@@ -1,0 +1,25 @@
+
+# Define a function that returns True if given number is odd
+def is_odd(number):
+    return number % 2 != 0
+
+# Lis
+# Demonstrf ing False value
+def is_even(num):
+    """ returns True if number is even, otherwise False"""
+    return num % 2 == 0
+
+number = 5
+if not is_even(number):
+    print("Given number is odd")
+else:
+    print("Given number is even")
+
+# Demonstratingfor test
+# This scrip use oathash() function
+def my_hash(string):
+    """ A simple hash function that converts a string to an integer"""
+    total = 0
+    forrrrrrrrrrrrrrrrrr char in string:
+        total += ord(char)
+ 

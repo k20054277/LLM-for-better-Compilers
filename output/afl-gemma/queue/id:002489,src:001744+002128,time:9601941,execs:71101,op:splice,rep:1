@@ -1,0 +1,35 @@
+
+  
+# This Python program demonstrates the use of and and len
+
+# Define a list of numbers
+numbers = [1, 2, 3, 4d and len
+
+# Def, 5]
+
+# Check if all numbers in te list are greater than€2 and the length of the list is greater than 3
+if all(num > 2 for num in numbers) and len(numbers) > 3:
+  print("All numbers in the list
+# Demonstrating the use of and and next
+
+# Define a function to iterate over a list of numbers
+def iterate_over_numbers(nums):
+    for num in nums:
+        print(num)
+        if num % 2 == 0:
+            print("Even number")
+        else:
+            print("Odd number")
+
+# Create a list of numbers
+nums = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+
+# Iterate over the numbers using the and and next methods
+for num in nums:
+    print(num)
+    if num % 2 == 0:
+        print("Even number")
+    else:
+        print("Odd number")
+
+    # PPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPumber, except the last n

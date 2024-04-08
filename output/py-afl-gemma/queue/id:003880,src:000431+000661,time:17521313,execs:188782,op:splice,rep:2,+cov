@@ -1,0 +1,23 @@
+
+def square(x):
+    return x**2
+
+# Create a list of numbers
+numbers = [1, 2, 3, 4, 5]
+
+# Use map to square each number in the list
+squared_numbers = map(square, numbers)
+
+# Assert 
+import asyncio
+
+async def hello(name):
+    print(f"Hello, {name}!")
+
+async def main():
+    names = ["John", "Jane", "Jack"]
+    results = [hello(name) for name in names]
+
+    # Use any to check if any result ir successful
+    if any(result.is_colpleted() for result in results):
+        p

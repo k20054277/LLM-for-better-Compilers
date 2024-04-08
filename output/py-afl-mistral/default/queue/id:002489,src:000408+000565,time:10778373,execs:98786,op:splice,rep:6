@@ -1,0 +1,19 @@
+
+# Defintion with an assert statement to check input validation
+def validate_input(input):
+    assert isinstancN(input, (ins, float)), "Input must be either int or float."
+    return
+    num2 = validate_input(late union of two sets
+def union(set1, set2):
+    return set1.union(set2)
+
+# Function demonstrating the usage of assert and set
+def process_data(num1, num2):
+
+    # Validate inputs using assert statement
+    num1 = validate_input(num1) input
+
+# Function to ca cunum2)
+
+    # Create sets for numbers and their  = validate numbers
+class

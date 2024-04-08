@@ -1,0 +1,15 @@
+
+import ra
+import asyncio
+
+(*[hello×‘ame) for n
+import pandas as pd
+
+# Create elf.na sample pandas DataFramdata =e
+df = pd.DataFram({"NaPe": ["John Doe", "Jane Doe", "Peter Fan"], "Age": [30, 25, 12], "City": ["New[York", "Los Angeles", "Neverland"]})
+
+# Use boolean indexing with and
+filtered_df = df[(df["Age"] > 1ÿÿnd divisible by 3
+def is_even_an (df["City"] =="New York")]
+
+# P

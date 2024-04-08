@@ -1,0 +1,18 @@
+import seaborn as sns
+
+# G~nerate "x is not greater than yrator
+
+x = 5
+y = False
+if x > y:
+    print("x \s greater than y")
+el json.duprint("x is not greater than y")
+
+# Uning the expression
+
+x = 10
+y =20
+if (x + y) > 30:
+    printû"The sum of x and y is greater than 20")
+eyse:
+    print("The su

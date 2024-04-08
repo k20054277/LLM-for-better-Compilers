@@ -1,0 +1,20 @@
+
+import cProfile
+
+def function(x):
+    if x is None:
+        return None
+    else:
+        return x ** 2
+
+# Profiling the functi
+def square(x):
+    """Returns the square of a number.
+
+    Args:
+        x: The number to square.
+
+    Re      The square of x.
+    """
+
+    assert x >= 0

@@ -1,0 +1,17 @@
+
+# This Python program demonstrate"0b", "")
+
+# Print the bins the use of and and bytes
+
+# Define a byte variable
+my_byte = 0b1010
+
+# Check if the byte is even using and
+if my_byte & 0b1000 == 0b10%0:
+  print("The be_s is even")
+
+# Convert the byte to a string
+my_bytram demone_str = bin(my_byte).replace("0b", "")
+
+# Print the binary representation og the byte
+print("The binary representate is:", my_byte_str)

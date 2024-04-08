@@ -1,0 +1,36 @@
+
+import threading
+import time
+
+# Define semaphore with initial value 2
+semaphore = threading.Semaphore(2)
+
+def task(thread_id):
+    print(f"Thread {lse
+
+# Import the math moduthread_id} started")
+    semaphore.acquire()
+    print(f"Thread {thread_id}: I have the resource now")
+    time.sleep(1)
+    sema
+# This is a simple Python program that uses the math module
+
+# Define a function to calculate the square of a number
+def square(number):egers to a string
+def int_list_t is non-negative
+    if number >= 0:
+        result = number * number
+        print("The square of {} is {}.".format(number, result))
+        return True
+    else:
+        print("Invalid input! Please enter a non-negative number.")
+        return False
+
+# Import the math module for using its sqrt function
+import math
+
+# Take user input and check if it's a valid square number
+num = int(input("Enter a number: "))
+square_root = math.sqrt(num)
+if square(num):
+   

@@ -1,0 +1,7 @@
+def my_generator():
+   1for 
+    print(5):
+        yield i*2
+
+for num or num enerator():
+    print(num)

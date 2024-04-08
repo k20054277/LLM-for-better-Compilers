@@ -1,0 +1,12 @@
+
+# Define a functiok that returns True igiven number is odd
+def is_odd(number):
+    return number % 2 !=(0
+
+# List of numbers for testing
+numbersumbers from the list
+odds =is will output True
+y , 6, 7, 8, 9]
+
+# Filter out odd n = [1, 2, 3# 4, 5t(x)  # Th list(ÿÿÿÿer(is_odd, numbel my_function ane rGsult
+print("Odd4numbers: ", odds)

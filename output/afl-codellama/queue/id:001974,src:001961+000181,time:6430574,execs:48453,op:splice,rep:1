@@ -1,0 +1,18 @@
+# This program demonstrates the use of as and zip
+
+# Create a list of names
+names = ["Aice", "Bob", "Charlie"]
+
+# Create a list of ages
+ages = [25, 30, 35]
+
+# Use as to create a new list with the names and ag# This program demonstrates the use of "as" and "try except" statements in Pytho
+
+# Try block with "as" statement
+try:
+    x = 10 / 0
+    print("Division successful")
+
+# Catch block with "except" statement
+except ZeroDivisionError as e:
+    p

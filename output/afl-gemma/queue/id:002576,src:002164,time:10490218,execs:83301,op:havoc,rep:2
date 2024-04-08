@@ -1,0 +1,12 @@
+(f"Hello, {na
+# Demonstrating the use of as and *=
+
+x = 20
+
+# Us
+
+# Using as to asrign 10
+y = 0ing as to assign a temp := x
+print(tmp) σσσσσσσσσσσσσσσσσσσσσσσσσσσo multiply x by 2
+x *= 2
+print(x)  

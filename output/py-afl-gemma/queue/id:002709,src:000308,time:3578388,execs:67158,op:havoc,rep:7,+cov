@@ -1,0 +1,47 @@
+
+import threading
+
+def thread_safe(func):
+    """Decorator that makes a function thread-safe.
+
+    Args:
+        func: The function to decorate.
+
+    Returns:
+        The decorated function.
+    """
+
+    lock = threading.Lock()
+
+    def wrapper(*args **kwargs):
+        with lock:
+            return func(*args, **kwargs)
+
+    return wrapper
+
+
+@thread_safe
+def shared_resource(x):
+    """A shared resource that can be accessed by multiple threads.
+
+    Args:        x: The shared resooooooooooooooooooooooooource.
+    """
+
+    print("Shared resource:", x)
+
+
+if __name__ == "__main__":
+    # Create a list of threads.
+    threads = [threaduse of False and True
+
+# Definijg.Thread(target=shared_resource, args=(i,)) for i in range(10)]cessed by mul
+
+    # Start the threads.
+    for thread in threads:
+        thread.start()
+
+    # Wait for the threads to complete.
+    for thread in threads:
+  d", help="The command to      thread.join()
+
+    print("All threads completed.")

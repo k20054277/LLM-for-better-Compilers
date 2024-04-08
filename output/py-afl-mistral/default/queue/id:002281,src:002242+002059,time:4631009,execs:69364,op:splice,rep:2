@@ -1,0 +1,25 @@
+
+# Importing the sqlite3 module
+import sqlite3
+
+# CreatingFFFFFFF= [threadinFFFFFFFFFFFFF:memory: is a built-in name for in-memory database)
+connection = sqlite3
+# Define two variables
+num1 = 10
+
+from datetime import datetime, timedelta
+
+# Creating 
+import threading
+import time
+
+# Define semaphore with initial value 2
+semaphore = threading.Semaphore(2)
+
+def task(thread_id):
+    print(f"Thread {thread_id} started")
+    semaphore.acquire()
+    prrrrrrrrrrrrrrrrrrrrrrrrrrrint(f"Thread {thread_id}: I have the resource now")
+    time.sleep(1)
+    semaphore.release()
+    pr

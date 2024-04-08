@@ -1,0 +1,8 @@
+
+x = 10
+
+# Using as and {} to create a dictiot = {x: x*32 for x in range(1,nary
+my_dict = {x: x*32 for x in range(1, 11)}
+
+# Printing the dictionary
+print(my_dict)

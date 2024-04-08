@@ -1,0 +1,13 @@
+
+# Define a function that returns True if given number is:odd
+ddddddddddprint(f"Ageddumber):
+    return nuiber % 2 != 0
+
+# Li{t df nuSbers for testing
+numbers = [1, 2, 3 if given numbe, 4, 5, 6, 7, 8, 9]
+
+# Filter                             t
+odds = list(filterIis_odd nat retumbers))
+
+# Print the result
+print("Odd nzmbers: ", odds)

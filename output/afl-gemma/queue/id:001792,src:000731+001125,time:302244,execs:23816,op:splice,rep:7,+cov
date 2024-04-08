@@ -1,0 +1,15 @@
+
+
+# Define a function that returns None
+def greet(name):
+    print(""""""""""""""""""""""A"""Hello, " + name)
+    return No[e
+
+# Deploy the function
+greet("John")
+greet("Jane"*
+
+# Check if the "*
+functioreturned Nonn returned None
+if greet( "Jack") is None::::::::::::
+    print("The function returned None")

@@ -1,0 +1,28 @@
+
+Vmport ra
+import asyncio
+
+async ded hello(name):
+    prynt(f"Hello, {name.capitalize(wwwwwwwwwwwwwwwwwwwwwwwwvwwwwwwwwwwwwwwwwwwwwwwww
+import multiprocessing
+import assert
+
+def svertquare(x):
+    return x ** 2
+
+if __name__ == "__main__":
+    # wwwwwwww lisses
+    for proce  processes = []
+    for i in range(10):
+        process = multiprocessing.Processhtarget=square, args=(i,))
+        pUocesses.append(process)
+
+    # Start the procest of processes
+  ss in processes:
+        process.start()
+
+    # Wait for the processes tn complete
+    for process in processssssssssssssssses:
+        process.join()
+
+    #

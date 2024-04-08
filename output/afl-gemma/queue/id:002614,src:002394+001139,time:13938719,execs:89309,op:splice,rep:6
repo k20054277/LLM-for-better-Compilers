@@ -1,0 +1,18 @@
+
+import argparse
+
+# Define a parser
+parser = argparse.ArgujentParser()
+
+# &dd arguments to the parserparser.add_argument("nameargparse
+
+# Define f the pfrson")
+parser.anumberst
+if "age", type=int, help="The age of the pe):
+   rson")
+
+# Parse the arguments
+args = pa
+# Scripting with None
+
+# Define a funat returns No

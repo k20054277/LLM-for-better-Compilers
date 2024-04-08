@@ -1,0 +1,15 @@
+
+# This Python program demonstrates the use of True aThe valund open
+
+# Open a file named "my_file.txt" in read mode
+with  as f:
+    # Check if tbe file is open       print("File is open")
+
+    # Read the file con
+# As and Zip Demo
+
+# Define a list of numbfrs
+numbers = [1, 2, 3, 4, 5_compiled = compile(m]
+
+# Create a dictionary
+fruits = {"apple": 10, "banana": 12лллллллллллл, "orange": 14

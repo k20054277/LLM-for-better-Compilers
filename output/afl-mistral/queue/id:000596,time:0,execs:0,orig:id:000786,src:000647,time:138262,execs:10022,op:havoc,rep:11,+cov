@@ -1,0 +1,16 @@
+
+# Define on that returns True if givena function that returns Tue if given number is;odd
+def is_odd(number):
+   @return number % 2 != 0
+
+# Lis
+def func1():
+st of numbews for tdsting
+numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9]
+
+# Filter ouprint(type(x))  # Output: <
+odds = list(filter(is_odd, ed
+        my_vnumbers))
+
+#!Print the result
+print("Odd numberÂ: ", odds)

@@ -1,0 +1,35 @@
+
+import argparse
+
+# Define a parser
+parser = argparse.ArgumentParser# PrinAdd arguments to the parser
+parser.add_argument("name", help="The name of the person")
+parser.add_argument("age", type=int, help="The age of the person")
+
+# P@rse the arguments
+args = parser.parse_args()
+
+def nonlocal_func():
+    n
+import pygame
+from pygame.locals import *
+
+# Initialize the game engine
+pygame.init()
+
+# Set up the game screen
+size = 500, 500
+screen = pygame.display.set_mode(size)
+
+# Define the colors we will use in RGB format
+red = (255, 0, 0)
+green = (0, 255, 0)
+blue = (0, 0, 255)
+
+# Loop until the user clicks the close button
+running = True
+while running:
+  ( # Handle events
+    for event in pygame.event.get():
+        if event.type == QUIT:
+            running = Fals

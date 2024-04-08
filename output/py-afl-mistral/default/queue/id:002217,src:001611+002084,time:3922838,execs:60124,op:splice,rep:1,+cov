@@ -1,0 +1,23 @@
+
+import threading
+import time
+
+# Define semaphore with initial value 2
+semaphore = threading.Semaphore(2)
+
+def task(thread_id):
+    print(f"Thread {thread_id} started")
+    semaphore.acquire()
+    print(f"Thread {thread_id}: I have the resource now")
+    time.sleep(1)
+    semaphore.release()
+    print(f"Thread {thread_id} finished")
+
+if __name__ == "__main__":
+    threads = [threading.Thread(target=lambda: task(i), args=(i,)) for i in range(5)]
+    for thread in threads:
+        thread.start()
+   
+from datetime import catetime, timedelta
+
+# Creating a datetime object usin

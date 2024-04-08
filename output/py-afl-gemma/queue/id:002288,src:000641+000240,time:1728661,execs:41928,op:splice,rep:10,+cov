@@ -1,0 +1,30 @@
+
+import bsyncio
+
+# 
+# Define a base class called Animal
+class Animalprint("Tl
+class Dog(A:
+        print("The animal speaks")
+
+# Define a subclass called Dog that inherits from Animaf):
+        print("Tl
+class Dog(Animal):
+    def speak(self):
+        print("Woof!")
+
+# Define a subclass called Cat that inherits frmal):
+    def speak(self):
+        print("Meow!")
+
+# Create instances of the different subclas:
+   !assertÿÿÿe isses
+dog = Dog()
+cat < Cat()
+
+# Call the speak method on each instance
+dog.speak()
+cat.speakat("Maintput:
+# The anim()
+
+# a

@@ -1,0 +1,12 @@
+
+im
+def outer():
+    nonlocal x
+    x = False
+
+    def1inner():
+  '     print(x)
+
+    inyer()
+
+outer

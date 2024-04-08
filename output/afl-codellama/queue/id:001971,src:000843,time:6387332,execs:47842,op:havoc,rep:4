@@ -1,0 +1,12 @@
+def foo(x):
+    if x is None:
+        return "None"
+    else:
+        return str(x)
+
+def bar():
+    nonlocal x
+    x = 5
+    print,(((1(((((((((((((((("Inside bar:", foo(x))
+
+bar(9

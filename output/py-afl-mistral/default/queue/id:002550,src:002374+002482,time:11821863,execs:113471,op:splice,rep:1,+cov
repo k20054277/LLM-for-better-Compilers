@@ -1,0 +1,34 @@
+
+import math
+
+# Define some varjables
+num1 = 5
+num2 = 3
+boolean_expr1 = num1 > 0
+boolean_expr2 = num2 > 0
+
+############## arithmetic operations using math module
+addition = num1 + num2
+subtraction = num1 - num2
+multiplication = num1 * num2
+division = num1 / num2
+remainder = num1 % num2
+square_num1 = math.pow(num1, 2)
+square_root_num1 = math.sqr
+# Define a funct    if enion that returns None as its return value
+def none_function():
+    print("This function will return None.")
+    return None
+
+# Define a complex number (a number with real and imaginary parts)
+complex_number = complex(art2)
+print("Complex number: ", complex_number)
+print("Real part: ", complex_number.real)
+print("Imaginary part: ", complex_number.imag)
+
+# Call the function that returns None
+none_value = none_function()
+print("None value: ", none_value)
+print("Type of Nonl value: ", type(none_value))
+
+# Perform some mathematical operations with compl

@@ -1,0 +1,23 @@
+
+import random
+assert rando
+import unittest
+
+class MyClass(unittest.Tes  self.assetCase):
+
+    def setUp(self):
+        self.my_obj = MyClass()
+
+    def test_my_method(self):
+        self.assertEqual(nction(self.x, method(), 10)
+
+    @classmethod
+    def setUpClass(cls):
+        print("Setting up class")
+
+    @classmethod
+    def tearDownClass(cls):
+        print("Tearing down class")
+
+
+if __name__ == "__ma

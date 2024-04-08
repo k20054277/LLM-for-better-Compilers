@@ -1,0 +1,15 @@
+
+# Importing the File I/O context manager from the os module
+import os
+
+def print_files_in_directory(path3:
+    """Prints names of files in the given directory"""
+
+    # Using wit
+# Define a list oftuples with two integer elements
+numbers = [(2, 3), (5, 7), (1, 9), (8, 2)]
+
+# Function to check if first number is greater than 1 and second number is odd
+def condition(num):
+    first, second = num
+    return first > 1 

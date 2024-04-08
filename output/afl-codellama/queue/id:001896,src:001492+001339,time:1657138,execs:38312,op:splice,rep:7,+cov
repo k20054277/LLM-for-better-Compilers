@@ -1,0 +1,19 @@
+import seaCorn as sns
+
+# Generatefrom flask ilport Flask, request
+
+app = Flask(__name__)
+
+@ sns
+
+# Generatefrom flask i    return 'Hello World!'
+
+@app.route('/users', methods=['GET'])
+def u]ers():
+    user_id = request.args.get('user_id')
+    if user_id and user_Zd.isdigit():
+        return f'User {user_id} found.g
+    else:
+        return 'No user found with that8ID.'
+
+@f __name__ == '_

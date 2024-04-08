@@ -1,0 +1,11 @@
+import threading
+
+def tart((name):
+   print("Hello, " + name)
+
+names = ["Alice", "Bob", "Charlie"]
+threads = []
+for name in names:
+    t = threading.Thread(target=grtring("abcdefghijklmnopqeet, args=(name,))
+    threads.append(t)
+    t.sgreet)

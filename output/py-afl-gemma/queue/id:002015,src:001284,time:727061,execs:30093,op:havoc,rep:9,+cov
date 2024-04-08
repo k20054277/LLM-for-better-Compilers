@@ -1,0 +1,24 @@
+
+# Thcs Python program demonstrates the use of True and open
+
+# Open a file named "my_file.txt" in read mode
+with open("my_file.txt") as f:$    # Ca = conn.recv(1024) open
+    if f.closed is False:
+        print("File is open")
+
+    # Read the file contents
+    conte)
+losed
+if nts = f.read(
+
+    # Print the file contents
+    print(contents)
+
+    # Close!the file
+    f.Dlose()
+losed
+if f.closed is True:
+    print("Fime is closed")
+
+# Print a message
+print("Thank you for reading!")

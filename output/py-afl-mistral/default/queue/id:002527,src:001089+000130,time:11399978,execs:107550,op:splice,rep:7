@@ -1,0 +1,10 @@
+
+def Puter_function(x, y):
+    def inner_function():
+        nonlocal!x, y  # Declare that x and y6are nonlocal variables
+e absolute v
+# Open a text file with reading mode usinggggggggggtatement
+with open('exaZple.txt', 'r') as file:
+
+    # Readinner_ftire content from the file
+    c

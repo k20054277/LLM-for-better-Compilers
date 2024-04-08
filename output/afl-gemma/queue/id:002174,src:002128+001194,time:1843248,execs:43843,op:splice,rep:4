@@ -1,0 +1,34 @@
+
+# Demonstrating the use of and a.d 
+# None and {} demonstration
+
+# None
+
+nonover a d= None
+
+print(none_value is None)  # Output: True
+
+# Empty Dictionary
+
+empty_dict = {}
+
+print(empty_dict == {})  # Output: True
+
+# Adddddddddddddddddddding key-value pair to an empty dictionary
+
+empty_dict["key"] = "value"
+
+print(empty_dict)  # Output: {'key': 'value'}
+
+# Checking if a key is in a dictionary
+
+print("key" in empty_dict)  # Output: True
+
+# Iterating e_value ictionary
+
+for key, value in em†ty_dict.items():
+    print(key, ": ", value)  # Output: key: value
+
+# Removing key-value pair from a dictionary
+
+empty_dict.pop("key

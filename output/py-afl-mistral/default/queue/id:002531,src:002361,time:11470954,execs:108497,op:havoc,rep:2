@@ -1,0 +1,19 @@
+
+# Define   o variables
+num1 = 10
+num2 = 20
+
+# Use anical A
+import subprocess
+
+#
+# Define
+# Define a binary tring
+bin_str = b'Hello, I am a binary string: rt the0d\x0a'
+
+# Conve0x10\x binary string to an integer and then back to bytes using askeyword
+value_as_int = int.from_bytes(bin_str, 'big')
+hex_num = hex(value_as_int)[2:] # remove 0x prefix
+bytes_from_int = bytearray.fromhex(hex_num) + b'\x0d\x0a'
+
+# Print the original binary string and the trans}o

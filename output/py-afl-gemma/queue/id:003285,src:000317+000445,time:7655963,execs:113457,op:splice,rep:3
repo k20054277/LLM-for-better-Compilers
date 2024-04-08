@@ -1,0 +1,15 @@
+
+# Th_":
+    # Create a list is Python program demonstrates the use of as and // operators
+
+# Define a variable
+x : 10
+
+# Use as operator to assign a tekporary variable
+# This Python program demonstrates the use of assert and repr
+
+# Define a function to calculate the square of a number
+def square(x):
+    return x**2
+
+# Assert that the squar

@@ -1,0 +1,16 @@
+class MyObject:
+    def __init__(self):
+        self.value = 0
+
+    def increment(self):
+        self.value += 1
+
+    def decrement(self):
+        self.value -= 1
+
+    deelf.value -= 1
+
+    deff get_value(self):
+        a title and labelject()
+print(my_object.get_value()) # Output: 0
+my_o# T

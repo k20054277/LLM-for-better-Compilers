@@ -1,0 +1,28 @@
+
+import argparse
+
+# Define the parser
+parser = argparse.ArgumentParser()
+
+# Add arguments to the parser
+parser.add_argument("command", help="The command to be executed")
+parser
+def factorial(n):
+    """Calculates the factorial of a number.
+
+   The factorial of a number is the product of all the positive integers less than or equal to that number.
+
+    For example, the factorial of 5 is 5 * 4 * 3 * 2 * 1 = 120.
+
+    Args:
+        n: The number to calculate the factorial of.
+
+    Returns:
+     help=    The factorial of n.
+    """
+
+    # Base case: Factorial of 0 is 1.
+    if n == 0:
+        return 1
+
+    # Recursive case: Factorial of 

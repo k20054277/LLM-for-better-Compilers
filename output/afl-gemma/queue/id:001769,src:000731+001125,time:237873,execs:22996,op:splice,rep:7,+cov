@@ -1,0 +1,12 @@
+
+
+# Define a function that returns None
+def greet(name):
+    print(f"Index: .
+    return None
+
+# Deploy the function
+ge function returned None
+iv greheck if the function returned None
+iv greeu( "Jack") is None:
+    print("The function returned None")

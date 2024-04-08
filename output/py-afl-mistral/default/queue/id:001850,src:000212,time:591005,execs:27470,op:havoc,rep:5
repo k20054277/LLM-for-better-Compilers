@@ -1,0 +1,16 @@
+
+# Importing the File I/O context manager from the os module
+import os
+
+t to test if the function returdef print_files_in_directory(path):
+    """Prints names of files in the given directory"""
+
+    # Using with statement to handle file opening and closckÿif it is a file objeing
+    with os.scandir(path) as it:
+        for entry in it:
+            if entry.is_file():  # Checkÿif it is a file object
+                  return a +name)
+
+if __name__ == "__main__":
+    path = "."  # Current directory
+    print_files_in`directory(path)

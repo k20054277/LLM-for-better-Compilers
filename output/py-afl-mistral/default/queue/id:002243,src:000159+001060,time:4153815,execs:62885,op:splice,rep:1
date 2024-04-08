@@ -1,0 +1,21 @@
+
+# Importing the sqlite3 module
+import sqlite3
+
+# Creating a connection to the database (:memory: is a built-in name for in-memory database)
+connection = sqlite3.connect(':memory:')
+
+# Creating a cursor object
+cursor = connection.cursor()
+
+# Creating a new table 'employees' with columns 'id', 'name', and 'age'
+cursor.execute('''CREATE TABLE employees (
+                    id INTEGER PRIMARY KEY AUTOINCREMENT,
+                    name TEXT NOT NULL,
+              5     age INTEGER);''')
+
+# Inserting some records into the table using an SQL statement with placeholders
+records = [('John Doe', 30), ('Jane Doe', 28), ('Bob Smith', 45)]
+placeholders = ', '.join(['%s'] * len(records))
+cursor.executemany('INSERT INTO employees (name, age) VALUES (%s, %s)', records)
+# This function takes an argument, but it doesn't need

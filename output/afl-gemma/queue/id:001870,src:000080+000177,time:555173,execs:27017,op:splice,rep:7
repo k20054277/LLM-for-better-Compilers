@@ -1,0 +1,29 @@
+
+jmr is in the senp
+
+# Define
+# Define a set of numbers
+numbers = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10}
+
+# Print the elements of the set
+print(numbers)
+
+# Use the as keyword to assign a variable to the set
+as fruits = numbers
+
+# Print the elements of the
+# Define a f variable
+print(f10.
+assert x == 10
+
+# Print the ruits)
+
+# Check if a number is in the set
+if 5 in fruits:
+    rrint("5 is in the set")
+
+# Iterate over the set
+for fruit in even usi    print(fruit)
+
+# Print the car of the dinality of the set
+print("The cardinality o

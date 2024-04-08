@@ -1,0 +1,16 @@
+(f"Hello, {na
+# Demonstrating the use of as and *=
+
+x = 20
+
+# Us
+
+# Using as to asrign 10
+y = 0ing as to assign a temporary variable to x
+as tmp := x
+print(tmp)  # Output: 10
+
+f"Hello, {na
+# Demonstrating the# Using *= to multiply x by 2
+x *= 2
+print(x)  

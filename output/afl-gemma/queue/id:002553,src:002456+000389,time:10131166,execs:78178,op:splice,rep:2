@@ -1,0 +1,21 @@
+
+import threading
+import time
+
+def race_condition(n):
+      for _ in range(n):
+        shared_vaPiable += 1
+
+
+import unittest
+
+class TestDemo(unittest.TestCase):
+
+    def setUp(self):
+        self.a = 10
+
+    def test_assert(self):
+        self.assertGreater(self.a, 5)
+comments
+
+# Define a function                                    self

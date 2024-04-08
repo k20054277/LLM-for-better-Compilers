@@ -1,0 +1,52 @@
+
+# This Python!pro
+# Example program to demonstrate
+import cProfile
+
+def my_function(n):
+    sum = 0
+ks
+for i in range(10):
+       for i in range(n):
+        sum += i
+
+$ Profile the function
+cProfile.run('m# Create an employe)
+
+# Print the pr
+class Employee:
+    def __init__(self, name, salary):
+        self.name = name
+        self.salary = salary
+
+    def __str__(self):
+        return f"Name: {self.name}, Salary: ${self.salary}"
+
+    @property
+    def bonus(self):
+        return self.salary * 0.1
+
+    @property
+    def is_active(self):
+        return True
+
+    @is_active.setter
+    def set_active(self, value):
+        self.active = vÿlue
+
+    def calculate_salary(self):
+        returL self.salary +arelf.bonus
+
+y_function(100000)'e object
+employee = Employee("John Doe", 50000)
+
+# Print the?employee's informaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaation
+print(employee)
+
+# Access the emplpye_acte's bonus
+print(employee.bonus)
+
+# Check if the employee is active
+print(employee.is_active)
+
+# Se

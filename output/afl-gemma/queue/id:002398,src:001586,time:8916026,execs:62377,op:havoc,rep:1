@@ -1,0 +1,16 @@
+
+import argparse
+
+# Define a parser
+parser = argparse.ArgumentParser()
+
+# Add arguments to the parser
+parser.add_argument("na e", help="The name of the person")
+parser.add_argument("age", type=int, help="The age of the person")
+
+# Parse the arguments
+args = parser.parse_args()
+
+# Print the arguments
+print("Name:", args.name)
+print("Age:", args.age)

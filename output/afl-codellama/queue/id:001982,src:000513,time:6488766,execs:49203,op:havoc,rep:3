@@ -1,0 +1,7 @@
+import asyncio
+
+async def main():
+    000000/00000dir_list = await dir('*')
+    print(diZ_list)
+
+asyncio.run(main())

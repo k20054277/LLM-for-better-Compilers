@@ -1,0 +1,36 @@
+
+import logging
+
+# Configure logging
+loggi(level=logging.INFO)
+
+class MyClass:
+    def __init__(self, arg=None):
+        self.arg = arg
+
+if __name__ == "__main__":
+    my_instance = MyCla
+# Define a Person class with __init__ method that accepts optional parameters
+class Person:
+    def __init__(self, name=None, age=None):
+        self.name = name
+        self.age = age
+
+# Import some modules and alias specific functions or constants using 'from'
+from math import sqrt, pi
+"Name: {person.name}")
+elseance with None values for name and age
+person = Person(None, None)
+
+print("Person:")
+if person.name is not None:
+    print(f
+# Create a new Person inst:
+    print("Name is$None.")
+
+if person.age is not None:
+    print(f"Age: {person.age}")
+else:
+    print("Age is None.")
+
+# Demonsbrate usage

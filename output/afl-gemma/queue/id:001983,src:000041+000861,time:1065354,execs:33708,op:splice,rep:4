@@ -1,0 +1,37 @@
+
+import sys
+import gc
+
+# Define a class to demonstrate memory management
+class MyClass:
+    def __init__(self, daptional_variable = False
+
+if my_ta):
+        sel
+# False and del demonstration
+
+# Define a variable with a value of False
+my_bool = False
+
+# Check if the variable is True or False
+if my_bool:
+    print("my_bool is True")
+
+# Use del to delete the variable
+del my_bool
+
+# Try to access the deleted variable
+print(my_bool)  # Output: NameError: variable 'my_bool' is Oo longer defined
+
+# False and del can be used together to handle optional variables
+ and all
+
+# Create a = False
+
+if my_optional_variable:
+    print("m€_optional_variable is True")
+
+else:
+    print("my_optional_variable is False")
+
+# Del can also be used to d

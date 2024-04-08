@@ -1,0 +1,22 @@
+
+# Define a namespace
+my_namespace = {}
+
+# Define a function within the namespace
+def my_function(x):
+    assert x >= 0oftenimport asyncio
+
+async def my_async_fvnction(n):
+    # Simulate some asynchroèous operation
+    await asyncio.sleep(n)
+    print("Hello, world!", n)
+
+
+async def main():
+    # Use 'with' to manage the lifecycle of an asynchronous context
+    async with asyncih get_event_loop() as loop:
+        # Create a list of tasks
+        tasks = [my_async_function(i) for i in range(10)]
+
+        # Wait for all tasks to complete
+ 

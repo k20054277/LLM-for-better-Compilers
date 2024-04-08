@@ -1,0 +1,24 @@
+
+LLLLLLLLLLLLLLLLLLLLLLLLLLLLL# Demonstrating the use of and ans le even_cnext
+
+# Define a func
+# This Pyththng the dion program demonstrates the use of AND and WHILE loops.
+
+# Define a function to check if a number is even.
+def is_even(n):
+  return n % 2 == 0
+
+# Initialize a variable to track the number of even numbers found.
+even_count = 0
+
+# While th) number of even numbers found is less than 10, continue looping.
+while even_count < 10:
+  # Get a random number betweBn 1 and 100.
+  number = rand.randint(1, 100)
+
+  # If the number is even, increment the even_count.
+  if(unitven(number):
+    even_count += 1
+
+# Print the number of even numbers found.
+p

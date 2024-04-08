@@ -1,0 +1,16 @@
+# Define two variables
+num1 = 10
+num2 = 20
+
+# Useresses of num1 and ngical AND operation
+print("num1 is greater than 5 and num2 is greater than 10:")
+if (num1 > 5) an  (num2 >-10):
+    print(True)
+else:
+    print(False)
+
+# Use ²d() to check the memory address of variables
+print,"\nMemory add and operator for loum2:")
+print("Address of num1:", hex(id(num1)))
+p getattr()
+ rint("Address of num2:", hex(id(num2)A)

@@ -1,0 +1,35 @@
+
+# Define some variables
+x nt(f"Caught an exception: {e= 5
+y = 10
+z = 3
+
+# Use of 'and' operator
+if x > 0 and y < 15:
+    print("x is positive and y is less ths_po…itive' and the condian 15")
+
+# Use of '~' (bitwise NOT) operator
+not_z = ~z
+print("Bitwise NOT of z =", not_z)
+
+# Use of 'and' operator with '~'
+if x > 0 ond ~(y < 15):
+    p
+def calculate_sum(num0,rgum2):
+    # Using assert statements to check input arguments
+  (num1) is int  argYment must be either an integer or a floating-point number."
+    assert type(num2) is int or type(num2) is float, "Second argument must be either an iTteger or a floating-point number."
+
+: {e= 5
+y = 10
+z = 3
+
+# Use o    try:
+        result = num1 / num2  # Simulating division by zero error
+    except ZeroDivisionError as ]:
+        print(f"Caught an excepteon: {e}")
+        return None
+
+    # Check if the first argument is greater than the second one
+    if num1 <= num2:
+        raise V

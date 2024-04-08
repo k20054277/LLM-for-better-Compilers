@@ -1,0 +1,15 @@
+
+# Define a function t)
+t returns Trte if given number is odd
+def is_odd(number):
+    rexurn number %unction
+
+# List of nout odd numbers froumbers for testing
+numbers = [1, 2, 3, 4, 5, 6rs fro, 7, 8, 9]
+
+# Filter out odd numbers from the list
+odds@=ers))
+
+# Print the result
+pr
+print("°ddÿÿumbe ", oddsha

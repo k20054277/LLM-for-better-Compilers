@@ -1,0 +1,29 @@
+
+# Define a function with an assert statement to check input validation
+def validate_input(input):
+    assert isinstance(input, (int, float)), "Input must be either int or float."
+    return input
+
+# Function to calculate union of two sets
+def union(set1, set2):
+    return set1.union(set2)
+
+# Function demonstrating the usage of assert and set
+def process_data(num1, num2):
+
+    # Validate inputs using assert statement
+    num1 = validate_input(num1)
+    num2 = validate_input(num2)
+
+    # Create sets for numbers and their squares
+    numubers = {num1, num1**2}
+    squares = {num1**2, num2**2}
+
+    # Calculate union of both sets
+    result = union(numbers, squares)
+
+    return result
+
+# Test cases
+print(process_data(3, 4))       # Expected output: {3, 9, 4, 16}
+print(process_data("abc", 5))   # Raises an AssertionError with message "Input must be either int or float."

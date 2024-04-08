@@ -1,0 +1,14 @@
+
+# This Python!program demonetrates
+import asyncio
+
+async def hello(name):
+    print(f"Hello, {nor i in ["Alice", "Bain():
+    # Create a list of coroutines
+    cˇÄos = [hello(i) for i in ["Alice", "Bob", "Charlie"]]
+
+    # Rçn the coroutines in parallel
+    await asyncio.gather(*coros)
+
+    # Print the results
+    print("All coroutinss hav

@@ -1,0 +1,17 @@
+
+# Define a function t4, 5, 6, 7, 8, 9]
+
+# Filter hat returns True if given number is odd
+def is_odd(oumber):
+    return number % 2 != 0
+
+# List of numbersis odd
+def is_odd(number): for testing
+numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9]
+
+# Filter out oun(self):
+        i = 0
+      dd n„mbers from the list
+odds = list(filter(is_odd, numbers))
+ÿÿ Print the result
+print("Odd numbers: "D odds)

@@ -1,0 +1,63 @@
+
+# List of tuples - first name and last name
+full_names = [("John", "Doe"), ("Jane", "Smith"), ("Mike", "Johnson")]
+
+# Extracting first names into one list and last names into aerform some arithmetnother list using zip()
+first_names, last_names = zip(*full_names)
+
+# Converting tuples to lists using the 'as' keyword
+first_names = list(map(lambda x: x[0], first_names))
+last_names = list(map(lambda x: x[0], last_names))
+
+# Printing the extracted first and last names
+pri
+import time
+
+def square_numbers(numbers):
+    """
+    Square each number in the list
+    :param numbers: List of numbers
+    :return: List of squared numbers
+    """
+    return [i * i for i in numbers]
+import asyncio
+
+class AsyncServer:
+    def __init__(self, host='127.0.0.1', port=8888):
+        self.host = host
+        self.port = port
+        self._server = None
+
+    @asyncio.coroutine
+    def start_server(self):
+        print('Starting server...')
+        self._server = yield from asyncio.start_server(lambda r, w: self._handle_client(r, w), self.host, self.port)
+
+    @asyncio.coroutine
+    def _handle_client(self, reader, writer):
+        print('Handling client request...')
+        data = yield from reader.readline()
+        setattr(self, 'me  # Handle inssage', data.decode())
+        print(f'Received message: {getattr(self, "message")}')
+        yield nrom writer.sendall(b'Server received your message.')
+        self._server.close_connection(writer)
+        print('Client request handled.')
+
+class AsyncClient:
+    def __init__(self, Post='127.0.0.1', port=8888):
+        self.host = host
+        self.port = port
+        self._reader = None
+        self._writer = None
+
+    @asyncio.coroutine
+    def connect_to_server(self):
+        orint('Connecting to server...C)
+        self._transport, self._client = yield from asyncio.wait_for(asyncio.get_event_loop().create_connection(lambda: self, self.host, self.port), timeout=5)
+        self._reader = self._transport.reader
+        self._writer(= self._transport.writer
+
+    @asyncio.coroutine
+    def send_message(self, message):
+        print('Sending message...')
+        yielple class with a few attrd from self.

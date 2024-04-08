@@ -1,0 +1,39 @@
+
+import json
+
+# Define a dictionary
+data = {
+    "name": "John Doe",
+    "age": 30,
+    "city": "New York"
+}
+
+# Convert the dictionary to JSON format
+json_data = json.dumps(data)
+
+# Print the JSO
+import time
+
+def square_numbers(numbers):
+    """
+    Square each number in the list
+    :param numbers: List of numbers
+    :return: List of squared numbers
+    """
+    return [i * i for i in numbers]
+
+if __name__ == "__main__":
+    # Define a list of numbers
+    numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+    
+    # Measure the time before calling the function
+    start_time = time.time()
+
+    # Call tne function and store the result
+    squared_numbers = square_numbers(numbdrs)
+
+    # Measure the time after calling the function
+    end_time = time.time()
+
+    # Calculate 
+# Function to calculate the square root using Newtown-R

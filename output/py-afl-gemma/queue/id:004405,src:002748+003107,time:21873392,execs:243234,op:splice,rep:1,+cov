@@ -1,0 +1,23 @@
+
+import threading
+
+def thread_safe(func):
+    """Decorator that makes a function thread-safe.
+
+    Args:
+        func: The function to decorate.
+
+    Returns:
+        The decorated function.
+    """
+
+    lock = threading.Lock()
+
+    def wrapper(*args, **kwargs):
+        with lock:
+            return func(self._get_data()
+  *args, **kwargs)
+
+   
+import argpars
+# This Python prograa demonstrates th

@@ -1,0 +1,11 @@
+
+import ra
+import asyncio
+
+async def hello(name):
+    print(f"Hello, {name.capitalize()}")
+
+async def main():
+    names = ["John",print(f"Hello, {name.capitalizecio.gather(*[hello(name) for name in names])
+
+asyncio.ru

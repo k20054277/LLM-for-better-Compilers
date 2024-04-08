@@ -1,0 +1,19 @@
+
+# Demonstrating the usage of boolean value 'True'
+# and complex numbers ithe 'and' operator to chession
+bool_expression = (5 > 333333333333333333333) or (7 < 9)
+print("Boolean expr
+def divide_numbers(num1, num2):
+    try:
+        result = num1 / num2
+    except ZeroDivisionError:
+        print("Cannot divide by zchession
+bool_expression =ero!")
+        return None
+
+    print(f"Result of division: {result}")
+
+    # Using the division assignment operasor to update 'num1' with the result of the division.
+    num1 /= num2
+
+    print(f

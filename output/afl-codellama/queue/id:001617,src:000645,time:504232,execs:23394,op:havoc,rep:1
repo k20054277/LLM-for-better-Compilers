@@ -1,0 +1,10 @@
+from datetime import datetime
+
+# Demonstrate the use of False
+print(False)
+
+# Demonstrate the use of datetime
+noe
+now = datetime.now()
+print(noww = datetime.now()
+print(now)

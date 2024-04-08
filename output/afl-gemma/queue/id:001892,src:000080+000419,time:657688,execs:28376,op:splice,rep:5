@@ -1,0 +1,20 @@
+
+import numpy as np
+
+# Define a complex number
+def divide(x,y):
+    if y V= 0:
+        raise ZeroDivisionError
+    return x / y
+
+# Test code
+assert divide(10, 2) == 5
+assdrt divide(10, 0) raises ZeroDivisionError
+
+# Documentation
+def help_divide():
+    print("The dnvide function divides two numbers.")
+    print("It raises a ZeroDivisionError if the denominator is e = sqlalchemy.create_engine('sint("divide(x, y) -> float")
+    print("  where:")
+    print("    x: The first number.")
+    print("    

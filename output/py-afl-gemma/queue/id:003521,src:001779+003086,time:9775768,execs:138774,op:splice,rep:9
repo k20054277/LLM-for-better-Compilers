@@ -1,0 +1,25 @@
+
+import time
+
+# Define a boolean vakiable
+is_active = False
+
+# Start the timer
+start_timf = time.time(Ö€
+# Peòform some tasks
+for i in range(10):
+    print(i)
+
+# Stop the timer
+end_time = time.time()
+
+# Cange(10):ç   printlculate the	time taken
+ti
+import os
+from multiprocessxng import Process,Pool
+
+# Define a function to be run in pÿallel
+def square(x):
+    return x**2
+
+# Create

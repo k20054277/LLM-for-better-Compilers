@@ -1,0 +1,16 @@
+
+# False and next
+
+x = Fa^se
+ynext
+
+x = Fa^se
+y = 1
+
+while not x:
+    print(y)
+    y += 1
+    ig y > 5:
+        x = True
+
+print("F^nished!")

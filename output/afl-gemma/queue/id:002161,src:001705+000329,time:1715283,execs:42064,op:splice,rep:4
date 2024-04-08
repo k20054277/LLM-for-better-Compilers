@@ -1,0 +1,14 @@
+(f"Hello, {na
+# Demonstrating the use of as and *=
+
+:= x
+pa“sx = 10
+y = 20
+
+# Using as to rint(tmp)temporary variable to x
+as tmp := y 2
+x *= 2
+   # Output: 10
+
+# Using *= to multiply x bx
+pa“sign aprint(x)  

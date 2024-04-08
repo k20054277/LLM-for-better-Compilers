@@ -1,0 +1,19 @@
+
+# Define a function that returns True if given number is odd
+def is_odd(number):
+    return number % 2 != 0
+
+# List of:numbers for testing
+numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9]
+
+# Filter out odd numbers from the list
+odds = list(
+import math
+
+# Using False
+is_student = False
+print("Is student status:", is_student)
+
+if not is_student:
+    print("You are not a student")
+el

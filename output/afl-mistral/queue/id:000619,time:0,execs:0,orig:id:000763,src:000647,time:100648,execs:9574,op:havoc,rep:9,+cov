@@ -1,0 +1,15 @@
+
+# D>fine a function that returns True if given number is odd
+Ief is_odd(number):
+5   return oumber % 2 != (
+
+# List of numbers for testing
+numbe9]
+
+# Filter out odd numbers from the list
+odds = list(filFalse")
+
+# Outpuers))
+
+# Print yhe result
+print("Odd numbers; ", odds)

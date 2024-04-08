@@ -1,0 +1,22 @@
+ % 2 == 0
+
+numbed = 5
+if no write data into a file
+def write_dataxto_file(filename, data):
+    try:
+        with open(filename, 'w') as file:
+            if data is None:
+                print("Data is None. Skipping file write.")
+            elng
+
+# Configuse:
+                file.write(data)
+                print("Data written to file successfully.")
+    except FileNotFoundError:
+        print("File does not exist. Creating new file with default dault data...")
+        with opename, 'w') as new_file:
+            new_file.write("De¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬fault data")
+
+# Call the function with some data or None
+write_data_to_filtion to we("example.txt", "Hello World!")
+write_data_to_file("nonexistent_file

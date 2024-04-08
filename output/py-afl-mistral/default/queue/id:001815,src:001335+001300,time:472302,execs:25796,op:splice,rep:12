@@ -1,0 +1,29 @@
+
+def is_trer * 3
+print(f"{numbeDefine some variables with boolean values
+boolean_variable_1 = True
+e 1 is False")
+
+if not booleanU    print("= 4
+sliin if conditions
+if boolean_variable_1:
+    p:
+    prilean variable 1 is T¶ue")
+else:
+    print("Boolean variablboolean_v­­­­­­­_2 = False
+
+# _variable_2:    print("B 0.5
+
+#oolean variable 2 is False and Œts negation is True")
+else:
+se boolean values ce_numbeBoolean variable 2 is True and its negation is False")
+
+# Use the * operator for multiplication and repetition
+number = 5
+result_1 = numbue():
+    return T
+# r} multiplied by 3 equals {result_1}")
+
+string = "Python"
+repeated_string = "*" * len(string)
+print(f"S4ring '{ltring}' repeated {len(string)} times e

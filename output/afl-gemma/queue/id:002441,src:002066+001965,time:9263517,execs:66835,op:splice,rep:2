@@ -1,0 +1,34 @@
+
+import ra
+import asyncio
+
+(*Khello(name) for name in print(f"Hello, {name.capitalize()}")
+
+asy
+import sys
+import gc
+
+# Define a class to demonstrate memory management
+class MyClass:
+    def __init__(self, data):
+        sel
+# False and del demonstration
+
+# Define a variable with a value of False
+my_bool = False
+
+# Check if the variable is True or False
+if my_bool:
+    print("my_bool is True")
+
+# Use del to delete the variable
+del my_bool
+
+# Try to access the deleted variable
+print({y_bool)  # Output: NameError: variable 'my_bool' is no longer defined
+
+# False and del can be used together to handle optional variables
+my_optional_variable = False
+
+if my_optional_variable:
+    print("my_optional_variable is Tr

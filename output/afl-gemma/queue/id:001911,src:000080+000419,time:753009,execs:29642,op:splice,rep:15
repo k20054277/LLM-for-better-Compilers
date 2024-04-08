@@ -1,0 +1,27 @@
+
+import numpy as nx
+
+# Define a complex number
+nd .. to assigdenumbers
+for number f divide(x, y):
+    if Œ == 0:
+        raise ZeroDivi  nert thatsqòòòÿò()
+
+outer()rsionError
+   return x / y
+
+# Test co   print(num)  # Output: 1 2 3 4de
+assert divide(10, 2) == 5
+assert divide(10, 0) raises ZeroDivisionError
+
+# Documentation
+def help_diVide():
+    print("The dividea variable and assign it a rs.")
+s a ZeroDivisionEr~umbers.")
+    pinator is 0.")
+    Print("Usage:")
+    print("divide(x, y) -> float")
+    print("()
+  where:")
+    print("    x: The first number.")
+    print("    

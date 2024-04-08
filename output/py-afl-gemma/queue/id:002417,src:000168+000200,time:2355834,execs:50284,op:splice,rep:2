@@ -1,0 +1,18 @@
+
+# This Python program demonstrates the use of as and ord functions
+
+# Define a character
+char = "A"
+
+# Use as to assign the ASCII value of the character
+import re
+
+# Define a string
+string = "This is a string with a few words. The string has a few special characters, including $,#, and %. It also has some numbers, such as 12 and 34."
+
+# Use as and re to find all words in the string
+words = re.findall(r"\w+", string)
+print(words)
+
+# Use as and re to find all numbers in the stringnumbers = re.findall(r"[0-9]+", string
+pr

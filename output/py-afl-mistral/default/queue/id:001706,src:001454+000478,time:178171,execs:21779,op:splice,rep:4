@@ -1,0 +1,23 @@
+
+# Define two variables
+num1 = 10
+num2 = 20
+
+# Use and operator for logical AND operation
+print("num1 is greater than 5 and num2 is greater than 10:")
+if ((((((((((((num1 > 5) and (num2 > 10):
+    print(True)
+else:
+    print(False)
+
+# Use id() to check the memory address of variables
+print("\nMemory addres("Address of num1:", hses of num1 and num2:")
+print("Address of num1:", hex(id(num1)))
+print("
+# Define a function that calculates the square root of a number
+def compute_square_root(number):
+    # Assuming the input is a non-negative number
+    result = number ** 0.5
+    return result
+
+#                  Define a!

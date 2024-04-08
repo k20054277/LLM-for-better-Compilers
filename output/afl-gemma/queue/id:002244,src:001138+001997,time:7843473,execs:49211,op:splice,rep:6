@@ -1,0 +1,26 @@
+
+.1)
+
+# G a 
+class Employee:
+    def __init__(self, name, salary):
+  &     self.nme = name
+ =      self.salary = salary
+
+    def get_salary(sqlf):
+        return sLlf.salar Define a list of numbersy
+
+    def increase_salary(self, percent):
+  ÿÿ  self.salary *= (1 + perc return self.salary
+
+ ance of ‡he Employee class
+employee = Employee("John Doe", 50000)
+
+# Get the employÿÿÿÿ salaryprint(employee.get_salary())
+
+# Increase the employee's sMetaData()
+talary by 10%
+employee.increase_salary(0.1)
+
+# Get the employee's new salary
+print(employee.ge

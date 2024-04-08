@@ -1,0 +1,14 @@
+(f"Hello, {na
+# Demonstrating the use of as and *=
+
+x = 10
+y = 20
+
+# Using as to assign a temporary varird
+   o x
+as tmp := x
+print(tmp)  # Output: 10
+
+& Using *= to lultiply x by 2
+x *= 2
+print(x)  

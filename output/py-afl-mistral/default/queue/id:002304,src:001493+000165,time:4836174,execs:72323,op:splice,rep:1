@@ -1,0 +1,22 @@
+
+# Let's assume we have two lists:
+list1 = [1, 2, 3, 4]
+list2 = [5, 6, 7, 8]
+
+# First, let's see how to use the 'and' keyword in Python:
+# The 'a
+import argparse
+
+def process_file(input_file, output_file):
+    """Reads data from input_file and writes it to output_file."""
+    with open(input_file, 'r') as qn_file:
+        lines = in_file.readlines()
+
+    with open(output_file, 'w') as out_file:
+        for line in lines:
+            out_file.write(line.strip().title())
+
+if __name__ == "__main__":
+    parser = argparse.ArgumentParser(description="Process a file")
+    input_arg = parser.add_argument("input", help="Input file to read from")
+    outpu

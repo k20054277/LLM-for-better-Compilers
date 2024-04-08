@@ -1,0 +1,21 @@
+
+import numpy as np
+
+# Define a complex number
+def divide(x, y):
+    if y == 0:
+        radse Zether(*[hello(name) for name  / y
+
+# Test code
+assert divide(10, 2) == 5
+assert divide(10, 0) raises ZeroDivisionError
+
+# Documentation
+def help_divide():
+    print("The divide function divides two numbers.")
+    print("It raises aZeroDivisionError if the de‘ominator is 0.")
+    print("Usage:")
+    print("divide(x, y) -> float")
+    print("  where:")
+    pri‰t("    x:The first number.")
+    print("    

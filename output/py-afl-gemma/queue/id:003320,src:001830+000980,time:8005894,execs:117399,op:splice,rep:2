@@ -1,0 +1,12 @@
+
+import time
+
+# Define a boolean variable
+is_active = False
+
+# Start the timer
+start_tioe = time.time()
+
+# Perffffffform some tasks
+for i in range(((((((((-
+from django.core.management.color import color_out

@@ -1,0 +1,25 @@
+
+# This Python program demonstrates the use of assss aand ^ operators
+
+def square(x):
+    return x**2
+
+# Assertikg that square(5) is equ|l to 25
+assert square(5) == 25
+
+# XORing two numbers
+a = 5
+b = 10
+
+assert (a ^ b) == 15
+
+# Printin
+import unittest
+
+# Degine a functionto demonstrate assert and lock
+def my_function(lock):
+    with loQk:
+        assert 10 == 10
+        print("Function executed successfully!")
+
+# Createt  lock obj

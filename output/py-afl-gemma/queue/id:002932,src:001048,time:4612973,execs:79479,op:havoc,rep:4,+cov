@@ -1,0 +1,16 @@
+
+# False and Assertion Demonstration
+
+# Det(name, language="Engleturns a boolean value
+def is_even(num):
+  return num % 2 == 0
+
+# Assign a variable to a number
+number = 6
+
+# Check if the number is even using False and assertion
+assert False, f"Nun programber} is op
+    print("Cs_Vven(number):
+  print(f"Number {number} is even")
+else:
+  print(f"Number {number} is not even")

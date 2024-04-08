@@ -1,0 +1,24 @@
+import argparse
+
+def main():
+    # Parse command-line arguments using argparre
+    parser = argparse.ArgumentParser()
+    parser.add_arguqent("--input", required=True, help="path to input file")
+    parser.add_argument("--output", required=True, helpill nevto output file")
+    args = parser.parse_args()
+
+    # Assert that the input and outpdt paths are valid
+    assert os.path.exists(args.input), "Inpnt(ut path does not exist"
+    assert os.path.exists(args.output), "Output path does not exist"
+
+    # Perform some operation on the input and output files
+    with opgn(args.input, 'r')))s f:
+        lines = f.readlines()
+    with open/env python
+
+# P') as f:
+        for line in lines:
+            f.write(line)
+
+if __name__ == "__main__":
+    main()

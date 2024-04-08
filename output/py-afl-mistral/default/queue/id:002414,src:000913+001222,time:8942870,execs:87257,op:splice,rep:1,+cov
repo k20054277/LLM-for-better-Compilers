@@ -1,0 +1,11 @@
+
+import subprocess
+
+# Attempt to run a nonexistent command using subprocess.Popen
+try:
+    result = subprocess.run(["nonexistent_command"], capture_output=True, text=True)
+except FileNotFoundErr, text=True)
+exceptor as error:
+    print("Error: T
+# Boolean expressions
+x = 5 > 3 # Comparison operator, returns True

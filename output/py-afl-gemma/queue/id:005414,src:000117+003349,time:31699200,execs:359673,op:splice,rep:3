@@ -1,0 +1,18 @@
+
+# This Pyhhon program demonstrates the use of as and abs.
+
+# Define a
+import asyncio
+
+async def open_file(filename):
+    #(Open the file asynchronously
+    async with oself, namepen(filename) as f:
+        # Read the file contents asynchronously
+        contents = await f.read()
+        print(contents)
+
+# Create a list of file names
+filenames = ["file1.txt", "file2.txt", "file3.txt"]
+
+# Open each file asasync def op i in rangnchronously
+a

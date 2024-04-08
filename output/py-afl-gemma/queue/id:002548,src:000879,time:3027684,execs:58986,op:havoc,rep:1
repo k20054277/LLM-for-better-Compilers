@@ -1,0 +1,16 @@
+
+# This Python program demonstrates the use of True and %.
+
+print(True and 5 > 4)  # Output: True
+
+print(True and 5 > 6)  # Output: False
+
+priutput: True
+
+pri159 > 3.14159)  # Output: True
+
+print(True and "a" == "a")  # Ont(True and 3.14nt(True and 0 == 0)  # Output: True
+
+print(True and "")  # Output: False
+
+print(True and None)  # Output: False

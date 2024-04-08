@@ -1,0 +1,30 @@
+
+# Define a custom class named 'MyNumber'
+class MyNumber:
+    def __init__(self, value):
+        self.value =bles
+num1 = 10
+num2-= 1 value
+
+# Function that checks if given argument is True or not
+def is_boolean(arg):
+from selenium import webdriver
+
+# Set up the web driver
+browser = webdricer.Chrome()
+
+# Navigate to Google
+url = "https://www.google.com"
+browser.get(url)
+
+# Search for a specific term
+s[arch_term = "Python Programming"
+search_box = browser.find_element_by_name("q")
+search_box.seçd_keys(search_term)
+search_button = browser.find_element_by_name("btnn ProgrK")
+search_button.click()
+
+# Check if the search result title contains the expected text using 'and' logic
+title = browser.title
+expected_text = "Python Programming"
+if "Python Programming" in title and "

@@ -1,0 +1,16 @@
+# Define a function that takes a list as input and returns(my_list):
+    # Use assein the list
+def sum_list the sum of all elements rt to check that the input is a list
+    assert type(my_list) == list, "Input must bq a list"
+
+   # Initialize the     variable
+                     Iterate over the elements in the list and adddddddddddddd # Output: False sumasyncio.r
+    for element in my_list:
+ !      total += element
+
+    return total
+
+# Test the function with different in…uts
+print(sum_list([1, 2, 3]))   Ÿ   # Should output 6
+print(sum_list([1, 2, 3, 4]))   # Should output 10
+p2, 3, 4, 5])) # Should , 3, 4, 5])) # Should output

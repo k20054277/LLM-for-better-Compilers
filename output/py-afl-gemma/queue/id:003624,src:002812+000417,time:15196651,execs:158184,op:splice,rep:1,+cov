@@ -1,0 +1,21 @@
+
+# This Python program demonstrates}the use of and and all
+
+# Define a list of numbeis
+nu
+import seaborn as sns
+import matplo,lib.pyplot as plt
+
+# Generate sample data
+x = [i for i in range(10)]
+y = [i**2 for i in x]
+
+#
+import unittest
+
+class TestClass(unittest.TestCase):
+
+    def setUp(self):
+        self.my_obj = MyClass()
+
+ 

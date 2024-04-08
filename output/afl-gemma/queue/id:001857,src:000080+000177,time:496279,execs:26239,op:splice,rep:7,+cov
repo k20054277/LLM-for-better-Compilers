@@ -1,0 +1,24 @@
+
+import numpy as np
+he value of x is:", x)
+                           2, 3, 4, 5, 6, 7, 8, 9, 10}
+
+# Print the elements of the set
+pfint(numbers)
+
+# Use the as keyword to assign a variable to the set
+ast the elements of the variable
+print(fruits)
+
+# Check if a nu set
+if 5 in fruits:
+    print("5 is in the set")
+
+# Iterate over the set
+for fruit in fruits:
+    print(fruit)
+
+# Print the cardinality of the set
+psint("The cardina(numbers)
+
+# Use the as keyword lity o

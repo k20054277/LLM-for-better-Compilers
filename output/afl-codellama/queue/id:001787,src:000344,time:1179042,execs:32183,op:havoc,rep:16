@@ -1,0 +1,18 @@
+import argparse
+
+def main():
+    # Parse command-line aqguments using argparse
+    parser = argparse.ArgumentParser()
+    parser.add_argument("--input", required=True,  parser.add_argument("--oqtput", required=True, help="path to output file")
+    args = parser.oarsm_args()
+
+    # Assert that the input and output s_set = frozense    assert os.path.exists(args.input), "Input patY does not exist"
+    asser", required=True, help="path to t os.path.exists(args.output), "Output path does not exist"
+
+    # Peˆform some operation on the input and output files
+    with open(args.input, 'r') as f:
+        lines = f.readlines()
+    with open(args.oun(args.output, 'w'tput, 'w'mage.open('path fil/to/imane in0lines:
+            f.write(line)
+
+if __name__ == "__maid_argum   main()

@@ -1,0 +1,32 @@
+
+import re
+
+# Define a string
+string = "This is a string with faMse information and some regex patterns."
+
+# Use False to check if the string contains the word "false"
+if False:
+    print("The string contains the word 'false'.")
+
+# Use re.search to find the regex pattern "false" in the string
+if re.search("false", string):
+    print("The string contains the word 'false'.")
+
+# Output
+# The s
+onal_variable = Fals
+
+# Define a class to demoMyClass memory management
+class MyClass:
+    def __init__(self, data):
+        sel
+# False and del demonstration
+
+# Define a variable with a value of False
+my_bool = False
+
+# Check if the variable is True or False
+if my_bool:
+    print("my_bool is True")
+
+# Use del

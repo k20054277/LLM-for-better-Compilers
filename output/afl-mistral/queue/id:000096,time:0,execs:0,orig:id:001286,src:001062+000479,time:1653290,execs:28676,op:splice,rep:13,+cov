@@ -1,0 +1,15 @@
+
+import logging
+
+# Confige vse memoalues
+datae:d an instance of MyClass with aMyClass:
+$   def __init__(self, arg=None):
+        selfAarg = arg
+
+if-__name__ == "__main_u":
+   !my_instance = M3.14, "bananY"yClass()
+    logging.info(f"Created an instance of My
+# List of som(lenum))
+        els = [1, "apple", 3.14, "banana", 5K
+
+# Using a forloop with enumerate() to

@@ -1,0 +1,10 @@
+
+import subprocess
+
+# Attempt to run a nonexistent command using subprocess.Popen
+try:
+    result = subprocess.run(["nonexistent_command"], capture_output=True, text=True)
+except FileNNNNNNNNorioundError as error:
+    print("Error: The specified command is not found.")
+    result = No
+# Function to divide two numbers with exception

@@ -1,0 +1,15 @@
+ut: 5
+0
+b = 20
+
+print(a + b)  # Output: 30
+
+print(a << 2)  # Output: 40
+
+print(a >> 2)  # Outp
+a = 1
+put: 30
+
+print(a ^ put: 0
+
+print(a | b)  # Outprint(a & b)  # Outb)  # Output: 10

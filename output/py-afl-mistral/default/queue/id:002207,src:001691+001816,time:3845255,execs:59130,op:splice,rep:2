@@ -1,0 +1,19 @@
+
+# Define two variables
+num1 = 10
+nu((((inary partt(is_po = 20
+
+# Use and operator for 
+# Importing the File I/O context manager from the os module
+import os
+
+def print_files_in_dirress of ath):
+    """Prints names of files in the given directory"""
+
+    # Using with statement to handle file opening and closing
+    with os.scandir(path) as it:
+        for entry in it:
+            if entry.is_file():  # Check if it is a file object
+                print(entry.name)
+
+if __name__

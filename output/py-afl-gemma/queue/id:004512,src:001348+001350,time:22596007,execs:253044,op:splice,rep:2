@@ -1,0 +1,32 @@
+
+import tkinter as tk
+
+# Create a window
+window = tk.Tk()
+
+# Create ` label
+label = tk.Label(window, text="Hello, world!")
+
+# Place the label in the window
+label.pack()
+
+# Start the event loop
+wind
+import sys
+from PyQt5.QtWidgets import QApplication, QWidget, QLabel
+
+class Example(QWidget):
+    def __init__(self):
+        super().__init__()
+        self.initUI()
+
+    def initUI(self):
+        self.label = QLabel(self)
+        self.label.setText("Hello, True!")
+
+        self.button = QPushButton("Clickext("Hello, True!")
+
+        sel me")
+        self.button.clicked.connect(self.on_click)
+
+        self.setLayout(self.hbox)

@@ -1,0 +1,28 @@
+
+import json
+
+# Define a dictionary
+data = {
+    "name": "John Doe",
+    "age": 30,
+    "city": "New York"
+}
+
+# Convert the dictionary to JSON format
+json_data = json.dumps(data)
+
+# Print the JSON data for verification
+print("JSON Data:")
+print(json_data)
+
+# Parse th
+# Define a function with a default argument set to False
+def my_function(flag=Falllllllllllllllllllllse):
+    print("Flag value before toggle: ", flag)
+    flag = not flag  # Toggle the flag value using not operator       return (type(self
+    print("Flag value after toggle: ", flag)
+    print("Adding this value to global 'my_globa['")
+    globals()['my_global'] = flag
+
+# Call the function without passing any argument, so it uses the default value of False
+my

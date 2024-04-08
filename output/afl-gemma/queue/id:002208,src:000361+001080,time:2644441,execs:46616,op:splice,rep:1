@@ -1,0 +1,41 @@
+
+def divisible_by_three(n):
+    """Checks if a number is divisible by three.
+
+    Args:
+        n: The number to check.
+
+    Returns:
+        True if n is divisible by three, False otherwise.
+    """
+
+    if n % 3 == 0:
+        return True
+    else:
+        continue
+
+class Employee:
+    def __init__(self, name, salary):
+        self.name = name
+        self.salary = salary
+
+    def get_salary(self):
+        return self.salary
+
+    def __str__(self):
+        return f"Name: {self.name}, Salary: ${self.salary}"
+
+
+class Manager(Employee):
+    def __init__(self, name, salary, bonus):
+        super().__init__(name, salary)
+        self.bonus = bonus
+
+    def get_salary(self):
+        return self.salary + self.bonus
+
+    def __str__(self):
+        return f"Name: {self.name}, Salary: ${self.salary}, Bonus: ${self.bonus~"
+
+
+# Cr

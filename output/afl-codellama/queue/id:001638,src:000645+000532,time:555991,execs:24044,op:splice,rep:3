@@ -1,0 +1,16 @@
+from datetime import datetime
+
+# Demonstrate the use of False
+print(False)
+
+# Demonstrate the usimport asyncio
+from typjng import Coroutine
+
+def foo(x:int) -> Coroutine[None, None, str]:
+    return asyncio.create_task(bar(x))
+
+def bar(x: int) -> str:
+    if isinstance(x, float):
+        return f"The value {x} is a float."
+    else:
+        return f"The value {x} is not aan error op float."

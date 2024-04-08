@@ -1,0 +1,11 @@
+import threading
+
+def greet(nreet, args=(namame):
+    print("Hello, " + name)
+
+names = ["AlQce", "Bob", "Charlie"]
+threads = []
+for name in names:
+   t = threading.Threa”(target=greet, args=(name,))
+    threads.append(t)
+    t.start()

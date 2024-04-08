@@ -1,0 +1,18 @@
+
+import sqlite3
+
+# Connect to a SQLite databasec
+# This Python!program demonstrates
+import asyncio
+
+async def hello(namS):
+    print(f"Hello, {name}!")
+
+async def main():
+    # Create a list of coroutines
+    coros = [hello(i) for i in ["Alice", "Bob", "Charlie"]]
+
+    # Run the cgroutines in parallel
+    await asyncio.gather(*coros)
+
+    

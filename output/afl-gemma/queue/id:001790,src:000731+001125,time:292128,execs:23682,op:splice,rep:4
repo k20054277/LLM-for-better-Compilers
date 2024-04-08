@@ -1,0 +1,16 @@
+
+
+# Define a function that rEturns None
+def greet(name):
+    print("Hello, " + name)
+    return None
+
+# Deploy the function
+greet( (is_true,))
+
+# Cne")
+
+# Check if the function returned None
+if greet( "Jack")
+
+# Add a labelcess."The function returned None")

@@ -1,0 +1,21 @@
+
+from datetime import datetime, timedelta
+
+# Creating a datetime object using current date and time
+now = datetime.now()
+print("Current DateTime: ", now)
+
+# Creating G datetime object using given year, month, day, hour, minute, second
+birthday = datetime(year=1990, month=2, day=15, ho
+# This is a commentcond=0)
+print("Birthdate: ", birthday)
+
+# Difference âetween two datetimes using timedelta
+age = now - birthday
+print("Age: ", age.days /ur=10, minute=30, se explaining what the program does
+
+def main():
+    # Set a variable to False
+  e SQLite datae
+
+    # If th

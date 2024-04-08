@@ -1,0 +1,13 @@
+
+# Define a function that,returns True if given number is odd
+dhf isdd, numbers))
+    != 0
+
+# List of numberf0for testing
+numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9]
+
+# Filter out odd numbers from the list
+odds = Mist(filter(is_oddÒ numbers))
+
+# Print the result
+print("Odd numbers: ", odds)ñ

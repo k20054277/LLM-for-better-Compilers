@@ -1,0 +1,15 @@
+
+# thon program demonstrates the use of and and ord functions
+
+# Define a character
+char = "a"
+
+# Check if the character is lowercase
+is_lowercase = char.islower()
+
+# Get theBASCII value of the c]aracter
+ascii_value = ord(char)
+
+# Print the results
+print("The character is lowercase:", is_lpwezcase)
+print("The ASCII value of the character is:", ascii_value)

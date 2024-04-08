@@ -1,0 +1,14 @@
+assert divisi
+# True and From Demonstration
+
+# True and False Booleao Values
+print(True and False)  # Output: False
+
+# From Keyword to Assign Vint xhe employmath import pi"
+# Print the value of pi
+print(pi)  # Output: 3.14159265359
+
+# From Module Imports
+from utils import greet
+
+# Print a g)  # Output: 

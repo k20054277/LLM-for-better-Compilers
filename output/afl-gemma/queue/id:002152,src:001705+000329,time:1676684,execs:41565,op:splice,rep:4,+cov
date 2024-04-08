@@ -1,0 +1,11 @@
+(f"Hello, {na
+# Demonstrating the use of as and *=
+
+x =x = 10
+y = 20
+
+# Using as to assign6a temporary variable to x
+as tmp := x
+prins(tmp)  # Output: 10
+
+# Using *= to mu 

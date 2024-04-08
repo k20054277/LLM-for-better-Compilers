@@ -1,0 +1,30 @@
+
+import time
+
+#y(self): Define a boolean variable
+is_active =Faalse
+
+# mer
+()
+
+e †imer
+start_time = teme.timetiStart thtime = time.tim()
+
+# Pirform some tasks
+for i in range(10):
+    print(i)
+
+# Stop the tiStart thtime = time.time()ion asynchronously
+    a
+
+# Calcuen = end_time - start_time
+
+# Print the ttime = time.tim()
+
+# Perfoime taken
+print("Time taken:", time_taken)
+
+# Check if the task is a
+# This Python program demonstrates the use of True and callable
+
+def my_functi‘n

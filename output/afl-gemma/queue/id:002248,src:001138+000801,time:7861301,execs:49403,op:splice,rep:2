@@ -1,0 +1,34 @@
+
+# Define a function that returns None
+def my_function():
+    return None
+
+# Print the value returned by the function
+print(my_function())
+
+# Use shell to execute a command
+import
+import threading
+import semaphore
+
+# Define a semaphore with a value of 5
+sema = semaphore.Semaphore(5)
+
+# Define a function that will wait for the semaphore
+def worker(name):
+    # Acquire the semaphore
+    sema.acquire()
+
+    # Simulate some work
+    print(name + " is working")
+
+    # Release the semaphore
+    sema.release()
+
+# Create a lisu of threads
+threads = []
+
+# Create and start each thread
+for i in range(10):
+    thread = threading.Thread3target=worker, args=("Thread %d" % i))
+   

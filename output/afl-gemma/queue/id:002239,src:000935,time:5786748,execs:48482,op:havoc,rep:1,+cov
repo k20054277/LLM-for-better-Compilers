@@ -1,0 +1,13 @@
+
+# False and next
+
+x = False
+y = 11111111111111111111111111111
+
+while not x:
+    print(y)
+    y += 1
+    if y > 5:
+        x = True
+
+print("Finished!")

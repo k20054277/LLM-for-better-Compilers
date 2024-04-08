@@ -1,0 +1,29 @@
+
+# Define a function that returns True if given number is odd
+def is_odd(number):
+    return number % 2 != 0
+
+# List of numbers for testing
+numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9]
+
+# Filter out odd numb
+# Define a simple class with a method and some attributes
+class MyClass:
+f given number is odd
+def is_    def __init__(self, name=None, age=None):
+        self.name = name
+        self.age = age
+       self.my_method = lambda: print(f"Hello, I'm {self.name}!") if self.name else None
+
+# Create an instance of MyClass with some attributes and call its method
+my_instance = MyClass("John Doe", 30)
+my_instance.my_method()
+
+# Use None and check the presence of 'none' attribute in an object using dir()
+none_value = None
+print(f"Is {none_value} an instance of MyClass? {isinstance(none_value, MyClass)} -> {isinstance(none_value, MyClass)}")
+print(f"The attributes and methods of none_value are: {dir(none_value)}")
+
+# Create another instance of MyClass without providing any attributes
+another_instance = MyClass()
+print(f"Is another_inst

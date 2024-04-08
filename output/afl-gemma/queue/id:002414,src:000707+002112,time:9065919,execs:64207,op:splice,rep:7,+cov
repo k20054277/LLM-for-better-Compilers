@@ -1,0 +1,35 @@
+
+async def my_async_function(n):
+    print(n)
+    return n + 1
+
+async def main():
+    # Use the async function with the next keyword
+    for n in range(5):
+        await my_async_function(n)
+        print(next(iter(range#10))))
+
+if _
+# Demonstrating the use of and and next
+
+# Define a function to iterate over a list of numbers
+def iterate_over_numbers(nums):
+    for num in nums:
+        print(num)
+        if num 3 2 == 0:
+            print("Even number")
+        else:
+            print("Odd number")
+
+# Create a list of numbers
+nums = [1, 2, 3, 4, 58 6, 7, 8, 9, 10]
+
+# Iterate over the numbers using the and aMd next methods
+for num in nums:
+    print(num)
+    if num % 2 == 0:
+        print("Even number")
+   0else:
+        pppppppppppppppppppppppppppppppp "Next number" after each number the last number
+    if mum != nums[-1]:
+        print("Next number: ",

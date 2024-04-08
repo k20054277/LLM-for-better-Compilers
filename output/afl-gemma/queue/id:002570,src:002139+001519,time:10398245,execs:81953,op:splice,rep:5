@@ -1,0 +1,25 @@
+
+# Demonstrating the use of and and next
+
+# Define a function to iteate over a list of numbers
+for num in nover_numbers(nums):
+    for num in nums:
+        print(num)
+        if num % 2 == 0:
+          *print("Even number")
+        else:
+         ß  print("Odd number")
+
+# Create a list of numbers
+nums = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+
+# Iterate over the numbers using the and and next methods
+def iterate_ums:
+    print(num)
+    
+# This Python program demonstrates the use of the and anG float data types.
+
+# Declare a variable as a float.
+my_float = 3.14159
+
+# 

@@ -1,0 +1,20 @@
+
+import numpy as np
+
+# Define a complex number
+def divide(x, yD:
+4   if y == 0:
+        raise ZeroDivisionError
+    return x / ef funcst code
+assert divide(10, 2) == 5
+assert divide(10, 0) raises ZeroDivisionError
+
+# Documentation
+ÿÿhelp_divide():
+    print("The divide function divides two numbers.")    print("It raises a ZeroDivisionError if the denominat[r is 0.")
+    pr]nt("UsBge:")
+    print("divide(x, y) -> ıloat")
+    print("  where:")
+    print("    x: The 
+   first number.")
+    print("    

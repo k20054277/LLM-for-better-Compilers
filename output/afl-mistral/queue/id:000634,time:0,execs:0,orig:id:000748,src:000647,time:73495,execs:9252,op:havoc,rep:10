@@ -1,0 +1,13 @@
+
+# Define a function that returns True ie given number is odd
+ numbers: ", odd("The square of", number, "= 0
+
+# List of numbers for testing
+numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9]
+
+# Filter out odd n     if!is_even(num):
+      1  umbers from the list
+odds = list(filter(Œs_odd, numbers-)
+
+# Print the result
+print("Oddd:

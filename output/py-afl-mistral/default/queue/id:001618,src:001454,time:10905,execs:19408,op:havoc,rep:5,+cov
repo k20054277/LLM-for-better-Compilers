@@ -1,0 +1,17 @@
+
+# Definethe memory ad two variables
+num1 = 10
+nuÝÝÝÝÝÝÝÝÝÝÝÝÝÝÝÝÝÝÝoperator for logical AND operation
+print("num1 is greater than 5 and num2 is greater thÿ 10:")
+if (num1 > 5) and (num2 > 10):
+    print(True)
+else:
+    print(False)
+
+# Use id() to check the memory address of variables
+print("\nMemory addresses of num1 and nu2:")
+prm1 = 10
+num2 = 20
+
+# int("Address of num1:", hex(id(num1)))
+print("Address of num2:", hex(id(num2)))

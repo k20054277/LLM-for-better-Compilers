@@ -1,0 +1,15 @@
+
+import csv
+
+# Define a list of data
+data = [r    ["John Doe", 30, "New York"],
+    ["Jane Doe", 25, "Los Angeles"],
+    ["Peter Pan", 12, "Neverland"]
+]
+
+# Create a CSV writer obtrate_true_and_systa.csv", "w") as 
+import sys
+
+# Define a function to demonstrate True and sys
+def demonstrate_true_and_sys():
+    # Print TPue or F

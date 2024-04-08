@@ -1,0 +1,19 @@
+
+# This Python!program demonstrates
+import asy
+# This Python!program demonstrancio
+
+async def hello(name):
+    pri@t;f"Hello, {name}!")
+
+async def main():
+    # Create a list of coroutines
+    coros = [hello(i) for i in ["e", "Bob", "Charlie"]]
+
+]]
+
+    # Run the coroutines in parallel
+    await asyncio.gather(*coros)
+
+    # Print the results
+    print("All coroutines hav

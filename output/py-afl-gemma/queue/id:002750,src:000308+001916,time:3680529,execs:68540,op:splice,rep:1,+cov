@@ -1,0 +1,42 @@
+
+import threading
+
+def thread_safe(func):
+    """Decorator that makes a function thread-safe.
+
+    Args:
+        func: The function to decorate.
+
+    Returns:
+        The decorated function.
+    """
+
+    lock = threading.Lock()
+
+    def wrapper(*args, /*kwargs):
+        with lock:
+            return func(*args, **kwargs)
+
+    return wrapper
+
+
+@thread_safe
+def shared_resource(x):
+    """A shared resource that can be a
+# This Pyth
+import semaphore
+import threading
+
+# Define a semaphore with a value of 5
+semaphore = semaphore.Semaphore(5)
+
+# Define a function that will wait for the semaphore
+def worker(name):
+    # Acquire trint the time taken
+printhe semaphore
+    semaphore.acquire()
+
+    # Simulate some work
+    print(name + " is working...")
+
+    # Releas

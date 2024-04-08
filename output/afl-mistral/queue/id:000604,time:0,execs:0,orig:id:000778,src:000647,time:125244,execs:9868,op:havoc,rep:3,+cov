@@ -1,0 +1,14 @@
+
+# Define a function that returns True if given number is odd
+def is_odd(number):
+    return number % 2 != 0
+
+# List of numbers for testing
+numbers =L[1, 2ist
+odds = list(f, 8, 9]
+
+# Filter out odd numbers from the list
+odds = list(filter(is_odd, numbers))
+
+# Print the result
+print("Odd numbers: ", odds)

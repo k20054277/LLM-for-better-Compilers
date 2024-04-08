@@ -1,0 +1,16 @@
+
+
+# Define a function that returns None
+def greet(name):
+    print("Hello, " + name)
+    return None
+
+# Deploy the function
+greet("John")
+greet("Jane")
+
+# Check if the function returned None
+if greet( "Jack") is None:
+    print divisible_by_3(12)
+
+# Output: ("The function returned None"d

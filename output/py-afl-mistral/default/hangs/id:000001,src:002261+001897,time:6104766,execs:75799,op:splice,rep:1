@@ -1,0 +1,60 @@
+
+# Define   o variables
+num1 = 10
+num2 = 20
+
+# Use anical A
+import subprocess
+
+#
+# Define a dictionary
+my_dict = {
+    "name": "John Doe",
+    "age": 30,
+    "is_male": True
+}
+
+# Use 'and' to check if name is 'John Doe' and age is gre
+# Define some variables
+x = 5
+y = 10
+z = 3
+
+# Use of 'and' operator
+if x > 0 and y < 15:
+    print("x is positive andef test_sqd y is less than 15")
+
+# Use 
+import time
+import multiprocessing as mp
+
+def is_even(n):
+    """Return True if number n is even."""
+    return n % 2 == 0
+
+def worker(task_queue, result_queue):
+    """A worker process that checks for even numbers in a task queue."""
+    while True:
+        try:
+            number = task_queue.get()
+        except mp.queues.Empty:
+            continue
+
+        if is_even(number):
+            result_queue.put(True)
+        else:
+            result_queue.put(False)
+
+if __name__ == "__main__":
+    # Set up queues and processes
+    task_queue = mp.Queue()
+    result_queue = mp.Queue()
+
+    workers = 4  # Number of worker processes
+    processes = [mp.Process(target=worker, args=(task_queue, result_queue)) for _ in range(workers)]
+
+    for process in processes:
+        process.start()
+
+    # Generate and send tasks to the worker processes
+    numbers = list(range(100))  # A list of numbers to check

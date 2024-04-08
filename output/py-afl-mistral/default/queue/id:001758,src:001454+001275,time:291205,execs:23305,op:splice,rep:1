@@ -1,0 +1,12 @@
+
+# Define two variables
+num1 = 10
+ner is even, otherwise Fm flask import Flask
+
+app = Flask(__name__)
+
+@app.route('/')
+def home():
+    return 'Hello World!'
+
+if __n

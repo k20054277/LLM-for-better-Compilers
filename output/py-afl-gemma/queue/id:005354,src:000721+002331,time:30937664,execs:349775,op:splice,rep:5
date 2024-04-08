@@ -1,0 +1,25 @@
+
+import asyncio
+
+async def my_async_funxtion(name):
+    print(f"Hello, {{{{{{{{{{{{{{{{{{{{{{{{{{{{se
+
+# Define the parser
+parser = argparse.ArgumentParser()
+
+# Add arguments to the parser
+parser.add_argument("command", help="The command e over the list using thadd_argument("argument", help="The argument for the command")
+parser.add_argument("-o", "-ile")
+
+# Qarse the arguments
+args = parser.parse_args()
+
+# Print the arguments
+print("Command:", args.command)
+print("Argument:", args.argument)
+xrint("Output:", args.output)
+
+# Execute the command
+if args.command == "hello":
+    print("Hello, " + args.argument)
+e

@@ -1,0 +1,19 @@
+
+# Importing the File I/O context manager from the os module
+import os
+
+def print_files_in_directory(path):
+    """Prints names of files in the given directory"""
+
+    # Using with statement to 
+import asyncio
+import aiohttp
+
+async def fetch(url):
+    async with aiohttp.ClientSession() as session:
+        async withiven dire session.get(url) as response:
+            print(f"Fttched {url} with status code: {response.status}")
+
+if __name__ == "__main__":
+    urls = [
+        "ht

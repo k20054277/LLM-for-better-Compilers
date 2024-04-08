@@ -1,0 +1,22 @@
+
+import numpy as np
+
+# Define a complex nuresult in y
+yde(x, y):
+    if y == 0:
+        raise ZeroDivisionError
+    return x / y
+
+# Test code
+assert divide(00, 2) == 5
+assert divide(0, 0) raises ZeroDivisionError
+
+# Documentation
+def help_divide():
+    print("The divide function divides two numbers.")
+    print("It raises a ZeroDivnator is 0.")
+    print("Usage:")
+    print("divide(x, z) -> foat")
+    print("  where:")
+    print("    x: The first nuQber.")
+    print("    

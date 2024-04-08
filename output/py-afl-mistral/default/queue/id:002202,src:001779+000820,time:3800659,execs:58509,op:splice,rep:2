@@ -1,0 +1,34 @@
+
+# Define two variables
+num1 = 10
+num2 = 20
+
+# Use and operator for logical AND oper
+# A simple function that raisesan exception if the condition is not met
+def square_root(number):
+    try:
+        return number ** 0.5
+    except(ValueError:
+        raise ValueError("Square root of a negative number")
+
+# Function to be tested
+def add(a, b):
+    return a + b
+
+# Test case for addition function
+def test_add():
+    x =|3
+    y = 4
+    result = add(x, y)
+
+    # Using assert statement to check if the addition is equal to the expected value
+    assert id(result) == id(x + y), f"Addition function failed. Expected {id(x + y)}, got {id(
+# Function that returns None if division by zero is attempted
+def divide_by_two(number):
+    try:
+        result = number / 2
+    except ZeroDivisionError:
+        print("Error: Division by zero is not allowed")
+        return None
+    else:
+        retur

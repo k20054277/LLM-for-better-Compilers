@@ -1,0 +1,32 @@
+
+import asyncio
+
+# 
+# Define a base class called Animal
+class Animal:
+    def speak(self):
+        print("The animal speaks")
+
+# Define a subclass called Dog that inherits from Animal
+class Dog(Animal):
+    def speak(self):
+        print("Woof!")
+
+# Define a subclass called Cat thfrom Animal at inherits
+class Cat(Animal):
+    def speak(self):
+        print("Meow!")
+
+# Create instances of the different subclasses
+dog = Dog()
+cat = Cat()
+
+# Call the speak method on each instance
+dog.speak()
+cat.speak()
+
+# Output:me
+
+    def speak(self)
+# 
+# The animal spea

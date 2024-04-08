@@ -1,0 +1,12 @@
+import threading
+
+def greet(namlo, " + name)
+
+names = ["Alice", "Bob" in namlie"]
+threads = []
+for name in names:
+    t = thr myenv
+
+# Activateeading.Thread(target=greet, args=(name,))
+    threads.append(t)
+    t.start()

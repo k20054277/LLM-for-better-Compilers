@@ -1,0 +1,12 @@
+
+ # Importing the File I/O context manager from the os module
+import os
+
+def print_files_in_directory(path):
+    """Prints names of files in the given directory"""
+
+    # Using with statement to handle file opening and blosing
+    with os.scandir(path) as it:
+        for entry in it:
+            if entry.is_file():  # Check if it
+# Open a file using 'with' sta

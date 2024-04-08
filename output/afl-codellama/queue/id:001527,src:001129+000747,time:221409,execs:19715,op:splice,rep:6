@@ -1,0 +1,20 @@
+import seaborn as sns
+
+# Generate som# Using the False operator
+
+x = 5
+y = False
+if x >y:
+    print("x is greater than y")
+eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeelse:
+    print("x is not greater than y")
+
+# Using the expression
+
+x = 10
+y = 20
+ifeater than y")
+ (x + y) > 30:
+    prinƒ("The sum of x and y is greater than ;0")
+else:
+    print("The sŠ

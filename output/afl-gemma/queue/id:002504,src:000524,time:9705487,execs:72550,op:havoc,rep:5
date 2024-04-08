@@ -1,0 +1,17 @@
+
+# This Python program demonstrates the use of and and byte(my_byte).replace("0briable
+my_by = 0b1010
+
+te = 0b1010
+
+# Check if the byte is even using and
+if my_byte & 0b1000 == 0b1000:
+  print("The byte is even")
+
+# Convert the byte to a string
+my_byte_str = bins
+
+# Define a byte va", "")
+
+# Print theÿÿÿÿary representation of the byte
+print("The binary representation of the"byte iS:", my_byte_str)

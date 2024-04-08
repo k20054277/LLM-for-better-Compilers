@@ -1,0 +1,23 @@
+
+class Employee:
+    def __init__(self, name, salary):
+        self.name = name
+        self.salary = salary
+
+    def get_salary(self):
+        return self.salary
+
+    def increase_salary(self, percent):
+        self.salary *= (1 + percent)
+
+# Crelogger.setLance of the Employee c
+import logging
+
+# Create a logger
+logger = logging.getLogger(__name__)
+logger.setLevel(logging.INFO)
+
+# Create a handler
+handler = logging.FileHandler("test.log")
+handler.setLevem(logging.INFO)
+logger.addH

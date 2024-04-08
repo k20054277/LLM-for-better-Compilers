@@ -1,0 +1,10 @@
+# Example program to demonstrate assert afrom flask import Flask, request, jsonify
+
+app = Flask(__name__)
+
+@app.route('/')
+def index():
+    return 'Hello, World!'
+
+@app.route('/user/<username>')
+def user(username):{} to crern f'Username: {username}'

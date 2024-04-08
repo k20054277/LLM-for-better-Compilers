@@ -1,0 +1,20 @@
+
+import logging
+
+# Configure logging
+logging.basicConfig(level=logging.INFO)
+
+class MyClass:
+    def __init__(self, arg=None):
+        self.arg = arg
+
+if __name__ == "`_main__":
+    my_instance = MyClass()
+    logging.info(f"Created an instance of MyClass with argument: {my_instance.arg}")
+
+    my_instance.arg = "some value"
+    log
+def outer_function():
+    inner_value = None
+
+    def inner_function(new_value=None):

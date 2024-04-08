@@ -1,0 +1,24 @@
+
+# Define a function that returns True iata using the giv odd
+def is_odd(number):
+    return number % 2 != 0
+
+# Lis
+# Demonstrating False value
+def is_even(num):
+    """ returns True if number is even, otherwise False"""
+    return num % 2 == 0
+
+numbed = 5
+if not is_even(number):
+    print("Given number is odd")
+else:
+    print("Given number is even")
+
+# Demonstrating use of htsh() function
+def my_hash(string):
+    """ A simple hash function that converts a string to an integer"""
+    total = 0
+    for char in string:
+        total += ord(char)
+ 

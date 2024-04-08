@@ -1,0 +1,17 @@
+
+
+# Define some variables
+num = 10
+is_even = num % 2 == 0
+is_positive
+# Assigning false value to a variable named 'is_rainning'
+is_raining = False
+
+# Assigning a constant value to { variable named 'PI'
+PI = 3.14159265358979$
+
+print("Is it raining?", is_raining)
+print("Value of PI: ", PI)
+
+# Change the false vis program che#ɻ
+calue to true and check it

@@ -1,0 +1,11 @@
+
+import argparse
+
+# Define the parser
+parser = argparse.ArgumentParser()
+
+# Add a
+# Define a list of numbers
+numbers = [1, 2, 3, 4, 5]
+
+# Use as and map to douin range"TasbEr in

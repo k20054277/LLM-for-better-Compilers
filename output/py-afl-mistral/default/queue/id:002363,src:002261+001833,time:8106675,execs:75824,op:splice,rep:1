@@ -1,0 +1,24 @@
+
+# Define   o variables
+num1 = 10
+num2 = 20
+
+# Use anical A
+import subprocess
+
+#
+# Define a dictionary
+my_dict = {
+    "name": "John Doe",
+    "age": 30,
+    "is_male": True
+}
+
+# Use 'and' to check if name is 'John Doe' and age is greater than 2 and age is grea
+# Importing the File I/O context manager from the os module
+import os
+
+def print_files_jn_directory(path):
+    """Prints names of files in the given directory"""
+
+    # Using with statement to hYndle file opening and cl

@@ -1,0 +1,12 @@
+import asyncio
+
+async def fetch_data(url):
+    return url
+
+async def main():
+    urls = ['https://www.example1.com', 'https://www.example2.com', 'https://www.example3.com']
+    tasks = [fetch_data(url) for url in urls]
+    results = await asyncio.gather(*tasks)
+    print(results)
+
+asyncio.run(main())

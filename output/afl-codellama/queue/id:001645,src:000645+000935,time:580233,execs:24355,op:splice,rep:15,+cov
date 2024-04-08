@@ -1,0 +1,18 @@
+from datetime import d# This program demonstrates the use of None and the method0mete mhod on an object
+
+class MyClass()
+
+# Calling the mself):
+        self.x = 5
+
+    def method(self, a         print("arg is None")
+        elenerate some random d("arg is not None")
+
+my\obj = MyClass:
+    def __init__(ethod with a non-None argõment
+my_obj.method(10)  # Output: arg is not None
+
+# Cam=
+
+# Tre method with a None@argument
+my_obj.lethod(None) 

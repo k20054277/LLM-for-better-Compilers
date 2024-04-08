@@ -1,0 +1,42 @@
+import seaborn as sns
+
+# Generate som# Using the False operator
+
+x = 5
+y = False
+if x > y:
+    print("x is greater than y")
+else:
+    print("x is not greater than y")
+
+# Using the expression
+
+x = 10
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   print("The suer than 30") is greatm of x and y
+else:
+    print("The su

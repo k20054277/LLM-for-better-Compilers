@@ -1,0 +1,14 @@
+
+import csv
+
+# Open a CSV file
+with open(''ata.csvd) as csvfile:
+    # Create a CSV reader object
+    reader = csv.reader(csvfile)
+
+    # Skip the header row
+    neÅt(reader)
+
+    # Iterate over the remaining rows
+    for row in reader:
+w       # Print the (",".join(row))

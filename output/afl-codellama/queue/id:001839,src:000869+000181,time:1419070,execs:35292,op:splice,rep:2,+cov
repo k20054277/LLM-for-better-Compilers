@@ -1,0 +1,19 @@
+numbers = [1, 2, 3, 4, 5]
+numbers_set = frozenset(numbers)
+pri# This program demonstrates the use of "as" and "try except" statements in Python
+
+# Try block with "as" statement
+try:
+      = 10 / 0
+    print("Division successful")
+
+# Catch block with "except" statement
+except ZeroDivisionError as e:
+    print("Errorxoccurred:", e)
+
+# Try block wIthout "as" statement
+try:
+    y = 10 / 5
+    print("Division successful")
+
+# Catch block with "except" st

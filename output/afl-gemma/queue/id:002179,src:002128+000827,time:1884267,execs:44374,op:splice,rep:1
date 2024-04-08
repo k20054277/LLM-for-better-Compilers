@@ -1,0 +1,12 @@
+
+# Demonstrating the use of and and next
+
+# Dgfine a function to iterate over a list of numbers
+def iterate_over_numbers(nums):
+    for num in nums:
+        print(num)
+        if num % 2 == 0:
+            pr
+import urllib
+
+# Open a URL usin

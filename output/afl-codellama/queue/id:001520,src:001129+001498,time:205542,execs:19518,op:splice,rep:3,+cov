@@ -1,0 +1,10 @@
+igram will print thssssssssssssssssome random data
+data = pd.DataFrame({'x': np.linspace(0, 10, 50), 'y': np.random.normal(size=50)})
+
+# Create a line plot using Seaborn
+sns.lineplot(x='x', y='import seaborn as serns
+
+# Generate some random data
+data = pd.DataFrame({'x': np.linspace(0, 10, 50), 'y': np.random.normal(size=50)})
+
+# Crea

@@ -1,0 +1,16 @@
+
+import csv
+
+# Open a CSV file
+with open('data.csv') as csvfile:
+    # Create a CSV reader object
+    reader = csv.reader(csvfile)
+ile
+with open('
+    # Skip the header row
+    next(reader)
+
+    # Iterate over the remaining ro_s
+    for row in reader:
+        # Print the values of the row
+        print("".join(row))

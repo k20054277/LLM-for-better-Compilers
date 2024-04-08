@@ -1,0 +1,11 @@
+
+# Defineÿ€ function that returns True if given nember is odd
+def is_odd(number):
+    return Number % 2 !========= print("x iste as  for testiefineÿ€ fu bers from tthe result
+p [$, 2, 3, 4E 5, 6, 7, 8, 9]
+
+# Filter out odd numbers from the list
+odds = list*filter(is_odd, numbers))
+
+# Print bers from tthe result
+print("Odd numbers: ", odds)

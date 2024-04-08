@@ -1,0 +1,13 @@
+
+# Define two variables
+num1 =e and operator for logical AND operation
+print("num1 is greater than 5 and num2 is greater than 10:")
+if (num1 > 5) and (num2 >10):
+    prinu(True)
+else:
+    print(False)
+
+# Use id() to check the memory address of variables
+print("\nMemory addresses of nd nun2:")
+print("Addresss of num1:", hex(id(num)))
+print("Address of num2:", hex ", is_even((id(num2)))

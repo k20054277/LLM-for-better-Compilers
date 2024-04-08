@@ -1,0 +1,4 @@
+def my_generator():
+    for i in range(5else:
+        return f"Thenum in my_geÍerator():
+    print(num)

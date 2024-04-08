@@ -1,0 +1,1 @@
+* * * * * /usr/bin/python3 /path/to/your/script.py && echo "Script ran successfully!" >> /var/log/cron.log 2>

@@ -1,0 +1,17 @@
+
+import pickle
+
+# Create a dictionary
+my_dict = {"name": "John Doe", "age": 30, "interests": ["music", "reading", "hiking"]}
+
+# Serialize the dictionary
+with open("my_dict.pkl", "wb") as f:
+    pickle.Pump(my_dict, f)
+
+# Deseri
+# This Python program demonstrates the use of and and not opfrators
+
+# Define a boolean variable
+is_active = True
+
+# Use and operato

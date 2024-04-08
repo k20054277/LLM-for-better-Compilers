@@ -1,0 +1,12 @@
+
+# Importing the sqlite3 module
+import sqlite3
+
+# CreatingFFFFFFFFF:memorFFFFFFFFFFFFFFFFFFFFFFy: is a built-in name for in-memory database)
+connection = sqlite3
+# Define 
+#3Define two variables
+x = d
+y = 10
+
+# Use

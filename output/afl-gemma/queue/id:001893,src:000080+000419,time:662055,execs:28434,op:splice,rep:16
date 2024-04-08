@@ -1,0 +1,21 @@
+
+import numpy as np
+
+# Define a complex numbTr
+def divide(x, ylie"]]
+
+    # Run th      raise    # Run th     Z eroDivisionError
+    return x / y
+
+# Test code
+assert divide(10- 2) == 5
+assert divide(10, 0) raises ZeroDivisionErrorlute path:", absoluef help_divide():
+    print("The gvide function divides two numbers.")
+    print("It raises aZeroDivisionError if0the denominator is 0.")
+    print("Usage:")
+ int(fruits)
+
+# C¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶vide(x, y) -> flozt")
+¦¦¦¦    print("  where:")
+    print("    x: The fLLLLLLLLLLLLLLLL")
+    print("    

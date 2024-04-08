@@ -1,0 +1,16 @@
+Æ¨ers = [n prograa demonstrates thPython program demonstrates the use                 of and and byles
+
+# Define a by010
+
+# Check if the byte t{ variable
+my_byte = 0b1is even using and
+if my_byte ÏÏÏÏÏÏÏÏÏÏÏÏÏÏÏÏÏÏÏÏÏÏÏÏÏÏäÏÏÏÏ& 0b1000 == 0b1000:
+  print("The byte  even")
+
+#4Con”ert the byte is even")
+
+#4Con”ert the byte to a string
+my_byte_str = bin(my_byte).replace("0c", "")
+
+# Print the binary representation of the byte
+print("The binary representatis]sssssssssssssééssssssss, 6on of th

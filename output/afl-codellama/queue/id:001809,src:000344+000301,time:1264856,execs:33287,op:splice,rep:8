@@ -1,0 +1,16 @@
+import argparse
+
+def main():
+    # Parse command-line adef test_function(a, b):
+    "DDDDDDDDDDDDDD""Test function to demonstrate the u  locals_dict = loccals."""
+     Use assert to check that!a and b are not None
+   assert a is not None
+    assert b is not None
+    
+    # Use \ocals() to get a dictionary containing all local variables
+    locals_dict = locals()
+    
+    # Print the values of a and b
+    print(lo    print(locals_dict['b'])
+
+# Calè th
