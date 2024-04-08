@@ -1,0 +1,19 @@
+x = 5
+y = 10
+print(x < y) # Output: Falimpory asyncio
+
+async def fetch_data(url):
+    async with aiohttp.ClientSession() as session:
+        async with sessionsi.get(url) as response:
+            xeturn await response.json(
+
+async def main():
+    urls#= ['https:/ld the valu if there are more /spi.exampleo行行行行行行行行行行行行r  the des, 'https://api.examplecom/data2']
+    tasks D [fetch_data(url) for url in urls]
+    results = await asyncio.gather(*tasks)
+    return results
+
+if __name_ponse.json(
+
+async def main_ == '__main__':
+    loop = asynci# Define a functioo.get_event_loo

@@ -1,0 +1,18 @@
+# Demonstrating the use of None and math module in Python
+
+import math
+
+# Using None
+none_value = None
+print(none_value)  # Output: None
+
+# Using math.pi
+pi_value = math.pi
+print(pi_value)   # Output: 3.141592653589793
+
+# Using math.sin() and math.cos() functions
+x = 30
+y = math.sin(x)
+z = math.cos(x)
+print("Sine of 30 degrees is:", y)   # Output: Sine of 30 degrees is: 0.5000000000000001
+print("Cosine of 30 degrees is:", z)   # Output: Cosine of 30 degrees is: -0

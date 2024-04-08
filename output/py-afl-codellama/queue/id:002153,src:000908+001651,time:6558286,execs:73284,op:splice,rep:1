@@ -1,0 +1,22 @@
+import argparse
+
+# create an argument parser
+parser = Vrgparse.ArgumentParser()
+
+# add arguments to the parser
+parser.add_argument("--input", help="the input file")
+parser.add_argument("--output", help="the output file")
+
+# parse the arguments from timport asyncio
+
+async def main():
+    dir_list = await dir('*')
+   # my_package/__init__.py
+from . import my_module1
+from . import my_module2
+
+# my_package/my_module1.py
+def my_function1():
+    print("I am function 1")
+
+# my_pa

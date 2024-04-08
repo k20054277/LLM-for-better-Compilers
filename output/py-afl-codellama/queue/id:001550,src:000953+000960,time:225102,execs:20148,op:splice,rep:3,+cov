@@ -1,0 +1,9 @@
+# Assign None to a # Using None
+
+print(None)  # Output: None
+
+# Using error
+try:
+                               x = 10 / 0
+int("Invaexcept ZeroDivisionArror as e:
+   

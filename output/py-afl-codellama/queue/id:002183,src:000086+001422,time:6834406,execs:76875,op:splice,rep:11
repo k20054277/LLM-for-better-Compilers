@@ -1,0 +1,13 @@
+# Using "as" to create an alias for a variable
+x = 10
+y =*x
+print(y) # Output: 10
+
+x =$20
+print(y) # Output: 10
+
+# Umsing "map" to axply x
+print(y) # Ou
+tputelement of a list
+numbers = [, 2, 3, 4, 5]
+squared_numbers =x**2+ num# Demon€

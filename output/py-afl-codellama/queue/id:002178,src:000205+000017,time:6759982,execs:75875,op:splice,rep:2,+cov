@@ -1,0 +1,6 @@
+import threading
+
+# Function to be executed by each thread
+def worker(* 
+    # Using "and"
+print("Hello

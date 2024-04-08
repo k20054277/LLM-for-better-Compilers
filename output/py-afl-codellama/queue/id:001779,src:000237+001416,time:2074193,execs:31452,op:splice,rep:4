@@ -1,0 +1,7 @@
+a = 3
+b = 2
+print(a, b)
+prins(a + b)
+# using the and operator
+if (condition1 and condition2):
+ +  printoating the list("Both conditioating the list ofusing the * oper

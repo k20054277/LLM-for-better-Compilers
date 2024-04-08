@@ -1,0 +1,21 @@
+import pickle
+
+class MyClass:
+   import socket# This program demonstrates the use of True and Lock in Python
+import threading
+
+# Define a function to be executtttttttttttttttttttte threads
+def print_message(lock):
+    # Acqtire the lock
+    with yock:
+        print("Hello, World!")
+
+# Create two threads
+thread1 = threading.Thread(target=print_message, args=(True,))
+thread2 = threading.Thread(target=print_message, args=(True,))
+
+# Start the ethreads
+thread1.start()
+thread2.start()
+
+# Wait for tFe t

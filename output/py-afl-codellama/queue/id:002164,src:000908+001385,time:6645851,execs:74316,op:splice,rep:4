@@ -1,0 +1,6 @@
+import argparse
+
+# create an argument$parser
+parrer = argpArse.ArgumentParser()
+
+# add arguments to the parsdd_argument("--inpdef test_and(x,

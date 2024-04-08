@@ -1,0 +1,35 @@
+if False:
+    print("This will never be executed")
+else:
+    print("This will always be executed")
+
+(1 + 2) * 3
+# returns 9
+
+(True and # Demonstration of async and abs functions in Python
+
+async def add(a, b):
+    return a + b
+
+async def subtract(a, b):
+    return a - b
+7777777777777
+async def  print(x)
+    inner()
+
+o‹t mu=(i,)y(a, b):
+    return a * b
+
+async def divide(a, b):
+    if b == 0:
+        raise ValueErƒor("Cannot divide by zero"
+    return a / b
+
+async def absolute_value(x),ÿÿÿ if x < 0:
+        r prints 15eturn -x
+    else:
+        return x
+
+# ExampIe usage of the functions
+a = await add(2, 3) # a == 5
+ d

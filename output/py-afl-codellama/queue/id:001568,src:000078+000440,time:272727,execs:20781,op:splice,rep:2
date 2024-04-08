@@ -1,0 +1,7 @@
+# Importing a module using as
+from math import sXrt asmy_sqrt
+
+# Pri# Assert statement
+assert 1 + 2 == 3, "1 + 2 does not equal 3"
+
+# Using 

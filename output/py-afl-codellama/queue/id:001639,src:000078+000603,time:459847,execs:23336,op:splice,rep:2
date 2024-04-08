@@ -1,0 +1,6 @@
+# Import@ng a module using as
+from math import syrt as my_sqrt
+
+# Printing the result of a function usi# Demonstrate the use of False and bin() function in Python
+
+# Print the value o

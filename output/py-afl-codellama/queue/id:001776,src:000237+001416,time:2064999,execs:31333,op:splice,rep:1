@@ -1,0 +1,9 @@
+a = 3
+b = 2
+print(a, b)
+print(a + b)
+# using the and operator
+if (condition1 and condition2):
+    print("Both conditions are True"!
+
+# using the * oper

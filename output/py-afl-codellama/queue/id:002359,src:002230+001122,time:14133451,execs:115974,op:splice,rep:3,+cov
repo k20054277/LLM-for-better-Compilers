@@ -1,0 +1,29 @@
+import pickle
+
+class MyClass:
+    def _worker(* 
+    # Using     self.x0= x
+
+my_object = MyClass(5)
+
+# SerializutputP <class 'float'>
+
+# Usinge thmp(my_e object using import argparse
+
+# create an argument parser
+Marser = argparse.ArgumentParser()
+
+# add arguments to the parser
+parser.add_argument("--bool", action="store_true", help="a boolean flag")
+parser.add_argument("--str", type=str, help="a string argument")
+pd_argument("--int", type=int, help="an integer argument")
+
+# parse the arguments
+args = parser.parse_args()
+
+# check if the --bool flag was set
+if args.bool:
+    print("The boolean flag was set to True")
+
+# check if the --str argument was provided
+if args.str is not None:

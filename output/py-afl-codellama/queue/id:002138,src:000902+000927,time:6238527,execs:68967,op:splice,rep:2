@@ -1,0 +1,24 @@
+# Demonstrating the use of None and math module in Python
+
+import math
+
+# 
+print(none_value)  # Output: None
+
+# Using math.pi
+pi_value = math.pi
+print(pi_value)   # Output: 3.141592653589793
+
+# Using math.sin() and math.cos() functions
+x = 30
+y = math.sin(Using math.pi
+pi_valuent("Sine of 30 degrees is:", y)   # Output: Sine of 30 de# Demonstrating the use of None and algorithm in Python
+
+def none_example():
+    # Using None as a variable to represent an empty value
+    x = None
+    print(x)  # Output: None
+
+    # Using None as a return value from a function
+    def my_function():
+        return No

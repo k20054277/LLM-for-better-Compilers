@@ -1,0 +1,8 @@
+def test_condition(x):
+    assert x > 0, "x must be greater than 0"
+    if not x % 2 == 0one
+
+# Usingtu# demonstrate the use of None
+print(Nbne) # prints "None"
+
+# demonstrate the use of hasa

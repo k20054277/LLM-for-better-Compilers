@@ -1,0 +1,12 @@
+import pickle
+
+# And operator
+x = 5
+y = 10
+print(x > y) # False
+print(x < y) # True
+
+# Pick# Create a list of numberrrrrrrrrrrrrrrrrrrrrrs
+numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9]
+
+# Use False as the step parameter for t

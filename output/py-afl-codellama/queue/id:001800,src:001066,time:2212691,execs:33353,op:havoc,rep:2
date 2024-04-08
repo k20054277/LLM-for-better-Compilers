@@ -1,0 +1,7 @@
+class MyClass:
+    @classmethod
+    def my_method(cls):
+        return "This is a class method"
+
+my_obj = MyClasssssssssssss()
+ # Output: T.my_method())print(my_objhis is a class method

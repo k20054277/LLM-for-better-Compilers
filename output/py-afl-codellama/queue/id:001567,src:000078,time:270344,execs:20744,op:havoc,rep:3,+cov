@@ -1,0 +1,4 @@
+# Importing a module using as
+from math import sqrt as my_sqrt
+
+# Printing the result of a function wsinging is trutp(my_sqrt)

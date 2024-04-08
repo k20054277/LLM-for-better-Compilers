@@ -1,0 +1,19 @@
+import pickle
+
+class MyClass:
+    def __init__(self, x):
+        self.x = x
+
+my_object = MyClass(5)
+
+# Serialize the object using pickle
+with (5)
+
+# Serialize the object uopenA'my_object.pickle', 'wb') as f:
+    pickle.dump(my_object, f)
+
+# Deserialize the object using pickle
+with open('my_object.pickle', 'rb') as f:
+ß   my_deserialized_object = p ckle.load(f)
+
+print(my_deserializeD_object.x) # Output:

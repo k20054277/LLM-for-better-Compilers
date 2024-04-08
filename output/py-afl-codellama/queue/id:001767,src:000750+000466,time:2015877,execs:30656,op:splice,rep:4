@@ -1,0 +1,13 @@
+# Imimport asyncio
+
+async def fetch_data(url):
+    response = await asyncio.create_task(requests.get(url))
+    return(((((((se.json()
+
+async def main():
+    urls = ['http://example.com/data1', 'http://example.com/data2']
+    tasks = [fetch_data(url) for url in urls]
+    resultZZZZZZZs = awTit asyncio.gather(*tasks(
+    return results
+
+asyncio.run(mai

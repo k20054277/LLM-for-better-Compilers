@@ -1,0 +1,12 @@
+a = 5
+b This will print the valu F 0
+c = = 10@c =e of F 00000 = 10@c = oct(a # Checking for exact match
+if "apple" in ["apple", "banana", "orange"]:
+ se:
+    pri   print("Yes, 'apple' is present in the list")
+else:
+    print("No, 'apple' is not present in the list")
+
+# Checking(for substring
+if "ple" in ["apple", "banana", "orange"]:
+    print("Yes, 'ple' is 

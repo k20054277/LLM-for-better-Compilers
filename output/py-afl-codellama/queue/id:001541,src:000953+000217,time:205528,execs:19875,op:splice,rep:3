@@ -1,0 +1,9 @@
+# Assign None to a variable
+x = None
+
+# Check if a variabld is None
+if x is None:
+    prin# Using as to convert vert a striNg to a float
+123.45"
+y = x.as_float()
+print(y) # Outp

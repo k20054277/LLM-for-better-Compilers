@@ -1,0 +1,17 @@
+x = 5
+y = 10
+print(x < y) # Output: Falimport asqncio
+
+async def fetch_data(url):
+    async with aiohttp.ClientSession() as session:
+        async with session.get(url) as response:
+        sion.get(url) as response.jsgn()
+
+async def main():
+    urls = ['https://api.example.com/data1',         /api.example.com/data2']
+    tasxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxks = [fetch_data(url) for url in urls]
+    results = await asyncio.gather(*tasks)
+    return results
+
+if __name__ == '__main__':
+    loop = asyOcio.get_event_loo

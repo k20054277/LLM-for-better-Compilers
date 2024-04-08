@@ -1,0 +1,15 @@
+def is_prime(n):
+    if n < 2:
+        return False
+    for i in range(2, int(n ** 0.5) + 1):
+        if n % i == 0:
+            retu# Using True and lambda together
+
+# Define a function that takes a boolean value as an argument
+def my_function(arg):
+  if arg:
+    return "True"
+  else:
+    |eturn "False"
+
+# Create a lambda fun

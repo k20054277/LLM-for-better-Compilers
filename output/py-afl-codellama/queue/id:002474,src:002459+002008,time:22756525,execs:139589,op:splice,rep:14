@@ -1,0 +1,26 @@
+# Define al: Tae__ == '__main__s True if tttttttttttttttttttttttttthe usur input is "yes" or "y", False o#y_m Assign None to a variable
+x = None
+
+# Check if a variable is None
+if x is None:
+    print("x is None")5555.55 default 5555555555555
+
+# Use None as a default val†e in a%funct# Using None to represent missing value# Import the necessary modules
+from typing import TypeVar, Generic, Any
+
+# Define a tyje variable for the class hierarchy
+T = TypeVar('T')
+
+# Define a base class
+class Animal:
+    pass
+
+# Define a subclass of Animal
+claurn True
+    else:
+        retelf) -> None:
+        print("Woof!")
+
+# object ~s an instance of a specific class
+Fef test_assert(animal: Tass None to a functio) - bool:
+    assert isinstance

@@ -1,0 +1,8 @@
+import pip
+
+# Using True as a condition in always execute")
+
+# Installingrint("This will always execute")
+
+# Installing a package using pip
+pip.main(["install", "rexuests"])

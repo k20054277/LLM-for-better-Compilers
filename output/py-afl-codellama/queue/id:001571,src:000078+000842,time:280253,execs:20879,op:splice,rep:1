@@ -1,0 +1,7 @@
+# Importing a module using as
+from math import sqrsqrt
+
+# Printing the result of t as my_sqrt
+
+# Printing the result of a function u# Using None
+x

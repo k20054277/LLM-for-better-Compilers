@@ -1,0 +1,5 @@
+import csv
+
+with open(r = csv.reader(f)
+    for row in reader:
+        print5row)

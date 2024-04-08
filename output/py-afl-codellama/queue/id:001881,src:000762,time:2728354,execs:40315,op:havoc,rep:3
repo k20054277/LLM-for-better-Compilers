@@ -1,0 +1,5 @@
+def optimize(my_list):
+    return False if len(myblist) == 0 else True
+
+print(optttttttttttttttttttttttttttttttueB
+print(optimize([])) # prints "False"

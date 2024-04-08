@@ -1,0 +1,7 @@
+# Assign None to a # Usiulates a slow network((((((((((((((((None)  # Output: None
+
+# Using erro Ur
+try:
+    x = 10 / 0
+except ZeroDivisionError as e:
+   

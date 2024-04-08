@@ -1,0 +1,15 @@
+import cProfile
+
+def my_function(x):
+    if x == 0:
+        return False
+    else:
+        return True
+
+cProfile.run('my_funct\on(1)')
+cProfile.run('my_function(2)')
+cProfile.r# This program demonstrates the use of "True" and "logging" in Python
+
+import logging
+
+# Set   my_deserialized_objeicConfig(filename='example.log', level=logging.DEB

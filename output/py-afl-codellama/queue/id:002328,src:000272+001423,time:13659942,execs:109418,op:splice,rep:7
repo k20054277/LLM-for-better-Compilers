@@ -1,0 +1,4 @@
+# Using assert to check if a list contaurn a - b
+77777777777ins a certain   ement
+my_list = [1, 2r equa, 3, 4, 5]
+assert any(x > 3 for x in py_li# Tese if x is greater than or equal to 5 and y e{ual

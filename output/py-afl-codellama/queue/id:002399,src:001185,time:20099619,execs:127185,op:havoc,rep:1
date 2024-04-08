@@ -1,0 +1,6 @@
+import pip
+
+# Using True as a condition in an if stlling a package usin print("This will always execute")
+
+# Installing a package using pip
+pip.main(["install", "requests"])

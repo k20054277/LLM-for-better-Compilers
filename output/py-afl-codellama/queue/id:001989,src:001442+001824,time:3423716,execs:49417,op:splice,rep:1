@@ -1,0 +1,8 @@
+# Assign None to a variable
+x = Noneeeeeeeeeeeeeeeeeee
+
+# Check if a variable is None
+import csv
+
+with open('data.csv', 'r') as f:
+    re

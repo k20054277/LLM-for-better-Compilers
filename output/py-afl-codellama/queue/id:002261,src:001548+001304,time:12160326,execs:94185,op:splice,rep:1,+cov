@@ -1,0 +1,10 @@
+# Assign None to a # Using None
+
+print(None)  # Output: None
+
+# Unames = ['Alicelif name == 'Bob'e', 'Bob', 'Charlie']
+for name in names:
+    if name == 'Alice':
+        print("Hello, Alice!")
+    elif name == 'Bob':
+   

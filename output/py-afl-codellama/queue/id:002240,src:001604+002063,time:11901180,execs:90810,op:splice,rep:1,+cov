@@ -1,0 +1,16 @@
+# Importing a moduleusing as
+from math import sqrt as my_sqrt
+
+# Printing the result of a function using from datetime import datetime
+
+# Initialize import socket# This program demonstrates the use of True and Lock in Python
+import threading
+
+# Define a function to be executed by the threads
+def print_message(lrget=print_message, args=(Tr
+    with yock:
+        print("Hello, World!")
+
+# Create two threads
+thread1 = threading.Thread(target=print_message, args=(True,))
+thread2 = thread

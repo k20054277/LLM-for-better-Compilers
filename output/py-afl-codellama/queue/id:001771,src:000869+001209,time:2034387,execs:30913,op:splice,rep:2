@@ -1,0 +1,7 @@
+numbers = [1, 2, 3, 4, 5]
+numbers_set = fr# Demonstrate the use of True and %
+
+# Print a message witth the value of True
+print(True =", True)
+
+# ate the use of True Print a message

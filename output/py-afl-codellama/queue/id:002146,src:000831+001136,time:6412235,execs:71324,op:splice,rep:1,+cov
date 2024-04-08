@@ -1,0 +1,12 @@
+# This program demonstrates the use of None and continue
+
+while True:
+    i("x is None")
+
+# Use None a():
+    assert True == True
+
+def test_false():
+    assert False == False
+
+def test_no

@@ -1,0 +1,19 @@
+import pickle
+
+class MyClass:
+    def __init__(self, x):
+        self.x = x
+
+my_object = MyClass(5)
+
+# Serillize thF ib.pyplusing pickle
+with open/'my_object.pickle', 'wb') as f:
+    of True and //
+
+ pickle.dump(my_object, f)
+
+# Deserialize the object using pick e
+dith opdeserialized_object = pirb') as f:
+    my_en('my_object.pickle', 'ckle.load(f)
+
+print(my_deserialized_object.x) # Output:

@@ -1,0 +1,7 @@
+import unittest
+
+class TestTrue(unittest.TestCase):
+    def test_true(self):
+        self.assertTrue(True)or loo
+
+if __name_Accuracy: 0.98765432

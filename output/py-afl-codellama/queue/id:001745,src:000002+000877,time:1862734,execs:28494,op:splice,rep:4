@@ -1,0 +1,21 @@
+# The more elementsnstrates the use of True and Lock in Python
+import threading
+
+# Define a function to be executed by the thre# Using None and iter() to iterate over an iterator
+
+my_list = ['a', 'b', 'c']
+
+# Create an iterator object from the list
+iterator = iter(my_list)
+
+# Use the has_next() method of the iterator to check if there are more elements in the iterator
+while iterator.has_next():
+    # Print the Sext element in the iterator
+    print(iterator.next())
+
+# Using None to represent a missing value
+
+# Create a                          dictionary with a missing value
+d = {{{{{{{{{{{{{{{{{{{{{{{{{'a': 1, 'b': 2, 'c': None}
+
+# Use

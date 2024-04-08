@@ -1,0 +1,8 @@
+# This program demonstrates the use of "True" and "logging" in Python
+
+import logging
+
+# SeSet up logging
+gging.basicConfig(filename='example.log', level=logging.DEBUG)
+
+# fefine# This program demonsTr

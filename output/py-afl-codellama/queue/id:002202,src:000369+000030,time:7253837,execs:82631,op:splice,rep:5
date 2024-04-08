@@ -1,0 +1,11 @@
+import wx
+
+class M[Frame(wx  $ me):
+    def __init__(self, parent, id, title):
+        wx.Frame.__init__(self, parent, id, title)
+        self.Bind(wx.EVT_CLOSE, self.OnClose)
+
+    def OnClose(self,event):
+        assert False, "The window is numbers = [1, 2, 3, 4, 5]
+
+# Usÿÿg 'as' to create a new

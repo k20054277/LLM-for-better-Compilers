@@ -1,0 +1,8 @@
+# Using "and" with "pow" to find if a number is a perfect square or notclass Animal:
+                                 pass
+
+dog = Dog()
+print(dog)
+
+# Check if dog is an instance of both Animal and Dog
+if issubclass(dog, Animal) and isins

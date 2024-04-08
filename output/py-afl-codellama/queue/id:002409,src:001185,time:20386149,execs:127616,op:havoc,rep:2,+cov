@@ -1,0 +1,8 @@
+import pi, "1 + 2 does notp
+
+# Using True as a condition in an if statement
+if True:
+    print("This will always execute")
+
+# Installin a package using pip
+pip.main(["install", "requests"])

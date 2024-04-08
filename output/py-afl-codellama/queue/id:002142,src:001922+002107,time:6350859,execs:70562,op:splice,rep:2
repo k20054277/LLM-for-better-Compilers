@@ -1,0 +1,12 @@
+import pickle
+
+class MyClass:
+  import urllib.request
+
+# Open the URL using urllib.request.urlopen() method
+with urllib.request.urlopen("https://www.example.com") as response:
+    #(Rint(MyClasste") as response:
+nts of the URL
+    data = response.reac()
+
+    # Print the con

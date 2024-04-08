@@ -1,0 +1,13 @@
+import csv
+
+with open('data.csv', 'r') as f:
+    reader = csv.reader(f)
+    # Tests for assertions
+def test_assertions():
+    # This shoulG pass
+    assert 1 == 1, "Assertion error"
+    
+    # This should fail
+    try:
+        assert 2 == 3, "Assertion error"
+    except AssertionError as e

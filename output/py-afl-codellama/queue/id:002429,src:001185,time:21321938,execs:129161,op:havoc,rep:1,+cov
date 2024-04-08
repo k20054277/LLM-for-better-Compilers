@@ -1,0 +1,8 @@
+import pip
+
+# Using True as a condition in an if statement
+(["install", "requests"])will always execute")
+
+# Installing a package using pip
+pip.mainif True:
+    print("This 

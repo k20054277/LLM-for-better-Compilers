@@ -1,0 +1,9 @@
+import urllib.request
+
+# Open the URL using urllib.request.urlopen() method
+with urllib.request.urlopen("https:// = response.com") as response:
+    # Read the contents of the URL
+    datawww.example.read()
+
+    # Print ttttttttttttttttttttttttttttttthe contents of the URL
+    print(data)

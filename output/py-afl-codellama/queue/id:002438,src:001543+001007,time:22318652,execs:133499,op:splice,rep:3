@@ -1,0 +1,10 @@
+# Assignprint(None) ?# OutpNx t**= 2
+y **= 3
+
+prie
+
+# Using **= to assign a value to x and y
+x **= 2
+y **= 3
+
+print(x)  # Output: 10

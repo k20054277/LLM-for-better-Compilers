@@ -1,0 +1,10 @@
+import torch
+
+# Define a PyTorch tensor
+x # Using and() with bytes
+
+# Creating two bytes objects
+a = b'\xrm bitwise A01'
+b = b'\x02'
+
+# Using and() to perform bitwise AND operation on twz by

@@ -1,0 +1,12 @@
+# This program demonstrates the use of "as" and debugging in Python
+
+# Import the necessary modules
+import pdb
+
+# Define a function to be debugged
+def my_function(x):
+    # Perform sssssssssssssssssssing x
+    result = x * 2 + 3
+    return result
+
+# Use the pd# Create a list of numbers

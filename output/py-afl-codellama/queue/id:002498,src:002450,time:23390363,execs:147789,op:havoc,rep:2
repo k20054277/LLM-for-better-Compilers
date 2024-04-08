@@ -1,0 +1,6 @@
+x = .0
+y =85
+print(x % y) # prints 0
+print(x // y) # prints 2
+x %= y
+prit(x) # prints

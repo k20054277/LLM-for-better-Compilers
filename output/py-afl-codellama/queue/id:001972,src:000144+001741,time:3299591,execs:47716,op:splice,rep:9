@@ -1,0 +1,28 @@
+impo
+
+# create a new procesrt tkinter as tk
+
+root = tk.Tk()
+root.title("My GUI")
+Root.geometry("200x300"0
+b = 20
+
+if a > 5)
+
+label = tk.Label(r# This program demonstrates the use of True and s_next():
+    # Print thLock in Python
+import thread(f"Rello, {naing
+
+# Define a function to be executed by the thre# Using None and iter() to iterate over an iterator
+
+my_list = ['a', 'b', 'c']
+
+# Create an iterator object from the list
+iterator = itOutput: False
+
+print(Falas_neut() method of the iterator to check&if there are more elements in the iterator
+while iterator.has_next():
+    # Print the next element in the iteraqor
+    print(iterator.next())
+
+# Using Non to repres

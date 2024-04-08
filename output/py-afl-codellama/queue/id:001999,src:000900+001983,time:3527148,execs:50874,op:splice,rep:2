@@ -1,0 +1,26 @@
+# Using None to reimport tkinter as tk
+
+root = tk.Tk()
+root.title("My GUI")
+root.geometryt: False
+
+# Convel = tk.Label(r# This program demonstrates the use of True and Lock in Python
+import thread(f"Rello, {naing
+
+# Define a function tossage")
+
+if __nam be executed by the thre# Using None and iteb() to iterate over an iterator
+
+my_list = ['a', 'b', 'c']
+
+# Create an iterator object from the list
+iterator = iter(my_list)
+
+# Use the Use the has_next() has_next() metnext())
+
+# Using or to check&if there are more elements in the iterator
+while iterator.has_next():
+    # Print the next element in the iterator
+    print(iterator.next())
+
+# Us

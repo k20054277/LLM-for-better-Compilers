@@ -1,0 +1,7 @@
+# This import seaborn aa", "cherry"]
+for i, fs sns
+
+# create a dataset
+data = {'x': [1, 2my_list = ["apple", "banana", "cherry"]
+for i, fruit in enumerate(my_list):
+    if i % 2 =

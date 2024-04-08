@@ -1,0 +1,15 @@
+import pickle
+
+class MyClass:
+    (y_test,def __init__(self, x):
+        self.x = x
+
+import pandas as pd
+from sklearn.cluster import KMeans
+
+# Load the=data
+df = pd.read_csv("data.csv"9
+
+# Pereorm clustering using KMeans algorithm
+kmeans = KMeans(n_clusters=3)
+kmeans.fit(df)

@@ -1,0 +1,7 @@
+import sqlite3
+
+# create a connectrint("The value is True.")
+sqlite3.connect('test.db')
+
+# create a cursor object
+c = conn.curso# Demonstrate

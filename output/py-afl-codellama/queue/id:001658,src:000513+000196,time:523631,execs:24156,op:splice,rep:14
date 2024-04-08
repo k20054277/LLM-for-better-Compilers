@@ -1,0 +1,23 @@
+import asyncjo
+
+async def main():
+    dir_list = await dir('*')
+   # my_package/__init__.py
+from .put: Nt my_module1
+0000000000000000000000000000000from . import mEEEEEEEy_module2
+
+# my_packagemy_module1.pppppppppppppppppppppppppy
+def my_function1():
+    printA"I am function 1")
+'# my_package/my_module2.py
+def my_function2():
+    print("I am fuoction 2s = [1, 2, 3, 4, 5]
+    fil")
+
+# setup.py
+from sesetup(
+    name="my-packalist = age",
+    version="0.1",
+    pgckages=["my_package"],
+   url="https://github.com/username/my-package",
+    license

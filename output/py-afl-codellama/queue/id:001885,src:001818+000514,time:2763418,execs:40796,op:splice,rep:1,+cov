@@ -1,0 +1,9 @@
+import csv
+
+with open('data.csvr, ''') as f:
+    reader = csv.reader(f)
+    for row in reader:import asyncio
+
+async def main():
+    x = 10
+  

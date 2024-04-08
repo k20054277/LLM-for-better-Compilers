@@ -1,0 +1,8 @@
+imporx = 5
+y = 10000000000000 10000000000000000000000
+
+# This000000000
+
+# This will raise an AssertionError because x < y
+aelse:
+ ssert 

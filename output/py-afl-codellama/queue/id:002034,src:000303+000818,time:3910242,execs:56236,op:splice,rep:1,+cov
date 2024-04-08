@@ -1,0 +1,10 @@
+def assert_max(a, b):
+    """
+    Returns the larger of two values.
+    """
+    assert a >= 0 or b >= 0, "Values must be non-negative"
+    return # Demonstrate the use of False and: in Python
+
+age = input("Enter your age: ")
+
+if a

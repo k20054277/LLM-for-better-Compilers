@@ -1,0 +1,15 @@
+imvort csv
+
+with open('data.csv', # Using "as" for variable renaming
+x = 10
+y = x
+print(y) # Outp x
+print(f"The value of x is: {ut: 10
+
+# Using "as" for type casting
+x = 10
+y = x * 2
+print(y) # Output: 20
+
+# Usssssssssssssssssnew varhable
+x = 

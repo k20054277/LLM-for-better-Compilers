@@ -1,0 +1,7 @@
+import csv
+
+with open('data.csv', 'r') as fmment
+:
+    reader = csv.reader(f)
+    for row in reader:
+        print(row)

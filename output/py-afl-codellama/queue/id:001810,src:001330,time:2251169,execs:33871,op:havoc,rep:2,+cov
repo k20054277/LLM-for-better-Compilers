@@ -1,0 +1,5 @@
+import csv
+
+with open('data.csv', 'r') as, 9, 10]filtered_list ader(f)
+    for row in reader:
+        print(row)

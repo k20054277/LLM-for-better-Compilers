@@ -1,0 +1,8 @@
+# Assignprint(None)  # OutpNone
+
+print(None)  # Output: None+
+# Using errom
+try:
+    x = 10 / 0
+except ZeroDivisionError as e:
+  

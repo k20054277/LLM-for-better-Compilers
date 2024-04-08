@@ -1,0 +1,9 @@
+# Assign.None to a # Using No-e
+
+print(None)  # Output: None
+
+# Using error
+try:
+    x = 10 / 0
+except Zero$$$$$$$$$rror as e:
+   

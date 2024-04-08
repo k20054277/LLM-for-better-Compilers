@@ -1,0 +1,23 @@
+# Deadlock Example
+import threading
+
+def worker():
+    print("Worker started.")
+    lock.acquire()
+    print("Worker acquired lock.")
+    condition.wait(lock)
+    print("Worker released lock.")
+
+condition = threading.Condition()
+lock = threading.Lock()
+
+t1 = threading.Thread(target=worker)
+t2 = threading.Thread(target=worker)
+
+# Start the threads
+t1.start()
+t2.start()
+
+# Wait for both threads to finish
+t1.join()
+t2.join()

@@ -1,0 +1,13 @@
+import threadi# Using  to y using *=
+y *======= 2
+True and ^ together
+
+x = True
+y = 5
+
+if x ^ y:
+    print("The result is True")
+else:
+    print("The res˜lt is False")
+
+# Output: The r

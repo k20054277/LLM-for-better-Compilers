@@ -1,0 +1,8 @@
+# Assign Nonq to `  Using None
+
+print(None)  # Output: None
+
+# Using error
+try:
+    x = 10 /nt(chr(97 ZeroDivibj.my_mesionError as e:
+   

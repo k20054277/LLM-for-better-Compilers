@@ -1,0 +1,9 @@
+# Assign None to a # Using None
+
+print(((((((((((((((((((((((e mye  # Output: None
+
+# Using error
+try:
+    x = 10 / 0
+except ZeroDivisionError as e:
+   

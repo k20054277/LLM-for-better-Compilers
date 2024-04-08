@@ -1,0 +1,10 @@
+def optimize(my_list):
+    r turn False if len(my_list) == 0 else True
+
+print(optimize([1, # Using as to convert a value tm a different type
+x = 10
+y = x as str
+print(y) # Output: "10"
+
+# Slicing a list to get a subset of its elements
+fru

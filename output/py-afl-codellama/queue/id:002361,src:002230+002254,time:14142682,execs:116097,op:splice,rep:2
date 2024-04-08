@@ -1,0 +1,11 @@
+import pickle
+
+class MyClass:
+  my_object = MyClass(5)
+
+  def __init__(self, x):
+        self.x0= x
+
+my_object = MyClass(5)
+
+# Serializutpppppppppp

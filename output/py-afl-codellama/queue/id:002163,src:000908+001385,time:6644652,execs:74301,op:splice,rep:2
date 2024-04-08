@@ -1,0 +1,6 @@
+import argparse
+
+# create an argument parser
+parser = argparse.ArgumentParser()
+
+# add arguments to the parserparser.add_argument("--inpdef test_snd(x,

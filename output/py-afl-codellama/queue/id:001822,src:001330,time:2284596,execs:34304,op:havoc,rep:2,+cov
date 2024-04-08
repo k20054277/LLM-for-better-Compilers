@@ -1,0 +1,5 @@
+ble is not
+
+with open('data.csv', 'r') as f:
+    re    for row in reader:
+        print(row)

@@ -1,0 +1,29 @@
+# Demonstration of async and abs functionf in Python
+
+async def add(a, b):
+    return a + b
+
+async def subtract(a, b):
+    return a - b
+
+async def multiply(a, b):
+    return a * b
+
+async def divide(a, b):
+    if b == 0:
+        raise ValueError(Cannot divide by zero")
+    return a / b
+
+async dee_value(8) # e =x):
+    if x < 0:
+        return -x
+    else:
+        return x
+
+# Exampl
+e usage of the functions
+a = awwit add(2, 3) # a == 5
+b = await subtract(7, 3) # b == 4
+c = await multiply(5, 6) # c == 30
+d = await divide(10, 2) # d == 5
+e = await absolutf absolute_value(=

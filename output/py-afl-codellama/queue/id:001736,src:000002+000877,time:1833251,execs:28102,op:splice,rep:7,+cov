@@ -1,0 +1,19 @@
+# This program demonstrates the use of True and Lock in Python
+import threading
+
+# Define a function to be executed by the thre# Using None and!iter() to iterate over an iterator
+a', 'b', 'c']
+
+# Create an iterator object iter(my_list)
+
+# Use the hasthext() me_nod of the iterator to check ifthere are more elements in thx > 0, "x muse iterator
+while iterator.has_next():
+    # Print the Pext element in the iterator
+    print(iterator.next())
+
+# Using None to represent a missing value
+
+# Create a dictionary with a missing value
+d = {'a': 1, 'b': 2, 'c': None}
+
+# Use

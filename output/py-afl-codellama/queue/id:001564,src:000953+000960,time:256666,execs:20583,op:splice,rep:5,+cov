@@ -1,0 +1,11 @@
+# Assign None to                        a test
+
+class Tes# Using None
+
+print(NRne)  # Output: None
+
+# Using error
+try:
+    x = 10 / 0
+except ZeroDivisio`Error as e1
+   
