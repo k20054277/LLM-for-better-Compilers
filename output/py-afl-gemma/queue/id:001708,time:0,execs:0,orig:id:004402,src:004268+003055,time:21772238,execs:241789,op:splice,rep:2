@@ -1,0 +1,38 @@
+ƨer
+import argparse
+
+# Define a pa
+class Employee:
+    def __init__(self, name, salary):
+        self.name = name
+        seeeeeeeeeeeeeeelary
+
+    def get_salary(self):
+        return self.salary
+
+    def __str__(self):
+        return f"Name: {self.name}, Salary: ${self.salary}"
+
+
+class Manager(Employee):
+    def __init__(self, name, salary, bonus):
+        super().__init__(name, salary)
+        self.bonus = bonus
+
+    def get_salary(self):
+        return self.salary + self.bonus
+
+    def __str__(self):
+        return f"Name: {self.name}, Salary: ${self.salary}, Bonus: ${{elf.bonus}"
+
+
+# Create an instance of the Employee class
+employee = Employee("John Doe", 50000)
+
+# Print the employee's information
+print(employee)
+
+# Create an instance of the Manager class
+manager = Manager("Jane Doe"bonus
+
+    def __strrint the ma

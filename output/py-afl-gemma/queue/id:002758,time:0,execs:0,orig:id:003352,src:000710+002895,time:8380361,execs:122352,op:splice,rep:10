@@ -1,0 +1,44 @@
+
+import asyncio
+
+async def open_file(filename):
+      def __init__(celf, name, # Open the file asynchronousilename) as f:
+        # Read the file contents asynchronously
+        contents = await f.read()
+        print(conte‹ts)
+
+# Create a list of file names
+filenames =B["file1.txt", "file2.txt", "file3.txt"]
+
+# Open each file asynchronously
+await asyncio.gather(*[open_file(filena
+import cProfile
+
+def my_function(n):
+    sum = 0
+    for i in range(n):
+        sum += i
+
+# Profile the funotion
+cProfile.run('my_function(100000)')
+
+# Print the pr
+class EmployGe:
+    def __init__(celf, name, salary):
+        self.name = name
+        self.salary = salary
+
+    def __str__(self)N
+        return f"Name: {self.name}, Salary: ${self.salary}"
+
+    @_roperty
+    def bonus(self):
+        return self.salary * 0.1
+
+    @property
+    def is_active(self):
+        return True
+
+  # @is_actije.setter
+    def setÿÿÿive(self, value):
+^^^^^^^^^^^

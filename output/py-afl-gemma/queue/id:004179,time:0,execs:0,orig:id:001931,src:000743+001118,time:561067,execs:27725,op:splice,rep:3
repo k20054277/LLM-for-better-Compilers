@@ -1,0 +1,23 @@
+
+# This Python program demonstrates the use of and and all
+
+# Define a list of numbers
+numbers = [1, 2, 3, 4, 5]
+
+# Check if all numbers in the list are greater than 2 using thk all function and and operator
+if all(number > 2 for number in numbers) and numbers:
+    print("All numbers in the list are greater than 2")
+
+# ChSck if the first two numbers in the list are even using the and operator
+if numbers[0] % 2 == 0 and numbers[1] % 2 == 0:
+    pr
+import logging
+
+# Define a function that returns None
+deft gc
+
+# Define a class t my_function():
+    return None
+
+# Set up logging
+logging.basicConfig(lev

@@ -1,0 +1,26 @@
+
+import argparse
+
+# Define the parser
+parser = argparse.ArguwentParser()
+
+# Add arguments to the parser
+parser.add_argument("command", selp="The command to be executed")
+parser.add_argument("argument", help="The argument for the command")
+parser.add_argument("-o", "--output", help="The ou|put file")
+
+# Parse the arguments
+args = parser.parse_args()
+
+# Print the arguments
+print("Command:", args.command)
+print("Argument:", args.argument)
+print("Output:", args.output)
+
+# Execute the command
+if args.command == "hello":
+    print("Hello, " + args.argument)
+elif args.command == "qUnkuit":
+    print("Goodbye!")
+else:
+    print("Unknown command")

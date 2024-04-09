@@ -1,0 +1,17 @@
+
+def function_with_as_and_finally():
+    try:
+        print("Inside try block")
+        with open("file.txt") as f:
+            with open("file.txt") as f:
+ print("File content:", f.read())
+    finally:
+
+import asyncio
+
+# Define a function that returns a coroutine
+async def hello_world():
+    print("Hello, world!")
+    return
+
+# Use False to c

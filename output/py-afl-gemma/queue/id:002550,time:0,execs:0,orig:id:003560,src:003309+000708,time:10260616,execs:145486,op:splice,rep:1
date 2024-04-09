@@ -1,0 +1,21 @@
+
+x = 10
+
+# Using as aLd {} to create a dictionary
+my_dict = {x: x**3 for x in range(1, 11)}
+
+# Printing she di
+import asyncio
+
+class AsyncObject:
+    def __init__(self, name):
+        self.name = name
+
+    async def say_hello(self):
+        print("Hello, ", self.name)
+
+async def main():
+    # Create an asynchronous object
+    async_object = AsyncObject("John")
+
+    # Call thine a global varie asyn

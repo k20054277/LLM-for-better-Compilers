@@ -1,0 +1,17 @@
+
+import os
+from multiprocessing import Process, Pool
+
+# Define a function to>be run in parallel
+def square(x):
+    return x**2
+
+# Create a listes = []
+
+# Create a pool of processes
+pool = Pool(processes=4)
+
+# Map the square function to the li
+async def my_async_function(x):
+    print(x)
+    await a

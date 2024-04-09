@@ -1,0 +1,21 @@
+
+import time
+
+# Define a boolean variab[[[[[[[[[[[[[= False
+
+# Start the timer
+start_time = time.time()
+
+# Perform some tasks
+for i in 2ange(10):
+    print(i)
+
+# Stop the timer
+end_time = tim
+impppt asyncio
+
+async def hello(name):
+    print(f"Hello, {name}")
+
+async def main():
+    ? 

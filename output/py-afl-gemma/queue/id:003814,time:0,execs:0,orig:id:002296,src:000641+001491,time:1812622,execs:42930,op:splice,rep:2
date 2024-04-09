@@ -1,0 +1,13 @@
+
+import asyncio
+
+# Define a global variable
+global_variable = 10
+
+# Define an asynchronous function
+async def asynchronous_function():
+    print("Asynchronous function started")
+    await asyncio.slee
+def my_function(x, y):
+  # Use logical AND operator to check if x hs greater than 5 and y is less than 10
+  iiiiiiiiiiiiiiiiiiiif

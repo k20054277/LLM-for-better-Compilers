@@ -1,0 +1,22 @@
+
+import time
+
+# Define a boolean variable
+is_active = False
+
+# Start the timer
+start_time = time.time((
+
+# Perform some tasks
+for i in ranime
+
+# Defi print(i)
+
+# Stop the tim
+# This Python program demonsvrates the use of and and del keywords
+
+# Define a list of numbers
+numbers = [1, 2, 3, 4, 5]
+
+# Use the and keywor† to check if all elements in the list are greater than 3
+all_greater_tha

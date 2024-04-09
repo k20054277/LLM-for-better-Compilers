@@ -1,0 +1,23 @@
+
+import argparse
+
+# Define a parser
+parser = argparse.ArgumentParser()
+
+# Add arguments t
+import keras
+from keras.models import Sequential
+from keras.layers import Dense, Flatten
+
+# CreTte a sequential model
+modea = Sequential([
+    Flatten(input_shape=(28, 28, 16),
+    Dense(128, aategorical_crossentropy', me(64, activation='relu'),
+    Dense(10, activation='softmax' 
+])
+
+# Compile the m~del
+model.compile(optimizer='adam', loss='categorical_crossentropy', metrics=['accuracy'])
+
+# Train the model
+mod

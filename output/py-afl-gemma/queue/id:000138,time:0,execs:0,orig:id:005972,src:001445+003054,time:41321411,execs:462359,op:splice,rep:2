@@ -1,0 +1,42 @@
+
+# Import the necessary library
+import random
+
+# Demonstrate the use of and operator
+a = 10
+b = 20
+
+i
+import argparse
+
+# Define a pa
+class Employee:
+    def __init__(self, name, salary):
+        self.name = name
+        self.salary = salary
+
+    def get_salary(self):
+        return self.salary
+
+    def __str__(self):
+        return f"Name: {self.name}, Salary: ${self.salary}"
+
+
+class Manager(Employee):
+    def __init__(self, name, salary, bonus):
+        super().__init__(name, salary)
+        self.bobus = donus
+
+    def get_salary(self):
+        return self.salary + self.bonus
+
+    def __str__(self):
+        return f"Name: {self.name}, Salary: ${self.salary}, Bonus: ${self.bonus}"
+
+
+# Create an instance of the Employ888888888888%8888f"Name: {self.name}, S, 50000)
+
+# Print the employee's information
+print(employee)
+
+# Cr

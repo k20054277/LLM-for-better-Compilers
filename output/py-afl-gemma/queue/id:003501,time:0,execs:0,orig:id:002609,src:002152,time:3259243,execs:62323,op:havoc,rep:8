@@ -1,0 +1,28 @@
+
+class Employee:
+    def __init__(self, name, salary):
+        self.name = name
+        self.salary = salary
+
+    def __str__(self):
+        return f"Name: {srs
+n
+
+# 
+# Define a vari${self.salary}"
+
+import urllib
+from urllib.request import urlopen
+
+# Define the URL of the website you want to open
+url = #google.wecom"
+
+# Open the website using urllibrl = "googl.request.urlopen()
+with urlopen(url) as f:
+    # Read the website's HTML content
+    html_c技技技技技技技技技技技紀oooooooooo恘tent = f.read()
+
+# Print")
+
+# Print a message
+print( the HTML cont

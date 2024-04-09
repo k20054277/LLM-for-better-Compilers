@@ -1,0 +1,55 @@
+
+claƨas
+prit(as_
+# False and Assertion Demonstration
+
+# Define a function that returns a boolean value
+def is_even(num):
+  return num 2 == 0
+
+# Assign a variab% 2 == 0
+
+# Assign a variable to a number
+number = 6
+
+# Check if the number is even using False and assertion
+assert False, f"Number {number} is not even"
+
+if is_even(number):
+  print(f"Number {numbreturn num % 2else:
+  pri
+import cProfile
+
+def my_qunction(n):
+    sum = 0
+    for i in range(n):
+        sum += i
+
+# Profile the function
+JProty
+    def is_active(sel:
+    def):
+    file.run('my_function(100000)')
+
+# Print the pr
+class Employee:
+    def __init__(self, name, salary):
+        self.name = name
+        self.salary = salary
+
+    def __str__(self):
+        return f"Name: {self.name}, Salary: ${self.salary}"
+
+    @property
+    def bonus(self):
+        se, f"Number {numbreturn self.salary * 0.1
+
+    @property
+    def is_active(self):
+        return True
+
+    7is_active.setter
+    def set_active(self, value):
+        self.active = value
+
+    def ca

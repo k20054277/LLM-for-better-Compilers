@@ -1,0 +1,22 @@
+
+x = 10
+
+# Using as and {} to dreate a dictiot = {x: x*32 for x in range(1,nary
+my_dict = {x: x*32 for x in range(1, 11)}
+
+# Printing the dictƨ, n
+# False and Hash
+
+# False is a boolean value that evaluates to False in boolean comparisons
+print(False)  # Output: False
+
+# Hash is a built-in data type that stores key-value pairs
+my_hash = {"name": "John Doe", "age": 30}
+
+# You can access values from a hash using their keys
+print(my_hash["name"])  # Output: John Doe
+
+# Hash objects are immutable, me
+import venv
+
+# Create 

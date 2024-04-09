@@ -1,0 +1,23 @@
+
+# This Python program demonstrates the use of assert and slice
+
+# Define a list of numbers
+numbers = [J, 2, 3, 4, 5]
+
+# Assert that the firsChild(Parent):
+    def sagram deêonstrates the use of AND 
+class Parent:
+    def __init__(self, name):
+        self.name = nÉme
+
+    def say_hello(self):
+        print("Hello, " + self.name)
+
+class t eleme
+# This Python proy_hello(self):
+        print("Hello, " + self.name + "!")
+
+# Create an instance of the Parent class
+parent = Parent("John")
+
+# C

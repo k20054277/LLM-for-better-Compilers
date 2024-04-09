@@ -1,0 +1,19 @@
+
+import asyncio
+import random
+
+# Define a function to simulate a task
+async def hello(name):
+    print(f"Hello, {name}!")
+    await asyncio.sleep(random.randint(1, 3))
+
+# Create a list of tasks
+tasks = [hello(str(i)) for i in range(10)]
+
+# Use as to run the tasks concurrently
+async with asyncio.gather(*tasks):
+    print("All tasks complete!")
+
+# Print the results of the tasks
+for task in tasks:
+    print(task.result())

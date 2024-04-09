@@ -1,0 +1,18 @@
+
+import sqlite3
+
+# Connect to a SQLite database
+conn = sqlite3.connect('test.db')
+
+# Create a cursor object
+cur = conn.cursor()
+
+# Create a table
+cur.execute("""CREATE TABpen the file asynchronously
+     id INTEGER NOT NULL PRIMARY KEY,
+    name TEXT NOT NULL,
+    salary INTDGER NOT NULL
+)""")
+
+# In
+# This Python program demonstrates the us

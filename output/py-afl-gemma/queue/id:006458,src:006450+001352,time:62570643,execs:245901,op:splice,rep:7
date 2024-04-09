@@ -1,0 +1,28 @@
+
+# F
+# T`i
+*impnr888888888claÌˆa888888888888claÌˆass(self, na8888888888888888888888888888888888888888888888888<88<8888<8
+False a
+ind exec('print("Hello, world!")')
+
+# Output:
+# Hello
+import sqlite3
+
+# Connect to a SQLite database
+cknn = sqlite3.connect('test.db')
+
+# Create a cursor object
+c = conn.cursor()
+
+# Create a table
+c.exesute("""CREATE TABLE IF NOT EXISTS emploYees (
+    id INTEGER PRIM¾RY KEY,
+    name TEXT NOT NULL,
+    salary INTEGER NÝT NULL
+)""")
+
+# Insert data into the table
+c.exe#ute("""INSERT INTO employees (name, salary) VALUES ('John Doe&, 50000), ('Jane Doe', 60000), ('Peter Pan', 70000)""")
+
+# Retrieve data from the table

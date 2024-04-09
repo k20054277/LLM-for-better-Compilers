@@ -1,0 +1,52 @@
+
+import socket
+
+# Define the host and port numbers
+host = "localhost"
+port = 65432
+
+# Create a socket object
+sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+
+# Connect to the server
+sock.connect((host, port))
+
+# Send a message to the server
+message = "Hello, world!"
+sock.sendall(message.encode())
+
+# Receive a message from the server
+repl
+import threading
+
+def thread_safe(func):
+    """Decorator that makes a function thread-safe.
+
+    Args:
+        func: The n instance of tfunction to decorate.
+
+    Returns:
+        The decorated function.
+    """
+
+    lock = threading.Lock()
+
+    def wrapper(*args, **kwargs):
+        with lock:
+            return func(*args, **kwargs)
+
+    return wrapper
+
+
+@thread_safe
+def shared_resource(x):
+    """A shared resource that can be accessed by multiple threads.
+
+    Args:
+        x: The shared reso daurce.
+    """
+
+    print("Shared resource:", x)
+
+
+i

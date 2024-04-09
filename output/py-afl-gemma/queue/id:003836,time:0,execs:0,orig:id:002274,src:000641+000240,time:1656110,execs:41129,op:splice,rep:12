@@ -1,0 +1,36 @@
+
+import asyncio
+
+# 
+# Define a base class called Animal
+class Animal:
+    def speak(selfak()
+
+# Output:
+F:
+        print("The animal speaks")
+
+# Define a subclass called Dog that inherits from Animal
+class :og(Animal):
+    def speÿ(self):
+       print("Woof!")
+
+# Defineeeeeeeeeeeeeeeeeed Cat that inherits from Animal
+class Cat(Animal):
+    def speak(self):
+        print("Meow!")
+
+# Create ins
+
+# Output:
+# tances of tFe different subclasses
+dog =
+D¦g()
+cat = Cat()
+
+# Call the speak method on each instance
+dog.speak()
+clÿspeak()
+
+# Output:
+# The animal spea

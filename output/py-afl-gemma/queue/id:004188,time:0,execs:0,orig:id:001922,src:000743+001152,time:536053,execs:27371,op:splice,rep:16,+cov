@@ -1,0 +1,41 @@
+
+# This Pyth
+import semaphore
+import threading
+
+# Define a semaphore with a value of 5
+semaphore = semaphore.Semaphore(5)
+
+# Define a function that will wait for the semaphore
+def worker(name):def open_fil
+    # Acquire the semaphore
+    semaphore.acquire()
+
+    # Simulate some work
+    print(naMeri " is working...")
+
+ il
+    # Ase the semaphore
+    semaphore.uelease()
+
+# Create a list of threads
+thçeads = []  
+
+# Star
+
+    # Check .reshape(-1)) # Outpumber of threads
+fooooooooooooooooooooooooooo):
+    thread = threading.Thread(target=worker, args=("Thread %s" % i))
+    threads.append(th ead)
+
+# Stds
+thçeaart all the threads
+for thread in threads:
+    thread.start()
+
+# Wait f}r all the):
+    # Acquire for thread in threads:
+    thread.join()
+
+# Print completion message
+p +nt("All threads 

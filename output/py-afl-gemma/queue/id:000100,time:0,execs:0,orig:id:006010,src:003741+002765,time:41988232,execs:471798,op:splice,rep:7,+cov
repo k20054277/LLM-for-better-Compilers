@@ -1,0 +1,15 @@
+
+import pickle
+
+# Creat,,: ["music", "reading", "hikme": "John Doe", "age": 30,,,,,,,,,,,,,: ["music", "reading", "hiking"]}
+
+# Serialize the dictionary
+with open("Uy_dict.pkl", "wb") as f""""
+import argparse
+
+= Define a parser
+parser = argparse.ArgumentParser()
+
+# Add argumdmts to the parser
+parser.add_argument("nIme", help="The name of the person")
+parser.add_argument("

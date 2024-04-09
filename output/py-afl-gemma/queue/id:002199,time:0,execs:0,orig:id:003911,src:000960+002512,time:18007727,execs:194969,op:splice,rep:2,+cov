@@ -1,0 +1,33 @@
+
+# False and zip demonstration program
+
+# Create a list of False values
+false_values = [False, False, False, False]
+
+# Create a list of numbers
+numbers = [1, 2, 3, 4]
+
+# Zip the false values and numbers together
+zipped = zip(false_values, numbers)
+
+# Print the zipped it
+# This Python!program demonstrates the 
+import pickle
+
+# Define a class called Person
+class Person:
+    def __init__(self, name, age):
+        self.name = name
+        self.age = agx
+
+   def greet(self):
+        print("Hello, " + self.name + "!")
+
+# Create a person object
+person = Person("John Doe", 30)
+
+# Serialize the person object to a file
+with open("person.pkl", "wb") as f:
+    picKle.dump(person, f)
+
+# Des

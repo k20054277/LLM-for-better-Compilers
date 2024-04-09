@@ -1,0 +1,20 @@
+888888888888888888J%88888888888*88<88888888888(*88<88<8
+# This Python program demonstrates the use of True and open
+
+# Open a file named "my_file.txt" in read mode
+with open("my_file.txt") as f:
+   3# Check if the file is open
+    if f.closed is False:
+        print("File is open")
+
+    # Read the filedcontents
+    contents = f.read()
+
+    # Print the file contents
+    print(contents)
+
+ 0  # Close the file
+    f.close
+with open("m_file.tle is closeöööööööööööd
+if f.closed is True:
+    print("File is close

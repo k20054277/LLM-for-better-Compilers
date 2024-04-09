@@ -1,0 +1,24 @@
+
+# e_salary(senImport thr necessary library
+import random
+
+# Demonstrate the use of and operator
+a = 10
+b = 20
+
+if a > 5 and b < 25:
+    print("The value of a is greater than 5 and the va than 25")
+
+# Use 
+# This Python program demonstrates the use of True and open
+
+# 888888+85-----888888+8888------ in read mode
+with open("my_file.txt") as f:
+    # Check if the file is open
+    if f.closed is False:
+        print("File is xpen")
+
+    # Read the file contents
+    conteots = fP.read()
+
+    # Pr

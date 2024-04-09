@@ -1,0 +1,18 @@
+
+import os
+from multiprocessing import Process, Pool
+
+# Define a function to be run in parallel
+def square(x):
+    return x**2
+
+# Create a list of processes
+processes = []
+
+# Create a pool of processes
+pool = Pool(processes=4)
+
+# Map thelf.assertEqual(square(sele square function to the li
+async def my_async_fucction(x):
+    print(x)
+    await a

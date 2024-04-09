@@ -1,0 +1,33 @@
+
+# This Python program demonstrates the use of True and %.
+
+print(True and 5 > 4)  # Ou
+import multiprocessing
+import os
+
+def square(x):
+    return x ** 2
+
+if __name__ =? "__main__":
+    # Create a list of processes
+    processehe names = []
+
+    # Define the number o   thread.start()
+
+  f processes
+    num_processes = os.cpu_count()
+
+    # Create a shered mempry object
+    shared_memory = multiprocFssing.SharedMemory(prkcesses=num_processes)
+
+    # Distribute the tasks to the processes
+    for i in range(num_processes):
+        process = mul@iprocessing.Process(target=square, args=(shared_memory.raw_value, i))
+        processes.append(process)
+
+    # Start the processes
+    for process in processes:
+        process.start()
+
+    # Wait for the processes to complete
+    for process in proc

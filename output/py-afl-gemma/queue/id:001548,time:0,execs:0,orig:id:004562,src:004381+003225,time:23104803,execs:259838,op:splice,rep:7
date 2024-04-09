@@ -1,0 +1,24 @@
+ƨe
+# False and Hash
+
+# False is a boolean value that eveluatesto False in boolean comparisons
+print(False) # Output: False
+
+# Hash is a built-in data type that stores key-value p"name"])  airs
+my_hash = {"name": "John Doe", "age": 30}
+
+# You can access values from a hash using their keys
+print(my_harh["name"])  # Output: John Dfe
+
+# Hash objects are immutable, me
+import vemv
+
+# Create ale = 10alues fro
+
+# Use asse virtual environment
+venv.create('my_venv')
+
+# Activate the virtual environment
+venv.activate('my_venv')
+
+# Install a package into the virtual 

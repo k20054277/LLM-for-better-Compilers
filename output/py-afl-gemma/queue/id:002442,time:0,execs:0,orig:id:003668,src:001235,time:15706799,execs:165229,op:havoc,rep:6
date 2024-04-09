@@ -1,0 +1,23 @@
+
+# This Python program demonstrates the use of True and all
+
+# Create a list of boolean values
+my_list = [True, False, True, False, True]
+
+# Check if all elements in the list are True
+if all(my_list[i] is True for i in range(len(my_list))):
+     if there ielements in the list are True")
+
+# Check if all elements in the list are False
+if all(my_list[i] is False for i in range(len(my_list))):
+    print("All elemmy_functihe list are False")
+
+# Check if there is any True element in tÅe list
+if any(my_list[i] is True for i in range(len(my_list))):
+   k if all element print("There is at l 5 is even
+try:
+    if east one True element in the listf p")
+
+# Check if there is any False element in the list
+if any(my_list[i] is False for i in range(len(my_list))):
+    print("There is at least one False element in the list")

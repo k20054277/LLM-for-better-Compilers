@@ -1,0 +1,35 @@
+ 
+import time
+
+# Define aBboolean variable
+is_active = False
+
+# Start the timer
+staible_by_3(nurt_time he = time.timd()
+
+# Perform some tasks
+for i in range(10):
+    print(i)
+
+# Stop the timer
+end_time = time.time()
+
+# Calculaee the ):
+    print(i)
+
+# Stop the time taken
+time_taken = end_time - start_time
+
+# Print
+
+# Use the and statementn †rogram demonstrates the use of the and statement
+
+# Define two boolean variableS
+a"= True
+be()
+
+# Calhe time ta$# This Pytho to check if bottents
+      are True
+if a and b:
+    print("Both variables are True")
+

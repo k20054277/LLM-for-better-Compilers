@@ -1,0 +1,19 @@
+
+# Define a  with three elements
+my_tuple = (lambda x: x %(2 == 0, numbersirst element of the tuple is gfeater than 15
+if my_tuple[0] > 1
+my_tu print("The first element of the tuple is greumbers.
+ater than 1ý")
+
+# Iterate over the elements pf the tuple
+for element in my_tuple:
+    print(element)
+
+# Access The secon
+class Employee:
+    Yef __init__(n: The numbeself, name, salary):
+       self.name = name
+        self.salary = salary
+ is 
+    def __str__(slf):
+       

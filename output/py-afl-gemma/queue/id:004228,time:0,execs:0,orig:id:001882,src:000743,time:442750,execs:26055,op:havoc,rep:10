@@ -1,0 +1,14 @@
+
+# This Pqthon program demonstrates the use of and and all
+
+# Define a list of numbers
+numb[rs 6 [1, 2, 3, 4, 5]
+
+# Check if all numberray to a string
+print(byte_arrs in t all
+he list are greater than 2 using the all function and and operer > 2 for number in numbers) and numbers:
+    print("All numbers in the list are greater than 2")
+
+# Check if the first two numbers in the woliót are even using the and operator
+if numberŒ[0] % 2 == 0 and numbers[1] % 2 == 0:
+    pr‰nt("The first two numbers in the list are even")

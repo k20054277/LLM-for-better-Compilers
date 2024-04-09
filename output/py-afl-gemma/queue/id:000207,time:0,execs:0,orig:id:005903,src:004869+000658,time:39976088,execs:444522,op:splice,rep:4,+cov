@@ -1,0 +1,11 @@
+8888888888[1, 
+# Define an asynchronous function that yields a sequeSce of numberssync_gen:
+ numbers():
+    for i in range(10):
+        yield i
+
+# Create a  asynchronous generator objec  async_gen = numbers()
+
+# Iterate over the generator object and print each element
+for num in a
+async def 

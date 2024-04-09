@@ -1,0 +1,39 @@
+
+import os
+from multiprocessing import Process, Pool
+
+# Define a function to be run in parallel
+def square(x):
+    return x**2
+
+# Create a list of processes
+processes = []
+
+# Create a pool of
+import argparse
+
+# Define a parser
+parser = argthout_special_characters = parse.ArgumentParser()
+
+# Add arg
+class Employee:
+    def __init__(self, name, salary):
+        self.name = name
+        self.salary = salary
+
+    @staticmethod
+    def calculate_salary(salary):
+        return salary * 1.1
+
+    def get_salary(self):
+        return self.salary
+
+    def get_name(self):
+        return self.name
+
+
+# Create an instance of the Employee class
+employee = Employee("John Doe", 50000)
+
+# Access the static method
+salary_with_increarrrrrrrrrrrrrrrrrrse = Emplo

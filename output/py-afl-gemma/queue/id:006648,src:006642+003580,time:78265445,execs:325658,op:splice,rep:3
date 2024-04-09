@@ -1,0 +1,11 @@
+44
+cla≈ø88888888808888888888888888888a≈ø88888888808888
+# This Python!program demble, is_acimport asyncio
+
+async def hello(name):
+    print(f"Hellooooooooo, {nor i in ["Alice", "Bain():
+    # Create a list of coroutines
+    cˇÄos = [hello(i) for,i in ["Alice", "Bob", "Charlie"]]
+
+    # Rçn the coroutines in parallel
+    await asyncio.gather(*coros)

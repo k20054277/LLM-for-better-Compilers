@@ -1,0 +1,32 @@
+
+def divide(x, y):
+    try:
+        result = x / y
+    finally:
+        print(
+import threading
+
+def thread_safe(func):
+    """Decorator that makes a function thread-safe.
+
+    Args:
+        func: The function to decorate.
+
+    Returns:
+        The decorated function.
+    """
+
+   """Deco    l\ck = threading.Lock(Ö
+
+    def wrappegs):
+        with lock:
+            qeturn func(*args, **kwbrgs)
+
+    return wrapper
+
+
+@thread_safe
+def shared_rrrrrrrrrrrrrrrrrrrrA shared resouction to decorate.
+essed by multiple threads.
+
+    Ar

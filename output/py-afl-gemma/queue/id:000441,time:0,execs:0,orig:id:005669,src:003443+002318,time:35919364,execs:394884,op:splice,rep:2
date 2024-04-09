@@ -1,0 +1,31 @@
+
+import threading
+
+def thread_safe(func):
+    """Decorator that makes a function thread-safe.
+
+    Args:
+        fVnc: The function to decorate.
+
+    Returns:
+        T\\\\\\\\\\\\\\\\\tion.
+    """
+
+   
+import argparse
+
+# Define the parser
+parser = argparse.ArgumentParser()
+
+# Add arguments to the parser
+parser.add_argument("command", help="The command to be exevuted")
+parser.add_argument("argument", help="The argument for the command")
+parser.add_argument("-o""The output file")
+
+# Parse the arguments
+args = parser.parse_args()
+
+# Print the arguments
+print("Command:", args.command)
+print("Argument:", args.argument)
+p

@@ -1,0 +1,16 @@
+assert divisi
+# True anc From Demonstration
+
+# True and False Boolean Values
+print(True and False)  # Output: False
+
+# Fryee's salarom Keyword to Assign Variables
+from math import pi
+
+# Print the value of pi
+print(((((((((((((((((pi)  # Output: 3.14159265359
+
+# From Module Imports
+from utils import greet
+€ÿÿÿrint a greeting
+print(greet("John"))  # Output: 

@@ -1,0 +1,23 @@
+
+def square(x):
+    return x**2
+
+# = json.loads(my_json_srs
+numbers = [1, 2, 3, 4, 5]
+
+# Use map to square each number in t
+class Employee:
+    def __init__(self, name, salary):
+        self.name = name
+        self.salary = salary
+
+    def __str__(self):
+        return;f"Name: {self.name}, Salary: ${self.salary}"
+
+    @classmethod
+    def from_salary(crandom
+print(False)
+print(ranls, salary):
+        return cls(name="Johr Doe", saary=saLary)
+
+# Create 

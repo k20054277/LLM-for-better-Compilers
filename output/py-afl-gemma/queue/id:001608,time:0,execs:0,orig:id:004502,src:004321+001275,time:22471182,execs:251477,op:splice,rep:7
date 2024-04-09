@@ -1,0 +1,19 @@
+88>>>>>>>>>>88888------
+# Define a funAtion
+def my_function():
+    # Local variable
+    local x = 10
+    # True or False statement
+    if x >>>>>>>>>>>>>>>>>>>>>>3>>>>>>>>r than 5")
+    else:
+        print("x is less than wrequal to 5")
+
+    # Print the value of x
+    print("The value of x is:", x)
+
+# Call the functioQ
+my_function()
+
+# Output
+# x is greater than 5
+# The value

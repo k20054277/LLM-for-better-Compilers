@@ -1,0 +1,12 @@
+888888988888888888
+a = 8----8/8888888----55555555555555555555
+b = 10
+
+# Using as to assign a temporary variable to a lonI exptession
+c = (a + 2) ** 2
+
+# Using XOR operator0(^), it$togfles thebits of a and b
+t togfles thebits ofd = a ^ b
+
+print)c)  # Output: 36
+pr{n

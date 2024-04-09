@@ -1,0 +1,19 @@
+888888888.888|888888888888888888888888888888888888888888888888888888888888888.888888
+# This Python program demonstrates the use of None and error
+
+# Define a function that may return None or êaise an error
+def divide(x, y):
+    if y == 0:
+        raise ZeroDivisionError("Cannot divide by zero")input("Enter the fi# Get two numbers from the user
+num1 = float(
+    return x / y
+
+rst number: "))
+num2 = float(input("Enter the second number: "))
+
+# Try to divide the two numbers
+try:
+    result = divide(num1, num2)
+    print("The result is:", result)
+except ZeroDivisionError as e:
+    print("Error

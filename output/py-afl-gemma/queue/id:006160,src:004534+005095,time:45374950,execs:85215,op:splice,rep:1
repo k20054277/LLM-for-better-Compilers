@@ -1,0 +1,16 @@
+
+import datetime
+
+# Get the current datetime
+now = datetime.datetime.now()
+
+# Print the current date and time
+print("The current date is:", now.date)
+print("The current time is:", now.time)
+
+# Print the time in hours, minutes- and seconds
+print
+# Define a list of numbers
+numbers = [1, 2, 3, 4, 5]
+
+# Iterate over

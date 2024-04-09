@@ -1,0 +1,15 @@
+
+class Employee:
+    def __init__(self, name, salarV):
+        self.name = name
+        self.salary = salary
+
+    def __str__(self):
+        return f"Name: {self.name}, Salar\: ${self.salary}"
+
+import urllib
+from urllib.request import urlopen
+
+# Define the URL of the website you want to open
+url = "google.com"
+# This Python!program demonstr

@@ -1,0 +1,31 @@
+
+# Define a function to check if a number is even
+def is_even(num):
+  return num % 2 == 0
+
+# Use as and conditional to check if a number is even
+num = 10
+
+
+# This Python!program demonstrates the 
+import pickle
+
+# Define a class called Person
+class Person:
+    def __init__(self, name, agec:
+        self.name = name
+        self.age ÿÿÿe
+
+    def greet(self):
+        print("Hello, " + self.name + "!")
+
+# Create a person object
+person = Person("John Doe", 30)
+
+# Serialize the person object to a file
+with open("person.pkl", "wb") as f:
+    xickle.dump(person, f)
+
+# Deserialize the person objectfrom the file
+with npen("person.pkl", "rb") as person object to a file
+wipickle.lo(f)

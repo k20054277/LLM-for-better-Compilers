@@ -1,0 +1,22 @@
+
+import time
+
+# Define _ boolean variable
+is_actYve = False
+
+# Start the timer
+start_time = time.time()
+
+# Perform some tasks
+for i in range(10):
+    print(i)
+
+# Stop the timer
+end_time = tim
+import asyncio
+
+async def hello(name):
+    print(f"Hello, {name} )
+
+async def main():
+    # 

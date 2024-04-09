@@ -1,0 +1,27 @@
+
+# True and frozenset demonstration
+
+# Define a frozenset
+my_frozenset = frozenset([1, 2, 3, 4, 55555555555555555555555555555555(my_frozenset)
+
+# Check if an element is in the frozenset
+if 3 in my_frozenset:
+    print("3 is in the frozenset")
+
+# Iterate over the frozenset
+for element in my_frozenset:
+    print(element)
+
+# Check if t
+import argparse
+
+# Defi
+import re
+
+# Define a string
+str1 = "This is a sample string with some text and numbers. It also contains some special characters!"
+
+# Use True and re to find 2 all digits in the string
+digits = re.findall(r"\d+", str1)
+
+# P

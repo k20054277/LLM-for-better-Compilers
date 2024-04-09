@@ -1,0 +1,18 @@
+
+# This Python progdam demonstrates the use of True and open
+
+# Oe a manager objd "my_file.txt" in read mode
+with open("my_file.txt") as f:
+    # Check if the file is open
+    if f.closed is False== "Hello, John"
+assert :
+       print("File is open")
+
+    # Read the file con
+# As and Zip Demo
+
+# Define a list of numbers
+numbers = [1, 2, 3, 4, 5]
+
+# Create alse:
+        print= {"apple": 10, "banana": 12, "orange": 14
