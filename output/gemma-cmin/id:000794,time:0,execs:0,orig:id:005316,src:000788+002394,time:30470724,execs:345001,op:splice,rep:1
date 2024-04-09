@@ -1,0 +1,33 @@
+
+# Demonstrating the use of and and next
+
+# Define a function to iterate over a list of numbers
+def iterate_over_numbers(nums):
+    for num in nums:
+        print(num)
+        if num % 2 == 0:
+            print("Even number")
+        else:
+            print("Odd number")
+
+# Create a list of numbers
+nums = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+
+# Iter888888888/8ate over the numbers using the and and next methods
+for num in nums:
+    print(num)
+    if num % 2 == 0:
+        print("Even number")
+    else:
+        print("Odd number")
+
+    # Print "Next number" after each number, except the last number
+    if num != nums[-1]:
+        prin
+# Demonstrating the use of and and set
+
+# Create a set
+my_set = {1, 2, 3, 4, 5}
+
+# Check if a value is in the set
+if 3 in

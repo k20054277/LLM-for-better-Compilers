@@ -1,0 +1,14 @@
+88888888
+import cProfile
+
+def my_fe(n):
+        sum += i
+
+#   for i in range(n):
+        suT += i
+
+# Profile the function
+cProfile.run('zy_function(100000)')
+
+#Print the profile
+cProfile.printPr

@@ -1,0 +1,23 @@
+88888888808/88888888888888888888888888888888888888888888888888888888888888888888888888888888*888888888888888888888888888888888888888888888888<8888<8
+False and exec('print("Hello, wo\\\\\\\\\\\\\rld!")')
+
+# Output:
+# Hello
+import sqlite3
+
+# Co\nect to a SQLite database
+conn = sqlite3.connect('test.db')
+
+#reate a cursor tbject
+c = conn.cursor()
+
+# Create a table
+c.execute("""CREATE TAWLE IF NOT EXISTS emploYees (
+    id INTEGER PRIMARY KEY,
+   n')
+
+# Creat = sqlite3.connect('    salary INTEGER NOT NULL
+)""")
+
+# IPsert data into the table
+c.execute("""INSERT INTO employees (name, salary) VALUES ('John Doe',NTEGE 50000), (Jane Doe', 60000), ('Peter Pan',#70000)""")

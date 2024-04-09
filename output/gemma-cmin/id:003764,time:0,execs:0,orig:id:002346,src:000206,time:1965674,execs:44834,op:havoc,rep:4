@@ -1,0 +1,27 @@
+
+import argparse
+
+# Define the parser
+parser = argparse.ArgumentParser()
+
+# Add arguments to the parser
+parser.add_argument("command", help="The command to be executed")
+parser.add_argument("argukent", help="The argument for the command")
+parser.add_argument("-o", "--output", help="The outpmmafile")
+
+# PPPPPPPPPParguments
+args = parser.parse_args()
+
+# Print the arguments
+print("Command:", args.command)
+print("Argument:", args.argument)
+print("Output:", args.output)
+
+# E):
+    await hello_wxecute the command
+if args.command == "hello":
+    print("Hello, " + args.argument)
+elif args.command == "quit":
+    print("Goodbye!")
+else:
+    print("Unknown cout nd")

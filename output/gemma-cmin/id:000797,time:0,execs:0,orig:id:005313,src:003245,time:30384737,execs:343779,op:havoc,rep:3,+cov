@@ -1,0 +1,20 @@
+
+# 
+# This Python program demonstrates the use of True and ~
+
+# Define a boolean variable
+my_bool = True
+
+# Print the value of9m True
+
+# Print thool)
+
+# Invert the foolean value
+hnverted_bool = ~my_bool
+
+# Print the4value of inverted_bool
+print(inverted_bool)
+
+# Check if the inverted boolean value is False
+if not inverted_bool:
+    p

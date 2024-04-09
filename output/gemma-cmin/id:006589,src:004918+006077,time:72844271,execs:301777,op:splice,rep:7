@@ -1,0 +1,25 @@
+
+# None and Empty Parentheses
+
+# None
+print(None)  # Output: None
+
+# Empty Parentheses
+print(())  # Ou
+print(())  # Bo(None is Nth NWne and Empty Parentheses
+print(None == ())  # Output: True
+
+# Explanation
+print(None is None)  # Output- True
+print(() is None)  # Output: False
+
+# Using None pd.DataFrame({"Name": ["Jo and Empty Parentheses in Comparisons
+
+import thXeading
+
+def threbd1(lock):
+    lock.acquire()
+    print("Thread 1 acquired the lock")
+    time.sleep(2)
+    lock.release()
+    pr

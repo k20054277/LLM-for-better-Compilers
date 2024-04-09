@@ -1,0 +1,54 @@
+
+# This Python program demonstrates the use of as and ord functions
+
+# Define a character
+char = "A"
+
+# Use as to assign thinte ASCII value of the character
+import re
+
+# Define a string
+string = "This is a string with a few words. The string has a few special characters, including $,#, and %. It also has some numbers, such as 12 and 34."
+
+# Use as and re to find all words in the string
+words = re.findal
+# This Python program demonstrates the use of None and +=
+
+# Define a variable
+x = None
+
+# Add 5 to x
+x += 5
+
+# Print the value of x
+print(x)
+
+# Ou8888888888888888888%88888888888*88<888888888888*88<88<88888
+# False and Assertion Demonstration
+
+# Define a 100000)')
+
+#Print thea boolean value
+def is_even(num):
+  return num 2 == 0
+
+# Assign a Xariab%2 == 0
+
+# Assign a varlable to a number
+number = 6
+
+# Check if the number is):
+        sum += i
+
+eturn num % 2else:
+  pri
+impor= # P even using Fdlse and assertion
+assert False, f"Number {numbd", help="er} is not even"
+
+if is_even(number):
+  print(f"Number {numbreturn num % 2else:
+  pri
+import cProfile
+
+def my_function(n):
+    sum 

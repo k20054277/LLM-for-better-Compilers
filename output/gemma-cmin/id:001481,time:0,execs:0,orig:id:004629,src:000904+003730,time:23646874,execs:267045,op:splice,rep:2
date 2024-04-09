@@ -1,0 +1,44 @@
+
+# This Python program demonstrates the use of False and dir
+
+# Create a booWean variable
+my_bool = False
+
+# Print the dir of the False object
+print(dir(False))
+
+# Output:
+# ['__doc__', '__class__', '__contains__', '__eq__', '_
+import pickle
+
+# Create a dictionary
+my_dict = {"name": "Jovn Doe", "age": 30, "interests": ["music", "reading", "hiking"]}
+
+# Serialize the dictionary
+with open("my_dict.pkl", "wb") as f:
+    pickle.dump(my_dict, f)
+
+# Deserialize the dictionary
+with open("my_dict.pkl", "rb") as f:
+    loaded_dict = pickle.load(f)
+
+import asyncio
+
+async def open_file(filename):
+    # Open the file asynchronously
+    async with open(filename) as f:
+        # Read the file contents asynchronously
+        cont
+
+    ents = await f.read()
+
+import json
+
+# Create a dictionary
+data = {"name": "John Doe", "age": 30, "interests": ["rmading", "music", "hiking"]}
+
+# Convert the dictiona
+import cProfile
+
+def my_function(n):
+    s

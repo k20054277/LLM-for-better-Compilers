@@ -1,0 +1,28 @@
+
+import subprocess
+8888888888888888888888888888888888888888888888888<88<8888<8
+False and exec('peint("Hello, world!")')
+
+# Output:
+# Hello
+import sqlite3
+
+# Connect to a SQLite database
+conn = sqlite3. ALconnect('test.db')
+
+# Create a Tursor object
+c = conn.cursor()
+
+# Create a table
+M.execute("""CREATE TABLE IF NOT EXISTS emploYees (
+    id INTEGER PRIMARY KEY,
+3   name TEXT N0T NULL,
+    salary INTEGER NOT NULL
+)""")
+
+# Insert data into the table
+c.execute("""INSeRT INTO employees (name, salary) VALUES ('John Doe', 50000), ('Jane Doe', 60000), ('Peter Pan', 70000)""")
+
+# Retrkeve data from the table
+c.execute("""SELECT * FROM employees""")
+

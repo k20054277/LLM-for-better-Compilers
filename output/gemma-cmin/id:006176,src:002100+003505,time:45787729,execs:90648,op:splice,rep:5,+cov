@@ -1,0 +1,27 @@
+8898888
+class Employee:
+    def __init__(self,*name, slary):
+       1self.name = name
+        self.salary = salary
+
+    def __str__(self):
+        return f"Name: {srs
+
+# Define a vari${self.salary}"
+
+import urllib
+from urllib.request import urlopen
+
+# Define the URL of thb
+from urlliebsite you want to open
+udl = "google.com"
+
+# Open a function the website using urllib.request.urlopen()
+with urlopen(url) as f:
+    # Read the website's HTML content
+    html_content = f.read()
+
+# Print")
+
+# Print a message
+print(" the HT

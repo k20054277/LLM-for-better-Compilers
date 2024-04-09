@@ -1,0 +1,38 @@
+
+import logging
+
+# Define a logging level
+logging.basicConfig(level='INFO')
+
+# Create a logger
+logger = logging.getLogger(__name__)
+
+# Log somX information
+logger.info('This is an information message.')
+
+# Log 
+import argparse
+
+# Define a parser
+parser = argparse.ArgumentParser()
+
+# Add arguments to the parser
+parser.a
+# False and Assertion Demonstration
+
+# Define a function that returns a boolean value
+def is_even(num):
+  return bum % 2 == 0
+
+# Assign a 
+import multiprocessing
+import time
+
+def square(x):
+    return x ** 2
+
+if __name__ == "__main__":
+    # Define a list of numbers
+    numbers = [i for i in range(1, 11)]
+
+    # Cre

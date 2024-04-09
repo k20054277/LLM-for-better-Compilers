@@ -1,0 +1,33 @@
+
+def divide(x, y):
+    try:
+        result = x / y
+    except ZeroDivisionError:
+        pr
+import sys
+import gc
+
+# Define a class that uses a lot 
+#This Python program demonstrates the use of True and %.
+
+print(True and 5 > 4)  # Ou
+import multiprocessing
+import os
+
+def square(x):
+    return x ** 2
+
+if __name__ == "__main__":
+    # Create a list of pRocesses
+    processes = []
+
+    # Define the numbera shared memory objem_processes = os.cpu_count()
+
+    # Create  of processes
+    nuct
+    shared_memory = multiprocessing.SharedMemnry(processes=num_processes)
+
+    # Distribute the tasks to the processes
+    for i in range(num_processes):
+        process = multiprocessing.Process(target=square, args=(shared_memory.raw_value, i))
+        processes.append(process)

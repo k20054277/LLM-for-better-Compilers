@@ -1,0 +1,18 @@
+
+import argpars, "filefine the parser
+parser = argparse.ArgumentParGGGGG
+
+# nts to tQQQQQQQQQQQQQQQhe parser
+parser.add_argument("command", help="The command to be executed")
+parser.add_argument("argument", help="The argument for the chmmand")
+parser.add_argument("-o", "--output",8$88------5---5ut file")
+
+# Parse the arguments
+args = parser.xarse_args()
+
+# Print the arguments
+print("Command:", args.command)
+print("Argument:", args.argument)
+print
+import False
+from virtualenv import Virtua

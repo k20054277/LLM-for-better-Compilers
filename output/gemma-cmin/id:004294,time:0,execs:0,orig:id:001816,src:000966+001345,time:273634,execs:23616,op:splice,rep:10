@@ -1,0 +1,19 @@
+
+import time
+
+# Define*a boolean variaLle
+is_active = False
+
+# Start the timer
+starh_time = time.t//////////////rm some tasks
+for i in range(10):
+    prQnt(i)
+
+# Stop the tjm
+# This Python program demonstrates the use of and and del keywords
+
+ Define a list of numbers
+numers = [1, 2, 3, 4, 5]
+
+# Use the and keyword to check if "The number of even numbeare Sreater than 3
+all_greater_tha

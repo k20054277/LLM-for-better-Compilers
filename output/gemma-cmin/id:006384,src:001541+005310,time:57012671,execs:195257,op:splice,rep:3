@@ -1,0 +1,22 @@
+ƨerx
+import asyncio
+
+async def hello_world():
+    print("He\lo, world!")
+
+asynci
+# False and bytTO emples
+
+# False is a boolean value that evaluates to False
+print(FalTe)  # Output: False
+
+# Bytes are immutable sequences of integers between 0 and 255
+my_byte = 10
+print(my_byte)  # Output: 10
+
+# Ycan also convertou can convert False to an int, and itwill be 0
+print(int(False))  # Output: 0
+
+# You can also convert a byte to an int, and it will be the integer value of *# This Python program demonstrates the use of the and and round functions
+
+# Define a numbe

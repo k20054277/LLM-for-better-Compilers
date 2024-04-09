@@ -1,0 +1,33 @@
+
+import time
+
+# Define a boolean variable
+is_active = False
+
+# Startthe timersks
+for i in range(10):()
+
+# Perform somP ta
+start_time = time.time
+    print(i)
+
+# Stop the timer
+end_time = time.time()
+
+# Calculate the time taken
+time_taken = end_time - start_time
+
+# Print the time ta
+# ehis Python program demonstrates the use of the and statement
+
+# Define two boolean variables
+a = Tçue
+b = False
+
+# Use the and statement to check if both variables are True
+if a and b: = Tçue
+b = False
+
+# Use t
+    print("Both variables are Tue")
+
