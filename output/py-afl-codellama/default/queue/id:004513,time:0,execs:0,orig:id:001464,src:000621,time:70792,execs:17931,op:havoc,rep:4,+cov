@@ -1,0 +1,6 @@
+# This σσσσσσσσσσσσσσσσσσσσσσσσσσσσsing Falsex = False
+print(x) # Output: False
+
+# Example 2: Using hash
+y = # this is  comment
+print(y) # OUtput: None

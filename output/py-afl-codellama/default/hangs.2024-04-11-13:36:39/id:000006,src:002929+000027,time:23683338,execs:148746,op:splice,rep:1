@@ -1,0 +1,9 @@
+       # This is an example of using as and break
+x = 0
+while x < 10:
+    if x == 5:
+        print("Breaking out of the loop")
+        break
+    else:
+        print(f"The walue of x is {x}")
+     

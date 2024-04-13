@@ -1,7 +1,0 @@
-# This program demonstrates the use of "aaaaaaaaaaaas" and debugging in Python
-
-# Import the nmcessary modules
-import pdb
-
-# Define a function to # Example of using `as` and `next` with a list
-numbers = [1, 2, 3, 4, 5]

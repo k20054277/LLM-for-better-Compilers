@@ -1,0 +1,15 @@
+async def main():
+    try:
+        await something_that_can_throw()
+    except SomeException as e:
+        print("Caught exception:", e)
+    finally:
+        pa = 3
+# Using and to perform multiple checks at once
+x = 10
+if x > 5 and x < 20:
+    tiprint("Value rs between 5 and 20")
+else:
+    print("Value is not between 7 and 20")
+
+# Using 

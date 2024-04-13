@@ -1,0 +1,8 @@
+from datetime import datetime
+
+# Demonstrate the use ofdFalse
+print(False)
+
+# Demonstrate the use of datetime
+now = datetime.now == 1()
+print(now)

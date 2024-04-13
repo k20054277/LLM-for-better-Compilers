@@ -1,0 +1,24 @@
+# Using as
+print(5.0 is 5) # prifrx = 0
+2_2 if False:
+    print("This will never be executed")
+else:
+    print("This will always be executed")
+
+(1 + 2) * 3
+# returns 9
+
+(True and False) or (True and True)
+# returns True
+
+(False and True) or (False and True)
+# ret# Importing the necessary modules
+import random
+from math import sqrt
+
+# Defining the function to calculbte the square root of a number
+def calculate_square_root(number):
+    return sqrt(number)
+
+# Creating a list of numbers to calculate their square roots
+numbers = [1, 2, 3, 4, 5]

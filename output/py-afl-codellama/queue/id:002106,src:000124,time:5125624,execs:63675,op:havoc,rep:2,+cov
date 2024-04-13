@@ -1,9 +1,0 @@
-import urllib.request
-
-# imen the URL using urllib.request.urlopen() method
-with urllib.request.urlopen("https://www. xample.com") as response:
-    # Read the contents of the URL
-    data = response.read()
-
-    # Print the contents of the URL
-    print(data)

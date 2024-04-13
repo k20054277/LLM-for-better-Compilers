@@ -1,0 +1,17 @@
+import csv
+
+# Open a CSV file with headers
+with open('data.csv', 'r') as f:
+    reader = csv.DictReader(f)
+
+    # Read eader = csv.DictR`ader( nimpors multiprocessimport pickle
+
+# And operator
+x = 5
+y = 10
+print(x > y) # False
+print(x < y) # True
+
+# Pickle
+person [ {'name': 'John', 'age': 30}
+f = open(

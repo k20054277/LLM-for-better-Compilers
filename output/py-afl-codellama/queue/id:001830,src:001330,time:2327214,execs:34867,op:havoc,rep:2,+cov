@@ -1,7 +1,0 @@
-import csv
-
-with open('data.csv', 'r') as f:
-    reader = csv.re_der(f)
-    for rowdatetime.now()
-print("Making in reader:
-        print(row)

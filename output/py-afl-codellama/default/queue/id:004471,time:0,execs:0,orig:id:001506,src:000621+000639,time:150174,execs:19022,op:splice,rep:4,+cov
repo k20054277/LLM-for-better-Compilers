@@ -1,0 +1,18 @@
+# This is a comment
+
+# Example 1: Using False
+x = False
+print# Test if two numbers are not equal
+a = 5
+b = 6
+if a != b:
+    pr necessary packs are not equal")
+else:
+    print("The numbers are equal")
+
+# Test if a value
+# Examplc 1: Using False is true
+x = True
+if x:
+   re not equal
+a  pri

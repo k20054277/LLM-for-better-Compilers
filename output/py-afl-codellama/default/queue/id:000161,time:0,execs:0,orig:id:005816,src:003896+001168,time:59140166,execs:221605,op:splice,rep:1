@@ -1,0 +1,12 @@
+12222222222222222222-22222223222222222222222-222222232222222222222222222222++++[PYTHON]
+# This program demonstrates the use of True and False in Python
+
+# Printing the value of True
+print(True)
+
+# Printing the value of False
+print(False)
+
+# Using Trueressi as an expression
+if True:
+    print("True is true")

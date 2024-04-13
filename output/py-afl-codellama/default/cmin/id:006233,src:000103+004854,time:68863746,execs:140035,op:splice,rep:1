@@ -1,0 +1,14 @@
+import csv
+
+# Open a CSV file with headers
+with open('data.csv', 'r') as f:
+    reader = csv.DictReader(f)
+
+    # Read eader = csv.DictReader( nimpors multip# This program demonstrates the use of "True" and "logging" in Python
+
+import logging
+
+# Set up logging
+logging.basicConfig(filename='example/log', level=logging.DEBUG)
+
+# Define a fun

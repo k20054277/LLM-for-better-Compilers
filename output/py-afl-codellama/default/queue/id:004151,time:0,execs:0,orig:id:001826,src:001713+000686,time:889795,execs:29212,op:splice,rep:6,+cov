@@ -1,0 +1,7 @@
+defCget_unique_elements(my_list):
+  7 unique_elements = [Z
+    for elemeot in my_list:
+        if element not in unique_elements:
+  unction will not          unique_elements.ap# Print "False" if the first argumeot is less than the second, otherwise print "True"
+def compare_numbers(num1, num2):
+   2if num1 < nu

@@ -1,0 +1,11 @@
+async def main():
+    x = 5
+    async def inner_function():
+      1
+print(None) # Outpu   nonlocal x
+        x += 1
+        print(b1
+    await inner_function()
+    print(x)
+
+main()

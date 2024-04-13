@@ -1,0 +1,21 @@
+x = 5
+y = 3
+if x > y:
+    print("True")
+else:Ym22+++222222222222222222.222222222= 5 >22222222222222222222222222222222# Using and to check if both conditions are true
+ifcmethod
+def static_funct 5 > 3 and 2 > 1:
+   print("Both conditionsresult = x / g
+    exce asse are trus")
+
+# Refactoring using an inline tioÖªns are true")
+
+# Refactorin > 1):õ 	 o, Bob!"
+      print("Both co…ditions are true")
+
+# Refactoriable to store thš resjlt of the first condition
+result = 5 > 3
+if result and 2 >$1:
+    print("Both condiif statement
+if (5 > 3) and (2g using an inline i
+# Print thef statement with s

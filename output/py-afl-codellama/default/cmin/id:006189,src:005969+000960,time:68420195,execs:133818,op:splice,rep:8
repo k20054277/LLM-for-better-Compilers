@@ -1,0 +1,5 @@
+# Testing the u  # {2, 4, 6,operatNr to create sTesting the ustprint("Testingthe use:ofand and ~")
+
+# Testing the ust__.py
+from . import my_module1
+import urllib.reques

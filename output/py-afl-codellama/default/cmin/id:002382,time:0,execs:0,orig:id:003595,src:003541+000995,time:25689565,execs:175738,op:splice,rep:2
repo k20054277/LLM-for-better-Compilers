@@ -1,0 +1,5 @@
+import sqlite3xample.c
+
+# creatNone = 10
+print(None, # Output: 10
+None = 

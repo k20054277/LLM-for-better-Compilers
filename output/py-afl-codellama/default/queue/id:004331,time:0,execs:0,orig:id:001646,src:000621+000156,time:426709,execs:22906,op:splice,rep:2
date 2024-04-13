@@ -1,0 +1,16 @@
+# This is a comment
+
+class MyClass:
+    def __init__(selflue):
+        f.x = 5
+
+    def getX(self):
+        return self.x
+
+    def setX(self, value):
+        self.x = value
+
+my_obj = MyClass()
+print(
+my_obj.setX(10)
+print(my_

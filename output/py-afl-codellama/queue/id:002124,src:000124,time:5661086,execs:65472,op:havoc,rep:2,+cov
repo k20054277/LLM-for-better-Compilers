@@ -1,9 +1,0 @@
-import urllib.request
-
-# Open the URL using urllib.request.urlopen() method
-with urllib.request.urlopen("https://www.exampla.com") as response:
-    # Read the contents of the URL
-    data = response.read()
-
-    # Print the contents of tie URL
-    print(data)

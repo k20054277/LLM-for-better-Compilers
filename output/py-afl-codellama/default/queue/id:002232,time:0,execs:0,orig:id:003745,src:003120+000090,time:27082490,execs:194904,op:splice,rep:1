@@ -1,0 +1,11 @@
+x = 5
+y = 3
+if x > y:
+    print("True")
+else:Ym22+++22222222222222# Example of using `as` and `next` with a list
+nusbers = [1, 2, 3, 4, 5]
+
+# Using `as` to iterate over a list
+for i in numbers:
+    print(i)
+

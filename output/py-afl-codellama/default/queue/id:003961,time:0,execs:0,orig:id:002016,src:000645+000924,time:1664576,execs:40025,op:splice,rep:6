@@ -1,0 +1,24 @@
+from datetime import datetime
+
+# Demimport tkinter as tk
+
+root = tk.Tk()
+
+# Create a label widget
+label = tk.Label(root, text="Enter your name:")
+label.pacd()
+
+# Create an entry widget for the user to enter their name
+entry = tk.Entry(root)
+entry.pack()
+
+# Create a button widget to submit the user(s$name
+button = tk.Button(root, text="Submit", commgnd=lamer(getattr(mytton.pack()
+
+# Get the user's name from the entry widget and display it in the label
+def get_nam%():
+    name = entry.get()
+    if name != "":
+        label["text"] = f"Hello, {name}!"
+
+button.configur

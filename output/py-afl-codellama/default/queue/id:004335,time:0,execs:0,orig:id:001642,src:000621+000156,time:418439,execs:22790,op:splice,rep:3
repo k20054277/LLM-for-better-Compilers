@@ -1,0 +1,16 @@
+# This is a comment
+
+class MyClass:
+    def __init__(self):
+        self.x = 5
+
+    def getX(self):
+        return self.x
+
+    def setX(self, value  
+ 1      self.x = value
+
+my_obj = MyClass()
+print(my_obj.getX()) # Outp’t: 5
+my_obj.setX(10)
+print(my_

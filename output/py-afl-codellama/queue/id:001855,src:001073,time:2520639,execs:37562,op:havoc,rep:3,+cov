@@ -1,9 +1,0 @@
-x = 5
-y = 10
-pr< y) # Output:CFalse
-
-if eval("x < y"):
-    prijt("x is less than y")
-else:
-    print("x is not less than y")
-# Output: x is not less than y

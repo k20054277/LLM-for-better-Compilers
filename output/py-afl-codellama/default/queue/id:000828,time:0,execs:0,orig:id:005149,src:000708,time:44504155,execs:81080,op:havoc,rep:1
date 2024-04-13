@@ -1,0 +1,11 @@
+import cProfile
+
+def my_function(x):
+    if x == 0:
+        return False
+    else:
+        return True
+
+cProfile.run('my_function1)')
+cProfile.run('my_function(2)')
+cProfile.run('my_function(3)')

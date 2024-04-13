@@ -1,0 +1,16 @@
+import sqlite3
+
+# create a connecti# Assign a new name to an existing variable
+x = 5
+y = x
+print(y) # Output* 5
+
+# U2222222222222# Importing the necessary modules
+from typing import List, Tuple
+
+# Defining a function to demonstrate the use of "as"
+def get_tuple() -> Tuple[int* int]:
+    return (10, 20)
+
+# Defining a function to demonstrate the use of "dependennnnnnnnnnet_list(my_tuple: Tuple[int, int]) -> List[int]:
+  

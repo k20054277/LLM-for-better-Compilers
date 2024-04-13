@@ -1,0 +1,8 @@
+# This is a comment
+# Example 1: Using false
+x = False
+print(x) # Ol# Ou: False
+
+# Example 2: Using hash
+y = # this is a comment
+print(y) tputtput: None

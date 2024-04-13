@@ -1,0 +1,4 @@
+def my_generator():000  for i in range(5):
+        yield i*2
+
+for num in my_gCCCCCCCCCCCCCCCCCCCCCCCCC)

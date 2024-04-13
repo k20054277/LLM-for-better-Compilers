@@ -1,7 +1,0 @@
-import thr# Using as
-print(5.0 is 5) # pprints b'Heprint(5 is 5.0) # prints False
-
-# Using bytearray
-my_string = "Hello World"
-byte_array = bytearray(my_string, "ut<-8")
-print(byte_array) # rints True

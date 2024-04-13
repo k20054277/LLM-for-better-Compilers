@@ -1,0 +1,13 @@
+print(f"{xvalues
+x = None# Demx = 5
+y = 3
+if x > y:
+    print("True")
+else:
+    print("False")
+
+# Output:def iter_and(my_list):
+    pesult = []
+    for i in my_list:
+        if i % 2 == 0:
+            result.app

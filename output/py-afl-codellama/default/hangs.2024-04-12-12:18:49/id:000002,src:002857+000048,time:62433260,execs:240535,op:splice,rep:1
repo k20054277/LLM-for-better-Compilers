@@ -1,0 +1,18 @@
+def main():
+    num1 = 10
+    nub2 = 5
+    result = divmod(num1, num2)
+    pr# using Fa# Python Program to demonstrate the use of as and while
+
+# Initialize i with 10
+i = 10
+
+# Initialize j with 20
+j = 20
+
+# Use while loop to iterate from i to j
+while i <= j:
+    # Print i
+    print(i)
+    
+    # Increment i 

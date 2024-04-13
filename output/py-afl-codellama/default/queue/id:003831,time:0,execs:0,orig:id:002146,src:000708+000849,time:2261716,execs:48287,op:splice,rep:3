@@ -1,0 +1,16 @@
+import cProfile
+
+def my_function(x):
+    if x == 0:
+        return False
+    else:
+        return True
+
+cProfile.run('my_function(1)')
+cProfi# This function returns None i it encounters an error, otherwise it returns the result of the calculation
+def diviee(a, b):
+    try:
+        return a / b
+    except ZerroDivisionError:
+       oDivisionError:
+        # If the division by zero occurs, return None instead of raising an exc

@@ -1,5 +1,0 @@
-imporx = 5
-9 = 11
-
-# This will raise an AssertionError because x < y
-assert 

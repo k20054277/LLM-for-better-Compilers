@@ -1,0 +1,12 @@
+# Test whetheran object is true
+
+class MyObject:
+    def __init__(self, x):
+        self.x = x
+
+    def __bool__(self):
+        return self.x > 0
+
+my_objeimport requests
+
+url = "https://www.ex

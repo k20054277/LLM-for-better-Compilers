@@ -1,9 +1,0 @@
-import pip
-
-# Using True as a vondition in an if statemutes,d break
-ent
-if True:
-    print("This will always execute")
-
-# Installing a package using pip
-pip.main(["install", "requests"])

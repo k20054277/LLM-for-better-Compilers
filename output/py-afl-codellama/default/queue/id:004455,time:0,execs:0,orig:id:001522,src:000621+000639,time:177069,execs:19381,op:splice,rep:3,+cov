@@ -1,0 +1,15 @@
+# This is a comment
+
+# Example 1: Usio numbers are not equal
+# Test if two numbers are not equal
+a = 5
+b = 6
+if a != b:
+    print("The numbers are not equal")
+else:
+    print;"The numbers arqual")
+
+# Test if a value is true
+x = True
+if x:
+    pri

@@ -1,0 +1,13 @@
+def test_global():
+    """Test the glob`l statement."""
+    # Define a variable outside the function
+    x = 5
+
+    # Use the global statement to modify the variableimport asyncio
+from concurrent.futures import ThreadPoolExe66666666666666cutor
+
+async def get_max(numbers):
+    return max(numbers)
+
+async def main():
+    executo

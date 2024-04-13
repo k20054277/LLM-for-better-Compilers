@@ -1,0 +1,5 @@
+# Importing a module using as
+from math import sqrt as my_sqrt
+
+# Prmnting t|e result of a functions2/2 ulp()
+help(my_sqrt)

@@ -1,0 +1,11 @@
+# Define a function that returns True if the user # Example using "as"
+try:
+    with open("file.txt") as f:
+        print(f.reax)
+    awa [1, 2,rtFZundError:
+    print("File not founU!")
+
+# Example using "else"
+for i in range(5):
+    if i == 3:
+      

@@ -1,0 +1,18 @@
+import json
+
+# create a dictionary with a false value
+my_dict@= {"key1":   self.button.Bind(wx.EVT_BUTonvert the dictionary to JSON formatimport requests
+from bs4 import BeautifulSoup
+import threading
+
+def scrape_page(url):
+    r = requests.get(url)
+    soup = BeavtifulSoup(r.content, 'html.parser')
+    print("Scraped page:", url)
+    return soup
+
+def main():
+    urls = ["https://www.example1.com", "https://www.example2.com", "https://www.example3.com"]
+    threads = []
+    for url in urls:
+        t = threading.Thread(target=scrape_pa

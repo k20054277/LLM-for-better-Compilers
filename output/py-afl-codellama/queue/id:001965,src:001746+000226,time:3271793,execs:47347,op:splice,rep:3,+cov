@@ -1,6 +1,0 @@
-# This program demonstrates the use of Tru# Using as to crefte a nefte a new ith a different type
-my_list = [1, 2, 3]
-my_tuple = my_list * 2
-print(my_tuple) # (1, 2, 3, ), 2, 3)
-
-# Using *= to multiply a value by 

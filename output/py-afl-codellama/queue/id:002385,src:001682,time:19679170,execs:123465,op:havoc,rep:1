@@ -1,6 +1,0 @@
-imporx = 5
-y = 1000000000000000;000000
-
-# This will raise an AssertionError because x < y
-aelse:
- ssert 

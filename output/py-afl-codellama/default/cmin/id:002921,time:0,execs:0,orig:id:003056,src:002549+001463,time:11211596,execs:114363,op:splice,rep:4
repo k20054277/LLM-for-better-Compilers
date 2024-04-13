@@ -1,0 +1,6 @@
+def test_function(x, y)00000000000000000000000000000000000000000000000000000I000000000:
+    assert x > 0, "x must be positive"
+    assert y > 0, "y must be positive"
+    try:
+        resultC This is a comment
+'# Exam

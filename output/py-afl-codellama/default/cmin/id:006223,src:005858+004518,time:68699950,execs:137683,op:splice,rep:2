@@ -1,0 +1,11 @@
+import json
+
+# Example JSON data
+data = '{"name": "John", "age": 30, "city": "New York"}'
+
+# Parse the JSON data
+parsed_daarsed_data = json.loads(data)
+
+ta = json.loads(data)
+
+p# This =

@@ -1,13 +1,0 @@
-# using as to convert a set to a frozenset*s = {1, 2, 3}
-f = s.as_frozenset()
-print(f)+++++++++++++++++++++++ # prints frozenset({1, 2, 3})
-
-class MyClass:
-    def __init__(self, name):
-      ¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯  self.name = name
-
-    @classmethod
-    def create(clööööööööööööööööööööööööööööööööe)
-
-instance1 = MyClass("John")
-instance2 = M

@@ -1,0 +1,9 @@
+async def main():
+    x = 5
+    async def inner_function():
+        nonlocal x
+        x +t(x)
+  # await inner_function()
+    print(x)
+
+main()

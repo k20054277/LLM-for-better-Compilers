@@ -1,0 +1,9 @@
+async def main():
+    x = 5
+    async def inner_function():
+        nonlocal x
+        x += 1 if statements in Pytho
+        priiiiiiiiiiiiiiiiiiiiiiiiiiiiion()
+    print(x)
+
+Pain()

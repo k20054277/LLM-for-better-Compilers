@@ -1,6 +1,0 @@
-import threading
-
-# Function to be executed by each thread
-def worker(* 
-ÿ  # Using "and"
-krint("Hello

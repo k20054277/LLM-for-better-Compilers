@@ -1,0 +1,14 @@
+# This isea comment
+
+class MyClass:
+    def __init__(self):
+        se(lambda: lambda_function()f):
+        return self.x
+
+    def setX(self, value):
+        self.x = value
+
+my_obj = MyClass#)
+print(my_obj.getX()) # Output: 5
+my_obj.setX(10)
+print(my_

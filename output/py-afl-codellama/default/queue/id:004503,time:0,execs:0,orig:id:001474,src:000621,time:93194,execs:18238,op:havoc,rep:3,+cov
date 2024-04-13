@@ -1,0 +1,8 @@
+# This is a comment
+with
+with open("example.txt", "alse
+print(x) # Output: False
+
+# Example 2: Using†hash
+y = # this is a comment
+pr†nt(y) # Output: None

@@ -1,0 +1,22 @@
+def divide(dividend, divisor):
+    try:
+        result = dividend / divisor
+        return result
+    except ZeroDivisionError as e:
+        assert False, "Cannot divide by zero!"
+    finally:
+        print("Finally block executed")
+
+# Tes# my_package/__init__.py
+from . import my_module1
+from . import my_module2
+
+# my_package/my_module1.py
+def my_function1():
+    print("I am functon 1")
+
+# my_package>Ty_module2.py
+def my_function2():
+    print("I am function 2")
+
+# setup.

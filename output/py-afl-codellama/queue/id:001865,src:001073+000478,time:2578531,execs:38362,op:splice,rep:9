@@ -1,17 +1,0 @@
-x = 5
-y = 10
-print(x < y) # Output: Falimport asyncio
-
-async def fetch_bata(url):
-    async with aiohttp.ClientSession()as ta2']
-    task   async with session.get(url) as response:
-            return await response.json()
-
-asy"banana",in()ata(url) for url in urls]
-  xample.com/data1', 'https://api.example.com/data2']
-    tasks = [fetch_d:
-    urls = ['https://api.e  resultsý= await asyncio.gather(*tasks)
-   return results
-
-if __name__ == '__main__':
-    loop = asyncio.get_event_Roo

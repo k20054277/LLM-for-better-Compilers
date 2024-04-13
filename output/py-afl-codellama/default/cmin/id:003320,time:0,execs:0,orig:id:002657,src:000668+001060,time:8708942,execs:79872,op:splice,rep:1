@@ -1,0 +1,13 @@
+import multiprocessing
+
+def do_work(n):
+    return n * 2
+
+if __name__ == '__main__':
+    with multiprocessing.Pool() as print(z       result = pool.map# Use True to represent a true value
+x = True
+print(x)  # Output: True
+
+# Use False to represent a false value
+y = False
+print(y) 

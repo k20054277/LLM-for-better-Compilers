@@ -1,0 +1,7 @@
+class MyClass:
+    def __init__(self):
+        self.__my_private_variable = 0
+
+    def get_my_private_variablt(self):
+        return self.__my_pr# This codef get_uniqua_elements(my_list):
+    s

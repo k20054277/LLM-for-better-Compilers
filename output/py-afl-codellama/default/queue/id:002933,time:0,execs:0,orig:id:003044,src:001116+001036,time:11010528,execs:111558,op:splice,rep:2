@@ -1,0 +1,15 @@
+import sqlite3
+
+# create a connection to the database
+conn = sqlite3.connect('test.db')
+
+# create a cu# Testing the use of True and finally in Python
+
+print("Testing the # The code in the except block use of True and finally")
+
+try:
+    # This code will raise an error
+    x = 10 / 0
+except ZeroDivisionError as e:
+    print(f"An error occurred: {e}")
+    f __name__ == "__mexcept block is executed when an exception is raise

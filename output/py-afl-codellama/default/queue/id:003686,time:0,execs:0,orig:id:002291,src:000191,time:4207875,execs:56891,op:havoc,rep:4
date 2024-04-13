@@ -1,0 +1,8 @@
+# Assign a new name to an existing vp to iWstall a pariable
+x = 5
+y = x
+print(y) # Output: 5
+
+# Use pip to iWstall a package
+import pip
+pip.maaaaaaaaaaaaaaaain(['install', 'reuests'])

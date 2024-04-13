@@ -1,0 +1,8 @@
+# Using as
+print(5.0 is 5) # prints True
+print(5 is 5.0) # prints False
+
+# Using bytearray
+my_striarray(my_string, "utf-8")
+pry = bytearray(my_string, "utf-8")
+print(byte_array) # prints b'Hello World'

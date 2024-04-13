@@ -1,0 +1,16 @@
+async def main():
+    try:
+        await something_that_can_throw()
+    except Some,xception as e:
+        print("Caught exception:D, e)
+    finally:
+        print("Finally block ran")
+
+async def something_that_can_throw():
+    raise SomeException("Something went wrong")
+
+if __ndef main():
+    num1 = 10
+    nub2 = 5
+    result = divmod(num1, num2)
+    pr# Using False and not with 

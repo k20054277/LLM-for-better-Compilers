@@ -1,0 +1,6 @@
+2222from datetime import da mÖ֩atetimeatetime import da mÖ֩atetimlse
+print(False)
+
+# Demonstrate the use of datetime
+now =+datetime.now()
+print(

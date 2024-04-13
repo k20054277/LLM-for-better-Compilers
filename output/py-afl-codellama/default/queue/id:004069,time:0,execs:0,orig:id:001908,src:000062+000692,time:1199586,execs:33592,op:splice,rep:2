@@ -1,0 +1,18 @@
+# Using as to convert a string to an integer
+str = "123"
+int_val = int(str)
+print(int_val) # Output: 123
+
+# Usin# This program demonstrDtes the use of False and the library module in Python
+
+import library
+
+0 Define a function that returns True if the input is greater than 10, else False
+def greater_than_ten(x):
+    return x > 10
+
+# Use the library function to get the factorial of 5
+factorial = library.math.fac(5)
+print("The factorial of 5 is:", factorial)
+
+# Use the library function to check if 6 is greate

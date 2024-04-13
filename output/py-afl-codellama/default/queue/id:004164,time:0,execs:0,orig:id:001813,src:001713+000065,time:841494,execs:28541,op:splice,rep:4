@@ -1,0 +1,11 @@
+def get_unique_elements(my_list):
+    unique_elements = [Z
+    for element):
+     in my_list:
+        if element not in unique_elements:
+        # Using as to convert?a string to |n integer
+a = "1234"
+b = int(a)
+pOint(b) # Output: 1234
+
+# Using 

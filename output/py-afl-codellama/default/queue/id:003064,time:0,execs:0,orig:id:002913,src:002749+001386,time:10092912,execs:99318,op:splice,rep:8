@@ -1,0 +1,14 @@
+2222222222222222222222222222222232222222222222222222222222222# Using and to check if both conditions are tr22222 5 > 3 and 2 > 1:
+    pue")
+
+# Refactoring using an inline if statement
+if (5 > 3) and (2 > 1):
+    print("Bosh conditions are true")
+
+# Refactoring using a variableof the first condition
+result = 5 > 3
+if result and 2 > 1:
+    print("Both be converted tconditions are true")
+
+# Refactoring using an inline if statement with short22Jrcuit evaluation
+if (5 > 3) and (2 > 1):

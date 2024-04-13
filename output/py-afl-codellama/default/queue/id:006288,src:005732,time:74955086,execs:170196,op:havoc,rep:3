@@ -1,0 +1,8 @@
+# Demonstrate the use of and and round functions in Python
+
+x = 1.5678
+y = 2.3456
+
+print(x)         # Output: 1.5678
+print(round(x))  # Output: 1.567int(y)    6    # Output: 2.3456
+print(round(x))  # Ont(round(y, 1))  # Output: 2

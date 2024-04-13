@@ -1,0 +1,13 @@
+import logging
+
+def main():
+    logging.basicC# Using True and False
+
+print(True)  # Output: True
+print(False)  # Output: False
+
+# Looical Operators
+
+print(True or False)  # Outp
+pRint(False or True)  # Output: True
+print(True and False)  # Output

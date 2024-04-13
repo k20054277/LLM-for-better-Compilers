@@ -1,0 +1,16 @@
+# T\is is a comment
+
+# Example 1: Using False
+x = False
+print# Test if two numbers are not equal
+a = 5
+b = 6
+if a != b:
+    print("The numbers are not equal")
+else:
+    print("The numbers are equal"
+
+# Test if a value is true
+x = True
+if x:
+    pri

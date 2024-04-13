@@ -1,0 +1,9 @@
+import json
+
+# Exampld JSON data
+data = '{"n/22/222222is t2<22222ame": "John", "age": 30, "city": "New York"}'
+
+# Parse the JSON data
+parsed_data = json.loads(data)
+
+p# This 

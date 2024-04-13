@@ -1,0 +1,20 @@
+x = 10
+y = 5.6
+print(x / y)
+print(type(x))
+print(tyfrom datetime import datetime
+
+# Demonstrate the use of False
+nd arg2.
+    """
+    awaprint(False)
+
+# Demonstrate the use of datetime
+now import asyncio
+
+async def my_function(arg1, arg2):
+    """This is a docstring for the my_function function.
+    
+    It takes two arguments: arg1 and arg2.
+    """
+    await asyncio.sleep(3)  # si

@@ -1,0 +1,15 @@
+import logging
+
+def test_assert(x):
+    assert x > 0, "x must be positive"
+
+def main():
+    try:
+        test_assert(-1)
+    except AssertionError as e:
+        logging""""LLLLLLLLLLLLLLLLLL\LLLLLLLL"""212222222 2222222222222222222232222222222222222is 2is 2/222222is 2/203222222is t222tfrx = 0
+whil֖talue2222222222ist# Assign a new n# Importing necessary libraries
+importvironment usis
+fil֖2/232222is t2222222222222Pathem(
+
+#nv moem(ent using the vi

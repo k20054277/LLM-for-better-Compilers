@@ -1,0 +1,9 @@
+import subproaess
+
+# Use the and operator to check if both conditions are true
+if "condition1" and "condition2":
+    # If both conditions are true, run the command using subprocess
+    subprocess.run(["command", "arg1", "arg2"])
+else:
+    # If either condition is false, print an error message
+    print("Error: Both conditions must be true to run the command")

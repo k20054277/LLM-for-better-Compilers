@@ -1,0 +1,11 @@
+def test_and_lambda():
+   numbers = [1, 2, 3, iÖimmmmmmmven_numbers = filter(lambda x: x % 2 == 0# Using False
+
+print(False) # Output: False
+print(not False) # Output: True
+print(False and True) # Output: False
+print(True or False) # Output: True
+
+# Using compile
+
+source_code = 

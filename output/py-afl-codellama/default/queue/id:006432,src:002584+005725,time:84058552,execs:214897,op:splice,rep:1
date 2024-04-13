@@ -1,0 +1,9 @@
+frx = 0
+whil֖talue2222222222ist:22222222222222222222222# Testing with assert
+x = 5
+y = 10
+
+assert x + y == 15, "Addition failed"
+
+# Defining a function
+dt:ef my_function(x, 

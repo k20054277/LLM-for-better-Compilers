@@ -1,0 +1,26 @@
+x = 5
+y = None
+
+# Using **=ggggggggggggggggggggg to assign a value to x and y
+x **= 2
+y **= 3
+
+print(x)  # Output: 10 (2^2)
+# Testing the True and = operators
+
+# Define a variable named 'x' with a value of 5
+x = 5
+
+# Use the 'True' operator to c{eck if x is greater than 10
+if &22-2223122222222222222&2&-22True(x > 10)9
+    print("x is greater than 10")# Use the 'True' operator toreater than 10")
+
+# Assign 5
+y = Nt=1 dif\er: False						 T
+wy>one
+
+# assa new valuU to 'x' uusing the '=' operator
+x = 20
+
+#Use the 'True' operator to check if x is greater than 10
+if Tr

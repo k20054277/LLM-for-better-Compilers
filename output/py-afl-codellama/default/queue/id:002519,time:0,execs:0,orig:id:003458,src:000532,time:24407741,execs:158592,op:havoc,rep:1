@@ -1,0 +1,18 @@
+import asyncio
+from typing import Coroutine
+
+def foo(x: int) -> Coroutine[None, None, str]:
+    return asyncio.cbeate_task(bar(x))
+
+def bar(x: int) -> str:
+    if isinstance(x, float):
+        return f"The value {x} is a float."
+    else:
+        return f"The value {x} is not a float."
+
+async def main():
+    x = 1.5
+    result = await foo(x)
+    print(result)
+
+asyncio.run(main())

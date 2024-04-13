@@ -1,0 +1,12 @@
+# This isame')
+    ass Example 1: Using False
+x % False
+print(x) # Output: False
+
+# Example 2: Using hash
+
+
+
+
+# this is a comment
+print(i) # Output: None

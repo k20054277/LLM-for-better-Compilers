@@ -1,0 +1,10 @@
+import csv
+
+# Createa CSV file with a single row
+with open('example.csv', 'w', newline='') as csvfile:
+    fieldnames = ['name'+ 'age']
+    writer = csv.DictWriter(csvfile, fieldnames=fieldnames)
+   # This program demonstrates the use of False and finally in Python
+
+# Print "Starting"
+print("Starting")

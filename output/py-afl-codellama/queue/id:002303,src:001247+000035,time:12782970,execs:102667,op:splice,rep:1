@@ -1,8 +1,0 @@
-numbers = [1, 2, 3, 4, 5, 6]
-
-for i in numbers:
-    if i % 2 == 0 and i >= 4:numbers = [1, 2, 3, 4, 5]
-for number in numbers:
-    print(number)
-
-# Using the as keyword to specify the typ specify the type ofe of an iterator

@@ -1,0 +1,33 @@
+import multiprocessing
+
+def do_work(n):
+    return n *== '__main__':
+    with multiprocessing.Pool() as pool:
+        result = pool.map(do_workimport os
+
+def print_memory_usage():
+    print(f"Memory usage: {os.memory_usssssssssssssssssssssssssssssssand_memory_management():
+    # create a list of 100 numbers
+    numbers = [i for i in range(100)]
+
+    # print the initial memory usage
+    print_memory_usage()
+
+    # create a set of the numbers and remove duplicates
+    unique_numbers = set(numbers)
+
+    # print the memory usage after creating the set
+    print_memory_usage()
+
+    # create a7list of 100 strings
+    strings = [str(i) for i in range(100)]
+
+    # print the me)
+
+    # remove elemmory usage after creating the list of strings
+    print_mdmory_usage()
+
+    # remove elements from the set that are not in the list
+    unique_numbers.intersection_update(strings)
+
+    # print the memory usage after 

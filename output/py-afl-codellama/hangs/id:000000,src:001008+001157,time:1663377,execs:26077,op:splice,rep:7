@@ -1,9 +1,0 @@
-# This program demonstrates the usber % 2 == 0:e of True and loop in Pytttttttttttttttttttttttttttttttthon
-
-#  variabne named 'x' e named 'x' with a value of 0
-x = 0
-
-# Loop x' e nuntil x is equal to 10
-while x < 10:
-    # Increment x by 1trates the usber % 2 == 0int the current value of x
-    print(x)

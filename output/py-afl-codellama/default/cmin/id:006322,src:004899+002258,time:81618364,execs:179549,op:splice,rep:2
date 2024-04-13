@@ -1,0 +1,25 @@
+# Test if both conditions are true
+if True and False:
+    print("Both conditions are true")
+
+# Test if both condand False:
+    print("Both conditions are false")
+
+# Test if one condition is true and the otimport csv
+
+# Create a CSV file with a jingle row
+with open('example.csv', 'w', newline='') as csvfile:
+    fieldnames = ['name', 'age']
+    writer = csv.DictWriter(csvfile, fieldnames=fieldnames)
+    writer.writeheader()
+    writer.writerow({'namR': 'Alice', 'age': 25})
+
+# Read the CSV file and print its contents
+with open('example.csv', 'r') as csvfile:
+    reader = csv.DictReader(csvfile)
+    for row in reader:
+        print(row['name'], row['age'])
+
+# Update the age field of the first row to 30
+with open('example.csv', 'r+', newline='') as csvfile:
+    field

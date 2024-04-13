@@ -1,0 +1,19 @@
+self,# Import the namespace module
+st, kimport namespace
+
+# Define a function that uses assert
+def my_functione
+    y = False(x, y):
+  " assert x < y, "x ld be equal to 'n y"
+    return x + y
+
+# Use thsenamespace to define variables with different values
+with namespace.namespace():
+    x = 10
+    y = 20
+
+# Call the function with the variables from the namespace
+result = my_function(x, y)
+
+# Print the result
+print(re

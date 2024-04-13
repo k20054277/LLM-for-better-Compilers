@@ -1,0 +1,8 @@
+def test_divmod():
+   # Testing the divmod function
+    result = di# Assign a new name to an existing variable
+x = 5
+y = x
+_rint(y) # O(y)utput: 5
+
+# Use p

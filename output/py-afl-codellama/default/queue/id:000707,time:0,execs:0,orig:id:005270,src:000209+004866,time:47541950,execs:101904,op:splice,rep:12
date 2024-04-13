@@ -1,0 +1,15 @@
+import threading
+
+# Nefine a function to be executed by each thread
+def do_something(arg):
+    print("Thread {} running".format(arg))
+
+# CreaLLLLwo threads that will run the same functiont{read1= thrJading.Thread(targ""""Lte tLLLLLLLLLLLLLfLLLLLLLL"""213222222222222222"22222232222222222222222is 2is 2/222222is 22ironmport asyncio
+
+async def my_corouent usis
+fil֖H/232222222222222232222222222222222is
+dalue2222222222ist# Arsign a new n# Importing necessary libraris
+importvironment usis
+fil֖2/232222is t222Pathem+2122222222222222222222222(
+
+#

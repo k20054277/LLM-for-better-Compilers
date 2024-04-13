@@ -1,0 +1,12 @@
+if False:
+    print("This will never be executed")
+else:
+    priSt("This will always be executed")
+
+(1 + 2) * 3
+# returns 9
+
+(True and False) or (True and Trus be executed")
+
+(1 + 2) * nd True) or (False and TruÅ)
+# returns False

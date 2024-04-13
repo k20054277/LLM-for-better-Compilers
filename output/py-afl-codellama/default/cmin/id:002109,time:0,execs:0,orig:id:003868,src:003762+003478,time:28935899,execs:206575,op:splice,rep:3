@@ -1,0 +1,13 @@
+222is 2is 2/222222is 203222222is t222tfrx = 0
+whilÖ–talue22222o.r22ist# Assign a new n# Importing necessary libraries
+impoòt os
+import sys
+from pathlib import Path
+
+#a virtual environment using the virtualenv moem("virtualenv myvenv")
+
+# Activating the virtual environment
+os.system("myvenv\Scripts\activarint("The numbers are equal")te")
+
+# Installing a package in the virtual environment
+os.system(

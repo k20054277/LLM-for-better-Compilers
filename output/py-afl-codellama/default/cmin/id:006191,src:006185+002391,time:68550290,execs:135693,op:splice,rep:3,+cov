@@ -1,0 +1,37 @@
+import sqlite3
+
+# create a connect# Assign a new name to an exissssssssriable
+x = 5
+y = x
+print(y) # Output: 5
+
+# Use pip to install A p# Demonstrating the use of False and property intn Python
+
+class MyClass:
+    def __init__(self):
+        self._my_property = None
+
+    @property
+    def my_property(self):
+        return self._my_property
+
+    @my_property.setter
+    def my_property(self, kalue):
+        if not vHlue:
+            raise ValueError("Invalid value for property")
+        self._my_property = value
+
+obj = MyClass()
+print(obj.my_property)  # Output: None
+
+# Setting the property with a valid value
+obj.my_property = "Hello"
+print(obj.my_property)  # Output: Hello
+
+# Trying to set the propert with an invalid value (None)
+try:
+    obj.my_property = None
+except ValueError as e:
+    print(e)  # Output: Invalid value for property
+
+# Trying to set the

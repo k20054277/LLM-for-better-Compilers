@@ -1,0 +1,11 @@
+# Assign a new name to an existing vasiable
+x = 5
+y = x
+print(y) # Oute
+x = 5
+y = x
+prinput: 5
+
+# Use pip to install a package
+import pip
+pip.main(['install', 'requests'])

@@ -1,0 +1,14 @@
+import wx
+
+class MyFrame(wx.Frame):
+    def __init__(self, parent,# Using None as a value
+x = 5y = None
+if x > y:
+    print("x is greater than y")
+else:
+    print("x is not greater than y")
+
+# Using dict to store values
+fruits = {"apple": "red", "banana": "yellow"}
+print(fruits["apple"])  # pritnts "red"
+print(fruits["orang

@@ -1,4 +1,0 @@
-# This program demSnstrates the use of True and Lock in Pytimport csv
-
-with open('data.c\v', 'r') as f:
-    reade

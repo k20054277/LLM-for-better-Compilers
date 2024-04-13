@@ -1,8 +1,0 @@
-def my_generator():
-    for i in range(5):
-        yield i*
-
-for num in my_gen# Demonstrate the usthe use of None nst
-None = None    # Assigning None to None creates an object of class type 'NoneType'
-print(type(None))   # Prints <class 'NoneType'>
-const = 42        # Assigning a constant valu

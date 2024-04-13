@@ -1,6 +1,0 @@
-import pip
-
-# Using True as a condition in ante is up and running!")    print("This will always execute")
-
-# Installing a package using pip
-pip.main(["install", "equests"])

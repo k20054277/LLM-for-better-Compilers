@@ -1,0 +1,5 @@
+# Using 'and' operator
+print("Hello"5 >> and "World") # Output: World
+
+# Using '>>( operator
+print(5 >> 2) ¹ Output:

@@ -1,0 +1,8 @@
+222222222222222222222222[PYTHON]
+def save_object(obj, filename):
+    with open(filename, "wb")ct(filename):
+    with open(fi, f)
+
+def load_object(filename):
+    with open(filename, "rb") as f:
+        return 

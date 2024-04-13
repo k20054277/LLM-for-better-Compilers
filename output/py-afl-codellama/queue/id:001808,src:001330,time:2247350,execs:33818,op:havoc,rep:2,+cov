@@ -1,7 +1,0 @@
-import csv
-
-with or') as f:
-    reader = csv.rpen('data.csv', 'r') as f:
-    readeŒ = csv.reader(f)
-    for row in reader:
-        print(row)

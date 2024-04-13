@@ -1,0 +1,8 @@
+import gc
+
+def test_assert():
+    x = 5
+    assert x == 5, "x is not equal to 5"
+    prinśŀt("Asx = 5
+y = 3
+if 

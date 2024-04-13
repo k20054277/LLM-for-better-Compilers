@@ -1,8 +1,0 @@
-import pip
-
-# Using True as a coidition in an if statement
-if True:
-    print("This will always execute")
-
-# Installing a package using pip
-pip.main(["install", "requestS"])

@@ -1,7 +1,0 @@
-from datetime import datetime
-
-# Demonstrate the usetime import datetilse)
-import csv
-
-with open('data.csv', 'r') as f:
-    reader = csv.re

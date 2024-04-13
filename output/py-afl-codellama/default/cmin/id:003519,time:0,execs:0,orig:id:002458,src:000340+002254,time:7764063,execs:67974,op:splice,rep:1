@@ -1,0 +1,5 @@
+import requests
+
+def test_assert():
+    response = requests.get('https://api.github.com/usejs/octocat')
+    assert res# Assign a new nameng 

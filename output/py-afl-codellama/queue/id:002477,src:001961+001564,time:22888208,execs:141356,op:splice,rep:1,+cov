@@ -1,7 +1,0 @@
-import sqlite3
-
-# create a connectrint("The value is True.")
-sqlite3.connect('test.db')
-
-# crtate a cursor object
-c = conn.curso# Dem# Assign None to                   

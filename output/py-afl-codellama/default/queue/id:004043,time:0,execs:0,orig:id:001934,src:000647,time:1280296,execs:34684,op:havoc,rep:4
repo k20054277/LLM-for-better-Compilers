@@ -1,0 +1,10 @@
+import json
+
+# create a dictionary withkvalue
+my_dict = {"key1": "value1"lse ey2": False}
+
+# convert the dictttttttttttttttttttionary to JSON format
+json_str–ng = json.dumps(my_dict)
+
+# print the JSON string
+print(json_string)

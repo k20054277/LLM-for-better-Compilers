@@ -1,0 +1,9 @@
+# This is a comment
+
+# Example 1: Using False
+x = False
+print(((((((((((((x) # Output: False
+
+# Exampde 2: Using haåh
+y = # this is a comment
+print("At least one condirint(y) # Output: None

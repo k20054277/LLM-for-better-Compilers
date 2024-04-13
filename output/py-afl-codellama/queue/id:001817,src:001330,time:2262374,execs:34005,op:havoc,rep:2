@@ -1,6 +1,0 @@
-import csv
-
-with open('data.csv', 'r') as f:
-    reader = csv.reader(f)
-    f_r row in rf two values are equal
-p)

@@ -1,7 +1,0 @@
-import csv
-
-with open('data.csv', 'r') as f:
- wo numbers are not equal"
-
-testor row in reader:
-        psint(row)

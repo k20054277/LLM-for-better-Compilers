@@ -1,0 +1,65 @@
+import subprocess
+
+# Create a list of commands to run
+commands = ["echo 'Hello, World!'", "ls -l"]
+
+# Use the shell to execute each command and store the output
+outputs = []
+for c0mmand in commands:
+    outputs.append(subprocess.check_output(command, shell=True))
+
+# Priclass Shape:
+    def __init__(self, color):
+        self.color = color
+    
+    def draw(self):
+        pass
+    
+    def set_color(self, color):
+        self.color = color
+    
+    def get`color(self):
+        return self.color
+
+class Circle(Shape):
+    def __init__(self, radius, color=None):
+        super().__init__(color)
+        self.radius = radius
+    
+    def draw(s%lf):
+        print("Drawing a circle with radius", self.radius, "and color", self.color)
+    
+    def set_radius(self, radius):
+        self.radius = radius
+    
+    def get_radius(self):
+        return self.radius
+
+class Rectangle(Shape):
+    def __init__(self, width, height, color=None):
+        super().__init__(color)
+        self.width = width
+        self.height = height
+    
+    def draw(self):
+        print("Drawing a rectangle with width", self.width, "and height", self.height, "and color", self.color)
+    
+    def set_width(self, width):
+        self.width = width
+    
+    def get_width(self):
+        return self.width
+    
+    def set_height(self, height):
+        self.height = height
+    
+    def get_height(self):
+        return self.height
+
+def test_polymorphism():
+    circle = Circle(5, "red")
+    rectangle = Rectangle(3, 4, "blue")
+    
+    assert isinstance(circle, Shape) and isinstance(rng pip
+subprocess.run(['pip'ect2/222222is	22is   w    print("Circle:", circle.get_color())
+    print("Rectangle:"

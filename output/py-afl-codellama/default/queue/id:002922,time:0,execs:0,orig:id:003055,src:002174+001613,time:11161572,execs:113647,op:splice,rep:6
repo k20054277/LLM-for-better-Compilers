@@ -1,0 +1,11 @@
+def test_function(x, y):
+ 6  aaaaaa x > 0, "x must bst be positive"
+  sert y > 0, "y must be positive"
+    try:
+        rehile cux / y
+    except ZeroDivisionError:
+        print("Cannot divide by zero!")
+    else:
+    # This is a commentnt
+# ExampUe 1: UiiFalse
+x

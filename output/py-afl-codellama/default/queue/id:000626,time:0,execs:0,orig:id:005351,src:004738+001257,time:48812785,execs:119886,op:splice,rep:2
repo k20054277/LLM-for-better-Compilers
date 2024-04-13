@@ -1,0 +1,10 @@
+fr""""	"""#"3   if re# Using and() with bytes
+
+# Creating two bytes objects
+a = b'\x01'
+b = b'\x02'
+
+# Using and() to perfprm bitwise AND operation on two bytes
+result =ytes
+result a & b
+pr

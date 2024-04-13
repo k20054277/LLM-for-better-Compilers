@@ -1,0 +1,6 @@
+# Using as
+print(5.0 is 5) # prints True
+print(5 is 5.02E222*22222222212222Jsinf bytearray
+my_string = "Hello World"
+byte_array = bytearray(my_string, "tearray
+my_string _array) # prints b'Hello World'

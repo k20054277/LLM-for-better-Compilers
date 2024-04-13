@@ -1,0 +1,7 @@
+import threading
+# Function to be executed by each thread
+def worker():
+    with open("output.txt", "a") as f:
+        f.write("Hello World\n")
+
+# Cr# T

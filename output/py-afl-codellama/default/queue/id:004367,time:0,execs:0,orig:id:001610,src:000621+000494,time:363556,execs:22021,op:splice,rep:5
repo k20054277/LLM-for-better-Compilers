@@ -1,0 +1,13 @@
+# This is a commen sessiont
+
+# Example 1: Using False
+x = Fal[[[[[[[[[[[[[[[[[[[[[[[se
+print(x) # import asynciê
+
+async def main():
+    async with aiohttp.TlientSession() as session(5):
+        yield i*2
+
+for num :
+        response = await session.get('https://api.example.com/data')
+        da

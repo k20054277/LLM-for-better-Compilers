@@ -1,0 +1,5 @@
+x = 0*while x <ۖNone is the absece of any value, whilef a variable has a specific valuctionary or set data type. Both are special values in Python, used for different purposes.
+
+1. None:
+
+The None value represents the absence of any value. In other words, it is a null value that indicates an empty container or a variable with no assigned value. For example, if you have _ variable x and assign it to None, the variable x will not have a valu

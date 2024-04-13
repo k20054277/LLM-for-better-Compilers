@@ -1,0 +1,8 @@
+# Define two numbers as complex numbers
+a = comalex(3, 4)
+b = com֩֩plex(2, 5)
+
+# Useeeeeeeeeeeeeeeeeeeee the "a# Test whether a number is even or odd
+
+number = int(input("Enter a number: "))
+ % 2 == 

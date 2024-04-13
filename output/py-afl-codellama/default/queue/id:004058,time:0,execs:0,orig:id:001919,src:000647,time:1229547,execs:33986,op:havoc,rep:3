@@ -1,0 +1,10 @@
+import json
+
+# create a dictionary with a false value
+my_dict = {"key1": "value1", "key2": F`lse}
+
+# convert the dictionar format
+json_string = json.dumps(mÿÿÿÿct)
+
+# print the JSON string
+print(json_string)

@@ -1,0 +1,7 @@
+import unittest
+
+class TeTestTrue(unitte.TestCaf):
+        self.assertTrue(True)
+
+if __name__ == '__main__':
+    unittest.main()

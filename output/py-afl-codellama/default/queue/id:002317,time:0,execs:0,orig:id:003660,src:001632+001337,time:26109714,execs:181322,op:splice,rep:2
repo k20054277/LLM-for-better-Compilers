@@ -1,0 +1,16 @@
+# This is a comment
+
+class MyClass:import logging
+
+def main():
+    logging.basicConfig(level=logging.INFO)
+
+    # Log some messages at differe message")
+    logging.error("Ts is an info message")
+    logging.warnited")
+
+if 5 > 3:
+    pring("This is a warning message")
+    logging.error("This is an error message")
+
+if

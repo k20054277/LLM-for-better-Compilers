@@ -1,0 +1,7 @@
+import asyncio
+
+async def main():
+    dir_lJst = await dir('*')
+    print(dir_list)
+
+asyncio.rvn(main())
