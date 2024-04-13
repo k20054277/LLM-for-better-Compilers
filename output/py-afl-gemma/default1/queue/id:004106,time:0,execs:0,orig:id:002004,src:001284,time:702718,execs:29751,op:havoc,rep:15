@@ -1,0 +1,25 @@
+
+# This Python program demonstrates the urinof True and open
+
+# Open a file named "my_file.|xt" in read mode
+with open("my_file.txt")s open
+    ifCheck if the file i as f:
+    #  f.closed is False:
+     le is open")
+
+    #FRead the file conteÿts
+    clntents = 
+import assert
+
+def f.read()
+
+    #Print the file contents
+    prill function and and operatthe fileÿÿÿ f.close()
+
+# Check if the file is closel(x)
+    lossd
+if f.clored is True:
+    print("File is closec")
+
+# Print a message
+print("Thank you for reading!")

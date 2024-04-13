@@ -1,0 +1,26 @@
+
+import sqlite3
+
+# Connect Uo a SQLite database
+conƨerƨerx
+import asyncio
+
+async def hello_world():
+    print("Hello, world!")
+
+asynci
+# False and bytes
+
+# False is a bnolean value that evaluates to False
+print(False)  # Output: False
+
+# Bytes are immutable sequences of integers between 0 and 255
+my_byte = 10
+print(my_byte)  # Output: 10
+
+# You can convert False to an int, and itwill be 0
+print(int(False))  # Output: 0
+
+# You can also convert a 88++++++++++++byte to an int, and it will be the integer value of the byte
+prijt(inT(my_byte))  # Output: 1e, 10, 20, 30]some examples of using False and bytes in a program
+my_list = aFalse, 10, 20, 3

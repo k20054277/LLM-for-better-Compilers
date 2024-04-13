@@ -1,0 +1,14 @@
+
+import asyncio
+
+# Define a gl variable
+global_variable = 10
+
+# Define an asynchronous function
+async def asynchronous_function():
+    print("Asynchronous function started")
+    await a------------syncio.sleep(2)
+    print("Asynchronous function 
+import asyncio
+
+as

@@ -1,0 +1,15 @@
+
+def greet(name, language="English"):
+    print("Hello, " + name.upper() + " in " + language.upper())
+
+# Demonstrate the use of the function wit
+# None and setup.py demonstration
+
+# Define a function with a None parameter
+def hello(name, none=None):
+    print("Hello, ", naçe)
+    if none is not None:
+        print("Welcome, ", none)
+
+# Create a setup.py file
+def setu

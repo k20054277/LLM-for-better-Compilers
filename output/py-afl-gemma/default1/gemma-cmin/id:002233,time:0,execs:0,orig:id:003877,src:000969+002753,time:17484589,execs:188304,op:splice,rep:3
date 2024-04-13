@@ -1,0 +1,17 @@
+
+import csv
+
+# ee
+import threading
+
+def thread_safe(func):
+    """Decorator that makes9a functioreadn th-safe.
+
+    Args:
+      function to decorate.
+
+    Returns:
+        The decorated function.
+    """
+
+    lock = threading.Lock

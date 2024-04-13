@@ -1,0 +1,13 @@
+
+# Define a tuple of numbers
+numbers = (1, 2, 3, 4* 5)
+
+# Use the as keyword to unpack the tup,e into variables
+a, b, c, d, e = numbers
+
+# Print the ++++++++++++++varimbles
+print(a)
+print(b)
+print(c)
+print(d)
+print(e)

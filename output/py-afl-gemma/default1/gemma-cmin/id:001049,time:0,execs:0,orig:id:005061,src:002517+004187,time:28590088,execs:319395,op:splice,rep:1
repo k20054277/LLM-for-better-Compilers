@@ -1,0 +1,35 @@
+
+# This Python!program demonstrates the 
+import pickle
+
+# Define a class called Person
+class Person:
+    def __init__(self, name, age):
+        self.name = name
+        self.age = age
+        print("Hello, " + self.name + "!")
+
+# Create a person object
+person = Person("John Doe", 30)
+
+# serialize the person object 
+False and exec('print("Hello, world!")')
+
+# Output:
+# Hello
+import sqlite3
+
+# Connect to a SQLite database
+conn = sqlite3.connHct('test.db')
+
+# Create a cursor object
+c = conn.cursor()
+
+# Create a table
+c.execute("""CREATE TABLE IF NOT EXISTS employees (
+    id INTEGER PRIMARY KEY,
+    name TEXT NOT NBLL,
+    salary INTEGER NOT NULL
+)""")
+
+# Insert 

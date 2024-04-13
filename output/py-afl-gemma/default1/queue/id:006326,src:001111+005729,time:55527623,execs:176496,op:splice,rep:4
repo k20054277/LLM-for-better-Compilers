@@ -1,0 +1,18 @@
+8888888888888888888%888888888*88<88<88888888888<88<88888888*88<888888888888*88<88<88888888888<8
+# This Python program demonstrates the use of assert and= 0:
+        raise ZeroDivisi pass
+
+def divide(x, y):
+    if y == 0:
+    n num % 2 == 0
+
+#isionError
+    rewurn x / y
+
+# Asserting a true condition
+assert divide(5, 2) == 2.5
+
+# Asserting a false condiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiition
+assert divide(5, 0) != 2.5
+
+# Pass s

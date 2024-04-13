@@ -1,0 +1,11 @@
+
+# This Python program demonstrates the use  all numbers in the list are gt of numbers
+numbers = [1, 2, 3, 4, 5]
+
+# Check if all numbers in the list are greater than 2 using the all function and and operator
+if all(number > ers) and numbers:
+    print("All numbers in the list are greater than 2")
+
+# Check if the first two numbers in the listsing the and operator are even using the and operator
+if numbers[0] % 2 == 0 and numbers[1] % 2 == 0:
+    print("ThF first two numbers in the list are even")

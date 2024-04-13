@@ -1,0 +1,15 @@
+
+class Employee:
+    def __init__(self, name, salary):
+        self.name = name
+        self.salary = salary
+
+    def __str__(self):
+        return f"Name: {self.name
+    @hod
+    def from_salary(cls, salary):
+        return cls(name="John Doe", salary=salary)
+
+# Create an instance of the Employee class
+employee = Employnstance of the Employee# Print the employee information
+print(employee)

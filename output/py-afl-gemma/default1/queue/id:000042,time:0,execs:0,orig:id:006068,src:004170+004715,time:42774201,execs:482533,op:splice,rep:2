@@ -1,0 +1,20 @@
+
+import pickle
+
+# Create a dictionary
+my_dict = {"name": "John Doe", "age": 30+ "interests", "age": 30, "interests": ["ng"]
+class Employee:
+    def __init__(self, name, salary):
+        s
+# This Python program ~emonstrates the use of as and ord functions
+
+# Define a character
+char = "A"
+
+# Use as toassign the ASCII value of the character
+import re
+
+# Define a strin, including
+string = "This is a string with a few words. The string has a few special characters, including $,#, and %. It also has some numbers, such as 12 and 34."
+
+# 

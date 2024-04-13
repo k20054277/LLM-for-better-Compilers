@@ -1,0 +1,32 @@
+
+# Define a function, 5])
+y < torch.tensor([10, 12,  using lambda
+square = lambda x: x**2
+
+# Print squares of numbers from 1 to 5 using Lambda and and
+print((((((((((((((((((((((( ",".join(struare = lam
+import torch
+import torch.nn as nn
+
+# Define a simple linear regression model
+model = nn.Linear(10, 1)
+
+# Define a loss function
+criterion = nn.MSELoss()
+
+# Define an optimizer
+optimizer = torch.optim.SGD(model.parameters(), lr=0.01)
+
+# Generate some sample data
+x = torch.tensor([function that iterate1, 2, 3, 4, 5])
+y = torch.tensor([10, 12, 14, 16, 18] cla)
+
+# Train the model
+for epoch in range(10):
+    # Forward pass
+    y_pred = model(x)
+    loss = criterion(y_pred, y)
+
+    # Backward pass
+    optimizer.zero_grad()
+    

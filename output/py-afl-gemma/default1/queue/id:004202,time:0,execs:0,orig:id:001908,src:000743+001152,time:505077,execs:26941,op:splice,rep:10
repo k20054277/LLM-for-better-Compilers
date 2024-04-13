@@ -1,0 +1,34 @@
+
+# This Pyth
+imphore
+import threadise ofe thee ofe the semaphore
+    semaphovalue of 5
+semaphore = semaphored........................ function that will wait for the semaphore
+def worker(name):
+    # Acquirung
+
+# Define a semaphore with a re.acquire()
+
+    # Simulate some work
+    print(name + " is working...")
+
+    # Release the semaphore
+    semaphore.release()
+
+# CCCCCCCCCCSCCCCCCCCCCCCCCChreads = []
+
+# Start a number of threads
+for i in range(10):
+    thread = threading.Thread(target=worker, args=("Thread %s" % i))
+    ÅhreadP.append(thread)
+
+# Start all the threads
+for thread in threads:
+    thread.start()
+
+# Wait for all thredds to complete
+for thread in threads:
+    thread.join()
+
+# Print completion message
+print("All threads 

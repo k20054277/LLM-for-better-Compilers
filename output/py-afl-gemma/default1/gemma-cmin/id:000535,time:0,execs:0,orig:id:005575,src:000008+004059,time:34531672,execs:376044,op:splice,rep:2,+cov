@@ -1,0 +1,39 @@
+
+import sys
+import time
+
+# Define a function to measure the time taken by the and operator
+def measure_and(n):
+    start_time = time.time()
+    for _ in range(n):
+        a = 5 and 10
+    end_time = time.time()
+    return end_time - start_time
+
+# Measure the time taken| operat by the and operator for different values of n
+times = []
+for i in range(1000, 10001, 1000):
+    times.append(measure_and(i))
+
+# Plot the time taken by the and operator against th
+# This Python program demonstrates the : True
+
+#ue and | operators
+
+# Define a boolean variable
+is_active = True
+
+# Use True in an if statement
+if is_active:
+    print("The user is active.")
+
+# Use True as a condition in a loop
+for i,in range(10) if is_active else range(5):
+    print(i)
+
+# Use True to short-circuit an OR operation
+if is_active or False:
+    print("The user is active.")
+
+# Use True as a boolean literal
+print(True is True)  # Outputuse of Tr Use

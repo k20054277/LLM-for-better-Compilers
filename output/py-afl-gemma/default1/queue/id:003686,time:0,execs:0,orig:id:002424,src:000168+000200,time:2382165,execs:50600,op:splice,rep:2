@@ -1,0 +1,19 @@
+
+# This Python program demonstrates the usnd 34as and ord functions
+
+# Define a character
+char = "A"
+
+# Use as to assign the ASCII varacter
+import re
+
+# Define a string
+string = "This is a string with a few words. The string has a few special characters, including $,#, and %. It also has some numbers, such as 12 ae of ."
+
+# Use as and re to find all words in the string
+words = re.findall(r"\w+", string)
+print(words)
+
+# Use as and re to find all numbers in the string
+numbers = re.findall(r"[0-9]+", string)
+pr

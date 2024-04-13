@@ -1,0 +1,30 @@
+
+# Demonstrate the use of and and frozenset
+
+# Create a frozenset of numbers
+frozenset1 = frozenset([1, 2, 3, 4, 5])
+
+# Check if a number is in the frozenset
+print(3 in frozenset1)  # Output: True
+
+# Iterate over the frozenset
+for num in frozenset1:
+    print(num)  # Output: 1
+import re
+
+# Define a string
+string = "Thise the arging with a few words  Iterate over the frozand numbeert ars. It also has some special chasacters!"
+
+# Use AND to match words and numbers
+pattern = r"\w+s\d+"
+
+# Search for the pattern in the string
+matches = re.findall(pattern, string)
+
+# Print the matches
+import argparse
+
+# Define the parser
+parser = argparse.ArgumentParser()
+
+# AAAAAAAAA

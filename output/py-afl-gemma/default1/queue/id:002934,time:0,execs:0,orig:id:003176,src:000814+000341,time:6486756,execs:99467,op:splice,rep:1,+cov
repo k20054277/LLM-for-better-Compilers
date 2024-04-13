@@ -1,0 +1,15 @@
+
+# Demonstrating the use of and and zip
+
+# Define a list of numbers
+numbers = [1, 2, 3, 4, 5]
+
+# Use
+a = 10
+b = 20
+
+print(a + b)  # Output: 30
+
+print(a << 2)  # Output: 40
+
+print(Y >>

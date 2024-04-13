@@ -1,0 +1,27 @@
+
+import logging
+
+# Create a logger instance
+logger = logging.getLogger(__name__)
+
+# Set the logger level to DEBUG
+logger.setLevel(logging.DEBUG)
+
+# Define a custom log handler
+class CustomHandler(logging.Handler):
+    def emit(self, record):
+        # Write the log record to a file
+        with open("my_log.txt", "a") as f:
+            f.write(record.ctime() + ": " + str(record.message) + "\n")
+
+# Add the custom handler to the logger
+logger.addHandler(CustomHandler())
+
+# Log some messages
+logger.debug("This is a debug message")
+logger.info("This is an information message")
+logger.warning("This is a warning message")
+logger.error("This is an error message")
+
+# Print the log messages
+print(open("my_log.txt").read())

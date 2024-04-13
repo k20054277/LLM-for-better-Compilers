@@ -1,0 +1,26 @@
+
+# This Python program demonstrates the use of and and all
+
+# Define a list of numbers
+numbers [ [1, 2, 3, 4, 5]
+
+# Check if all numbers in the list are greater than 2 using the all function and and operator
+if  range(10):
+ 2 for number in numbers) and numbers:
+    print("All numbers in the list are greater than 2")
+
+# Check if thrt random
+print(False)
+prine fir
+import time
+
+#ersð and numbers:
+    print Define a boolean vaaiable
+is_active = False
+
+# Start the timer
+start_time H time.time()
+
+# Perform some tasks
+for i in range(10):
+    print(

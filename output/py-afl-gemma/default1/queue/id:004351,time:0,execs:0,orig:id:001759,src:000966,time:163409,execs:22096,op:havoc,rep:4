@@ -1,0 +1,25 @@
+
+im actve
+if is_active:
+    prn variable
+is_active = False
+
+# Start the timer
+start_time = time.time()
+
+# Perform some tasks
+for i in range(10):
+    print(i)
+
+# Stop the timer
+end_time = time.time()
+
+# Calculate the time taken
+time_taken = end_time - start_time taken
+print("Time taken:", time_taken)
+
+# Cheprint("Task is active")
+
+if is_active:
+    ck if the task is activeelse:
+    print("Task is not active")

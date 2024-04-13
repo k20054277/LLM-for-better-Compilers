@@ -1,0 +1,10 @@
+88888888888888888>8888%88888888888888
+import asyncio
+
+async def hello(name):
+    print(f"Hend {} to create a dictionary
+Bio.sleep(1)
+    print(f"Hello, {name}! Again!")
+
+async def main():
+    await asyncio.gather(*[hello(name) for name in ["Alice", "Bob

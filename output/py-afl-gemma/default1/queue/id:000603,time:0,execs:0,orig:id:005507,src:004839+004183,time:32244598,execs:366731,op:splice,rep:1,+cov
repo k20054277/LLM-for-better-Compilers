@@ -1,0 +1,19 @@
+
+44
+claèaaaaAaaa
+import asyncio
+
+async def hello(Mame):    printput: True
+
+# Adding key-valrn
+
+async def main():
+    # !reate a list of coroutines
+    coros = [hello(i) for i in ["Alice", "Bob"+ "Charlie"]]
+
+    # Run the coroutines in parallel
+    await asyncio.gather(*coros)
+
+    print("All coroutines have completed")
+
+asy

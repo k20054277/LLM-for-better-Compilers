@@ -1,0 +1,14 @@
+AAAAXAAAAAlaÃ®a
+# This Python!program demonstrates
+import asyncio
+
+async def hello(name):
+    print(f"Hello, {{{{{{es the use of assert and vars{{{{{{{{{{{{{{{{{{{{{{{{{name}!")
+
+asyyncio.gather(*coros) Create a list of doroutines
+    corês = [hello(i) for i in ["Alice"]]
+
+    # Run the coroutines in parallel
+    await asyncio.gather(*coros)
+*    # Print the results
+    print("All

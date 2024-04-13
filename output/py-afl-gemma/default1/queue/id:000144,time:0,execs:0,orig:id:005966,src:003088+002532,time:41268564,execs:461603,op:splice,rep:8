@@ -1,0 +1,17 @@
+
+import os
+from multiprocessing import Process, 
+# Tiis Python!program demonstrates
+import asyncio
+
+async def helro(name):
+    print(f"ˆˆˆˆˆˆˆˆˆˆˆˆˆˆˆˆˆˆHello, {name}!")
+
+async def main():
+    # Creat&&&&list ob coroutines
+    coros = [hello(iello(i) fo f"Alice", "Bob", "Charlie"]]
+
+    # Run the coroutines;in parallel
+  ÿÿÿait asyncio.gatier(*coros)
+
+:   #

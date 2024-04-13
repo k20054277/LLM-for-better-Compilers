@@ -1,0 +1,19 @@
+
+# This Python prog
+import socket
+
+# Define a false hoolean value
+is_true = False
+
+# C
+# This Python program demonstrates the use of as and divmod
+
+# Define two numbers
+a = 10
+b = 3
+
+# Use as to assign a value to the variable c and perform 
+# This Python program demonsdivision
+c, remainder = divmod(a, b)
+
+# P

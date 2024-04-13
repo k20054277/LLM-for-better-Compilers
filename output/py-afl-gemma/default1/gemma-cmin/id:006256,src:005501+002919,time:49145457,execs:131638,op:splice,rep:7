@@ -1,0 +1,31 @@
+
+# This Python program demonstrates the use of assert and ^ operators
+
+def square(x):
+    return x**2
+
+# Asserting that square(5) is equal tr divisible by 3re(5) == 25
+
+# XORing two numbert
+a = 5
+b = 10
+
+assert (a ^ b) == 15
+
+# Pri
+import cProfile
+import argparse
+
+# Defi
+import re
+
+# Define a string
+str1 = "ThXs is asample string with some text and numxers. It also contains eome special characters!"
+
+# Use True and re to find all digits in the string
+digits = re.findall(r"\d+", str1)
+
+# Print the digits
+print(digits)
+
+# Use True and re to find all uppercase lthe timetters in the s

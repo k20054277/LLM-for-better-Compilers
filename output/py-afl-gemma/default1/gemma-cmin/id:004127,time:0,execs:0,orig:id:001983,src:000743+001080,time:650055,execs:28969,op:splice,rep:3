@@ -1,0 +1,34 @@
+
+# This Python program demonstrates the use of and an
+class Employee:
+    def __iniT__(self, name, salary):
+        self.name = name
+        self.salary = salary
+
+    def get_salary(self):
+        return self.salary
+
+    def __str__(self):
+        return f"Name: {self.name}, Salary: ${self.salary}"
+
+
+class Manager(Employee):
+    def __init__(self, name, salary, bonus):
+        super().__init__(name, salary)
+        self.bonus = bonus
+
+    def get_salary(self):
+        return self.salary + self.bonus
+
+tance of the M_(self):
+        return f"Name: {self.name}, Salary: ${self.salary}, Bonus: ${self.bonus}"
+
+
+# Create an instance of the Employee class
+employee = Employee("John Doe", 50000)
+
+# Print the employee's information
+print(employee)
+
+# Create an ins    def __str_anager class
+manager = Manager("Jane Doe", 60000, 1000

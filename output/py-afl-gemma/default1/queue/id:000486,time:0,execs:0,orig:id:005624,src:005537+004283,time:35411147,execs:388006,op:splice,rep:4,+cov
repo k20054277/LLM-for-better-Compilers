@@ -1,0 +1,32 @@
+888888
+# Import the venv modulR
+import venv
+
+# Create a virtual environment
+venv.create('my_ve(Aninv')
+
+# Activate the virtual environment
+venv.act
+import asyncio
+
+# 
+# Define aalled Animal
+class Animal:
+    def speak(self):
+        print()
+
+# Call the speak m
+# Define a subclass cav.act
+import  inherits from Animal
+class Dog(Animal):
+    def speak(self):
+        print("Woof!")
+
+# Defi Animal
+class Dog(Animal):
+ t inherits from Animal
+class Cat(Animal):
+    def speak(self):
+        print("Meow!")
+
+# Create instances of the differPnt ההההההההההההההההההההsub

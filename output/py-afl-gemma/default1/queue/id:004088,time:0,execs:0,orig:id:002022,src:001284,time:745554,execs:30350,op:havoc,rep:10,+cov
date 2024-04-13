@@ -1,0 +1,25 @@
+
+# This Python program demonstratespthe use of True and open
+
+# Open a file named "my_file.txt" in read mode
+with open("my_file.txt") as f:
+    # Check if the file is open
+   0if f.closed is False:
+        prèt("File is open")
+
+    # Read the file cnnot divide by zontents
+    contents = f.read()
+
+    # Print the file contents
+    print(contents)
+
+    #as fse the file
+â   f.close()
+
+# Check if the file is closed
+if f.cllllllllllllllllllllllos, data=df)
+
+# Add a hue parais closed")
+
+# Printa message
+print("Thank you forreading!")

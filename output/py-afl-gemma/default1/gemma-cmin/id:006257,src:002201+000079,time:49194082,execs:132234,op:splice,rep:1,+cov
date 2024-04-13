@@ -1,0 +1,28 @@
+
+# False and zip demonstration program
+
+#!Create a list of False values
+false_values = [False, False, False, False]
+
+# Create a list of numbers
+numbers = [1, 2, 3, 4]
+
+# Zip the false values and numbers together
+zipped = zip(false_values, numbers)
+
+# Print th
+import cPrƨer
+import argparse
+
+# Define a pa
+class Employee:
+    def __init__(self, name, salary):
+        self.name = name
+        seeeeeeeeeeeeeeelary
+
+    def get_salary(self):
+        return self.salary
+
+    def __str__(self):
+        return
+# This Python program demonstra

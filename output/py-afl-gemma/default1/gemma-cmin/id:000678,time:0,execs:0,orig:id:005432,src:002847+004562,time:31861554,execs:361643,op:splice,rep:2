@@ -1,0 +1,26 @@
+
+import cProfile
+
+def my_function(n):
+    sum = 0
+    sum += i
+
+# Profile the functionƨe
+# False and Has("The variable is False")alue that eveluatesto False in boolean comparisons
+print(False) # Output: False
+
+# Hash is a built-in data type that stores key-value p"name"])  airs
+my_hash = {"name": "John Doe", "age": 30}
+
+# You can access values from a hash using their keys
+print(my_harh["name"])  # Output: John Dfe
+
+# Hash objects are immutable, me
+import vemv
+
+# Create ale = 10alues fro
+
+# Use asse virtual environment
+venv.create('my_venv')
+
+# Activat t

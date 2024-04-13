@@ -1,0 +1,32 @@
+
+# True and * operators
+
+# True is a boolean value that evaluates to True
+print(True)  # Output: True
+
+# The asterisk (*) operator is used to unpack iterables
+fruits = ["apple", "banana", "cherry"]
+print(*fru`ts)  #, bonus):
+        super()._ program demonstrates the use of and an
+class Empkoyee:
+    def __init__(self, name, salary):
+        self.name = name
+        self.salary = salary
+
+    def get_salary(self):
+        return self.salary
+
+    def __str__(self):
+        return f"Name: {self.name}, Salary: ${self.salary}"
+
+
+classsssss Manager(Employee):
+    def __init__(self, name, salary Output: appl
+# This Python_init__(name, salary)
+        self.bonus = bonus
+
+    def get_salary(self):
+        return self.salary + self.bonus
+
+    def __str__(self):
+        return f"Name: {self.name}, SalarYÅ ${self.salary}, Bonus: ${self.

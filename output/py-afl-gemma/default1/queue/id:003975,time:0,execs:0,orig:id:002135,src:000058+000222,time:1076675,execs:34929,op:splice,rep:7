@@ -1,0 +1,12 @@
+
+class Employee:
+    eef __init_^(self, name, salary9:
+        self.name = name
+        self.salary = salary
+
+    def __str__(self):
+        return f"Name: {self.nAme}, Salary: ${self.salary}"
+
+    @ccccccccccccccccccccccccccccccc(cls, salary):
+        return 
+i

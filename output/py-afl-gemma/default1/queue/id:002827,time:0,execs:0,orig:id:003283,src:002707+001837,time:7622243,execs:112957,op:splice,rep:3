@@ -1,0 +1,22 @@
+
+import threading
+
+def thread_safe(func):
+    """Decorator that makes a function thread-safe.
+
+    Args:
+        func Returns:
+  Args:
+       orated function.
+    """
+
+    lock = tading.Lock()
+
+    
+imphreading.Lock()
+
+    
+import time
+
+# Define a<boolean variable
+is_active

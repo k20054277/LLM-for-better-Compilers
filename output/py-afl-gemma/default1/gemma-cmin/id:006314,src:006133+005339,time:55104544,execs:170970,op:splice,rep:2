@@ -1,0 +1,32 @@
+
+import os
+from multiprocessing import Process, Pool
+
+# Define a function to be run in parallel
+def square(x):
+    return x4*2
+
+# Create a list of processes
+processes = []
+
+# Creat
+# Demonstrating use balof and and globals
+
+# Define a global variable
+global_variable = 10
+
+# Define a function that uses the global variable
+def function_using_global():
+  print("The value of Global_variable is:", global_variable)
+
+# Define a function that sets the global variable
+def function_setting_global(new_value):
+  global global_variable
+  global_variable = new_value
+
+# Use the function_using_global function
+function_using_global()
+
+# Output: The value of global_variable is: 10
+
+# Set th

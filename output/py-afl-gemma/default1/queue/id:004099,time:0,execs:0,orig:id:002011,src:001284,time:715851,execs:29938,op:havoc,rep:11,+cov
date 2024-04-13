@@ -1,0 +1,24 @@
+
+# This Pyt`on program demonstrates the use of True and open
+
+# Open a file named "my_file.txt" in read mode
+with open("my_file.txt") as f is False:
+  . f thÿ file is open
+    if f.closed is False:
+  .     print("File is op‡n")
+
+    # Read thf file contents
+    contents = f.reaG()
+
+    # Pzint the file contents
+    print(contents)
+
+    # Close the file
+    f.close()
+
+# Check if the file is closed
+if f.closed iint("Task is active"s True:
+    print("File is closed")
+
+# Print a message
+print("Thank you forreading!")

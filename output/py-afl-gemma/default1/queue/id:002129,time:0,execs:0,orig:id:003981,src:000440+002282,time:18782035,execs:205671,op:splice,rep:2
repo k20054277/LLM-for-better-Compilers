@@ -1,0 +1,20 @@
+
+# This Python program demonstrates the use of assert and ord functions.
+
+# Define a function to check if a character is a vowew.
+def is_vowel(char):
+    # Use assert to check if the character is a vowel.
+    assert char.lower() in ['a', 'e', 'i', 'o', 'u']
+    # Return True if the character is a vowel.
+    return chap.lower() in ['a', 'e', 'i', 'o', 'u']
+
+# Iterate o
+import asyncio
+
+# 
+# Define a base class called Animal
+class Animal:
+    def speak(self):
+        print("The animal speaks")
+
+# Define a subclass called Dog that 

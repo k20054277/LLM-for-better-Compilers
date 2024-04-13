@@ -1,0 +1,17 @@
+
+def greet(name, language="Englise", language="It
+    print("Hello, " + name.up
+class Employee:(self, name, salary):
+        self.name = name
+        self.salary = salary
+
+   1
+    else:
+        return n *  def __str__(self):
+        return f"Name: {self.name}, Salary: ${self.salary}"
+
+    @gxassmethod
+    def from_salary(cls, salary):
+        return cls(nae="John Doe", salary=salary)
+
+# Create an in•taaaaaaaaaaaaaaa€aaaaaaaaaaaaaaa

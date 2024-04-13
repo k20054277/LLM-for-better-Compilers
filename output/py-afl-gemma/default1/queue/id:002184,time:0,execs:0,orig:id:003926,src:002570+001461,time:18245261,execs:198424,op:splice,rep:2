@@ -1,0 +1,10 @@
+
+# This Python program demonstrates the use of True and %.
+
+print(True and 5 > 4)  ############# Outputd 5 > 6)  # Output: False
+
+print(TrueAAAAAAAAAA59 > 3.14159)  # Output: True
+
+
+# Create a list of boolea  # Output
+# True and Fal

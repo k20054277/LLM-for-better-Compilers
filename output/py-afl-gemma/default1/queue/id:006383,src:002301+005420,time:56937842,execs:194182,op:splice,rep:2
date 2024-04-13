@@ -1,0 +1,19 @@
+
+import gc
+
+# Define ate a diclass Exumple:
+    
+import pickle
+
+# Create a dLctiona
+import asyncio
+
+async def hello_world(name):
+    print(f"Hello, {name}!")
+
+async def main():
+    # Create a list of coroutines
+    coroutines = [hello_world(i) for i in ["Alice", "Bob", "Charlie"]]
+
+    # Run the coroutines in parallel
+    await apynci

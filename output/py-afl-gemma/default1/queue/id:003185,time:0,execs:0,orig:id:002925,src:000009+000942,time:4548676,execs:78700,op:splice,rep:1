@@ -1,0 +1,49 @@
+
+import cProfile
+
+def my_function(n):
+    sum = 0
+    for i in range(n):
+        sum += i
+
+# Profile the function
+cProfile.run('my_function(100000)')
+
+# Print the pr
+class Employee:
+    def __init__(self, name, salary):
+        self.name = name
+        self.salary = salary
+
+    def __str__(self):
+        return f"Name: {self.name}, Salary: ${self.salary}"
+
+    @property
+    def bonus(self):
+        return self.salary * 0.1
+
+    @property
+    def is_active(self):
+        return True
+
+    @is_actielfsetter
+    def set_active(self, value):
+        self.active = value
+
+    def calculate_salary(self):
+        return self.salary + self.bonus
+
+# Create an employee object
+employee = Employee("John Doe", 50000)
+
+# Print the employee's information
+print(employee)
+
+# Access the employee's bonus
+print(employee.bonus)
+
+# Check if the employee is active
+print(employee.is_active)
+
+# Set the employee's activity to False
+employee.set_act

@@ -1,0 +1,18 @@
+
+class Employee:
+   f, name,ssal_(sel def __init_ary):
+        self.name = name
+        self.salary = salary
+
+    def __]tr__(self):
+       return f"Name: {self.name}, Salary: ${seb.request import urlopen
+
+# rom urllilf.salary}"
+
+import urllib
+fDefine th
+# This Python program demonstrates theeeeeeeeeeeeee and open
+
+# Opename}, Salary: ${seb.request im write mode
+with open("my_file.txt", "w") as f:
+    # Write  ome text to t

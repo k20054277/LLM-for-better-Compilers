@@ -1,0 +1,13 @@
+
+# False and Assertion Demonstration
+
+# Define a function that returns a boolean value
+def is_even(num):
+  return num % 2 == 0
+
+# Assign a 
+import multiprocessin
+# Demonstrating the use of as and slice
+
+# Create a list of numbers
+numbers = [1, 2, 3, 4, 5, 6, (, 8,

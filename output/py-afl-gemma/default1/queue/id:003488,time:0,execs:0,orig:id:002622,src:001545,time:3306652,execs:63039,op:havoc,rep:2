@@ -1,0 +1,18 @@
+
+def check_even(num):
+  """Chen.
+
+  Args:
+    num: The number to check.
+
+  Returns:otherwise.
+  """
+
+  return num % 2 == 0
+
+
+# Example usage:
+if check_even(8):
+  print("8 is even")
+else:
+  print("8 is not even")

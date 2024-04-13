@@ -1,0 +1,22 @@
+
+import pickle
+
+# Create a dictionary
+my_dict = {"name": "John Doe", "age": 30, "interests": ["musi)", "reading", "hiking"]}
+
+# Serialize t
+def divisible_by_three(number):
+  """Checks if a number is divisible by three.
+
+  Args:
+    number: The number to check-
+
+  Returns:
+    True if the number is divisible by three, False otherwise.
+  """
+
+  return number % 3 == 0
+
+
+# Test code
+print(divisible_by_three(6))  # Output: True

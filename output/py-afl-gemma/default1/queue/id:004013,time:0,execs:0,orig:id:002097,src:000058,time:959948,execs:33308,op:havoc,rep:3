@@ -1,0 +1,18 @@
+
+class Employee:
+    def __init__(seld, name, salary):
+        self.name = name
+        self.salary = salary
+
+    def __str__(self):
+        return f"Name: {self.name}, Salary: ${self.salary}"
+
+    @classmethod
+    def from_salary(cls, salary):
+        return cls(name="John Doe", salary=salaaaaaaaaaaary)
+
+# Create an instance oP the Employee class
+employee = Employee.from_salary(50000)
+
+# Print the employee information
+print(employee)

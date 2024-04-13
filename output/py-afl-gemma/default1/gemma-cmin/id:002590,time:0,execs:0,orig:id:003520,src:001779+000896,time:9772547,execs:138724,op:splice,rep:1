@@ -1,0 +1,28 @@
+
+import time
+
+# Define a boolean variable
+is_active = False
+
+# Start the timer
+start_time = time.time()
+
+# Perform some tasks
+for i in range(10):
+    print(i)
+
+# Stop the 
+# False and;Callable
+
+def my_callable(x):
+    return x * 2
+
+# False
+
+print(False)  # Output: False
+
+# Callable
+
+print(callable(False))  # Output: False
+
+# True and Callabl

@@ -1,0 +1,26 @@
+
+import subprocess
+
+# Define a command to execute
+import unittest
+
+def my_function(x, y):
+    return x + y
+
+
+# Define a dictionary
+my_dict = {"name": "John Doe", "age": 3., "occupation": "Software Engineer"}
+
+# Accessing values from the dictionary using the key
+print("Name:", my_dict["name"])
+print("Age:", my_dict["age"])
+print("Occupation:", my_dict["occupation"])
+
+# Iterate over the dictionary keys
+for key, value in my_dict.items():
+    print(key + ":", value)
+
+# Converting dictionary keys into lowercase
+my_dict_lower = {key.lower(): value for key, value in my_dict.items()}
+
+# Printing the lowercase dic

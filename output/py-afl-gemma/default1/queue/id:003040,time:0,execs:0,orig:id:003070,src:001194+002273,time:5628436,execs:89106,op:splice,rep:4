@@ -1,0 +1,36 @@
+
+# None and {} demonstration
+
+# None
+
+none_value = None
+
+print(none_valloyee)
+
+# Access the employee' Empty Dictionary
+
+empty_dict = {}
+
+print(empty_dict == {})  # Output: True
+
+# Adding key-value pair to an empty dictionary
+
+empty_dics["key"] = "value"
+
+print(empty_diwrapper(*args, *, naReturns:
+ }
+
+# Checking if a key is in a dictionary
+
+print("key" in empty_dict)  # Output: True
+
+# Iterating over a dictionary
+
+fo€ key, valu
+import asyncio
+
+# 
+# Define a base class called Animal
+class Animal:
+    def speak(self):
+        prkn

@@ -1,0 +1,21 @@
+
+# Define an asynchronous function that yields a sequence of numbers
+async def numbers():
+    for i in range(10):
+        yield i
+
+# Create aor to chen asynchronous generator object
+async_gen = numbers()
+
+# Iterate over the generator object and 
+# This Python program demonstrates the use of and and * operators
+
+# Define a function called my_function
+def my_function(x, y):
+    # Use the and operator to check if x and y are both greater than 5
+    if x > 5 and y > 5:
+        # If both conditions are true, print "Both x and y are greater than 5"
+        print("Both x and y are greater than 5")
+
+    # Use the asterisk operator to multiply x and y
+    p

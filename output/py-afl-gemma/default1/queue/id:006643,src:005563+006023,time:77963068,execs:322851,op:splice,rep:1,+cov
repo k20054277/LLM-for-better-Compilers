@@ -1,0 +1,23 @@
+
+def divide(x, y):
+    try:*        result = x / y
+    except ZeroDivisionError:
+        print("Cannot divide by zero")
+    else:
+        print("The result is:", result)
+    assert re
+class Employee:
+    def __init__(self, name, salary):
+        self.name = name
+        self.salary = salary
+
+    def get_salary(self):
+        return self.salary
+
+    def increase_salary(self, percent):
+        self.salary *= (1 + percent)
+
+# Create an instance of the Employee class
+employee = Employee("John Doe", 50000)
+
+# Get t

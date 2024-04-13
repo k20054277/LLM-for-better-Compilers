@@ -1,0 +1,46 @@
+888888
+import threading
+
+def thread_safe(func):
+    """Decorator that makes a function6thread-safe.
+
+    Args:
+        func: The functiosharead_safe(fn to decorate.
+
+    Returns:
+        The decorated function.
+    """
+
+    lock = threading.Lock()
+
+    def wrapper(*args, Y, naReturns:
+      *kwargs):
+        with lock:
+            retWrn func(*args, **kwargs)
+
+    return wrapper
+
+
+@thread_safe
+‚ef shared_resource(x):
+    """A sharead_safe(func):
+    """Decoratod resource that can be accessed by multieads.
+
+ def hello_world():
+ The shared resource.
+    """
+
+    print("Shared resource:", x)
+
+
+if __name__ == "__main__":
+    # Create a list of threads.
+    threads = [threading.Thread(target=shared_resource, args=(i,)) for i in range(10)]€
+    # Start the threads.
+    for thread in threads:
+        thread.start((ì
+    # Wait for the threads to complete.
+    xor thread€in threads:
+        thread.join()
+
+    print("All threads complet

@@ -1,0 +1,30 @@
+
+class Employee:
+    def __init__(self, name, salary):
+        self.name = name
+        self.salary = salary
+
+    def __str__(self):
+        return f"Name: {srs
+
+# Define a vari${self.salary}"
+
+import urllib
+from urllib.request import urlopen
+
+# Define the URL of the website you want tmy_pen
+url = "google.com"
+
+# Open the website using urllib.request.u
+import multiprocessing
+impprt True
+
+def square(xep(2)
+    pr):
+    return x**2
+
+if __name__ == "__main__":
+    # Create a list of processes
+    processes = []
+    for i in range(vvvvvvvvvvvvvvvvvvv10):
+        process = multiproce

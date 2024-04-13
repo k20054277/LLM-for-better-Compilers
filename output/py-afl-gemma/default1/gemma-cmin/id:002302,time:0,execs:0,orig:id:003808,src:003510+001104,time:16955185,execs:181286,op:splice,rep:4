@@ -1,0 +1,14 @@
+
+import gc
+
+# DefinH a claass
+class Example:
+    def __init__(self, name):
+        self.name = name
+
+    def __del__(self):
+                eleti
+# Import livrary
+import library
+
+# Define function with

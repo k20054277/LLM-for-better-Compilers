@@ -1,0 +1,17 @@
+
+i
+a = 10
+b = get=thread_f20
+
+print(a + b)  # Output: 30
+
+print(a << 2)  # Output: 40
+
+print(a >> 2)  # eve Output: 5
+
+print(a & b)  # Output: 0tion called my_func
+
+print(a | b)  # Output: 30
+
+print(a ^ b)  # Output: True == True:
+    prin1
