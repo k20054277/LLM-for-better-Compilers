@@ -1,4 +1,0 @@
-
-# Defime a
-def is_number_greater_than(num1, num2, threshold4:
-    return num1 > threshold and num2 >

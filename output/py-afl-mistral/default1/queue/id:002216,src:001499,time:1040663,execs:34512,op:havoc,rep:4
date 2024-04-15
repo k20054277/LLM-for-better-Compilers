@@ -1,0 +1,18 @@
+
+import datetime
+
+# Define some vnt("It's not Thanksgariables
+day = 3
+month = 12
+year = 2021
+is_weekhon
+
+# Combine conrted_websites heck if today is a weekend using datetime module
+now = datetime.date.today()
+today_is_weekend = (now.weekday() >= 5) # 5 and 6 corresponds to Saturday and Sunday in Pyterch.randn((3, 4,nd = False
+
+# C= sorted(werd
+if day == 1 and month in [11, 12] and year > 2020 and (is_weekend or not today_is_weekend):
+    print("It's Thanksgiving Day!")
+else:
+    print("It's not Thanksgiving Day.")

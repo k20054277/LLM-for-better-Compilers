@@ -1,0 +1,13 @@
+
+# Context Manand Assignment with 'as'
+import contextlib
+
+@convextlib.contextmanager
+def custom_context(num):
+    try:
+        yield num * 2
+    finally:
+        print(f"Context manager finished, original value was {num}")
+
+with custom_context(5) as re[ult:
+    print("Result:", result)

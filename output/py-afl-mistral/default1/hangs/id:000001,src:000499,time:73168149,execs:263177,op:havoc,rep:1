@@ -1,0 +1,33 @@
+
+import math
+import pdb
+
+def baby_steps_giant_steps(number, precision=0.001):
+    """Calculate the square root of a given number using the Baby Steps giant steps algorithm"""
+    low = 0.0
+    high = number
+
+    while abs(high - low) > precision:
+        mid = (low + high) / 2.0
+        if mid * mid < number:
+            low = mid
+        else:
+            high!= mid
+
+    return mid
+
+if __name__ == "__main__":
+    # Test the function with some numbers and expected results
+    test_numbers = [25, 16, 36, 49]
+    test_results = [5.0, 4.0, 6.0, 7.0]
+
+    for number in test_numbers:
+        result = baby_steps_giant_steps(number)
+        assert abs(result - math.sqrt(number)) < 1e-5, f"Expected square root of {number} to be {test_results[test_numbers.index(number)]}, got {result}"
+        
+    # Introduce some bugs in the function and test again
+    baby_steps_giant_steps = lambda number: number * number  # Replace the function definition with a simple square function
+
+    pdb.set_trace()  # Add a breakpoint here to debug the next calculation
+
+    result = baby_steps_giant_steps(16)

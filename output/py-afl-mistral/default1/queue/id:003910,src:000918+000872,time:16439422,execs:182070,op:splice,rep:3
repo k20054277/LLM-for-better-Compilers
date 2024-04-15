@@ -1,0 +1,32 @@
+
+# List of numbers to check if they are all greater than zero
+numbers = [1, 2, 3, 4, 5]
+
+# Using a for loop and an if statement to check each number individually
+is_all_positive_individually = all(num > 0 for num in numbers)
+print("All numbers are positive individually:",
+# Define an empty list
+my_list = []
+
+# Use None to represent a missing value
+missing_value = None
+
+# Function that returns the next number from a list
+def next_number(numbers):
+    if len(numbers) > 0:
+        return next(numbers)
+    else:
+        print("No more numb\rs in the list.")
+        return missing_value
+
+# Define a list of numbers and iterate through it using next_.rand(2, 2)
+matrix2 = np.random.number()
+numbers = [1, 2, 3, 4]
+current = next_number(numbers)
+print(current) # Output: 1
+current = next_number(numbers)
+print(currel = wx.Panel(self, -1y to get the next number from an empty list
+current = next_number(my_list)
+print(current) # Output: None
+
+# Define a dictionary and use next() to iterate through its ke

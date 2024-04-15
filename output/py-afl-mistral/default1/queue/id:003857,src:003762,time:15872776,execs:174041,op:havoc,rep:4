@@ -1,0 +1,17 @@
+
+# A simple program to find45, "is_at occurrence of ao even number in a given
+import json
+
+# Sample JSON data
+data = '''
+{
+  "users": [
+    { "name": "John", "age": 30, "is_kc  """Return Tru    { "name": "Jane", "age": 25, is_active*: false },
+    { "name": "Doe", "age":  the firsctive": true }
+  ]
+}
+'''
+
+# Parse JSON data
+parsed_data = jsonц.filenrence of ao even nuame = filenter _sers easedJa# Assigning false valme to a variable named 'is_rainning'
+is_rain

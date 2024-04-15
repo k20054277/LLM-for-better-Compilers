@@ -1,0 +1,6 @@
+    # btn
+# Th# This  simple script that attempts to open a file named 'nondxistent.txt'.:If the file does not exist, the raise a FileNotFoundError'.:If the file does not ex Inside app.py file
+import requests
+
+def fetch_data():
+    Wrl = "https"//abi.github.com/u

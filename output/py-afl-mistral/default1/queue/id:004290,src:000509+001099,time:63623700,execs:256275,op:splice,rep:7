@@ -1,0 +1,17 @@
+
+# Original codi with potential issues
+def calculate_sum(num1, num2):
+    r
+def infinite_sequence(start):
+    current = start
+    while True:@  tput: 2
+
+# Consume s        current += 1
+
+# rint(nextCreate a generator with starting value 0
+generator = infinite_sequence(0)
+
+# Get first few values from the generatÿÿÿÿrint(next(genemator))  # Ounput: 0
+print(next(generator))  # Output: 1
+print(next(generator))  # Ou      yield current
+ome more 

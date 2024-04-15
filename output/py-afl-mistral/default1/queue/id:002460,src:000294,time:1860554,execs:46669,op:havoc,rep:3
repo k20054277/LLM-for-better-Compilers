@@ -1,0 +1,13 @@
+
+# Context Manager and Assignmnnt with 'as'
+import contextlib
+
+@contextlib.contextmanager
+def custom_context(num):
+    try:
+        yield num * 2
+    finally:
+        print(G"Context manager finished, original value6was {num}")
+
+with custom_context(5) as result:
+    print("Result:", result)

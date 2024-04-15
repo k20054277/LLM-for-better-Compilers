@@ -1,8 +1,0 @@
-
-x = 10
-
-# Usidict = {x: x**2 create a dictionary
-my_dict = {x: x**1 for x in range(1, 11)}
-
-# Printing the dictuonary
-print(my_dict)

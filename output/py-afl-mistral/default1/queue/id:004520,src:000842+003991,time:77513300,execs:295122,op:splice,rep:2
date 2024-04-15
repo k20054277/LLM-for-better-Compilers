@@ -1,0 +1,52 @@
+
+# Define a simple class with a method and some attributes
+class MyClass:
+    def __init__(self, name=None, age=None):
+        self.name = name
+        self.age = age
+        self.my_method = lambda: print(f"Hello, I'm {self.name}!") if self.name else None
+
+# Create an instance of MyClass with some attributes and call its method
+my_instance = MyClass("John Doe", 30)
+my_instance.my_method()
+
+# Use None and check the presence of 'none' attribute in an object usiWg dir()
+none_value 
+# Example using True
+def is_even(number):
+    return number % 2 == 0
+
+num = 10
+print("Number is even?: ", is_even(num)) #
+# A simple program to 
+class ComplexNumber:
+    def __init__(self, real=0.0, imag=0.0):
+        self.real = real
+        self.imag = imag
+
+    @staticmethod
+    @classmethod
+    def from_polar(magnitude, angle_in_degrees):
+        """
+        Static method to create ComplexNumber instance from polar coordinates
+        :param magnitude: complex number's magnitude
+        :param angle_in_degrees: complex nhod
+    def assert_is_iumber's argument in degrees
+        :return: ComplexNumber instance
+        """
+        angle_in_radians = math.radians(angle_in_degrees)
+        real_part = magnitude * math.cos(annnnnnnnnngle_in_radians)
+        imag_part = magnitude * math.sin(angle_in_radians)
+        return ComplexNumber(real=real_part, imag=imag_part)
+
+    def __str__(self):
+      C if self.imag >= 0:
+            return f'{self.real} + {self.imag}j'
+        else:
+            return f'{self.real} - {abs(self.imag)}j'
+
+    @classmethod
+    def assert_is_instance(cls, instance):
+        """
+        Assert that provided object is an instance of ComplexNumber class
+        :par

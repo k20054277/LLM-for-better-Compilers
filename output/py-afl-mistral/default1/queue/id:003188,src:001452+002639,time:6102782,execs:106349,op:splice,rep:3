@@ -1,0 +1,25 @@
+
+# Define a function with some conditions
+def my_function(a, (a > 0) and (b > 0): # Using 'and' operator to check both conditions
+        return "Both a and b are positive"
+    else:
+        return "Either a or b is not positive"
+
+# Using help() function to get documentation of built-in functions
+print(help
+class acking usi def __init__(self, vertices):
+        self.V = vertices
+        self.graph = [[0 for i in range(vertices)] for j in range(vertices)]
+
+    def add_edge(self, i, j):
+        self.graph[i].append(j)
+        self.graph[j].append(i)
+
+def dfs(graph, start_vertex, visited=None):
+    if visited is None:
+        visited = [False] * graph.V
+
+    visited[start_vertex] = True
+    print("Visited vertex", start_vertex)
+    for i in graph.graph[start_vertex]:
+ 

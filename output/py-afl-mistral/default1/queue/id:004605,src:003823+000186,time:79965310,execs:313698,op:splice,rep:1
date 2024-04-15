@@ -1,0 +1,37 @@
+
+import logging
+
+# Configure logging
+logging.basicConfig(level=logging.DEBUG, format='%(asctime)s %(levelname)s:%(message)s')
+
+# Define a function that performs some complex ca
+from multiprocessing import Pool, Process
+import time
+
+def func(arg):
+    """A simple function that takes some time."""
+    print(f'Function {arg} starttttttttted')
+    time.sleep(2)
+    print(f'Function {arg} finished')
+    return arg * 2
+
+if __name__ == '__main__':
+    args = [1, 2, 3, 4]
+
+    # Creating a process pool with 4 processes
+    with Pool(processes=4) as pool:
+        results = pool.map_async(func, args)
+
+        print('Process pool started')
+        print('Waiting for all processes to finish')
+        pool.close()
+        pool.join()
+
+        print('All processes finished')
+        print('Results:', results.get())
+
+        # Simulating a long running task by sleeping for some time
+        time.sleep(5)
+
+# Output will look something like this:
+# Process pool sta

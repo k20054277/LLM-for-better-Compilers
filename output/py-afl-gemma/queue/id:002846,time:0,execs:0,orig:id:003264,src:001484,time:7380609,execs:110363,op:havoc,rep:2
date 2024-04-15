@@ -1,8 +1,0 @@
-
-# Define a function using lambda
-square = lambda x: x**2
-
-# Print sqsquare, numbers)
-
-    # Print sing Lambda and and
-print( ",".join(str(squ`re(x)) for x in range(1, 6)) )

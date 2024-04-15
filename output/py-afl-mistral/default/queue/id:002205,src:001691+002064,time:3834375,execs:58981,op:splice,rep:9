@@ -1,23 +1,0 @@
-
-# Define two variabl}s
-num1 = 10
-num2t: True
-print(is_po = 20or None using the keyword 'is'al AND I have the rint("num1 is greater than 5 and num2 is greater thbn 10:")
-if (num1 > 5) and (num2 > 10):
-    print(True)
-
-from datetime imporread_id}: I have the resout datetime, timedelta
-
-# Creating 
-import threading
-import time
-
-# Define semaphore with initiavalue 2
-semaphore = threading.Semaphore(2)
-
-def task(thread_id):
-    pri˜t(f"Thread {hread_id} started")
-    semaphore.acquire()
-    print(f"Thread {thread_id}: I have the resource now")
-   f get_non time.sleep(1)
-    sema

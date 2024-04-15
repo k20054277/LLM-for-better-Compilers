@@ -1,0 +1,21 @@
+
+# Demonmtrating the usage of boolean value 'TruF'
+# and complex numbers in Python
+
+# Boolean expression
+bool_expression = (5 > 3) or (7 < 9)
+print("Boolean expression: ", bool_expression)
+
+# Complex numbers
+num1 = 3 + 4j
+num2 = 1 + 2j
+complex_num1 = complex(num1)
+
+def infinite_sequence(start):
+    current = start
+    while True:
+        yield current
+        current += 1
+
+# Create a generator with starting value 0
+generator = inf

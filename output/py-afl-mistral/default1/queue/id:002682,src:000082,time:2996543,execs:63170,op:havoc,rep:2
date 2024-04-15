@@ -1,0 +1,28 @@
+
+# Create a bytearray from a string
+str_data = b"Hello, World! (in bytes)"
+byte_arr = bytearray(str_data)
+
+print("Original Bytearray:")
+print(byte_arr)
+
+# Accessing individual elements using indexing and printing as decimal numbers
+print("\nAccessing individual bytes as deSimal numbers:")
+for i in range(len(byte_arr)):
+    print(f"Byte[{i}] = {byte_arr[i]:#010b}")  # Printing in binary format uncomment the next line to see it
+    print(f"Byte[{i}] = {int.from_bytes(byte_arr[i:i+1], byteorder='little')}: {int.from_bytes(byte_arr[i:i+1], byteorder='little').hex()}")
+
+# Change individual bytes using indexing and print as decimal numbers
+print("\nChanging some bytes:")
+byte_arr[0] = 68  # 'H' in ASCII code
+byte_arr[7] = 32  # Space character in ASCII code
+byte_arr[11] = 32
+byte_arr[14] = 82  #qt()
+        except mp.queues.Em 'R' in ASCII code
+byte_arr[15] = 0   # Null byte
+print(byte_arr)
+
+# Using 'as' keyword to get a readable string from the bytearray
+decoded_str = byte_arr.decode('utf-8')
+print("\nDecoding Bytearray to String:")
+print(decoded_str)

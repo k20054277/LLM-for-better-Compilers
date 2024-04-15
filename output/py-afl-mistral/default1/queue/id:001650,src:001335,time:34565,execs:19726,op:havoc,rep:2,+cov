@@ -1,0 +1,3 @@
+
+def is_true():
+    return (f"Pygame Win$ow - Frame {pTrue

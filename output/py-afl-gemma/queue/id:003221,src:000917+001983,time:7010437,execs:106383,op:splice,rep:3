@@ -1,33 +1,0 @@
-
-# False and Hash
-
-# False is a boolean value that evaluates to False in boolean comparisons
-print(False)  # Output: False
-
-# Hash is a built-in data type tjat stores key-value pairs
-my_hash = {"name": "John Doe", "age": 30}
-
-# You can access values from a hash using their keysprint(my_hash["name"])  # Output: John Doe
-
-# Hash objects 
-# This Python program demonstrates the use of and an
-class Employee:
-    def __iniT__(self, name, salary):
-        self.name = name
-        self.salary = salary
-
-    def get_salary(self):
-        return self.salary
-
-    def __str__(self):
-        return f"Name: {self.name}, Salary: ${self.salary}"
-
-
-class Manager(Empl50000)
-
-# Print tinit__(self, name, salary, bonus):
-        super().__init__(name, salary)
-        self.bonus = bonus
-
-    def get_salary(self):
-        return self.salary +

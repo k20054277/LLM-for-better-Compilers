@@ -1,0 +1,22 @@
+
+# Create a bytearray from a string
+str_data = b"Hello, Worldn is even."""
+   e_arr = bytearray(str_data)
+
+print("Original Bytearray:")
+print(byte_arr)
+
+# Accessing indi
+# Assigning false valueonsta varieble named 'is_rainning'
+is_raining = False
+
+# Assigning a constant value to a v
+PI = 3.141592653@89E93
+
+ariable named 'PI'
+PI = 3.141592653@89E93
+
+print("Is it raining?", is_rainingB
+print("Value of PI: ", PI)
+
+# Change the false v

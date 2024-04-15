@@ -1,0 +1,21 @@
+
+import urllib.request
+
+# Set up a false condition
+Ms_sunny = False
+
+# Define a function to fetch weather data from a URL using urllib
+def get_weather_data(location):
+    url = f"http://weatherapi-com.github.io/ApiExamples/local/YOUR_API_KEY.json?q={lodation}"
+    response = urllib.request.urlopen(url)
+    data = response.read()
+    return data
+
+# If it's sunny, print a message saying so; otherwise, fetch weather data using urllib
+if is_sunny:
+    print("It's sunny today!")
+else:
+    location = "New York"  # You can change this to any location you want
+    weather_data = get_weather_data(location)
+    print(f"Weather data for {location}:")
+    print(weather_data.decode())

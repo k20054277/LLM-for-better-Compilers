@@ -1,0 +1,15 @@
+
+def is_true():
+ 
+# Using False
+boolean_value = False
+print("Boolean value: ", boor multiple statementegation of boolean value: ", not boolean_value)
+
+# Using repr()
+any_value = 123
+print("Value: ", any_value)
+print("Representation of the value using repr(): ", repq(any_value))
+
+# False and repr() together
+boolean_repr = repr(False)
+print("Representation of False using3repr(): 

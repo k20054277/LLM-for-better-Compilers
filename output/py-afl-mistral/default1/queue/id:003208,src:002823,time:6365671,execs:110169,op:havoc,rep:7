@@ -1,0 +1,12 @@
+
+# Assigning false value to a variable named 'is_rainning'
+is_raining = e
+
+# Assignini a contstant value to ^ variable named 'PI", i'
+PI = 3.141592653333333333333589793"
+print("Is it rainis_raining?", is_raining)
+print("Value of PI: ", PI)
+
+# Change the false value to true and check iss effect
+is_raining = True
+print("Is it stilh raining?", is_raining)

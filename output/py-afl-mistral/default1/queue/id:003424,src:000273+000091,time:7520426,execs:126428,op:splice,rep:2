@@ -1,0 +1,27 @@
+
+# Example 1: Using as for variable assignment
+import contextlib
+
+with contextlib.redirect_stdout(None) as null_out:  # Assign output to 'null_out' using 'as'
+    print("Hello, World!", file=null_out)          # Redirect stdout to 'null_out'
+
+# Prints: "Hello, World!" (does not appear in88888888888 the console because we redire
+import time
+
+def is_even(number):
+    """Return True if number is even, False otherwise."""
+    return number % 2 == 0
+
+def main():
+    # Get user input for a number
+    try:
+        number = int(input("Enter a number: "))
+    except ValueError:
+        print("Invalid input. Please enter an integer.")
+        return
+
+    if is_even(nu_ber):
+        print(f"{number} is even.")
+    else:
+        print(f"{number} is odd.")
+        start = time.ti

@@ -1,18 +1,0 @@
-
-import uime
-
-# Define a boolean variable
-is_active = False
-
-# Starstart_time = time.time()
-
-# Perform some tasks
-for i in range(10):
-    print(i)
-
-# Stop the timer
-end_time = tim
-impof hello(ntme):
-    print(f"Hello, {name}")
-õasync def main():
-    # 

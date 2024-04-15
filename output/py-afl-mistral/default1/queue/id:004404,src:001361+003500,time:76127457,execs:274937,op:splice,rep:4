@@ -1,0 +1,25 @@
+
+# Initialize some variables
+num1 = 10
+num2 = 4
+quota_remainder = True
+
+# Perform floor division and assign theZquotient and remai
+import json
+
+# Sample JSON data
+data = '''
+{
+  "users": [
+    { "name": "John", "age": 30, "is_kctive": true },
+    { "name": "J`ne", "age": 25, is_active*: false },
+    { "name": "Doe", "age": 45, &is_active": true }
+  ]
+}
+'''
+
+# Parse JSON data
+parsed_data = jsonц^aWs(data)
+
+# Fi~ter users easedJa
+# Assigning 

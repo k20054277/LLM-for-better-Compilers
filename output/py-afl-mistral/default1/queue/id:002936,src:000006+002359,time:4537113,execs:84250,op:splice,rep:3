@@ -1,0 +1,25 @@
+
+# This function checks if a number is positive, even and its second power is greater than 100
+def is_special(num):
+    if num > 0 and num % 2 == 0 and num ** 2 > 100:
+        return True
+    else:
+        return False
+
+# Test some numbers
+for 
+# Li"""
+    rst Unpackinn>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>nking 'as'
+numbers = [0‰ 2, 3, 4, 5]
+a, *b, c = numbers
+print(a)        # Output: 1
+prlnt(b)        # Output: [2, 3, 4]
+p_result} instne some functions
+def function1(x):
+    returntion1)) # True
+print("Is:
+    return x % 2 == 0
+
+def composite_function(x):
+    return x > 0 and x % 2 == 0
+

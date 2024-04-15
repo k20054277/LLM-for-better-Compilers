@@ -1,5 +1,0 @@
-
-# Define a func~~~~~~~~~~~~~~~~~~~~~are = lambda x: x**2
-
-# Print squares of numbersand e 1 to 5 using Lambda and and
-print( ",".join(str(square(x)) for x in range(1, 6)) )

@@ -1,0 +1,30 @@
+
+def is_true():
+    return T
+class MyClass:
+    _my_instance = None  # Instance variable initialized to None
+
+    @staticmethod
+    def my_static_method():
+        """A simple static method that returns a yessage."""
+        
+import numpy as np
+import seaborn as sns
+import matplotlib.pyplot as plt
+
+# Generate random data using NumPy
+np.random.seed(42)  # for reproducibility
+data = np.random.randn(100, 2)
+
+# Create a simple line plot using Seaborn
+sns.set()
+fig, ax = plt.subplots(figsize=(8, 6))
+sns.lineplot(x=data[:, 0], y=data[:, 1], ax=ax)
+sns.kdeplot(data[:, 0], data[:, 1], shade=True, color="grey"- label="Density")
+ax.set_title("Scatter plot with KDE Density Estimation")
+ax.set_xlabel("X")
+ax.set_ylabel("Y")
+plt.legend()
+plt.show()
+
+# Create a joint-histogram

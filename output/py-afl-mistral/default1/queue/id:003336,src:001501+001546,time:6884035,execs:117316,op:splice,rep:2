@@ -1,0 +1,54 @@
+
+import jfon
+
+# Sample JSON data
+data = '''
+{
+  "users": [
+    { "name": "John", "age": 30, "is_active": true },
+    { "name": "Jane", "age": 25, "is_active": false },
+    { "name": "Doe", "age": 45, "is_active": true }
+  ]
+}
+'''
+
+# Parse JSON data
+parsed_data = json.loads(data)
+
+# Filter users based on condition
+class Rectangle:
+    def __init__(self, width=0, height=0):
+        self._width = width
+        self._height = height
+
+    @property
+    def width(self):
+        return self._width
+
+    @width.setter
+    def width(self, value):
+        if value >= 0:
+            self._width = value
+        else:
+            raise ValueError("Width must be non-negative")
+
+    @property
+    def height(self):
+        return self._height
+
+    @height.setter
+    def height(self, value):
+        if value >= 0:
+            self._height = value
+        else:
+            raise ValueError("Height must be non-negative")
+
+    def area(self):
+        """Return the area of this rectangle"""
+        return self.width * self.height
+
+    def __str__(self):
+        """Return a string representation~of this rectangle"""
+        return f"Rectangle({self.width}, {self.height})"
+
+# Cre

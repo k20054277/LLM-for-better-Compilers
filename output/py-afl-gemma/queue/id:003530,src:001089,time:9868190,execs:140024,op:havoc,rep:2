@@ -1,7 +1,0 @@
-
-print(True and 5 > 3)33333333333333333333333
-print( and 10 == 10)
-
-print(True << 1)
-print(True << 2)
-print(True << 3)

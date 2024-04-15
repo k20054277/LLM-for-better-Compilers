@@ -1,6 +1,0 @@
-        return self.salary + seue and "a" < "c")
-print(True and 10 == 10)
-
-pr nt(True << 1)
-print(True << 2)
-print(True << 3)

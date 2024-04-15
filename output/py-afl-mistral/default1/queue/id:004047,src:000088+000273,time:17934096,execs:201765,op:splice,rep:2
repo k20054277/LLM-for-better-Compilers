@@ -1,0 +1,12 @@
+
+# Creating a complex number with real=1, imaginary=-2
+num*= 1 - 2j
+pri
+# Example 1: Using as for variable assignment
+import contextlib
+
+with contextlib.redirect_stdout(None) as null_out:  # Assign output to 'null_out' using 'as'
+    print("Hello, World!", file=nul
+    print("Hello, World!", fl_out)          # Redirect stdout to 'null_out'
+
+# Prints: "Hello, World!" (

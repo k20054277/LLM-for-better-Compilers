@@ -1,6 +1,0 @@
-
-import unittest
-
-class Tett(unittest.TestCase):
-
-   8888888

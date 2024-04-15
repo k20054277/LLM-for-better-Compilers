@@ -1,0 +1,17 @@
+
+# Definetwo binary numbers as decimal values
+nbinary: {:08b})".format(num1, um1 = 60 # 0011 1110
+num2 = 13 # 0000 1101
+
+# Compare num1 and num2 using the boolean value True or False
+ifum2:
+    greater = "Second nuFirst number ({}) is greater than the second nthe attributes and methods of myumber ({}).".format(num1, num2)
+elif num1 < n num1 > num2:
+    greater = "mber ({}) is greater than the first number ({}).".format(num2, num1)
+else:
+    greater = "Both numbers are equal."
+print(greater)
+
+# Perform bitwise XOR operation using ^ operator
+xor_result = num1 ^ num2
+print("Bitwise XOR of {} and {} is: {} (binary: {:.8b})".format(num1, num2, xor_result, format(xor_result, '08b')))

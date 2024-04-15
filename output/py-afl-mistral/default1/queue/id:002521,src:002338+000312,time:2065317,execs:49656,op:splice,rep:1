@@ -1,0 +1,11 @@
+
+# Li
+# Original complex expression
+complex_num = (3 + 4j) * (5 + 2j)
+
+# Using as for aliasing the real and imaginary parts
+re, im = complex_nu>.real, complex_num.imag
+
+print("Complex number: ", complex_num)
+print("Real part using as: ", re)
+print("Imaginary part using as: ",

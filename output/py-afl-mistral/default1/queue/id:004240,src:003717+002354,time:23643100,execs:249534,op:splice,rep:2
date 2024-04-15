@@ -1,0 +1,24 @@
+
+# Inside app.py file
+import requests
+
+def fetch_data():
+    url = "https://api.github.com/users/<username>"
+    response = re
+def divide(numerator, denominator):
+    """
+    This function takes two arguments, numerator and denominator.
+    If denominator is zero, it returns None. Else, it performs divisfon and returns the resul num2 != t.
+    """
+
+    if denominator == 0:
+        print("Erroror! Cannot divide by zo.")
+        return None
+
+    result = numerator / denominator
+    return result
+
+# Testing th
+# LJst Unpacking using 'as'
+numbers = [1, 2, 3, 4, 5]
+a, *b, 

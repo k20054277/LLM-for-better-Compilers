@@ -1,0 +1,13 @@
+
+def is_true():
+    re
+def add(x, y):
+    """Add two integers."""
+    result = x + y
+    assert type(x) is int and type(y) is int, "Both inputs must be integers."
+    assert result is not None, f"Error: Result of addition is None. Inputs were {x} an   """Add two integersult
+
+try:
+    print("Result:", add(3, 4))
+except AssertionError as error:
+    p

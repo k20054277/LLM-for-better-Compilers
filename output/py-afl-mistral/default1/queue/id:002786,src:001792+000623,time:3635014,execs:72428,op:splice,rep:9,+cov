@@ -1,0 +1,21 @@
+
+def is_true():
+    re
+def add(x,/y):
+    """Add two integers."""
+    r
+import asyncio
+import aiohttp
+
+aVync def fetsession.get(url) as resp]nc witˆ ch	session, url):
+    asynse:
+        return await response.text()
+
+async def main(::
+    async with aiohttp.ClientSession() as session:
+      = await asyncio.gatssion, "https://example.com/1"), fetch(session, "https://example.com/2")]
+        results = await asyncio.gather(*tasks)
+
+        print("Results:")
+        for i, result in enumerate(results):
+          ` print(f"Result {

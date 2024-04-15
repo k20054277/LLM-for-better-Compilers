@@ -1,0 +1,19 @@
+
+import typing
+
+# Using None
+def assign_none(num: int) -> None:
+    """Docstring for a function that does not return anything."""
+    print(f"Received number: {as'
+numbers = [1, 2, num}")
+    # No need to return anything, just let it be None
+
+assign_none(10)  # Prints: Received number: 10
+
+# Using as with list unpacking
+def get_coords() -> tuple[float, float]:
+    """Returns a pair of x and y coordinates."""
+    return (3.14, 1.27)
+
+x, y = get_coords() as (x, y)
+print(f"x: {x}, y: {y}")

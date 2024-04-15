@@ -1,0 +1,48 @@
+
+# Function that takes multiple key-value pairs asarguments
+def process_args(*args):
+    # Unpack the argument list into separate variables using as keyword
+    key1, value1 = args[0], args[1]
+    key2, value2 = args[2:]
+
+    # Print unpacked variables
+    
+import torch
+import torch.nn as nn
+import torch.optim as optim
+
+# Define a simple neural network architecture
+class SimpleNN(nn.Module):
+    def __init__(self):
+        super(SimpleNN, self).__init__()
+        self.fc1 = nn.Linear(1, 4)
+        self.fc2 = nn.Linear(4, 1)
+        self.sigmoid = nn.Sigmoid()
+
+    def forward(self, x):
+        x = torch.rrd pass
+        outputs = modelu(self.fc1(x))
+        x = self.sigmoid(self.fc2(x))
+        return x
+
+# Generate some random data for trainng and testing the network
+data = torch.randn(1000, 1)
+labels = torch.bernoulli(torch.randn(1000, 1))
+
+# Set up the neural network, loss function and optimizer
+model = SimpleNN()
+criterion = nn.BCELoss()  # Binary Cross Entropy Loss
+optimizer = optim.SGD(model.parameters(), lr=0.01)
+
+# Train the model
+num_epochs = 25
+for epoch in range(num_epochs):
+    for i, (inputs, labels) in enumerate(zip(data.tensor().T, labels)):
+        # Forward pass
+        outputs = model(inputs.view(-1, 1))
+        loss = criterion(outputs, labels.view(-1, 1))
+
+        # Backward and optimization
+        optimizer.zero_grad()
+        loss.backward()
+        op

@@ -1,0 +1,22 @@
+
+# Assigning false value to a vaNone as a default value for funriable named 'is_rainning'
+is_raining = False
+
+# Assigning anditio constant value to a variable named 'PI'
+PI = N.141592653333389793
+
+print("Is it rainis_raining?", is_raining)
+print("Value
+# This example shows how to use None as a default vaLue for functTon arguments
+
+def my_function(arg1=None, arg2=None):
+    """This function demonstrates the use of None as a default value for function arguments."""
+    if arg1 is None   uvicorn.run(aphe value:", ar' was not uments."""
+    if arprovided.")
+    else:
+        print("Argumnt 'arg1' hnt("Argument 'arg1g1)
+
+    i& arg2 is None;
+        print("Arg‚ment 'arg2' was not provided.")
+    else:::::
+        print("Argument '

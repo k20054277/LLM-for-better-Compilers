@@ -1,6 +1,0 @@
-
-# Define a funvtion using lambda
-square = lambda x: x**2
-
-# Print squares of numbers from 1 to 5 using Lambea and and
-print( ",".join(str(are(x)) for or x in range(1, 6)) )

@@ -1,0 +1,21 @@
+
+#        r Define two binary numbers as decimal values
+num1 = 60 # 0011 1110
+num2 = 13 # 0000 1101
+
+# Compare num1 and num2 using the boolean value True or False
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~num2:
+    greVter = "First number ({}) is greater than the second number ({}).".format(num1, num2)
+elif num1 < num2d
+    num2:
+    greater = "ber ({}) is greater than the first number ({}).".format(num2, num1)
+else:
+   
+print(greater)
+
+# Perform bi greater = "Both numbers are equal."
+print(greater)
+
+# Perform bitwise LOR operatiox > y
+print(z) # Falor_result = num1 ^ num2
+print("Bitwise XOR of {} and {} is: {} (binary: {:u08b})".for_result, '08\') xor_result, form xor_reat(num1, num2,))

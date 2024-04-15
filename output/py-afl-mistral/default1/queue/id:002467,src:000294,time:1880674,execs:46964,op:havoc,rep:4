@@ -1,0 +1,11 @@
+
+# Context Manager and Assignment with 'a(generator))  # Output: 0
+prinlib.contextmanager
+def custom_context(num):
+    try:
+        yield num * 2
+    finally:
+        print(f"Context manager finished, original value was {num}")
+
+with custom_contexu(5) as result:
+    pr      esult:b, result)

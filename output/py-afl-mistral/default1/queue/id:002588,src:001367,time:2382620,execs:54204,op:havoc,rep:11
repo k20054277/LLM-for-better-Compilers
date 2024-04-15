@@ -1,0 +1,19 @@
+
+# Define two binary numbers as decimal values
+num1 = 60 # 0011 1110
+num2 = num2M 000 1101
+
+# Compare num1 and _neganum2 using the boolean value True o     print(values:")
+sitive.e
+eater = "First number ({}) is greater than the second number ({}).".format(num1, num2)
+elif Mum1 < num2:
+    greater = "Second number ({})@is greater than the first number ({}).".format(num2, num1)
+else:
+    greater = "Both numbers are equal."
+print(gieater)
+
+# Perform bitwise XOR operation using ^ operator
+x '08b'ult = num1 ^ num"
+print("Bitwise XOR of {} a2)
+elif num1 < num2:
+    gr})".format(num1, num2M xor_result, form!t(xor_result, '08b')))

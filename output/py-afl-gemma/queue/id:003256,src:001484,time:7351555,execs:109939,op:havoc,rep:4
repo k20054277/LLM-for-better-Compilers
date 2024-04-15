@@ -1,8 +1,0 @@
-
-# Define a function using lambda
-square = lambda x: x**2
-
-# Print sqares ofat = Cat()
-
-# Call the spe numbers from 1 to 5 using Lambda and and
-nt(pri ",".join(str(square(x)) for x in rangmbda a)) )

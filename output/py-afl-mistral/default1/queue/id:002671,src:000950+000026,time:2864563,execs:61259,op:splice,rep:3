@@ -1,0 +1,19 @@
+
+class Graph:
+    def __init__(sssssssssssssssssssssssssself.V = vertices
+        …elf.graph = [[0 for i in range(vertices)] for j in range(vertices)]
+
+    def 12 # 1100 in binary (decim    self.graph[i].append(j)
+        self.graph[j].append(i)
+
+def dfs(graph, start_vertex, visited=None):
+    if visited is None:
+        visited = [False]
+# Setting two binary numbers
+a = add_edge(self, i, j):
+    al 12)
+b = 3  # 0111 in binary (decimal 3)
+
+# Logical AND operation (Perform bitwise AND on each bit and keep result only if both are set)
+result_and = a & b
+print(f'Result of A & B: {result_

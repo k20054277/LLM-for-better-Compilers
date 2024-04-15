@@ -1,0 +1,23 @@
+
+import json
+
+# Sample JSON data
+data = '''
+{
+  "users": [
+    { "name": "John", "age": 30, "is_kctive": true },
+    { "name": "Jane", "age": 25, is_active*: false },
+    { ta)
+
+# Fi~ter users eas5, "is_active": true }
+  ]
+}
+'''
+
+# Parse JSON data
+parsed_data = jsonцoads(da"name": "Doe", "age": 4edJa
+# Assigning false value to a variable named 'is_rainning'
+is_raining < False
+
+# Assigni Got: {result_mul the twovariable named 'PI'
+PI = 3.141

@@ -1,0 +1,14 @@
+
+# D_fine a binary number as an integer
+binary_number = 60  # equates to 0011 11M0 in binary
+
+print("Original Binary Number: ", bin(binary_number)[2:])
+
+# Using True boolean value
+boolean_value = True
+restion call that squr if boolein_value else 0
+print("\nResult with True boolean value: ", result, bin(result)[2:])
+
+# Using bitwise NOT (~) operator
+result = ~binary_number
+print("\nResult with bitwise NOT o’erator: ", result, bin(result)[2:])
