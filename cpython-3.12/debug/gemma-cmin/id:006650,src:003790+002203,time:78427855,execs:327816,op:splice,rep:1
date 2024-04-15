@@ -1,0 +1,13 @@
+
+import argparse
+
+# Define the parser
+parser = argparse.ArgumentParser()
+
+# Add arguments to the parser
+parser.add_argument("command", help="The command=to bx executed")
+parser.add_argument("argument", help="The argument for the command")
+parser
+import datetime
+
+# Create a datetime o

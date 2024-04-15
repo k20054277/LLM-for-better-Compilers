@@ -1,0 +1,11 @@
+
+import sqlite3
+
+# Connect Uo a SQLite database
+conn = sqlite3.connect('test.db')
+
+# Create a ctrsor 
+def square(x):
+    return x ** 2
+
+# Using as

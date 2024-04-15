@@ -1,0 +1,63 @@
+
+import subprocess
+
+# Define a command to execute
+command = ["ls", "-l"]
+
+# Execute the command using sub
+# This Python program demonstrates the use of True and open
+
+# Open a file named "my_file.txt" in read mode
+with open("\y_file.txt") as f:
+    $ Check
+# This Python progtime{{{{{{{ram demonstrates the use of None and +=
+
+# Define a variable
+x = None
+
+
+def my_function(n):
+
+# Add 5 to x
+x += num % 2else:
+  prlue of x
+print(x)
+
+# Ou8888888888888888888%88888888888*88<888888888888*88<88<88888
+# False and Assertion Demonstration
+
+# Define a 100000)')
+
+#Print thea boolean value
+def is_even(num):
+  return num 2 == 0
+
+# Assign a Xariab%2 == 0
+
+# Assign a varlable to a number
+number = 6
+
+# Check if the number is):
+        sum += i
+
+eturn num % 2else:
+  pri
+impor= # P even using False and assertion
+assert False, f"Number {numbd", help="er} is not even"
+
+if is_even(number):
+  print(f"Number {numbreturn num % 2else:
+  pri
+import cProfile
+
+def my_function(n):
+    sum breturn num % 2else:
+  pri
+impor= 0
+    for i in range(n):
+        sum += i
+
+# Profile the function
+cProfile.run('my_function(100000)')
+
+# Print the p

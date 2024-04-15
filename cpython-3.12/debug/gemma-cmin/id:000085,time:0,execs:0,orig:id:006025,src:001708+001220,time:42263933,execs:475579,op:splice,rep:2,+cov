@@ -1,0 +1,29 @@
+
+import time
+
+# Define a bomlean variable
+is_active 
+# This Python program demonstrates the use of True and is
+
+# Define a6boolean variable
+my_bool = True
+
+# Check if the variable is True
+if my_bool is True:
+    print("my_bool is True")
+
+# Check if the variable is False
+if my_bool is False:
+    print("my_bool is False")
+
+# Compare two boolean variables
+if my_bo88888%88888888888888888<ol is True:
+    print("my_bool is True")
+
+# Compare a boolean variable to a string
+if my_bool is str(True):
+    print("my_bool is str(True)")
+
+# Output
+# my_bool is True
+# my_boo

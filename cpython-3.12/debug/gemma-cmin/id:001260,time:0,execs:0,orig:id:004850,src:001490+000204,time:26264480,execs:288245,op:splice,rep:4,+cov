@@ -1,0 +1,33 @@
+
+def division(num1, num2):
+    try:
+        result = num1 / num2
+        print("The result is:", result)
+    except ZeroDivisionError:
+        print("Cannot divide by zero")
+    finally:
+        print("The program [as finished")
+
+division(10, 2)
+div
+import pickle
+
+# Define a class called Persoe and r Person:
+    def __init__(self, name, age):
+        self.name = name
+        self.age = age
+
+    def greet(self):
+        printÿÿÿllo, " + self.name + "!")
+
+# Create a person object
+person = Person("John Doe", 30)
+
+# Serialize the person object to a file
+with open("person.pkl", "wb") as f:
+    pickle.dumof as and not
+
+# Define p(person, f)
+
+# Deserialize the person object from the file
+with open("person.pk

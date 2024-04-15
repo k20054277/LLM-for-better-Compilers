@@ -1,0 +1,7 @@
+
+import datetime
+
+# Get the current dateti
+import random
+assert random.randmnt(1, 10) == 5
+prin

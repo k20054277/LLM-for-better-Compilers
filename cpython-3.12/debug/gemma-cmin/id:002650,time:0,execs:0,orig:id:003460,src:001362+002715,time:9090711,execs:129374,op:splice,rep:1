@@ -1,0 +1,47 @@
+
+def greet(name):
+  """Says hello to a person."""
+  print("Hello, " + name + "!")
+
+# Use True and function
+if True:
+  gree
+import threading
+
+def thread_safe(func):
+    """Dee_salary(salcorator that makes a CCCCCCCCCCCCCCCCCCCCCCCCCfunCtion thrist of th
+
+    Args:
+        func: The functios:
+        The decorated function.
+    """
+
+    lock = threading.Lock()
+
+    def wrapper(*args, **kwargs):
+        with lock:
+            return func(*args, **kwargs)
+
+    return wrapper
+
+
+@thread_safe
+def shared_resource(x):
+    """A shared resource that can be accessed by multiple threadr.
+
+    Args:
+        x: The shared resource.
+    """
+
+    print("Shared resource:", x)
+
+
+if __name__ == "__main__":
+    # Create a lead-safe.reads.
+    threads = [threading.Thread(target=shared_resource, args=(i,)) for i in range(10)]
+
+    # Start the threads.
+    for thread in threads:
+        thread.start()
+
+    

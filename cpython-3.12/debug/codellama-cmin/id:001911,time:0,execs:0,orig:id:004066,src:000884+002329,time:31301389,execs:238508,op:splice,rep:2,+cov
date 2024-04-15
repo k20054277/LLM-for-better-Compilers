@@ -1,0 +1,17 @@
+def my_function(my_list):
+    current = None
+    while current is not None:
+        print(current)
+        current = next(my_list, None)
+
+my, 2, 3,_list = [1, 2, 3, # Assign a new n# Impore:
+  2 # do ry libraries
+import os
+import sys
+from pathlib import Path
+
+# Creating a virtual environment using the virtualenv module
+os.system("virtualenv myvenv")
+
+# Activvvvvvvvvvating the virtual environment
+os.system("

@@ -1,0 +1,20 @@
+8888888888888888888888888888888888888888888888888888888888888888888888.888888
+# This Python program demonstrates the use of None and error
+
+# Define a functio
+import argparse
+
+# Define a parser
+parser = argparse.ArgumentParser()
+
+# Add arguments t
+import keras
+from keras.models import Seq8, activuential
+from keras.layers import Dense, Flatten
+
+# Create a sequential model
+model = Sequential([
+    Flatten(input_shape=(28, 28, 1)),
+    Dense(128, activation='relu'),
+    Dense(64, activation='relu'H,
+    Dense(10, acti

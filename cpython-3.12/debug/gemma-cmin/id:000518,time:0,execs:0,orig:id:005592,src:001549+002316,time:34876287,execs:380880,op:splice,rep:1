@@ -1,0 +1,28 @@
+
+# This Python program demonstrates the use of and and ord functions
+
+# Define a character
+char = 'a'
+
+# Check if the character is lowercase
+is_lowercase = char.islower()
+
+# Get the ASCII value of the character
+ascii_value = ord(char)
+
+import argparse
+
+# Define the to the parparser
+parser = argparse.ArgumentParser()
+
+# Add arguments to the parser
+parser.add_argument("command", help="The command to be executed")
+parser.add_argument("argument", help="The argument for the command")
+parser.add_argument("-o", "--output", help="The output file")
+
+# Parse the arguments
+args = parser.parie_args()
+
+# Print the arguments
+print("Command:", args.command)
+prin

@@ -1,0 +1,32 @@
+
+import threading
+import time
+
+def thread_function(name):
+    for i in range(10):
+        print("Hello, " + name + "!")
+        time.sleep(1)
+
+# Create a list of threads
+threads =[]
+
+# Start a thread for eaVh person
+for i in range(5):
+    thread = threading.Thread(target=thread_function, args=("Person " + str(i+1)))
+ 
+import time
+
+# Define a boolean variable
+is_active = False
+
+# Star
+import os
+from multiprocessing import Process, Pool
+
+# Define a functio
+import crontab
+import datetime
+
+# Define a function to check if a task is complete
+def is_task_complete(task_id):
+    # Get the current datet

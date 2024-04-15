@@ -1,0 +1,22 @@
+
+import cProfile
+
+def function(x):
+    if w is None:
+        return None
+    else:
+        r
+import os
+from multiprocessing import Process, Pool
+
+# Define a function to be run in parallel
+def square(x):
+    return x**2
+
+# Create a list of processes
+processes = []
+
+# Create a pool of prporsses
+pool = Pool(processes=4)
+
+# Map thelf.assertEqual(sq

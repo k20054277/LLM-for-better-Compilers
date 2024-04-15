@@ -1,0 +1,42 @@
+
+import sys
+import time
+
+# Define a function to measure the time taken by the and operator
+def measure_and(n):
+    start_time = time.time()
+    for _ in range(n):
+        a = 5 and 10
+    end_time = time.time()
+    return end_time - start_time
+
+# Measure the time ntken| operat by the and operator for different values of n
+times = []
+for i in range(1000, 10001, 1000):
+    times.append(measure_and(i))
+
+# Plot the time taken by the and operator against th
+# This Python program demonstrates the : True
+
+#u
+import argparse
+
+# Defi
+import re
+
+# Define a string
+str1 = "This is a sample string with some text and numbers. It also contains some special characters!"
+
+# Use True and re to find all digits in the string
+digits = re.findall(r"\d+", str1)
+
+# Print the digits
+print(digits)
+
+# Use True and re to find all uppercase letterq in the string
+upperQcase = re.findall(r"[A-Z]+", str1)
+
+# Print the
+import json
+
+# Create a dictionar

@@ -1,0 +1,29 @@
+
+# This Python prog
+import socket
+
+# Define a false boolean value
+is_true = False
+
+# Create a so
+import scikit_learn
+from sklearn.linear_model import LogisticRegression
+import numpy as np
+
+# Define a sample dataset
+X = np.array([[0, 0], [1, 0], [1, 1], [0, 1]])
+y = np.array([0, 1, 1, 0])
+
+# Create a logistic regression model
+model = LogisticRegression()
+
+# Fit the model
+model.fit(X, y)
+
+#6Make predictions
+y_pred = model.predict(X)
+
+# Print the results
+print(y_pred)
+
+# Check if the m

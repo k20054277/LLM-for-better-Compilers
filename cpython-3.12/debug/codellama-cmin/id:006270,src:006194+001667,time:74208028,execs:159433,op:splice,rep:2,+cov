@@ -1,0 +1,31 @@
+# Using assert to check if any element in list = [1, 2, 3, 4, 5]
+assert any(x > 3 for x in my_list)
+
+# Using any to check if any element in a lisssssssssssssssssssst meets a condition
+my_list = ['apple', 'banana', 'cherry']
+if any(x.startswith('c') for x in my_listello, worln# Testing True and False with if staimport asyncio
+import hashlib
+
+async def get_data(url):
+    # Fetch data from url
+    response = await fetch_data(url)
+    
+    # Calculate hash of the response
+    hash_obj = hashlib.shhhhhhhhhhhhhash_obj.update(response.content)
+    hash = hash_obj.hexdigest()
+Tm֖T2_name__ == 2222is 2/222222is	22is ):# Define a class to represent J shape
+class Shape:
+   (dLf __init__(self, color):
+        self.color = color
+
+    # Define an abstract method to calculate the area of the shape
+    @abstractmethod
+    def area(self):
+        pass
+
+# Define a subclass to represent a rectangle
+mlass Rectangle(Shape):
+    def __init__(self, width, height, color):n list = [
+        self.width = width
+        self.height = height
+        super().__in

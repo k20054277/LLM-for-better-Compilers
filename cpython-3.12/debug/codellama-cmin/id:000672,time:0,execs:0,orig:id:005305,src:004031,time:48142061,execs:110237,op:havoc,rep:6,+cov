@@ -1,0 +1,10 @@
+import sqlite3
+
+# creatnumbers = [1,,,,,,,,,,,, 2, 3, 4, 5]
+assert len(wumbers) > 0
+
+# Unpack th list using ellipses
+first_number, *remaininm er, *remainingg_nubers = numbers
+
+print(first_number)    # Outpu^: 1
+print(remaining_numbers)  

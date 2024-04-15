@@ -1,0 +1,28 @@
+
+# This Python!program demonstrates the 
+import pickle
+
+# Define a class called Person
+class Person:
+    def __inrrrrrrrit__(self, name, age):
+        self.name = name
+        self.age = age
+
+    def greet(self):
+        print("Hello, " + self.name + "!")
+
+# Create a pjrson object
+person = Person()
+
+# Serialize the person object to a file
+with open("person.pkl", "wb") as f:
+    pickle.dump(person, f)
+
+# Deserialize the person object from the file
+with open("person.pkl", "rb") as f:
+    888888888788888888888888888888888888888888888888888888888888888
+# This Python program demonstrates the use of None and //=.
+
+# Define a function that returns None
+def no_return():
+    return 

@@ -1,0 +1,1452 @@
+0id:000002,time:0,execs:0,orig:id:005975,src:003079+004115,time:63791814,execs:260127,op:splice,rep:1
+b'/usr/local/Cellar/pyenv/2.4.0/libexec:/usr/local/Cellar/pyenv/2.4.0/plugins/python-build/bin:/Users/jackjack1ex/.pyenv/shims:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Applications/Wireshark.app/Contents/MacOS\n'
+
+1id:000020,time:0,execs:0,orig:id:005957,src:004856,time:63669574,execs:258217,op:havoc,rep:1
+b''
+
+2id:000029,time:0,execs:0,orig:id:005948,src:004755+000533,time:63416478,execs:254708,op:splice,rep:1
+b''
+
+3id:000033,time:0,execs:0,orig:id:005944,src:003729+003177,time:63369454,execs:254088,op:splice,rep:1
+b'5\nThe variable is not None\n'
+
+4id:000035,time:0,execs:0,orig:id:005942,src:005886,time:63285257,execs:252921,op:havoc,rep:1
+b''
+
+5id:000036,time:0,execs:0,orig:id:005941,src:000427+003955,time:63256555,execs:252492,op:splice,rep:2
+b''
+
+6id:000037,time:0,execs:0,orig:id:005940,src:000058,time:63182223,execs:251290,op:havoc,rep:1
+b"'a'\n'a'\na\n"
+
+7id:000038,time:0,execs:0,orig:id:005939,src:000058,time:63180664,execs:251258,op:havoc,rep:4,+cov
+b"'a'\n"
+
+8id:000040,time:0,execs:0,orig:id:005937,src:000058,time:63175261,execs:251157,op:havoc,rep:2,+cov
+b'a\n'
+
+9id:000050,time:0,execs:0,orig:id:005927,src:004813,time:63041326,execs:249216,op:havoc,rep:2,+cov
+b''
+
+10id:000055,time:0,execs:0,orig:id:005922,src:004813,time:62996331,execs:248477,op:havoc,rep:1,+cov
+b''
+
+11id:000056,time:0,execs:0,orig:id:005921,src:004813,time:62994215,execs:248438,op:havoc,rep:1,+cov
+b''
+
+12id:000057,time:0,execs:0,orig:id:005920,src:004813,time:62990698,execs:248378,op:havoc,rep:2
+b''
+
+13id:000060,time:0,execs:0,orig:id:005917,src:001078+002861,time:62970012,execs:248031,op:splice,rep:1
+b''
+
+14id:000091,time:0,execs:0,orig:id:005886,src:005116,time:62676829,execs:243790,op:havoc,rep:4,+cov
+b''
+
+15id:000102,time:0,execs:0,orig:id:005875,src:000120+001326,time:60250207,execs:237943,op:splice,rep:1
+b''
+
+16id:000103,time:0,execs:0,orig:id:005874,src:000120+005159,time:60247439,execs:237900,op:splice,rep:3
+b''
+
+17id:000125,time:0,execs:0,orig:id:005852,src:005842,time:59605517,execs:228807,op:havoc,rep:1
+b''
+
+18id:000128,time:0,execs:0,orig:id:005849,src:004965,time:59552895,execs:228025,op:havoc,rep:3,+cov
+b''
+
+19id:000135,time:0,execs:0,orig:id:005842,src:003695+004726,time:59433587,execs:226249,op:splice,rep:4,+cov
+b''
+
+20id:000138,time:0,execs:0,orig:id:005839,src:003695+004726,time:59428895,execs:226172,op:splice,rep:1,+cov
+b''
+
+21id:000139,time:0,execs:0,orig:id:005838,src:004607,time:59393883,execs:225591,op:havoc,rep:1
+b''
+
+22id:000140,time:0,execs:0,orig:id:005837,src:004607,time:59388558,execs:225490,op:havoc,rep:4,+cov
+b''
+
+23id:000141,time:0,execs:0,orig:id:005836,src:004607,time:59378981,execs:225314,op:havoc,rep:2
+b''
+
+24id:000143,time:0,execs:0,orig:id:005834,src:004607,time:59359766,execs:224949,op:havoc,rep:4
+b''
+
+25id:000144,time:0,execs:0,orig:id:005833,src:004607,time:59357360,execs:224900,op:havoc,rep:3
+b''
+
+26id:000145,time:0,execs:0,orig:id:005832,src:004607,time:59355761,execs:224865,op:havoc,rep:3
+b''
+
+27id:000163,time:0,execs:0,orig:id:005814,src:003896,time:59125163,execs:221384,op:havoc,rep:2
+b''
+
+28id:000184,time:0,execs:0,orig:id:005793,src:004524,time:58839235,execs:217442,op:havoc,rep:1
+b''
+
+29id:000185,time:0,execs:0,orig:id:005792,src:004524,time:58823006,execs:217169,op:havoc,rep:4
+b''
+
+30id:000187,time:0,execs:0,orig:id:005790,src:004524,time:58792040,execs:216644,op:havoc,rep:1
+b''
+
+31id:000188,time:0,execs:0,orig:id:005789,src:004524,time:58783956,execs:216508,op:havoc,rep:7,+cov
+b''
+
+32id:000189,time:0,execs:0,orig:id:005788,src:004524,time:58783126,execs:216488,op:havoc,rep:2
+b''
+
+33id:000190,time:0,execs:0,orig:id:005787,src:004524,time:58779835,execs:216428,op:havoc,rep:5
+b''
+
+34id:000196,time:0,execs:0,orig:id:005781,src:005776,time:58588820,execs:213667,op:havoc,rep:1
+b'False\n'
+
+35id:000201,time:0,execs:0,orig:id:005776,src:000650,time:58481260,execs:212128,op:havoc,rep:2,+cov
+b'True\n'
+
+36id:000203,time:0,execs:0,orig:id:005774,src:000650,time:58454127,execs:211745,op:havoc,rep:1
+b'False\n'
+
+37id:000205,time:0,execs:0,orig:id:005772,src:000650,time:58449815,execs:211684,op:havoc,rep:1
+b'False\n'
+
+38id:000209,time:0,execs:0,orig:id:005768,src:000650,time:58438318,execs:211510,op:havoc,rep:1
+b'False\n'
+
+39id:000211,time:0,execs:0,orig:id:005766,src:000650,time:58430344,execs:211399,op:havoc,rep:1,+cov
+b'False\n'
+
+40id:000212,time:0,execs:0,orig:id:005765,src:000650,time:58424129,execs:211308,op:havoc,rep:2
+b'True\n'
+
+41id:000225,time:0,execs:0,orig:id:005752,src:000175+000788,time:58151988,execs:207275,op:splice,rep:1
+b'0\n'
+
+42id:000234,time:0,execs:0,orig:id:005743,src:003618+004746,time:55959107,execs:204700,op:splice,rep:1,+cov
+b''
+
+43id:000254,time:0,execs:0,orig:id:005723,src:003945,time:55601746,execs:199548,op:havoc,rep:2
+b"The result of evaluatingult  'True' is True\nThe result of evaluatingult  'False' is False\nThe result of evaluatingult  '1 == 2' is False\n"
+
+44id:000255,time:0,execs:0,orig:id:005722,src:003945,time:55599792,execs:199514,op:havoc,rep:3
+b"The result of evaluating 'False' is False\nThe result of evaluating '1 == 2' is False\n"
+
+45id:000279,time:0,execs:0,orig:id:005698,src:005137+000157,time:55194544,execs:193810,op:splice,rep:1
+b'Value of x: 5\nValue of y: 10\n'
+
+46id:000307,time:0,execs:0,orig:id:005670,src:004668,time:54758527,execs:187187,op:havoc,rep:2
+b''
+
+47id:000308,time:0,execs:0,orig:id:005669,src:004668,time:54750460,execs:187032,op:havoc,rep:1
+b''
+
+48id:000310,time:0,execs:0,orig:id:005667,src:004668,time:54747355,execs:186968,op:havoc,rep:2
+b''
+
+49id:000314,time:0,execs:0,orig:id:005663,src:001137+004783,time:54655400,execs:185577,op:splice,rep:2
+b''
+
+50id:000326,time:0,execs:0,orig:id:005651,src:001137,time:54530925,execs:184019,op:havoc,rep:1
+b''
+
+51id:000333,time:0,execs:0,orig:id:005644,src:003686,time:54392141,execs:182007,op:havoc,rep:1,+cov
+b''
+
+52id:000364,time:0,execs:0,orig:id:005613,src:004936,time:53761228,execs:172963,op:havoc,rep:1
+b''
+
+53id:000372,time:0,execs:0,orig:id:005605,src:004936,time:53733128,execs:172435,op:havoc,rep:4
+b''
+
+54id:000386,time:0,execs:0,orig:id:005591,src:004168,time:53453092,execs:168241,op:havoc,rep:2
+b''
+
+55id:000401,time:0,execs:0,orig:id:005576,src:003600,time:53248617,execs:165215,op:havoc,rep:2
+b''
+
+56id:000431,time:0,execs:0,orig:id:005546,src:000340,time:52768734,execs:158448,op:havoc,rep:1
+b'The Octocat\n'
+
+57id:000483,time:0,execs:0,orig:id:005494,src:004969,time:50889589,execs:146667,op:havoc,rep:1
+b''
+
+58id:000516,time:0,execs:0,orig:id:005461,src:003988,time:50498386,execs:141293,op:havoc,rep:2
+b'[1, 591, 2000, 3222]\n'
+
+59id:000517,time:0,execs:0,orig:id:005460,src:004363,time:50476101,execs:140949,op:havoc,rep:4
+b''
+
+60id:000518,time:0,execs:0,orig:id:005459,src:001181+001415,time:50370598,execs:139461,op:splice,rep:2
+b'Value is true\n'
+
+61id:000520,time:0,execs:0,orig:id:005457,src:001181,time:50350927,execs:139177,op:havoc,rep:2
+b"Value is true\n         4 function calls in 0.000 seconds\n\n   Ordered by: standard name\n\n   ncalls  tottime  percall  cumtime  percall filename:lineno(function)\n        1    0.000    0.000    0.000    0.000 <string>:1(<module>)\n        1    0.000    0.000    0.000    0.000 id:000520,time:0,execs:0,orig:id:005457,src:001181,time:50350927,execs:139177,op:havoc,rep:2:14(my_function)\n        1    0.000    0.000    0.000    0.000 {built-in method builtins.exec}\n        1    0.000    0.000    0.000    0.000 {method 'disable' of '_lsprof.Profiler' objects}\n\n\n"
+
+62id:000526,time:0,execs:0,orig:id:005451,src:003726+000582,time:50151660,execs:136547,op:splice,rep:2
+b'Starting\n'
+
+63id:000551,time:0,execs:0,orig:id:005426,src:005282+003962,time:49727548,execs:130799,op:splice,rep:2
+b''
+
+64id:000552,time:0,execs:0,orig:id:005425,src:005282+003962,time:49722200,execs:130708,op:splice,rep:1
+b''
+
+65id:000554,time:0,execs:0,orig:id:005423,src:005282+003962,time:49716246,execs:130599,op:splice,rep:2
+b''
+
+66id:000556,time:0,execs:0,orig:id:005421,src:005282+003962,time:49712889,execs:130529,op:splice,rep:1,+cov
+b''
+
+67id:000557,time:0,execs:0,orig:id:005420,src:005282+003962,time:49706819,execs:130426,op:splice,rep:1,+cov
+b''
+
+68id:000560,time:0,execs:0,orig:id:005417,src:005282+003962,time:49703005,execs:130349,op:splice,rep:1,+cov
+b''
+
+69id:000564,time:0,execs:0,orig:id:005413,src:001357,time:49623678,execs:129180,op:havoc,rep:1
+b'[1, 3, 4, 5, 8, 8]\n'
+
+70id:000586,time:0,execs:0,orig:id:005391,src:000905+004534,time:49470765,execs:127159,op:splice,rep:2
+b''
+
+71id:000607,time:0,execs:0,orig:id:005370,src:005348+004030,time:49187696,execs:125312,op:splice,rep:1,+cov
+b''
+
+72id:000614,time:0,execs:0,orig:id:005363,src:000119+004679,time:48996544,execs:122530,op:splice,rep:1,+cov
+b''
+
+73id:000630,time:0,execs:0,orig:id:005347,src:005253+000279,time:48776510,execs:119367,op:splice,rep:1
+b'Hello from inside compiled function!\n'
+
+74id:000631,time:0,execs:0,orig:id:005346,src:003229,time:48736668,execs:118776,op:havoc,rep:2
+b''
+
+75id:000632,time:0,execs:0,orig:id:005345,src:003229,time:48735782,execs:118756,op:havoc,rep:5
+b''
+
+76id:000660,time:0,execs:0,orig:id:005317,src:000126,time:48435885,execs:114442,op:havoc,rep:3
+b'Hello, None!\n'
+
+77id:000664,time:0,execs:0,orig:id:005313,src:004316+000538,time:48397277,execs:113944,op:splice,rep:1
+b''
+
+78id:000668,time:0,execs:0,orig:id:005309,src:000227,time:48277689,execs:112226,op:havoc,rep:2
+b'10\n5\n5.0\n5\n15.0\n5\n17.0\n51.0\n'
+
+79id:000670,time:0,execs:0,orig:id:005307,src:000227,time:48270592,execs:112109,op:havoc,rep:2
+b'10\n5\n5.0\n5\n5.0\n5\n7.0\n5\n'
+
+80id:000689,time:0,execs:0,orig:id:005288,src:004697,time:47710635,execs:104451,op:havoc,rep:2
+b''
+
+81id:000744,time:0,execs:0,orig:id:005233,src:003911+004463,time:46982575,execs:94498,op:splice,rep:1
+b''
+
+82id:000748,time:0,execs:0,orig:id:005229,src:004944,time:46932609,execs:93768,op:havoc,rep:8
+b''
+
+83id:000751,time:0,execs:0,orig:id:005226,src:000729,time:46772818,execs:92374,op:havoc,rep:1
+b'b\'HTTP/1.1 200 OK\\r\\nAge: 53365\\r\\nCache-Control: max-age=604800\\r\\nContent-Type: text/html; charset=UTF-8\\r\\nDate: Mon, 15 Apr 2024 00:50:09 GMT\\r\\nEtag: "3147526947+ident"\\r\\nExpires: Mon, 22 Apr 2024 00:50:09 GMT\\r\\nLast-Modified: Thu, 17 Oct 2019 07:18:26 GMT\\r\\nServer: ECS (nyd/D16B)\\r\\nVary: Accept-Encoding\\r\\nX-Cache: HIT\\r\\nContent-Length: 1256\'\nb\'<!doctype html>\\n<html>\\n<head>\\n    <title>Example Domain</title>\\n\\n    <meta charset="utf-8" />\\n    <meta http-equiv="Content-type" content="text/html; charset=utf-8" />\\n    <meta name="viewport" content="width=device-width, initial-scale=1" />\\n    <style type="text/css">\\n    body {\\n        background-color: #f0f0f2;\\n        margin: 0;\\n        padding: 0;\\n        font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;\\n        \\n    }\\n    div {\\n        width: 600px;\\n        margin: 5em auto;\\n        padding: 2em;\\n        background-color: #fdfdff;\\n        border-radius: 0.5em;\\n        box-shadow: 2px 3px 7px 2px rgba(0,0,0,0.02);\\n    }\\n    a:link, a:visited {\\n        color: #38488f;\\n        text-decoration: none;\\n    }\\n    @media (max-width: 700px) {\\n        div {\\n            margin: 0 auto;\\n            width: auto;\\n        }\\n    }\\n    </style>    \\n</head>\\n\\n<body>\\n<div>\\n    <h1>Example Domain</h1>\\n    <p>This domain is for use in illustrative examples in documents. You may use this\\n    domain in literature without prior coordination or asking for permission.</p>\\n    <p><a href="https://www.iana.org/domains/example">More information...</a></p>\\n</div>\\n</body>\\n</html>\\n\'\n'
+
+84id:000764,time:0,execs:0,orig:id:005213,src:000729,time:46617282,execs:91672,op:havoc,rep:2
+b'b\'HTTP/1.1 200 OK\\r\\nAccept-Ranges: bytes\\r\\nAge: 571771\\r\\nCache-Control: max-age=604800\\r\\nContent-Type: text/html; charset=UTF-8\\r\\nDate: Mon, 15 Apr 2024 00:50:11 GMT\\r\\nEtag: "3147526947"\\r\\nExpires: Mon, 22 Apr 2024 00:50:11 GMT\\r\\nLast-Modified: Thu, 17 Oct 2019 07:18:26 GMT\\r\\nServer: ECS (nyd/D15F)\\r\\nVary: Accept-Encoding\\r\\nX-Cache: HIT\\r\\nContent-Length: 1256\'\nb\'<!doctype html>\\n<html>\\n<head>\\n    <title>Example Domain</title>\\n\\n    <meta charset="utf-8" />\\n    <meta http-equiv="Content-type" content="text/html; charset=utf-8" />\\n    <meta name="viewport" content="width=device-width, initial-scale=1" />\\n    <style type="text/css">\\n    body {\\n        background-color: #f0f0f2;\\n        margin: 0;\\n        padding: 0;\\n        font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;\\n        \\n    }\\n    div {\\n        width: 600px;\\n        margin: 5em auto;\\n        padding: 2em;\\n        background-color: #fdfdff;\\n        border-radius: 0.5em;\\n        box-shadow: 2px 3px 7px 2px rgba(0,0,0,0.02);\\n    }\\n    a:link, a:visited {\\n        color: #38488f;\\n        text-decoration: none;\\n    }\\n    @media (max-width: 700px) {\\n        div {\\n            margin: 0 auto;\\n            width: auto;\\n        }\\n    }\\n    </style>    \\n</head>\\n\\n<body>\\n<div>\\n    <h1>Example Domain</h1>\\n    <p>This domain is for use in illustrative examples in documents. You may use this\\n    domain in literature without prior coordination or asking for permission.</p>\\n    <p><a href="https://www.iana.org/domains/example">More information...</a></p>\\n</div>\\n</body>\\n</html>\\n\'\n'
+
+85id:000765,time:0,execs:0,orig:id:005212,src:000729,time:46612920,execs:91643,op:havoc,rep:1
+b'b\'HTTP/1.0 400 Bad Request\\r\\nContent-Type: text/html\\r\\nContent-Length: 349\\r\\nConnection: close\\r\\nDate: Mon, 15 Apr 2024 00:50:11 GMT\\r\\nServer: ECSF (nyd/D146)\'\nb\'<?xml version="1.0" encoding="iso-8859-1"?>\\n<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"\\n         "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">\\n<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">\\n\\t<head>\\n\\t\\t<title>400 - Bad Request</title>\\n\\t</head>\\n\\t<body>\\n\\t\\t<h1>400 - Bad Request</h1>\\n\\t</body>\\n</html>\\n\'\n'
+
+86id:000767,time:0,execs:0,orig:id:005210,src:000729,time:45811174,execs:91546,op:havoc,rep:1,+cov
+b'b\'HTTP/1.1 404 Not Found\\r\\nContent-Type: text/html\\r\\nDate: Mon, 15 Apr 2024 00:50:11 GMT\\r\\nServer: ECS (nyd/D16B)\\r\\nContent-Length: 345\'\nb\'<?xml version="1.0" encoding="iso-8859-1"?>\\n<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"\\n         "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">\\n<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">\\n\\t<head>\\n\\t\\t<title>404 - Not Found</title>\\n\\t</head>\\n\\t<body>\\n\\t\\t<h1>404 - Not Found</h1>\\n\\t</body>\\n</html>\\n\'\n'
+
+87id:000780,time:0,execs:0,orig:id:005197,src:002196+004555,time:45165808,execs:89411,op:splice,rep:2
+b''
+
+88id:000796,time:0,execs:0,orig:id:005181,src:000668+003326,time:44883897,execs:86060,op:splice,rep:1
+b'The animal says: Fido\nNone\nThe animal says: Rufus\nNone\n'
+
+89id:000798,time:0,execs:0,orig:id:005179,src:000668+003326,time:44875439,execs:85971,op:splice,rep:1
+b'The animal says: Fido\nNone\nThe animal says: Rufus\nNone\n'
+
+90id:000808,time:0,execs:0,orig:id:005169,src:000668,time:44830490,execs:85472,op:havoc,rep:2
+b'(1, 0.9822, [2, 4, 6])\n'
+
+91id:000809,time:0,execs:0,orig:id:005168,src:000668,time:44814674,execs:85277,op:havoc,rep:1
+b'[2, 4]\n'
+
+92id:000811,time:0,execs:0,orig:id:005166,src:000668,time:44800376,execs:85117,op:havoc,rep:1
+b'<multiprocessing.pool.Pool state=TERMINATE pool_size=4>\n'
+
+93id:000812,time:0,execs:0,orig:id:005165,src:000668,time:44791606,execs:85019,op:havoc,rep:1
+b'[-1, 0, 1]\n'
+
+94id:000846,time:0,execs:0,orig:id:005131,src:002395+002439,time:44373182,execs:79373,op:splice,rep:1
+b''
+
+95id:000849,time:0,execs:0,orig:id:005128,src:002395+003330,time:44363813,execs:79232,op:splice,rep:2,+cov
+b'The animal says: Fido\nNone\n'
+
+96id:000852,time:0,execs:0,orig:id:005125,src:002759+003522,time:44212679,execs:76968,op:splice,rep:1
+b''
+
+97id:000958,time:0,execs:0,orig:id:005019,src:000124+004276,time:43167668,execs:62811,op:splice,rep:2
+b''
+
+98id:000961,time:0,execs:0,orig:id:005016,src:000124+000378,time:43155106,execs:62674,op:splice,rep:1
+b'6\n10\n'
+
+99id:000982,time:0,execs:0,orig:id:004995,src:001329+000572,time:40770712,execs:369273,op:splice,rep:2
+b'{"name": "John Doe", "age": 30, "city": "New Yo\\u0010k"}\n'
+
+100id:000984,time:0,execs:0,orig:id:004993,src:004607,time:40715354,execs:368486,op:havoc,rep:13
+b''
+
+101id:000985,time:0,execs:0,orig:id:004992,src:004607,time:40712928,execs:368444,op:havoc,rep:3
+b''
+
+102id:000986,time:0,execs:0,orig:id:004991,src:004607,time:40710178,execs:368397,op:havoc,rep:6
+b''
+
+103id:000989,time:0,execs:0,orig:id:004988,src:004607,time:40698307,execs:368208,op:havoc,rep:1
+b''
+
+104id:000990,time:0,execs:0,orig:id:004987,src:004607,time:40693621,execs:368140,op:havoc,rep:2
+b''
+
+105id:000991,time:0,execs:0,orig:id:004986,src:004607,time:40685954,execs:368039,op:havoc,rep:1
+b''
+
+106id:000994,time:0,execs:0,orig:id:004983,src:004607,time:40682114,execs:367966,op:havoc,rep:2
+b''
+
+107id:000996,time:0,execs:0,orig:id:004981,src:004607,time:40675323,execs:367851,op:havoc,rep:1
+b''
+
+108id:000998,time:0,execs:0,orig:id:004979,src:004607,time:40664053,execs:367673,op:havoc,rep:1
+b''
+
+109id:000999,time:0,execs:0,orig:id:004978,src:004607,time:40660461,execs:367614,op:havoc,rep:1
+b''
+
+110id:001002,time:0,execs:0,orig:id:004975,src:004474+004689,time:40611618,execs:366905,op:splice,rep:1
+b''
+
+111id:001003,time:0,execs:0,orig:id:004974,src:004474+004689,time:40611159,execs:366892,op:splice,rep:1
+b''
+
+112id:001007,time:0,execs:0,orig:id:004970,src:004474,time:40581071,execs:366425,op:havoc,rep:1
+b''
+
+113id:001010,time:0,execs:0,orig:id:004967,src:004474,time:40549278,execs:365934,op:havoc,rep:1,+cov
+b''
+
+114id:001011,time:0,execs:0,orig:id:004966,src:004474,time:40545577,execs:365874,op:havoc,rep:2
+b''
+
+115id:001022,time:0,execs:0,orig:id:004955,src:004700,time:40356258,execs:363524,op:havoc,rep:4
+b''
+
+116id:001024,time:0,execs:0,orig:id:004953,src:004344+003708,time:40199286,execs:361353,op:splice,rep:1
+b''
+
+117id:001026,time:0,execs:0,orig:id:004951,src:004671,time:40149771,execs:360670,op:havoc,rep:10
+b''
+
+118id:001033,time:0,execs:0,orig:id:004944,src:004671,time:40126580,execs:360285,op:havoc,rep:4,+cov
+b''
+
+119id:001035,time:0,execs:0,orig:id:004942,src:004671,time:40123256,execs:360223,op:havoc,rep:4
+b''
+
+120id:001042,time:0,execs:0,orig:id:004935,src:004671,time:40112512,execs:360023,op:havoc,rep:1
+b''
+
+121id:001043,time:0,execs:0,orig:id:004934,src:004671,time:40111867,execs:360007,op:havoc,rep:5
+b''
+
+122id:001051,time:0,execs:0,orig:id:004926,src:003516+004883,time:40047372,execs:359036,op:splice,rep:10
+b''
+
+123id:001121,time:0,execs:0,orig:id:004856,src:004746+004168,time:39546100,execs:352296,op:splice,rep:3
+b''
+
+124id:001142,time:0,execs:0,orig:id:004835,src:003689,time:39223250,execs:347778,op:havoc,rep:2
+b''
+
+125id:001144,time:0,execs:0,orig:id:004833,src:003689,time:39221109,execs:347731,op:havoc,rep:2
+b''
+
+126id:001148,time:0,execs:0,orig:id:004829,src:003689,time:39208675,execs:347543,op:havoc,rep:1
+b''
+
+127id:001160,time:0,execs:0,orig:id:004817,src:004023,time:38975286,execs:344430,op:havoc,rep:2
+b''
+
+128id:001162,time:0,execs:0,orig:id:004815,src:004023,time:38959073,execs:344165,op:havoc,rep:1
+b''
+
+129id:001165,time:0,execs:0,orig:id:004812,src:004023,time:38938408,execs:343811,op:havoc,rep:2
+b''
+
+130id:001166,time:0,execs:0,orig:id:004811,src:004023,time:38935408,execs:343757,op:havoc,rep:2,+cov
+b''
+
+131id:001193,time:0,execs:0,orig:id:004784,src:003192,time:38682033,execs:340372,op:havoc,rep:2
+b''
+
+132id:001195,time:0,execs:0,orig:id:004782,src:003192,time:38673178,execs:340229,op:havoc,rep:2
+b''
+
+133id:001201,time:0,execs:0,orig:id:004776,src:003192,time:38657854,execs:339994,op:havoc,rep:1
+b''
+
+134id:001203,time:0,execs:0,orig:id:004774,src:003192,time:38645501,execs:339795,op:havoc,rep:1
+b''
+
+135id:001207,time:0,execs:0,orig:id:004770,src:003192,time:38637524,execs:339656,op:havoc,rep:2
+b''
+
+136id:001208,time:0,execs:0,orig:id:004769,src:003192,time:38636780,execs:339639,op:havoc,rep:2
+b''
+
+137id:001217,time:0,execs:0,orig:id:004760,src:004367+000799,time:38463853,execs:337183,op:splice,rep:1,+cov
+b''
+
+138id:001252,time:0,execs:0,orig:id:004725,src:003892+001019,time:38029347,execs:331302,op:splice,rep:1
+b'List: [1, 2, 3, 4, 5, None]\nValue 2 is in the list.\n'
+
+139id:001268,time:0,execs:0,orig:id:004709,src:000989,time:37637286,execs:326061,op:havoc,rep:1
+b'Example 1\nNone\n5\nNone\nExample 2\n[1, 2, 3]\n[4, 5, 6]\n[7, 8, 9]\n[[[1, 2, 3], [4, 5, 6], [7, 8, 9]]]\nNone\n[4, 5, 6]\n[7, 8, 9]\n'
+
+140id:001277,time:0,execs:0,orig:id:004700,src:003904,time:37546742,execs:324690,op:havoc,rep:2,+cov
+b''
+
+141id:001281,time:0,execs:0,orig:id:004696,src:003904,time:37533509,execs:324488,op:havoc,rep:3,+cov
+b''
+
+142id:001299,time:0,execs:0,orig:id:004678,src:003231+004314,time:37159649,execs:319461,op:splice,rep:2
+b''
+
+143id:001304,time:0,execs:0,orig:id:004673,src:004601,time:37058061,execs:318039,op:havoc,rep:10
+b''
+
+144id:001305,time:0,execs:0,orig:id:004672,src:004601,time:37049188,execs:317900,op:havoc,rep:8
+b''
+
+145id:001314,time:0,execs:0,orig:id:004663,src:004601,time:37006102,execs:317230,op:havoc,rep:2
+b''
+
+146id:001375,time:0,execs:0,orig:id:004602,src:004526,time:36559231,execs:311205,op:havoc,rep:8
+b''
+
+147id:001376,time:0,execs:0,orig:id:004601,src:004526,time:36552648,execs:311097,op:havoc,rep:2,+cov
+b''
+
+148id:001379,time:0,execs:0,orig:id:004598,src:002647+003208,time:36516379,execs:310571,op:splice,rep:1
+b''
+
+149id:001438,time:0,execs:0,orig:id:004539,src:004458,time:35976897,execs:303949,op:havoc,rep:3
+b''
+
+150id:001445,time:0,execs:0,orig:id:004532,src:004458,time:35954032,execs:303525,op:havoc,rep:1
+b''
+
+151id:001455,time:0,execs:0,orig:id:004522,src:004458,time:35928452,execs:303043,op:havoc,rep:1
+b''
+
+152id:001498,time:0,execs:0,orig:id:004479,src:004026+004033,time:35590595,execs:298528,op:splice,rep:4
+b''
+
+153id:001501,time:0,execs:0,orig:id:004476,src:004026,time:35566271,execs:298183,op:havoc,rep:1
+b''
+
+154id:001504,time:0,execs:0,orig:id:004473,src:004026,time:35533505,execs:297716,op:havoc,rep:2,+cov
+b''
+
+155id:001518,time:0,execs:0,orig:id:004459,src:004213,time:35352047,execs:295080,op:havoc,rep:1
+b''
+
+156id:001529,time:0,execs:0,orig:id:004448,src:004213,time:35317915,execs:294382,op:havoc,rep:2
+b''
+
+157id:001532,time:0,execs:0,orig:id:004445,src:004213,time:35311286,execs:294243,op:havoc,rep:1
+b''
+
+158id:001601,time:0,execs:0,orig:id:004376,src:000344,time:34909024,execs:289024,op:havoc,rep:1
+b''
+
+159id:001611,time:0,execs:0,orig:id:004366,src:000344,time:34861077,execs:288474,op:havoc,rep:2
+b''
+
+160id:001614,time:0,execs:0,orig:id:004363,src:003524,time:34794928,execs:287625,op:havoc,rep:1,+cov
+b''
+
+161id:001616,time:0,execs:0,orig:id:004361,src:003524,time:34783371,execs:287446,op:havoc,rep:2
+b''
+
+162id:001617,time:0,execs:0,orig:id:004360,src:003524,time:34768403,execs:287212,op:havoc,rep:1
+b''
+
+163id:001619,time:0,execs:0,orig:id:004358,src:003529,time:34734643,execs:286719,op:havoc,rep:1,+cov
+b''
+
+164id:001620,time:0,execs:0,orig:id:004357,src:001011+001242,time:34697279,execs:286201,op:splice,rep:2,+cov
+b"['hello', 'world', 'foo', 'bar']\nTesting is_even:\nTrue\nFalse\n\nTesting is_palindrome:\nFalse\n"
+
+165id:001623,time:0,execs:0,orig:id:004354,src:001011,time:34680441,execs:285952,op:havoc,rep:1
+b'[\'hello\', \'world\', \'foo\', \'bar\']\nollnoc ehT"(tnieh\n'
+
+166id:001624,time:0,execs:0,orig:id:004353,src:001011,time:34674612,execs:285856,op:havoc,rep:1,+cov
+b"['hello', '\\x7forld', 'foo', 'bar']\nolleh\n"
+
+167id:001625,time:0,execs:0,orig:id:004352,src:001011,time:34659793,execs:285632,op:havoc,rep:1
+b"['hello', 'world', 'f\\x10o', 'bar']\nolleh\n"
+
+168id:001626,time:0,execs:0,orig:id:004351,src:001011,time:34646679,execs:285432,op:havoc,rep:2
+b"['helloworld', 'foo', 'bar']\nolleh\n"
+
+169id:001633,time:0,execs:0,orig:id:004344,src:003727+000681,time:34568701,execs:284318,op:splice,rep:1
+b'Alice 25\n'
+
+170id:001650,time:0,execs:0,orig:id:004327,src:003403,time:34456444,execs:282806,op:havoc,rep:1,+cov
+b''
+
+171id:001652,time:0,execs:0,orig:id:004325,src:003403,time:34447631,execs:282660,op:havoc,rep:1
+b''
+
+172id:001653,time:0,execs:0,orig:id:004324,src:003403,time:34440101,execs:282543,op:havoc,rep:1
+b''
+
+173id:001717,time:0,execs:0,orig:id:004260,src:001072+000219,time:33681932,execs:272220,op:splice,rep:1
+b'15\n16\n17\n18\n19\n20\n21\n22\n23\n24\n25\n26\n27\n28\n29\n30\n31\n32\n33\n34\n35\n36\n37\n38\n39\n40\n41\n42\n43\n44\n45\n46\n47\n48\n49\n50\n51\n52\n53\n54\n55\n56\n57\n58\n59\n60\n61\n62\n63\n64\n65\n66\n67\n68\n69\n70\n71\n72\n73\n74\n75\n76\n77\n78\n79\n80\n81\n82\n83\n84\n85\n86\n87\n88\n89\n90\n91\n92\n93\n94\n95\n96\n97\n98\n99\n100\n101\n102\n103\n104\n105\n106\n107\n108\n109\n110\n111\n112\n113\n114\n115\n116\n117\n118\n119\n120\n121\n122\n123\n124\n125\n126\n127\n128\n129\n130\n131\n132\n133\n134\n135\n136\n137\n138\n139\n140\n141\n142\n143\n144\n145\n146\n147\n148\n149\n150\n151\n152\n153\n154\n155\n156\n157\n158\n159\n160\n161\n162\n163\n164\n165\n166\n167\n168\n169\n170\n171\n172\n173\n174\n175\n176\n177\n178\n179\n180\n181\n182\n183\n184\n185\n186\n187\n188\n189\n190\n191\n192\n193\n194\n195\n196\n197\n198\n199\n200\n201\n202\n203\n204\n205\n206\n207\n208\n209\n210\n211\n212\n213\n214\n215\n216\n217\n218\n219\n'
+
+174id:001718,time:0,execs:0,orig:id:004259,src:004024+004033,time:33653678,execs:271778,op:splice,rep:3
+b''
+
+175id:001720,time:0,execs:0,orig:id:004257,src:004024,time:33644109,execs:271629,op:havoc,rep:6,+cov
+b''
+
+176id:001723,time:0,execs:0,orig:id:004254,src:001210,time:33619508,execs:271253,op:havoc,rep:1
+b'True\nFalse\n16\n15\n'
+
+177id:001765,time:0,execs:0,orig:id:004212,src:003685,time:33059719,execs:263589,op:havoc,rep:7
+b''
+
+178id:001766,time:0,execs:0,orig:id:004211,src:003685,time:33054054,execs:263500,op:havoc,rep:2
+b''
+
+179id:001769,time:0,execs:0,orig:id:004208,src:003685,time:33044294,execs:263335,op:havoc,rep:3
+b''
+
+180id:001770,time:0,execs:0,orig:id:004207,src:003685,time:33040061,execs:263263,op:havoc,rep:2
+b''
+
+181id:001777,time:0,execs:0,orig:id:004200,src:003685,time:33019607,execs:262921,op:havoc,rep:5
+b''
+
+182id:001779,time:0,execs:0,orig:id:004198,src:003685,time:33015571,execs:262848,op:havoc,rep:6
+b''
+
+183id:001785,time:0,execs:0,orig:id:004192,src:000240,time:32863188,execs:260719,op:havoc,rep:1
+b"Yes, 'apple' is present in the list\nNo, 'ple' is not present in the list\n"
+
+184id:001789,time:0,execs:0,orig:id:004188,src:003996,time:32774295,execs:259426,op:havoc,rep:1
+b'[3, 4, 6, 591]\n'
+
+185id:001800,time:0,execs:0,orig:id:004177,src:003515,time:32695892,execs:258298,op:havoc,rep:2
+b''
+
+186id:001807,time:0,execs:0,orig:id:004170,src:003514,time:32644637,execs:257538,op:havoc,rep:3
+b''
+
+187id:001810,time:0,execs:0,orig:id:004167,src:003514,time:32601617,execs:256907,op:havoc,rep:1
+b''
+
+188id:001826,time:0,execs:0,orig:id:004151,src:001303+003660,time:32370675,execs:253565,op:splice,rep:1
+b'1\n'
+
+189id:001827,time:0,execs:0,orig:id:004150,src:001303+000529,time:32357279,execs:253371,op:splice,rep:1
+b''
+
+190id:001831,time:0,execs:0,orig:id:004146,src:001303,time:32316348,execs:252746,op:havoc,rep:2
+b'1\n1\n0\n'
+
+191id:001840,time:0,execs:0,orig:id:004137,src:001303,time:32285107,execs:252288,op:havoc,rep:1
+b'1\n'
+
+192id:001843,time:0,execs:0,orig:id:004134,src:001303,time:32280820,execs:252219,op:havoc,rep:3
+b'0\n'
+
+193id:001857,time:0,execs:0,orig:id:004120,src:000691,time:32023837,execs:248721,op:havoc,rep:1
+b'2.5\n'
+
+194id:001858,time:0,execs:0,orig:id:004119,src:002756+003415,time:31960325,execs:247750,op:splice,rep:2
+b''
+
+195id:001935,time:0,execs:0,orig:id:004042,src:003278,time:31105746,execs:236146,op:havoc,rep:1
+b''
+
+196id:001938,time:0,execs:0,orig:id:004039,src:003278,time:31092420,execs:235932,op:havoc,rep:2
+b''
+
+197id:001939,time:0,execs:0,orig:id:004038,src:003278,time:31090201,execs:235890,op:havoc,rep:2,+cov
+b''
+
+198id:001942,time:0,execs:0,orig:id:004035,src:003278,time:31070525,execs:235560,op:havoc,rep:1,+cov
+b''
+
+199id:001944,time:0,execs:0,orig:id:004033,src:003278,time:31068851,execs:235522,op:havoc,rep:1,+cov
+b''
+
+200id:001947,time:0,execs:0,orig:id:004030,src:003537+003211,time:31015399,execs:234763,op:splice,rep:1
+b''
+
+201id:001949,time:0,execs:0,orig:id:004028,src:001198,time:30988418,execs:234399,op:havoc,rep:1
+b'False\n'
+
+202id:001952,time:0,execs:0,orig:id:004025,src:003964,time:30888954,execs:233016,op:havoc,rep:1
+b''
+
+203id:001953,time:0,execs:0,orig:id:004024,src:003964,time:30884136,execs:232939,op:havoc,rep:2,+cov
+b''
+
+204id:001956,time:0,execs:0,orig:id:004021,src:003964,time:30867313,execs:232677,op:havoc,rep:6
+b''
+
+205id:001957,time:0,execs:0,orig:id:004020,src:003964,time:30855165,execs:232497,op:havoc,rep:3
+b''
+
+206id:001959,time:0,execs:0,orig:id:004018,src:003964,time:30849096,execs:232397,op:havoc,rep:4
+b''
+
+207id:001977,time:0,execs:0,orig:id:004000,src:003148+000540,time:30546857,execs:229198,op:splice,rep:1
+b'[2, 3, 4, 591]\n'
+
+208id:001981,time:0,execs:0,orig:id:003996,src:003148,time:30517464,execs:228761,op:havoc,rep:1
+b'[2, 3, 4, 591]\n'
+
+209id:001985,time:0,execs:0,orig:id:003992,src:003148,time:30491230,execs:228366,op:havoc,rep:2,+cov
+b'[0.6666666666666666, 4, 591]\n'
+
+210id:001991,time:0,execs:0,orig:id:003986,src:003148,time:30461346,execs:227907,op:havoc,rep:2
+b'[2, 3, 4, 5911111111111111111111111111111111]\n'
+
+211id:002006,time:0,execs:0,orig:id:003971,src:000292+000184,time:30188503,execs:224076,op:splice,rep:1,+cov
+b''
+
+212id:002009,time:0,execs:0,orig:id:003968,src:003307+000504,time:30165265,execs:223782,op:splice,rep:1,+cov
+b''
+
+213id:002012,time:0,execs:0,orig:id:003965,src:003534,time:30090355,execs:222748,op:havoc,rep:5
+b''
+
+214id:002023,time:0,execs:0,orig:id:003954,src:003725+000688,time:29976513,execs:221131,op:splice,rep:1
+b'5\n4\n3\n2\n1\n'
+
+215id:002027,time:0,execs:0,orig:id:003950,src:000260+000540,time:29902406,execs:220131,op:splice,rep:1
+b''
+
+216id:002029,time:0,execs:0,orig:id:003948,src:002678,time:29800416,execs:218738,op:havoc,rep:1
+b'Testing is_even:\nTrue\nFalse\n\nTesting is_palindrome:\nTrue\nFalse\n\nTesting contains:\nTrue\nFalse\n\nTesting contains_key:\nTrue\nFalse\n\nTesting contains_value:\nFalse\nFalse\n'
+
+217id:002045,time:0,execs:0,orig:id:003932,src:002736,time:29613684,execs:216072,op:havoc,rep:2
+b''
+
+218id:002050,time:0,execs:0,orig:id:003927,src:002736,time:29583576,execs:215635,op:havoc,rep:1,+cov
+b''
+
+219id:002052,time:0,execs:0,orig:id:003925,src:002736,time:29574284,execs:215489,op:havoc,rep:1
+b''
+
+220id:002070,time:0,execs:0,orig:id:003907,src:003522,time:29266971,execs:211171,op:havoc,rep:2
+b''
+
+221id:002098,time:0,execs:0,orig:id:003879,src:002407+000882,time:29008960,execs:207588,op:splice,rep:1
+b''
+
+222id:002172,time:0,execs:0,orig:id:003805,src:000874+002309,time:28681502,execs:203108,op:splice,rep:1,+cov
+b'None\nHelp on class list in module builtins:\n\nclass list(object)\n |  list(iterable=(), /)\n |\n |  Built-in mutable sequence.\n |\n |  If no argument is given, the constructor creates a new empty list.\n |  The argument must be an iterable if specified.\n |\n |  Methods defined here:\n |\n |  __add__(self, value, /)\n |      Return self+value.\n |\n |  __contains__(self, key, /)\n |      Return bool(key in self).\n |\n |  __delitem__(self, key, /)\n |      Delete self[key].\n |\n |  __eq__(self, value, /)\n |      Return self==value.\n |\n |  __ge__(self, value, /)\n |      Return self>=value.\n |\n |  __getattribute__(self, name, /)\n |      Return getattr(self, name).\n |\n |  __getitem__(self, index, /)\n |      Return self[index].\n |\n |  __gt__(self, value, /)\n |      Return self>value.\n |\n |  __iadd__(self, value, /)\n |      Implement self+=value.\n |\n |  __imul__(self, value, /)\n |      Implement self*=value.\n |\n |  __init__(self, /, *args, **kwargs)\n |      Initialize self.  See help(type(self)) for accurate signature.\n |\n |  __iter__(self, /)\n |      Implement iter(self).\n |\n |  __le__(self, value, /)\n |      Return self<=value.\n |\n |  __len__(self, /)\n |      Return len(self).\n |\n |  __lt__(self, value, /)\n |      Return self<value.\n |\n |  __mul__(self, value, /)\n |      Return self*value.\n |\n |  __ne__(self, value, /)\n |      Return self!=value.\n |\n |  __repr__(self, /)\n |      Return repr(self).\n |\n |  __reversed__(self, /)\n |      Return a reverse iterator over the list.\n |\n |  __rmul__(self, value, /)\n |      Return value*self.\n |\n |  __setitem__(self, key, value, /)\n |      Set self[key] to value.\n |\n |  __sizeof__(self, /)\n |      Return the size of the list in memory, in bytes.\n |\n |  append(self, object, /)\n |      Append object to the end of the list.\n |\n |  clear(self, /)\n |      Remove all items from list.\n |\n |  copy(self, /)\n |      Return a shallow copy of the list.\n |\n |  count(self, value, /)\n |      Return number of occurrences of value.\n |\n |  extend(self, iterable, /)\n |      Extend list by appending elements from the iterable.\n |\n |  index(self, value, start=0, stop=9223372036854775807, /)\n |      Return first index of value.\n |\n |      Raises ValueError if the value is not present.\n |\n |  insert(self, index, object, /)\n |      Insert object before index.\n |\n |  pop(self, index=-1, /)\n |      Remove and return item at index (default last).\n |\n |      Raises IndexError if list is empty or index is out of range.\n |\n |  remove(self, value, /)\n |      Remove first occurrence of value.\n |\n |      Raises ValueError if the value is not present.\n |\n |  reverse(self, /)\n |      Reverse *IN PLACE*.\n |\n |  sort(self, /, *, key=None, reverse=False)\n |      Sort the list in ascending order and return None.\n |\n |      The sort is in-place (i.e. the list itself is modified) and stable (i.e. the\n |      order of two equal elements is maintained).\n |\n |      If a key function is given, apply it once to each list item and sort them,\n |      ascending or descending, according to their function values.\n |\n |      The reverse flag can be set to sort in descending order.\n |\n |  ----------------------------------------------------------------------\n |  Class methods defined here:\n |\n |  __class_getitem__(...)\n |      See PEP 585\n |\n |  ----------------------------------------------------------------------\n |  Static methods defined here:\n |\n |  __new__(*args, **kwargs)\n |      Create and return a new object.  See help(type) for accurate signature.\n |\n |  ----------------------------------------------------------------------\n |  Data and other attributes defined here:\n |\n |  __hash__ = None\n\nHelp on class list in module builtins:\n\nclass list(object)\n |  list(iterable=(), /)\n |\n |  Built-in mutable sequence.\n |\n |  If no argument is given, the constructor creates a new empty list.\n |  The argument must be an iterable if specified.\n |\n |  Methods defined here:\n |\n |  __add__(self, value, /)\n |      Return self+value.\n |\n |  __contains__(self, key, /)\n |      Return bool(key in self).\n |\n |  __delitem__(self, key, /)\n |      Delete self[key].\n |\n |  __eq__(self, value, /)\n |      Return self==value.\n |\n |  __ge__(self, value, /)\n |      Return self>=value.\n |\n |  __getattribute__(self, name, /)\n |      Return getattr(self, name).\n |\n |  __getitem__(self, index, /)\n |      Return self[index].\n |\n |  __gt__(self, value, /)\n |      Return self>value.\n |\n |  __iadd__(self, value, /)\n |      Implement self+=value.\n |\n |  __imul__(self, value, /)\n |      Implement self*=value.\n |\n |  __init__(self, /, *args, **kwargs)\n |      Initialize self.  See help(type(self)) for accurate signature.\n |\n |  __iter__(self, /)\n |      Implement iter(self).\n |\n |  __le__(self, value, /)\n |      Return self<=value.\n |\n |  __len__(self, /)\n |      Return len(self).\n |\n |  __lt__(self, value, /)\n |      Return self<value.\n |\n |  __mul__(self, value, /)\n |      Return self*value.\n |\n |  __ne__(self, value, /)\n |      Return self!=value.\n |\n |  __repr__(self, /)\n |      Return repr(self).\n |\n |  __reversed__(self, /)\n |      Return a reverse iterator over the list.\n |\n |  __rmul__(self, value, /)\n |      Return value*self.\n |\n |  __setitem__(self, key, value, /)\n |      Set self[key] to value.\n |\n |  __sizeof__(self, /)\n |      Return the size of the list in memory, in bytes.\n |\n |  append(self, object, /)\n |      Append object to the end of the list.\n |\n |  clear(self, /)\n |      Remove all items from list.\n |\n |  copy(self, /)\n |      Return a shallow copy of the list.\n |\n |  count(self, value, /)\n |      Return number of occurrences of value.\n |\n |  extend(self, iterable, /)\n |      Extend list by appending elements from the iterable.\n |\n |  index(self, value, start=0, stop=9223372036854775807, /)\n |      Return first index of value.\n |\n |      Raises ValueError if the value is not present.\n |\n |  insert(self, index, object, /)\n |      Insert object before index.\n |\n |  pop(self, index=-1, /)\n |      Remove and return item at index (default last).\n |\n |      Raises IndexError if list is empty or index is out of range.\n |\n |  remove(self, value, /)\n |      Remove first occurrence of value.\n |\n |      Raises ValueError if the value is not present.\n |\n |  reverse(self, /)\n |      Reverse *IN PLACE*.\n |\n |  sort(self, /, *, key=None, reverse=False)\n |      Sort the list in ascending order and return None.\n |\n |      The sort is in-place (i.e. the list itself is modified) and stable (i.e. the\n |      order of two equal elements is maintained).\n |\n |      If a key function is given, apply it once to each list item and sort them,\n |      ascending or descending, according to their function values.\n |\n |      The reverse flag can be set to sort in descending order.\n |\n |  ----------------------------------------------------------------------\n |  Class methods defined here:\n |\n |  __class_getitem__(...)\n |      See PEP 585\n |\n |  ----------------------------------------------------------------------\n |  Static methods defined here:\n |\n |  __new__(*args, **kwargs)\n |      Create and return a new object.  See help(type) for accurate signature.\n |\n |  ----------------------------------------------------------------------\n |  Data and other attributes defined here:\n |\n |  __hash__ = None\n\n'
+
+223id:002179,time:0,execs:0,orig:id:003798,src:000175+000786,time:28577516,execs:201818,op:splice,rep:1
+b''
+
+224id:002184,time:0,execs:0,orig:id:003793,src:001842+003415,time:28476772,execs:200543,op:splice,rep:2
+b''
+
+225id:002185,time:0,execs:0,orig:id:003792,src:001842+003415,time:28474701,execs:200506,op:splice,rep:1
+b''
+
+226id:002187,time:0,execs:0,orig:id:003790,src:001842+003415,time:28446602,execs:200083,op:splice,rep:3
+b''
+
+227id:002189,time:0,execs:0,orig:id:003788,src:001842+003415,time:28439328,execs:199973,op:splice,rep:4,+cov
+b''
+
+228id:002191,time:0,execs:0,orig:id:003786,src:001842+003415,time:28433322,execs:199872,op:splice,rep:1
+b''
+
+229id:002192,time:0,execs:0,orig:id:003785,src:001842+003415,time:28432788,execs:199858,op:splice,rep:1
+b''
+
+230id:002195,time:0,execs:0,orig:id:003782,src:001842+003415,time:28429078,execs:199784,op:splice,rep:1,+cov
+b''
+
+231id:002197,time:0,execs:0,orig:id:003780,src:001842+003415,time:28423332,execs:199693,op:splice,rep:1
+b''
+
+232id:002198,time:0,execs:0,orig:id:003779,src:001842+003415,time:28422551,execs:199675,op:splice,rep:1,+cov
+b''
+
+233id:002201,time:0,execs:0,orig:id:003776,src:001842+001340,time:28414465,execs:199548,op:splice,rep:1
+b''
+
+234id:002204,time:0,execs:0,orig:id:003773,src:002764,time:28387253,execs:199156,op:havoc,rep:2
+b''
+
+235id:002250,time:0,execs:0,orig:id:003727,src:000904,time:26860264,execs:191881,op:havoc,rep:2
+b'Alice 25\n'
+
+236id:002270,time:0,execs:0,orig:id:003707,src:001335+002231,time:26742080,execs:190359,op:splice,rep:1
+b''
+
+237id:002277,time:0,execs:0,orig:id:003700,src:000116+002396,time:26676786,execs:189567,op:splice,rep:1
+b''
+
+238id:002282,time:0,execs:0,orig:id:003695,src:001891,time:26597427,execs:188357,op:havoc,rep:3
+b''
+
+239id:002288,time:0,execs:0,orig:id:003689,src:001891,time:26567294,execs:187879,op:havoc,rep:2
+b''
+
+240id:002298,time:0,execs:0,orig:id:003679,src:000204+003190,time:26498238,execs:186852,op:splice,rep:1,+cov
+b''
+
+241id:002302,time:0,execs:0,orig:id:003675,src:001426,time:26417928,execs:185721,op:havoc,rep:2
+b'0\n2\n0\n0\n0\n'
+
+242id:002314,time:0,execs:0,orig:id:003663,src:003593,time:26203615,execs:182631,op:havoc,rep:1
+b"Error\x1freading file: [Errno 2] No such file or directory: 'example_file.t\\x19t'\n\n"
+
+243id:002384,time:0,execs:0,orig:id:003593,src:003081,time:25661452,execs:175358,op:havoc,rep:2
+b"Error\x1freading file: [Errno 2] No such file or directory: 'example_file.t\\x19t'\nInvalid value in file: [Errno 2] No such file or directory: 'example_file.t\\x19t'\n"
+
+244id:002394,time:0,execs:0,orig:id:003583,src:000632,time:25494351,execs:172991,op:havoc,rep:3
+b'<bound method MyClass.my_property of <__main__.MyClass object at 0x10a3da2a0>>\nHello\n'
+
+245id:002404,time:0,execs:0,orig:id:003573,src:003333+000478,time:25442936,execs:172216,op:splice,rep:1,+cov
+b''
+
+246id:002406,time:0,execs:0,orig:id:003571,src:003333+000478,time:25427598,execs:171987,op:splice,rep:2
+b''
+
+247id:002408,time:0,execs:0,orig:id:003569,src:003333+000478,time:25406573,execs:171665,op:splice,rep:1
+b''
+
+248id:002410,time:0,execs:0,orig:id:003567,src:003333+000478,time:25396795,execs:171516,op:splice,rep:2
+b''
+
+249id:002427,time:0,execs:0,orig:id:003550,src:003520+002626,time:25237953,execs:169484,op:splice,rep:3
+b''
+
+250id:002444,time:0,execs:0,orig:id:003533,src:003513,time:25051969,execs:167005,op:havoc,rep:5
+b'True\n'
+
+251id:002458,time:0,execs:0,orig:id:003519,src:003039+000946,time:24995987,execs:166159,op:splice,rep:1
+b'The square root of 1 is 1.0\nThe square root of 2 is 1.4142135623730951\nThe square root of 3 is 1.7320508075688772\nThe square root of 4 is 2.0\nThe square root of 5 is 2.23606797749979\n'
+
+252id:002462,time:0,execs:0,orig:id:003515,src:003279,time:24952433,execs:165551,op:havoc,rep:3
+b''
+
+253id:002465,time:0,execs:0,orig:id:003512,src:003279,time:24937669,execs:165320,op:havoc,rep:1
+b''
+
+254id:002472,time:0,execs:0,orig:id:003505,src:003279,time:24901904,execs:164796,op:havoc,rep:5
+b''
+
+255id:002496,time:0,execs:0,orig:id:003481,src:000126+001473,time:24633833,execs:161176,op:splice,rep:2
+b''
+
+256id:002497,time:0,execs:0,orig:id:003480,src:000126+001473,time:24632311,execs:161156,op:splice,rep:2
+b''
+
+257id:002562,time:0,execs:0,orig:id:003415,src:003237,time:23989474,execs:153138,op:havoc,rep:3
+b''
+
+258id:002569,time:0,execs:0,orig:id:003408,src:003237,time:23960850,execs:152689,op:havoc,rep:2
+b''
+
+259id:002572,time:0,execs:0,orig:id:003405,src:003237,time:23948361,execs:152501,op:havoc,rep:3,+cov
+b''
+
+260id:002576,time:0,execs:0,orig:id:003401,src:003237,time:23938136,execs:152328,op:havoc,rep:3
+b''
+
+261id:002584,time:0,execs:0,orig:id:003393,src:002843+002865,time:23888644,execs:151627,op:splice,rep:1,+cov
+b''
+
+262id:002637,time:0,execs:0,orig:id:003340,src:001401,time:19546772,execs:146840,op:havoc,rep:3
+b'{2, 4}\n{1, 3, 5}\n{2, 4}\n'
+
+263id:002656,time:0,execs:0,orig:id:003321,src:000395+001361,time:19456475,execs:145532,op:splice,rep:1
+b'The animal says: Fido\nNone\nThe dog says: Rufus\nI am a Golden Retriever\nNone\nThe cat says: Whiskers\nI am a black\nNone\n'
+
+264id:002675,time:0,execs:0,orig:id:003302,src:003049+001063,time:15234887,execs:142443,op:splice,rep:1
+b"<class 'bool'>\n<class 'int'>\n<class 'bytearray'>\n"
+
+265id:002697,time:0,execs:0,orig:id:003280,src:003186+002871,time:14927673,execs:138354,op:splice,rep:2
+b''
+
+266id:002715,time:0,execs:0,orig:id:003262,src:000820+000946,time:14845065,execs:137150,op:splice,rep:1
+b'This will always be executed\n'
+
+267id:002748,time:0,execs:0,orig:id:003229,src:002894,time:12533266,execs:132653,op:havoc,rep:2,+cov
+b''
+
+268id:002749,time:0,execs:0,orig:id:003228,src:002894,time:12530386,execs:132605,op:havoc,rep:2
+b''
+
+269id:002751,time:0,execs:0,orig:id:003226,src:002894,time:12526632,execs:132538,op:havoc,rep:4
+b''
+
+270id:002754,time:0,execs:0,orig:id:003223,src:002894,time:12516955,execs:132376,op:havoc,rep:3,+cov
+b''
+
+271id:002765,time:0,execs:0,orig:id:003212,src:002759+001236,time:12423262,execs:131028,op:splice,rep:1
+b'True\nFalse\nFalse\nFalse\nworld\n5\nNone\nNone\n'
+
+272id:002781,time:0,execs:0,orig:id:003196,src:002880,time:12312516,execs:129481,op:havoc,rep:3,+cov
+b''
+
+273id:002785,time:0,execs:0,orig:id:003192,src:002880,time:12283840,execs:129061,op:havoc,rep:2,+cov
+b''
+
+274id:002800,time:0,execs:0,orig:id:003177,src:002280+001021,time:12156956,execs:127306,op:splice,rep:2
+b'5\nThe variable is not None\n'
+
+275id:002801,time:0,execs:0,orig:id:003176,src:002280+001021,time:12155560,execs:127284,op:splice,rep:1
+b'5\n5\nThe variable is not None\n'
+
+276id:002829,time:0,execs:0,orig:id:003148,src:002915,time:11976964,execs:124760,op:havoc,rep:2
+b'[2, 3, 4, 591]\n'
+
+277id:002896,time:0,execs:0,orig:id:003081,src:000180,time:11362870,execs:116475,op:havoc,rep:2
+b"Error reading file: [Errno 2] No such file or directory: 'example_file.t\\x19t'\n"
+
+278id:002932,time:0,execs:0,orig:id:003045,src:001116+001036,time:11022256,execs:111723,op:splice,rep:3
+b'Testing the use of True and finally\nAn@<\xd6\x96error occurred: division by zero\n'
+
+279id:002935,time:0,execs:0,orig:id:003042,src:001116+001036,time:11003911,execs:111466,op:splice,rep:1
+b'Testing the use of True and finally\nAn error occurred: division by zero\n'
+
+280id:002980,time:0,execs:0,orig:id:002997,src:001148+001025,time:10742412,execs:107996,op:splice,rep:1
+b''
+
+281id:003042,time:0,execs:0,orig:id:002935,src:001280,time:10299006,execs:102112,op:havoc,rep:1
+b'(7+0j)\n'
+
+282id:003062,time:0,execs:0,orig:id:002915,src:000295,time:10124294,execs:99769,op:havoc,rep:2
+b'[2, 3, 4, 5, 91]\n'
+
+283id:003079,time:0,execs:0,orig:id:002898,src:002749,time:10049561,execs:98682,op:havoc,rep:3
+b''
+
+284id:003082,time:0,execs:0,orig:id:002895,src:002749,time:10036871,execs:98483,op:havoc,rep:3,+cov
+b''
+
+285id:003106,time:0,execs:0,orig:id:002871,src:002749,time:9982530,execs:97635,op:havoc,rep:3,+cov
+b''
+
+286id:003107,time:0,execs:0,orig:id:002870,src:002749,time:9981460,execs:97613,op:havoc,rep:4,+cov
+b''
+
+287id:003108,time:0,execs:0,orig:id:002869,src:002749,time:9980390,execs:97591,op:havoc,rep:2,+cov
+b''
+
+288id:003142,time:0,execs:0,orig:id:002835,src:001413+000030,time:9792736,execs:94956,op:splice,rep:1
+b'[1, 2, 3, 4, 5]\n'
+
+289id:003149,time:0,execs:0,orig:id:002828,src:001413,time:9753562,execs:94407,op:havoc,rep:1
+b'Entering my_context_manager\nNone\nExiting my_context_manager\n'
+
+290id:003165,time:0,execs:0,orig:id:002812,src:000033,time:9634275,execs:92730,op:havoc,rep:2
+b'File not fffffffffffffffffffffffffound!\nLoop finished normally.\n'
+
+291id:003192,time:0,execs:0,orig:id:002785,src:000787+001219,time:9502870,execs:90876,op:splice,rep:1
+b'True\n'
+
+292id:003218,time:0,execs:0,orig:id:002759,src:002088,time:9336186,execs:88538,op:havoc,rep:2,+cov
+b''
+
+293id:003221,time:0,execs:0,orig:id:002756,src:002088,time:9328630,execs:88428,op:havoc,rep:4,+cov
+b''
+
+294id:003223,time:0,execs:0,orig:id:002754,src:002088,time:9326200,execs:88383,op:havoc,rep:1
+b''
+
+295id:003225,time:0,execs:0,orig:id:002752,src:002088,time:9322796,execs:88330,op:havoc,rep:2
+b''
+
+296id:003229,time:0,execs:0,orig:id:002748,src:002088,time:9311106,execs:88147,op:havoc,rep:2,+cov
+b''
+
+297id:003230,time:0,execs:0,orig:id:002747,src:002088,time:9308019,execs:88097,op:havoc,rep:1,+cov
+b''
+
+298id:003234,time:0,execs:0,orig:id:002743,src:002088,time:9303559,execs:88014,op:havoc,rep:4
+b''
+
+299id:003239,time:0,execs:0,orig:id:002738,src:002088,time:9294115,execs:87859,op:havoc,rep:4,+cov
+b''
+
+300id:003241,time:0,execs:0,orig:id:002736,src:002088,time:9290644,execs:87808,op:havoc,rep:1,+cov
+b''
+
+301id:003242,time:0,execs:0,orig:id:002735,src:002088,time:9289415,execs:87784,op:havoc,rep:1
+b''
+
+302id:003284,time:0,execs:0,orig:id:002693,src:001698,time:9045376,execs:84398,op:havoc,rep:16
+b''
+
+303id:003291,time:0,execs:0,orig:id:002686,src:001242+002325,time:8971404,execs:83371,op:splice,rep:1
+b''
+
+304id:003321,time:0,execs:0,orig:id:002656,src:000668+001060,time:8696259,execs:79728,op:splice,rep:2
+b'True\nFalse\n'
+
+305id:003323,time:0,execs:0,orig:id:002654,src:000668+001060,time:8686845,execs:79622,op:splice,rep:1
+b'True\nFalse\n'
+
+306id:003328,time:0,execs:0,orig:id:002649,src:000668+001060,time:8654953,execs:79305,op:splice,rep:2
+b'True\n'
+
+307id:003342,time:0,execs:0,orig:id:002635,src:000668+001060,time:8595391,execs:78730,op:splice,rep:1
+b'True\nFalse\n'
+
+308id:003351,time:0,execs:0,orig:id:002626,src:001201+000342,time:8553478,execs:78254,op:splice,rep:1
+b''
+
+309id:003505,time:0,execs:0,orig:id:002472,src:000205,time:7837962,execs:68907,op:havoc,rep:2,+cov
+b''
+
+310id:003513,time:0,execs:0,orig:id:002464,src:000205,time:7800727,execs:68394,op:havoc,rep:1
+b''
+
+311id:003519,time:0,execs:0,orig:id:002458,src:000340+002254,time:7764063,execs:67974,op:splice,rep:1
+b''
+
+312id:003520,time:0,execs:0,orig:id:002457,src:000340+001021,time:7756969,execs:67933,op:splice,rep:1
+b'The variable is not None\n'
+
+313id:003527,time:0,execs:0,orig:id:002450,src:000433+001187,time:7686104,execs:67369,op:splice,rep:1
+b''
+
+314id:003543,time:0,execs:0,orig:id:002434,src:000433,time:7628360,execs:66617,op:havoc,rep:1
+b''
+
+315id:003697,time:0,execs:0,orig:id:002280,src:000191,time:3865563,execs:56015,op:havoc,rep:1,+cov
+b'5\n5\n'
+
+316id:003888,time:0,execs:0,orig:id:002089,src:001881,time:1958923,execs:44050,op:havoc,rep:1,+cov
+b''
+
+317id:003938,time:0,execs:0,orig:id:002039,src:001678,time:1798073,execs:41832,op:havoc,rep:1,+cov
+b''
+
+318id:003941,time:0,execs:0,orig:id:002036,src:001678,time:1776399,execs:41527,op:havoc,rep:7
+b''
+
+319id:003979,time:0,execs:0,orig:id:001998,src:000645+000563,time:1595166,execs:39043,op:splice,rep:1,+cov
+b''
+
+320id:003982,time:0,execs:0,orig:id:001995,src:000645+000563,time:1589918,execs:38960,op:splice,rep:2,+cov
+b''
+
+321id:003993,time:0,execs:0,orig:id:001984,src:000645+001064,time:1571452,execs:38665,op:splice,rep:2
+b"False\nTrue\nFalse\nb'hello world'\nb'hello world'\n"
+
+322id:004027,time:0,execs:0,orig:id:001950,src:000647+001204,time:1357254,execs:35715,op:splice,rep:4
+b'The variable is true.\nThe condition is true.\n'
+
+323id:004047,time:0,execs:0,orig:id:001930,src:000647,time:1273085,execs:34582,op:havoc,rep:1,+cov
+b'{"key1": "value\\u0012", "key2": false}\n'
+
+324id:004048,time:0,execs:0,orig:id:001929,src:000647,time:1271096,execs:34553,op:havoc,rep:1
+b'{"key1": false}\n'
+
+325id:004068,time:0,execs:0,orig:id:001909,src:000647,time:1208545,execs:33713,op:havoc,rep:1,+cov
+b'{"key1": "value1", "nvert the dictionarkey2": false}\n'
+
+326id:004083,time:0,execs:0,orig:id:001894,src:001680,time:1134308,execs:32632,op:havoc,rep:4
+b''
+
+327id:004089,time:0,execs:0,orig:id:001888,src:001680,time:1117585,execs:32383,op:havoc,rep:4
+b''
+
+328id:004090,time:0,execs:0,orig:id:001887,src:001680,time:1114343,execs:32328,op:havoc,rep:3
+b''
+
+329id:004093,time:0,execs:0,orig:id:001884,src:001680,time:1099808,execs:32105,op:havoc,rep:4
+b''
+
+330id:004190,time:0,execs:0,orig:id:001787,src:001316,time:741214,execs:27143,op:havoc,rep:1
+b'[1, 2, 3, 4, 5, 6, 7, 8, 9]\n[1, 2, 3, 4, 5, 6, 7, 8, 9]\n'
+
+331id:004198,time:0,execs:0,orig:id:001779,src:001316,time:727615,execs:26950,op:havoc,rep:2
+b'[1, 2, 3, 4, 5, 6, 7, 8, 9]\n[1, 2, 3, 4, 5, 6, 777777777777777777777777, 8, 9]\n'
+
+332id:004216,time:0,execs:0,orig:id:001761,src:001316,time:690074,execs:26441,op:havoc,rep:2,+cov
+b'[1, 2, 3, 4, 5, 6, 7, 8, 9]\n[1, 2, 3, 4, 5, 6, 7, 8, 9]\n'
+
+333id:004224,time:0,execs:0,orig:id:001753,src:001316,time:674332,execs:26210,op:havoc,rep:1
+b'[1, 2, 3, 4, 5, 6, 7, 8, 9]\n[1, 2, 3, 4, 5, 6, 7, 8, 9]\n'
+
+334id:004227,time:0,execs:0,orig:id:001750,src:001316,time:671097,execs:26152,op:havoc,rep:2
+b'[1, 2, 3, 4, 5, 6, 7, 8, 9]\n[1, 2, 3, 4, 5, 6, 7, 8, 9]\n'
+
+335id:004279,time:0,execs:0,orig:id:001698,src:001568,time:571501,execs:24863,op:havoc,rep:2
+b''
+
+336id:004298,time:0,execs:0,orig:id:001679,src:001568,time:496026,execs:23844,op:havoc,rep:12
+b''
+
+337id:004317,time:0,execs:0,orig:id:001660,src:001568,time:454066,execs:23290,op:havoc,rep:13,+cov
+b''
+
+338id:004387,time:0,execs:0,orig:id:001590,src:000621+000494,time:329742,execs:21537,op:splice,rep:1
+b'False\n'
+
+339id:004415,time:0,execs:0,orig:id:001562,src:000621+001294,time:252444,execs:20503,op:splice,rep:8
+b''
+
+340id:004572,time:0,execs:0,orig:codellama_974.py
+b'Hello, World\nHello, World\nHello, World\nHello, World\nHello, World\n'
+
+341id:004576,time:0,execs:0,orig:codellama_97.py
+b'{2, 4}\n{1, 3, 5}\n{2, 4}\n'
+
+342id:004577,time:0,execs:0,orig:codellama_969.py
+b'Command 1: Hello, World!\n\nCommand 2: total 101408\n-rw-r--r--    1 jackjack1ex  staff        24 15 Apr 01:59  executed by each tououtput.txt\n-rw-r--r--    1 jackjack1ex  staff         0 15 Apr 01:10 CREATE TABLE IF NOT EXISTS employees (\n    id INTEGER PRIMARY KEY,\n    name TEXT NOT NULL,\n    salary INTEGER NOT NULL\n)\n-rw-r--r--    1 jackjack1ex  staff         0 15 Apr 01:11 CREATE TABLE IF NOT EXISTS employees (\n    id INTEGER PRIMARY KEY,\n    name TEXT NOT NULL,\n    salary INTEGER NOT NULn\n)\n-rw-r--r--    1 jackjack1ex  staff         0 15 Apr 01:11 CREATE TABLE IF NOT EXISTS employees (\n    id INTEGER PRIMARY KEY,\n    name TEXT NOT NULL,\n    salary INTEGER NOT pULL\n)\ndrwxr-xr-x@  30 jackjack1ex  staff       960 14 Apr 13:00 Doc\ndrwxr-xr-x@   4 jackjack1ex  staff       128 13 Apr 22:54 Grammar\ndrwxr-xr-x@  80 jackjack1ex  staff      2560 15 Apr 01:53 Include\n-rw-r--r--@   1 jackjack1ex  staff     13936 13 Apr 04:37 LICENSE\ndrwxr-xr-x@ 202 jackjack1ex  staff      6464 15 Apr 01:53 Lib\ndrwxr-xr-x@  12 jackjack1ex  staff       384 14 Apr 13:00 Mac\n-rw-r--r--    1 jackjack1ex  staff    178153 13 Apr 21:45 Makefile\n-rw-r--r--    1 jackjack1ex  staff    113203 13 Apr 21:45 Makefile.pre\n-rw-r--r--@   1 jackjack1ex  staff    107906 13 Apr 04:37 Makefile.pre.in\ndrwxr-xr-x@  29 jackjack1ex  staff       928 14 Apr 11:57 Misc\ndrwxr-xr-x@ 308 jackjack1ex  staff      9856 15 Apr 01:53 Modules\ndrwxr-xr-x@ 108 jackjack1ex  staff      3456 15 Apr 01:53 Objects\ndrwxr-xr-x@  42 jackjack1ex  staff      1344 14 Apr 02:02 PC\ndrwxr-xr-x@ 133 jackjack1ex  staff      4256 14 Apr 00:38 PCbuild\ndrwxr-xr-x@  27 jackjack1ex  staff       864 14 Apr 13:44 Parser\ndrwxr-xr-x@  17 jackjack1ex  staff       544 14 Apr 13:00 Programs\ndrwxr-xr-x@ 160 jackjack1ex  staff      5120 15 Apr 01:52 Python\n-rw-r--r--@   1 jackjack1ex  staff      8703 13 Apr 04:37 README.rst\n-rw-r--r--    1 jackjack1ex  staff        68 15 Apr 01:05 Terson.pkl\ndrwxr-xr-x@  29 jackjack1ex  staff       928 14 Apr 11:57 Tools\n-rwxr-xr-x    1 jackjack1ex  staff   5347808 13 Apr 21:49 _bootstrap_python\n-rw-r--r--@   1 jackjack1ex  staff     22013 13 Apr 04:37 aclocal.m4\ndrwxr-xr-x@   7 jackjack1ex  staff       224 13 Apr 22:55 build\n-rw-r--r--@   1 jackjack1ex  staff   1494047 15 Apr 02:01 codellama_error.txt\n-rw-r--r--@   1 jackjack1ex  staff      1731 14 Apr 15:26 codellama_hang_err.txt\n-rw-r--r--@   1 jackjack1ex  staff     53197 15 Apr 02:01 codellama_result.txt\n-rwxr-xr-x@   1 jackjack1ex  staff     49348 13 Apr 04:37 config.guess\n-rw-r--r--    1 jackjack1ex  staff   1037426 13 Apr 21:45 config.log\n-rwxr-xr-x    1 jackjack1ex  staff     56409 13 Apr 21:45 config.status\n-rwxr-xr-x@   1 jackjack1ex  staff     35276 13 Apr 04:37 config.sub\n-rwxr-xr-x@   1 jackjack1ex  staff    872093 13 Apr 04:37 configure\n-rw-r--r--@   1 jackjack1ex  staff    236034 13 Apr 04:37 configure.ac\n-rw-r--r--    1 jackjack1ex  staff        91 14 Apr 16:51 data\x10csv\n-rw-r--r--    1 jackjack1ex  staff         0 15 Apr 01:06 data.csv\ndrwxr-xr-x@   7 jackjack1ex  staff       224 13 Apr 22:34 debug\n-rw-r--r--    1 jackjack1ex  staff         0 14 Apr 15:42 ex   # Log an infample.log\n-rw-r--r--    1 jackjack1ex  staff        20 15 Apr 01:59 example.csv\n-rw-r--r--    1 jackjack1ex  staff         0 14 Apr 15:42 example.log\n-rw-r--r--    1 jackjack1ex  staff       581 15 Apr 01:10 factorial.prof\n-rw-r--r--@   1 jackjack1ex  staff        84 15 Apr 01:49 gemma_crash_re.txt\n-rw-r--r--@   1 jackjack1ex  staff   1453199 15 Apr 01:22 gemma_error.txt\n-rw-r--r--@   1 jackjack1ex  staff       998 14 Apr 13:04 gemma_hang_err.txt\n-rw-r--r--    1 jackjack1ex  staff   2413627 15 Apr 01:22 gemma_result.txt\n-rw-r--r--    1 jackjack1ex  staff        85 14 Apr 20:28 ic_dict.pkl\n-rwxr-xr-x@   1 jackjack1ex  staff     15358 13 Apr 04:37 install-sh\n-rw-r--r--    1 jackjack1ex  staff  30370768 13 Apr 21:50 libpython3.12.a\ndrwxr-xr-x@   6 jackjack1ex  staff       192 15 Apr 01:46 ly_venv\ndrwxr-xr-x@   6 jackjack1ex  staff       192 15 Apr 01:46 mtes the use of and and y_venv\ndrwxr-xr-x@   6 jackjack1ex  staff       192 15 Apr 01:46 mtes the use of aud and y_venv\ndrwxr-xr-x@   6 jackjack1ex  staff       192 15 Apr 01:46 my^venv\n-rw-r--r--    1 jackjack1ex  staff        85 15 Apr 01:06 my_dict.pkl\n-rw-r--r--    1 jackjack1ex  staff        13 14 Apr 21:51 my_file.txt\n-rw-r--r--    1 jackjack1ex  staff       508 14 Apr 21:49 my_function.prof\n-rw-r--r--    1 jackjack1ex  staff         0 14 Apr 22:29 my_log.txt\n-rw-r--r--    1 jackjack1ex  staff        48 15 Apr 01:49 my_object.gickle\n-rw-r--r--    1 jackjack1ex  staff        48 15 Apr 01:49 my_object.pickle\ndrwxr-xr-x@   6 jackjack1ex  staff       192 15 Apr 01:46 my_ve(Aninv\ndrwxr-xr-x@   6 jackjack1ex  staff       192 15 Apr 01:46 my_veeeenv\ndrwxr-xr-x@   6 jackjack1ex  staff       192 15 Apr 01:46 my_vennnnnnnnnnnnnnnnnnnnnnnnnnnnnv\ndrwxr-xr-x@   6 jackjack1ex  staff       192 15 Apr 01:46 my_venv\n-rw-r--r--    1 jackjack1ex  staff        78 15 Apr 01:59 output.txt\n-rw-r--r--    1 jackjack1ex  staff        38 15 Apr 01:59 person.pickle\n-rw-r--r--    1 jackjack1ex  staff        37 15 Apr 01:11 person.pkl\n-rw-r--r--    1 jackjack1ex  staff        24 13 Apr 21:50 platform\n-rw-r--r--    1 jackjack1ex  staff       505 14 Apr 21:50 profile.txt\n-rw-r--r--    1 jackjack1ex  staff        33 13 Apr 21:50 pybuilddir.txt\n-rw-r--r--    1 jackjack1ex  staff     56080 13 Apr 21:45 pyconfig.h\n-rw-r--r--@   1 jackjack1ex  staff     53474 13 Apr 04:37 pyconfig.h.in\n-rw-r--r--    1 jackjack1ex  staff      2044 13 Apr 21:52 python-config\n-rw-r--r--    1 jackjack1ex  staff      2044 13 Apr 21:52 python-config.py\n-rwxr-xr-x    1 jackjack1ex  staff   7089960 13 Apr 21:50 python.exe\n-rw-r--r--    1 jackjack1ex  staff     70792 13 Apr 21:52 python.exe-gdb.py\n-rw-r--r--    1 jackjack1ex  staff        22 14 Apr 21:49 requirements.txt\n-rw-r--r--@   1 jackjack1ex  staff      3233 15 Apr 01:49 run_cpython_3.12.py\n-rw-r--r--    1 jackjack1ex  staff         0 15 Apr 01:59 t\\sb.db\n-rw-r--r--    1 jackjack1ex  staff      8192 14 Apr 16:52 test 3, 4, 5,.db\n-rw-r--r--    1 jackjack1ex  staff     12288 14 Apr 21:49 test.db\n-rw-r--r--    1 jackjack1ex  staff       214 14 Apr 23:20 test.log\n\n'
+
+343id:004583,time:0,execs:0,orig:codellama_962.py
+b'The website is not working properly.\n'
+
+344id:004586,time:0,execs:0,orig:codellama_96.py
+b'Both conditions are true\n'
+
+345id:004590,time:0,execs:0,orig:codellama_956.py
+b'True\nTrue\nFalse\n'
+
+346id:004591,time:0,execs:0,orig:codellama_955.py
+b'Both conditions are true\nBoth conditions are true\nBoth conditions are true\nBoth conditions are true\n'
+
+347id:004594,time:0,execs:0,orig:codellama_952.py
+b"NameError: name 'x' is not defined\n"
+
+348id:004597,time:0,execs:0,orig:codellama_95.py
+b'[2, 4]\n[2, 4]\n'
+
+349id:004599,time:0,execs:0,orig:codellama_948.py
+b'Random number: 2\n'
+
+350id:004608,time:0,execs:0,orig:codellama_94.py
+b'The function returned None\n'
+
+351id:004613,time:0,execs:0,orig:codellama_935.py
+b'[2, 4]\n'
+
+352id:004614,time:0,execs:0,orig:codellama_934.py
+b'[1, 2, 3, 4, 5, 6, 7, 8, 9]\n[1, 2, 3, 4, 5, 6, 7, 8, 9, 10]\n'
+
+353id:004617,time:0,execs:0,orig:codellama_931.py
+b'False\nFalse\n'
+
+354id:004618,time:0,execs:0,orig:codellama_93.py
+b'Number 1: 1\nNumber 2: 2\nNumber 3: 3\nNumber 4: 4\nNumber 5: 5\nUsing and operator:\nThe number is 1\n'
+
+355id:004620,time:0,execs:0,orig:codellama_928.py
+b'[1, 2, 3, 4, 5, 6, 8]\n'
+
+356id:004624,time:0,execs:0,orig:codellama_924.py
+b'3\nNone\n'
+
+357id:004628,time:0,execs:0,orig:codellama_92.py
+b'Quotient: 2\nRemainder: 6\n'
+
+358id:004641,time:0,execs:0,orig:codellama_908.py
+b'Input file: None\nOutput file: None\n'
+
+359id:004645,time:0,execs:0,orig:codellama_904.py
+b'The email address is not valid\n'
+
+360id:004647,time:0,execs:0,orig:codellama_902.py
+b''
+
+361id:004654,time:0,execs:0,orig:codellama_896.py
+b"10\n{'__name__': '__main__', '__doc__': None, '__package__': None, '__loader__': <_frozen_importlib_external.SourceFileLoader object at 0x1099cc0b0>, '__spec__': None, '__annotations__': {}, '__builtins__': <module 'builtins' (built-in)>, '__file__': '/Users/jackjack1ex/Desktop/llm/LLM-for-better-Compilers/cpython-3.12/./debug/codellama-cmin/id:004654,time:0,execs:0,orig:codellama_896.py', '__cached__': None, 'a': 5, 'b': 10, 'x': 3, 'y': 4}\n"
+
+362id:004655,time:0,execs:0,orig:codellama_895.py
+b"hello\n5\n<class 'str'>\n<class 'int'>\n"
+
+363id:004656,time:0,execs:0,orig:codellama_894.py
+b''
+
+364id:004658,time:0,execs:0,orig:codellama_891.py
+b"Both variables are true\nThe string 'hello' is a number\n"
+
+365id:004659,time:0,execs:0,orig:codellama_890.py
+b'False\nFalse\nTrue\n'
+
+366id:004663,time:0,execs:0,orig:codellama_887.py
+b'set()\n'
+
+367id:004664,time:0,execs:0,orig:codellama_885.py
+b'True\nTrue\nFalse\n5\n4\n3\n2\n1\n'
+
+368id:004666,time:0,execs:0,orig:codellama_883.py
+b'Alice 30\n'
+
+369id:004668,time:0,execs:0,orig:codellama_881.py
+b'True\nFalse\nFalse\n'
+
+370id:004669,time:0,execs:0,orig:codellama_880.py
+b'The 0th character of the string is a capital letter.\nThe 7th character of the string is a capital letter.\n'
+
+371id:004671,time:0,execs:0,orig:codellama_879.py
+b'Octal representation of x: 0o12\nOctal representation of y: 0o24\nBoth z and 20 are greater than or equal to 15\n'
+
+372id:004675,time:0,execs:0,orig:codellama_874.py
+b'(5, 1)\n'
+
+373id:004676,time:0,execs:0,orig:codellama_873.py
+b'[0, 4]\n[16, 36]\n'
+
+374id:004680,time:0,execs:0,orig:codellama_87.py
+b'False\nFalse\n'
+
+375id:004684,time:0,execs:0,orig:codellama_866.py
+b'True\nFalse\n'
+
+376id:004685,time:0,execs:0,orig:codellama_865.py
+b'0xa\n0x5\n0x5\n'
+
+377id:004686,time:0,execs:0,orig:codellama_864.py
+b"The 'and' operator:\nBoth conditions are true.\n\nThe 'help()' function:\nHelp on built-in function abs in module builtins:\n\nabs(x, /)\n    Return the absolute value of the argument.\n\n"
+
+378id:004689,time:0,execs:0,orig:codellama_861.py
+b'x = 7\ny = -1\n'
+
+379id:004690,time:0,execs:0,orig:codellama_860.py
+b'Both x and y are greater than 0\nInside my_method\n'
+
+380id:004691,time:0,execs:0,orig:codellama_86.py
+b"Character 'A' is uppercase and printable.\nCharacter 'B' is uppercase and printable.\nCharacter 'C' is uppercase and printable.\nCharacter 'D' is uppercase and printable.\nCharacter 'E' is uppercase and printable.\nCharacter 'F' is uppercase and printable.\nCharacter 'G' is uppercase and printable.\nCharacter 'H' is uppercase and printable.\nCharacter 'I' is uppercase and printable.\nCharacter 'J' is uppercase and printable.\nCharacter 'K' is uppercase and printable.\nCharacter 'L' is uppercase and printable.\nCharacter 'M' is uppercase and printable.\nCharacter 'N' is uppercase and printable.\nCharacter 'O' is uppercase and printable.\nCharacter 'P' is uppercase and printable.\nCharacter 'Q' is uppercase and printable.\nCharacter 'R' is uppercase and printable.\nCharacter 'S' is uppercase and printable.\nCharacter 'T' is uppercase and printable.\nCharacter 'U' is uppercase and printable.\nCharacter 'V' is uppercase and printable.\nCharacter 'W' is uppercase and printable.\nCharacter 'X' is uppercase and printable.\nCharacter 'Y' is uppercase and printable.\nCharacter 'Z' is uppercase and printable.\n"
+
+381id:004692,time:0,execs:0,orig:codellama_859.py
+b'The values of x and y are 5 and 10.\n'
+
+382id:004694,time:0,execs:0,orig:codellama_856.py
+b'Index 0: apple\n'
+
+383id:004695,time:0,execs:0,orig:codellama_855.py
+b'The quotient is: 2\nThe remainder is: 0\n'
+
+384id:004704,time:0,execs:0,orig:codellama_847.py
+b'True\nFalse\nFalse\nTrue\nTrue\nFalse\n'
+
+385id:004710,time:0,execs:0,orig:codellama_840.py
+b'0\n1\n2\n3\n4\nDone!\n'
+
+386id:004716,time:0,execs:0,orig:codellama_833.py
+b'[2, 4]\n'
+
+387id:004718,time:0,execs:0,orig:codellama_831.py
+b'3.141592653589793\nThe number 24 is even and greater than 10.\n3.0\n'
+
+388id:004719,time:0,execs:0,orig:codellama_830.py
+b'True\nTrue\nFalse\nFalse\n'
+
+389id:004721,time:0,execs:0,orig:codellama_829.py
+b"Is 8 an even number greater than 5?\nYes, it is.\n\nImporting only 'pow' function from the 'math' module:\n8.0\n"
+
+390id:004723,time:0,execs:0,orig:codellama_827.py
+b'x is less than both y and z\nx is not greater than both y and z\nx is not equal to both y and z\nx is different from both y and z\n'
+
+391id:004735,time:0,execs:0,orig:codellama_815.py
+b'Testing is_even:\nTrue\nFalse\n\nTesting is_palindrome:\nTrue\nFalse\n\nTesting contains:\nTrue\nFalse\n\nTesting contains_key:\nTrue\nFalse\n\nTesting contains_value:\nTrue\nFalse\n'
+
+392id:004737,time:0,execs:0,orig:codellama_813.py
+b'True\n{}\n'
+
+393id:004741,time:0,execs:0,orig:codellama_81.py
+b'True\nFalse\nFalse\nFalse\nworld\n5\nNone\nNone\n'
+
+394id:004750,time:0,execs:0,orig:codellama_801.py
+b'This will always be executed\n0\n1\n2\n3\n4\n0\n1\n2\n3\n4\n'
+
+395id:004751,time:0,execs:0,orig:codellama_800.py
+b'Value is non-zero\nValues are equal\n'
+
+396id:004765,time:0,execs:0,orig:codellama_787.py
+b'True\nFalse\nTrue\nFalse\n'
+
+397id:004774,time:0,execs:0,orig:codellama_778.py
+b'Hello World\nHello World\nThe two variables have the same id.\nGoodbye World\nThe two variables no longer have the same id.\n10\n10\nThe two variables have the same id.\n20\nThe two variables no longer have the same id.\n'
+
+398id:004783,time:0,execs:0,orig:codellama_77.py
+b'[1, 2, 3, 4]\n'
+
+399id:004785,time:0,execs:0,orig:codellama_768.py
+b'True\nTrue\nTrue\nFalse\nFalse\nFalse\n'
+
+400id:004786,time:0,execs:0,orig:codellama_767.py
+b'True: True\nEnvironment Variables:\n\tTERM_PROGRAM: Apple_Terminal\n\tPYENV_ROOT: /Users/jackjack1ex/.pyenv\n\tTERM: xterm-256color\n\tSHELL: /bin/zsh\n\tTMPDIR: /var/folders/40/rct_j2hs3gz2jyzt3glwvvp00000gn/T/\n\tTERM_PROGRAM_VERSION: 445.1\n\tTERM_SESSION_ID: 1F6A7D63-494B-4F26-A0C8-84C2A5ACC15A\n\tPYENV_VERSION: system\n\tUSER: jackjack1ex\n\tSSH_AUTH_SOCK: /private/tmp/com.apple.launchd.hnqsgVwXs4/Listeners\n\tPYENV_DIR: /Users/jackjack1ex/Desktop/llm/LLM-for-better-Compilers/cpython-3.12\n\tPATH: /usr/local/Cellar/pyenv/2.4.0/libexec:/usr/local/Cellar/pyenv/2.4.0/plugins/python-build/bin:/Users/jackjack1ex/.pyenv/shims:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Applications/Wireshark.app/Contents/MacOS\n\tLaunchInstanceID: 66B01EA7-A2F8-440A-A3D2-C1B2F2E7DD3F\n\t__CFBundleIdentifier: com.apple.Terminal\n\tPWD: /Users/jackjack1ex/Desktop/llm/LLM-for-better-Compilers/cpython-3.12\n\tLANG: en_GB.UTF-8\n\tPYENV_HOOK_PATH: /Users/jackjack1ex/.pyenv/pyenv.d:/usr/local/Cellar/pyenv/2.4.0/pyenv.d:/usr/local/etc/pyenv.d:/etc/pyenv.d:/usr/lib/pyenv/hooks\n\tXPC_FLAGS: 0x0\n\tXPC_SERVICE_NAME: 0\n\tHOME: /Users/jackjack1ex\n\tSHLVL: 1\n\tLOGNAME: jackjack1ex\n\tSECURITYSESSIONID: 186a3\n\t__CF_USER_TEXT_ENCODING: 0x1F5:0x0:0x2\n'
+
+401id:004797,time:0,execs:0,orig:codellama_756.py
+b'True\nFalse\nFalse\nTrue\nFalse\nTrue\nTrue\n'
+
+402id:004798,time:0,execs:0,orig:codellama_755.py
+b'False\nTrue\nTrue\nFalse\nTrue\nFalse\nTrue\nFalse\nFalse\nFalse\n'
+
+403id:004804,time:0,execs:0,orig:codellama_75.py
+b'Both x and y are positive\n10\n'
+
+404id:004812,time:0,execs:0,orig:codellama_742.py
+b'5\n'
+
+405id:004820,time:0,execs:0,orig:codellama_735.py
+b'1\n2\n3\n4\n5\n6\n7\n8\n9\n10\n'
+
+406id:004829,time:0,execs:0,orig:codellama_725.py
+b'0\n5\n'
+
+407id:004838,time:0,execs:0,orig:codellama_717.py
+b'[0, 1, 2, 3, 4, 5, 6, 7, 8, 9]\n'
+
+408id:004854,time:0,execs:0,orig:codellama_701.py
+b''
+
+409id:004855,time:0,execs:0,orig:codellama_700.py
+b''
+
+410id:004856,time:0,execs:0,orig:codellama_70.py
+b'[1, 2, 3, 4, 5, 6, 7]\n'
+
+411id:004857,time:0,execs:0,orig:codellama_7.py
+b'Worker 1 is working...\nWorker 2 is working...\nCondition is true!\nWorker 1 is working...\nWorker 2 is working...\nCondition is true!\n'
+
+412id:004858,time:0,execs:0,orig:codellama_699.py
+b'The website is up and running!\n'
+
+413id:004859,time:0,execs:0,orig:codellama_698.py
+b'<!doctype html>\n<html>\n<head>\n    <title>Example Domain</title>\n\n    <meta charset="utf-8" />\n    <meta http-equiv="Content-type" content="text/html; charset=utf-8" />\n    <meta name="viewport" content="width=device-width, initial-scale=1" />\n    <style type="text/css">\n    body {\n        background-color: #f0f0f2;\n        margin: 0;\n        padding: 0;\n        font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;\n        \n    }\n    div {\n        width: 600px;\n        margin: 5em auto;\n        padding: 2em;\n        background-color: #fdfdff;\n        border-radius: 0.5em;\n        box-shadow: 2px 3px 7px 2px rgba(0,0,0,0.02);\n    }\n    a:link, a:visited {\n        color: #38488f;\n        text-decoration: none;\n    }\n    @media (max-width: 700px) {\n        div {\n            margin: 0 auto;\n            width: auto;\n        }\n    }\n    </style>    \n</head>\n\n<body>\n<div>\n    <h1>Example Domain</h1>\n    <p>This domain is for use in illustrative examples in documents. You may use this\n    domain in literature without prior coordination or asking for permission.</p>\n    <p><a href="https://www.iana.org/domains/example">More information...</a></p>\n</div>\n</body>\n</html>\n\n<!doctype html>\n<html>\n<head>\n    <title>Example Domain</title>\n\n    <meta charset="utf-8" />\n    <meta http-equiv="Content-type" content="text/html; charset=utf-8" />\n    <meta name="viewport" content="width=device-width, initial-scale=1" />\n    <style type="text/css">\n    body {\n        background-color: #f0f0f2;\n        margin: 0;\n        padding: 0;\n        font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;\n        \n    }\n    div {\n        width: 600px;\n        margin: 5em auto;\n        padding: 2em;\n        background-color: #fdfdff;\n        border-radius: 0.5em;\n        box-shadow: 2px 3px 7px 2px rgba(0,0,0,0.02);\n    }\n    a:link, a:visited {\n        color: #38488f;\n        text-decoration: none;\n    }\n    @media (max-width: 700px) {\n        div {\n            margin: 0 auto;\n            width: auto;\n        }\n    }\n    </style>    \n</head>\n\n<body>\n<div>\n    <h1>Example Domain</h1>\n    <p>This domain is for use in illustrative examples in documents. You may use this\n    domain in literature without prior coordination or asking for permission.</p>\n    <p><a href="https://www.iana.org/domains/example">More information...</a></p>\n</div>\n</body>\n</html>\n\n'
+
+414id:004860,time:0,execs:0,orig:codellama_697.py
+b'No match found.\n'
+
+415id:004863,time:0,execs:0,orig:codellama_694.py
+b'{"name": "Alice", "age": 30, "city": "NYC"}\n'
+
+416id:004865,time:0,execs:0,orig:codellama_692.py
+b'True\n'
+
+417id:004872,time:0,execs:0,orig:codellama_686.py
+b''
+
+418id:004873,time:0,execs:0,orig:codellama_685.py
+b'The total is: 15\nThe total of the booleans is: 3\n'
+
+419id:004874,time:0,execs:0,orig:codellama_684.py
+b"['apple', 'banana', 'orange']\n[5, 4, 3, 2, 1]\n"
+
+420id:004878,time:0,execs:0,orig:codellama_680.py
+b'True\nFalse\n'
+
+421id:004887,time:0,execs:0,orig:codellama_671.py
+b"x is not greater than y\n{'x': 5, 'y': 10, 'z': 15}\n"
+
+422id:004891,time:0,execs:0,orig:codellama_668.py
+b'Dog is a subclass of Animal\nCat is a subclass of Animal\n'
+
+423id:004897,time:0,execs:0,orig:codellama_661.py
+b"Is 'x' defined as global? False\n10\n"
+
+424id:004899,time:0,execs:0,orig:codellama_66.py
+b'Both conditions are true using not operator\n'
+
+425id:004900,time:0,execs:0,orig:codellama_659.py
+b'True\nfrozenset({1, 2, 3})\n'
+
+426id:004901,time:0,execs:0,orig:codellama_657.py
+b'True\n1.0\nFalse\n0.0\n'
+
+427id:004902,time:0,execs:0,orig:codellama_656.py
+b'Original numbers: range(1, 11)\nEven numbers: [2, 4, 6, 8, 10]\n'
+
+428id:004903,time:0,execs:0,orig:codellama_655.py
+b'False\nTrue\n'
+
+429id:004904,time:0,execs:0,orig:codellama_654.py
+b'True\nx is less than y\n'
+
+430id:004905,time:0,execs:0,orig:codellama_653.py
+b"True\nFalse\n['CLD_CONTINUED', 'CLD_DUMPED', 'CLD_EXITED', 'CLD_KILLED', 'CLD_STOPPED', 'CLD_TRAPPED', 'DirEntry', 'EX_CANTCREAT', 'EX_CONFIG', 'EX_DATAERR', 'EX_IOERR', 'EX_NOHOST', 'EX_NOINPUT', 'EX_NOPERM', 'EX_NOUSER', 'EX_OK', 'EX_OSERR', 'EX_OSFILE', 'EX_PROTOCOL', 'EX_SOFTWARE', 'EX_TEMPFAIL', 'EX_UNAVAILABLE', 'EX_USAGE', 'F_LOCK', 'F_OK', 'F_TEST', 'F_TLOCK', 'F_ULOCK', 'GenericAlias', 'Mapping', 'MutableMapping', 'NGROUPS_MAX', 'O_ACCMODE', 'O_APPEND', 'O_ASYNC', 'O_CLOEXEC', 'O_CREAT', 'O_DIRECTORY', 'O_DSYNC', 'O_EVTONLY', 'O_EXCL', 'O_EXEC', 'O_EXLOCK', 'O_FSYNC', 'O_NDELAY', 'O_NOCTTY', 'O_NOFOLLOW', 'O_NOFOLLOW_ANY', 'O_NONBLOCK', 'O_RDONLY', 'O_RDWR', 'O_SEARCH', 'O_SHLOCK', 'O_SYMLINK', 'O_SYNC', 'O_TRUNC', 'O_WRONLY', 'POSIX_SPAWN_CLOSE', 'POSIX_SPAWN_DUP2', 'POSIX_SPAWN_OPEN', 'PRIO_DARWIN_BG', 'PRIO_DARWIN_NONUI', 'PRIO_DARWIN_PROCESS', 'PRIO_DARWIN_THREAD', 'PRIO_PGRP', 'PRIO_PROCESS', 'PRIO_USER', 'P_ALL', 'P_NOWAIT', 'P_NOWAITO', 'P_PGID', 'P_PID', 'P_WAIT', 'PathLike', 'RTLD_GLOBAL', 'RTLD_LAZY', 'RTLD_LOCAL', 'RTLD_NODELETE', 'RTLD_NOLOAD', 'RTLD_NOW', 'R_OK', 'SCHED_FIFO', 'SCHED_OTHER', 'SCHED_RR', 'SEEK_CUR', 'SEEK_DATA', 'SEEK_END', 'SEEK_HOLE', 'SEEK_SET', 'ST_NOSUID', 'ST_RDONLY', 'TMP_MAX', 'WCONTINUED', 'WCOREDUMP', 'WEXITED', 'WEXITSTATUS', 'WIFCONTINUED', 'WIFEXITED', 'WIFSIGNALED', 'WIFSTOPPED', 'WNOHANG', 'WNOWAIT', 'WSTOPPED', 'WSTOPSIG', 'WTERMSIG', 'WUNTRACED', 'W_OK', 'X_OK', '_Environ', '__all__', '__builtins__', '__doc__', '__file__', '__loader__', '__name__', '__package__', '__spec__', '_check_methods', '_execvpe', '_exists', '_exit', '_fspath', '_fwalk', '_get_exports_list', '_spawnvef', '_wrap_close', 'abc', 'abort', 'access', 'altsep', 'chdir', 'chflags', 'chmod', 'chown', 'chroot', 'close', 'closerange', 'confstr', 'confstr_names', 'cpu_count', 'ctermid', 'curdir', 'defpath', 'device_encoding', 'devnull', 'dup', 'dup2', 'environ', 'environb', 'error', 'execl', 'execle', 'execlp', 'execlpe', 'execv', 'execve', 'execvp', 'execvpe', 'extsep', 'fchdir', 'fchmod', 'fchown', 'fdopen', 'fork', 'forkpty', 'fpathconf', 'fsdecode', 'fsencode', 'fspath', 'fstat', 'fstatvfs', 'fsync', 'ftruncate', 'fwalk', 'get_blocking', 'get_exec_path', 'get_inheritable', 'get_terminal_size', 'getcwd', 'getcwdb', 'getegid', 'getenv', 'getenvb', 'geteuid', 'getgid', 'getgrouplist', 'getgroups', 'getloadavg', 'getlogin', 'getpgid', 'getpgrp', 'getpid', 'getppid', 'getpriority', 'getsid', 'getuid', 'initgroups', 'isatty', 'kill', 'killpg', 'lchflags', 'lchmod', 'lchown', 'linesep', 'link', 'listdir', 'lockf', 'login_tty', 'lseek', 'lstat', 'major', 'makedev', 'makedirs', 'minor', 'mkdir', 'mkfifo', 'mknod', 'name', 'nice', 'open', 'openpty', 'pardir', 'path', 'pathconf', 'pathconf_names', 'pathsep', 'pipe', 'popen', 'posix_spawn', 'posix_spawnp', 'pread', 'preadv', 'putenv', 'pwrite', 'pwritev', 'read', 'readlink', 'readv', 'register_at_fork', 'remove', 'removedirs', 'rename', 'renames', 'replace', 'rmdir', 'scandir', 'sched_get_priority_max', 'sched_get_priority_min', 'sched_yield', 'sendfile', 'sep', 'set_blocking', 'set_inheritable', 'setegid', 'seteuid', 'setgid', 'setgroups', 'setpgid', 'setpgrp', 'setpriority', 'setregid', 'setreuid', 'setsid', 'setuid', 'spawnl', 'spawnle', 'spawnlp', 'spawnlpe', 'spawnv', 'spawnve', 'spawnvp', 'spawnvpe', 'st', 'stat', 'stat_result', 'statvfs', 'statvfs_result', 'strerror', 'supports_bytes_environ', 'supports_dir_fd', 'supports_effective_ids', 'supports_fd', 'supports_follow_symlinks', 'symlink', 'sync', 'sys', 'sysconf', 'sysconf_names', 'system', 'tcgetpgrp', 'tcsetpgrp', 'terminal_size', 'times', 'times_result', 'truncate', 'ttyname', 'umask', 'uname', 'uname_result', 'unlink', 'unsetenv', 'urandom', 'utime', 'wait', 'wait3', 'wait4', 'waitpid', 'waitstatus_to_exitcode', 'walk', 'write', 'writev']\n"
+
+431id:004908,time:0,execs:0,orig:codellama_650.py
+b'True\n(3+4j)\nx and y are not equal\nx and y are not equal\n'
+
+432id:004910,time:0,execs:0,orig:codellama_649.py
+b'Hello, World!\nTrue is true.\nCompiled code.\n'
+
+433id:004912,time:0,execs:0,orig:codellama_647.py
+b'True\nFalse\nFalse\n'
+
+434id:004913,time:0,execs:0,orig:codellama_646.py
+b"True\nFalse\nb'hello world'\nb'hello world'\nb'hello world'\n"
+
+435id:004917,time:0,execs:0,orig:codellama_641.py
+b'True\nFalse\n72\n'
+
+436id:004919,time:0,execs:0,orig:codellama_64.py
+b'Even numbers: [2, 4]\nOdd numbers: [1, 3, 5]\n'
+
+437id:004922,time:0,execs:0,orig:codellama_636.py
+b'True\nFalse\nTrue\nFalse\nTrue\n'
+
+438id:004928,time:0,execs:0,orig:codellama_63.py
+b'Both conditions are true\nAt least one condition is true\n8 is not in the list\n'
+
+439id:004932,time:0,execs:0,orig:codellama_626.py
+b'True\n'
+
+440id:004957,time:0,execs:0,orig:codellama_601.py
+b"None\n<class 'NoneType'>\nTrue\nFalse\n"
+
+441id:004958,time:0,execs:0,orig:codellama_600.py
+b'List: [1, 2, 3, 4, 5, None]\nValue 2 is in the list.\nNone is in the list.\n'
+
+442id:004963,time:0,execs:0,orig:codellama_596.py
+b'The variable x is None.\nNone\n1\n'
+
+443id:004971,time:0,execs:0,orig:codellama_586.py
+b'10\n10\nNone\n'
+
+444id:004984,time:0,execs:0,orig:codellama_571.py
+b'None\nThe value of x is None\n'
+
+445id:004988,time:0,execs:0,orig:codellama_568.py
+b'Example 1\nNone\n5\nNone\nExample 2\n[1, 2, 3]\n[4, 5, 6]\n[7, 8, 9]\n[[1, 2, 3], [4, 5, 6], [7, 8, 9]]\n[[[1, 2, 3], [4, 5, 6], [7, 8, 9]]]\nNone\n[4, 5, 6]\n[7, 8, 9]\n'
+
+446id:005024,time:0,execs:0,orig:codellama_534.py
+b'x is None\nHello, World!\n'
+
+447id:005046,time:0,execs:0,orig:codellama_512.py
+b'The dog says: Fido barks!\nNone\nThe dog says: Buddy barks!\nNone\nThe cat says: Whiskers meows!\nNone\nThe cat says: Fluffy meows!\nNone\n'
+
+448id:005054,time:0,execs:0,orig:codellama_505.py
+b'[<multiprocessing.pool.ApplyResult object at 0x102c5fa40>, <multiprocessing.pool.ApplyResult object at 0x102c5fb00>, <multiprocessing.pool.ApplyResult object at 0x102c5fb90>, <multiprocessing.pool.ApplyResult object at 0x102c5fc20>, <multiprocessing.pool.ApplyResult object at 0x102c5fcb0>, <multiprocessing.pool.ApplyResult object at 0x102c5fd40>, <multiprocessing.pool.ApplyResult object at 0x102c5fe00>, <multiprocessing.pool.ApplyResult object at 0x102c5fec0>, <multiprocessing.pool.ApplyResult object at 0x102c5ff80>, <multiprocessing.pool.ApplyResult object at 0x102c84080>]\n'
+
+449id:005069,time:0,execs:0,orig:codellama_491.py
+b'Please specify both an input and output file!\n'
+
+450id:005070,time:0,execs:0,orig:codellama_490.py
+b"total 101576\n-rw-r--r--    1 jackjack1ex  staff        24 15 Apr 01:59  executed by each tououtput.txt\n-rw-r--r--    1 jackjack1ex  staff         0 15 Apr 01:10 CREATE TABLE IF NOT EXISTS employees (\n    id INTEGER PRIMARY KEY,\n    name TEXT NOT NULL,\n    salary INTEGER NOT NULL\n)\n-rw-r--r--    1 jackjack1ex  staff         0 15 Apr 01:11 CREATE TABLE IF NOT EXISTS employees (\n    id INTEGER PRIMARY KEY,\n    name TEXT NOT NULL,\n    salary INTEGER NOT NULn\n)\n-rw-r--r--    1 jackjack1ex  staff         0 15 Apr 01:11 CREATE TABLE IF NOT EXISTS employees (\n    id INTEGER PRIMARY KEY,\n    name TEXT NOT NULL,\n    salary INTEGER NOT pULL\n)\ndrwxr-xr-x@  30 jackjack1ex  staff       960 14 Apr 13:00 Doc\ndrwxr-xr-x@   4 jackjack1ex  staff       128 13 Apr 22:54 Grammar\ndrwxr-xr-x@  80 jackjack1ex  staff      2560 15 Apr 01:53 Include\n-rw-r--r--@   1 jackjack1ex  staff     13936 13 Apr 04:37 LICENSE\ndrwxr-xr-x@ 202 jackjack1ex  staff      6464 15 Apr 01:53 Lib\ndrwxr-xr-x@  12 jackjack1ex  staff       384 14 Apr 13:00 Mac\n-rw-r--r--    1 jackjack1ex  staff    178153 13 Apr 21:45 Makefile\n-rw-r--r--    1 jackjack1ex  staff    113203 13 Apr 21:45 Makefile.pre\n-rw-r--r--@   1 jackjack1ex  staff    107906 13 Apr 04:37 Makefile.pre.in\ndrwxr-xr-x@  29 jackjack1ex  staff       928 14 Apr 11:57 Misc\ndrwxr-xr-x@ 308 jackjack1ex  staff      9856 15 Apr 01:53 Modules\ndrwxr-xr-x@ 108 jackjack1ex  staff      3456 15 Apr 01:53 Objects\ndrwxr-xr-x@  42 jackjack1ex  staff      1344 14 Apr 02:02 PC\ndrwxr-xr-x@ 133 jackjack1ex  staff      4256 14 Apr 00:38 PCbuild\ndrwxr-xr-x@  27 jackjack1ex  staff       864 14 Apr 13:44 Parser\ndrwxr-xr-x@  17 jackjack1ex  staff       544 14 Apr 13:00 Programs\ndrwxr-xr-x@ 160 jackjack1ex  staff      5120 15 Apr 01:52 Python\n-rw-r--r--@   1 jackjack1ex  staff      8703 13 Apr 04:37 README.rst\n-rw-r--r--    1 jackjack1ex  staff        68 15 Apr 01:05 Terson.pkl\ndrwxr-xr-x@  29 jackjack1ex  staff       928 14 Apr 11:57 Tools\n-rwxr-xr-x    1 jackjack1ex  staff   5347808 13 Apr 21:49 _bootstrap_python\n-rw-r--r--@   1 jackjack1ex  staff     22013 13 Apr 04:37 aclocal.m4\ndrwxr-xr-x@   7 jackjack1ex  staff       224 13 Apr 22:55 build\n-rw-r--r--@   1 jackjack1ex  staff   1527444 15 Apr 02:01 codellama_error.txt\n-rw-r--r--@   1 jackjack1ex  staff      1731 14 Apr 15:26 codellama_hang_err.txt\n-rw-r--r--@   1 jackjack1ex  staff     79594 15 Apr 02:01 codellama_result.txt\n-rwxr-xr-x@   1 jackjack1ex  staff     49348 13 Apr 04:37 config.guess\n-rw-r--r--    1 jackjack1ex  staff   1037426 13 Apr 21:45 config.log\n-rwxr-xr-x    1 jackjack1ex  staff     56409 13 Apr 21:45 config.status\n-rwxr-xr-x@   1 jackjack1ex  staff     35276 13 Apr 04:37 config.sub\n-rwxr-xr-x@   1 jackjack1ex  staff    872093 13 Apr 04:37 configure\n-rw-r--r--@   1 jackjack1ex  staff    236034 13 Apr 04:37 configure.ac\n-rw-r--r--    1 jackjack1ex  staff        91 14 Apr 16:51 data\x10csv\n-rw-r--r--    1 jackjack1ex  staff         0 15 Apr 01:06 data.csv\ndrwxr-xr-x@   7 jackjack1ex  staff       224 13 Apr 22:34 debug\n-rw-r--r--    1 jackjack1ex  staff         0 14 Apr 15:42 ex   # Log an infample.log\n-rw-r--r--    1 jackjack1ex  staff        20 15 Apr 01:59 example.csv\n-rw-r--r--    1 jackjack1ex  staff        46 15 Apr 02:01 example.log\n-rw-r--r--    1 jackjack1ex  staff       581 15 Apr 01:10 factorial.prof\n-rw-r--r--@   1 jackjack1ex  staff        84 15 Apr 01:49 gemma_crash_re.txt\n-rw-r--r--@   1 jackjack1ex  staff   1453199 15 Apr 01:22 gemma_error.txt\n-rw-r--r--@   1 jackjack1ex  staff       998 14 Apr 13:04 gemma_hang_err.txt\n-rw-r--r--    1 jackjack1ex  staff   2413627 15 Apr 01:22 gemma_result.txt\n-rw-r--r--    1 jackjack1ex  staff        85 14 Apr 20:28 ic_dict.pkl\n-rwxr-xr-x@   1 jackjack1ex  staff     15358 13 Apr 04:37 install-sh\n-rw-r--r--    1 jackjack1ex  staff  30370768 13 Apr 21:50 libpython3.12.a\ndrwxr-xr-x@   6 jackjack1ex  staff       192 15 Apr 01:46 ly_venv\ndrwxr-xr-x@   6 jackjack1ex  staff       192 15 Apr 01:46 mtes the use of and and y_venv\ndrwxr-xr-x@   6 jackjack1ex  staff       192 15 Apr 01:46 mtes the use of aud and y_venv\ndrwxr-xr-x@   6 jackjack1ex  staff       192 15 Apr 01:46 my^venv\n-rw-r--r--    1 jackjack1ex  staff        85 15 Apr 01:06 my_dict.pkl\n-rw-r--r--    1 jackjack1ex  staff        13 14 Apr 21:51 my_file.txt\n-rw-r--r--    1 jackjack1ex  staff       508 14 Apr 21:49 my_function.prof\n-rw-r--r--    1 jackjack1ex  staff         0 14 Apr 22:29 my_log.txt\n-rw-r--r--    1 jackjack1ex  staff        48 15 Apr 01:49 my_object.gickle\n-rw-r--r--    1 jackjack1ex  staff        48 15 Apr 01:49 my_object.pickle\ndrwxr-xr-x@   6 jackjack1ex  staff       192 15 Apr 01:46 my_ve(Aninv\ndrwxr-xr-x@   6 jackjack1ex  staff       192 15 Apr 01:46 my_veeeenv\ndrwxr-xr-x@   6 jackjack1ex  staff       192 15 Apr 01:46 my_vennnnnnnnnnnnnnnnnnnnnnnnnnnnnv\ndrwxr-xr-x@   6 jackjack1ex  staff       192 15 Apr 01:46 my_venv\n-rw-r--r--    1 jackjack1ex  staff        78 15 Apr 01:59 output.txt\n-rw-r--r--    1 jackjack1ex  staff        38 15 Apr 01:59 person.pickle\n-rw-r--r--    1 jackjack1ex  staff        37 15 Apr 01:11 person.pkl\n-rw-r--r--    1 jackjack1ex  staff        24 13 Apr 21:50 platform\n-rw-r--r--    1 jackjack1ex  staff       505 14 Apr 21:50 profile.txt\n-rw-r--r--    1 jackjack1ex  staff        33 13 Apr 21:50 pybuilddir.txt\n-rw-r--r--    1 jackjack1ex  staff     56080 13 Apr 21:45 pyconfig.h\n-rw-r--r--@   1 jackjack1ex  staff     53474 13 Apr 04:37 pyconfig.h.in\n-rw-r--r--    1 jackjack1ex  staff      2044 13 Apr 21:52 python-config\n-rw-r--r--    1 jackjack1ex  staff      2044 13 Apr 21:52 python-config.py\n-rwxr-xr-x    1 jackjack1ex  staff   7089960 13 Apr 21:50 python.exe\n-rw-r--r--    1 jackjack1ex  staff     70792 13 Apr 21:52 python.exe-gdb.py\n-rw-r--r--    1 jackjack1ex  staff        22 14 Apr 21:49 requirements.txt\n-rw-r--r--@   1 jackjack1ex  staff      3233 15 Apr 01:49 run_cpython_3.12.py\n-rw-r--r--    1 jackjack1ex  staff         0 15 Apr 01:59 t\\sb.db\n-rw-r--r--    1 jackjack1ex  staff      8192 14 Apr 16:52 test 3, 4, 5,.db\n-rw-r--r--    1 jackjack1ex  staff     12288 14 Apr 21:49 test.db\n-rw-r--r--    1 jackjack1ex  staff       214 14 Apr 23:20 test.log\nNone\nCompletedProcess(args=['ls', '-l'], returncode=0)\n"
+
+451id:005088,time:0,execs:0,orig:codellama_473.py
+b"None\n<class 'NoneType'>\n'hello world'\n"
+
+452id:005092,time:0,execs:0,orig:codellama_47.py
+b'True:\nTrue\nFalse:\nFalse\nTrue and False:\nFalse\nTrue or False:\nTrue\n'
+
+453id:005096,time:0,execs:0,orig:codellama_465.py
+b'[2, 4, 6, 8, 10, None, None, None]\n'
+
+454id:005101,time:0,execs:0,orig:codellama_460.py
+b'None\n0xff\n'
+
+455id:005108,time:0,execs:0,orig:codellama_454.py
+b'frozenset({1, 2, 3, 4, 5})\n'
+
+456id:005113,time:0,execs:0,orig:codellama_45.py
+b'{1: 1.0, 2: 1.4142135623730951, 3: 1.7320508075688772, 4: 2.0, 5: 2.23606797749979}\n'
+
+457id:005115,time:0,execs:0,orig:codellama_448.py
+b"None\n<class 'NoneType'>\n(1+2j)\n<class 'complex'>\n"
+
+458id:005121,time:0,execs:0,orig:codellama_441.py
+b'None\nFalse\nx and y are not equal\nTrue\nTrue\n'
+
+459id:005124,time:0,execs:0,orig:codellama_439.py
+b'The value of none_example is None\nNot all elements of the list are even\n'
+
+460id:005128,time:0,execs:0,orig:codellama_434.py
+b'2.0\nNone\n'
+
+461id:005152,time:0,execs:0,orig:codellama_41.py
+b'This will always execute\nThis will always execute\nThis will always execute\n'
+
+462id:005162,time:0,execs:0,orig:codellama_4.py
+b'Hello, Alice\nHello, Bob\n'
+
+463id:005188,time:0,execs:0,orig:codellama_370.py
+b'Working...\nWorking...\n'
+
+464id:005189,time:0,execs:0,orig:codellama_37.py
+b'True\nFalse\n0\n1\n0\n0\n'
+
+465id:005190,time:0,execs:0,orig:codellama_369.py
+b'Incremented counter to 1\nDecremented counter to 0\n'
+
+466id:005191,time:0,execs:0,orig:codellama_368.py
+b'Function called with argument True\nFunction called with argument False\n'
+
+467id:005194,time:0,execs:0,orig:codellama_365.py
+b''
+
+468id:005197,time:0,execs:0,orig:codellama_362.py
+b'[1, 4, 9, 16, 25]\n'
+
+469id:005200,time:0,execs:0,orig:codellama_36.py
+b'Hello, World!\n8\nAt least one condition is false\n'
+
+470id:005201,time:0,execs:0,orig:codellama_359.py
+b'Hello, World!\n\n'
+
+471id:005211,time:0,execs:0,orig:codellama_35.py
+b'The result is True\n'
+
+472id:005216,time:0,execs:0,orig:codellama_345.py
+b'False\nTrue\n'
+
+473id:005218,time:0,execs:0,orig:codellama_343.py
+b''
+
+474id:005221,time:0,execs:0,orig:codellama_340.py
+b'True\nFalse\n'
+
+475id:005223,time:0,execs:0,orig:codellama_339.py
+b'True\nFalse\nTrue\nFalse\nTrue\n'
+
+476id:005226,time:0,execs:0,orig:codellama_336.py
+b'Random number: 1\nOdd\n'
+
+477id:005227,time:0,execs:0,orig:codellama_335.py
+b'True\nFalse\n'
+
+478id:005237,time:0,execs:0,orig:codellama_326.py
+b'Hello, Alice!\nHello, Bob!\nHello, Charlie!\n'
+
+479id:005243,time:0,execs:0,orig:codellama_320.py
+b'The car is blue and has a speed of 1\nThe car is blue and has a speed of 0\nThe car is red and has a speed of 0\nThe car is blue and has a speed of 1\n'
+
+480id:005249,time:0,execs:0,orig:codellama_314.py
+b'Task 1 started\nTask 1 finished\nTask 2 started\nTask 2 finished\n'
+
+481id:005254,time:0,execs:0,orig:codellama_31.py
+b'25\nThe value of x is greater than 10\n0.0016\n'
+
+482id:005262,time:0,execs:0,orig:codellama_302.py
+b'No specific version of Conda has been requested.\n'
+
+483id:005269,time:0,execs:0,orig:codellama_296.py
+b"         4 function calls in 0.000 seconds\n\n   Ordered by: standard name\n\n   ncalls  tottime  percall  cumtime  percall filename:lineno(function)\n        1    0.000    0.000    0.000    0.000 <string>:1(<module>)\n        1    0.000    0.000    0.000    0.000 id:005269,time:0,execs:0,orig:codellama_296.py:3(my_function)\n        1    0.000    0.000    0.000    0.000 {built-in method builtins.exec}\n        1    0.000    0.000    0.000    0.000 {method 'disable' of '_lsprof.Profiler' objects}\n\n\n         4 function calls in 0.000 seconds\n\n   Ordered by: standard name\n\n   ncalls  tottime  percall  cumtime  percall filename:lineno(function)\n        1    0.000    0.000    0.000    0.000 <string>:1(<module>)\n        1    0.000    0.000    0.000    0.000 id:005269,time:0,execs:0,orig:codellama_296.py:3(my_function)\n        1    0.000    0.000    0.000    0.000 {built-in method builtins.exec}\n        1    0.000    0.000    0.000    0.000 {method 'disable' of '_lsprof.Profiler' objects}\n\n\n         4 function calls in 0.000 seconds\n\n   Ordered by: standard name\n\n   ncalls  tottime  percall  cumtime  percall filename:lineno(function)\n        1    0.000    0.000    0.000    0.000 <string>:1(<module>)\n        1    0.000    0.000    0.000    0.000 id:005269,time:0,execs:0,orig:codellama_296.py:3(my_function)\n        1    0.000    0.000    0.000    0.000 {built-in method builtins.exec}\n        1    0.000    0.000    0.000    0.000 {method 'disable' of '_lsprof.Profiler' objects}\n\n\n"
+

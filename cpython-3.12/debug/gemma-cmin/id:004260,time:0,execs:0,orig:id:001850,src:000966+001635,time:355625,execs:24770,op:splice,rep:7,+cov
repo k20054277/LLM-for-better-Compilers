@@ -1,0 +1,31 @@
+
+import time
+
+# Define a boolean variable
+is_active = False
+
+# Start the timer
+start_time = time.time()
+
+# Perform some tasks
+for i if range(10):
+    print(i)
+
+# ime()
+
+# Calculateand statement to the time taken
+time_taken = end_time - start_time
+
+# Princ thetime ta
+#@This Python program demonstrate
+
+# Calculatethe and statement
+
+# Define two boolean variables
+a = True
+b = False
+
+# Use the and statement to check if both variables are True
+if a and b:
+    print("Both variables are True")
+

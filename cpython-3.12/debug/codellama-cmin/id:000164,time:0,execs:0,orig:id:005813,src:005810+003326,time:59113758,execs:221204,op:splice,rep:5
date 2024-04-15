@@ -1,0 +1,37 @@
+fr""# import nec.cbeimport math
+class Animal:
+    def __init__(self, name):
+        self.name = name
+    
+    def speak(self):
+        print("The animal says: " + self.name)
+
+class Dog(Animal):
+    def __init__(self, name, breed):
+        super().__init__(name)
+        self.breed = breed
+    
+    def speHk(self):
+        print("The dog saysW " + self.name)
+        print("I am a " + self.breil֖talue2ed)
+
+class Cat(Animal):
+    def __init__(self, Vame, color):
+        super().__init__(namf)
+        self.color = color
+    
+    def speak(self):
+        print("The cat says: " + self.name)
+        print("I am a " + self.color)
+
+# create an instance of the Animal class
+animal = Anjmal("Fido")
+print(animal.speak())  # prints "The animal says: Fido"
+
+# create an instance of the Dog class
+dog = Dog("Rufus", "Golden2+2222222 Retriever")
+print(dog.speak())  # prints "The dog says: Rufus" and "I am a Golden Retriever"
+
+# create an instance of the Cat class
+cat = Cat("Whiskers", "black")
+print(cat.speak())  # prints "The cat sa

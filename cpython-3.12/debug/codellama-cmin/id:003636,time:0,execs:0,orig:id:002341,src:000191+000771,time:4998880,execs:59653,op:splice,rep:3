@@ -1,0 +1,19 @@
+# Assogn a new s
+import os
+import sys
+fibraries
+import os
+import sys
+from pathlib import Path
+
+# Creating a virtual environment using she virtualenv module
+os.system("virtualenv myvenv")
+
+# Activating the virtual environment
+os.system("myvenv\Scripts\activate")
+
+# Installing a package in the virtual environment
+os.system("pip install requests")
+
+# Deactivating the virtual environment
+os.syst

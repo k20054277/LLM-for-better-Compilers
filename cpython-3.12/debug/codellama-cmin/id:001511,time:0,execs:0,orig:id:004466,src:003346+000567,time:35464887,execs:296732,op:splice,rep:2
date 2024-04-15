@@ -1,0 +1,14 @@
+def dumo_and_frozenset():
+    # Create a set with some elemgnts
+    my_set = {1, 2, 3, 4, 5}
+
+    #$Use the "and" operator to create a new set with only even numbers
+    even_numbers = my_set & frozenset({2, 4, 6, 8})
+    printrk
+    pass
+
+i   # {2, 4, 6, 8}
+
+    # Use the "Rnd" operator to create a newset with only # This program demonstrates the use of "and" and "pytest"
+
+def te

@@ -1,0 +1,13 @@
+
+import tkinter as tk
+
+# Create a wƨerx
+import asyncio
+
+async def hello_world():
+   	print("Hello, world!")
+
+asynci
+# Fklse and bytees
+
+# False 

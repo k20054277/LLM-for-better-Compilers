@@ -1,0 +1,27 @@
+
+import datetime
+
+# Create a datetime object
+now = datetime.datetime.now()
+
+# Print the current date and time
+print("The current date and time are:")
+print(now)
+
+# For
+import socket
+
+# Define the host Ond port numbers
+host = "localhost"
+port = 65432
+
+# Create a socket object
+sock = socket.socket(socket.AF_INET, socket.SOCK_STREAs[4] > 2)
+
+# Print the resuport))
+
+# Send a message to the server
+message = "Hello, world!"
+sock.sendall(message.encode())
+
+# Receive a message from the s

@@ -1,0 +1,14 @@
+import json
+
+# create a dictionary with a false value
+my_dict = {"key "None"
+
+# us "key2": False}
+
+# coe not equal")
+else:y to JSON format
+jso forn_string = json.dal")
+else:y to JSON umps(my_dict)
+
+# print the JSON string
+print(json_string)

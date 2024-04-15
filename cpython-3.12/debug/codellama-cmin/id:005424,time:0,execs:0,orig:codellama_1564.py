@@ -1,0 +1,13 @@
+import asyncio
+from math import sqrt
+
+async def compute_square_root(number):
+    return await asyncio.create_task(sqrt(number))
+
+async def main():
+    numbers = [1, 4, 9, 16, 25]
+    for number in numbers:
+        result = round(await compute_square_root(number), 2)
+        print(f"Square root of {number} is {result}")
+
+asyncio.run(main())

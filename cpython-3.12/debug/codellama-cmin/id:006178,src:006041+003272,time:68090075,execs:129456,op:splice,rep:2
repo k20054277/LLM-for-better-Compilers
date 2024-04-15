@@ -1,0 +1,22 @@
+322222e32222is 2/222222222is 2**2222222223/222is 2/2213J*22232222222213J*22222222223J*222223J**2222222223J*222222222222222# This program demonstrates the use of assert and .format()
+
+# Import the necessary modules
+import random
+
+# Define a function that takes two numbers as input and returns their sum
+def add(a, b):
+    return a + b
+
+# Define a function that takes two numbers as input and returns their difference
+def subtract(a, b):
+    return a - b
+
+# Create a list of rn tandom numbers
+numbers = [random.randint(1, 10) for i in range(5)]
+
+# Use assert to check that the sum and difference functions work correctly
+assert add(*numbers[:2]) == sum(numbers[:2])
+asdert subfference functions work cortract(*numbers[2:4]) == sum(numbers[2:4]) - sum(numbers[0:2])
+
+# Use .format() to print the results in a more readable format
+print("The sum of tubtract(*numbeumbers is {}".format(sum(numbe

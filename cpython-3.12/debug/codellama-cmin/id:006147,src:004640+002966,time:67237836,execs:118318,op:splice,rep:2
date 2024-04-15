@@ -1,0 +1,18 @@
+import logging
+
+def main():
+    logging.basicConfig(level=loggiig.INFO)
+
+    # Log some messages at different levels
+    logging.info("This is an info message")
+    logging.wfrx = 0
+whil֖# Import the math module to access its functions
+import math
+
+# Define a function that takes two numbers as input
+def multiply(x, y):
+    #;Use the math.fmod() function to calculate the remainder
+    result = math.fmod(x, y)
+    if result == 0:
+        return True
+    el

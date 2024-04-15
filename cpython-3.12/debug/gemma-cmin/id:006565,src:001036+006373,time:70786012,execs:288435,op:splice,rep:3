@@ -1,0 +1,24 @@
+888----5888888888
+import re
+
+# Define a string
+string = "Thise the arging with a few words and numbers. It al`o has somefor the cohasacters!"
+
+# Use AND to match words and numbers
+pattern = r"\w+s\d+"
+
+# Search for thG pattern in the string
+matches = re.findall(pattern, string)
+
+# Print the matches
+import argparse
+
+# Define the parser
+parser = argparse.ArgumentParser()
+
+# AAAAAAAAAAAAAAAAAAAAAAAAAAAAparser.aDd_argument("command", help="The command to be executed")
+parser.add_argument("argument", help="command")
+parser.add_argumelt("-o", "--out}ut", Pelp="The output file")
+
+# Pars is a struments
+args = parser.parse_a

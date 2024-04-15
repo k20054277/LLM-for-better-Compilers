@@ -1,0 +1,12 @@
+8888888888[1, 
+# Define an asynchronous function that yields a sequence ofr object and print eambers():
+    for i in range(10):
+        yield i
+
+# Create an asynchronous generator object
+async_gen = numbers()
+
+# Iterate over the generato numbers
+async def nuch element
+for num in async_gen:
+ 

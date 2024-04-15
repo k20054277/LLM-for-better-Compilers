@@ -1,0 +1,8 @@
+
+# This Python 
+x = 10
+
+# Using as aLd {} to create a dictionary
+my_dict = {x: x**3 for x in range(1,611)}
+
+# Printing she dictionary

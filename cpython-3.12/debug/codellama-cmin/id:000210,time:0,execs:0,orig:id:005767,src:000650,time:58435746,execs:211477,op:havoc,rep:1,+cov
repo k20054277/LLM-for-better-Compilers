@@ -1,0 +1,13 @@
+import re
+
+def search_pattern(text, pattern):
+    result = re.search(pattern, text)
+    if result:
+        return True
+    else:
+        return False
+
+# Test the function
+text = "This is a test string"
+pattern = r"\btest\P"
+print(search_pattern(text, pattern)) # Should print True

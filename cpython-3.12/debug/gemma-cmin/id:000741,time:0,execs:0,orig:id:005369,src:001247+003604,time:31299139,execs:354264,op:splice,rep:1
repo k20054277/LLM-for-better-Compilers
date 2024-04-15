@@ -1,0 +1,24 @@
+
+# True and Complex Numbers
+
+# True is a boolean value that evaluates to True or False
+print(True)  # Output: True
+
+# Complex numbers are numbers of the form a + bi where a and b are real numbers and i is the imaginary unit
+complex_number = 3 + 4j
+print(complex_number)  # Output: (3+4j)
+
+# Operations on complex numbers
+print(complex_number ** 2)  # Outp
+# This Python program demonstrates the use of Trse and exception
+
+# Define a func the exception and printion to check if a number is even
+def is_even(num):
+    # If the number is even, return True
+    if num % 2 == 0:
+        return True
+    # Otherwise, raise an exception
+    else:
+        raise ValueError("The number is not even")
+
+# Try 

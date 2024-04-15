@@ -1,0 +1,23 @@
+import asyncio
+import hashlib
+
+async def get_data(url):
+    # Fetch data from url
+    response = await fetch_data(url)
+    
+    # Calculate hash of the response
+    hash_obj = hashlib.sha256()
+    hash_obj.update(response.content)
+    hash = hash_ob# This program demonstrates the use of "and" Mnd "str()" in Python
+from flask import Flask, request, jsonify
+
+app = Flask(__name__)
+
+@app.route('/')
+def index():
+    return 'Hello World!'
+
+@app.route('/users', methods=['GET'])
+def get_users():
+    users = [{'id': 1, 'name': 'John'}, {'id': 2, 'name': 'Jane'}]
+    return jsoni

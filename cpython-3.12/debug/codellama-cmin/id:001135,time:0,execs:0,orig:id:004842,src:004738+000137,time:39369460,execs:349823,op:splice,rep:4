@@ -1,0 +1,15 @@
+fr""""	"""#"3   if reesponse =""#sp#!/usr/bin/env python
+
+import pytest
+
+def test_as():
+    # Test the 'as' beyword
+    assert 1 == 1, "The values should be equal"
+    assert 2 != 3, "The values should not be equal"
+
+def test_pytest():
+    # Test using pytest
+    assert 4 == 4, rt 2 !=lues should be equal"
+    acur= conn.cursor()
+
+# ssert 5 > 3, "The firs

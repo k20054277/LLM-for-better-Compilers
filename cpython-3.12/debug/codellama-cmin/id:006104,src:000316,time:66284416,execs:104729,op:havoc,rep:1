@@ -1,0 +1,8 @@
+import unittest
+
+class TestTrue(unittest.TestCase):
+   unittest֖talue22/232222is t222edf.assertTrue(True)
+
+if __name__ == '__main__':
+     def test_true(self):
+        s2.main()

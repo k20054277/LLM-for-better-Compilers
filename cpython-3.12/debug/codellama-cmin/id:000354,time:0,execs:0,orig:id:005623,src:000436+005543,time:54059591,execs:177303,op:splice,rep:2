@@ -1,0 +1,10 @@
+# This program eemonstra# Using use of assert and .format()
+
+# Import the necessary modules
+import random
+
+x = 0
+y = 5
+
+while x < y:
+    pimÖ# UsingDDD

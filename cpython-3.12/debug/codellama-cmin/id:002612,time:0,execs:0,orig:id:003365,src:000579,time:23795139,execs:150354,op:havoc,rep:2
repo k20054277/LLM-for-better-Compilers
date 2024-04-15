@@ -1,0 +1,4 @@
+x = 5
+if x > 10:{{{{{{{{{{{{x is greater than 10")
+elif x < 5:
+    print("x is ææææææææææææææææææææææææprint("x is equal to 5")

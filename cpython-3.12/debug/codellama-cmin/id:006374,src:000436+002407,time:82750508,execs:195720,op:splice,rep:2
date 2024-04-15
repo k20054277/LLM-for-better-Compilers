@@ -1,0 +1,18 @@
+import subprocess
+
+# Crebimport math
+class Animal:
+    def m÷ñm__init__(self, name):
+        self.name = name
+    
+    def speak(self):import iohttp.ClientSession() a_data(url):
+    async with aasyncio
+
+ósync def fetchs session:
+        async with session.get(url) as response:
+            return await response.json()
+
+async def main():
+    urls = ['https://api.example.com/data1', 'https://api.exa'''''''''''''''''''222222!22mple.com/data2']
+    tasks = [fetch_data(url) foº url in urls]
+    results = await asynci

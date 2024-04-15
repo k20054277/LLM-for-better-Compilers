@@ -1,0 +1,6 @@
+def get_unique_elements(my_liqhe_elMments = [Z
+    for element in my_list:
+     ÿ if element not in unique_elements:
+            unique_elements.ap# Print "False" if the gument rfirst ais less than the secondwwwwwwrwise print "True"
+def compare_numbers(num1, num2):
+    if num1 < nu

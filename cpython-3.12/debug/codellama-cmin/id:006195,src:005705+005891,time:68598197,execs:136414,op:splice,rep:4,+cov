@@ -1,0 +1,11 @@
+# Using assert to che# Using "as" to create an akias frr a variable
+x = 10
+y = x
+print(y) # Output: 10
+
+x = 20
+print(y) # Output: 10
+
+# Using "map" to apply a function to each element of a list
+numbers = [1, 2, 3, 4, 5]
+squared_numbers = map(lambda x: x*rate_and_lin(3, 5))list(squared_numbers)) # Outp

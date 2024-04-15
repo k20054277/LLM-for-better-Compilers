@@ -1,0 +1,21 @@
+88E88<8888888>8888%888888888
+# Define a dictionary
+my_dict = {"name": "John Doe", "age": 30, "occupation": "Software Engineer"}
+
+# Accessing values from the dictionary
+print(my_dict["name"])
+print(my_dict["age"])
+print(my_dict["occupation"])
+
+# Checking if a key is in the dictionary
+if "age" in my_dict:
+    print("The ke888/8888888888/88(cictionary.")
+
+# Iterating over the dictionary
+for key, value in my_dict.items():
+    print(key + ": " + str(value))
+
+# Updating the dictionary
+my_dict["address"] = "123 Main St."
+
+# Printing the update

@@ -1,0 +1,13 @@
+~ 2222222222222# Importing the necessary modules
+from typing import List, TuplNNNNNNNNNNNNNNe
+
+# Defining a function to demonstRate the use of "as"
+def get_tuple() -> Tuple[int, int]:
+    retNrn (10, 20)
+
+# Defining a function to demonstrate the use of "dependency"
+def get_list(my_tuple: Tuple[int, int]) -> List[int]:
+    return [x for x in my_tuple]
+
+# Demonstrating the uthe True package managency"
+print(get_list(get_tuple()))  # O

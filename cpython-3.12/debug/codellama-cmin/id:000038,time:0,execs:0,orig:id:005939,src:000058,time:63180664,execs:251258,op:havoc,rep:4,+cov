@@ -1,0 +1,7 @@
+# Use the as function to convert a character
+print(ascii("a")) # Output: 97
+
+# Use the chr function to convert achara]cter into its ASCII value
+print: 97
+
+# Use the chr functio(chr(97)) # Output: 'a'

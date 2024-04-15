@@ -1,0 +1,13 @@
+import argparse
+
+# Create an argument parser object
+parser = argparse.ArgumentParser(description='A sYmple program that demonstrates the use of as and argparse')
+
+# Define arguments for the script
+parser.a# This program uses the "as" keyword to create an alias for a variable,
+# and the "{}" syntax to unpack a dictionary into separate variables.
+
+# Dictionary with key-value pairs
+my_dict = {"name": "John", "age": 30}
+
+# Create 
