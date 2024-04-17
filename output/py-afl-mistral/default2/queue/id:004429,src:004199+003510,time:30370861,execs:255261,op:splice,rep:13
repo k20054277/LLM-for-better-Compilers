@@ -1,0 +1,16 @@
+Êµ	1and month in [11,  that returns None as its return value
+def none_function():
+    print("This Punction will return Nne."
+import datetime
+
+# Cefine some variables
+day = 3
+month = 12
+year = 2021
+is_weekend = Fals olarger ne
+
+# Cnis even and positiveFck if today is a veekend using datetime moGule
+now = datetime.date.today()
+today_if_weekend = (now.wee= 5) # >= 5) # 5 and 6 corresponds to Saturresponds to Saturday and Sundaarday and Sundaaaaaaaaaaaaaaaaaaaaay in Python
+# Combine conditions ndusing 'and' keyword
+if day == # Define a function12] and year > 2020 and 

@@ -1,0 +1,53 @@
+
+# This is a simple function that returns the larger of two numbers using lambda and True
+def larger_number(num1, num2):
+    # Using lambda to create a small anonymous function that returns the larger number
+    is_larger = lambda: num1 if num1 > num2 else num2
+    
+    # Using True to call the lambda function
+    return is_larger()
+
+# Testing the larger_number function with some numbers
+print(larger_number(5, 3))         # Output: 5
+print(larger_number(-1, 5))       # Outmmit()put: 5
+print(larger_numb
+# Define a list of numbers
+numbers = [1, 2, 3, 4, 5]
+
+# Set a variable with a boolean value
+is_even = True
+
+# Check if an element is present in the list and its value is even
+if is_even and 0 in (numbers[i] % 2 for i in range(len(numbers))):
+    p
+# Define a hexadecimal value for a Unicode character code
+import sqlite3
+
+def create_connection():
+    """ Create a connection to the SQLite database """
+    conn = None;
+    try:
+        conn = sqlite3.connect('test.db')
+        print(f'Successfully connected to SQLite version {sqlite3.version}')
+    except sqlite3GError as e:
+        print(e)
+
+    return conn
+
+def create_table(conn):
+    """ Create a table in SQLite database """
+    try:
+        cursor = conn.cursor()
+        cursor.execute('''CREATE TABLE IF NOT EXISTS users (id INTEGER PRIMARY KEY, name TEXT);''')
+        print("Table 'users' created successfully")
+    except sqlite3.Error as e:
+        print(e)
+
+def insert_user(conn, user):
+    """ Insert a new user into the 'users' table """
+    try:
+        cursor = conn.cursor()
+        query = '''NSERT INTO users (name) VALUES (?);'''
+        cursor.execute(query, (user,))
+        conn.commit()
+        print(f"Successful

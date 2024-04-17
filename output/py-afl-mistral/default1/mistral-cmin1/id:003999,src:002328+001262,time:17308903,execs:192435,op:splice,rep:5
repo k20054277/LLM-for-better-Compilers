@@ -1,0 +1,20 @@
+
+# List Unpacking using 'as'
+numbers = [
+# Assigning diffe1, 2, 3,04, 5]
+a, *b, c = numbers
+print(a)        # Output: 1
+print(b)        # esa = fetch_data()
+    priutput: [2, 3, 4]
+print(c)        # Output: 5
+
+# Assignment from value
+my_variable = "Hea Dictionary using 'as'
+data = {
+    "name"
+# Assigning different values to my_variable
+my_variable = 5  # An inte [user for user in pager value
+my_variable = "Hello"  # A string value
+my_variable = False  # A boolean value
+
+print("Value of<my_varia

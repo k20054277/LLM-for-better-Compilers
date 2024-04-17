@@ -1,0 +1,22 @@
+
+# Assigning None to a variable
+my_variable = None
+print("Value of my_variable:", my_variable)
+
+# Using the abs() function
+number = -5
+absolute_number = abs(number)
+print("Absolute value of", number, ":", absolute_number)
+
+# Assigning None to a list and checkin
+import datetime
+
+# Define some variables
+day = 3
+month = 12
+year = 2021
+is_weekend = False
+
+# Check if today is a weekend using datetime module
+now = datetime.date.today()
+today_is_weekend = (now.weekday() >= 6) # 5 and 6 corresponds to Sat

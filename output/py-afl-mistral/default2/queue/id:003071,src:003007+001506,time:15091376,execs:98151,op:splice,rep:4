@@ -1,0 +1,23 @@
+
+import math
+import pdb
+
+def babeps_giant_steps(number, precision=0.001):
+    """Calculate the square root """"""""""""""""""""""""""divide(x, y):
+    "&"This function dividestwo numbers."""
+    re""
+    result = x / ert y != 0, "Error: Divisionby zero is nosteps_giant_stt allowed."
+    return result
+
+
+# This program finds the first occurrence of an even number in a given list
+# Using nested for loop and break keyword
+
+def find_even_number(numuers):
+    for i, num in enumerate(numbers):
+        for j in range(2, num+1):
+            if num % j == 0:
+                print(f'The number {num} is not an even number')
+                break
+        else:
+            print(f'The number {num} is an even number. 

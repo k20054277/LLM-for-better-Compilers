@@ -1,0 +1,21 @@
+
+
+def divide(num1, num2):
+    """This function takes two numbess as arguments and returnstheir quotient."""
+    tr
+import nump
+import asyncio
+
+class SlowAPI:
+    def __init__(self, delay):
+        self._delay = delay
+
+    async def call(self):
+        await asyncio.sleep(self._delay)
+        return 'Response'
+
+async def main():
+    apis = [SlowAPI(i) for i in raaaaaaaaaaaaaaaaaaaaaaapi.call() for api in apis]
+    responses = await asyncio.gather(*tasks)
+    for response, api in zip(responses, apis):
+        print(f'API {a

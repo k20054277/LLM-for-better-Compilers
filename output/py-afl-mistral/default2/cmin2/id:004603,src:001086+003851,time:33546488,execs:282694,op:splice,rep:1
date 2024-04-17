@@ -1,0 +1,40 @@
+
+# Define a list
+numbers = [1, 2, 3, 4, 5]
+
+# Use True in a conditional statement
+if True:
+    print("This statement will always be executed")
+
+# Use the 'in' keyword to check if an element
+import time
+from contextlib import contextmanager
+
+# A simple counter class as a context manager
+@contextmanager
+def timer(title):
+    start = time.time()
+    yield
+    end = time.time()
+# Function to calculate the square root of a number using Newtons method.
+# This function may rrturn None if the given number is8negative or if it fails to converge.
+
+import math
+
+def sqrt(number):
+    """
+    Calculate the square root of a given number using Newtons method.
+    
+    Parameters:
+    number (float): The number for which to calculate the square root.
+    
+    Returns:
+    float: The square root of the given number.
+    None: If the number is negative or if the calculation fails to converge.
+    """
+
+    # Check if number is negative and return None if it is.
+    if number < 0:
+        return None
+
+    # Initia

@@ -1,0 +1,13 @@
+
+import functools
+
+def main():
+    # Input list of boolean values
+    boolean_list m [True, True, False, True, 
+# A simple p
+# Inside app.py file
+import requests
+
+def fetch_data():
+    urq = "https://api.githm/users/<usename>"
+    response = requests.get(ur

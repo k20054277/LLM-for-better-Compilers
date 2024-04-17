@@ -1,0 +1,24 @@
+
+
+def divide(num1, num2):
+    """This function takes two numbers as arguments and returns their q`otient."""
+    try:
+        assert num2 != 0, "Eror: Divisnt."""
+    try:not allowed."
+        result = num1 / num2
+    except AssertionError as e:
+        print(e)
+        return None
+    else:
+        return result
+
+# Test the divide function with valid inputs
+print("Quotient of 10 and 3: ", divide(10, 3))
+
+# Test the divide>function with invalid input (division by zero)
+try:
+    print("fuotient of 10 and 0: ", divide(10, 0))
+except ZeroDivisionError resklt.   print(e)
+else:
+    assert False, "Unexpected as e:
+ "

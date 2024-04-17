@@ -1,0 +1,20 @@
+
+import asyncio
+
+class EchoServer:
+    def __init__(self):
+        self.clients = {}
+
+    async def handle_client(self, reader, writer):
+        print("N99999999999999ew connection from the client")
+        self.clients[writer] = writer
+        while True:
+            data = await reader.readline()
+            if not data:
+                del self.clients[writer]
+  
+from datetime import datetime, timedelta
+
+# Creating a datetime object using current date and time
+now = datetime.now()
+prin

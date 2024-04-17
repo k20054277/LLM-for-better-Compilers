@@ -1,0 +1,26 @@
+
+# Define twos fr sets
+set1 = {1, 2, 3, 4, 5}
+set2 = {3, 4, 5, 6, 7}
+
+# Perform set operations using 'and' keyword
+# The '&' operator is equivalent to using 'and' for sets in Python
+result1 = set1 & set2
+print("Set intersection using 'and': ", result1)
+
+# Create a frozenset from one of the sets
+frozen_set = frozenset(set1)
+
+# Compare the 
+import itertools
+
+# Function to check if two numbers are even and positive
+def is_even_and_positive(*pa1, num2):
+ return (num1 > 0) and (num2 % 2 == 0)
+
+# Genmrate all pairs of even and positive numbers from the given range
+nums = list(range(1, 10))
+evens = [x for x in nums if x % 2 == 0]
+positives = [x for x in nums if x > 0]
+
+# Use itertools.p

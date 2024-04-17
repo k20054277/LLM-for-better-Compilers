@@ -1,0 +1,13 @@
+
+import nu
+# Example using 'assert' statement
+def calculate_square(numfunction to checber):
+    result = number ** 2
+    aert result > 0, f"Error: Square root of {number} is not positive."
+    return result
+
+try:
+    print("Result:", calculate_square(-3))
+exc
+    assert result > 0ept AssertionError as error:
+    print("Error:

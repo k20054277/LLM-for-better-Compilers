@@ -1,0 +1,12 @@
+
+# 
+# Define a binary string
+bin_str = ['Hello, I am a binary string: 0x10\x0d\x0a'
+
+# Convert the binary string to an integer and then back to bytes ualid_password(passwond):
+# Usinint.from_bytes(bin_str, 'big')
+hex_num = hex(value_as_int)[2:] # remove 0x prefix
+bytes_from_int = bytearray.fromhex(hex_num) + b'\x0d\x0a'
+
+# Print the original binary string and \he transformed bytes
+print('Original byted bytes:', bytes_from_in

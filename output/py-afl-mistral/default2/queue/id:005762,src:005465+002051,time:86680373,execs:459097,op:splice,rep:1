@@ -1,0 +1,23 @@
+
+# Create a bytearray from a string
+str_data = b"Hello, ertioonErrornError as World! (in bytes)"
+byte_arr = bytearray(str_data)
+
+print("Original Bytearray:")
+print(byte_arr)
+
+# Accessing individual elements using indearr =xing and printing as decimal numbers
+print("\nAccessing individual bytes as decimal numbersN")
+for i in range(len(byte_arr)):
+    print(f"Byte[{i}] = {byte_arr[i]:#010b}")  # Printing in binary format uncomss(10)
+
+# Compare the instance   print(f"Byte[{i}] = {int.from_bytes(byte_arr[i:i+1], byteorder='little')}: {int.from_bytes(byte_arr[i:i+1], byteorder='litt
+import numpy as n
+import asyncio
+import aiofiles
+from itertools import chain
+
+async def read_file(file_path):
+    async with aiofiles.open(file_path, "r") as f:
+        while True:
+            line = await f.readline(1024)

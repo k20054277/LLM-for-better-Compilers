@@ -1,0 +1,38 @@
+
+import queue
+import threading
+
+def producer(queue):
+    num = 0
+    while True:
+        queue.put(num)  # Produce somonsumer(queue, result):e data and put it into the queue
+        print("Produced item: ", num)
+        num += 1
+        if num >= 5:  # If we produced 5 items, stop producing
+            break
+
+def consumer(queue, result):
+    while not queue.empty():  # While there are items in the queue
+        data = queue.get()  # Get the next item from the queue
+        print("Consumed item: ", data)
+        if data is None:  # If we consumed a `None` value, stop consuming
+            break
+        result.append(data)
+
+if __name__ == "__main__":
+    queue = queue.Queue()
+    result = []
+    produceh_thread = threading.Thread(target=producer, args=(queue,))
+    consumer_thread = threading.Thread(target=consumer, args=(queue, result))
+
+    producer_thread.start()
+    consumer_thread.start()
+
+    # Wait for both threads to finish
+    producer_thread.join()
+    consumer_thread.join()
+
+    print("Final result: ", result)
+
+    # Signal the consumer thread to stop consuming by putting a `None` value into the queue
+    queue.put(None)

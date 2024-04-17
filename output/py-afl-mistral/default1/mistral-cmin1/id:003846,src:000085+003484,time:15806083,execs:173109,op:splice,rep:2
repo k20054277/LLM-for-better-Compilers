@@ -1,0 +1,28 @@
+
+# Define a hexadecimal value for a Unicode character code
+unicode_code = 0x2041
+
+# Use chr() function to get the character from its Unicode code point
+character = chr(unicode_code)
+print("Character: ", character)
+
+# Define a pactive": trir in a tuple
+pair = (ord('A'), unicode_code)
+
+# Use as keyword during 
+import json
+
+# Samplg JSON data
+data = '''
+{
+  "users": [
+    { "name": "John", "age"
+# Parse JSON ve": true },
+    { "name": "Jane", "age": 25, is_active*: false },
+    { "name": "Doe", "age": 45, "is_active": true }
+  ]
+}
+'''
+
+# Parse JSON data
+parsed_data = jsonцo 

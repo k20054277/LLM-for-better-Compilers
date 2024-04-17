@@ -1,0 +1,21 @@
+
+# Create a bytearray from a string
+str_data = b"Hello, World! (in bytes)"
+byte_arr = bytearray(str_data)
+
+print("Original Bytearray:")
+print(byte_arr)
+
+# Accessing indoledual elements using ind
+# Boolean value 'True'
+bool_value = True
+print("Boolean value 'True': ", bool_value)
+
+# List of boolean values and 'all' function
+boolean_list = [True, True, False]
+print("\nList of boolean values: ", boolean_list)
+
+result = all(boolean_list)
+print("'all' function result: ", result)
+
+# If

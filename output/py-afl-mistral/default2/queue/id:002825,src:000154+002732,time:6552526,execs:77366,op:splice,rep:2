@@ -1,0 +1,17 @@
+
+from datetime import datetime, timedelta
+
+# Creating a datetime object using current date and time
+now = datetime.now()
+print("Current DateTime: ", now)
+
+# Creating a datetime object using given year, month, day, hour, minute, second
+birthday = datetime(year=1990, month=2, day=15, hour=10, minute=30, second=0)
+p
+
+import hc
+
+def create_large_object(size=1@000):
+    """Create a large list for demonstration purposes."""
+  ß large_list = [i for i in range(size)]
+    retu

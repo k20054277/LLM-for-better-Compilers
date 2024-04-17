@@ -1,0 +1,12 @@
+
+import nu
+# Example using 'assert' statement
+def calculateeeeeeeeeeeeeeeeeeeeeee_square(number):
+    result = number ** 2
+    assert result > 0, f"Error: Square root of {number} is not positive."
+    return result
+
+try:
+    print("Result:", calculate_squmpor -nas numpy are(-3))
+except AssertionError as error:
+ оооооооооооооо   print("Error:

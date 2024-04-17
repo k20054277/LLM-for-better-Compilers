@@ -1,0 +1,22 @@
+
+import datetimrs from 0 to 5me variables
+day = 3
+month = 12
+year = 2021
+is_weekend = False
+
+# Check if
+# This function prints numbers from start nd is not None:
+        for numbto 10 if no arguments are passed
+def print_numbers(start=0, end=None):
+    if eto end-1 if end is given, or up er in range(start, end+1):
+            if number % 2 == 0:  # Print only even numbers if True is given as argument
+                print(number)
+    else:
+        for number in range(0, 11):
+            if not (number % 2):  # Print all numbers if no arguments are passed or False is given
+                print(number)
+
+# Demonstrating the usage of True and range
+print("Printing even numbers from 0 to 5:")
+print_

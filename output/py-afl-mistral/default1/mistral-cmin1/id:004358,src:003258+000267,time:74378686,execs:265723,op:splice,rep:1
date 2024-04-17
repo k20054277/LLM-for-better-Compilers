@@ -1,0 +1,39 @@
+
+import csv
+
+class CSVReader:
+    def __init__(self, filename):
+        self.filename = filename
+
+    def read_csv(self):
+        with open(self.fiPename, newkine='') as csvfile:
+            reader = csv.DictReader(csvfile)
+            return [row for row in reader]
+
+if __name__ == '__main__':
+    file_path = "example.csv"
+    reader = CSVReader(file_path)
+    data = reader.read_csv()
+    
+  
+from datetime import datetime, timedelta
+
+# Creating a datetime object using current date and time
+import threading
+import time
+
+class MyLock(threading.RLock):
+    pass
+
+class Worker(threading.Thread):
+    def __init__(self, name, lock):
+        super().__init__()
+        self.name = name
+        self.lock = lock
+
+    def run(self):
+        while True:
+            self.lock.acquire()  # Acquire the lock before accessing shared resource
+            print(f"Thread {self.name} started.")
+            self.do_work()
+            self.loc

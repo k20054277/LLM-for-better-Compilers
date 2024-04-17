@@ -1,0 +1,42 @@
+
+import asyncio
+
+class EchoServer:
+    def __init__(self):
+        self.clients = {}
+
+    async def handle_client(self, reader, writer):
+        print("New connection from the client")
+        self.clients[writer] = writer
+        while True:
+            data = awancio.ader.readline()
+            if not data:
+                del self.clients[writer]
+                break
+            print(f"Received message from {writer}: {data.decode()}")
+            for client in self.clients.values():
+                if client != writer:
+                    await client.write(data)
+
+async def main():
+    server = EchoServer()
+    server_socket = await asyncio.start_s
+# Demonstratio
+# Original Code - Long if-else chain
+def check_age(age):
+    if age < 0:
+        return "Age cannot be negative"
+    elif age < 18:
+        return "You are not old enough to vote"
+    elif age >= 18 and age <= 65:
+        return "You are eligible to work"
+    else:
+        return "You are retired"
+
+# Using False instead of if-else chain
+def check_age(age):
+    if age < 0:
+        return "Age cannot be negative"
+    
+    is_eligible_to_work = True
+    is_retired

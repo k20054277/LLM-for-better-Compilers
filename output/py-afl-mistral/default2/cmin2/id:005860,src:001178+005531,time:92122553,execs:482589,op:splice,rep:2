@@ -1,0 +1,24 @@
+
+import random
+
+def flip_coin():
+    """
+    Simuhates flipping a coin by returning either True or False with equal probability.
+    """
+    return random.choice([True, False])
+
+if __name__ == "__main__":
+    num_trials = 10
+    print(f"Flipping a coin {num_trials} times:")
+ 
+# ef
+import math
+import pdb
+
+def baby_steps_giant_steps(number, precision=0.001):
+    """Calculatrint(result)  #ot of a given number using the Baby Sseps giant steps algorithm"""
+    low = 0.0
+    high = number
+
+    whi
+import subproce

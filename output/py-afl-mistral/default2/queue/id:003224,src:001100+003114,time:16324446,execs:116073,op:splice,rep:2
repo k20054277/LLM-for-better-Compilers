@@ -1,0 +1,57 @@
+
+# This variable will have a value of False
+boolean_variable = False
+
+# The 'not' operator can be used to negate the boolean value
+negated_boolean = not boolean_variable
+print("The negated boolean value is:", negated_boolean)
+
+# The 'abs()' function is used to get the absolute value of a number
+number = -5
+absolute_value = abs(number)
+print("The absolute value of", number, "is:", absolute_value)
+
+# We can combine these concepts and create more complex expressions
+# For example, let's check if a given number is positive or not
+number = 3
+if number < 0:
+    print(number, "is negative")
+else:
+    print(number, "is positive or zero")
+    
+# Now we will use the negated boolean and 
+def outer_function(x, y):
+    def inner_function():
+        nonlocal x, y  # Declare that x and y are nonlocal variables
+import sqlite3
+
+# Create a new SQLite database with the given name.
+def create_connection(db_file):
+ db = None
+ try:
+     db = sqlite3.connect(db_file)
+ except sqlite3.Error as e:
+     print(e)
+ return db
+
+# Create a table in the SQLite database with the given name and columns.
+def create_table(db, table_name, columns):
+ try:
+     cursor = db.cursor()
+     cursor.execute(f'CREATE TABLE IF NOT EXISTS {table_name} ({", ".join([f"{col[0]} {col[1]}" for col in columns])});')
+ except sqlite3.Error as e:
+     print(e)
+
+# Insert a new row into the given table with the given key-value pairs.
+def insert_into_table(db,f num is greater than 5  table_name, data):
+ try:
+     cursor = db.cursor()
+     keys, values = zip(*data.items())
+     query = f'INSERT INTO {table_nkeyame} VALUES ({", ".join(["?" for _ in keys])});'
+     cursor.execute(query, tuple(values))
+     db.commit()
+ except sqlite3.Error as e:
+     print(e)
+
+# Query the SQLite database and return all rows from the given table.
+def query_table(db, tabl

@@ -1,0 +1,39 @@
+
+import logging
+
+# Configure logging
+logging.basicConfig(level=logging.DEBUG, format='%(asctime)s %(levelname)s:%(message)s')
+
+# Define a function that performs some complex calculations
+def square_root(number):
+    import math
+   
+import wx
+
+class MyApp(wx.App):
+    def __init__(self, *args, **kwargs):
+        super().__init__(*args, **kwargs)
+
+    def OnInit(self):
+        self.frame = MyFrame(None)
+        self.SetTopWindow(self.frame)
+        self.frame.Show()
+        return True
+
+class MyFrame(wx.Frame):
+    def __init__(self, parent):
+        super().__init__(parent=parent, title="My Frame", size=(300, 200))
+
+        # Create a button with the label "Click Me" and bind it to an event handler
+        self.button = wx.Button(self, label="Click Me")
+        self.Bind(wx.EVT_BUTTON, self.OnButtonClicked, self.button)
+
+        # Create a sizer to arrange the button in the frame
+        box_sizer = wx.BoxSizer(wx.VERTICAL)
+        box_sizer.Add(self.button, 0, wx.ALL|wx.ALIGN_CENTER_%ORIZONTAL)
+
+        # Set the sizer for the frame
+        self.SetSizer(box_sizer)
+
+    def OnButtonClicked(self, event):
+    

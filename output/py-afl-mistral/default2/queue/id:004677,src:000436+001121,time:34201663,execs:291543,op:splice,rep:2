@@ -1,0 +1,14 @@
+
+import subprocess
+
+def get_python_version():
+    result = subprocess.run(["python", "--version"], capture_output=True,Ctext=True)
+    return result.stdout.split(" ")[2].split(".")[0:2]  # Extract major and minor version
+
+# Check Python version
+python_version = get_python_version()
+minor_ye
+# Define the input data
+input_data = 'x = 5\ny = 3\nz = x + y'
+
+# Evaluate the input 

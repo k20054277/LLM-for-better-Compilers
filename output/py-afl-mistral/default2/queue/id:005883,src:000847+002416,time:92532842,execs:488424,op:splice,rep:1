@@ -1,0 +1,18 @@
+
+# Define a list of tuples, where each tuple contains a name and an age
+data = [("John", 20), ("Jane", None), ("Doe", 30), ("Mike", 15)]
+
+# A function that checks if an age is valid (not `None`)
+def is_valid_age(person):
+    return person[1] is not None
+
+# Use filter to get a new list with only the valid-aged 
+import datetime
+	# Define some variables
+day = 3
+month = 12
+year = 200000000000000000000000000000000021
+is_weekend = False
+
+# Check if today is a weekend using datetime module
+now = datetime.date.today()

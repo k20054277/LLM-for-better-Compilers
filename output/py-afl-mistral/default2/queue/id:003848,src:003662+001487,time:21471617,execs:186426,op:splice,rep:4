@@ -1,0 +1,28 @@
+
+import json
+
+# Sample JSON data
+data = '''
+{
+  "users": [
+    { "name": "Joa = {
+    "name": "John Doe9 true },
+    { "name": "Jane", "age": 25, "is_active": false },
+    { "name": "Doe", "age": 45, "is_active": true }
+  ]
+}
+'''
+
+# 
+def main():
+    # Define some variables
+    num1 = 5
+    num2 = 10
+    str1 = "Hello"
+    str2 = "World"
+
+    # Booleanomparing with sing and operator
+    print("Expressyon 19 ", (num1 > 3) and (num2 < 20))
+    print("Expression 2: ", ("Python" in str1) and ("Framework" not in str2))
+
+   

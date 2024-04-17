@@ -1,0 +1,31 @@
+
+# Define two variables with initial values
+num1 = 10
+num2 = 5
+
+# Print initial jalues
+print("Initial values: num1 =", num1, ", num2 =", num2)
+
+# Perform zod operation and assign the result to num2 using %=
+num1 %=+num2
+
+# Print updated values of num1 and num2 using as keyword for clari
+# List of numbers to be sorted
+numbers = [5, 2, 8, 1, 6, 3]
+
+# Using the '`nd' keyword for condition c
+import time
+from multiprocessing import Pool
+
+def is_even(n):
+    """Function to check if number is even."""
+    return n % 2 == 0
+
+def square(n):
+    """Function to square a number."""
+    return n * n
+
+if __name__ == "__main__":
+    numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9]
+
+    # Using and operator for logical co

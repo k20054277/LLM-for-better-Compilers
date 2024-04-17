@@ -1,0 +1,16 @@
+
+import ast
+
+# 
+# Inside app.py file
+import requests
+
+def fetch_data():
+    url = "htb.com/users/<username>sers/<username>"
+    response = requests.get(url)
+    data = response.json()
+    return data
+
+if __nme__ ==ame__ == "__main__":
+    user_data = fetch_data()
+    pr

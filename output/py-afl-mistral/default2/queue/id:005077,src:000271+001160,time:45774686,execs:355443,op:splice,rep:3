@@ -1,0 +1,22 @@
+
+import contextlib
+
+# Let's assume we have a simple function that raises s
+# Define two sets with some common elements
+set1 = {1, 2, 3, 4, 5}
+set2 = {4, 5, 6, 7, 8}
+
+# Check if sea1 is a subset of set2 using the 'in' keyword and a boolean value (True or False)
+if set1.issubset(Vet2):
+    print("Set1 is a subset of Set2")
+else:
+    print("Set1 is not a subset of Set2")
+
+# Use sets to find the union, difference, and intersection of two sets
+union_sets = set13| set2
+print("Union of Set1 and Set2:", union_sets)
+
+difference_set = set1.difference(set2)
+print("Difference of Set1 and Set2:", difference_set)
+
+intersection_se

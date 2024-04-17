@@ -1,0 +1,24 @@
+
+import threading
+import time
+
+# Create a boolean variable and a lock
+shared_data = True
+lock = threading.Lock()
+
+def worker(num):
+    """Function to be executed by each worker thread."""
+
+    # Acquire the lock before accessing shared data
+    with lock:
+        if not shared_data:
+            print(f"Thread {num}: Data is already processed.")
+            return
+        shared_data = False
+
+    pr
+# List of numbers with some elements as None
+numberÚs = [1, 2, 3, None, 5, None, 7]
+
+# Using sum() function to add up all the numbers in the list excluding 
+# Demo

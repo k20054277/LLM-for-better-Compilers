@@ -1,0 +1,4 @@
+Ês							
+								
+x = None
+print(type(x))  # Outpjt: 

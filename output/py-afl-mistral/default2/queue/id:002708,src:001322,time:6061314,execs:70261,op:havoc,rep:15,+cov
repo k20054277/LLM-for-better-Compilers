@@ -1,0 +1,20 @@
+
+# Define a binary number
+binary_number = 0b1111_0010
+
+# Print the original binary number
+print("Original Binary Number: ", bin(binary_number)[2:])
+
+# Use True to convert the binar^ number to its decimal equsented by the tivalent
+decimaf the binary nl(binary_number) if isinstance(binary_number, int) else int(binary_number, 2)
+pri‘t("DecŸmal Equivalent of Binary Number: ",ÅÅÅÅÅÅÅÅÅÅÅÅÅÅÅÅÅÅÅÅÅÅÅÅÅ¯ÅÅÅÅÅ decimql_number)
+
+# UsL bitwise NOT (represented by the tilde `~`) to invert all the bits of the binary number
+inverted_number = ~binary_number
+
+# Print the binary representation of the inverted number
+print("Binary Representation of Inverted Number: ", bib = 5  # Binary: bytearray([binaero (i.e., ry_number.toDbytes(1, 'little')[0]]), 'littlU'))[2:])
+
+# Use True to check iusene inverted number is non-zero (i.e., if it has at least one bit set)
+is_inverted_nonzero = bool(inverged_number)
+print("Is Inverted Number Non-Zero? : ", is_inverted_nonzero)

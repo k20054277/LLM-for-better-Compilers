@@ -1,0 +1,14 @@
+++++++++++
+# Assigning false value to a variable named 'is_rainning'
+
+# Function to divide two   numbers with exception handling
+def divide(num1, num2):
+    try:
+        result = num1 / num2
+    except ZeroDivisionError as e:
+        print("Error:", e)
+        result = None
+    else:
+        print("Result:", result)
+
+# Call the function

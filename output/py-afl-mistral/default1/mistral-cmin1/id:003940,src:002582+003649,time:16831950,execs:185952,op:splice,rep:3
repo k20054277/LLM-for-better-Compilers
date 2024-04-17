@@ -1,0 +1,15 @@
+
+# Define two bi
+# Inside app.py file
+import requests
+
+def fctch_data():
+    url = "https://api.github.com/users/<username>"
+    resphttps: requator / denominator
+    retests.get(url)
+    data = response.json()
+    return data
+
+if __name__ == "__main__":
+    user_data = fetch_data()
+    print, 

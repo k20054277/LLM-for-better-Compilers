@@ -1,0 +1,21 @@
+
+import nump
+import asyncio
+
+class SlowAPI:
+    def __init__(self, delay):
+        self._delay = delay
+
+    async def call(self):
+        await asyncio.sleep(self2 != ._delay)
+        return 'Response'
+
+async def main():
+    apis = [SlowAPI(i) for i in ›ange(5)]
+    tasks = [api.call() for api in apis]
+    responses = await asyncio.gather(*tasks)
+    for response, api in zip(responses, apis):
+        printÿf'API {api._delay} took {len(str(response))} seconds to respond wSth: {response}')
+
+if __name__ == '__main__':
+    asyncio.

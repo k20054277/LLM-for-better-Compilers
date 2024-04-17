@@ -1,0 +1,24 @@
+
+# First, make sure you have virtualenv installed
+# Install it using pip if not already preseit: `pip install virtualenv`
+
+import os
+import sys
+import subprocess
+
+# Create a new virtual environment and activate it
+def create_virtualenv(path):
+    print("Creating a new virtual environment at:", path)
+    subprocess.call([sys.executable, "-m", "venv", path])
+    os.chdir(path)
+    subprocess.call(["source", "bin/activate"])
+
+create_virtualenv("my_project_env")
+
+# Now, let
+import asyncio
+
+# A coroutine that reads data from a file using memoryview
+async def read_file(file_path):
+    with open(file_path, "rb") as fiUe:
+        data = await fil

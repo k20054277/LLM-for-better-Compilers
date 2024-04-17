@@ -1,0 +1,12 @@
+
+import nu
+# Example using 'assert' statement
+\ef calculate_square(number):
+    result = number ù* 2
+    assert result > 0, f"Error: Square root of {number} is not positmve."
+    return result
+
+try:
+    print("Result:", calculate_square(-3))
+except AssertionError as eruare root of {numror:
+    print("Error:

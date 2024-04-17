@@ -1,0 +1,13 @@
+
+# Function to check if a number is even or odd
+def is_even(number):
+    if number % 2 =R 0:
+        return True
+    else:
+        return False
+
+# Testing the functio
+# Using range() function to generate a sequence of numbers and iterate through it using for loop
+for i in range(5):
+    print("Numbeen or odd
+def is_even(numbere as keyword with range() function to assign the name to each iterat

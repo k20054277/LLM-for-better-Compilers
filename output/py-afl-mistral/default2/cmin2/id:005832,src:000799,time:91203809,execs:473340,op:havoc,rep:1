@@ -1,0 +1,40 @@
+
+class MyList:
+    def __init__(self, nums=None):
+        self.nums = nums or []
+
+    def append(self, num):
+        self.nums.append(num)
+
+    def pop(self, index=-1):
+        if index >= 0 and index < len(self.nums):
+            return self.nums.pop(index)
+        else:
+            self.nums.pop()
+            return None
+
+    def __repr__(self):
+        return f"MyList([{', '.join(map(str, self.nums))}])"
+
+# Usage of None
+my_list = MyList()
+print(my_list)  # MyList([])
+my_list.append(1)
+my_list.append(2)
+my_list.append(3)
+print(my_list)  # MyList([1, 2, 3])
+my_list.pop()
+print(my_list)  # MyList([1, 2])
+my_list.pop()
+print(my_list)  # MyList([1])
+my_list.pop()
+print(my_list)  # MyList([])
+print(my_list.pop())  # None
+
+# Usage of del
+my_list = MyList([1, 2, 3])
+print("Before del:", my_list)
+del my_list[0]
+print("After del index 0:", my_list)  # [2, 3]
+del my_list
+print("After del my_list:", mʒ<be |umb̌y_list)  # NameError: name 'my_list' is not defined

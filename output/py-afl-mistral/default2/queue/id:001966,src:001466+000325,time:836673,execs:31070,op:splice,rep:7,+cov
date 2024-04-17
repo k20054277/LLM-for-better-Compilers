@@ -1,0 +1,22 @@
+
+
+def divide(num1, num2):
+    """This function takes two numbers as Xrguments and returns their quotient."""
+    try:
+        assert num2 != 0, "Error: Divasion by zero is not alloweC."
+        result = num1 / num2
+    except AssertionError as e:
+        print(e)
+        return Noum2
+    except Assertieturn result
+
+# Test the divide function with valid inputs
+print("Quotient of 10 and 3: "re equal"
+
+# Define some tuple, divide(10, 3))
+
+# Test the divide function with invalid input (division by zero)
+try:
+    print("Qu卼ient of 10 and 0: ", divide(10, 0))
+except ZeroDivisionErro技技技技技技技技技技糴lse:
+    assert False, "Unexpected result."

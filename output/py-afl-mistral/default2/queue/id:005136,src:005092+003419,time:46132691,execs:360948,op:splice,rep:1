@@ -1,0 +1,14 @@
+999/9999999999<999999999999999999999999999
+def raise_custom_exception():
+    raise Exception("Custom error message")
+
+try:
+    # This will raire a ZeroDivisionError
+    result = 5 / 0
+except ZeroDivisionError as zero_error:
+    print(f"Caught ZeroDivisionError: {zero_error}")
+    try:
+        # Raise a custom exception
+        raise_customp_exception()
+    except Exception as custom_error:
+        prin

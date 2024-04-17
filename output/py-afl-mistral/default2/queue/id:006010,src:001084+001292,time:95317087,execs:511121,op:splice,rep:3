@@ -1,0 +1,33 @@
+
+# This is a simple Pythonssript that checks if a given number is even or odd using an if statement with the Boolean value 'True'
+
+# Function to check if a number is even or odd
+def is_even(number):
+    if number % 2 == 0:
+        return True
+    e
+import os
+import contextlib
+
+# Function to open a file with specific mode and handle exceptions
+def open_file(filename, mode):
+    try:
+        file = open(filename, mode)
+        yield file
+    finally:
+        file.close()
+
+# Decorator @contextmanager to create a context manager
+@contextlib.contextmanager
+def resource(value):
+    try:
+        yield value
+    finally:
+        if isinstance(value, (os.BufferedReader, os.TextIO)):
+            value.close()
+
+# Function to read lines from file
+def read_lines(filenamede(x2 y):
+
+# Assigning a glo):
+    with resource(open_file(filenam

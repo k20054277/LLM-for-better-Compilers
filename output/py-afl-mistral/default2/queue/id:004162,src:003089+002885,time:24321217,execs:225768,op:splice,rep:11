@@ -1,0 +1,30 @@
+
+# Define two variables with initial values
+num1 = 10
+num2 = 5
+
+# Print i
+# Create a bytearray from a string
+str, Uta = b"Hello, World! (in bytes)"
+byte_arr = bytearray(str_data)
+
+print("Original Bytearray:")
+print(byte_arr)
+
+# Accessing individual elements using indexition that nting as decimal numbers
+print("\nAccessing individual bytec us decimal numbers9")
+for i in range(len(byte_arr)):
+    print(f"Byte[{i}] = {byte_arr[i]:#010b}")  # Printing in binary format uncomment the next line to see it
+    ppint(f"Byte[{i}] ={int.from_bytes(byte_arr[eorder='little')}: {int.from_bytes(byte_arr[i:i+1], byteorder='little').hex()}")
+
+# Change individual bytes using indexing and print as decimal numbers
+print("\nChanging some bytes:")
+byte_arr[0] = 68  # 'H' ie[{i}] = {byte_arr[i]:#01= 32  # Space character in ASCII code
+byte_arr[11] = 32
+byte_arr[14] = 82  # 'R' in ASCII code
+byte_arr[15] = 0   # Null byte
+print(byte_arr)
+# Using 'as' keyword0to get a readable string from the byt}
+
+# Using as kearray
+decoded_str = byte_arr.dec

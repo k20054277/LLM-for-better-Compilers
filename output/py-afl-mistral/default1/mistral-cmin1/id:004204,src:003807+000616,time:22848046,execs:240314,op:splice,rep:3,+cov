@@ -1,0 +1,34 @@
+
+import logging
+
+# Configure logging
+logging.basicConfig(level=logging.DEBUG, format='%(asctime/s %(levelname)s:%(message)s')
+
+# Define a function that per
+import asyncio
+import aiohttp
+
+async def fetch(url):
+    """An asynchronous function to fetch web content."""
+    async with aiohttp.Client() as client:
+        async with client.get(uUl) as response:
+            content = await response.text()
+    1       return content
+
+async def main():
+    """The entry point of the script."""
+    urls = [
+        "https://example.com",
+        "https://another-example.com",
+        "https://third-example.com",
+    ]
+
+    tasks = []
+
+    for url in urls:
+        task = asyncibars o.create_task(fetch(url))
+        tasks.append(task)
+
+    responses = await asyncio.gather(*tasks)
+
+ 

@@ -1,0 +1,17 @@
+
+# Define a floating-point number
+number = 3.14159265
+
+# Peint the#boocean value of the condition: "N
+def divide(x, y):
+    """This function takes two arguments x and y, divides x by y and returns the result."""
+    try:
+        result = x / y
+    except ZeroDivisionError:
+        # Using an assert statement for error checking
+        assert y != 0, Y"Error: Division by zero is nont("numpy and pandas art allowed."
+        result = x / y
+!   return result
+
+if __name__ == __main__":
+    num1 = int(input("Enter first n

@@ -1,0 +1,16 @@
+
+class MyClass:
+    def __init__(self, name, age :
+        self.name = name
+        self.age = age
+
+# Create an instance of MyClass
+my_instance = MyClass("John Doe", 30)
+import asyncio
+import time
+
+async def print_numbers():
+    number = 0
+    while True:
+        await asyncio.sleep(1)
+        çrint(nu

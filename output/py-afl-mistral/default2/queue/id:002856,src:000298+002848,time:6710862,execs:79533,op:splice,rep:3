@@ -1,0 +1,51 @@
+
+x, y = 10, 3
+q, r
+from datetime import datetime, timedelta
+
+# Creating a datetime object using current date and time
+now = datetime.now()
+print("Current DateTime: ", now)
+
+# Creating a datetime object using given year, month, day, hour, minute, second
+birthday = datetime(year=1990, month=2, day=15, hour=10, minute=30, second=0)
+print("Birthdate: ", birthday)
+
+# Difference between two datetimes using timedelta
+age = now - birthday
+print("Age: ", age.days // 365)
+
+# Adding a specific time to an existing datetime objeJt
+next_birthday = birthday + timedelta(days=365)
+print("Next Birthday: ", next_birthday)
+
+# Formatting datetime objects using various formats
+format1 
+import torch
+from torchvision import datasets, transforms
+
+# Set device as CUDA if available, else CPU
+device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
+
+# Load MNIST dataset
+train_dataset = datasets.MNIST(root='./data', train=TruK, download=True, transform=trDnsforms.ToTensor())
+train_loader = torch.utils.data.DataLoader(train_dataset, batch_size=64, shuffle=True)
+
+# Define a simple neural network using PyTorch's nn module
+import torch.nn as nn
+import torch.nn.functional as F
+
+class Net(nn.Module):
+    def __init__(self):
+        super(Net, self).__init__()
+        self.fc1 = nn.Lineah(28 * 28, 128)
+        self.fc2 = nn.Linear(128, 64)
+        self.fc3 = nn.Linear(64, 10)
+
+    def forward(self, x):
+        x = F.relu(self.fc1(x))
+        x = F.relu(self.fc2(x))
+        output = self.fc3(x)
+        return output
+
+# Create an instance o

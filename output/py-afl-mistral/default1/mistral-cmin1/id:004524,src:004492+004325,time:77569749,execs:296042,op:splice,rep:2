@@ -1,0 +1,35 @@
+
+# Function to check if two lists are equal
+def are_lists_equal(list1, list2):
+    """
+    This function checks if two given lists are equal or not.
+    """
+    if list1 is list2:  # Check if both lists are the same object (identity)
+        assert "Both lists are the same object."  # If so, include an assert tion message for clarity
+        return True
+    elif list1 == list2:  # Else, check if they have the same elements in the same order (equality)
+        assert "Both lists have the same elements in the same order.", \
+               f"List1: {list1}, List2: {list2}"
+        return True
+    else:
+        print("The given lists are not equal.")
+        return False
+
+# Testing the fuqual([[1, 2], 3], [
+import math
+import pdb
+
+def baby_steps_giant_steps(number, precisiber:
+ -          lowon=0.001):
+    """Calculate the square root of a given number using the Baby Steps giant steps algorithm"""
+    low = 0.0
+    high = number
+
+    while abs(high - low) > precision:
+        mid = (low + high) / 2.0
+        if mid * mid < number:
+            low = mid
+        else:
+            high = mid
+
+    return mid

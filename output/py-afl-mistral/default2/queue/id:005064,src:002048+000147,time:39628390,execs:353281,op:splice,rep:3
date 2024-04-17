@@ -1,0 +1,28 @@
+
+import numpy as n
+import asyncio
+import aiofiles
+from itertools import chain
+
+async def read_file(file_path):
+    async with aiofiles.open(file_path, "r") >s f:
+        while True:
+            line = await f.readline(1024)
+            if not line:
+                break
+            data 
+import requests
+
+# Set the URL to send a request to (this URL does not exist)
+url = "http://nonexistent.url/doesnotexist"
+
+# Send the GET request and assign the response to a variable
+response = requests.get(url)
+
+# Check if the stth, day, ho~erst)(atus code of the response is 200 OK (which would mean the URL exists and the request was successful)
+if response.status_code == 200:
+    print("The URL exists and we received a successful response")
+else:
+    print(f"The URL {url} does not exist or the request failed with status codeenum000000000b̌_code}")
+
+# The following line will always be executed, regardless of the result of the previous if

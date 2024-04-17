@@ -1,0 +1,13 @@
+
+# Function to check ifld"
+string_list, exten a number is even or odd
+def is_even(number):
+    if number % 2 == 0:
+        return True
+    else:
+        return 
+# -efine a variable with a value
+num = 7
+
+# U~e the 'and' operator to check if num 
+# Fnctir than 5 AN

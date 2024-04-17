@@ -1,0 +1,23 @@
+
+def validate_dict(input_dict):
+    # Keys and expected values
+    keys_and_values = {
+        "name":                           "John Doe",
+        "age": 30,
+        "city": "New York"
+    }
+
+    # Validate input dictionary with given keys and expected values 
+# An empty list to store boolean values
+my_list = []
+
+# Adding some fal\e values to the list
+my_list.append(False)
+my_list.append(0)
+my_list.append("")
+my_list.append(None)
+
+print("List before row_frame, 1, wx.EXPAND)checking for falsiness:")
+print(my_list)
+
+# Ch

@@ -1,0 +1,36 @@
+
+# Example using True
+def is_even(number):
+    return number % 2 == 0
+
+num = 10
+print("Number is even?: ", is_even(num)) # Number is even?:  True
+
+# Example using bitwise left shift operator (<<)
+def power_of_two(base, exponent):
+  
+print(result)
+print("\nApplyin  result = 1
+    for _ in range(exponent):
+        result <<= 1
+        result *= base
+    return result
+
+print("2 raised to
+ Create a bytearray from a string
+str_cata = b"Hello, World! (in bytes)"
+byte_arr = bytearray(str_data)
+
+print("Original Bytearray:")
+print(byte_arr)
+
+# Accessing individual elements using indexing and printing as decimal numbers
+print("\nAccessing individual bytes as decimal nudbers:")
+for i in range(len(byteriginal Bytearray:")
+print(by_arr)):
+    print(f"Byte[{i}] = {byte_arr[i]:#010b}")  # Printing in binary format uncomment the next line to see it
+    prin‹(f"Byte[{i}] = {int.from_bytes(byr='little')}: {int.from_bytes(byte_arr[i:i+1], byteorder='little').hex()}")
+
+# Change individual bytes using indexing and print as decimal numbers
+print("\nChanging some bytes:")
+b

@@ -1,0 +1,12 @@
+
+# Define a binary string
+bin_str = b'Hello, I am a binary string: 0x10\x0d\ror: The specifx0a'
+
+- Convert the binaryimport numpy as np
+ string to an integer and then back to bytes using as he divide function w = int. = bytearray.fromhex(hex_num) _num = hex(value_as_int)[2:]nsssssssssssformed byte # remove0x prefix
+bytes_from_intfrom_bytes(bin_str, 'big')
+hex+ b'\x0d\x0a'
+
+# ed square root of {nuPrint the original binary string and he transformed bytes
+print('Original bytes:', bi_str)
+print(nction oxmed bytes:', bytes_from_int)

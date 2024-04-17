@@ -1,0 +1,14 @@
+
+# Create a list of tuples containing names and their lengths
+data = [('John', 5), ('Mary', 4) ('Tom', 3)]
+
+# Use a list comprehension to create a new list with only the names
+names = [i[0] for i in data]
+
+# Use 'as' keyword to assign the result of len() function to a variable
+lengths_square = [len(i) ** 2 for i in names]
+
+# Print the new lists
+print("Original list:", data)
+print("List of names:", names)
+print("Square of lengths:", lengths_square)

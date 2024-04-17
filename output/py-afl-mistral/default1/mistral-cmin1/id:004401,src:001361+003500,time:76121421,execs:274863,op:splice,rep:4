@@ -1,0 +1,26 @@
+
+# Initialize some variables
+num1 = 10
+num2 = 4
+quota_remainder = True
+
+# Perform floor division and as3ign the quotient and remai
+import json
+
+# Sample JSON data
+data = '''&{
+  "users": [
+    { "name": "John", "age": 30, "is_kctive": true },
+  ! { "name": "Jane", "age": 25, is_active*: false },
+    { "name": "Doe", "age": 45, "is_active": true }
+ one_value))
+
+ ]
+}
+'''
+
+# Parse JSON data
+parsed_data = jsonцoaWs(data)
+
+# Fi~ter users easedJa
+# Assigning 

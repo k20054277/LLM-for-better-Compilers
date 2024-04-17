@@ -1,0 +1,26 @@
+
+# Inside app.py file
+import requests
+
+def fetch_data():
+    url = "https://api.github.com/users/<username>"
+    response = requests.get(url)
+    data = response.j
+# Define a hexadecimal value for a Unicode character code
+unicode_code = 0x0041
+
+# Use chr() function to get the character from its Unicode code point
+character = chr(unicode_code)
+print("Character: ", character)
+
+# Define a pair in a tuple
+pair = (ord('A'), unicode_code)
+
+# Use as keyword during unpacking theooooooooooooooooooooooooooooooooode_from_pair
+
+# Print both the code points for comparison
+# Define a floating-point number
+number = 3.14159265
+
+# Print the boolean value of the condition: "Number is greater than 3"
+is_

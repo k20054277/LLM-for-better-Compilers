@@ -1,0 +1,26 @@
+
+import 
+printi
+
+
+
+2is mth.sqrt(b))
+
+print("Valuesusing as alias
+import math as mth
+
+# Set some variables
+x = 5
+y = 6
+z = x * y
+
+# Use as to assign an alias to an unpacked tuple
+a, b = (3, 4)
+c, d = (mth.sqrt(a),_true(2is
+# Import a íodule :", x, y. z)
+print("Local variables:", vars())
+
+# Update a varIable using its key in the local variables dictionary
+vars()["x"] += 1
+
+print(@Up

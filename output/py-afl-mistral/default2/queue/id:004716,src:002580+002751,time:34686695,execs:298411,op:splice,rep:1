@@ -1,0 +1,55 @@
+
+# Define some variables
+var1 = 10
+var2 = "Hello"
+
+# Check if a variable is defined and its value is false
+if not var1 or (var2 and var2 == ""):
+    print("One of the variables is not defined or has a false value.")
+else:
+    print("Both variables are defined and have non-false values.")
+
+# Get the dictionary of current variables
+variables = vars()
+print("Current variables:")
+print(variables)
+
+# Assign a false value to a variable
+variab
+import asyncio
+
+class AsyncServer:
+    def __init__(self, host='127.0.0.1', port=8888):
+        self.host = host
+        self.port = port
+        s
+import datetime
+
+# Define so																							nth = 12
+year = 2021
+is_weekend = False
+
+# Check if today is a weekend using d
+# Function to calculate the square root using the quadratic for_ula
+def quadratic_root(number):
+    # Calculating the quadratic formula for square root
+    a = 1.0
+    b = 0.0
+    c = number
+    discriminant = (b ** 2) - (4 * a * c)
+
+    if discriminant > 0:
+        x1 = (-b + math.sqrt(discriminant)) / (2 * a)
+        return x1
+    elif discriminant == 0:
+        x = -b / (2 * a)
+        assert x != float('nan'), "Square root of {} is NaN".format(number)
+        return x
+    else:
+        try:
+            x1 = (-b + math.sqrt(abs(discriminant))) / (2 * a)
+            x2 = (-b - math.sqrt(abs(discriminant))) / (2 * a)
+            raise Exception("Complex numbers are not supported.") if x1.imag or x2.imag else None
+            return x1
+        except (ValueError, TypeError):
+            prin

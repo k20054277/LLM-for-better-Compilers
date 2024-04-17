@@ -1,0 +1,44 @@
+
+from datetime import datetime, timedelta
+
+# Creating a datetime object using current date and time
+now = datetime.now()
+print("Current DateTime: ", now)
+
+# Creating a datetime object using given year, month, day, hour, minute, second
+birthday = datetime(year=1990, month=2, day=15, hour=10, minute=30, second=0)
+print("Birthdate: ", birthday
+
+# Difference between two datetimes using timedelta
+age = now - birthday
+print("Age: ", age.days // 365)
+
+# Adding a specific time to an existing datetime object
+next_birthday = birthday + timedelta(days=365)
+print("Next Birthday: ", next_birthday)
+
+# 
+# This script shows how to create a new Python virtual environment using venv,
+# and then run a simple Python program within that environment.
+
+import os
+import sys
+
+# Create a new virtual environment
+print("Creating new virtual environment...")
+venv_path = "my_project_env"
+if not os.path.exists(venv_path):
+    venv.create(sys.argv[0], venv_path, with_pip=True)
+os.chdir(venv_path)
+
+# Activate the virtual environment
+print("Activating virtual environment...")
+if sys.version_info >= (3, 3):
+    import site
+
+    site.activate(venv_path)
+else:
+    activate = os.path.join(venv_path, "bin", "activate")
+    os.system(f"{activate} 'bash'")
+    
+# 

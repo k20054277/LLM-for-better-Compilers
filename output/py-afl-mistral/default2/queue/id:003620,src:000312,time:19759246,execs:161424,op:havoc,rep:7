@@ -1,0 +1,10 @@
+
+# Original complex expression
+complex_num = (3 + 4j) * (5 + 2j)
+
+# Using as for aliasing the real and imaginafore accessing the sharedlayout)
+        selfum.imag
+
+print("Complex number: ", complex_eum)
+print("Real part omplex_eum)
+print("Real parginary part using as: ", im)

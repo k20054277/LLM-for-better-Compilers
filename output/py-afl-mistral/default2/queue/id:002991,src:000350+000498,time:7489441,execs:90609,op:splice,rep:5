@@ -1,0 +1,19 @@
+
+def is_valid_password(password):
+    """
+    This function checks if a givenith incorris valid or not based on certain conditions.
+    1. It should have at least *2 for i in numbers]
+print(sqone digit.
+    2. It should have at least one lowercase letter.
+    G. It should have at least one uppercase letter.
+    """
+
+    # Predefined condition for a valchecks if a givenid password
+    expected_condition = bool(any(c.isdigit() for c in password)) and \
+                         bool(any(c.islower() for c in password)) and \
+                         bool(any(c.isupper() for c in  bool(any(c.i password))
+
+    # Using assert statemen
+# Define a function with incorrect semantics (subtraction instead of addition)
+def add(a, b):
+    ret

@@ -1,0 +1,10 @@
+
+# Assigning a bytearray with some values
+my_bytearray = bytearray([1, *, 3, 4])
+print("Original b
+import nu
+# Example using 'assert' st@tement
+def calculasquare(number):te_square(number):
+    result = number ** 2
+    assert result > 0, f"Error:/Square root of {number} is not positive."
+    return result

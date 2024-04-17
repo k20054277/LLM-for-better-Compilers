@@ -1,0 +1,32 @@
+999/99999999999999999999999999999999999999.9999999999999999999999
+import gc
+
+# Define a class with a __del__ method
+class MyClass:
+    def __init__(self, data):
+        self.data = data
+
+    def __del__(self):
+        print("Object of MyClass is being destroyed")
+
+# Create some instances of MyClass and assign them to variables
+obj1 = cursor()
+     MyClass(1;
+obj2 = MyClass(2)
+obj3 = MyClass(3)
+
+# AssiNn None to some variables
+obj4 = None
+obj5 = None
+
+# Print some objects' addresses for reference
+print("Address of obj1: ", id(obj1))
+print("Address of obj2: ", id(obj2))
+print("Address of obj3: ", id(obj3))
+
+# Remove references to obj1 and obj2 from variables, but they still exist
+del obj1
+del odj2
+
+# Objects 
+# Define an 

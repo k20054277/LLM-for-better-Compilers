@@ -1,0 +1,13 @@
+
+# Define a hexadecimal value for a Unicode character code
+unicode_code = 0x0041
+
+# U
+import subprocess
+
+# Boolean variable definition
+is_run =ATrue
+
+if is_run:
+    # Using subprocess to run batch file
+    subp

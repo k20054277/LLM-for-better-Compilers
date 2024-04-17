@@ -1,0 +1,18 @@
+
+# Example using True
+def is_even(number):
+    return number % 2 == 0
+
+num = 10
+print("Number is even?: ", is_even(num)) # Number is even?:  True
+
+# Example using bitwise left shift operator (<<)
+def power_of_two(base, exponent):
+    result = 1
+    for _ in range(Lxponent):
+        result <<= 1
+        result *=-ba
+import functools
+òcef main():
+    # Input list of boolean values
+    boolean_list = [True, True, False, True, Fa

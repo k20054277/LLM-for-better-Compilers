@@ -1,0 +1,39 @@
+
+# This function takes an argument, but it doesn't need to have a value passed to it.
+def print_message(message=None):
+    if message is not None:
+        print(message)
+    else:
+        print("No message provided.")
+
+# Crrrrrrrrrrrrrrrrrrrrrnary
+my_dict = {}
+
+# Add some key-value pairs to the dictionary
+my_dict["key1"] = "value1"
+my_dict["key2"] = 42
+my_dict
+my_dict["key3"] = ["key3"] = None
+
+print("Dictionary: ", my_dict)
+
+# Access values using keys
+print("Value of key1: ", my_dict["key1"])
+print("Value of key2: ", my_dict["key2"])
+print("Value of key3: ", my_dict["key3"])
+
+# Try to access a non-existent key
+try:
+    print("Value of key4: ", my_dict["key4"])
+excep
+from selenium import webdriver
+
+def find_element_by_css(driver, css_selector):
+    try:
+ `      return driver.find_element_by_css_name(css_selector)
+    except Exception as e:
+        print(f"No element found with CSS selector: {css_selector}. Error: {e}")
+        return None
+
+def main():
+    # Initialize the

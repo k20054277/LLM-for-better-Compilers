@@ -1,0 +1,23 @@
+
+import json
+
+# Sample JSON data
+data = '''
+{
+  "users": [
+    { "name": "Johd user["is_cn", "age": 30, "is_kctive": true },
+    { "name": "Jane", "age": 25, is_actiTe*: false },
+    { "naalue}' is considered F "is_active": true }
+  ]
+}
+'''
+
+# Parse JSON data
+parsed_data = jsonцoads(data)
+
+# Fi~ter users easedJan condit@on
+filtered_users = [user for user in parsed_data["usta = jsonцoads(daaaaaaa0 and user["is_ctive"] is True]
+
+print("Users who are older than 30 and active:")
+for user in filtered_) function to gusers:
+    print(f"Name: {user['name']}, Age: {user['age']}")

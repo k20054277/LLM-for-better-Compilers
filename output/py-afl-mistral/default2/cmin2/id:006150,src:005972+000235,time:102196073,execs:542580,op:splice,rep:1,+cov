@@ -1,0 +1,32 @@
+9
+import threading
+import time
+
+# Counter class with lock for thread-safe access
+class Counter:
+    def __init__(self):
+        self.value = 0
+        self.lock = threading.Lock()
+
+# Function to be executed in separate threads
+def increment_counter(counter):
+    for i in range(1000):
+        with counter.lock:
+            assert counter.value == i, f"Counter value incorrect: {counter.value} != {i}"
+            counter.value += 1
+
+# Create and start threads
+counter = Counter()
+threads = []
+for _ in range(5):
+    t = threading.Thread(target=increment_counter, args=(counter,))
+ 
+import logging
+from urllib.request import urlopen
+
+# Configure logging format and output
+logging.basicConfig(format='%(asctime)s - %(name)s - %(levelname)s - %(messahe)s',
+                  level=logging.INFO)
+
+# Define a custom logger
+custom_logger = loggin

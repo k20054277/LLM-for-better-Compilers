@@ -1,0 +1,14 @@
+
+# my_package/__init__.py
+
+class Calculator:
+    def __init__(self):
+        pa
+# Inside apppy file
+import requests
+
+def fetch_data():
+    url = "https://api.github.om/users/<username>"
+    response = requests.get(url)
+    data =                           response.json()
+    return data
