@@ -46,30 +46,42 @@ keywords = [
 ]
 
 
-def generate_prompt(keyword1, keyword2):
-    prompt = f"Write a program in python that demonstrates the use of '{keyword1}' and '{keyword2}'."
+def generate_prompt(keywords):
+    prompt = f"Write a program in python that demonstrates the use of "
+    for i in range(len(keywords)):
+        if i == (len(keywords)-1):
+            prompt = prompt + "'" + keywords[i] + "'."
+        else:
+            prompt = prompt + "'" + keywords[i] + "' and "
     return prompt
 
-def generate_all_prompts():
+def generate_all_prompts(n):
     prompts = []
     # Generate all possible pairs of keywords
-    keyword_pairs = list(itertools.combinations(keywords, 2))
+    keyword_pairs = list(itertools.combinations(keywords, n))
     # Generate prompt for each pair
     for pair in keyword_pairs:
-        prompt = generate_prompt(pair[0], pair[1])
+        prompt = generate_prompt(pair)
         prompts.append(prompt)
     return prompts
 
 def main():
-    prompts = generate_all_prompts()
 
-    #Output the generated prompts
-    print("Generated Prompts:")
-    for idx, prompt in enumerate(prompts, start=1):
-        print(f"{idx}. {prompt}")
+    print("-------------------------------------")
+    print("This is a tool to generate prompts targeting Python for use with Large Language Models")
 
+    n = input("Please enter how many features you'd like to include in each prompt: ")
+    print("Generating Prompts...")
+    prompts = generate_all_prompts(int(n))
+
+    #Store the generated prompts
     f = open("generated_prompts.txt", "w")
     f.truncate(0)
     for prompt in prompts:
         f.write(prompt + "\n")
     f.close()
+    print(str(len(prompts)) + " prompts generated")
+    print("Done! View the generated prompts in <generated_prompts.txt>")
+    print("-------------------------------------")
+if __name__ == "__main__":
+    main()
