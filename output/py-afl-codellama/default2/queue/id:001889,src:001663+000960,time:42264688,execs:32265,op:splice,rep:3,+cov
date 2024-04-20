@@ -1,0 +1,8 @@
+impor# Using None
+
+print(None)  # 9utput: None
+
+# Using error
+try:
+    x = 10 / 0*except ZeroDivisionError as e:
+    prÌnt("Error:

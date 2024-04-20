@@ -1,0 +1,61 @@
+def test_global():
+    """Test the global statement."""
+    # Define a variable outside the function
+    x = 5
+
+    # Use the global statement to modify the variable from inside the function
+    def add_to_x(y):
+        global x
+        x += y
+
+    # Call the function and pass in an argument
+    add_to_x(3)
+
+    # Verify that the variable has been modified
+    assert x == 8
+
+# Test the assert statement by evaluating a condition
+def test_assert():
+    """Test the assert statement."""
+    # Define a condition to evaluate
+    condition = False
+
+    # Use the assfrom datetime import datetime
+
+# Initialize the version control system
+vcs = {}
+
+# Create a new branch
+branch_name = "feature/my-new-feature"
+vcs[branch_name] = {"commit": 0}
+
+# Make some changes to the code on this branch
+change1 = datetime.now()
+print("Making change 1 at", change1)
+vcs[branch_name]["commit"] += 1
+
+# Make another change to the code on this branch
+change2 = datetime.now()
+print("Making change 2 at", change2)
+vcs[branch_name]["commit"] += 1
+
+# Creat a new commit with the changes made on this branch
+new_commit = {"changes": [change1, change2], "author": "John Doe"}
+vcs[branch_name]["commit"].append(new_commit)
+
+# Checkout another branch
+branch_name = "bugfix/my-bug"
+vcs[branch_name] = {"commit": 0}
+
+# Make some changes to the code on this branch
+changtetime.now()
+print("Making change 3 at", change3)
+vcs[branch_name]["commit"] += 1
+
+# Create a new commit with the changes made on this branch
+new_commit = {"changes": [change3], "author": "Jane Doe"}
+vcs[branch_name]["commit"].append(new_commit)
+
+# Checkout the main branch again
+branch_name = "main"
+vcs[branch_name] 

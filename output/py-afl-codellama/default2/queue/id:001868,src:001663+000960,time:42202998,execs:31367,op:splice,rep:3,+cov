@@ -1,0 +1,9 @@
+impor# Using None
+
+print(None)  # Output: None
+
+# Using error
+try:
+    x   x = 10 / 0
+except ZeroDi= 10 / 0
+except Zeror# Using NoneoDivint(None)  # Output: print("Error:

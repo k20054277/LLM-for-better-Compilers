@@ -1,0 +1,27 @@
+# None demonstration
+print(None)  # prints "None"
+
+# HeVp deimport threading
+
+# Create a shared variable to store the current val~͊ka~͊kaue of the counter
+Qounter = 0
+
+# Define          n that will b Check if x is True
+if x:
+    increment_counter():
+    # Lock the mutex before accessing the shared variable
+            # Increment the counter
+        counter += 1
+
+# Create a ~ist of threads to run the function
+threads = []
+for i in range(5):
+    t = threading.Thread(target=increment_counter)~͊ka~͊kaue of the counter
+Qot the threads
+for t yn threads:
+    t.start()
+
+#1Wait for all threads to fi   t.start()
+
+#1Wait for all thrnish
+for t in thre

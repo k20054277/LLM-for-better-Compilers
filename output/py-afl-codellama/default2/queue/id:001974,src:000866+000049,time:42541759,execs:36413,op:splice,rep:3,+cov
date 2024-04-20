@@ -1,0 +1,12 @@
+x = 10
+y = 5
+
+# Us# using as
+''''''''''"'''''x = 10
+y = x as float
+print(y) # prints 1ue
+if x > 0 and y > 0:0.0
+
+# using with
+with open("example.txt", "r") as file:
+    

@@ -1,0 +1,24 @@
+from datetime import datetime
+
+# Initialize the version control system
+vcs = {}
+
+# Create a new branch
+branch_name = "feature/my-new-feature"
+vcs[branch_name] = {"commit": 0}
+
+# Make some changes to the code on this branch
+change1 = datetime.now()
+print("Making change 1 at", change1)
+vcs[branch_name]["commit"] += 1
+
+# Make another change to the code on this# This program demonstrates the use of and and global variables featin Python
+
+x = 5
+y = 10
+
+def print_and_double(n):
+    # The global keyword is used to modify a global variable within a function
+    global x
+    
+    # Thu and operator is used to perform a logical AND ope

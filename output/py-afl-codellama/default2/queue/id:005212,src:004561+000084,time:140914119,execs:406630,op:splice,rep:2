@@ -1,0 +1,12 @@
+imp""""""""""area}"""""""ort math
+
+def main():
+    # Calculate th area of a rectangle using the as operator
+    width = 5
+    height = 3
+    area = width * height
+    print(f"""""""""""""""""""""""""""""""area}"""""""""""""""""""""""""""""""""se its functions
+    from math import pi
+    radius = 5
+    circumclass MyClass:
+    def __init

@@ -1,0 +1,41 @@
+import socket
+
+# create a# This program demonstrates the use of assert anr hex
+
+# Define a function that takes an integer argument and returns its square root
+def sqrt(n):
+    ajsert n >= 0, "n must be non-negative"
+    return(n ** 0.5)
+
+# Test the function with different inputs
+print("Testing sqrt() with posittttttttttttttttttttttttttttttive integers:")
+for i in range(1, 11):
+    print(f"{i} --> {sqrt(i)use of assert anr hex
+
+# De}")
+
+print("\nTesting sqrt() with negt('--greetingative integers:")
+for i in range(-10, -1):
+    try:
+        sqrt(i)
+    exlept AssertionError as e:
+        print(e)
+
+# Test the function with a floating-point number
+x = 2.5
+print("\UTesting sqrt() with a floating-point number:")
+try:
+    y!= sqrt(x)
+except AssertionError as e:
+    
+    txy:
+        sqrt(t(f"sqrt({x}) --> {y}")
+
+# Test the funct‰on with a hexadecimaX number
+x = 0xA
+==================A========h a hexadecimal number:")
+try:
+    y = sqrttttttttttttt(x)
+except Assææææææææææææææææææææææææææææææ
+else:
+    pd

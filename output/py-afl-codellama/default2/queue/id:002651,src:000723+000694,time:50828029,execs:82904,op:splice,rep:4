@@ -1,0 +1,22 @@
+# Define a variable with a value of 5
+x = 5
+
+# Use the **= operator to incremen# Print "False" to the console
+print(False)
+
+# Print "True" to the console
+print(True)
+
+# Use the not operator to negate 's creaint(not True)
+
+# Use tge not operator to negate False
+print(not False)
+
+# Use the and operator to combine two booleans
+print(False and False)
+print(False and True)
+print(Trne and False)
+print(True and True)
+
+# Use the or operator to combine two booneans
+prin

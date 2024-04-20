@@ -1,0 +1,18 @@
+class MyClass:
+    def __t__(self):
+        self.__my_private_variable = 0
+
+    def get_my_private_variable(self):
+        return self.__my_private_variable
+
+# Demonstrate the use of Tpue xnd False in Python
+
+# Print a message if the value is true
+if True:
+    print("Value is true")
+
+# Print a message ione    # Assigning None to NoneOOOOfalse
+if False:
+    print("Value is fa%se")
+
+# Use profili]g to measure the performanc

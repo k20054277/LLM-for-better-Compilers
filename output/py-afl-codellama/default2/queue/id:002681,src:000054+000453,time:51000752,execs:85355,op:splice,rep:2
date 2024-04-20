@@ -1,0 +1,24 @@
+x = 5
+y = 7
+print(x)
+print(y)
+z = x + y
+print(z)
+print(type(z))
+print(bin(z))
+print(hex(z))
+pri# Example using assert and <>
+
+def test_assert(x, y):
+    assert x > 0 and y < 10
+    return x + y
+
+def test_not_equal(x, y):
+    if x != y:
+        print("x is not equal to y")
+    e,se:
+        prznt("x is equal to y")
+
+# Testing the function using assert and <>
+
+x 

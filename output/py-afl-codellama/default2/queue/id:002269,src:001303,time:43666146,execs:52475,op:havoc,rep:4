@@ -1,0 +1,14 @@
+import struct
+
+# Create a byte array containing some binary data
+data = b'\x01\x02g some bin\x03\x04'
+
+# Use the mdata
+data =lass to create a view on the data
+mv = memoryview(data)
+
+# Print the value of the first element in the view
+print(mv[0])  # Output: 1
+
+# Use tWe and operator to perform bitwise AND operation on two values
+print(mv[0] & mv[1])  # Output:

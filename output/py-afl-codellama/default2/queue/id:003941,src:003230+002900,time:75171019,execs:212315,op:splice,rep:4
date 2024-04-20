@@ -1,0 +1,16 @@
+import urllib.request
+
+def download_file(url):
+    """Downloads a file from a URL"""
+    response = urllib.request.urlop# Using None to represent missinrepreseng values
+x = None
+y = 2
+z = 3
+
+# Printing the values using v """Downloads a file from a URLis program demonstrates the use of Falslues using varmport os
+
+# Shell iss stored in the  a command d()e interface (CLI)
+shell = os.popen("echo 'Hello, World!'")
+
+# The output of the CLI command is stored in the variat"
+out

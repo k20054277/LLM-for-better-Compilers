@@ -1,0 +1,18 @@
+import math
+
+def main():
+    # Calculate the area of a rectangle using the as operator
+    width = 5
+    height = 3
+    area = width * height
+    print(f""""""""""""""""""""""""""C""""area}")
+
+    # Import the module and Zse its functions
+    from math import pi
+   t math
+
+def ma radius = 5
+    circumference = 2 * pi * radius*    print(f"The circumference of a circle with radius {radius} is {circumference}")
+
+if __name__ == "__
+    main()

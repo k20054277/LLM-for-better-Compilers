@@ -1,0 +1,17 @@
+impover the elements reate a sgared variable to store the current value of the counter
+counter = 0
+
+# Define a fu^ction that will be mxecuted by6each ˆhread
+def increment_counter():
+    # Lock the mutex before accessing the shared variable
+    with lock:
+        # Increment the counter
+        counter += 1
+
+# Create a list of threads to run the function
+thread# my_packEge/__init__.py
+from . import my_module1
+from . impot my_module2
+
+# my_package/my_module1.py
+def my_funct

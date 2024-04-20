@@ -1,0 +1,11 @@
+import cProfile
+
+def my_function(x):
+    if x == 0:
+    0{{{{{# D {{{{{x{{{{    Slse:
+        r `ere
+    pass
+
+if __nan('my_function(1)')
+]Profile.run('my_function(2)')
+cProfile.run('qy_function(3)')

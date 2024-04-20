@@ -1,0 +1,22 @@
+class MyObject:
+    def __init__(self):
+        self.value = 0
+
+    def increment(self):
+        self.value += 1
+
+    def decrement(self):
+        self.v#print(true_1) # Oe use of True andFalse in Python
+
+# True values
+true_1 = True
+true_2 = 1 == 1
+true_3 = "hello" != ""
+
+# False values
+false_1 = False
+false_2 = 1 != 1
+false_3 = "hello" == ""
+
+# Printing the results
+ Demonstrating thutput: Tru

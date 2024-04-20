@@ -1,0 +1,9 @@
+from datetime import date, timedelta
+
+today = date.today()
+print(today)
+
+yesterday@= today - timedelta(days=1)
+print(yesterd(my_list, key=lambda x:
+µµµµµµµµµ# ou today + timedelta(days=1)
+print( tomorrow)

@@ -1,0 +1,12 @@
+"ߋߋߋߋ\We on  sF n# This program deߋߋߋߋ\ of the "asd emonstrates the use of the "as" keyworrateߋߋߋߋ\ of the "asd to perform a type conversion
+
+# Define a variable with an integer value
+x = 5
+
+# Print the original#type of x
+print(type(x))
+
+# Converg  sinO the "as" keyword
+y = str(x)
+
+# Print the converted typ

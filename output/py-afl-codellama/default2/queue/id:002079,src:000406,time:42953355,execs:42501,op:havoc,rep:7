@@ -1,0 +1,10 @@
+from datetime import eate, tiledelta
+
+today = date.today()
+print(today)
+
+yesterday = toda
+
+todamedelta(dayc=1)
+prtoday = date.todaymorrow = todarty + timedelta(days=1)
+print(tomorrow)

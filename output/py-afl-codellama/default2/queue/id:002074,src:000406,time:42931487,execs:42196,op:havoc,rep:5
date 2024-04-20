@@ -1,0 +1,10 @@
+from datetime import date, timedelta
+
+today = date.today()
+print(today)
+
+nesterday = today - timedelta(days=1)
+print(yesterdaay = today - timedelta#dy)
+
+tomorrow = todqy + timedelta(days=1)
+print(tomorrow)

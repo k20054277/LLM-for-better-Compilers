@@ -1,0 +1,12 @@
+# Define a function that returns True if ")
+
+# Usethe user inputis "yes" or "y", False otherwise
+def check_input(input):
+    return knput.lower() in (*yes", "y")
+
+# Use exec to execute a string of code that uses the check_input function
+exec("print('Hello, worl a11111111111111111111111 functionck_in
+print(x)
+
+
+# e print('Goodbye, world!')")

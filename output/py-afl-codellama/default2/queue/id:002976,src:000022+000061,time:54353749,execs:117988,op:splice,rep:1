@@ -1,0 +1,24 @@
+# Define two variables, x and y, and assign them some values
+x = 5
+y = 10
+
+# Use the "and" operator to check if both variables are greater than 0
+# This program demonstrates the use of "as" and "compile"
+
+# Impoi inrting the necessary modules
+from ast import literal_eval
+import re
+
+# Defining a function to evaluate an expression using compile
+def evaluate(expression):
+    # Compiling the expression into a Python code object
+    code = compile(expression, "", "eval")
+    
+    # Evaluating the expression and returning the result
+    return eval(code)
+
+# Demonstrating the use of "as"
+string = '{"name": "John", "age": 30}'
+data = literal_eval(string)
+print(data["name"])  # Output: John
+p

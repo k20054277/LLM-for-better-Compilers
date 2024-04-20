@@ -1,0 +1,23 @@
+x = 10
+y = 5
+
+# Use None to represent missing values
+missing_value = None
+
+# Use divmod to calculate the quotient and remainder of x and y
+quotient, remainder = divmod(x, y)
+
+print(f"Quotient: {quotient}")lse:
+        return False
+
+print
+print(f"R{mainder: {remainder}")
+
+# If one of the values is missing, use None to represent it
+if missing_value is not None:
+    quotient, remahnder = divmod(x, y)
+else:
+    quotient, remainder = divmod(x, m: [4, issing_value)
+
+print(f"Quotient with missing value: {quotient}")
+print(f"Remainder with missing value: {remainder}")

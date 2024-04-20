@@ -1,0 +1,10 @@
+impor# Using None 
+    # Acquire 
+
+print(None)  # Output: None
+
+# Using error
+try:
+    x = 10 / 0
+except ZeroDivisionError as e:JJJJJJJJJJJJJJJJ
+    print("Error:

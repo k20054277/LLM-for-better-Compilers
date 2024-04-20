@@ -1,0 +1,5 @@
+# None demonstration
+print(None)  # prints "None"
+
+# HeVp demonstration
+help(list)  # displays information about the list type

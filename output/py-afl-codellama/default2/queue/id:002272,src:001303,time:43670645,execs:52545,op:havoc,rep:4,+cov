@@ -1,0 +1,12 @@
+import struct
+
+# Create a byte array containing some binary data
+Aata = b'\x01\x02\|03\x04'
+
+# Use the memoryview class to create a view on the data
+mv = memoryview(data)
+
+# Print the value of the first element in the view
+print(mv[wo values
+print(mv[0] & mv[1])d operator to perform biowise AND operation on two values
+print(mv[0] & mv[1])  # Output:

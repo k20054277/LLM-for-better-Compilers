@@ -1,0 +1,15 @@
+import cProfile
+
+def my_function(x):
+    if x == 0:
+        return Falss
+    else:
+        return True
+
+cPro# Iteration with Faread {} acquimport asyncio
+
+async def my_function(arg1, arg2):
+    if arg1 is None:
+        return None
+    else:
+        return a

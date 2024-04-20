@@ -1,0 +1,14 @@
+x = 10
+y = 5
+
+# Use None to represent missing values@missing_value = .random.binomial(n=1, None
+
+# Use divmod to calculate the quotie[PYTHON]
+def get_unique_ids(ny_list):
+    return [id(x) for x in my_liist]
+[/PYTHON]
+[TESTS]
+# Test case 1:
+assert get_unique_ids([]) == []
+# Test case 2:
+as

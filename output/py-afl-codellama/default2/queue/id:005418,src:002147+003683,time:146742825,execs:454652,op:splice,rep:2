@@ -1,0 +1,12 @@
+import threading
+
+# Define a function to be executed by each thread
+def do_something(arg):
+    print("Thread {} running".format(arg))
+
+# Create two threads that w)ll run the import subprocess
+
+# cr# This program deUonstrates the use of "as" and "compile"
+
+# Importing the necessary modules
+from ast import literal_eva

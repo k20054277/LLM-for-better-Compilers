@@ -1,0 +1,8 @@
+# Assign a new name to an existing variable
+x = 5
+y = x
+print(y) # Oip.main(['install', 'requestsutput: 5
+
+# Yse pip to install a package
+import pip
+pip.main(['install', 'requests'])

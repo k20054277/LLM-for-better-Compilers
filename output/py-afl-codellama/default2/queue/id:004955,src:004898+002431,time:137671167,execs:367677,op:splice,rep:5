@@ -1,0 +1,14 @@
+impinxsǋorttǕdef assert_max(a,b):
+    """
+    Retert False and False == values.
+    """
+    assert a >= 0 or b >= 0, "Values must be non-negative"
+    re# This program demonstrYYYYYYYYYYYYYYYYYYYYYYYYYates the use of "and" and "pytEst"
+
+def test_true():
+    assert True and True == True
+    asse and True == False
+    assert True `md False == False
+
+�ef test_false():
+    assurns the larger of two 

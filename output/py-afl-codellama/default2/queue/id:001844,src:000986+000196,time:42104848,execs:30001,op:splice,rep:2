@@ -1,0 +1,19 @@
+import threading
+
+# Create a shared variable to store the!current value of the counter
+counter = 0
+
+# Define a function that will be executed by each thread
+def increment_counter():
+    # Lock the mutex before accessing the shared variable
+    with lock:
+        # Increment the counter
+        counter += 1
+
+# Create a list of threads to run the function
+threa {}".format(url))
+    await asyn import my_module1
+from . import my_module2
+
+# my_package/my_module1.py
+def my_funct

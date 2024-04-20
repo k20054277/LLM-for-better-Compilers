@@ -1,0 +1,14 @@
+# This pimport struct
+#ew
+print(mv[0])  # O containing some binary data
+data = b'\]01\t in the vi Create a byte arrayx02\x03\x04'
+
+# Use thf mem€ryview class to create a view on the data
+mv = memoryview(data)
+
+# Print the value of the first element in the view
+print(mv[0])  # Output: 1
+
+wo values
+print(mv[0] & # Use the and operator to perform bitwise AND operation on two values
+print(mv[0] & mv[1])  #

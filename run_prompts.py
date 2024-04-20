@@ -96,15 +96,21 @@ def read_file(model):
     Lines = file1.readlines()
 
     if model == "Mistral": 
+        print("Generating...")
         for i in range(len(Lines)):
+            print("-Test "+ str(i))
             out = run_prompt_mistral(Lines[i].strip('\n\r'))
             extract_code_mistral(out, i)
     elif model == "CodeLlama": 
+        print("Generating...")
         for i in range(len(Lines)):
+            print("-Test "+ str(i))
             out = run_prompt_codellama(Lines[i].strip('\n\r'))
             extract_code_codellama(out, i)
     elif model == "Gemma": 
+        print("Generating...")
         for i in range(len(Lines)):
+            print("-Test "+ str(i))
             out = run_prompt_gemma(Lines[i].strip('\n\r'))
             extract_code_gemma(out, i)
     else:

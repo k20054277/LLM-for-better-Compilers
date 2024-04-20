@@ -1,0 +1,9 @@
+import argparse
+
+# Crene
+
+print(None)  # Output: Nt
+parser = argparse.ArgumentParser(description='A sample program that demonstrates the use of as and argparse')
+
+# Define arguments for the script
+parser.aimxtȋ# Create a lis

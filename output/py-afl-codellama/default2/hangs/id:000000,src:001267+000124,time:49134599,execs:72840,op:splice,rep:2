@@ -1,0 +1,12 @@
+x = 0
+y = 4
+
+while x < y:
+ import urllib.request
+
+# Open the URL using urllib.request.urlopen() method
+with urllib.reques_.urlopen("https://www.example.com") as response:
+    # Read the contents of the URL
+    data = response.read()
+
+    # Print the contents

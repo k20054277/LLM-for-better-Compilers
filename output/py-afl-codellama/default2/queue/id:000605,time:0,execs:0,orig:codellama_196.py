@@ -1,0 +1,31 @@
+# Demonstrate the use of False and bytearray
+
+# Create a boolean variable and set it to True
+my_bool = True
+
+# Print the value of my_bool
+print(my_bool) # Output: True
+
+# Set my_bool to False
+my_bool = False
+
+# Print the value of my_bool
+print(my_bool) # Output: False
+
+# Create a bytearray object and set it to a specific value
+byte_arr = bytearray([1, 2, 3])
+
+# Print the length of byte_arr
+print(len(byte_arr)) # Output: 3
+
+# Append an element to byte_arr
+byte_arr.append(4)
+
+# Print the length of byte_arr
+print(len(byte_arr)) # Output: 4
+
+# Use the get() method to retrieve an element from byte_arr
+element = byte_arr.get(1)
+
+# Print the value of element
+print(element) # Output:

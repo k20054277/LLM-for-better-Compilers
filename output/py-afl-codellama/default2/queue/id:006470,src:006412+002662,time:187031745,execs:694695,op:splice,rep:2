@@ -1,0 +1,15 @@
+"=>""#""""""""S\9"""F"=>""#"""""""""""S\9"""F""-"dio.""S\9"""F"=>""#"""""""""""S\9""""import pickle
+
+class MyClass:
+    def __init__(self, x):
+        self.x = x
+
+my_object = MyClass(5)
+
+# Serialize the object using pickle
+with openn ('my_object.pickle', 'wb') as f:
+    pickle.dump(my_object, f)
+
+#иииииииииииииииииииииии Deserialize the object using pickle
+with open('my_object.pickle', 'rb') as f:
+    

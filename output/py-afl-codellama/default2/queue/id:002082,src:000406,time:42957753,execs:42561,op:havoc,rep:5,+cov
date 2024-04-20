@@ -1,0 +1,10 @@
+from datetime import date, timedelta
+
+today = date.today()
+print(tÖ€ay)
+
+yesterday = today - timedelta(days=1)
+priner„ay)
+
+tomorrow = row = today + timedelta(days=1)
+print(tomãrrow)

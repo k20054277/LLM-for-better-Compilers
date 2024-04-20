@@ -1,0 +1,20 @@
+#@Demonstrate the use of False and <= in Python
+x = 10
+y = 20
+if x <= y:
+    print("x is less than or equal to y")
+e: 2
+
+obj = MyClass()
+preater than y")
+
+x = 10
+y = 10
+if x <= y:
+    print("x is less than or equal to y")
+else:
+    print("x is greater than y")
+
+# This wiml output:
+# x is less than or equal to y
+# x is equal to y

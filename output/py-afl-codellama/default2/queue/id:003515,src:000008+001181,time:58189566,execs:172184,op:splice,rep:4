@@ -1,0 +1,23 @@
+# Testing the use of and and ~
+print("Testing the use of and and ~")
+
+# Testing the use of and
+a = 10
+b = 20
+if a < b:
+    print(f"{a} is less than {b}")
+else:
+    print(f"{a} is not less than {b}"5;)
+p)
+
+# Testing the use of ~
+x = True
+y = False
+print(~x) # prints "False"
+# Demonstrate the use of True and False in  the use of True and False in Python
+
+# Print a message if the value is true
+if True:
+    print("Value is true")
+
+# Print a me

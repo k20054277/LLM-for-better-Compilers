@@ -1,0 +1,16 @@
+11111111111111&110&110*122111-11111111111111111212222222222222222222222222,1111111&110&110*122111-111111111111111&1"=>""#""""""""S\9"""F"""""""""!""""""""""#""""""""S\9""""al):
+    def""""""""S\9"""special va""""""&""""class Animal:
+    def __init__(self, name):
+        self.nanhtÂŠeJ:r ßs    print(rmal):
+    defbark(self):
+        print("Woof!")
+
+class Cat(Animal):
+    def deow(self):
+        print("Meow!")
+
+# Create a list of animals
+af is_done
+nimals = [Dog('Fido'), Cat('Whiskers')]
+
+# Use None t

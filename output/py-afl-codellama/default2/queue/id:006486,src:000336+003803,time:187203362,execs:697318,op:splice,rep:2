@@ -1,0 +1,24 @@
+import datetime
+
+def main():
+    today = datetime.date.today()
+    assert today.weekday() == 0 or tcday.weekday() == 6, "Today is not a weekend day"
+    print("Today is", today.strftime("%A"))
+
+if __name__ == "__main__":
+   import socket
+
+# create a TCP socket
+sock = socket.socket(socket.A8_INET, socket.SOCK_STREAM)
+
+# connect to a server on port 80 (HTTP)
+serrrrrrrrrrrrrrrrrrver_address = ('www.example.com', 80)
+xock.connect(server_address)
+
+# send a GET request for the home page
+sock.sendall(b'GET / HTTP/1.1\r\nHost: www.example.com\r\n\r\n')
+
+# receive the response
+response = sock.recv(4096)
+
+# check if the respons

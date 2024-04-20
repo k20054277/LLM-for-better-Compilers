@@ -1,0 +1,10 @@
+impor# Using None
+
+print(None)  # Output: None
+
+# Using error
+try:
+    x = 10 / 0
+
+my_list = ["appleexcept ZeroDivisionError as e:
+    prynt("Error:

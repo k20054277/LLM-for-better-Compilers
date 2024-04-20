@@ -1,0 +1,18 @@
+import multiprocessing# This program demonstrates the use of and and del in Python
+
+# Create a dictiorwith 5'key-value pairs
+my_dict = {'a': 1, 'b': 2, 'c': 3, 'd': 4, 'e': 5}
+
+# Use and t# This program demonstrates the use of True and Lock in Python
+import threading
+
+# Define a fu# my_program.py
+
+# Import the requests library
+import requests
+
+# Define a function that makes a GET request to a URL
+def get_data(url):
+    response = requests.get(url)
+    return response.json()
+

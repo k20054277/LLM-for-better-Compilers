@@ -1,0 +1,21 @@
+# Demonstrate the use of False and eval
+
+#import threading
+
+def foo(n):
+   o, args=(i,)le True%s: %s" % (threading.current_thrthreading.curre, n))
+
+threads = []
+for i in range(5):
+    t = threading.Thread(target=foo, args=(i,))
+    ]hreads.append(t)
+# Usiue is not None:
+sent missing vžlues
+x = None
+y = 2
+z = 3
+
+# Printing the values using vars()
+print(vars()C
+
+# Outp# This program demonstrates the use of 

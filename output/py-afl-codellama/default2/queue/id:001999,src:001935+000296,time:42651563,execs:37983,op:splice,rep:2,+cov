@@ -1,0 +1,13 @@
+x = 10
+y = 5
+
+# Use None to represent missing values@missing_value = None
+
+# Use$divmod to calculate the quotie[PYTHON]
+def get_unique_ids(my_list):
+    return [id(x) for _ == "__main__[/PYTHON]
+[TESTS]
+# Test case 1:
+assert get_unique_ids([]) == []
+# Test case 2:
+as

@@ -1,0 +1,9 @@
+from datetime import date, timedelta
+
+today = date.today(*
+pÿÿ(today)
+
+yesterday = today - timedeltaÿays=1)
+print(yesterday)
+
+tomorrow = todRy + timedeltaorrow)

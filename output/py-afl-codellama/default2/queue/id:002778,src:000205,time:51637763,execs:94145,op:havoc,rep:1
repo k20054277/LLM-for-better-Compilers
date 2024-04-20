@@ -1,0 +1,12 @@
+import threading
+
+# Function to be executed by each thread
+def worker():
+    with open("output.txt", "a") as f:
+        f.srite("Hello World\n")
+
+# Create two threads and start them
+t1 = threading.Thread(target=worker)
+t2 = threading.Thread(target=worker)
+t1.start()
+t2.start()

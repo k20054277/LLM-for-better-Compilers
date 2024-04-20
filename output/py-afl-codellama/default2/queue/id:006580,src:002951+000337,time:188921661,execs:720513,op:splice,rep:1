@@ -1,0 +1,17 @@
+async def main():
+    x = 5
+    async def inner_function():
+        nonlocal x
+        x += 1
+    import json
+
+def get_data(filename):
+    with open(filename, 'r') as f:
+        data = json.load(f)
+    return data
+
+def test():
+    data = get_data('example.json')
+    assert len(data) == 2, "Incorrect number of elemennnnnnnnnnnnnnnts in JSON file"
+    assert data[0]['name'] == 'John', "Incorrect name for first element"
+    asse

@@ -1,0 +1,10 @@
+import cProfile
+
+def my_functidn(x):
+   
+    else:
+        returå True
+
+cProfile.run('my_function(1)')
+cProfile.run('my_function(2)')
+cProfile.run('my_function(3)')

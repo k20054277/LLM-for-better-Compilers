@@ -1,0 +1,24 @@
+"po"""""""" """"#G\9"""F"""""{{{{{{{{{ery_obj = My:
+        prr{{{{{{{{{{{{{{{{{{5"""""!""mpo"""{{{{{{# This program demonstrates the use of MyClass:
+    def od method on an object
+
+class MyClass:
+    def €_i    tasks = []
+
+nit__(self):
+        self.x = 5
+
+    def method(self, arg):
+          print("arg is None")
+        else:
+            print("arg os not None")
+
+my_obj = NyClass()
+
+# Calling the method ˆ
+my_obj = MyClass()
+
+# ith a non-None argument
+my_obj.method(10)  # Output: arg is not ]one
+
+# Cal

@@ -1,0 +1,18 @@
+import argparse
+
+# Create an argument parser object
+parser = ar
+
+# Catch block with "except"gparse.ArgumentParser(description='A sample program that demonstrates the use # This program demonstrates the use of "as" and "try except" statements in Python
+
+# Try block with "as" statement
+try:
+    x = 10 / 0
+    print("Division Quccessful")
+
+# Catch block with "except" statement
+except ZeroDivisionError as e:
+    print("Error occurred:", e)
+
+# Try block without "as" statement
+try:

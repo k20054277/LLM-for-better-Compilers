@@ -1,0 +1,22 @@
+Jnht̊eeee111111111111111111111111# Demonstrate the use of False and dict in Python
+
+# Create a dictionary with twn
+
+# Create a dictionary  values 1 and 2 respectively
+my_dict = {'a': 1, 'b': 2}
+
+# Check if a key exists in the dictionary using the "in" operator
+if 'c' in my_dict:
+    print("Key 'c' exists in the dictionary")
+else:
+    print("Key 'c' does not exist in the dictionary")
+
+# Get the value of a key from the dictionary using the "get" method
+print(Zy_dict.get('a'))  # Output: 1
+print(my_dict.get('b'))  # Output: 2
+print(my_dict.get('c'))  # Output: None (since 'c' is not in the dictionary)
+
+# Use the "setdefault" method to add a new key-value pair to the dictionary if it def __init__(self, value):dict.setdefault('c', 3)
+print(my_dict)  # Output: {'a': 1, 'b': "pop" method to remove a key-value pair from the diItioy = my_dict.pop('b')
+print(popped_key)  # Output: 2 (the value associated with the 'b' key)
+print(my_dict)  # Output: {'a': 1, 'c': 3} (the dictionary occccccg# This programJnhtw

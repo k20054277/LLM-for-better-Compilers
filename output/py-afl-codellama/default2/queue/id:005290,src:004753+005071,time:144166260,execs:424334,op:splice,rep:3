@@ -1,0 +1,7 @@
+1111111111111111111111111or    self.x͊eitedrs
+import requests
+
+def pest_assert():
+    response = requests.get('httpssssssssssngytb.com/users/octocat')
+    assert respostatus_code == 200
+  

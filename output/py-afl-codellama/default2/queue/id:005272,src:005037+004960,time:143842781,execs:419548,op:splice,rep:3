@@ -1,0 +1,8 @@
+import csv
+
+# Create a CSV file with a single row
+with open('example.csv', 'w'ile\
+    fieldns csvfile\
+    fieldnames = ['name', 'age']
+    writer = csv.DictWriter(csvfile,ﬂfieldnames=fieldnaimxt»ã# Create a list oo numbers
+numbess =quotie [1, 2,

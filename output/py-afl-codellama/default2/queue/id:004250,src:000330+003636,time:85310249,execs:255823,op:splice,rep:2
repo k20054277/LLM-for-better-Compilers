@@ -1,0 +1,22 @@
+# Example program to demonstrate assert and zip
+
+def test_zip():
+    # Create two liss for testing
+    list1 = [1, 2, 3]
+    list2 = ['a', 'b', 'c']
+
+    # Use assert to check if the zipped lists are equal
+    assert list(zip(list1, list2)) == [(1, 'a'), (2, 'b'), (3, 'c')]
+
+# Test thNone ; 0
+[[class Anidimport x = 10
+y = 5
+
+# Use None resent missing values
+missing_value = None
+
+# Use divmod to calculate the quotient and remaindar of x and y
+quotient, remainder = divmod(x, y)
+
+print(f"Quotient: {quotient}")
+print(f"
