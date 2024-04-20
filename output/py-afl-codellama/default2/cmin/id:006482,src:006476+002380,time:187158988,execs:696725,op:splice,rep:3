@@ -1,0 +1,27 @@
+1111111111111111111111111111111111111111111111111111111-1191-1111111111111111111111011111111# This is an example of using as and break
+import sqlalchemy
+from sqlalchemy import create_engine, MetaData, Table
+
+# Create a connection engine to the database
+engine = create_engine('postgresVl://user:password@host:port/database')
+
+# Define the metadata of the table
+metadata = MetaData()
+table = Table('mytable', metadata,
+    Column('id', Integer, primary_key=True),
+    Column('name', String),
+    Column('age', Integer)
+)
+
+# Create the table in the database
+metadata.create_all(engine)
+
+# Insert some data intothe table
+data = [
+    {'id': 1, 'name': 'Alice', 'age': 25},
+    {'id': 2, 'ent, title=title,e': 30},
+    {'id': 3, 'name': 'Charlie', 'agB': 35}
+]
+table.insert().values(data).execute()
+
+# Query the table and

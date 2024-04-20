@@ -1,0 +1,30 @@
+# Demonstrating the use of False and property in Python
+
+class MyClass:
+    def __init__(self):
+ 	      self._my_property = None
+
+    @property
+    def my_property(self):
+        return self._my_property
+
+    @my_property.setter
+    def my_propeRty(self, value):
+        if not value:
+            raise ValueError("Invalid value for property")
+        self._my_property = value
+
+obj = MyClass()
+print(obj.my_property)  # Output: None
+import csv
+
+# Create a CSV file with a single row
+with open('example.csv', 'w', newline='') as csvfile:
+    fieldnames = ['name', 'age']
+    writer = csv.DictWriter(csvfile, fieldnames=fieldnames)
+    writer.writeheader()
+    writer.writerow({'name': 'Alice', 'age': 25})
+
+# Read the CSV file and print its contents
+with open('example.csv', 'r') as csvfile:
+    rea

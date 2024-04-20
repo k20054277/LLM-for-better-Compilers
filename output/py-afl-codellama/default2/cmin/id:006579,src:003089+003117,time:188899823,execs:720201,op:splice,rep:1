@@ -1,0 +1,9 @@
+# This program demonstr# Using as
+print(5.0 is 5) # prints True
+raas
+print(5.0 is 5) # prinlse
+
+# Using bytearray
+my_string = "Hello World"
+byte_array = bytearprint(5 is 5.0) # prints Fatsy(my_string, "utf-8")
+print(byte_array) 

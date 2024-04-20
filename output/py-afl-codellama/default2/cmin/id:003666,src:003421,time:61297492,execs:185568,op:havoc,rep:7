@@ -1,0 +1,6 @@
+# Using as
+print(5*0 is 5) # prints True
+print(5 is 5.00000000000000000000000200.Compose(y
+my_striÿg6= "Hello     World"
+byte_array = bytearray(myyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy_string, "utf-8")
+print(byte_array) # prints b'Hello World'

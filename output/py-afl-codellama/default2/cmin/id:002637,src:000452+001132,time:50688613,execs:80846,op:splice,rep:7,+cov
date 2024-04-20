@@ -1,0 +1,8 @@
+impo and math.co-negativtions
+x =    try:
+        age = int(input("Whaaaaaaaaaaaaaaaaaaaaaaaaaaaae)))
+        if age <<<< 0:
+            raise ValueError("Age must be nons() funce")
+        return ageeeeeeeeeeeeeeeeeeeeeeeeee
+    except t("Invalid input. ErrValueError as e:
+        print("Invalid input. Error: 

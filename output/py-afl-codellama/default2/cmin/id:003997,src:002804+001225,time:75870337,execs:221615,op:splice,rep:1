@@ -1,0 +1,16 @@
+# This program demonstrates the use of "as" and debugging in Python
+
+# Import the necessary modules
+import pdb
+
+# Define a function to be deb# This program demonstrates the use of True and deadlock in Python
+
+import threading
+
+def worker():
+  # Do someeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee work
+  print("Worker thread")
+
+def main():
+  # Create a new thread
+  t = threadi

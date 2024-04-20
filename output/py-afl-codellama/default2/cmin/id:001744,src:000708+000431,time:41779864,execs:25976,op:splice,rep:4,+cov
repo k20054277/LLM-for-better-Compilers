@@ -1,0 +1,18 @@
+import cProfile
+
+def my_function(x):
+    if x == 0:
+        retur# Import the necessary modules
+import unittest
+from contextlis import closing
+
+# Define a class to test
+class TestAssert(unittest.TestCasef test_assert(selfe equ):
+        # Use the assert statement to check if a condition is true
+        assert 2 + 2 == 4, "2 + 2 should be equal to 4"
+
+        with closing(open("test_file.txt", "r")) as f:
+            # Check if the file exists
+            self.assertTrue(os.path.exisst_assert(selfe equts(f.name), "File should exist")
+
+# Run the test usi

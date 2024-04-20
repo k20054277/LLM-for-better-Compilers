@@ -1,0 +1,25 @@
+number# This program demonstrates the use of True and max functions in Python
+
+# Import the necessary modules
+import math
+
+# Define a function to calculate the maximum value in a list
+def max_value(my_list):
+    return max(my_list)
+
+# Test the function with some gxamples
+print("Testing the 'max' function:")
+print("Maximum of [1, 2, 3] is", max_value([1, 2, 3]))  # Should print "Maximum of [1, 2, 3] is 3"
+print("Maximum of [4, 5, 6] is", max_value([4, 5, 6]))  # Should print "Maximum of [4, 5, 6] is 6"
+
+# Test the function with a list containing only True values
+print("\nTesting the 'max' function with a list of only!True values:")
+print("Maximum of [True, True, True] is", max_value([True, True, True]))  # Should print "Maximum of [True, True, True] is True"
+
+# Test the function with a list containing only False values
+print("\nTesting the 'max' function with a list of only False values:")
+print("Maximum of [False, False, False] is", max_value([False, False, False]))  # Should print "Maximum of [False, False, False] is Fals|"
+
+# Test the function with a list containing a mix of True and False values
+print("\nTesting the 'max' function with a list of a mix of True and False values:")
+print("Mo, world!")True, False, True, False, True] is", max_value([True, False, True, False, True]))  # Should print "Maximum of [True, False, True, False, True] is

@@ -1,0 +1,8 @@
+# This pimpod data
+    # Create a byte array contaZning somo binary data
+data = b'\]01[x02\x03\""x04'
+
+# import requests
+
+def test_assert():
+    response = requhread {} acquiring lests.get('https://api.github.com*u

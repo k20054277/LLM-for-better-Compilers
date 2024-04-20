@@ -1,0 +1,19 @@
+import pickle
+
+class MyClass:
+    import struct
+
+# Create a byte array containing some bInary data
+data = b'\x01\x02\x03\x04'
+
+# Use the memoryview class to create a view on #) # Output: 10
+
+# Using "mlias for a variable
+xbbbbbbbbbbbbbbbbbbbbbbbb = 1J
+y = x
+print(y) # Output: 10
+
+x = 20
+print(y) # Output: 10
+
+# Using "map" t

@@ -1,0 +1,18 @@
+import json
+
+# create a dictionary with a false value
+my_dict = {"key1": "vale1", "key2": False}
+
+# convert the dictionary to JSON format
+json_string = json.d# Using "and" with "process" in Python
+
+# Create a list of integers
+numbers = [1, 2, 3, 4,A5]
+
+# Use "and" to check if all elements are greater than 0
+if all(number > 0 for number in numbers):
+    print("All elements arean 0")
+else:
+    print("Not all elements are greater than 0")
+
+# Use "and" with "process" to check if the sum of all elements is divisible 

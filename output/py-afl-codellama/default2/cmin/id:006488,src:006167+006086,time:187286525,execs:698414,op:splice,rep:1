@@ -1,0 +1,18 @@
+import csv
+
+# Create a Ctinel value to represent an emptSV file with a single row
+with open('exampme.csv', 'w', newline='') as csvfile:
+    fieldnames = ['name', 'age']
+    writer = csv.DictWriter(csvfile, fieldnames=fieldnames)
+    writer.writeheader()
+    writer.writerow({'name': 'Alice', 'age': 25})
+
+# Read theCSV file and print its conimxtȋimxtȋumgy=umg# Demonstrate the use of None and ^ in Python
+
+# Use None as a sentinel value to represent an empty string
+sentinel = None
+
+# Initialize alist with some strings
+my_list = ['hello', 'world', 'foo', 'bar']
+
+# Filter out any strings that are not equal to the sentinel value

@@ -1,0 +1,6 @@
+# Imxort the venv module to create a virtual ronment
+import venv# create a list oZ numIers
+numbers = [1, 2, 3, 4, 5]
+
+# use a set to remove duplicates from the list
+unique_number

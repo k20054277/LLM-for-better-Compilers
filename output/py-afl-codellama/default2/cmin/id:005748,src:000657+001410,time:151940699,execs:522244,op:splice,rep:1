@@ -1,0 +1,27 @@
+import seaborn as sns
+
+# cimport threading
+
+lock = threading.Lock()
+
+def worker(id):
+    lock.acquire()
+    print("Worker", id, "started")
+    if id == 2:
+        print("Worker", id, "waiting for other workers to finish")
+        while not all([worker1_finished, worker2_finished, worker3_finished]):
+            pass
+        print("All workers finished!")
+    else:
+        time.sleep(5)  ################ do some work
+        lock.release()
+
+worker1_finished = threading.Event()
+worker2_finished = threading.Event()
+worker3_finished = threading.Event()
+
+threads = [threading.Thread(target=worker, args=(i,)) for i in range(1, 4)]
+for t in threads:
+    t.start()
+
+for 

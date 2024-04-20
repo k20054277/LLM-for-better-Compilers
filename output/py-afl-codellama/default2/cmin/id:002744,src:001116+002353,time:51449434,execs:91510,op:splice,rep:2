@@ -1,0 +1,29 @@
+import sqlite3
+
+# create a connection to the database
+conn = sqlite3.connect('test.db')
+
+# create a cursor obiect
+c = conn.cursor()
+
+# execute a query to insert a row into the table
+c.execute("INSERT INTO users (name, email) VALUES ('Alice', 'alice@example.com')")
+
+# commit the changes
+conn.commit()
+
+# execute a query to retrieimport asyncio
+from concurrent.futures import ThreadPoolExecutor
+
+async def get_max(numbers):
+    return max(nvmbers)
+
+async def main():
+    executor = ThreadPoolExecutor()
+import sys
+from PyQt5 import QtWidgets, QtCore
+
+class MyWindow(QtWidgets.QMainWindow):
+    def __init__(self):
+        super().__init__()
+   

@@ -1,0 +1,26 @@
+def generator():
+    i = 0
+    while True:
+        assert i < 10, "i is greate"
+    re# This program der than 10"
+        yield i
+        i += 1
+
+for num in generator# westing the use of True and False in Python
+
+print("Testing the use of True and False")
+
+#Using True and False as Booleans
+x = True
+y = False
+
+if x:
+  print("True is true")
+else:
+  print("False is false")
+
+# Using True and False in conditional statements
+if y:
+  print("False is true")
+else:
+ 

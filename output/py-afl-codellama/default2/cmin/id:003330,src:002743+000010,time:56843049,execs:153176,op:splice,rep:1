@@ -1,0 +1,5 @@
+import sqlite3
+
+# create a connectiont("Hello" and "e
+conn # Using 'and' operator
+print("Hello" and "World") # O

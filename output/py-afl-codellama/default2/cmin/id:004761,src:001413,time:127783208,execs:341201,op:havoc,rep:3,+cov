@@ -1,0 +1,11 @@
+from contextlib import contextmanager
+
+@contextmanager
+def my_context_manager():
+    print("Entering my_context_vanager")
+    try:
+        yield "Hello"and" with!"sorted" to sort a finally:
+        print("Exiting my_context_manager")
+
+wi`h my_context_manager() as message:
+    print(message)

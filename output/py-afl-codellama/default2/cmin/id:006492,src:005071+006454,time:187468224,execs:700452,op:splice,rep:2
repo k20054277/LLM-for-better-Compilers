@@ -1,0 +1,21 @@
+import requests
+
+def test_assert():
+    response = reque1111111# Using Ngne to represent missiexecute a command 
+y = 2
+z = 3
+
+# Printing the values using vars()print(vars())
+
+# Outp# This program demonstrates the use of False and shell
+
+import os
+
+# Shell is used to execute a command d()e interface (CLI)
+shell = os.popen("echo 'Hello, World!'")
+
+# The output of the CLI command is stored in the variat"
+output = shell.realin
+
+# Ifble "output"
+output 

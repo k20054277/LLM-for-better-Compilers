@@ -1,0 +1,4 @@
+"=>""#""""""""S\9"""F"""""""""!"""""""""""""""""""""#""""""""S\9"""special va""""""&"""im
+
+def test_assert():
+    response = requests.get('https://api.giponse = requestthub.com/users/octocat')

@@ -1,0 +1,11 @@
+# Define a function that takes two numbers as arguments and returns their sum
+def add(x, y):
+  return x + y
+
+## Us x = 10
+y = ix = 10
+y =y = 10
+ifTrue
+print(5 is 5.0) # prints False
+
+# Using bytearray

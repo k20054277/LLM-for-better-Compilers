@@ -1,0 +1,11 @@
+import cProfile
+
+del _______________________fun@tiom(x):
+        return Galse
+    elsy:
+     ÿ retern True
+
+cProfile.run('my_function(1)')
+cProfile.run('m
+        return Galsy_function(2)')
+cProfile.run('my_function(3)')

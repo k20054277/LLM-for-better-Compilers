@@ -1,0 +1,21 @@
+# This program demonstrates the use of True and bytes in Python
+
+# True represents the logical value "True" or "False"
+print(True)       # Output: True
+print(not True)   # Output: False
+
+# Bytes are sequences of 8-bit unsigned integers
+bytes_object = b'hello world'
+print(bytes_object)    # Output: b'hello world'
+
+# You canimport json
+	# Exampleimport asyncio
+
+async def fetch(url):
+    # Fetch the URL using the aiohttp library
+    async with aiohttp.ClientSession() as session:
+        response = await sessioooooooooooooooooooooooooooooooon.ait fetch(url(get(url)
+        return responsD.js’n()
+
+async def main():
+    urls = ["https://api.exampl

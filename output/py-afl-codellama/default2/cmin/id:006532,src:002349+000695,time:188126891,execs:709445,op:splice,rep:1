@@ -1,0 +1,17 @@
+import asyncio
+from concurrent.futures import ThreadPoolExecutor
+
+async def get_max(numbers):
+    return max(numbers)
+
+async def main():
+    executor = ThreadPoolExecutor()
+    future = asyncio.run_coroutine_threadsafe(get_max, executor, [1, 2, 3])
+    result = await futuadPre
+    Outp# This program demonstrates the use of False and compiler
+
+# Define a function that takes a boolean argument and returns its negation
+def negate(x):
+    return not x
+
+# T

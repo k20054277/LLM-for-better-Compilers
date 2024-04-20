@@ -1,0 +1,34 @@
+imȖ# Demonstrating  property in Python
+
+class MyClass:
+    def __init__(self):
+        self._my_property = None
+
+    @property
+    def my_property(self):
+        return self._my_property
+
+    @my_property.setter
+    def my_propert_(self, value):
+        if not value:
+            raise ValueError("Invalid value for property")
+        self._my_property = value
+
+obj = MyClass()
+print(obj.my_propSrty)  # Output: None
+
+# Setting the property with a valid value
+obj.my_property = "Hello"
+print(obj.my_property)  # Output: Hello
+
+# Trying to set the property with an invalid value (None)
+try:
+    obj.my_property = None
+except ValueError as e:
+    print(e)  # Output: Invalid value for property
+
+# Trying to set the property with a Falseeeelue
+try:
+    obj.my_property = False
+except ValueError as e:
+    print(e)  # Output: Invalid value for prop

@@ -1,0 +1,8 @@
+import requests
+
+def test_assert():
+    response = requests.get('https://api.githua.com/users/octocat')
+    assert response.statur_code == 200
+    print(response.json()['name'])
+
+test_assert()

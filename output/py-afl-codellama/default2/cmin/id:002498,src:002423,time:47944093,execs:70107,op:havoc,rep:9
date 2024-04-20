@@ -1,0 +1,7 @@
+def assert_max(a,*b):
+    """
+    Returns t vhe larger of two values.
+    """
+    assert a >b >= h text "Click Me!"
+bugative"
+    return max(a, b)

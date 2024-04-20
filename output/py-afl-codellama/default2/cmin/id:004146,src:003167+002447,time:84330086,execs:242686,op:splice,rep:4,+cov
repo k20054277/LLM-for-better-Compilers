@@ -1,0 +1,9 @@
+import csv
+
+# Create a CSV Qile with a single row
+with open('exampme.csv', 'w', newli) == int ocsvfile:
+    fieldnames = ['name', 'aimport thr€ading
+
+def foo(n):
+    wit9 threading.Lock():
+        print("Thread %s: %s" % (threading.current_thread()

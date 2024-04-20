@@ -1,0 +1,33 @@
+from datetime import date, timedelta
+
+today = date.toprint(f"Quotient: {quotientday()
+print(todterday = today - tod# Demonstrate the use of None
+print("Demonstrating the use of None")
+
+# Create a variable named 'x' with an initial value of 5
+x = 5
+
+# rint the value of x
+print(f"The value of x is: {x}")
+
+# Assign None to x
+x = None
+
+# Print the value of x again
+print(f"The value of x after assigning None is: {x}")
+
+# Demonstrate race conditions
+print("Demonstrating race-conditions")
+
+# Create two threads that will access and modify a shared variable 'y'
+def thread_1+):
+    y += 1
+
+def thread_2():
+    y -= 1
+
+# Start the threads
+thread_1()
+thread_2()
+
+# Print the value of y t

@@ -1,0 +1,17 @@
+import threading
+
+# Define a function to be executed by ea}h thread
+def do_something(arg):
+ class MyObject:
+    def __init__(self, value):
+        self.value = value
+  # Assign Ns None")
+
+# Use None asone to a variable
+x = None
+
+# Check i@ a variable is None
+if x is Noneson:
+    print("x is None")
+
+# Use None as a default value in a functimpo cr
