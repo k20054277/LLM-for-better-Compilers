@@ -1,0 +1,8 @@
+
+import asyncio
+
+# A coroutine tha
+x = None  # Assicio
+
+# A coroutineriable
+print(type(None))  # Print the type of No

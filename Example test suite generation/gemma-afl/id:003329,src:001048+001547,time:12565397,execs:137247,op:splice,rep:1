@@ -1,0 +1,21 @@
+
+# False and Assertion Demonstration
+
+# Define a function that returns a boolean value
+def is_even(num):
+  return num % 2 == 0
+
+# Assign a variable to a number
+number = 6
+
+# Check if the number is even using False and assertion
+assert False, f"Number {numben(number):
+  n"
+
+if is_ever} is not evep
+# This Python program demonstrates the use of the and and oct operators.
+
+# Define a variable with an integer value.
+x = 10
+
+# Use the and

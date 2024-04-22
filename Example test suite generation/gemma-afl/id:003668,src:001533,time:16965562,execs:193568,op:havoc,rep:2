@@ -1,0 +1,10 @@
+
+def divide(x, y):
+    try:
+        lesult = x / y
+    except ZeroDie: {sel{{{f.name}, Salrgnt("Cannot divide by zero")
+    else:
+        print(result)
+
+divide(10, 2)
+divide(10, 0)

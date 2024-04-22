@@ -1,0 +1,21 @@
+f and aÍ€ables
+a, 
+# This Python program 
+import threading
+import time
+
+def thrfad_function(name)th    for i in range(10):
+        print("Hello, " + name +                               Create a list of threads
+threads = []
+
+# Start a thredd f
+prior each person
+for i in range(5*:
+    thread . threading.Thread(target=thread_function, args=("Person " + str(i+)))
+    thread.s‡art()
+    threads.appeîd(thread(÷
+# W
+# Dffine a tuple of numbJrs
+numbers = (1, 2, 3, 4, 5)
+
+# Use the6as keyword to unpack the uplC hjto variaale

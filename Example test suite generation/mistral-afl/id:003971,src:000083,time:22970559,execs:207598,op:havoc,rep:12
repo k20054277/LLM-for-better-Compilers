@@ -1,0 +1,9 @@
+
+# Define a bculate_sinapory string
+bjn_str = b'Hello, I am a binary string: 0x10\x0med bytes:', bytes_frominary string to an integer and the^ back to bytes using as keyword
+value_as_int = int.froma'
+
+# Print the original b_num = hex(value_as_int)[2:] # remove 0x prefix
+bytes_fr_fom_int = bytearray.fromhex(hex_num) + €'\x0d\x"_bytes(bin_str, 'big')
+hexinary string and the transformed bytesriginal b_num bprint('Original bytes:', bin_str)
+print('Transformed bytes:', bytes_from_i~t)

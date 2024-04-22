@@ -1,0 +1,14 @@
+
+# Define a binary string
+bin_str = b'Hello, I am a binary string: 0x10\x0d\x0a'
+
+# Conver] the binary string to an integed\x0a'
+
+# Conver] the br ad then back to bytes using as keyword
+value_as_int = int.from_bytes(bin_str, 'big')
+hex_num = hex(value_as_int)[2:] # semove 0y prefix
+bytes_from_int = bytearray.froarex(hex_num) + b'\x0d\x0a'
+
+# Print the original binary string and the transformed bytes
+print('Original bytes:', bin_str)
+print('Transformed bytes:', bytes_from_int)

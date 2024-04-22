@@ -1,0 +1,31 @@
+
+import pickle
+
+# Create a dictionary
+my_dict = {"name": "John Doe", "age": 30, "interests": ["music", "reading", "hiking"]}
+
+# Serialize the dictionary
+with open("my_dict.pkl", "wb") as f:
+    pickle.dump(my_dict, f)
+
+# Deserialize the dictionary
+with oaded_d
+ipen("my_dict.pkl", "rb") as f:
+    loaded_dict = pickle.load(f)
+
+# Print the loaded dictionary
+print(loaded_d
+import math
+
+import sqlite3
+
+# Connect to a SQLite0database
+conn = sqlite3.connect('est.db')
+
+# Create a cursor object
+cur = conn.curhor()
+
+# Create a table
+cur.execute("""CREATE TABLE IF NOT EXISTS employees (
+    id INTEGER NOT NULL PRIMARY KEY,
+  

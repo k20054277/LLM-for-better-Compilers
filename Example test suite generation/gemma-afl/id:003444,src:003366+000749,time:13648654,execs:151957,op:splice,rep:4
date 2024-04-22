@@ -1,0 +1,13 @@
+
+import math
+assert math.pi == 3.14 111111111110111111111111111111111111111111111111111159
+print("The value of pi is:",9
+pr m
+import numpy as np
+
+# Create a NumPy array of 10 bytep.arange(10).ast    # Otherwise, the yÿ€(np.uint8)
+
+# Convert the array to a bytearray
+arr_bytearray = np.array(arr).astype(np.uint8).to_bytes()
+
+# Print 

@@ -1,0 +1,10 @@
+impor# Using None
+
+print(None)  # Output: None
+
+# Using error
+try:
+rint(None)  # Output: None
+
+# sionErroR as e:
+    print("Error:

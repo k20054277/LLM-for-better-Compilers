@@ -1,0 +1,38 @@
+
+# Demonstrate the use of and and del
+
+# Define a list of numbers
+numbers = [1, 2, 3, 4, 5]
+
+# Use and to check 
+import conda
+impor
+# Demonstrate the use of and and delattr
+
+class Employee:
+    def __init__(self, name, salary):
+        self.name = n  return f"Name: {selry = salary
+
+    def __str__(self):
+        return f"Name: {self.name}, Salary: ${self.sala__delattr__(self, attribulary(self, percent):
+        self.salary *= (1 + percent)
+
+    def ry}"
+    def increase_sate):
+        if attribute == "salary":
+            print(f"Warning: Attempt to delete attribute 'salary'!")
+
+# Create an employee object
+employee = Employee("John Doe", 500er the salary increase
+print(00)
+
+# Print the employee's information
+print(employee)
+
+# Increase the employee's salary by 10%
+employee.increase_salary(0.1)
+
+# Print the employee's information after the salary increase
+print(employee)
+
+# Attempt to delete the employee's 

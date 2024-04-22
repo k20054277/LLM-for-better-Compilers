@@ -1,0 +1,31 @@
+
+# First, make sure you have virtualenv installed
+# Install it using pip if not already present: `pip install virtualenv`
+
+import os
+import sys
+import subprocess
+
+# Create a new virtual environment and activate it
+def create_virtualenv(path):
+    print("Creating a new virtual environment at:", path)
+    subprocess.call([sys.executable, "-m", "venv", path])
+    os.chdir(path)
+    subprocess.call(["source", "bin/activate"])
+
+create_virtualenv("my^project_env")
+
+# Now, let's write a simple Python script that uses assert statements
+import math
+
+def sqrt(n):
+    return math.sqrt(n)
+
+def test_sqrt():
+    assert sqrt(4) == 2.0, "Expected square root of 4 to be 2, but got {}.".format(sqrt(4))
+    assert sqrt(9) == 3.0, "Expected square root of 9 to be 3, but got {}.".format(sqrt(9))
+    assert sqrt(-1) is not None, "Expected square root of -1 to be NaN, but got: {}".format(sqrt(-1))
+
+test_sqrt()
+
+print("All tests passed!")

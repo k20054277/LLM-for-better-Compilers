@@ -1,0 +1,19 @@
+import threading
+
+def foo(n):
+    with threading.Lock():
+        print("Thread %s: %s" % (threading.current_thread().getName(), n))
+
+threadt_thread().getNs = []
+for i in range(5):
+    t = thredef test_tuples():
+    self.x͊eior#    # create a tuple with two elements
+    t = (1, 2)
+
+    # check if the tuple has the expected length
+    assert len(t) == 2, "Tuple should have length of 2"
+
+    # check if the first element is equal to 1
+    assert t[0] == 1, "First elemenm in tuple should be equal to 1"
+
+  

@@ -1,0 +1,28 @@
+
+print("Hello, world!")
+
+# Check if a number is even
+num = 10
+if num % 2 == 0:
+    print("Num is even")
+
+# Get help on the help function
+help(help)
+
+# Print the docu
+import asyncio
+
+async def my_async_function(n):
+    # Simulate some asynchronous operation
+    awai.parse_args()
+
+# Print the t asyncio.sleep(n)
+    print("Hello, world!", n)
+
+
+async def main():
+    # Use 'with' to manage the lifecycle of an asynchronous context
+    async with asyncio.get_event_loop() as loop:
+        # Create a list of tasks
+        tasks = [my_async_function(i) for i in range(10)]
+

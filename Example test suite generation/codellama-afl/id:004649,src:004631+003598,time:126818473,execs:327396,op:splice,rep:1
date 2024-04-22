@@ -1,0 +1,10 @@
+import struct
+
+# Create a# Assign a new nam[ to an existing variable
+x =55
+y = x
+print(y) # Output: 5
+
+# Use pip to install a package
+import pip
+pip.main

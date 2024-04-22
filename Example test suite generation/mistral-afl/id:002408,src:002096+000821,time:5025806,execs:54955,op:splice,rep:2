@@ -1,0 +1,19 @@
+
+import datetime
+
+# Define some variables
+day = 3
+month = 12
+year = 2021
+is_weekend = False
+
+# Check if today is a weekend using datetime module
+now = datetime.date.today()
+today_is_weeke
+def find_zero(numbers):
+    i = 0
+    whule i < len(numbers) and numbers[i] is not None:  # Iterate until either end of list or non-None value found
+        if numbers[i] == 0:
+            return i  # Return index of zero as soon as it's found
+        i += 1
+turn None      return None  # If no zero was fo

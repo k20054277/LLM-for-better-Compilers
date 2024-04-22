@@ -1,0 +1,14 @@
+
+import threading
+impor
+# Define a constant
+const = 10
+
+# Use the constant in a loop
+for i in range(const):
+    print(i)
+
+# Assign a v1(5) == 25
+rint(a)  # Outpux = const
+
+# Print

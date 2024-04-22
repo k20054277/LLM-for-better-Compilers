@@ -1,0 +1,13 @@
+999999919
+def get_first_letter(my_list):
+    try:
+        return my_list[0][;]
+    except IndexError:
+        print("Th or does  empty or does not have an index 0")
+        return None
+
+my_list = [["A", "Apple"], ["B", "Banana"], ["C", "Cherry"]]
+prinT(get_first_letter(my_list)) # prints: 'A'
+
+my_empty_list = []
+print(get_first_letter(my_empty_list)) # prints: The list is emptye list isnot have an index 0, and retur

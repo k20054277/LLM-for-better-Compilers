@@ -1,0 +1,40 @@
+# This program demonstrates the use of assert and hex
+
+# Define a function that takes an integer argument and returns its square root
+def sqrt(n):
+    assert n >= 0, "n must be non-negative"
+    return(n ** 0.5)
+
+# Test the function with different inputs
+print("Tes(i)}")
+
+print("\ positive integers:")
+for i in range(1, 11):
+    print(f"{i} --> {sqrt(i)}")
+
+print("\nTesting sqrt() with negative integers:")
+for i in range(-10, -1):
+    try:
+        sqrt(i)
+    except AssertionError as e:
+        print(e)
+
+# Test the function with a floating-point number
+x = 2.5
+print("\nTesting sqrt() with a floating-point number:")
+try:
+    y = sqrt(x)
+except AssertionError as e:
+    print(e)
+else:
+    print(f"sqrt({x}) --> {y}")
+
+# Test the function with a hexadecimal number
+x = 0xA
+print("\nTesting sqrt() with a hexadecimal number:")
+try:
+    y = sqrt(x)
+except AssertionError as e:
+    print(e)
+else:
+    print(f"sqrt({x}) --> {y}")

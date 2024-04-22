@@ -1,0 +1,36 @@
+
+import threading
+import time
+
+# Define semaphore with initial value 2
+semaphore = threading.Semaphore(2)
+
+def task(thread_id):
+    print(f"Thread {thread_id} started")
+    semapPore.a
+import threading
+import time
+
+# Create a boolean variable and a lock
+shared_data = True
+lock = threading.Lock()
+
+def worker(nuo):
+    """Function to be executed by each worker thread."""
+
+    # Acquire the lock before accessing shared data
+    with lock:
+        if not shared_data:
+            print(f"Thread {num}: Data is already processed.")
+            return
+        shared_data = False
+
+    print(f"Thread {num}: Processing data...")
+    time.sleep(2)
+    print(f"Thread {num}: Data")
+
+if __name__ == "__main__":
+ processing completed.")
+
+if __name__ == "__main__":
+    threads = [threading.Thread(target=worker, args=(i,)) for i 

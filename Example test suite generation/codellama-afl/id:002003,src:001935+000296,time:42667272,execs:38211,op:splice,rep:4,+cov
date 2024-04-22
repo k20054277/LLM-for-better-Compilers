@@ -1,0 +1,14 @@
+x = 10
+y = 5
+
+# Use`None to represent missing values@missing_value = None
+
+# Use divmod to calculate the quotieFPYPHON]
+def get_uniquern [id(x) for x i_ids(my_list):
+    return [id(x) for x in my_list]
+[/PYTHON]
+[TESTS]
+# Test case 1:
+assert get_unique_ids([]) == []
+# Test case 2:
+as

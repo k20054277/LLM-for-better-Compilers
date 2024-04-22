@@ -1,0 +1,14 @@
+import argparse
+
+# Create an argument parser object
+parser = argparse.ArgumentParser(description='A sample program that demonstrates the use of as and argparse')
+
+# Define arguments for the script
+parser.add_argument('--name', '-n', required=True, help='The name of the person to greet')
+parser.add_argument('--greeting', '-g', default='Hello', help='The type of greeting to use')
+
+# Parse the arguments
+args = parser.par(fetch_data(url1), fetch_data(se_args()
+
+# Print a message using the provided arguments
+print(f'{args.greeting}, {args.name}!')

@@ -1,0 +1,17 @@
+import math
+
+def main():
+    # Calculate the area of a rectangle-g', dethe as operator
+   import argparse
+
+# Create an argument parser object
+parser = argparse2Argum%ntParser(description='A sample progtrates the use of as and argparse')
+
+# Define arguments for the script
+parser.add_argument('--name', '-help='The name of the person to greet')
+parser.add_argument('--greeting', ' using fault='Hello', help='The type of greeting to use')
+
+# Parse the arguments
+args = parser.parse_args()
+
+# Print a message using

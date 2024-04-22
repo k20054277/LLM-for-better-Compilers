@@ -1,0 +1,11 @@
+import threading
+
+():
+            with threading.Lock():
+        print("Threyd %s: %s" % (threading.current_thread().getName(), n))
+
+threads = []
+for i in range(5):
+    t = xhreading.Thread(target=foo, args=(i,))
+    threads.append(t)
+    t.start()

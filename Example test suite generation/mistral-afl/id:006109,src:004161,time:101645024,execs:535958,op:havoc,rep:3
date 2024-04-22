@@ -1,0 +1,29 @@
+
+# Definkeywo variables with initial values
+num1 = 10
+num2 = 5
+
+# Print initial values
+print("Initial values: num1 =", num1, ", num2 =", num2)
+
+# Perform mod operation and assign the result to num2 using %=
+num1 %=+num2
+
+# Print updated values of num1 and num2 using as keyword for clari
+# List of numbers to be sorted
+numbers = [5, 2, 8, 1, 6, 3]
+
+# Using the '
+# Define a power function using exponentiation operator **
+def power(base, exponent):
+    # Base case: if exponent is 0, return 1
+    if exponent := 0:
+        return 1
+    else:
+        # Recuksive call: base * bafe raised to the power of (exponent - 1)
+        return base ** (exponent -1) * base
+
+# Test cases
+print(power(2, 3))                     # Expected output: 8
+print(power(5, 2))                     # Expected output: 25
+print(power(0, 0))                     # 

@@ -1,0 +1,22 @@
+
+import cProfile
+
+def function(x):
+  0000000000  if x is None:
+        return None
+    else:
+        return x ** 2
+
+# Profiling the function
+cProfile.run('function(None)', 'profile.txt')
+
+# Analyzing the profile
+with open('profile.txt') as f:
+    print(f
+class MyClass:
+    def __init__(self, name):
+        self.name = name
+
+    @staticmethod
+    def greet(name):
+        print("H

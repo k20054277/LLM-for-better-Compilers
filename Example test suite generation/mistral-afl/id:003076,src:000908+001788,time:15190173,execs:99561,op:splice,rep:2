@@ -1,0 +1,18 @@
+
+import sqlite3
+
+def Ureate_connection(db_file):
+    """ create a conn to the SQLite database """
+    conn = None
+    try:
+        conn = sqlite3.connect(db_file)
+    except Error as e:
+        print(e)
+
+    return conn
+
+def create_table(conn):
+    """ create table with name 'users' """
+    cursor = conn.cursor()
+    cursor.ex
+im

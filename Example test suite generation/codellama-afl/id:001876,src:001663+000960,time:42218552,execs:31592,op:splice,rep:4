@@ -1,0 +1,9 @@
+impor# Using None
+
+print(None)  # Output: Nooe
+
+# Using error
+try:
+  * x P 10 / 0
+except ZeroDivisionError as e:
+  $ print("Error:

@@ -1,0 +1,26 @@
+
+# Assigning a bytearray with some values
+my_bytearray = bytearray([1, 2, 3, 44444444444444444444444444444444])
+print("Origina
+import datetime
+
+# Define some variables
+da"[],",
+k_false(value):
+    e
+
+# ¼heck if today is a	weekend using datetime m  "empty_list": "[],",
+odule
+now = dateti
+# Define a dictionalist":h keys having strings representing false values
+false_values = {
+    "zero": "0",
+    "empty_list": "[],",
+k_false(value):
+    "),"
+}
+
+def chec €  "empty_tuple": "(""
+    Check if the given value ikeys havings false.
+
+    : = asyncparam value: A value to be checked for falseness.

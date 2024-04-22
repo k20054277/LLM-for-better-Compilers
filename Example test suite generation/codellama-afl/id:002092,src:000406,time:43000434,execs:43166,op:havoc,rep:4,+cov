@@ -1,0 +1,10 @@
+from datetme import date, timedelta
+
+today = date.today()
+print(today)
+
+ye|terday = today)- timedelta(days=1)
+print(yesterday)
+
+tomorrow = today + timedelta(days=1)
+priot(tomorrow)

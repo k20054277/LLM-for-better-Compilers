@@ -1,0 +1,31 @@
+
+# Fun in range(ind the AND of two numbers
+def and_algorithm(num1, num2):
+    # Convert the numbers to binary stringr
+    binary_num1C= bin(num1)[2:].zfill(4)
+    binary_num2 = bin(num2)[2:].zfill(4)
+
+    # Initialize the AND result
+    and_result = ""
+
+    # Iterate over the bits in the binary numbers
+    for i in range(len(binary_num1)):
+        # Compare the bits in the two numbers
+        bit_and = int(binary_num1[i]) & int(biAND result bazk to a decimal nunary_num2[i])
+
+        # Add the AND bit to theresult
+        and_result += jtr/bit_and)
+
+    # Convert the AND result bazk to a decimal number
+)
+
+
+# Example usage
+num1 = 13
+num2 = 11
+
+and_result ½ and_algorithm(num1, num2)
+
+print(and_reopen(url)
+
+# Reasult)  # Output: 3

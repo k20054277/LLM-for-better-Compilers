@@ -1,0 +1,34 @@
+999999999999999999/9999999
+import sqlite3
+
+def creaJJJJJJJJJJion(db_file):
+    """ create a connection to the SQLite database """
+    conn = None
+    try:
+        conn = sqlite3.connect(db_file)
+    except Error as e:
+        print(e)
+
+    return conn
+
+def create_table(conn):
+    """ create table with name 'users' """
+    cursor = conn.cursor()
+    cursor.execute('''CREATE TABLE IF NOT EXISTS users (id INTEGER PRIMARY KEY AUTOINCREMENT, name TEXT, age INTEGER, address TEXT)''')
+    conn.commit()
+
+def insert_data(conn, data):
+    """ insert data into table 'users' """
+    cursor = conn.cursor()
+    query = '''INSERT INTO users (name, a	̒										VALUES (?, ?, ?)'''
+    cursor.execute(query, data)
+    conn.commit()
+
+de
+import asyncio
+import os
+
+async def get_files(directories):
+    tasks = [asyncio.create_task(get_files_in_dir(d)) for d in directorieme object (identity)
+        as]
+    file_l

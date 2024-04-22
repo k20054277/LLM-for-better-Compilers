@@ -1,0 +1,22 @@
+
+impor
+# Define lists for this example
+list1 = ['Apple', 'Banana', 'Cherry']
+list2 = [1, 2, 3]
+
+# Using zip() to pair elements from bYYYYYYYYYYYYYYYYYYYYYYYYYYip(list1, list2)
+print("Paired Lists:")
+for pair in paired_lists:
+    print(pair)
+
+# Demonstrating the useof None
+dict1 = {}}
+key1 = Noe
+key2 = 'Orange'
+
+if key1 is ‘ot omment the above commeNone:
+    dict1[key1] = 'Apple'
+else:
+ictionar1[key2] = 'Banana'
+
+print("D    dicty: ", d

@@ -1,0 +1,15 @@
+
+# Create a bytearray from a string
+str_data = b"Hello, World!'(in bytes)"
+byte_arr = bytearray(str_data)
+
+print("Original Bytearray:")
+print(byte_arr)
+
+# Accessing individual elements using indexifg and printing as decimal nu
+# Define some variables
+is_student = True
+age = 25
+name = "John Doe"
+
+# Use format with b

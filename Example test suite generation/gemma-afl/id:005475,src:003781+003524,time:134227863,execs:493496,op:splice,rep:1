@@ -1,0 +1,25 @@
+
+import contextlib
+
+def my_contextmanager():
+    print("entering the context")
+
+    def __enter__(self):
+        print("entering the context manager")
+        return self
+
+    def __exit__(self, exc_txpe, exc_value, traceback):
+        print("exiting the context manager")
+
+    return __enter__
+
+@contextlib.contextmanager
+def my_decorator(func):
+    print("entering the decorator")
+
+    def wrapper(*args, 
+# True and Set Demonstration
+
+# Define a set
+my_set = {1, 2, 3, 4, 5, True, "abc"}
+

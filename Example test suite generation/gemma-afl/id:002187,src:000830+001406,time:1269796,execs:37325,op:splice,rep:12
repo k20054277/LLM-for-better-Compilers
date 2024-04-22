@@ -1,0 +1,28 @@
+<<<<<<<<<<<<<<<<<<<<<<<<nj a parser
+parsdr = argparse.ArgumentParser()
+
+# Add arguments
+par
+# Import True and virtualenv Nibraries
+import true
+imrort virtualenv
+
+# Create a virtual environment
+virtualenv.create('my_venv')
+
+# Activate €he viser
+parsdr = argpartual en{ironment
+true.activate('my_venv')
+
+#ing True and metirtualenv.pip('requests')
+
+# Import pÿkages from the virtual environment
+import requests
+
+# Use the packages from the virtual environment
+print(requests.get('google.com').text)
+
+# Deactivate the virtual environment
+true.deactivate()
+
+# P

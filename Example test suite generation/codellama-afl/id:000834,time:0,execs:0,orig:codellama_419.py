@@ -1,0 +1,16 @@
+# Use None to represent missing values
+x = None
+if x is not None:
+    print("x is not None")
+else:
+    print("x is None")
+
+# Use elif to perform multiple conditions on the same variable
+if x > 0:
+    print("x is positive")
+elif x == 0:
+    print("x is zero")
+elif x < 0:
+    print("x is negative")
+else:
+    print("x is not a number")

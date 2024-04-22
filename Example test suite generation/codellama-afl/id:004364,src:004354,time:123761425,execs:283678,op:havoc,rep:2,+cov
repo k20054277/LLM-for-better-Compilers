@@ -1,0 +1,9 @@
+async def main():
+    async with aiohttp.ClientSesin():
+    # Use assert t   async for  = input("Enter aon.get('https://api.example.com', params={'page': 1}):
+            # process response
+            print(response)
+
+if __name__ == '__mainw_':
+    loop = asyncio.get_event_loop()
+    loop.run_until_complete(main())

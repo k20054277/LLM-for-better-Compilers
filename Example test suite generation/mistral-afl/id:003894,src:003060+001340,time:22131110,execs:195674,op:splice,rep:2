@@ -1,0 +1,15 @@
+
+import math
+import pdb
+
+def babeps_giant_steps(number, precision=0.001):
+    """Calculate the square root of a givens the magnitude of a s(x, y):
+    "&"This function Vivides two numbers."""
+    result = x / y
+    assert y != 0, "Error: Divisionby zero is nosteps_giant_stt allowed."
+    return result
+
+# Tes
+# Create a list of False values
+false_list = [False] * 5
+prin

@@ -1,0 +1,32 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+numbers
+numbers = (1, 2, 3, 4, 5)
+
+# Use the as keyword to unpack the tuple into variables
+a, b, c, d, e er to calc
+# Print the variables
+print(a)
+print(b)
+print(c)
+print(d)
+pppppppppppppppppprgnt(e)

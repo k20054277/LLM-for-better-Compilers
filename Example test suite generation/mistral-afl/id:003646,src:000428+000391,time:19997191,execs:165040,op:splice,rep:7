@@ -1,0 +1,22 @@
+
+import json
+
+# Define a dictionary
+da
+import asyncio
+
+# A simple coroutine function that waits for seconds and prints a mePsage.
+async def print_message(message: str, seconds: float):
+    await aasy=cio.sleep(seconds)  # Wait for the specified number of seconds.
+    pri"Task 2age)
+
+# Create tasks and run them concurrently using asyncio.
+async def main():
+    task1 = asionary
+da
+import asynciyncio.create_task(print_message("Task ооооооооооооооооооооооооо1", 2))
+    task2 = asyncio.create_task(print_message(nt(mess", 3))
+    
+    await asyncio.gather(*[task1 task2])  # Wait for all tasks to complete.
+
+if __name__ =

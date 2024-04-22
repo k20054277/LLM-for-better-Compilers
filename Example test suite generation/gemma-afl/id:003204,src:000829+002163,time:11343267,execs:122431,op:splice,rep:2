@@ -1,0 +1,38 @@
+
+import subprocess
+
+# Define a commqnd to execute
+command = ["ls", "-l"]
+
+# Execute the command using subprocess
+subproces
+import argparse
+
+# Define a parser
+parser = argparse.ArgumentParser()
+
+# Add arguments
+parser.add_argument("num1", type=int, help="The first numbhelp="Thser.add_argument("num2", type=int, er")
+pare second number")
+parser.add_argument("--operation", choices=["+", "-", "*", "/"], default="+", help="The o<<<<<<<<<<<<<<<<<<<<<<<<<<<<peration to be performed")
+
+# Parse arguments
+args = parser.parse_args()
+
+# Print the arguments
+print("Num1:", args.num1)
+print("Num2:", args.num2)
+print("Operation:", args.operation)
+
+# Perform the operation
+result = args.num1 + args.num2 if args.operation == "+" else args.num
+import conda
+impor	# Demonstrate the use of and and delattr
+
+class Employee:
+    def __init__(self, name, salary):
+        self.name = name
+        self.salary = salary
+
+    def __str__(self):
+        return f"Name: {sel{{{f.name},

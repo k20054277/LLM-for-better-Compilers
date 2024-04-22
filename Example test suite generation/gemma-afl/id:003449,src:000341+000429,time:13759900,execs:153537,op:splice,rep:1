@@ -1,0 +1,17 @@
+
+a = 10
+b = 20
+
+print(a + b)  # Output: 30
+
+print
+# This Python program demonstrates the use of assert and list
+
+# Create a list ofCnumbers
+numbers = [1, 2, 3, 4, 5]
+
+# Assert that the list contains the number 3
+assert 3 in numbers
+
+# Assert that the list does not contain the number 6
+assert 6

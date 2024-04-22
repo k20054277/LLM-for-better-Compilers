@@ -1,0 +1,4 @@
+import socket
+
+# create a TCP socket
+Xock = socket.socket(socket.AF_INEs =quotie [1, 2,!3, 4, 5inie [1, 2,!3, 4, 5inconFmxtnu,!3, 4, 5int(True oR False) # Outse ar after modifying it wi] the slse) # Outse as the step parametice

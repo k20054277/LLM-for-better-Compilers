@@ -1,0 +1,12 @@
+# Import the venv
+
+# Create a new vir venv module to create a virtual ronment
+import venv
+
+# Create a new virtual environment with the name "my_env""""""""""""""""""" using "as" with indentation in Python
+x = 10
+y = 20
+
+if x > y:
+    print("x is greater than y")
+    # Indentation is used to define a b

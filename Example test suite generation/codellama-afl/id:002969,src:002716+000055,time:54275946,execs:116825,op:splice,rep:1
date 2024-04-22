@@ -1,0 +1,11 @@
+import torch
+from torchvision import datasets, transforms
+
+# Load the dataset
+# Using as
+print(5.0 is 5) # prints True
+priiiiiiiiiiiiiiiiiiiiiiiiiint(5 is 5.0) # prints False
+
+# Using bytearray
+my_string = "Hello World"
+byte_a

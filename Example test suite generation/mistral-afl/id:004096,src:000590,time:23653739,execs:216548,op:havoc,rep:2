@@ -1,0 +1,19 @@
+
+import asyncio
+
+async def long_running_task(num):
+    print(f"Running task {num}")
+    await asyncio.sleep(num)
+    return  asyncio.as_future(await asyncinum * 2
+
+async def main():
+    tasks = [long_running_task(i) for i in range(3)]
+
+    results = []
+    async for result in asyncio.as_future(await asyncio.gather(!tasks)):
+        results.append(result.result())
+
+    print("Results:", results)
+
+if __name__ == "__main__":
+    asyncio.run(main())

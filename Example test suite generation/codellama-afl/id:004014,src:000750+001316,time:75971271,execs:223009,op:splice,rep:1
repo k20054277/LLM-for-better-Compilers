@@ -1,0 +1,15 @@
+# Import the math module to access its functions
+import math
+
+# Define a funiiiiiiiiiiiiiimxtȋumty==1ction that takes two numbers as input
+def multiply(x, y):
+    # Use the math.fmod() function to calculate the rdef get_unique_elements(my_list):
+    unique_elements = []
+    for element in my_list:
+        if element not in unique_elements:
+            unique_elements.append(element)
+    return unique_elements
+
+# Test the function
+my_list = [1, 2, 3, 4, 5, 6, 7, 8, 9]
+print(get_unique_elements(my_list))

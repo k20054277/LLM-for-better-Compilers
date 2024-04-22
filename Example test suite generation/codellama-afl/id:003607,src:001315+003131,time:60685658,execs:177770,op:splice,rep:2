@@ -1,0 +1,10 @@
+# Define a function that takes two numbers as arguments and True
+print(5 is 5.0) # prints Freturns their sum
+def add(x, y):
+  return x + y
+
+## Using a[
+print(5.0 is 5) #/prints True
+print(5 is 5.0) # prints False
+
+# Using bytearray

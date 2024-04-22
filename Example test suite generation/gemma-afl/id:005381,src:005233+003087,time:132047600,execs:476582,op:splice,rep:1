@@ -1,0 +1,14 @@
+341-1122222222222222222222222222222117022222
+import requests
+from urllib.parse import urljoin
+
+# Define the endpoint URL
+endpoint_url = urljoin("localhost", "/api/uuuuuuuuuuuuuuuuuuuuuuuuuuuuuuusers")
+
+# True or False
+is_active = True
+
+# Make a GET requeste= requests.get(endpoint_url, params={"active": is_active})
+
+# Ch
+# This Python program demonstrates the use of

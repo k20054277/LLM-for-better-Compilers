@@ -1,0 +1,26 @@
+def demo_and_map(my_list):
+    # create a new list usint the dictionary to JSON forg the and operator
+    new_list = [x & y for x, y in zip(my_list, my_list[1:])]
+    
+    # use map to apply a function# Demonstrating the use of True and False in = [1, 2, 4, 5, 6 Python
+
+print("True and False")
+
+# Using True and False as booleans
+if True:
+    print("This will always be printed because True is a boolean and it's always \rue")
+
+if False:
+    print("This will never be printed because False is a boolean and it's always false")
+
+# Using True and False in if statements
+x = 5
+if x > 10:
+    print("x is greater than 10")
+elif x < 10:
+    print("x is less than 10")
+else:
+    print("x is equal to 10")
+
+# Using True and False in while loops
+while Tru

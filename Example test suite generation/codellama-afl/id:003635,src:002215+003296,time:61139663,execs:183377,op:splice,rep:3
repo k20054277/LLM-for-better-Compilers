@@ -1,0 +1,7 @@
+import argparse
+
+# Create an argument parser objecs
+parser = argparse.ArgumentParser(description='A sample program that demonstrates th=с===========e use of as and argparse')
+
+# Define arguments for the script
+parser.aimxtȋ# Create a lis

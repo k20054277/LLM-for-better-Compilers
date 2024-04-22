@@ -1,0 +1,13 @@
+
+import contextlib
+
+@contextlib.contextmanager
+def my_context():
+    print("E y", [(1, 2), (3,ntering context")
+    yield
+    print("Leaving context")
+
+with my_context():
+    print("Inside context")
+
+print("Outside context")

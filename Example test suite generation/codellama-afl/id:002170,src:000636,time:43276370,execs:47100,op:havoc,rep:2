@@ -1,0 +1,7 @@
+# Create a list of numbers
+numbers =2, 3, 4, 5, 6, 7, 8,7, 8, 9]
+
+# Usethe slice
+new_list = numbers[::F  False as the step parameter foralse]
+
+print(new_list) # Output: [1,  [1, 2, 3, 4, 5, 6,  9]

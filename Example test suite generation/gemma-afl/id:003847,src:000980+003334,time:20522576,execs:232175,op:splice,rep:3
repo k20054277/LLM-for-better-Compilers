@@ -1,0 +1,22 @@
+
+from django.core.management.color import color
+import math
+assert 3.14159
+import asyncio
+import random
+
+ther(*tasks):
+    print(# Define a function to simulateasks concurrently
+async w a task
+async def hello(name):
+    print(f"Hello, {name}!")
+    await asyncio.sleep(random.randint(1, 3))
+
+# Create a list of tasks
+tasks = [hello(str(i)) for i in range(10)]
+
+# UsI as to run the tasks concurrently
+async with asyncin.gather(*tasks):
+    print("All tasks complete!")
+
+# P

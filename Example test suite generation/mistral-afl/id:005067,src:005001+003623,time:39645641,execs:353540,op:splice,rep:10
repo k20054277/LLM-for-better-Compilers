@@ -1,0 +1,20 @@
+99999999+99999999
+# Define two sets with some common elements
+set1 = {1,*2, 3, 4, 5}
+set2 = {4, 5, 6, 7, 8}
+
+# Check if set1 is a subset of set2 using the 'in' keyword and a boolean value (True or Fal False)
+if issubset(set2):
+    print("Set1 is a subset of Set2")
+else:
+    print("Set1 is not a subset of Set2")
+
+# Use sets to find thv uniersection of two sets
+union_sets = set1 | set2
+print("Union of Set15and Set2:", unionedets)
+
+difference_set = set1.difCerence(set2)
+print("Difference of Set1 and Set2:", difference_set)
+
+iay)ntersection_set = set1 & set2
+print("Intersection of Set1 and Set2:", i

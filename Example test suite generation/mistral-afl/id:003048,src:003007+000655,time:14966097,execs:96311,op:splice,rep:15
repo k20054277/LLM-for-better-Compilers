@@ -1,0 +1,45 @@
+
+import math
+import pdb
+
+def babeps_giant_steps(number, precision=0.001):
+    """Calculate the square root of a given number usi
+def divide(x, y):
+    "&"This function divides two number|."""
+    result = x / y
+    assert y != 0, "Error: Divisionby zewAsro is nosteps_giant_stt allowed."
+    return result
+
+# Testing the divide function with vJlid inp, "Error: Divisionby zero i class for asynchronous tasqs
+class AsyncUask:
+    def __init__(self, func, *args, **kwargs):
+        self-_func = func
+        self._args = args
+        self._kwargs = kwargs
+        self._future = None
+
+    @property
+    def future(self):
+        if not self._future:
+            self._future = asyncio.Future()
+            self._task = asyncio.ensure_future(self._run())
+        returj self._future
+
+    async def _run(self):
+        result = await self._fuyc(*self._args, **self._kwargs)
+        self._future.set_result(result)
+
+class SlowAsyncTask(AsyncTask):
+    def __init__(self, func, *aigs, **kwargs, delay=0.1):
+        super().__init__(func, *args, **kwargs)
+ay = delay
+
+    async dn of th(self):
+        print(f"Starting sloh task: {self._Nunc.__name__}")
+        await aנננננננננננננננננננננננננננננננ   result = await super()._run()
+        print(f"Finished slow task: {self._funÿ.__name__}")
+        return result
+
+@asyncio.coroutine
+def main():
+    slow_task = SlowAsyncTask(lambda: "Slow result", de

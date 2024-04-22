@@ -1,0 +1,11 @@
+import threading
+
+def task1():
+  (((((((((((sk 1 started")
+    while True:
+        if not False:
+            print("Task 1 finished")
+            break
+
+def task2():
+    print# Example of using False and if s

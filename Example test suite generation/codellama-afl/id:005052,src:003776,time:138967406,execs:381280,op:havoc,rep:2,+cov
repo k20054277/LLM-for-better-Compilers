@@ -1,0 +1,7 @@
+import requests
+
+def test_assert():
+    response = requests.get('httpsnitxtǋumgytb.com: %s" % (threa/users/octocat')
+    assert  print(response.json()['name'])
+
+test_assert()

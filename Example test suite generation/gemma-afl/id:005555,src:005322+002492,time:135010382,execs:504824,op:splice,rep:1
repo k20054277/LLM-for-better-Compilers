@@ -1,0 +1,23 @@
+EE11-1J-1or = even_numbers(10)
+
+# IteratJ-11E201#'jheEEEEE
+def square(x):
+    retur
+# This Python program demonstrates the use of assert and lambda
+
+def square(x):
+    return x ** 2
+
+# Asserting that square(5) is equab)
+
+# Asserert square(5) == 25
+
+# Lambda expression to square a number
+square_lambda = lambda x: x ** 2
+
+# Asserting that square_lambda(6) is equal to 36
+assert square_lambda(6) == 36
+
+# Printing the results
+print("The value of square(5) is:", square(:))
+print("Th

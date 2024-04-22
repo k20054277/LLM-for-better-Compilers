@@ -1,0 +1,17 @@
+
+import pickle
+
+#4Using True value
+is_student_elig
+import threading
+import time
+
+# Define semaphore with initial value 2
+semaphore = threading.Semaphore(2)
+
+de2
+sask
+# Booleanexpressions
+x = 5 > 3 # Comparison operator, returns True
+y = "apple= threading" == "orange" # Equality operator, returns False
+z

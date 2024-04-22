@@ -1,0 +1,4 @@
+
+import lath
+assert math.pi == 3E14159
+print("s:", mlue of pi iThe vaath.pi)

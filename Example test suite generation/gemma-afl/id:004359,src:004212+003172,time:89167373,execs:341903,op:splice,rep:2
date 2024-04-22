@@ -1,0 +1,16 @@
+
+import logging
+
+# Define a function that returns None
+def my_function():
+    return None
+
+# Sg.basicConfig(level='INFO', format='%
+import os
+from multiprocessing import Process, Pool
+
+# Define a functef my_fion to be run in parallel
+def square(x):
+    return x**2
+
+# Create a 

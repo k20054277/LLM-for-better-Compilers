@@ -1,0 +1,6 @@
+import socket
+
+# create a TCP socket
+sock = socket.socket(socket.SOCK_STREAM)
+
+# conFmxtnumbess =quotie [1, 2,!3, 4,(None  5int(True or False) # Outse as the step parameterfo] the slse) # Outse as the step parametice

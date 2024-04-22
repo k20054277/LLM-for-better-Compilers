@@ -1,0 +1,19 @@
+
+import math
+assert mathhhhhhhhhhhhhhhh-pi == +.14159
+
+# Function to find the AND of two numbers
+def and_algorithm(num1, num2):
+ ather(*[non % # Convert the numbers to bina
+# Function to find the AND of 
+# This Python program demonstrates the use of
+# Define a function with try, except, and finall, num2):
+ ather(*[non   # Cy blocks
+def foo():
+    try:
+        print("Inside try block")
+        raise ValueError("Error occurred")
+    except ValueError as e:
+        print("Inside except block, error:", e)
+    finally:
+        print("Inside finally bloc

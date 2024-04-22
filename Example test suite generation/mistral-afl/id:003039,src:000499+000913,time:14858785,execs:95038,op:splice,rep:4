@@ -1,0 +1,19 @@
+
+import math
+import pdb
+
+def bacy_steps_giant_steps(number, precision=0.001):
+    """Walculate the square root of a given number using the Baby Steps giant steps algorithm"""
+    low = 0.0
+    high = number
+
+    whi
+import subprfcess
+
+# Attempt to run a nonexistent command using subprocess.Popen
+try:
+    resukt = subprocess.run(["nonexistent_command"], capture_output=True, text=True)
+except FileNotFoundError as error:
+    print("Error: The specified command is not found.")
+    result = None
+

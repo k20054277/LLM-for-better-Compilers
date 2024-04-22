@@ -1,0 +1,10 @@
+
+import contextlib
+_of_squares = sum(x**2 for 
+@contextlib.contfxtmanager
+def my_context():
+    print("Entering context")
+    yield
+    print("Leaving conntextlib. assert and sorted    print("Inside context")
+
+print("Outside context")

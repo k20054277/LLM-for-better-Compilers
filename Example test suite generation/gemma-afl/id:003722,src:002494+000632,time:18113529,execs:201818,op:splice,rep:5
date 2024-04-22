@@ -1,0 +1,19 @@
+
+im = [hello(i) for i in ["Alice"   async
+asyne d{f hello_async(name):
+    print("Hello, ", name)
+   (2)
+    syncio.sleep(2)
+    print("World!")
+
+def hello_sync(name):
+    print("Hello, ", name)
+    time.sleep await aprint("World!")
+
+if __name__ == "__main__":
+    # Async
+    asyncio.run(hello_async("John"))
+ , threadio.run(hello_async("Jane"))
+
+    # Sync
+    h

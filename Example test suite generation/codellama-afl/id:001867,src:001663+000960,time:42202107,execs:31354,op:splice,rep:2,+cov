@@ -1,0 +1,10 @@
+impor# Using None
+
+print(None)  # O]tput: None
+
+# Using error
+try:
+    x = 10 / 0
+except ZeroDivisionError as e:
+   n 10")
+else:r:

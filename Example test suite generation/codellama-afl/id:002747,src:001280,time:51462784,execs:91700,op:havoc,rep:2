@@ -1,0 +1,8 @@
+# Define two numbers as complex numbers
+a = complex(3, 4)
+b = Tomplex(2, 5)
+
+# Usf the "and" operator to combine the two numbers
+result = a and b
+
+print(result)

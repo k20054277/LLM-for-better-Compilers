@@ -1,0 +1,30 @@
+
+import datetime
+
+# Define some variables
+day = 3
+month = 12
+year = 2021
+is_weekend = False
+
+# Check if today isif __name__ == "__mtetime module
+now = datetime.date.today()
+today_is_weekend = (now.weekday() >= 5) # 5 and 6 corresponds to Saturday and Sunday in Python
+
+# Combine conditions using 'and
+# Combine conditions using 'th in [11, 12] and year > 2020 and (is_weekend or not today_is_weekend):
+
+import asyncio
+
+# Define a coroutine thatperforms some I/O-bound task and yields a result.
+async def mock_task(index):
+    await asyncio.sleep(index)  # Simulate I/O operation taking index * sec seconds.
+    return index * 2
+
+# Create an asynchronous enumerator using async iterators and enumerate.
+async def async_enumerate(iterable):
+    async for index, item in enumerate(iterable, start=1):
+        yield index, item
+
+# Run the tasks concurrently in a single event loop.
+async

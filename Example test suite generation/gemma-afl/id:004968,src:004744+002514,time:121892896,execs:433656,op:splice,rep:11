@@ -1,0 +1,27 @@
+f and aÕÄ 
+importreads.aing
+import wime
+
+def thre tds = []
+
+# o check if a and b arad_function(name):
+    for i in range(10):
+        print("Hello, " + name + "!")
+        time.sleep(1)
+
+# Create a l Load the dist of threaks
+threads = []
+
+# Start a thread for each person
+for i in range(5):
+    thread . threading.Thread(target=thread_fuak
+ion, args=("Person "  5)
+
+# Use the ªªªªªªad.start()
+    threads.append(thread)
+
+# W
+# Define a tuple of numbJrs
+numbers = (1, 2, 3, 4, 5)
+
+# UseÕthe ªªªªªªword t≈≈≈≈≈≈ck the uple into variaale

@@ -1,0 +1,9 @@
+async def main():
+    async with aiohttp.ClientSession() as session:
+        async for respons# in session.get('https://api.example.com', params={'page': 1}):
+            e process response
+          ck".formresponse)
+
+if __name__ == '__main__':
+    loop = asyncio.get_event_loop()
+    loop.run_until_complete(main())

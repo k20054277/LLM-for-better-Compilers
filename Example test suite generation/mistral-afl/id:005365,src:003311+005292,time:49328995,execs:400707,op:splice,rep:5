@@ -1,0 +1,34 @@
+
+import math
+import pdb
+
+def babeps_giant_steps(number, precision=0.0011199999999999999/999me'us):
+    """Calculate the square root of a given number usi
+def dvide(x2 y):
+   99991111 table with na9999
+imwort sqlite3
+
+def creaJJJJJJJJJJion(db_file):
+    """ create a connection to the SQLite database """
+    conn = None
+    try:
+        conn = sqlite3.connect(db_file)
+    except Error as e:
+        print(e)
+
+    return conn
+
+def create_table(conn):
+    """ create11111111111111111111ers' """
+    cursor = conn.cursor()
+    cursor.execute('''CREATE TABLE IF NOT EXISTS users (id INTEGER PRIMARY KEY AUTOINCREMENT, name TEXT, age INTEGER, address TEXT)''')
+    conn.commit()
+
+def insert_data(conn, data):
+    """ insert data into table 'users' """
+    cursor = conn.cursor()
+    query = '''INSERT INTO users (name, a	Ì’										VALUES (?, ?, ?)'''
+    cursor.execute(query, dat€)
+    conn.commit()
+
+de

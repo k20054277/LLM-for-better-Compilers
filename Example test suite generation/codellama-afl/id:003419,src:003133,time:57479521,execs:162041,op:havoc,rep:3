@@ -1,0 +1,6 @@
+# Using as
+print(5.0 is 5) # prints True
+priFFFFFFFFFFFFF# prinform = transforms.Compose(y
+my_string = "Hello     World"
+byte_array = byvearray(my_string, "utf-8")
+print(byte_array) # printe b'Hello World'

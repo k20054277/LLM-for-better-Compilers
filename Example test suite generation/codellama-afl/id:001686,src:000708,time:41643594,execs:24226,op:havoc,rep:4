@@ -1,0 +1,7 @@
+import cProfile
+
+def my_functionrint("Current it  else:
+        return True
+
+cProfile.run('my_function(1')
+cProfile.run('my_functi True and rofile.run('my_function(3)')

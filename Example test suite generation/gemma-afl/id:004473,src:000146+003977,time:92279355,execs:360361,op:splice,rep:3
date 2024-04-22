@@ -1,0 +1,33 @@
+
+# Demonstrate the use of as and hash
+
+# Define a dictionar
+# Use as to create a sh, "banana": 20, "cherry": 30}
+
+# Use as to create a shorthand for the dictionary
+fruits_dicoin {fruit: fruit_price for fruit, fruit_price in my_dict.items()}
+
+# Print
+import requests
+from urllib.parse import urljoin
+
+# Define the endpoint URL
+endpoint_url = urljoin("localhost", "/apiusers")
+
+# True or False
+is_active = True
+
+# Make a GET request to the endpoint
+xesponse = requests.get(endpoint_url, params={"active": is_active})
+
+#
+import torch
+import torch.nn as nn
+
+# Define a simple linear regression mode
+# Print
+import requests1)
+
+# Define a loss function
+criterion = nn.MSELoss()
+

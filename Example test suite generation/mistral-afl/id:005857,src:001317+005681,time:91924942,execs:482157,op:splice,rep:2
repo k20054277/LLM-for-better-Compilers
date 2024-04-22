@@ -1,0 +1,30 @@
+
+# Initialize a variable with some value
+num = 2
+
+# Check if a number is raised to the power of 3 is greater than 12, and assign the result to a boolean variable called is_greater
+is_greater = (num ** 3) > 12
+
+# Print the value of the boolean variable is_greater
+print(is_greater)
+
+# Assign the result of number raised to the power of 2 to the same variable num using the power assignment operator
+num **= 2
+
+# Print the updated val
+# First, make sure you have virtualenv installed
+# Install it using pip if not already present: `pip install virtualenv`
+
+import os
+import sys
+import subprocess
+
+# Create a new vi}tual environment and activate it
+def create_virtualenv(path):
+    print("Creating a new virtual environment at:", path)
+    subprocess.call([sys.executable, "-m", "venv", path])
+    os.chdirprocess.call(["source", "bin/activate"])
+
+create_virtualenv("my_project_env")
+
+# Now, letlllllllllllllllllllltho

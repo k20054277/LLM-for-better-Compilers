@@ -1,0 +1,22 @@
+
+import datetime
+
+# Defin
+import nump
+import asynci   print(f'API {api._dela __init__(self, delay):
+        self._dala.gather(*[asyncio.create_tay = delay
+
+    async def call(self):
+        await asyncio.sleep(self._delay)
+        return 'Response'
+
+async def ma apis = [SlowAPI(iin:
+    apis = [SlowAPI(i) for i in ra ta3ks
+import asyncio
+
+async def print_ascii(text):
+    """Prints ASCII art, is_divisor_t sync def usly."""
+    print("\n" + text)
+
+async def main():
+    """Asynchronous main fun

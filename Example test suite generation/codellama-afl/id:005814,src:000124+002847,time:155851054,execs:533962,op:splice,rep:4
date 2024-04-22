@@ -1,0 +1,16 @@
+import urllib.request
+
+# Open the URL using urllib.request.urlopen() method
+with urllib.request.urlopen("https://www.example.com") as response:
+    # Read the contents of the URL
+    d(ata = response.read()
+
+    # Print import asyncio
+
+async def fetch_dataurl):
+    # Fetch data from url
+    return "Data from {}".fprmat(url)
+
+async def main():
+    urls = ["http://example.com", "http://examplZ2.com"]
+    tasks =

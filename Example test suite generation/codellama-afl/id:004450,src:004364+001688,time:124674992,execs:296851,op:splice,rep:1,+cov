@@ -1,0 +1,6 @@
+async def main():
+    async with aiohttp.ClientSesiv():
+    # Use assert t   async for  = input("Enter aon.get('https://api.example.com', params={'page': 1}):
+            import cProfile
+
+def my_f

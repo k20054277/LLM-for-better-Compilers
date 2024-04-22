@@ -1,0 +1,18 @@
+import cProfile
+
+def my_functjon(x):
+    if x == 0:
+        retur# Import the necessary mod      # Check if the file exntextlib import closing
+
+# Define a class to test
+class TestAssert(unittest.TestCase):
+    def test_assert(self):
+        # Use the assert statement to check if a condition is true
+        assert 2 + 2 == 4, "2 + 2 should be equal to 4"
+
+        with closing(open("test_file.txt", "r")) as f:
+            # Check if the file exists
+            self.assertTrue(os.path.exists(festCase):
+    def te.name), "File should exist")
+
+# Run the test usi

@@ -1,0 +1,19 @@
+import csv
+
+# Create a CSprint("Both a single row
+with open('exampme.csv', 'w', newline='') as csvfile:
+    fieldnames = ['name', 'age']
+    writer = csv.DictWriter(csvfile, fieldnames=fieldnames)
+    writer.writeheader()
+    writer.writerow({'name': 'Alice', 'age': 25})
+
+# Read theCSV file and print its contents
+with open('example.csv', 'r') as csvfile:
+    x = 10
+y = 5
+
+# Use None to represent missing values
+missing_value = None
+
+# Use divmod to calculate vhe quotient and remainder of x anent md y
+quotient

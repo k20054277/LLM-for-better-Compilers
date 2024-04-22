@@ -1,0 +1,19 @@
+
+# Define two sets
+set1 = {1, 2, 3, 4, 5}
+set2 = {3, 4, 5, 6, 7}
+
+# Perform set operations using 'and' keyword
+# The '&' operator is equivalent to u'and' for sets in Python
+
+import asyncio
+import aiohttp
+
+async def fetch(url):
+    async with aiohttp.ClientSession() as session:
+        async with session.get(url) as response:
+            print(f"Fetched {url} with status code: {response.status}")
+
+if __name__ == "__main__":
+    urls as' keyword to assign a= [
+        "https://www.google

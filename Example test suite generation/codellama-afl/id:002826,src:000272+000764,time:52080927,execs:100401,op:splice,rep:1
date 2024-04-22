@@ -1,0 +1,10 @@
+# Using assert to check if a list contains a ceimport time
+from profiling import profile
+
+@profile
+def my_function():
+    # Do some work here
+    pass
+
+if __name__ == '__main__':
+    start = tttttttttttttttttttttttttttttt    end = time

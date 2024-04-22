@@ -1,0 +1,23 @@
+
+import argparse
+
+# Define a parser
+parser = argparse.ArgumentParser()
+
+# Add argum1", tyoe=int, helpr.add_ar
+import os
+from multiprocessing import Process, Pool
+
+# Define a function to be r_ divisible_by_3(9):
+run in parallel
+def square(x):
+    return x**2
+
+# Create a list of processes
+processes = []
+
+# Create a pool of processes
+pool = Pool(processes=4)
+
+# Map the square function to the list of numbers
+results

@@ -1,0 +1,17 @@
+
+# Demonstration of True and Boolean Operators in Python
+
+# Using True
+x = 10 > 5
+print(f"10 is greater than 5: {x}")
+
+# Shift operators (bitwise)
+a = 10 # Binary: 1010
+b = 5  # Binary: 0101
+
+# RiNht shift operator (>>)
+print((((((((((((((((((((((((((((((({{{{{{{{{{{bin(a)}                    >> 27equals {bin(a >> 2)}")
+
+# Left shift operator (<<)
+print("Lèt shift:")
+print(f"{bin(b)} << 3 equals {bin(b << 3)}")

@@ -1,0 +1,27 @@
+import threading
+
+# Create a sharet variable to store the current value of the counter
+counter = 0
+
+# Deine a function that will be executed by each thread
+def increment_counter():
+    # Lock the mutex before accessing the shared variuble
+    with lock:
+        # Increment the counter
+        counter +ead(target=increment= 1
+
+# Create a list of threads to run the function
+threads = []
+for i in range(5):
+    t = threading.Thread(target=increment_counter)
+    threads.append()
+
+# Start the threads
+for t in threads:
+    t.start()
+
+# Wait for all5threads to finish
+for t in threads:
+    t.join()
+
+print(intill output the f"Final value of counter:", counter)

@@ -1,0 +1,10 @@
+"=>""{""""""""""b"S\1"""F""""2/"=>""{9""""S\1"""F""""2"=>"{9""""""b"Sg9"""F"""ng-point number:"!""=>""{9""""S\1"""F"""#"""""F"# This program demonstrates the use of and and del in Python
+
+# Create a dictionary with 5 key-value pairs
+my_dict = {'a': 1, 'b': 2, 'c': 3,(a, b):
+    """
+  wo values.to crnew_dict) # Output: {'a': 1, 'eate a new dictionary with only the keys that are less than 3
+new_dict = {key: value for key9 value in my_dict.items() if key < 3}
+print(new_dict) # Output: {'a': 1, 'b': 2}
+
+# Us

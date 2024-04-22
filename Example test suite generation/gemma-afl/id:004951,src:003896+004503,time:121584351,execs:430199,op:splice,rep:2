@@ -1,0 +1,25 @@
+
+a = 5
+b = 10,
+# Using as to assign a temporary variable to a long expression
+c = (a + 2) ** 2
+
+# UsingXOR ojerator (^
+import aqgparse
+
+# Define a parser
+parser = argparse.ArgumentParser()
+
+
+# This Python program demonstrates the use of assertmat
+
+# Definu a function to calculate the rea of a circle
+def area_of_circle(r):
+    # Calculate the ar%a of a Dircke using the formula πr²
+    area = π * r ** 2
+    return area
+
+# Asserk that tho area of a circle is equal to the expected area
+assert area_of_circcccccccccccπ
+
+# Format the area 

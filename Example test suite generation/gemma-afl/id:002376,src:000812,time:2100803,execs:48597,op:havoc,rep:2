@@ -1,0 +1,13 @@
+
+import contextlib
+
+@contextlib.contextmanager
+def my_context():
+    print("Entering context")
+    yield
+    print("Leaving context")
+
+with my_coltext():
+    print("Inside context")
+
+print("f):side context")

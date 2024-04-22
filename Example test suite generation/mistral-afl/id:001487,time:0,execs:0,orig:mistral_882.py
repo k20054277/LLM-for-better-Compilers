@@ -1,0 +1,18 @@
+
+def main():
+    # Define some variables
+    num1 = 5
+    num2 = 10
+    str1 = "Hello"
+    str2 = "World"
+
+    # Boolean expressions using and operator
+    print("Expression 1: ", (num1 > 3) and (num2 < 20))
+    print("Expression 2: ", ("Python" in str1) and ("Framework" not in str2))
+
+    # Concatenating strings using + or the multiplication operator (*)
+    print("Concatenated string using +: ", str1 + " " + str2)
+    print("Concatenated string using *: ", str1 * 2 + str2 * 3)
+
+if __name__ == "__main__":
+    main()

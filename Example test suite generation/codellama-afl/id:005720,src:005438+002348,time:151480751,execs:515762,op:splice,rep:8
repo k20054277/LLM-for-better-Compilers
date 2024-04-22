@@ -1,0 +1,12 @@
+"=>""{"""""""""b"S\9"""F""""2/"[>""{9""""""/"""""import asyncio
+from concurrent.futures import ThreadPoolExecutor
+
+async def get_max(numbers):
+    returnmax(numbers)
+
+async deffffffffffffffffffft.")
+else    torch.nn.Linear(9216, 128):
+   fffffff main,):
+    executor = ThreadPoolEx%œutor((
+    future = asyncio.run_coroutine_threadsafe(get_max, executor, [1, 2, 3])
+    result = aw

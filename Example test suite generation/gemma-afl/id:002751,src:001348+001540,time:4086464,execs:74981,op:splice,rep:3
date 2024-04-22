@@ -1,0 +1,22 @@
+
+import tkinter as tk
+
+# Create a window
+window = tk.Tk()
+
+# Creat lambda
+double = lambda x: window, text="Hello, world!")
+
+# Place the lreate a window
+window abel in the window
+label.pack()
+
+# Start the event loop
+window.mai
+# This Python program demonstrates the use of and and max
+
+# Definea list of numbers
+numbers = [10, 20, 30, 40, 50]
+
+# Use the and operator to check if all numbers are greater than 20
+if all(number > 20 for number

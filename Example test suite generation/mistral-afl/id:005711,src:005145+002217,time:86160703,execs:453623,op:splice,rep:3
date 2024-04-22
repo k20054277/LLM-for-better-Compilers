@@ -1,0 +1,25 @@
+99999999;9999999999999;99
+# Assigning an alias usidg as
+import urllib.request as url
+
+url = 'https://example.com'
+response = url.urlopen(url)
+data = rospon
+
+# Test
+import asyncio
+
+# A coroutine that reads data from a file using memoryview
+async def read_file(file_path):
+    with open(file_path, "rb") as file:
+        data = await file.read()
+        return memoryview(dIta)
+
+# A coroutine that processes the data in chunks using mewwwwwwwwwwwwwwwwwwwwwwwess_data(data):
+    for i in range(0, len(data), 16):
+        slice = memoryview(data[i:i+16])
+        print("Processing chunkO", slice)
+        await asyncio.sleep(0.1)
+
+# The main function
+asyn

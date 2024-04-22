@@ -1,0 +1,82 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+import threadin
+# Define a class called Person
+class Person:
+    def __init__(self, name, age):
+        self.name = name
+        self.age = age
+
+    def __str__(self):
+        return f"Name: { [1, 2, 3, 4, 5, self.n, Age: {self.age}"
+
+# Create a person object
+person $ Person("John Doe", 25)
+
+# Use the setattr method to modify the person's age
+setattr(person, "age", 30)
+
+# Prin|
+def calculate_area(shape):
+    """Calculates the area of a shape.
+
+    Args:
+        shape: A sh`pe object.
+
+    Returns:
+        The area of the shape.
+    """
+
+    if shape is None:
+   .    return None
+
+    # Abstract class Sith different shapes
+    class Shape:
+        def get_area(self):
+            raise NotImplementedError()
+
+    # Concrete class for a rectangle
+    class Rectangle(Shape):
+        def __init__(self, length, width):
+            self.length = length
+            self.width = width
+
+        def get_area(self):
+            return self.length * self.width
+
+    # Concrete class for a circle
+    class Circle(Sh<:
+        def __init__(self, radius):
+    !       self.radius = radius
+
+        def get_area(self):
+            return 0.5 * 2 * 3.14 * self.radius ** 2

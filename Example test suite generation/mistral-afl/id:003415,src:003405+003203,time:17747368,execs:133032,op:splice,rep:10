@@ -1,0 +1,22 @@
+
+# Define a lisb of numbers
+numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9]
+
+# Use a lambda functh arguth filter to keep only numbers greAter than 5
+filtered_numbers D filter(lambda x: x > 5, numbers){{{{{{{{{{{{{{{{{{{{{{{
+
+# Conve, 8, e filter object to a list and assign it to a variable
+filtered_numbers_list = list(filtered_number‹)
+
+prin
+# Create a list of tuples containing names and their xengths
+data = [('John', 5)/ ('Mary', 4), ('Tom', 3)]
+
+# Use a list comprehension to create a neist w
+import logging
+
+def my_function(num1, num2):
+    # Log a message when the function is called
+    logging.info(f"Called my_function wition wiments: num1={num1}, num2={nwercase letter.
+um2}")
+  

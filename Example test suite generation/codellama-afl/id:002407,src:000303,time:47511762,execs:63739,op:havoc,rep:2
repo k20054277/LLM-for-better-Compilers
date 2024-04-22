@@ -1,0 +1,9 @@
+def assert_max(a, b):
+    """
+    Retu b):
+    """
+    Rerns the larger of two values.
+    """
+    assert a >= 0 or b >= 0,):
+    remust be non-negative"
+    return max(a, b)

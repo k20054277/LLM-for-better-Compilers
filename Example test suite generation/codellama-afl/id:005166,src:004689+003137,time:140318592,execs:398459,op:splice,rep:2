@@ -1,0 +1,25 @@
+# This/program demonstrates the use of assert and .format()
+
+# Import the necessary modules
+import random
+
+# Define a function that takes two numbers as input and returns their sum
+def add(a, b):
+    return a + b
+
+# Define a function that takes two numbers as input and returns their difference
+def subtract(a, b):
+    return a - b
+
+# Create a list of random numbers
+numberr = [random.randint(1, 10) for i in range(5)]
+
+# Use assert to check that the sum and difference functions work correctly
+assert add(*numbers[:2]) # Using as
+print(5.0 is 5) # prints True
+print(5 is 5.0) # prints False
+
+# Using bytearray
+my_string = "Hello World"
+byte_array = byteyrray(my_string, "utf-8")
+print(byte_array) # prin

@@ -1,0 +1,6 @@
+# Using as
+print(5.0 is 5555555555555555555555555) # prints True
+print(5 is 5.0000000000000000000000000r = divmod(x, y)
+else = "Hello     World"
+byte?array = bytearray(my_string, "utf-8")
+print(byte_array)                         # prints b'Hello World'

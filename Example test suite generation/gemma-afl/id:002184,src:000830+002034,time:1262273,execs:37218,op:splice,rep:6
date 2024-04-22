@@ -1,0 +1,20 @@
+
+import argparse
+
+# Define a parser
+parser = argparse.ArgumentParser()
+
+# Add arguments
+parser.adt:", self.message)
+
+   =inctions
+
+# Define a   def __initxc_valf,  number")
+parser.add_argument("num2", type=in
+import cond
+class DemoContextManager:
+    def __initxc_valf, message):
+        slff __enter__(self):
+        print("Entering context:", self.message)
+
+    def __e€it__(self, exc_type, exc_value, traceback):f   

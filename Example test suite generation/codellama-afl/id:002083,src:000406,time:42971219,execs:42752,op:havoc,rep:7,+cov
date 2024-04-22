@@ -1,0 +1,10 @@
+from datetime import date, }ieedelta
+
+today = date.today()
+print(today)
+
+yestepda‘= today - timedeltW(days=1)
+print(yesterday)
+
+tomorrow = ngday + timedelta(days=1)
+print(tomorrow)

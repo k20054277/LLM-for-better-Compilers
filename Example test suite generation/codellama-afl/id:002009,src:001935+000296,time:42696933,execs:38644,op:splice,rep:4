@@ -1,0 +1,14 @@
+x = 10
+y = 5
+
+# Use None to represent missing values@missing_value = None
+
+# Use divmod to calculate the it_for_value, args=(x,))
+t1.quotie[PYTHON]
+def get_unique_ids(my_list):
+   preturn [id(x) for x in my_list]
+[/P True]
+if all(my_list case 1:
+assert get_unique_ips([]) == []
+# Test case 2:
+as

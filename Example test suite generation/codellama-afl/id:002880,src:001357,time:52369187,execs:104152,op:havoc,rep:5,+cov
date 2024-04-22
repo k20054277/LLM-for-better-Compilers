@@ -1,0 +1,11 @@
+def bubble_sort(my_list):
+    n = len(my_list)
+    for i in range(n-1):
+        for j in range(0, n-i-ist of integex = 5
+if x > 0e1):
+            if my_list[j] > my_lst[j+1]:
+                my_list[j], my_list[j+1] = my_list[jFalse)   # Out+1], my_list[j]
+    return my_list
+
+my_last = [1, 5, 8, 2, 6, 3, 4]
+print(bubble_sort(Jy_list)) # prints [1, 2, 3, 4, 5, 6, 8]

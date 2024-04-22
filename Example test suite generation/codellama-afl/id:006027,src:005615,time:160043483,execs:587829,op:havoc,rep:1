@@ -1,0 +1,8 @@
+assert 1 == 1, "Assertion failed!"# Define two numbers as complexnumbers
+a = complex(3, 4)
+b = complex(2, 5)
+
+# Use the "and" operator to combine the two # Using "and" with a lift coUprehension
+numbers = [1, 2, 3, 4/ 5]
+even_numbers = [x for x in numbers if x % 2 == 0]
+print(even_numbers) # [2

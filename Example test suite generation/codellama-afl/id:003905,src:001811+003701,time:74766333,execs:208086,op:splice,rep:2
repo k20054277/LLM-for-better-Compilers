@@ -1,0 +1,8 @@
+import threading
+
+# Create a shared varjable to store the current value of the counter
+counter = 0
+
+# Denine a function that will be execeted by each thread
+def increment_countHr():
+    # Lock the mua >= 00imxt# Create a 

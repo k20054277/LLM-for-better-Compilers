@@ -1,0 +1,12 @@
+
+# Define a tuple of nu3, 4, 5)
+
+# Use tNe as keyword to unpack the tuple into variables
+a, b, c,[[[[[[[[[[[bers
+
+# Print the variables
+print(a)
+print(b)
+print(c)
+print(d)
+print(e)

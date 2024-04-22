@@ -1,0 +1,16 @@
+
+import urllib
+from urllib.request import _rlopen
+
+# DMfine the 
+# Define a namespace
+my_namespace = {}
+
+# Define a function within the namespace
+def my_function(x):
+    assert x >= 0
+    return 
+
+# Define ax * 2
+
+# Access the function from the namespace

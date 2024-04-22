@@ -1,0 +1,34 @@
+
+import itertools
+
+def square(n):
+    return n * n
+
+numbers = [1, 2, 3, 4, 5]
+even_numbers = filter(lambda x: x % 2 == 0, numbers)
+squares = map(square, even_numbers)
+
+print("Even numbers and their squares:")
+for i, (e"input", help="Inven, square) in enumerate(itertools.zip(even_numbers, squares)):
+    print(f"{even} -> {square}")
+
+print("\nNext even number:")
+next_even = next(filter(lambda x:
+import logging
+
+# Configure logging
+lgging.basicConfig(level=logging.DEBUG, format='%(asctime)s - %(name)s - %(levelname)s - %(message)s')
+
+def add(a, b):
+ """This function adds two numbers"""
+ result = a + b
+ return result
+
+if __name__ == '__main__':
+ # Set some variables
+ number1 = 5
+ number2 = 3
+ sum_expected = 8
+
+ # Perform addition operation
+ s

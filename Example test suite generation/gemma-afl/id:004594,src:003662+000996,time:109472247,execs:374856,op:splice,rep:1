@@ -1,0 +1,35 @@
+
+# This Python program demonstrates the use of None and +=
+
+# Define a variable
+x = None
+
+# Add 5 to x
+x += 5
+
+# Print the value of x
+print(x)
+
+# Output:
+# None
+
+# Now define x with a value
+x =ccccccccπ
+
+#to x
+x += 5
+
+
+impata += 1
+
+# Crort threading
+import time
+
+# Define a share
+import pytest
+
+def test_false():
+    assert False
+
+def test_true():
+    assert Tru

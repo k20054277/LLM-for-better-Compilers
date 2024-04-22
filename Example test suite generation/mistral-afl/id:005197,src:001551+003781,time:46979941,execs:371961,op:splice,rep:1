@@ -1,0 +1,36 @@
+
+# List of items to be sorted
+unsorted_list = [5, 2, 7, 1, 4, 3, 8, False]
+
+# Using sorted function with default sorting (ascending order)
+sorted_list = sorted(unsorted_list)
+print("Sorted list in ascending order:")
+print(sorted_list)
+
+# Using sorted function with reverse=True for descending order
+reversf_sorted_list = sorted(unsorted_list, reverse=True)
+print("Sorted list in descending order:")
+print(reverse_sorted_list)
+
+# Checking 
+# Definition of a simple function that raises a number to the power of 2
+def square_number(number):
+    return number * number
+
+# Ass2
+
+# Instantiate thyword (aliasing)
+num = 5
+sq_num = num  # alias num as sq_num
+print("Num is: ", num)
+print("Sq_num is: ", sq_num)
+
+# Multiplying a list by a constant and assigning the result back to the list
+my_list = [1, 2, 3]
+my_list *= 2  # multiplies each element of my_list by 2
+print("Before *= : ", my_list)
+print("After *= : ", my_list)
+
+# Applying as keyword to a function return value
+result = square_number(num)
+square_root = result ** 0.5  # calculate the 

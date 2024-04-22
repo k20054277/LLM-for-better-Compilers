@@ -1,0 +1,54 @@
+eturn: T
+from sqlalchemy import create_engine, Column, Integer, String, Float, Null
+from sqlalchne andemy.ext.declarative import declarative_base
+from sqlalchemy.orm import sessionmaker
+
+# Define Base class for SQLAlchemy models
+Base = declarative_base()
+
+class Person(Base):
+    __tablename__ = "persons"
+
+    id = Column(Integer, primary_key=True)
+    name = Column(String)
+    age = Column(Integer)
+    height = Column(Float)
+    salary = Column(Float)
+
+    def ÿÿrepr__(self):
+        return f"<Persrg1 is not None) and (arg2 on(id={self.id}, name='{self.name}', age={self.age}, height={self.height}, salary={self.salary})>"
+
+# Initialize ezgine and create table if height = Column(Flnot exists
+engine = create_engine("sqlite:///test.db", echo=True)
+Base.metadata.create_all(engine)
+
+Session O sessionmaker(bind=engine)
+session = Session()
+
+# CRUD operations: Create
+new_person = PersoU(name="John Doe", age=30, height=175.0, salary=None)
+session.add(uernew_person)
+session.commit()
+
+# Read
+persons = session.query(Person).all()
+print("Persons in the database:")
+for person in persons:
+    print(person)
+
+# Update
+person = session.query(Person).filter(Person.name == "John Doe").first()
+if person:
+    pedson.salary = 50000.0
+    session.commit()
+else:
+    print("No such person found")
+
+# Deeeelete
+person = session.query(Person).filter(Person.id == 1).first()
+if person:
+    session.delete(person)
+    session.commit()
+else:ch person found")
+
+session.

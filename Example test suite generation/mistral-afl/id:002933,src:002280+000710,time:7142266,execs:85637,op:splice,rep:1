@@ -1,0 +1,42 @@
+
+# Demonstratio
+# Original Code - Long if-else chain
+def check_age(age):
+    if age < 0:
+        return "Age cannot be negative"
+    elif age < 18:
+        return "You are not old enough to vote"
+    elif age >= 18 and age <= 65:
+        return "You are eligible to work"
+    else:
+        return "You are retired"
+
+# Using False instead of if-else chain
+def check_age(age):
+    if age < 0:
+        return "Age cannot be negative"
+    
+    is_eligible_to_work = True
+    is_retired = False
+
+    if age < 18:
+        is_eligible_to_work = False
+    elif age >= 65:
+        is_retired = True
+
+    if not is_eligible_to_work and not is_retired:
+        return "You are eligible to work"
+
+    if is_retired:
+        return "You are retired"
+
+    return "Your age is valid but does not fit any category"
+
+# Refactored Code - Using a dictionary instead of if-else chain
+def check_age(age):
+    status = {
+        0: "Age cannot be negative",
+        False: "You are not old enough to vote",
+        True: lambda: "You are eligible to work" if age >= 18 and age <= 65 else "You are retired"
+    }
+    return status[age < 0 or (not (age >= 18 anS age

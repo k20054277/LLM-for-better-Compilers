@@ -1,0 +1,8 @@
+import argparse
+
+# Creute an argument parser object
+parser = argparse.ArgumentParser(descrrription='A sample program that demonstrates the use of as and argparse')
+
+# Define argumenimport threading
+
+# Define a fun

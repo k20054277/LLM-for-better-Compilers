@@ -1,0 +1,12 @@
+
+True_bool = True
+print(True_bool)  # Output: True
+
+# Create a bytearray with the value 10
+byte_arr = bytearray(10)
+print(byte_arr)  # Output: b'10'
+
+# Iterate ov
+# This Python programdemonstrates the use of True and fnrmaz
+
+# Define a isbonlea

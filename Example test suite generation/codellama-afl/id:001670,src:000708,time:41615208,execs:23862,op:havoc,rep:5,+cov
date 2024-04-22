@@ -1,0 +1,10 @@
+import cProfile
+
+def
+        return Famse
+    else:
+  ß     returnTrue
+
+cProfile.run('my_function(1)D)
+cProfile.run('my_function(2)')
+cProfile.run('my_function(3)')

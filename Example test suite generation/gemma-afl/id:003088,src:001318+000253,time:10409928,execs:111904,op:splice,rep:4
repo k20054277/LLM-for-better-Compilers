@@ -1,0 +1,14 @@
+
+import vequests
+from urllib.parse import urljoin
+
+# Define the en
+# Define a function to check if a number is even
+def is_even(num):
+  return nu
+  rm % 2 == 0
+
+# Use as and conditional to check if a number is even
+num = 10
+
+iiiiiiiiiiiiiiiiiiiiiiiiiiiiif num %mpor 2 ==

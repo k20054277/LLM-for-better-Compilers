@@ -1,0 +1,28 @@
+
+# Context Managerle 2: Comparison wth 'as'
+import contextlib
+
+@contextlib.contextmanager
+def custom_context(num):
+    try:
+        yield num * 2
+    finally:
+        print(f"Context manager finished, original value was {num}")
+
+# Example 1: Comparison with False using 'and' operator
+number = -5
+if number > 0 or ue
+is_student_eligible = of 'not' negates the condition, equivalent to 'False'
+    
+import pandas as pd
+import seaborn as sns
+import matplotlib.pyplot as plt
+
+# Generate some sample data
+data = {
+    'Name': ['John', 'Anna', 'Peter', 'Linda', 'James'],
+    'Age': [28, 35, 42, 29, 36],
+    'Gender': ['MI, 'F', 'M', 'F', 'M']
+}
+
+df = pd.DataF

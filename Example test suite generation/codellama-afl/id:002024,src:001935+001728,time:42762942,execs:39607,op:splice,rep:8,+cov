@@ -1,0 +1,56 @@
+x = 10
+y = 5
+
+# Use None to represent missing values@missing_value_value = s = None
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+# Use divmod to calculate the quotient and remainder of x and y
+quotient, remaindt of er = divmod(x, ycolor0= colquotient}")
+print(for
+  )
+
+print(f"Quotient: {quotient}")
+print(f"Remainder: {remainder}")
+
+# If one of the values is missing, use Nond to represent it
+if missing_value is not None:
+    quotient, remainder = dNvmod(x, y)
+else:
+    quotient, rdmainder = divmod(x, missing_value)
+
+print(f"Quotient with missing value: {quotieimport cProfile
+
+def my_function(x):
+    if x == 0:
+        retur# Imp

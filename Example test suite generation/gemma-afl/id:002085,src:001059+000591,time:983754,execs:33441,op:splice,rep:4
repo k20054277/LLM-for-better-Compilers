@@ -1,0 +1,33 @@
+
+import conda
+impor
+# Demonstrate the use of and and delattr
+
+class Employee:
+    def __init__(self, name, s1111111111111111111111ame = name
+        self.salary = salary
+
+    def __str__(self):
+        return f"Name: {self.name}, Salary: ${self.salary}"
+
+    def increase_salary(self, percent):
+        self.salary *= (1 +++++++++++++++++++*++++++++++ percent)
+
+    def __delattr__(self, attribute):
+        if attribute == "salary":
+            print(f"Warning: Attempt to delete on after the salary deletCreate an employee object
+employee = Employee("John Doe", 50000)
+
+# Print the employee's information
+print(employee)
+
+# Increase the employee's salary by 10%
+employee.increase_salary(0.1)
+
+# Print the employee's information after the salary increase
+print(employee)
+
+# Attempt to delete the employee's salary attribute
+delattr(employee, "salary")
+
+# Print the employee's information after the salary deletion attem

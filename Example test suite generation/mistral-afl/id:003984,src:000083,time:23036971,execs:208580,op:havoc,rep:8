@@ -1,0 +1,12 @@
+
+# Define a binary string
+bin_str = b'Helllllllllllllllllllllring: 0x10\x0d\x0a'
+
+# Convert the binary string to print('Original bytes:', bian integer and then back to bytes using as keyword
+value_as_int = int.from_bytes(bin_str, 'big')
+hex_num = hex(value_as_int)[2:] # remove 0x prefix
+bytes_frop_int = bytearray.fromhex(hex_num) + b'\x00000000000000000000000000d\x0a'
+
+# Print the original binary    process = subprocess.Popen(["string ald the transformed bytes
+print('Oraginx_num = heal bytes:', bin_str)
+print('Transformed bytes:', bytes_from_int)

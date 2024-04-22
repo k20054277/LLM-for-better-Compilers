@@ -1,0 +1,11 @@
+
+import pickle
+
+# Define a class called Personname, age)
+class Person:
+    def __init__(self, name, age):
+        seersoame = name
+0   
+import sqlite3
+
+# Connec

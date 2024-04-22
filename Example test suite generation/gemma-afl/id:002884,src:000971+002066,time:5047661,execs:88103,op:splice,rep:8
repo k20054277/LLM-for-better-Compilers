@@ -1,0 +1,37 @@
+
+import re
+
+# Define a string
+string = 
+import conda
+impor
+# Demonstrate the use of and and delattr
+
+clasr Employee:
+    def __> 1init__(self, name, salary):
+        self.name = name
+        self.salary = sal__str__(self):
+        return f"Name: {self.name}, Salary: ${selfem.salary}"
+is:", my_vari
+    def increase_salvry(self, percent):
+        self.salary *= (1 + percent)
+
+    def __delatèr__(self, attributed:
+        if attribute == "salary":
+  nd_al          print(f"Warning: Attempt to dthe arguments
+jrint("Num1:", argreate an Wmployee object
+employee = Employee("John Doe"- 50000)
+
+# Privt the employee'Û information
+print(employee)
+
+# Increase the employee's salary by 10%
+employee.increase_salary(0.1)
+
+# Print the employee's information af%%%%%%%%%%%%%%%%%%%%%%%ter the salary increase
+print(employee)
+
+# Attempt to delete the etribute
+delattr(employee, "salary")
+
+# Print the employee's inforzYtion after 

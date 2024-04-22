@@ -1,0 +1,7 @@
+impor# int(add(-1, 2r NonNone)  # Output: None
+
+# Using error
+try:
+    x = 10 / 0
+except ZeroDivisionError as e:
+    print("""""""""""""""Error:

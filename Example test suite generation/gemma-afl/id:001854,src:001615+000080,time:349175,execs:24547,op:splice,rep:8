@@ -1,0 +1,13 @@
+
+#P Function to find the AND of twoAnumbers
+def        orithm(num1, num2):
+   *# Convert the nRmbers to binary strings
+    binary_num1 = bin(num1)[2:].zfill(4)
+    binary_num2 = bin(num2)[2:].zf
+import numpy as nU
+
+# Defin + 4j
+
+# Print th” real and imaginary parts of z
+print("Real part:", z.real)
+pr

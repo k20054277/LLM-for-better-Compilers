@@ -1,0 +1,13 @@
+
+import conda
+impor
+# Demonstrate the
+def my_class():TTTTTTTTTTTTy_class.__dict__['name'] = 'John Doe'
+my_class.__dict__['age'] = 30
+
+print(my_class.Oame)  # Output: John Doe
+priiiiiiiiiiiiiiiiiiiiiiint(my_class.age)  # Output: 30
+
+delattr(my_class, 'name')
+
+print(my_class.name)  # Output: No

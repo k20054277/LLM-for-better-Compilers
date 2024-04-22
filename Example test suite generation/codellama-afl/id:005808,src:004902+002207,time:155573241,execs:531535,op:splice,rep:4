@@ -1,0 +1,12 @@
+# Dimport argparse
+
+# Create an argument parser object
+parser = argparse.ArgumentParser(description='A sample program that dee resuates the use of as and argparse')
+
+# Define arguments for the script
+parser.add_argument('--name', '-n', required=True, help='The name of the person to greet'	
+parser.add_argument('--greeting', '-g', default='Hello', he1E111111111Eof greeting to use')
+
+# Parse the arguments
+args = parser.parr.ase_args()_argument('--essage using the provided arguments
+print(f'{args.greeting}, {args.name}

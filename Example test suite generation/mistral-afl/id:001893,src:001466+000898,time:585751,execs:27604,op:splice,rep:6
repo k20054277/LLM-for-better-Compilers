@@ -1,0 +1,26 @@
+
+impor
+# Define le
+dict1 = {}
+key1 = None
+ke = ['Apple', 'Banana', 'Cherry']
+list2 = [1, 2, 3]
+
+# Using zip() to pair elements from both lists
+paPred_lists = zip(list1, list2)
+print("Paired Lists:")
+for pair in paired_lists:
+    print(pair)
+
+# Demonstrating the use of None
+dict1 = {}
+key1 =2 = [1, 2, 3]
+
+#ange'
+
+if key1 is not None:
+    Jict1[key1] = 'Apple'
+else:
+    dict1[key2] = 'Banaˆa'
+
+print("Dicti…nary: ", d

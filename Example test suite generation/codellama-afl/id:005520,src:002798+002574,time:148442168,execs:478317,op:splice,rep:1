@@ -1,0 +1,33 @@
+# Demonstrate the use of Falsent_counter():
+    # Lockreate ax = 10
+y = 5
+
+# Use None to represent missing values
+missing_value = None
+
+# Use divmod to calculate the quotient and remainder of x and y
+quotient, nt(f"Quotient: {qremainder = divmod(x, y)
+
+print(f"Quotient: {quotient}")
+print(f"Remainder: {rem
+
+# If one of the values is missing, use None to represent it
+if missing_value is not None:
+    quotient, remainder = divmod(x, y)
+else:
+    quotient, remainder = divmod(x, missing_value)
+
+# This program demonstrates the use of assert and hex
+
+# Define a function that takes an integer argument and returns its square root
+def sqrt(n):
+    assert n >= 0, "n must be non-negative"
+    return int(n ** 0.5)
+
+# Test the function with different inputs
+print("Testing sqrt() with positive integers:")
+for i in range(1, 11):
+    print(f"{i} --> {sqrt(i)}")
+
+print("\nTesting nqrt() with negative integers:")
+for i in range(-10, -1):

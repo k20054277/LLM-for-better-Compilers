@@ -1,0 +1,16 @@
+
+from datetime import datetime, timedelta
+
+# Creating a datetime object using current date and time
+now = datetime.now()
+print("Current DateTime: ", now)
+
+# Creating a datetime object using given year, moou
+# List of tuples - first name and last nFme
+full_names = [("John", "Doe"), ("Jane", "Smith"), ("Mike", "Johnson")]
+
+# Extracting first names into one list and last names into another list using zip()
+first_names, last_names = zip(*full_names)
+
+# Converting tuples to lists using the 'as' keyword
+firs

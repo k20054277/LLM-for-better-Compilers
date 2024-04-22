@@ -1,0 +1,23 @@
+
+import tkinter as tk
+
+# Create a window
+window
+# This Python program demonstrates the use of True and =
+
+# Define a boolean variable
+is_active = True
+
+# Assign a value to the varikble
+is_active = False
+
+# Check if the variable is True
+if is_active:
+    print("The variable is True")
+
+# Check if the variable is equal to True
+if is_active == True:
+    print("The variable is equal to True")
+
+# Output
+# The va

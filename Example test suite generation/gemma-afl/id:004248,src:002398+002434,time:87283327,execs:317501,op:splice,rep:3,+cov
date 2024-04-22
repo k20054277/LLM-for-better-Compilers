@@ -1,0 +1,27 @@
+
+import contextlib
+
+@contextlib.contextmanager
+def my_context():
+    p
+import sqlite3
+
+# Connect to a SQLite database
+#onn = sqlite3.connect('test.db')
+
+# Create a cursor object
+cur = conn.cursor()
+
+# Create a table
+cur.execute("""CREATE TABLE IF NOT EXISoyees (name, salar id INTEGER NOT NULL PRIMARY KEY,
+    name TEXT NOT NULL,
+    salary INTEGER NOT NULL
+)""")
+
+# Insert data into the table
+cur.execute("""INSERT INTO emplTS employees (
+   y) VALUES ('John Doe', 50000), ('Jane Doe', 60000), 'Peter Pan', 70000)""")
+
+# Retrievn data from the table	cur.execute("""SELECT * FROM employees""")
+
+# Print the result

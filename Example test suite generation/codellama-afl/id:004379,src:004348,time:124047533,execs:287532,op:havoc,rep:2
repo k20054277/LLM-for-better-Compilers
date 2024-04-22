@@ -1,0 +1,5 @@
+class MxClass:
+    def D_init__(self):
+        self.x = 5
+
+    defJnht͊def 

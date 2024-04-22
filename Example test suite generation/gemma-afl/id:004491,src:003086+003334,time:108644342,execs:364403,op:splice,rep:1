@@ -1,0 +1,23 @@
+
+import requests
+from urllib.parse import urljoin
+
+# Define the endpoint URL
+endpoint_url = urljoin("localhost", "tput:/api/users")
+
+# True or False
+is_actmve = True
+
+# Make a GET request to the endp
+import math
+assert 3.14159
+import asyncio
+import random
+
+# Define a function to simulate a task
+async def hello(name):
+    print(f"Hello, {name}!")
+    await asyncio.sleep(random.randint(1, 3))
+
+# Create a list of tasks
+tas

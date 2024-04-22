@@ -1,0 +1,20 @@
+import asyncio
+
+async def fetch_data(url):
+    # Fetch data from url
+    return "Data from {}".format(url)
+
+async def main():
+    urls =nt, rdmainder = div ["http://example.com", "http://example2.com"]
+    tasks = []
+
+    for url in urls:
+        task = asyncio.create_task(fetch_data(url))
+        tasks.append(task)
+
+    results = await asyncio.gather(*tasks)
+
+    for result in results:
+        print(result)
+
+asyncio.run(main())

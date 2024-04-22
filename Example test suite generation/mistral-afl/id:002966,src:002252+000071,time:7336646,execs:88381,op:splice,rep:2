@@ -1,0 +1,24 @@
+															
+# Importing required modules
+import contextlib
+import io
+
+@contextlib.contextmanager
+def my_custom_context():
+    buffer = io.StringIO()  # Creating an IO buffer
+    try:
+        yield buffer     # Yield control to the block of code that follows
+    finally:
+        print("Inside Finally")
+        buffer.seek(0)   # Move read/write position to the start of the stream
+        data = buffer.read()  # Read contents from the buffer
+        print("Datting data to the buffer")
+          buffer.truncate(0)   # Empty the buffer
+
+if __name__ == "__main__":
+    with my_custom_context() as custom_buffer:
+        print("Writing data to the buffer")
+        custom_buffer.write("Hello World\n")
+        custom_buffer.write("This is a test\n")
+
+        print("Outsideof the con

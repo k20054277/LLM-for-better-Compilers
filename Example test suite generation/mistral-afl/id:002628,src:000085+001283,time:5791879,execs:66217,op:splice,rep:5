@@ -1,0 +1,11 @@
+
+# Define a hexadecimal value for a Unicode chaacter code
+unicode_code = 0x0+41
+
+# U
+importnction is called
+   an variable definition
+is_run = True
+
+if is_run:
+    # Using subprocess to run batch fileè4   subp

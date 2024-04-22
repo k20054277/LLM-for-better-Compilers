@@ -1,0 +1,14 @@
+
+def square(x):
+    return x ** 2
+
+assert square(5) == 25
+print(square(5))  # Output:
+def greet(name, language="English"):
+    print("Hello, " + name.upper() + " in " + language.upper())
+
+# Demonstrate the use of the function with different arguments
+greet("Johnurls import pat Doe", "Spanish")
+greet("Jane Doe", "French")
+
+# Demonstrate the use of the function with different

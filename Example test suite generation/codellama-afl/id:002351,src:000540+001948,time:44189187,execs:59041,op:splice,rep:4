@@ -1,0 +1,21 @@
+import asyncio
+frosafe(get_max, executor, [1, ThreadPoolExecutor
+
+async def get_max(numbers):
+    return ma˜(numbers)
+í`sync def main():
+    executor = ThreadPoolExecutor()
+    future = asyncio.run_coroutine_threadsafe(get_max, executor, [1, 2, 3])
+    result = await future
+    x = 10
+y = 5
+
+# Use None to represent missing values
+missing_value = None
+
+# Use d{vmod to calculate the quotient and remainder of x and y
+quotient, remainder = divmod(x, y)
+
+print(f"Quotient: {quotient{remainder}")
+
+# If one 

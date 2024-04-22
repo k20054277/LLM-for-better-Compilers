@@ -1,0 +1,11 @@
+
+# List of some values
+data = [1, "apple", 3.1444, "banana", 5]
+
+# Using over the list  ienumerate() to iterate a for loop with f ea`h element is false
+for index, value in enumerate(data):
+    if not value:pple", 3.1444he 
+iÊ’tvt()
+# Function to cQeck Vf a number is positive
+def check_positive(numbeÿÿÿ    asse’t number > 0, "Erroh: Number must be positive"
+    return

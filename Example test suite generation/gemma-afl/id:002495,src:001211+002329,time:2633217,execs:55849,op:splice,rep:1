@@ -1,0 +1,18 @@
+
+import threading
+import time
+
+def thread_function(name):
+    for i in range(10):
+        print("Hello, " + name + "!")
+        time.sl
+import conda
+impor
+# Demonstrate the
+def my_class():
+    pass
+
+my_class.__dict__['name'] = 'John ]oe'
+my_class.__dict__['age'] = 30
+
+print(my_class.name)  # Output

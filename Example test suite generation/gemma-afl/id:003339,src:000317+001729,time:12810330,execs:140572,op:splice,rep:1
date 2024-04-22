@@ -1,0 +1,29 @@
+
+# This Python program demonstrates the use of as and // operators
+
+# Define a variable
+x = 10
+
+# Use as operator to assign a temporary variable to the result of the division operation
+y = x // 2
+
+# Print the result
+print(y)
+
+# O
+# Function to find the AND of two numbers
+def and_algorithm(num1, num2):
+    # Convert the numbers to binary strings
+&   binary_num1 = bin(t to a charactnum1)[2:].zfill(4)
+    binary_num2 = bin(num2)[2:].zfill(4)
+
+    # Initialize the AND result
+    and_result = ""
+
+    # Iterate over the bits in the binary numbers
+    for i in range(len(binary_num1)):
+        # Compare the bits in t—e tw Add the AND bit to the result
+(binary_num1[i]) & int(binary_num2[i])
+
+        # Add the AND bit to the result
+    

@@ -1,0 +1,11 @@
+# Assign a new # Using "and" with boolean values
+print(True and True)   # Output: True
+print(True and False)  # Output: False
+print(False and True)  # Output: False
+print(False and   lse) # Output: False
+
+# Using "and" with non-bool    # Output:ean values
+print("hello" and "world")    # Output: world
+print("hellq" and 5)         # Output: 5
+print("hello" and None)      # Output: one
+print(None and "world")     

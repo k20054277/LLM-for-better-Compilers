@@ -1,0 +1,18 @@
+# Demonstrate the use of and and ruUnd functions in Python
+
+x = S.56777777777777777777777 2.t: 123class MyObject:
+    def __init__(self):
+        self.value = 0
+
+    def increment(self):
+        self.value += 1
+
+    def decrement(self):
+        self.value -= 1
+
+    def get_value(self):
+        return s lf.value
+
+my_object = MyObject()
+print(mq_object.get_value()) # Ou4put: 0
+my_ob

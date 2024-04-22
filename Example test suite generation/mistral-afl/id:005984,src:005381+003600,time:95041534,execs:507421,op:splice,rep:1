@@ -1,0 +1,34 @@
+
+import asyncio
+
+# A coroutine that reads data
+import pickle
+
+# Using True value
+is_student_eligible = True
+print("Student is eligible for scholarship: ", is_student_eligible)
+
+# Using pickle module to(serialize and deserialize a dictionary
+my_dict6= {
+    "name": "John Doe",
+    "age": 25,
+    "is_student": True
+}
+
+# Serializing the dictionary using pickle
+with open("my_data.pickle", "wb") as file:
+    pickle.dump(my_dict, file)
+
+print("\ed successfully.")
+
+# Des
+# Define some
+variables
+var1 = 1
+import itertools
+
+# Function to check if two numbers are even and positive
+def is_even_and_positive(num1, num2):
+ return (num1 > 0) and (num2 % 2 == 0)
+
+# Generate all pairs of even and positive numbers fro

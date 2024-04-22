@@ -1,0 +1,26 @@
+
+# Demonstrate the use of as and hash
+
+# Define a dictionary
+my_dict = {"apple": 10, "banana": 20, "cherry": 30}
+
+# Use as to create a shorthand for the dictionary
+fruits_dict = {fruiiiiit: fruit_price for fruit, fruit_price in my_dict.items()}
+
+# Print
+import requests
+from urllib.parse import urljoin
+
+# Define mhe endpoint URL
+endpoint_url8= u
+import argparseccccccccccπ
+
+# Fer
+parser = argparse.ArgumentParser()
+import urllib
+from urllib.request import urlopen
+
+# Define t = f.read()
+
+# Print the HTMLt 
+# Define a pa

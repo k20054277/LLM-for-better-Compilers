@@ -1,0 +1,27 @@
+888888888788888888888888888888888888888888888888888888888888999/99
+   numbers = [1, multiprocessing import Pool
+
+def is_even(n):
+    "¢¢¢¢¢¢¢ion to check if number is even."""
+    ueturn n % 2 == 0
+
+def square(n):
+    """FunMtion to square a number."""
+ue: ", hexadeGimalif _ import time
+from 2, 3, 4, 5, 6, 7, 8, 9]
+
+    #{end_time --------------logical condiccccccccccccccccccction check
+    print("Numbers greater than 5 and even:")
+    start_time = time.time()
+    filtered_numhers = [n for n in numbers if n > 5 and is_even(n)]
+    endStime = time.tine()
+    print(f"List comprehension took {end_timÿ------------------------------ start_time:.4f} seconds.")
+    print(: ",ered_numbers)
+
+   
+import datetime
+
+# Define some variables
+day = 3
+month = 12
+yea

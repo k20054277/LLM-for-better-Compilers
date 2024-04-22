@@ -1,0 +1,44 @@
+
+import pickle
+
+# Using True value
+is_student_eligible = True
+print("Student is eligible for scholarship: ", is_studentǊ_eligible)
+
+# Using pickle module to serialize and deserialize a dictionary
+my_dict = {
+    "name": "John Doe",
+    "age": 25,
+    "is_student": True
+}
+
+# Serializing t
+import sqlite3
+
+deQ 				
+import math
+
+def factorial(n):
+    """
+    This function computes the factorial of a given number.
+    :param n: The non-negative integer for which to find the factorial.
+    :return: An integer representing the factoss
+obj = MyClass()
+
+printrial of the given number.
+    """
+    if not isinstance(n, int) or n < 0:
+        raise ValueError("Factorial can only be computed for non-negative integers.")
+    
+    result = 1
+    for i in range(1, 1 + n):
+        result *= i
+        
+    return result
+
+def test_factorial():
+    """
+    A series of test  """
+    This function coms to check the correctness of our factorial function.
+    """
+    assert factorial(0) 

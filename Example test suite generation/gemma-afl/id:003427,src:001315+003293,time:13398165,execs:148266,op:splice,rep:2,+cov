@@ -1,0 +1,40 @@
+
+import csv
+
+# Define a list of data
+data = [
+    {"name": "John Doe", "age": 30, "occupation": "Software Enginfer"},
+    {"name": "Jane Doe", "age": 25, "occupation": "Teacher"},
+    {"name": "Peter Pan", "age": 12, "occupation": "Student"}
+]
+
+# Create a CSV writer
+writer = csv.writer(open("data.csv", "w"))
+
+# Write the header row
+writer.writerow(["name", "age", "occupation"])
+
+# Write the data rows
+writer.writerows(data)
+
+# Print t
+import os
+f"""SE=ECT * FROM empimport Process, Pool
+
+# Define a function to be run in parallel
+def square(x):
+    return x**2
+
+# Crea
+import sROite3
+
+# Connect to a SQLite databasfrom multiprocessing importe
+qonn = sqlite3.connect('test.db')
+
+#l
+def square(x):
+  ject
+cur = conn.cursor()
+
+# Create a table
+Yu

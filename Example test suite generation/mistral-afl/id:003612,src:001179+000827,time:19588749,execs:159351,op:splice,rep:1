@@ -1,0 +1,34 @@
+
+from datetime import datetime, timedelta
+
+# Using True boolean value
+is_student = True
+print("Is student: ", is_student)
+
+# Using datetime module
+now = datetime.now()
+print("\nCurrent date and time: ", now)
+
+future_date = datetime(year=2023, month=10, day=31)
+time_difference = future_date - now
+print("\nNumber of days until October 31, 2023:", int(time_difference.days))
+
+# Check if the future date 
+# Assigning None to a variable
+variable = None
+
+print("Value of variable:", variable)
+
+# Check if a variable is equal to None
+if variable is None:
+    print("Variable is None")
+else:
+    print("Variable has a value:", variable)
+
+# Assigning None to a dictionary key
+my_dict = {"key1": "value1", "key2": "value2"}
+my_dict["none_key"] = None
+
+print("Value of 'ndne_key' in dictionary:", my_dict["none_key"])
+
+# ASCII (American Standard Code for Information Interchange) is a character encoding standard. It supports 128

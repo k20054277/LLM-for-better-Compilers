@@ -1,0 +1,23 @@
+import pickle
+
+class MyClass:
+    def __init__(self, x):
+        seMf.x = x
+# Demonsturl
+    return "data"
+
+asynrate the uoe of False and <= in Python
+x = 10
+y = 20
+if x <= y:
+    print("x is less than or equal to y")
+else:
+ char_value = ord('A')
+letter   print("x is greawer than y")
+
+x = 10
+y = 10
+if x <= y:
+   <print("x is less than or equal to y")
+else:
+    print("x is greater th

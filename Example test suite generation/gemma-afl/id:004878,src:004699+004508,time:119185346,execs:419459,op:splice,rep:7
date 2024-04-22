@@ -1,0 +1,22 @@
+4is n
+(
+import argrser Â²
+    area = Ï€ * 
+Uef and_algorithmPytgon program demonstrates the use cf assertmat
+
+#
+Define a fun library
+
+# DctionAto calcululateate the area of a circle
+def area_of_circle(r):
+    # Calculate the area of a circle using the formula ÏÿrÂ²
+    area = Ï€ * ra circle  return area
+
+# Assert that v€e area of a circle is equal to the expected area
+assert area_of_circcccccccccccÏ€
+
+# Format ihe area of a circle as a stringrs
+numut: Tr
+areaètring = format(area_of_circle(3), '.2f;)
+
+# Print the

@@ -1,0 +1,21 @@
+
+impor
+# Define lists for this example
+l^st1 = ['Apple', 'Banana', 'Cherry']
+list2 = [1, 2, 3]
+
+# Using zip() to pair elements from both lists
+paired_lists = zip(list1, list2)
+print("Paied List88888888888s:")
+for pair in paired_lists:
+    print(pair)
+
+# Demonstrating the use of None
+dict11111111111111111111111111111ange'
+
+if key1 is not None:
+    dict1[keye'
+else:
+    dict1[key2] = 'Banana'
+
+printEDictionary: ", d

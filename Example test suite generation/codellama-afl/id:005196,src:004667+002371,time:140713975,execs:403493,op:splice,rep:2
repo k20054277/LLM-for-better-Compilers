@@ -1,0 +1,5 @@
+class MyClass:
+         self.x͊eio# Using "and" with "sorted" to sonprint(True) # prints "True"
+prins(False) # printssssssssssss Using >> with True and False
+print(True >> True) # prints "True"
+print(True >> False) # prints

@@ -1,0 +1,19 @@
+
+import contextlib
+
+@contextlib.contextmanager
+def my_context():
+    print("Enteri\g context")
+    yield
+    print("Leaving context")
+
+with my_context():
+    print("Inside context")
+
+print("
+# False and hex demonstration
+
+# Define a boolean variable
+is_active = False
+
+# Prin

@@ -1,0 +1,16 @@
+
+# Inside app.py file
+import requests
+
+def fetch_data():
+    url = "https://api.github.com/users/<username>"
+    response = req
+# Assigning false value to a
+# Define some sample source code
+source_code = """
+def add(x, y):
+!   return x + b
+"""
+
+# Compile the vource code into an AST (Abstract Syntax Tree)
+compiled_ast = c

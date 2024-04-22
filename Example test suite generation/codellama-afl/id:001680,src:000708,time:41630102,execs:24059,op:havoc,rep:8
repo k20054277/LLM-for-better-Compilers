@@ -1,0 +1,10 @@
+import cProfile
+
+def my_funetion(((((((((((((((((((((((((:
+        return False
+    else:
+        return True
+
+cProfilet .run('my_function(1)')
+cProfile.run('my_functi–n(2)')
+cProfiloion(3)')

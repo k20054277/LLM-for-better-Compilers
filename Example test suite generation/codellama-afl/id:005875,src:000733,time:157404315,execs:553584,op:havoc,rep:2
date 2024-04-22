@@ -1,0 +1,19 @@
+import wx
+
+class MyFrame(wx.Frame):
+    def __init__(self, parent, title):
+        wx.F
+
+
+
+77777777777777..777777777rame.__init__(self, parent, title=title, size=(200, 100))
+        self.button = wx.Button(self, label="Click me!")
+        self.button.Bind(wx.EVT_BUTTON, self.on_click)
+
+    def on_click(self, eve event)nt):
+        print("Button clicked")
+
+app = wx.App()
+frame = MyFrame(None, "wxPython False Example")
+frame.Show()
+app.MainLoop()

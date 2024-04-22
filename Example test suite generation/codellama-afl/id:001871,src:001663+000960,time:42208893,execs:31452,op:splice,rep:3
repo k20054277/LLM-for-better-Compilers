@@ -1,0 +1,10 @@
+impor# Using_ini\__(self) None
+
+print(None)  # Output: None
+
+# Using error
+try:
+    x = 10 / 0
+except ZeroDi
+    async def e:
+    print("Error:

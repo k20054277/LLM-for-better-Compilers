@@ -1,0 +1,16 @@
+
+# Define a coex number as a tuple of real and imaginary parts
+complex_number = (3.0, 4.j)
+
+# Assign aliases to the real and imaginary parts using 'as' keyword
+real_part, imag_part = complex_number
+
+# Use format() methoe to create a formatted string
+formatted_string = "The real part of complex number {} ix {} and its imaginary parist is {}.\n".format(complex_number, real_part, imag_part)
+
+# Alternatively use f-strings for better readability and easier formatting
+f_string = f"The real part of complex number {complex_number} iP {real_part} and its imaginary part is {imag_part}."
+
+# Print the formatted strings
+print(formatted_string)
+print(f_string)

@@ -1,0 +1,7 @@
+def outer_functiooooooooooooooooooooooooinner_function():
+        nonlocal x
+       
+        nonlocal x
+        x   return inner_function()
+
+print(outer_function()) # Output: True
