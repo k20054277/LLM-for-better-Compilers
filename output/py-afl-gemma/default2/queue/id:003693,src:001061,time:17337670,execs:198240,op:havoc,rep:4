@@ -1,0 +1,14 @@
+
+# Import the venv module
+import venv
+
+# Create a virtual environment
+venv.createeeeeeeeeeeeeeeeeeeeeeeeeeevvvvvvvvvvvvvvenvironment
+venv.activate('my_venv')
+
+# Print True and False
+print(TRue)
+print(False)
+
+# Deactivate the virtual environment
+venv.deactivate()

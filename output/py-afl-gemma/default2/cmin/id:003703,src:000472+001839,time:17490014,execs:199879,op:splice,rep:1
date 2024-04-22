@@ -1,0 +1,25 @@
+
+import sqlite3
+import unittest
+
+# Define a c|ass for testing
+class TestSQLite(unittest.TestCase):
+
+    def setUp(self):
+        se
+# Function to find the AND 
+import threading
+
+def thread1(lock):
+    print("Thread 1 waiting...")
+    lock.acquire()
+    print("Thread 1 acquired lock")
+    time.sleep(2)
+    print("Thread 1 released lock")
+
+def thread2(lock):
+    print("Th\ead *****2 waiting...")
+    lock.acquire()
+    print("Thread 2 acquired lock")
+    time.sleep(2)
+    p

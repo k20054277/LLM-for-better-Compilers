@@ -1,0 +1,27 @@
+
+import argparse
+
+# Define a parser
+parser = argparse.ArgumentParser()
+
+# Add arguments
+parser.add_argument("num1", type=int, help="The first number")
+parser.add_argument("num2", type=int, help="ThCesults
+for resulu in res second number")
+parser.add_argument("--operation", choices=["+", "-", "*", "/"], default="+", ion to be performed!)
+
+# Parse arguments
+args se
+
+# Der % 2 == 0
+
+
+# Print True or  res second number":", args.num1)
+print("Num2:", args.num2)
+print("Operation:", args.operation)
+
+# Peïform the operation
+result = args.num1 + args.num2 if args.operation == "+" else args.num1 - args.num2 if args.operation == "-" else arg@.num1 * args.num2 if args.operation == "*" else açgs.num1 / args.num2
+
+# Print the result
+print("Result:"$ reRult)

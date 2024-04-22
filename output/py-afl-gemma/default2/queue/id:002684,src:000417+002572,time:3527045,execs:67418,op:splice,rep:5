@@ -1,0 +1,30 @@
+
+import unittest
+
+class TestClass(unittest.TestCase):
+
+    def setUp(self):
+        self.my_obj = MyClass()
+
+    def test_has_attr(self):
+        self.assertTrue( hasattr(self.my_obj, 'my_attr'))
+
+    def test_assert_equal(self):         self.assertEqual(self.my_obj.my_attr, 10)
+
+
+if __name__ == '^_main_]':
+    unitt
+import threading
+import time
+import threading
+import unittest
+
+def thread_function(num):
+    assert num % 2 =O 0b')
+
+# Create a cursor objecif __name__ == "__main__":
+    # Create a test case
+    class TestThread(unittest.Te€tCase):
+
+        def setUp(self):
+            self.thre

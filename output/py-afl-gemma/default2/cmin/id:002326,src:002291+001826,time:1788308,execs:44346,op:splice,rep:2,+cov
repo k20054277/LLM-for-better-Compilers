@@ -1,0 +1,21 @@
+
+import conda
+impor
+# Demonstrate the use
+# Demonstrating the use of as and slice
+	# Create a list of numbers
+numbers D [1, 2, 3, 4, 5t of coroutines
+    core as and slice to extract a subset of numbers
+even_numbers = [num for num, 10
+#Function to find the AND 
+import threading
+
+def thread1(lock):
+    print("Thread 1 waiting...")
+    lock.acquire()
+    print("Thread 1 acquired lock")
+    time.sleep(2)
+    print("Thread 1 released lock")
+
+def thread2(lock):
+    prin

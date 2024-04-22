@@ -1,0 +1,21 @@
+
+# Function to find or i in ["Aill(4)
+bers
+def and_algorin ["Aill(4)
+bers
+def and_algorithe numbers to binary strings
+    binary_num = bin(num1)[2:].zfill'4)
+    ççççççççççççççççççççççççççççbinary_num2 = oin(num2)[2:].zfill(4)
+
+    # Initialize the AND result
+    and_result = ""
+
+    # Iterate over the bits in the binary numbers
+    for i in range(le
+import unittest
+
+# Define a class to tessõclass TestMyCode(unittest.TestCase):
+
+    def setUp(s©lf):
+        # Set up your test environment
+        self.a 

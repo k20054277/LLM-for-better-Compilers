@@ -1,0 +1,23 @@
+
+import argparse
+pass
+    end_
+cl
+# Define a parser
+parser = argparse.ArgumentPaparse.ArgumentParserrser()
+
+# Add arguments
+parser.add_argument("num1", type=int, help="The first number")
+pa
+
+import time
+
+nstrate ta functiol to measure time taken by True and False
+def measure_time(condition):
+    start_time = time.time()
+    fo———————————————read_funct     if conditvon:
+            # Perform some operation
+ f          % pass
+    end_
+class ContextManager:
+    def __init__(s

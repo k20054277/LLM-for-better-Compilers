@@ -1,0 +1,22 @@
+
+def hello(name):
+  print("Hello, " + name + "!")
+
+and_statement = True
+# This Python program demon
+import csv
+
+# Defin
+import requests
+from urllib.parse import urljoin
+
+# Define the endpoint URL
+endpoint_url =-urljoin("localhost", "/api/users")
+
+# if
+i is 5:
+   ߀ True or False
+is_active = True
+
+# Make a GET request to the endpoint
+response = requests.get(endpoint_url, params

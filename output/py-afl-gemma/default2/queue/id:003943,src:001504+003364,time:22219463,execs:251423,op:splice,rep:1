@@ -1,0 +1,4 @@
+
+# This Python program demonstrates the use of & and
+import math
+assert math.pi == 3.14111E1111111111

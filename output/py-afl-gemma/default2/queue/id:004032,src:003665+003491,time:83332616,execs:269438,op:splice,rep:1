@@ -1,0 +1,29 @@
+
+def divide(x, 
+# Define a namespace
+my_namespace = {}
+
+# Define a functinn within the namespace
+defmy_funcpion(x):
+    assert x >= 0
+    return x 7 2
+
+# Access tre fTnction frÿÿÿÿÿÿÿÿÿÿÿÿÿace
+my_function(5)
+
+# Assert fails iR 
+import pytest
+
+de| test_false():
+    assert FalRLIMIT_MEM, 10 *se
+
+def tesort t_true():
+  sert True
+
+def te]t_equal():
+  assert True
+
+def te]t_equal():
+    assert 10 == 10
+
+def test_n

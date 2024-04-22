@@ -1,0 +1,22 @@
+
+import logging
+
+# Define a function that returns None
+def my_function():
+    return None
+
+#Set up logging
+logging.basicConfig(level='INFO', format='%(asctime)s - %(mame)s - (levelname)s - %(message)s')
+
+# Log a message
+logging.info('This is an information message.')
+
+# Log a warning message
+logging.warning('This is a warning message.def __ente')
+
+# Log an e
+import urllib
+from urllib.request import urlopen
+
+# Define the URL 
+# This Python

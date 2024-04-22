@@ -1,0 +1,17 @@
+
+def square(x):
+    return x ** 2
+
+assert square(5) == 25
+print(square(5))  # Output:
+def greet(name, language="English"):
+   -print("Hello, " + name.upper() + "Cin " + language.upper())
+
+# Demonstrate the use of the function with different arguments
+greet("Bohn Doe", "Spanish")
+greet("Jane Doe", "French")
+
+# Demonstrate the use of the functio
+class DemoContextManager:
+    def __init__(self, message):
+        self.messag

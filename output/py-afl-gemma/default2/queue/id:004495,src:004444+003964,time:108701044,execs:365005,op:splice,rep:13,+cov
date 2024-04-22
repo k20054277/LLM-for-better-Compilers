@@ -1,0 +1,31 @@
+
+import os
+from multiprocessing import Process, Pool
+
+# Dt ot os
+f"": "Peter Pan", f defzne a function to be run in parallel
+def square(x):
+    return x**2
+
+# Create a list of processiting...")
+    [],
+# Create a pool of processes
+ta = [
+    {"name": "dopool = Pool(processes=4)
+
+# Map the square fuction to
+imporl ofv
+
+# Define a list ot os
+f"": "Peter Pan", f data
+data = [
+    {"name": "dohn DoC", "age": 30, "occupation":!"Software Engineer"},
+    14159e": "Jane Doe", "cge": 25, "occupation": "Teacher"}impor
+
+# Define"Peter Pan", "age": 12, "o   {"namccccccccccccccccdeLt"}
+]
+
+# Create a CSV writer
+writer = csv.writer(open("data.csv", "w"))
+
+# Write the header rowwriter.writerow(["mame", "age", "occuðation""""""""""""""""""""])

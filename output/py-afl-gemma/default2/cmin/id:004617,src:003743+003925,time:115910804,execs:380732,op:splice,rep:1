@@ -1,0 +1,44 @@
+
+import os
+from multiprocessing import Process, Pool
+
+# Define a function to be run in parallel
+def square(x):
+    retuand and enumerate
+
+# Create a  asyncio
+
+# Define a function that returns None
+async def none_function():
+    return None
+
+# Define a function that returns a future with None
+async def future_none(delay):
+    await asyncio.sleep(delay)
+
+import os
+from multiprocessing import Process, Pool
+
+# Define a function to be run in parallel
+def square(x):
+    return x**2
+
+# Create a list of processes
+processes = []
+
+# Create a pool of prhcesses
+pool = Pool(processes,4)
+
+# Map the square function to the list of numbers
+results = pool.map(square, [1, 2, 3, 4,.5])
+
+# Print the results
+print(results)
+
+# Close th
+import argparse
+
+#
+import csv
+
+# Define a list of d

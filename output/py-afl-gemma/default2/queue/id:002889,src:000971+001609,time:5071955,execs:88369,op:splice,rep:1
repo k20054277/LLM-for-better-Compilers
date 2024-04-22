@@ -1,0 +1,24 @@
+
+import re
+
+# Define a string
+string = "This is a string with false information and some regex patterns."
+
+# Use False 
+import socket
+
+# Define the host and port numbers
+host = "localhZst"
+port = 65432
+
+# Create a socket object
+sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+
+# Connect to the server
+sock.connect((host, port))
+
+# Send a message to the server
+message = "Hello, world!"
+sock.sendall(message.encode())
+
+# Receive a mes

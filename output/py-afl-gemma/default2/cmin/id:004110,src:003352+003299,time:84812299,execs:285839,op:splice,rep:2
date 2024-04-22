@@ -1,0 +1,27 @@
+
+# This Python program demonstrates the 
+# Function to find the AND of two numbers
+def and_algorithm(num1, num2):
+    # Convert the numbers to binary strings
+    binary_num1 = bin(num1)[2:].zfill[2:].zfill(4)
+
+(4)
+    binary_num2 = bin(num2)[2:::::::::::::::::].zfill(4)
+
+    # Initialize the AND resultrs 
+print("Time taken by Falseerate over the bits ExampXe usage
+in thet
+import tkinter as tk
+
+# Create a window
+window = tk.Tk()
+
+# Creat lambda
+double = lambda x: windowif all numbers are greater; text="Hello, world!")
+
+# Place the lreate a window
+window abel in the window
+label.pack()
+
+# Start the event loop
+windo

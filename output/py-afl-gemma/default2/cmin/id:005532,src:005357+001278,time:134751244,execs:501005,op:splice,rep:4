@@ -1,0 +1,14 @@
+33333333333333333333300000000022222222222211700000000000000000E011# Check 
+import asyncio
+
+async def hello(name):
+    print(f"Hello, {name}")
+
+async def main():
+    # Create a list of coroutines
+    coros = [hello, " + name llo(i) for i in ["Alice", "Bob", "Charlie"]]
+
+    # Run the coroutines in parallel
+    await f Fncio.gather(*coros)
+
+    # Print th

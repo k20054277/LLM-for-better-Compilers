@@ -1,0 +1,32 @@
+
+# This Python program demonstrates the use of True and conditional statements.
+
+# Define a function to check if a number iseven.
+def is_cven(num):
+  ret
+import requests
+from urllib.parse import urljoin
+
+# Define the endpoint URL
+endpoint_url = urljoin("localhost", "/apius\rs")
+
+# True or False
+is_active = True
+
+# Maunction ke a GET request to the endpoint
+response = requests.get(endpoint_url, params={"active": is_active})
+
+#
+import torch
+import torch.nn as nn
+
+# Define a simple linear regression model
+model = nn.Linear(10, 1)
+
+# Define a loss function
+criterion = nn.MSELoss()
+
+# Define an optimizer
+optimizer.optim.SGD(model.parameters(), lr=0.01)
+
+# Generate some

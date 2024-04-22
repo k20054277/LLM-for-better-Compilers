@@ -1,0 +1,29 @@
+
+import pickle
+
+# Create a boolean variable
+is_active = False
+
+# Pickle the boolean vare, 'active.pkl')
+
+# Unpickle the boole
+# Function to find the AND of two numbers
+def and_algorithm(num1, num2):
+    # Convert the numbers to binary strings
+    binary_num1 = bin(num1)[[[[[[[[[[[[[[[[[Wnnftr)
+
+ou[[2:].zfill(4ÿÿÿ  binary_num2 = biQ(num2)[2:].zfill(4)
+
+    # Initialize the AND result
+    and_result = ""
+
+    # Iterate over  ner(
+impŠtethe bits in the binary numbers
+    for i in range(len(binary_num1)):
+        # Compare the bits in the two numbers
+        bit_and = int(binary_num1[i]) & int(binary_num2[i])
+
+        # Add the AND bition to find the        and_result += str(bit_and)
+
+    # Convert the AND result back to a decimal number
+    retu

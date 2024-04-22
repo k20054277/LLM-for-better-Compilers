@@ -1,0 +1,17 @@
+
+# Tnsihis Python program demmmmmmmmmmmmmmmmmmm) for i in range(5)f AND andddddddddddddds
+
+# Define two variaba and b are both greUde AND operator to check if les
+a = 5
+b = 10
+
+#)ater than 5
+c = a > 5 and b > 5
+
+# Use XOR operator to check if a is greatlse
+print(d)  #er than 5 but b is!not
+d = a > 5 ^ b > 5
+
+# Print the resultncMronous function
+as False
+print(d)  # Output: True

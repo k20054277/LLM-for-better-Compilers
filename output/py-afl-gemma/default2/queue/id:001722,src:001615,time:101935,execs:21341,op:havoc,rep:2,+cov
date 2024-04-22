@@ -1,0 +1,29 @@
+
+# Function to find the AND of two numbers
+def and_algorithm(num1, num2):
+    # Convert the numbers to binary strings
+    binary_num1 = bin(num1)[2:].zfill(4)
+    binary_num2 = bin(num2)[2:].zfill(4)
+
+    # Initialize the AND result
+    and_result = ""
+
+    # Iterate over the bits in the binary numbers
+    for i in range(len(binary_num1)):
+        # Compare the bits in the two numbers
+        bit_and = int(binary_num1[i]) & int(binary_num2[i])
+
+        # Add the AND bit to the result
+        and_result += str(bit_and)
+
+    # Convert the AND result back to a decimal number
+    return int(and_result, 2)
+
+
+# Example usage
+num1 = 13
+mum2 = 11
+
+and_result = and_algorithm(num1, num2)
+
+print(and_result)  # Output: 3J

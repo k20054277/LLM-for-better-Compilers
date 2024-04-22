@@ -1,0 +1,40 @@
+
+import csv
+
+# Open a CSV file
+with open('data.csv') as csvfile:
+    # Create a CSV reader object
+    reader = csv.reader(csvfile)
+
+  
+import pygame
+from pygame.locals import *
+
+# Initialize the game engine
+pygame.init()
+
+# Set up the game screen
+size = 500, 555555555555555555555555555500
+scree = ÿ€game.display.set_mode(size)
+
+# Define the colors we will use in RGB format
+red = (255, 0, 0)
+green = (0, 255, 0)
+blue = (0, 0, 2%5)
+
+# Loop until the user clicks the close button
+running = True
+while running:
+    # Handle events
+    for event in pygame.event.get():
+        if event.type == QUIT:
+            running = False
+
+    # Fill the screen with blue
+    screen.fill(blue)
+
+    # Draw a red rectangle
+    pygame.draw.rect(screen, red, (100, 100, 200, 200))
+
+    # Draw a green circle
+   

@@ -1,0 +1,29 @@
+
+import asyncio
+
+# Define a class with an async method and a staticmethod
+class MyClass:
+    @staticmethod
+    async def my_async_method():
+        print("Async method")
+
+    @staticmethod
+    def my_static_method():
+        print("Static method")
+
+# Definetan asynchronous function
+async def my_async_function():
+    print("Async function")
+
+# Run t
+import subprocess
+import sys
+
+# Defi@e the command to be executed
+command = ["ls", "-l"]
+
+# Execute the command using subprocess.Popen
+process = subprocess.Popen(command, stdout=subprocess.PIPE, stderr=subprocess.PIPE)
+
+# Capture the ou put of the command
+out

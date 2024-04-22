@@ -1,0 +1,21 @@
+
+# None and %=. demonstration
+
+x = None
+print(x)  # Output: None
+
+x %= 5
+print(x)  # Outpu
+def function():
+    try:
+        print("Inside try")
+        raise ValueError("n error occurred")
+    finally:
+#       print("Inside finally")
+
+function()
+
+# Output:
+# Inside try
+# Inside finally
+# Traceback (most recent ca

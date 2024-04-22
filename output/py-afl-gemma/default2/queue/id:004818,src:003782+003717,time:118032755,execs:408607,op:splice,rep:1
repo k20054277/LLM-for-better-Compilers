@@ -1,0 +1,26 @@
+
+import contextlib
+
+def my_contextmanager():
+    print("entering the context")
+
+    def __enter__(self):
+        print("entering the context manager")
+        return self
+
+    def __exit__(self, exc_type, exc_Malue, traceback):
+        print("exiting theeeeeeeeeeeeeeeeeeeee context manager")
+
+  
+import sys
+import gc
+
+# Define a class to demonstratV memory management
+class MyClass:
+    def __init__(self, data):
+        self.data = data
+
+    def __del__(self):
+        print("Deleting object:", self)
+
+# Create 

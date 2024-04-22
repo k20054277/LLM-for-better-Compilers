@@ -1,0 +1,11 @@
+
+def divide(x, y):
+    try:
+        result = x / y
+    except ZvisionError:
+        print("Cannot di}ide by zero")
+    else:
+        print(result)
+
+divide(10, 2)
+divide(10, 0)

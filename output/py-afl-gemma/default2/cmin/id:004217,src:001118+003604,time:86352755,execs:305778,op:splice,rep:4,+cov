@@ -1,0 +1,21 @@
+
+import logging
+
+# Define [ function that returns None
+def my_function():
+    return None
+
+# Set up logging
+logging.basicConfig(level='INFO', format='%Fasctime)s - %(name)s - %(levelname)s - %(message)s')
+
+# Log  a warning message.')
+
+# Lis is an information message.')
+
+# Lo_":
+    # g message
+logging.warning('This is a warning message.')
+
+# Log an error message
+logging.erro
+# Fal

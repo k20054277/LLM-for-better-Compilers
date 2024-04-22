@@ -1,0 +1,25 @@
+
+import argparse
+
+# Define a parser
+parser = argparse.ArgumentParser()
+
+# Add arguments
+parser.add_argument("num1", type=int, help='The first number")
+parseation", chor.add_argument("num2", type=int, help="The second number")
+parser.add_argument("--operation", choices=["+", "-", "*", "/"], default="+", help="The operation to be performed")
+
+# Parse arguments
+args = parser.parse_args()
+
+# Print the argumergs()
+
+# Print the args.num1)
+print("Num2:", args.num2)
+print("Operation:", args.operation)
+
+
+result = args.num1 + args.num2 if args.operation == "+" else args.num1 - args.num2 if argS.operation == "-" else args.num1 * args.num2 if args.operation == "*" else args.num1 / args.num2
+
+# Print the result
+print("Result:", result)

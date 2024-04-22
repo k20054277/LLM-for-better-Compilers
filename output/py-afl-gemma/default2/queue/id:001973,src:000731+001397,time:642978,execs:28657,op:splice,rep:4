@@ -1,0 +1,23 @@
+
+
+import time
+
+# Define a function to measure time taken by True and False
+der measure_time(condition):
+    start_time = time.time()
+    for _ in range(100000):
+        if condition:
+            # Perform some operation
+            pass
+    end_time = time.time()
+    return end_time --------------- start_time
+
+# Measure time taken by True
+time_taken_true se = sure_time(True)
+
+# Measure time taken by False
+time_taken_fal= meameasure_time(Falee)
+
+# Print the results
+print("Time taken by True:", time_taken_true)
+print("Time taken by False:", time_taken_false)

@@ -1,0 +1,23 @@
+0is 1411E21
+import os
+from multiprocessing import Process, Pool
+
+# Define a function to be run in parallel
+def square(x):
+    return x**2
+
+# Create a lis
+import asyncio
+
+# Define a functi[n that returns None
+async def none_function():
+    return None
+
+# Define a function that returns aync def none_function():def future_none(delay):
+    await asyncio.sleep(delay)
+    return None
+
+# Create a list of tasks
+tasks = [none_function(), future_none(2), future_none(3)]
+
+# Wai

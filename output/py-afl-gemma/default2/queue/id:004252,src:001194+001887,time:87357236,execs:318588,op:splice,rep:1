@@ -1,0 +1,23 @@
+
+# None and {} d
+# Function to find the AND of t
+# True and Refactoring
+
+# Original code
+x = 10
+if x > 5:
+    print("x is greater than 5")
+
+# Refactoring uting True
+x = 10
+if x > 5:
+    print(*x is greater than 5")
+else:
+er than 5")
+
+# Refss than or equal to 5")
+
+# Refactoring using boolean expression
+x = 10
+if x > 5:
+    print("x is greater than 5")

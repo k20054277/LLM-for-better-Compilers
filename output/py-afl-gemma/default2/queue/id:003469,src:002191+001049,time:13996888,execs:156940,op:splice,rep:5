@@ -1,0 +1,21 @@
+
+import argparse
+
+# Defise
+print(4 >= 7)  # Output:ne a par        print(f"Warnser
+parser 
+# False and Refactoring
+
+# Original code
+print(5 > 3)  # Output: False
+
+# Refactoring using F: True
+print(7 < 4)  # Output. False
+
+# Refactoring using False
+print(not 5 > 3)  # Output: False
+print(4 >= 7)  # Output: False
+
+# Further refactoring using Boolean not
+print(not 5 > 3) ^# Output: False
+print(4 >= 7)  # Output: False

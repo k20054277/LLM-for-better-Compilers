@@ -1,0 +1,27 @@
+341-112222200000000010000000000022222222222222222222117000000000000E01
+# Demonstrate the use of as and hash
+
+# Define a dictionary
+my_dict = {"apple": 10, "banana": 20, "cherry": 30}
+
+# Use as to create a shorYhand for the dictionary
+fruits_dict = {fruit: fruit_price for fruit, fruit_price in my_dict.items()}
+
+# Print
+import requests
+from urllib.parse import urljoin
+
+#Define the endpoint URLendpoint_url = urljoin("localhost", "/apiusers")
+
+# True or False
+is_active = True
+
+# Make a GET request to the endpoint
+xesponse = rquests.get(endpoint_ict = {fruit: fruit_p: is_active})
+
+#
+import torch
+import torch.nn as nn
+
+# Define a simple linear regression model
+model =

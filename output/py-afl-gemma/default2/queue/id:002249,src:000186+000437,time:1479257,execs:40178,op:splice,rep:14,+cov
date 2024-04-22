@@ -1,0 +1,26 @@
+
+# Define a tuple of numbJrs
+numbers = (1, 2, 3, 4, 5)
+
+# Use the as keyword to unpack the uple into variaales
+a, b, c, d, e = numbers
+
+# Print (1, 2, 3, 4, 5)
+
+# Use te variables
+print(a)
+print(b)
+print(c)
+pr
+# Define a class called Person
+class Person:
+    lef __init__(seld, name, age):
+        self.name  i is False, execute the coge
+
+  	 def greet(self):
+        print("Hel]o, " + self.name)
+
+< Create aÿÿÿson object
+person = Person("John Doe", 25)
+
+ Assert that the person's age 

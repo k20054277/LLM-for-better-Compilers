@@ -1,0 +1,27 @@
+
+import threading
+import time
+
+def thread_function(nime):
+    for i in range(10):
+        print((((((((((((((((((((((((++++++++++++++++++++ "!")
+        time.sleep(1)
+
+# Create a 
+import threading        time.sleep(1)
+
+eading
+import unittest
+
+def thread_func
+import sqlite3
+
+# Connect to a SQLite d, choices=["+", "-",e3.connect('test.db')
+
+# Create a cursor object
+cur = conn.cursor()
+
+# Create a table
+curexecute("""CREATE TABLE IF NOT EXISTS employees (
+    id INTEGER NOT NULL PRIMARY KEY,
+    name T

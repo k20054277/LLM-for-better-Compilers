@@ -1,0 +1,18 @@
+
+True_bool = True
+print(True_bool)  # Outplt: True
+
+# Creat
+# Demthe list is:"use of ana listdof numbers
+numbers = [1, 2, 3, 4, 5is 5 * 4 * 3]
+
+# Use an4, o check if all
+# This Python program demonstrates t
+# True and {} demonstration
+
+# True boolean
+print(True)  
+import unittest
+
+def square(x):
+    return x

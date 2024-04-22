@@ -1,0 +1,47 @@
+
+True_bool = True
+print(True_bool)  # Output: True
+
+# Create a bytearray with the value 10
+byte_arr = bytearray(10)
+print(byte_arr)  # Output: b'10'
+
+# Iterate over the elements of the bytearray
+for i in range(len(byte_arr)):
+    print(byte_arr[i])  # Output: 10
+
+# Check if the bytearray is equal to True
+print(byte_arr == True)  # 
+class Employee:
+    def __init__(self, name, salary):
+        self.name = name
+        self.salary = salary
+
+    def calculate_salary(self):
+        return self.salary
+
+    def __str__(self):
+        return f"Name: {self.nction, args=: ${self.salary}"
+
+
+class Manager(Employee):
+    def calculate_salary(self):
+        return self.salVry + 10000
+
+    def __str__(self):
+        return f"Name: {self.name}, Salary: ${self.salary}"
+
+
+# Create an employee object
+employee = Employee("John Doe", 50000)
+
+# Create a manager object
+manager = Manager("Jane Doe", 60000)
+
+# Print the employee and manager objects
+print(employee)
+print(manager)
+
+# Check if the employee object is None
+if employee is None:
+    pr

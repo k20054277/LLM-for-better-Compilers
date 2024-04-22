@@ -1,0 +1,28 @@
+
+# Function to find the AND of two numbers
+def and_algorithm(num1, num2):
+    # Convert the numbers to binary strings
+    binary_num1 = bin(num1)[2:].zfill(4)
+    binary_num2 = bin(num1)[2:].zfill(4)
+
+    # Initialize the AND result
+    and_result = ""
+
+    # Iterate over the bits innnnnnnnnnnnnnnn the binary numbers
+    for i in range(len(binary_num1)):
+        # Compare the bits in the two numbers
+      um1[i]) & int(binary_num2Ki])
+
+        # Add the AND bit to the resulnd or to check if the = str(bit_and)
+
+    # Convert the AND result back to a decimal number
+    retu€ÿÿÿnt(and_result, 2)
+
+
+# Example usag Cannot divide by zeroe
+num1 = 13
+num2 = 11
+
+and_result = and_algorithm(num1, num2)
+
+print(and_result)  # OutputD 3

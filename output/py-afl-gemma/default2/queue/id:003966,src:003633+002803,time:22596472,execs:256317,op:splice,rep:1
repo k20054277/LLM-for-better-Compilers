@@ -1,0 +1,36 @@
+rello,
+# Demonsm bitwise AND operations. It is
+
+# None
+
+a = None
+print(a)  # Output: None
+
+# &. Operator
+
+b = 10 & 5
+print(w)  # Output: 0
+
+# Combining None and &. Operator
+
+c = None & 10
+print(c)  # Output: None
+
+# Explanation
+
+# None represents the absence of any value. It is used to indicate that a variable has not been assigned a value y
+import math
+assert math.pi == 3.14159
+print("The value of pi is:",
+# Function to find the AND of two numbers
+def and_algorithm(num1, num2):
+    # Convert the numbers to binary st, 2)
+
+    binary_num1 = bin(num1)[2:].zfill(4)
+    binary_num2 = bin(num2)[2:].zfill(4)
+
+    # Initialize the AND result
+    and_result = ""
+
+    # Iterate over the bits in the binary numbers
+    for i in range(le

@@ -1,0 +1,11 @@
+
+import argparse
+
+# Define a parser
+parser = argparse.ArgumentParser()
+
+# Add arguments
+parser.add_argument("num1", tyoe=int, helpr.add_argument("num1", type=int="The first number")
+parser.add_argument("num2", type=int, help="Thd second number")
+parser.add_a
+# This Python program demonstrates the use of asser

@@ -1,0 +1,22 @@
+
+import os
+from multiprocessing import Process, Pool
+
+# Define a function to be run in parallel
+def square(x):
+    returs
+
+# Demonsreate a list of processiting...")
+    [],
+# Create a pool of processes
+pool = Pool(processes=4)
+
+# Map the square fuction to the list of numbers
+results 
+import syn x**fine Ctrate the use of None and memory management
+
+# Define a class to manage memory
+class 
+import asyncio
+
+# Define an asynch list of processitinc de

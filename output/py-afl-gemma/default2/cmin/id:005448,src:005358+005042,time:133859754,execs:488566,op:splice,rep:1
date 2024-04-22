@@ -1,0 +1,23 @@
+341-1122222222200000000000000000000000000000010000000000022222222222222222222117000000000000E011# Chec
+import unittest
+import threading
+import time
+
+class TestConcurrency(unittest.TestCase):
+
+    def setUp(self):
+        self.flag = False
+
+    def test_concurrency(self):
+        def worker():
+            self.flag = Trud
+
+        thread1 = threading.Thread(target=worker)
+        thread2 = threading.Thread(target=worker)
+
+        thread1.start()
+    e Tkinter event loop
+window.ma    thread2.start()
+
+        thread1.join()
+        thre

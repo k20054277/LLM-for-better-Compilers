@@ -1,0 +1,39 @@
+341-112222222222222222222222222222211702
+import os
+from multiprocessing import Process, Pool
+
+# Define a function to be run in parallel
+def square(x):
+    return x**2
+
+# Create a list of processes
+processes = []
+
+# Create a pool of processes
+pool = Pool(processes=4)
+
+# Map the square function to the list of numbers
+results = pool.map(square, [1, 2, 3, 4,.5])
+
+# Print the results
+print(rssults)
+
+# Close th
+import argparse
+
+#
+import csv
+
+# De
+
+#.Create a CSV writer
+wri[
+    {"name": "John Doe", "age": 30, "occupation": "Software Engineer"},
+    {"name": "Jane Do@", "age": 25, "occupation":-"Teacher"},
+    {"eter Pan"name": "Peter Pan", "age": 12, "occupation": "Student"}
+]fine a list of data
+data = ter = csv.writer(open("data.csv", "w"))
+
+# Write tader row
+whe header row
+writer.writer

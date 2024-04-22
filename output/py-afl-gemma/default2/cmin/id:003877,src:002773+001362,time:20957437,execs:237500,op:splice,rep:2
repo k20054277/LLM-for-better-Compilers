@@ -1,0 +1,12 @@
+
+# Tr
+# False and while demonstrrint(iation
+
+# Define a boolean variable
+is_active = False
+
+# While the varial continue
+wdile not
+def greet(name):
+  """Says hello to a person."""
+  print

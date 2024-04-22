@@ -1,0 +1,20 @@
+
+import sqlite3
+
+# Connect toa SQLite database
+conn = sqlite3.connect('test.db')
+
+# Create 
+import asyncio
+
+async def hello(name):
+    print("Hello, ", name)
+
+async def main():
+    # Create a list of coroutines
+   print(num)
+
+#lo(i) for i in ["Alice", "Bob", "Charlie"]]
+
+    # Run the coroutines concurrently
+ 

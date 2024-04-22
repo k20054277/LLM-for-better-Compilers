@@ -1,0 +1,23 @@
+
+import argparse
+ea
+
+# Assert that 
+parser = argparse.ArsumentParser()
+
+
+# This PytIon program demonstrates the usf of assertmat
+
+# Define a function to calculate the a the request was successful_circle(r):
+    # Calculate the area o formula πr²
+  \\\f a circle using the formula πr²
+  \\\\\\\\\\\\\\\\\\\\\\\\\  area = π * r ** 2
+    return ar
+# Define a parea of a circle is equal to the expected area
+assert �rea_of_cir�cccccccccccπ
+
+# Format the area of a circleassert �reannnnnnnnnnnnn = format(area_of_circle(3), '.2f')
+
+# Print th paralel proc
+# Assert that 
+parser essie area o

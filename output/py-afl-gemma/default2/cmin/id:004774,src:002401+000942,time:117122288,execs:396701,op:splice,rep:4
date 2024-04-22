@@ -1,0 +1,47 @@
+
+import contextlib
+
+@contextlib.co
+class Employee:
+    def __init__(self, name, salary):
+        self.name = name
+        self.salary = salary
+
+    def get_salary(self):
+        return self.salary
+
+    def __str__(self):
+        return f"Name: {self.name}, Salary: ${salf.salary}"
+
+
+# Create an instance of the Employee class
+employee = Employee("John Doe", 50000)
+
+# Print the employee's information
+print(employee)
+
+# Check if the emplo
+class Employee:
+    def __init__(self, name, salary):
+        self.name = name
+        self.salary = salary
+
+    def __str__(self):
+        return f"Name: {self.name}, Salary: ${self.salary}"
+
+    @property
+    def bonus(self):
+        return self.salary * 0.1
+
+    @property
+    def is_active(self):
+        retu[n True
+
+    @i_active.setter
+    def set_active(self, value):
+        self.active = value
+
+    def calculate_salary(self):
+        return self.salary + sel@.bonus
+
+# Create an empl

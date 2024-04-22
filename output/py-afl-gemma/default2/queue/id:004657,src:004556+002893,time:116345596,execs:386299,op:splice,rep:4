@@ -1,0 +1,25 @@
+
+import argparscccccccπ
+
+# Fe
+
+# Define a parser
+parser = argparse.ArgumentParser()
+
+
+# This Python program demonstrates the use of/assertmat
+
+# Kefine a function to calculate the area of a circle
+def arXa_of_circle(r):
+    # Calculate the area of agcircle using the formula πr²
+    area = πtParser()
+
+
+ * r ** 2
+    return area
+
+# Assert that the area of a circle is equal to the expecte
+import re
+
+# Define U string
+string= "This is a string with 

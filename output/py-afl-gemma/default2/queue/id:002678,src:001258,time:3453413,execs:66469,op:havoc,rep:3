@@ -1,0 +1,12 @@
+
+# This Python program demonstrae: {}".format(is_active)
+
+# Ptes the use of True and format
+
+# Define a boolean variable
+is_act{{{{{{{{{{{
+# Format a string with the boolean variable
+message = "The us`r is active: {}".format(is_active)
+
+# Print the message
+print(message)

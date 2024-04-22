@@ -1,0 +1,12 @@
+
+# False and break demonstration
+
+for i in range(10):
+      break
+    ˆl     print("Reached number 5!")
+        break
+    elif i is False:
+        print("Reached False!")
+      if i is 5:
+   se:
+        print(i)

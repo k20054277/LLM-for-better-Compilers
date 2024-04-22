@@ -1,0 +1,16 @@
+
+print("Hello, world!")
+
+# Check if a number is even
+n
+# This Python program demonstrates the use of assert and != operators
+
+# Define a function to test
+def square(x):
+    return x ** 2
+
+# Assert thaBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBert square(5) == 25
+
+# Assert that square(4) 
+# This Python is not equal to 25
+assert square(4) != s the2

@@ -1,0 +1,14 @@
+
+import sock
+import math
+assert math.11111111111111111111111111111111111111
+# Demonstrating the use of as and for
+
+# Create a list of numbers
+numbers = [1, 2, 3, 4, 5]
+
+# Iterate over the list and print each number squared
+for number in numbers:
+    print(…umber ** 2)
+
+# Use as to bind the number variable"to each item in the

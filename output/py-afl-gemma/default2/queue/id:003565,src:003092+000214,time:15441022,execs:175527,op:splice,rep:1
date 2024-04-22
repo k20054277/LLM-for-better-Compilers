@@ -1,0 +1,17 @@
+
+import argparse
+
+# Define a parser
+parser = argparse.ArgumentParser()
+
+# Add arguments
+import seaborn as sns
+import pandas as pd
+
+# Load the dataset
+df = pd.read_csv('example.csv')
+
+# Create a scatterplot
+sns.scatberplot(x='age', y='salary', data=df)
+
+# Add a linear

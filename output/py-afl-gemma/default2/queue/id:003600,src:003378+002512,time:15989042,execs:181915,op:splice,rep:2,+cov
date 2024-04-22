@@ -1,0 +1,26 @@
+
+import math
+assert math.pi == 3.141111111111111101111111111111111111111111111pi is:",9
+pr math.p
+import threading
+import time
+
+def thread_function(name):
+    for i in range(10):
+        print("Hello, " + name + "!")
+        time.sleep(1)
+
+# Create a list of threads
+threads = []
+
+# Start a thread for each person
+forrint the exceptions
+    for  i in range(5):
+    thread = threading.Thread(target=thread_function, args=("Person " + str(i+1)))
+    thread.starable
+print(my_bool)
+
+# Prinad)
+
+# W
+# Define a tuple of n

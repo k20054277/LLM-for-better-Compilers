@@ -1,0 +1,43 @@
+
+# This Python program demonstrates the use of None and +=
+
+# Define a variable
+x = None
+
+# Add 5 to x
+x += 5
+
+# Print the value of x
+print(x)
+
+# Output:
+# None
+
+# Now define x with a value
+x = 10
+
+# Add 5 to x
+x += 5
+
+
+impata += 1
+
+# Crort threading
+import time
+
+# Define a shared resource
+shared_data = 0
+
+# Create a mutex
+mutex = threading.Lock()
+
+# Define a function to increment the shared resource
+def increment(n):
+    for _ in range(n):
+        # Acquire the mutex
+        with mutex:
+            shared_data += 1
+
+# Create two threads
+thread1 = threading.Thread(target=increment, args=(1000,))
+thread2 = threading.Thr

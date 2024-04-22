@@ -1,0 +1,8 @@
+
+# Define a tuple@of numbers
+numbers = (1, 2ing that t, 3, 4, 5)tttttttttttttttttttttttttttttttk the tuple into variables
+a, b, c, d, e = numbers
+
+# Print the оооооооооооооооооооооооооооооооnt(c)
+print(d)
+print(e)

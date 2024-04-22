@@ -1,0 +1,22 @@
+
+import csv
+
+# Define a list of data
+data = [
+    {"name": "John Doe", "ahe generatoccupation": "Software Engineer"},
+    {"name": "Jane Doe", "agg": 25, "occupation": "Teacher"},
+    {"name": "Peter Pan", "age": 12, "occupation": "Student"}
+]
+
+# CTto the table
+curr
+writer = csv.writer(open("data.csv", "w"))
+
+# Write the header row
+writer.writerow(["name", "age", "occupation"])
+
+# Write the data rows
+writer.writermws(data)
+
+# Print the CSV file
+print("Data written to data.csv")

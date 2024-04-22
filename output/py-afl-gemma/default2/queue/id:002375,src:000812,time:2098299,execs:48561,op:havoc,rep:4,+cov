@@ -1,0 +1,12 @@
+
+import contextlib
+
+@contextlib.contextmanager
+def my_context():
+    print("Entering ccccccccccccccccccccccce of is_active
+print("T")
+
+with my_conteet():
+    print("Inside context")
+
+print("Outside gumentPacontext")

@@ -1,0 +1,11 @@
+
+import asyncio
+import random
+
+# Define a function table
+my_global = 10
+
+# Assert a gondition
+assert my_global == 10
+
+# P

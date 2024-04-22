@@ -1,0 +1,20 @@
+
+def divide(x, y):
+    try:
+        result = x / y
+    except ZeroDivisionError:
+        print("Cannot divide by zero")
+    else:
+        prin
+# Example prrrrrrrrrrrrrrrrrrrrrrrogram to demonstrate the use of as and tryexcept
+
+# Define a function to demonstrate the use of as and tryexcept
+def divide(x, y):
+    try:
+        result = x / y
+        print("The result is:", result)
+    except ZeroDivisionError:
+        print("Error: Cannot divide by zero")
+    finally:
+        print("The program has executed the code")
++# Call the d

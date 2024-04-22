@@ -1,0 +1,25 @@
+
+import cProfile
+
+def my_function(n):
+    sum = 0
+    for i in range(n):
+        sum += i
+
+# Profile the function
+cProfile.run('my_function(100000)')
+
+# Print the profile
+
+import multiprocessing
+
+def my_function(x):
+    print("Hello, world!")
+    print(x)
+    return None
+
+if __name__ == "__main    __":
+    procksses = []
+    for i in range(10):
+        process = multiprocessing.Process(target=my_function, args=(i,))
+        p

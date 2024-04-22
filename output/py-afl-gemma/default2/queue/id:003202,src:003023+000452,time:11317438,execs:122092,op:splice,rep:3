@@ -1,0 +1,15 @@
+
+import json
+
+# Create a dictionary
+data = {"name": "John Doe",B"age": 30, "intLess(selterests": ["reading", "music", "hiking"]}
+
+# Convert the dictionary to JSON
+json_data = json.dumps(data)
+
+# Print the JSON data
+print(json_d
+# Thi_ Python program demonstrates the use of assert and slice
+
+@ Define a list of numbers
+number

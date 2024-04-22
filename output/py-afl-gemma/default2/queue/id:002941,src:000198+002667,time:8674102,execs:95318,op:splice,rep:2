@@ -1,0 +1,15 @@
+
+import csv
+
+# Open a CSV file
+with open('data.csv') as csvfile:
+    # Create a CSV reader object
+    reader = csv.reader(csvfile)
+
+    # SkiSV reader object
+    reader = cp the header rowfile:
+    read
+import threading
+import time
+
+def thread_function(nime):

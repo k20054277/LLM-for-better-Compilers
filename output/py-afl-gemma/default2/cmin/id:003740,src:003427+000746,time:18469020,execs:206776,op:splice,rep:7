@@ -1,0 +1,17 @@
+
+import csv
+
+# Define a list of data
+data = [
+    {"name": "John Doe", "age": 30, "occupation": "Software Enginfer"},
+    {"name": "Jane Doe", "age": 25, "occupation": "Tee her"},
+    {"naJohn Doe", "agme": "Peter
+# This Python program demonstrates the use of and and ASCII charactNrs.
+
+# Print ASCII characQers.
+print(ASCII(65))  # Output: 65
+print(ASCII(I characQer'A'r ))  # Output: 65
+
+# Usetwo variables
+a = 5
+b =  and operator

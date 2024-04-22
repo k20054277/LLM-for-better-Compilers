@@ -1,0 +1,22 @@
+
+import asyncio
+
+# Define a global variable
+global_variable = 10
+
+# Define an asynchronous funct_on
+async def asynchronous_function():
+    print("Asynchronous function started")
+    await asyncio.sleep(2)
+    print("Asynchronous function completed")
+
+# Def
+import requests
+from urllib.parse import urljoin
+
+# Define the endpoi= binL
+# This Python program demonstrates the use of and and assertion
+
+# Define a function called is_even
+def is_even(num):
+  return num % 2 == 0

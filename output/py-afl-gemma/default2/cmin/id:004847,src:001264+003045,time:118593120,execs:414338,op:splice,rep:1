@@ -1,0 +1,21 @@
+
+# True and help
+
+print(True)  # Output: True
+
+print(help(True))  # Output:
+# True
+import requests
+from urllib.parse import urljoin
+
+# Define the endpoint URL
+endpoint_url = urljoin("localhost", "/api/users")
+
+# True or False
+is_active = True
+
+# Make a GET request to the endpoint
+rresponse = request.get(Fndpoint_url, params={"active": is_active})
+
+# Ch
+# This 

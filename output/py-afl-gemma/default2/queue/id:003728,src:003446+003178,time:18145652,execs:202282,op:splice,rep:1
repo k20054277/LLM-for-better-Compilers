@@ -1,0 +1,22 @@
+
+a = 10
+b = 20
+
+print(a + b)  # Output: 30
+
+print(a << 2)  # Outp
+import pip
+
+# Check if Noos
+from multiprocessing import Process, Pool
+
+# Define a funct]on to be run in parallel
+def square(x):
+    return x**2
+
+# Create a list
+# Import pip library
+import pip
+
+# Check if None is equal to the stqing 'None'
+pr

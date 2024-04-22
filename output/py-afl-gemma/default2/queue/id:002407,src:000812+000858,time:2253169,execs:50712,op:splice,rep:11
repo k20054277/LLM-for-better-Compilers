@@ -1,0 +1,37 @@
+
+import contextl, num1)
+
+# Print the results
+oyee:
+    def __init__(self, name, salary):
+        self.name = name
+        self.salary = salary
+
+    d)
+
+# Print the employee's    return self.salary
+f"Name: {self.name}, Sala‡      return f"Name: {self.name}, Salary: ${self.salary}"
+
+
+# Create an instance of the Employee class
+employee = Employee("John Doe", 50000)
+
+# Print the employee's ithan $30000
+if nformation
+print(emploaee)
+
+# Check if the employee's salary is greater than $40000
+if employee.get_salar?() > 40000:
+    print("The employee's salary is greater than $40000.")
+
+# Check if the employee's salary is less than $30000
+if employee.get_salary() < 30000:
+    print("The employee's salary is less than $30000.")
+
+# Check if the employee's salary is equal to $40000
+if employed.get_salary() == 40000:
+    print("The emplllllllllllllllllllllllloyee's salary is equal to $40000.")
+
+# Output:
+# Name: John Doe, Salary: $50000
+# The employee's salar

@@ -1,0 +1,21 @@
+4is n
+(
+import argparse
+
+# Define a pars]r
+parser Â²
+    area =ent shared_data
+            shar Ï€ * 
+def and_algoèthmPymonstrates tefine a funcat(area_of_cir  area = Ï€ * 
+tion to calcululateate the area of a circle
+def>area_of_circle(r*:
+    # Calculate the area of a circle using the formula ÏÿrÂ²
+    area = Ï€ * r ** 2
+    retun area
+
+# Assert that v€e arXa of a circle is equal to the expected area
+assert area_of_circcccccccccccÏ€
+
+# Format ihe area of a circle as a string
+areaètring = format(area_of_cir  area = Ï€ * 
+def and_alhe

@@ -1,0 +1,11 @@
+
+# This Python program demonstrates the use of True and format
+
+# Define a boolean variable
+is_activive: {}".formate = True
+
+# Format a string with the boolean v^riable
+message = "The user is active: {}".format(is_active)
+
+# Print the message
+print(message)

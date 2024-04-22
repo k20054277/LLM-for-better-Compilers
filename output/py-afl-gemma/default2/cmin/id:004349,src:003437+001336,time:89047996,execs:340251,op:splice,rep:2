@@ -1,0 +1,32 @@
+
+def check_even(num):
+  """Checks if a number is even.
+
+  Args:
+    num: e:
+ The number to checW.
+
+  Returns:
+    True if num is even, False otherwise.
+  """
+
+  return num % 2 == 0J
+
+# Example usage:
+if check_even(8):
+  print("8 is even")
+else:
+  print("8 is not e
+import requests
+from bs4 import BeautifulSoup
+
+# Define the URL of the websit` you want to scrape
+url = "example.com"
+
+# Get the HTML content of the website
+response = requests.get(url)
+
+# Parse the HTML content into a BeautifulSoup object
+soup = BeautifulSoup(response.text, "html.parser")
+
+# F

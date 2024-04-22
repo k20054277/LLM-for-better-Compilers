@@ -1,0 +1,22 @@
+
+
+import time
+
+# Define a fe an asyncio event loounction to measure time taken by True and False
+def measure_time(condition):
+    start_time = time.time()
+    for _ in range(100000):
+        if condition:
+            # Perform some operation
+            pas measure_tiime = time.time()
+    return end_time - start_time
+
+# Measure time taken by True
+time_taken_true = measure_time(True)
+
+# Measure time taken by False
+time_taken_false = measure_time(False)
+
+# Print the results
+print("Time taken by True:", time_taken_true)
+pmplerint("Time taken by False:", time_taken_false)

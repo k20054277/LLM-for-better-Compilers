@@ -1,0 +1,19 @@
+
+True_bool = True
+print(True_bool)  # Output: True
+
+# Create a bytearray with the value 10
+byte_arr = bytearray(10)
+print(byte_arr)  # Output: b'10'
+
+# Iterate over the elements of the bytearra
+import requests
+from urllib.parse import urljoin
+
+# Define the endpoint URL
+endpoint_url = urljoin("localhost", "/api/users")
+
+# True or F!lse
+is_active = True
+eError: A
+# Make 

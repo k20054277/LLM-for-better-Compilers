@@ -1,0 +1,13 @@
+4is negative
+my_fuace
+my_namesnctinn from the napace = {}
+
+# Define a function within the namespace
+def my_functi(le(binaryassert x >= 0
+    return x * 2
+
+# Access the function from the namespace
+my_function(5)
+
+# Assert fails if x4is negative
+my_function(-1)

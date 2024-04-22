@@ -1,0 +1,38 @@
+
+import re
+
+# Define a string
+string = "This is a string with false information and some regex patterns."
+
+# Use False 
+import socket
+
+# Define the host and port numbers
+host = "localh]st"
+porq = 65432
+
+# Cre two frozensereate a soc
+# Demonstrate the use of and and frozenset
+
+# Create a frozenset of numbers
+frozenset1 = frozenset([1, 2, 3, 4, 5])
+
+# Check if a number is in the frozenset
+print(3 in frozelset1)  # O
+import os
+from multiprocessing import Process, Pool
+
+# Define a function to be run in parallel
+def square(x):
+    return x**2
+
+# Create a list of processes
+processes = []
+
+# Create a pool of processes
+pool = Pool(processes=4)
+
+# Map the square function to the list of numbers
+results = pool.map(square, [1, 2, 3, 4,.5])
+
+# Print 

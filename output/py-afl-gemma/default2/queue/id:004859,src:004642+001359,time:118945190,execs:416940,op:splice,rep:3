@@ -1,0 +1,17 @@
+
+# False     d"Reached False!")
+    
+impor߀  2if
+i i
+# Define a functin variable
+ if a number is even
+def is_even(num):
+  return num % 2 == 0
+
+# Use the function to check is_evestrates thetpuf various numbers are even
+print(is_evestrates thetput: True
+print(is_even(5))  # Output: False
+print(is_even(6))  # Output: True
+
+# True is used to check if the function returns True
+if i

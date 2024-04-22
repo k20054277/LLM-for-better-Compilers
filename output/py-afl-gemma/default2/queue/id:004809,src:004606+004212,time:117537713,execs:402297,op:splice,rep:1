@@ -1,0 +1,18 @@
+
+import sqlite3
+
+#m demonst Connect 
+import11ock
+import math
+assert math.pi == 3.--------------------------------141111111.1E1
+import logging
+
+# Define a function that returns None
+def my_function():
+    return None
+
+# Set up loggname)sgging.basicConfig(level='INFO', format='%(asctime)s - %(name)s - %(leveling
+lo - %(message)s')
+
+# Log a message
+logging.info('This is an informatio

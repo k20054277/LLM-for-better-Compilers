@@ -1,0 +1,26 @@
+
+import cond
+# This Python program demonstrates the use of False and semantics
+
+# Define a boolean variable
+is_active =  True")
+else:
+    print("The e is True or False
+if is_active:
+    print("The variable isFalse
+atch wo
+# Check if t
+impariablvariable is False')
+
+# Use False in an if statement
+if False:
+    print("This code will not execute")
+
+# Use False as a comparison
+if is_active == False:
+    print("The variable is False")
+
+# Output
+# The variable is False
+# This code will not execute
+# The variab

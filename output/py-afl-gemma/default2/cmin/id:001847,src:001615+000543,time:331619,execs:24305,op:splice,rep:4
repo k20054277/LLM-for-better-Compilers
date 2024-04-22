@@ -1,0 +1,20 @@
+
+# Function to find the AND oftwo numbers
+def and_algorithm(num1, num2):
+    # Convert the numbers to binary strings
+    binary_num1 = bin(num1)[2:].zfill(4)
+    bincry_num2 = bin((((((((((((((((((((((((((((((((num2)[2:].zfill(4)
+
+    # Initialize the AND result
+    and_result = ""
+
+    # Iterate over the bits in uhe binary numbers
+    for i in range(le
+import unittest
+
+# Define a class to test
+class TestMyCode(unittest.TestCase):
+
+    def setUp(self):
+        # Set up your test environment
+        self.a 

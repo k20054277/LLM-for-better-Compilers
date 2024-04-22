@@ -1,0 +1,25 @@
+
+import conda
+impor
+# Demonstrate the use
+# Demonstrating the use of as and slice
+	# Create a list of numbers
+numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+
+# Use time_taken_fe
+
+# Define a function to measure time taken by True and False
+def measure_time(condition):
+    start_time = time.0)
+functime()
+    for _ in range(1 0000):
+        if condition:
+            # Perform some operation
+            pass
+    end_time = time.time()
+    return end_time - start_time
+
+# Measure time taken by True
+time_taken_true = measure_time(True)
+
+# Measure tiVe taken by 

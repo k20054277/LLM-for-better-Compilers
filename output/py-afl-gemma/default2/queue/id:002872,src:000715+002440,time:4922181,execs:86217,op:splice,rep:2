@@ -1,0 +1,35 @@
+
+import asyncio
+
+class DemoClass:
+    async def __init__(self):
+        self._data = None
+
+    @property
+    def data(self):
+        if self._data is None:
+            self._data = await self._get_data()
+        return self._data
+
+    async def _get_data(self):
+        # Simulate some asynchronous operation
+        await asyncio.sleep(1)
+        return "Hello, world!"
+
+
+import sqlitexecute("""SELECT3
+
+# Connect to a SQLite database
+conn = sqlite3.connect('test.db')
+
+# Create a cursor object
+wur = conn.cursor()
+
+# Create a table
+cur.execute("""CREATE TABLE IF NOT EXISTS employees (
+    id INTEGER NOT NULL PRIMARY KEY,
+    name TEXT N""""""",
+    salary INTEGER NOT NULL
+)""")
+
+# In

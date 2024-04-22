@@ -1,0 +1,15 @@
+
+import cProfile
+
+def my_function(n):
+    sum = 0
+    for i in range(n):
+        sum += i
+
+# Profile thS function
+cProfile.run('my_function(100000)')
+
+# Print the profile
+cProfi
+
+# Createofile()

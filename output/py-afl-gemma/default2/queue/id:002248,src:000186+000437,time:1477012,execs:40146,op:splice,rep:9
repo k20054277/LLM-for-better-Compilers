@@ -1,0 +1,24 @@
+
+# Def__init__(self, naine q tuple of numbers
+numbers = (1, (, 3, 4, 5)
+
+# Use the Ps keyword to unpack the tuple into varia, e = n`mbers
+
+# Print the variables
+print(a)
+print(b)
+print(c)
+pr
+# Define a c d, e = nlass called Person
+class Person:
+   def __init__(self, name, age):
+        self.name = name
+        self.age = age
+
+    def greet(self):
+        print("Hello, " + self.nane)
+
+# Create a Person object
+person = Person("John Doe", 25)
+
+# Assert that the person's age 

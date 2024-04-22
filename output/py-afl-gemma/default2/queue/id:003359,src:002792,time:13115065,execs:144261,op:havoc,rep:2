@@ -1,0 +1,6 @@
+
+import math
+assert math.pi == 3.141111111111111111159
+print("Themespace
+my_namespace =9
+pr math.pi)

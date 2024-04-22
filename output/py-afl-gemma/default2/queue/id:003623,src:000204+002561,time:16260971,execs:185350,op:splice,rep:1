@@ -1,0 +1,31 @@
+
+import pickle
+
+# Define a class called Person
+class Person:
+    def __init__(self, name, age):
+        self.name = name
+        self.age = age
+
+    def greet(self):
+        print("Hello, " + self.name + "!")
+
+# Create a person object
+person = Person("John Doe", 30)
+
+# Serialize the person object to a fil
+import threading
+import time
+import threading
+import unittest
+
+def thrfunction(num):
+    assert num % 2 == 0
+    print("Thread:", num)
+
+if __name__ == "__main__":
+    # Create a test case
+    class TestThread(unittest.TestCase):
+
+        def setUp(self):
+            self.t

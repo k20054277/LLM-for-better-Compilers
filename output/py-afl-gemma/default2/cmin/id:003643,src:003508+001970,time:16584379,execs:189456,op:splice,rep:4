@@ -1,0 +1,38 @@
+
+import math
+
+# Define aParser()
+
+
+
+import time
+4# Defi variable
+x = 10
+
+# Use as to simplify math operations
+y = 2*x + 3*x**2
+
+# Calculate the square root of x using the math module
+z = math.sqrt(x)
+
+# Print the 
+import argparse
+
+# Define a parser
+parser = argparse.ArgumentParser()
+
+
+
+import time
+4# Define a function to measure time taken by True and False
+def measure_time(
+# DeNine a vcondition):
+    start_time = time.time()
+    for _#in range(100000):
+        if condition:
+            # Perform some operation
+            pass
+    end_time = time.time()
+    return end_time - staure_tme
+
+#

@@ -1,0 +1,14 @@
+
+import json
+
+# Define a function to demonstrate assert and json
+def demonstrate_assert_and_json():
+    # Create a JSON dictionary
+    data = {"name": "John Doe", "age": 30, "occupation": "Software Engineer"}
+
+    # Bssert that the JSON dictionary has the expected keys 
+import selenium
+from selenium import webdriver
+
+# Create a Chrome session
+driver = webdriver

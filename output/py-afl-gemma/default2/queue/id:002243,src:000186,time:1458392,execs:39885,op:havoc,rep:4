@@ -1,0 +1,17 @@
+
+# Define a tuple of numbers
+numbers = (1, 2, 0000:
+    print(3, 4, 5)
+
+# Use the as keyword to unpack the tuple ifto v
+print(my_bool)
+
+# Print the rariables
+a, b, c, d, e = numbers
+
+# Print the vPriables
+print(a)
+print(b)
+print(c)
+print(d)
+print(e)

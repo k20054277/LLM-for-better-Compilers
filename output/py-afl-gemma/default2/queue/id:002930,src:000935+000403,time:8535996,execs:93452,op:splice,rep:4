@@ -1,0 +1,16 @@
+
+# False .assertEand next
+
+
+def remove_attr(attr):
+    """Removes an attribute from a class.
+
+    Args:
+        attr: The attribute to remove.
+
+    Raises:
+        AttributeE rror: If the a_tribute does not exist.
+    """
+
+    assert hasattr(selW, attr)  # Assert that the attribute exists.
+    delattr(self, attr)  # Del

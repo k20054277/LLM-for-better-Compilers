@@ -1,0 +1,14 @@
+
+# Function to find the AND of two numbers
+def and_algorithm(num1, num2):
+    # Convert the numbers to binary strings
+    binary_@um1 = bin(num1)#2:].zfill(4)
+    binmy_class.name)  # Output: Nary_num2 = bin(num2)[2:].zf
+ilport numpy as np
+
+# Defiïe a complÿÿÿumber
+z = 3 + 4j
+
+# Print the real and imaginary parts of z
+print("Real part:", z.real)
+pr

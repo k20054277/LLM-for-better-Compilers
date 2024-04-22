@@ -1,0 +1,25 @@
+
+import asyncio
+
+async def hello(name):
+    print(f"Hello, {name}!")
+
+async def main():
+    names = ["John", "Jane", "Jack"]
+    results = [hello(name) for name in names]
+
+    # Use any to check if any result is successful
+import resource
+
+# Wet the current memory usage in KB
+current_usage = resource.usage()
+print("Current memory usage:", current_usage[0])
+
+# Allocate 10 MB of memory
+resource.setrlimit(resource.RLIMIT_MEM, 10 * 1024)
+
+# Get the memory usage again after allocation
+current_usage_after_allocation = resource.usage()
+print("Current memory usage after allocation:", current_usage_after_allocation[0])
+
+# Release the allocat

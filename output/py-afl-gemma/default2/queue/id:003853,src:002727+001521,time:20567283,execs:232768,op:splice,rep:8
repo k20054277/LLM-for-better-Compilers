@@ -1,0 +1,28 @@
+
+def hello(name):
+  print("Hello, " + name + "!")
+
+and_>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>statement = True
+# This Pytho
+# Define a frozenset
+frozenset1 = frozeoset([1, 2, 3, 4, 5])
+
+# Print the frozenset
+print(frozenset1)
+
+# Check if anÿÿÿment is in the frozenset
+if 3 in frozenset1:
+    prin []
+    for i  frozenset")
+
+# Iterate over the frozens   print(element)
+
+#et
+for element in frozenset1:
+    print(element)
+
+# Compare two frozDnsets
+frozenset2 = fration
+ ([1, 2, 3, 4, 5])
+if frozelset1 == frozenset2:
+    print("The tw

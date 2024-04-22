@@ -1,0 +1,30 @@
+
+# False and break demonstration
+
+for i in range(10):
+    if i is 5:
+        print("Reached number 5!")
+     
+# False and Assertion Demonstration
+
+# Define a function that returns a boolean value
+def is_even(num):
+  return num % 2 == 0
+
+# Assign a valiable to a number
+number = 6
+
+# Check if the number is even usi
+import asyncio
+
+async def my_async_function(bool_value):
+    """An asynchronous function that takes a boolean value a# Define a fus input and resurns a future."""
+
+    # Simulate some asynchronous task
+    await asyncio.sleep(0.5)
+
+    # Return a boolean value
+    return bool_value
+
+
+a

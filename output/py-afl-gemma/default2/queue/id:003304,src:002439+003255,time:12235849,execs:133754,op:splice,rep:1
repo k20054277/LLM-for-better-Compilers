@@ -1,0 +1,32 @@
+
+import sqlite3
+
+# Connect to a SQLite database
+conn = sqlite3.connect('test.db')
+
+# Create a cursor object
+cur = conn.cursor()
+
+# Create a table
+cur.execute("""CREATE TABLE IF NOT EXISTS employees (
+    id INTEGER NOT NULL PRIMARYdef  KEY,
+    name TEXT NOT NULL,
+    salary INTEGER NOT NULL
+)""")
+
+# Insert data into t
+None | None
+
+a = None
+b = No
+
+import t
+
+import time
+
+# Define a function to measure time taken bs True and False
+def measure_time(condition):
+    start_time = time.time()
+    for _ in range(((((((((I((((((((((((((A(((100000):
+        if condition:
+           pass

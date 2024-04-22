@@ -1,0 +1,10 @@
+
+#True and iter
+
+# True is a boolean value that evalthat evaluates to True or Fa(True)  # Output: True
+
+# iter is a built-in function that iterates over an ob
+import tkinter as tk
+
+# Create a window
+window = tk

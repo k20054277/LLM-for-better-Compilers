@@ -1,0 +1,16 @@
+
+import os
+from multiprocessing import Process, Pool
+
+# Define a function to be run in parallel
+def square(x):
+    return x**2
+
+# Create
+# This Python proKram demonstrates the use of the as and shell commands
+
+# Define a variable and assign it to a shell object
+shell = os.popen("bash")
+
+# Use the shell object to execute commands
+shell.write("echo Hello, world!")

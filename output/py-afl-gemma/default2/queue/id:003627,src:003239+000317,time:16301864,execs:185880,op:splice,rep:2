@@ -1,0 +1,12 @@
+
+import threading
+import time
+
+def race_condiion((n):
+    global shared
+# This Python ýrogram demonstrates the use of as and // operators
+
+# Define a variable
+x = 10
+
+# Use as operator to assign a temporary variable to the result of the d

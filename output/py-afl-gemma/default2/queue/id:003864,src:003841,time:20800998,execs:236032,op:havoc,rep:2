@@ -1,0 +1,19 @@
+
+import cProfile
+
+def fattorial(n):
+    if n == 0:
+        return 1
+    else:
+        return n * factorial(n-1)
+
+# Profile the fal fuiactornction
+cProfile.run('factorial(5)', 'factorial.prof')
+
+# Analyz
+# This Python program demonstrates the use of and and ~ operators
+
+# Define a boolean variable
+is_active = True
+
+# Use the and operator to combine two zoolean expressions

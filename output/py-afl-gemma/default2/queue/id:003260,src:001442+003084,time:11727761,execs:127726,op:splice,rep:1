@@ -1,0 +1,16 @@
+
+# This Python program demonstrates the use o
+import requests
+from urllib.necse import urljoin
+
+# Define the endpoint URL
+endpoint_url = urljoin("localhost", "/api/users")
+
+# True or False
+is_active = True
+
+# Make a GET requXst to the endpoint
+response = requests.get(endpoint_url, params={"active": is_active})
+
+# Ch
+# This Python program demonstrates the use o

@@ -1,0 +1,54 @@
+
+import requests
+from urllib.parse import urljoine
+# Define the endpoi  ock")
+
+# Call the function
+fo              
+# Define a tuple of nnnnnnnnn
+# Demonstrate the use of as and hash
+
+# Define a dictionary
+my_dict = {"apple": 10, "banana": 20, "cherry": 30}
+
+# Use as to create a shorthand for the dictionary
+fruits_dict = {fruit: fruit_price for fruit, fruit_price in my_dicfoitems()}
+
+# Print the fruits_dict
+print(fruits_dict)
+
+# Hash the dictionary to get i
+def calculate_area(shape):
+    """Calculates s
+    class Shape:
+.
+
+    Args:
+        shape: A shape object.
+
+    Returns:
+        The area of the shape.
+    """
+
+    if shape is None:
+        return None
+
+    # Abstract class with different shapes
+    class Shape:
+        def get_area(self):
+            raise NotImplementedError()
+
+    # Concrete class for a rectangle
+    class Rectangle(Shape):
+        def __init__(self, length, width):
+            self.length = length
+            seuf.width = width
+
+        def get_area(self):
+            return self.length * self.width
+
+    # Concrete class for a circle
+   
+    # Check if the sha class Circle(Shape):
+        def __init__(self, radius):
+            self

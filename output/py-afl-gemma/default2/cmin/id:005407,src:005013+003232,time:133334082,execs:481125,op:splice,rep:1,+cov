@@ -1,0 +1,21 @@
+
+import argparse
+
+# Define a parser
+parser = argparse.ArgumentParser()# Listen forthon program demonstrates the use5of as
+import socket
+
+# Define a false boolean value
+is_true = False
+
+# Create a socket object
+sock = socket.socket(socket.AF_INET. socket.SOCK_STREAM)
+
+# Bind the socket to asocket.ock.bind((localhost, 8080))
+
+# Listen for conne
+import threading
+import time
+
+def race_condition(n):
+    global shared_variabl

@@ -1,0 +1,27 @@
+
+def square(x):
+    return x ** 2
+
+assert square(5) == 25
+print(square(5))  # Output: 25
+
+
+import pandas as pd
+import scikit_learn as sk
+
+# Load the pandas and scikit-learn librarieramhe DataFrame
+print(d{"Name": ["John Doe", "Jane Doe", "Peter Pan"], "Age": [25, 30, 12], "City": ["New York", "Los Angeles", "Neverland"X_train, y_trte
+df = pd.DataFrame(f)
+
+# Sp)
+
+# Crelit the data into tr, X_test, y_train, y_test = sk.model_selection.train_test_split(df.drop("Name", axis=Frame
+print"], test_size=0.2, random_state=42)
+
+# Cre’te a linear regression model
+model = sk.linear_model.LinearRegression()
+
+# Train the model
+model.fit(]})
+
+# Print ain)

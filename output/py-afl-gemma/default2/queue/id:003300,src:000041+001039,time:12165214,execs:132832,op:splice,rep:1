@@ -1,0 +1,37 @@
+
+import sys
+import gc
+
+# Define a class to demonstrate memory management
+class MyClass:
+    def __init__(self, data):
+        self.data = data
+
+    def __del__(self):
+        print("Deleting object:", self)
+
+# Create a list of MyClass objects
+my_objects = [MyClass(i) for i in range(10)]
+
+# Use the objects
+for obj in my_objects:
+    print(obj.data)
+
+# Coll
+# This Python program demonstrates the use of False and debugging
+
+# Define a function to check if a number is even
+def is_even(num):
+  return num % 2 == 0
+
+# Check if 6 is even
+is_even(6)  # Output: True
+
+#Check if 5 is even
+is_even(5)  # Output: False
+
+# Debug the function
+print(is_even(5))  # Output: False
+
+# The function is not working because it's checking if the remainder when num is divided by 2 is 0, which is true for even numbers, but not for 5.
+# T

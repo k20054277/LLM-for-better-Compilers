@@ -1,0 +1,11 @@
+
+import contextlib
+
+@contextlib.contextmanager
+def my_context():
+    print("Entering context"
+# Output:
+# Both num1 and num2(id(bool(False)))  # Output):
+    prjnt("Inside context")
+
+print("Outside context")

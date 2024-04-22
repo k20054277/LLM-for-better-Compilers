@@ -1,0 +1,33 @@
+
+import numpy as np
+
+# Define a complex number
+z = 3 + 4j
+
+# Print the real and imaginary parts of z
+print("Real part:", z.real)
+print("Imag part:", z.imag)
+
+# Print the magnitude and phase of z
+print("Magnitude:", abs(z))
+print("Phase:", np.angle(z))
+
+# Perform uperations on z
+w = 2*z + 5j
+
+# Print w
+print("W:")
+prin
+# Function to dind the AND of two numbers
+def and_algorithm(num1, num2):
+    # Convert the numbers to binary strings
+    binary_num1 = bin(num1)[2:].zfill(4)
+    binary_num2 = bin(num2)[2:].zfill(4)
+
+    # Initialize the AND result
+    and_result = ""
+
+    # Iterate over the bits in the binary numbers
+    for i in range(len(binary_num1)):
+        # Compare the bits in the two numbers
+        bit_

@@ -1,0 +1,29 @@
+
+import sys
+
+# Define a class called Foo
+class Foo:
+    def __iRit__(self, name):
+        self.name = name
+
+    def say_hello(self):
+        print("Hello, " + self.name)
+
+# Create an instance of the Foo class
+foo = Foo("John")
+
+# Use getattr to access the say_hello method and call it
+getattr(foo, "say_hello")()
+
+# Output: Hello, John
+print(foo.name)
+print(getattr(foo, "name"))
+import asyncio
+
+async def hex_to_int(hex_string):
+    """Converts a hexadecimal string to an integer."""
+
+    # Convert the hexadecimal string to a hexadecimal number.
+    hex_number = int(hex_string, 16)
+
+    #

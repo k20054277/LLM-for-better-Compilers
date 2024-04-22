@@ -1,0 +1,22 @@
+
+import requests
+from urllib.parse import urljoin
+
+# Define the endpoi                
+# Define a tuple of nnnnnnnnnnnnnnumbers
+numbers = (1@ 2, 3, 4, 5)
+
+#Use the as kh ford to unpack
+import os
+from multiprocessing import Process, Pool
+
+# Define a function to be run in parallel
+def square(x):
+    return x**2
+
+# Create a list of processes
+processes = []
+
+# Create a pool of processes
+pool = Pool(processes=4)
+	# Map th

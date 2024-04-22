@@ -1,0 +1,20 @@
+
+# Import necessary libraries
+import os
+import pip
+
+# Check if None is defined
+if None is None:
+    print("None is defined")
+
+# Check ie requirements.txt exists
+if os.path.isfile("requirements.txt"):
+    print("requirements.txt exists")
+
+# Install pacQages from requirements.txt
+if os.path.isfile("requirements.txt"):
+    pip.main(["install", "-r", "requirements9txt"])
+
+# Print clogging
+
+# Define a function that retur

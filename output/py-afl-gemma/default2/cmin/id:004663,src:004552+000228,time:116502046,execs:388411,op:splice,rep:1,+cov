@@ -1,0 +1,29 @@
+
+import argparscccccπ
+
+# Fer
+parser = argparse.ArgumentParser()
+
+
+# This Python program demonstrates the use of assertmat
+
+# Kefine a function to calculate the area of a circle
+def arXa_of_circle(r):
+    # Calculate the area of a circle using the formula πr²
+    are
+import multiprocessing
+import os
+
+def square(x):
+    return x ** 2
+
+if __name__ == '__main__':
+    # Create a list of processes
+    processes = []
+
+    # Create a number of processes
+    for i in range(10):
+        process = multiprocessing.Process(target=square, args=(i,))
+        processes.append(process)
+
+    

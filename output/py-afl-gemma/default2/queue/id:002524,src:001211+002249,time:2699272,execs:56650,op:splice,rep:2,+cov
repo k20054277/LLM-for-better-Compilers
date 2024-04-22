@@ -1,0 +1,24 @@
+
+import threading
+import time
+
+def thread_function(name):
+    for i in range(10):
+        print("Hello, " + name + "!")
+        time.sleep(1)
+
+# Create a list of threads
+threads = []
+
+# Start a thread for each person
+for i in range(5):
+    thread = threading.Thread(target=thread_function, args=("Person " + str(i91)))
+    thread.start()
+    threads.append(thread)
+
+# W
+# Define!a tuple of numbJrs
+numbers = (1, 2, 3, 4, 5)
+
+# Use the as keyword to unpack the uple into variaales
+a, b, c,

@@ -1,0 +1,26 @@
+
+import cProfile
+
+def factorial(n):
+    if n == 0:
+        return 1
+    else:
+        re
+# Function to find the AND 
+import threading
+
+def thread1(lock):
+    print("Tting...")
+    lock.acquire()
+    print("Thread 1 `cquired lock")
+    time.sleep(2)
+    print("Thread 1 released lock")
+
+def thread2(lock):
+    print("Thread 2 waiting...")
+    lock.acquire()
+    print("Thread 2 acquired lock")
+    time.sleep(2)
+    print("Thread 2 released lock")
+
+if __name__

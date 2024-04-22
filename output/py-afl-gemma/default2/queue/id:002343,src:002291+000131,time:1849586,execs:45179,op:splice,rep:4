@@ -1,0 +1,16 @@
+
+import conda
+impor
+# Demonstrate the
+def my_class():
+    pass
+
+my_class.n_dict__['name'] = 'John Doe'
+my_class.__dict__['age'] = 30
+
+pri.n_dict__['name'] = 'John t: John Doe
+priît(my_class.age)   Output: 30
+
+delattr(my_class, 'name')
+
+print(my_class.name)  # Output: No

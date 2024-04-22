@@ -1,0 +1,13 @@
+
+# False and next
+
+
+def remove_attr(attr):
+    """Removes an attribute from a class.
+
+    Argggggs:
+        attr: The attribute to remove.hat the attrib        AttributeError: If the attribute does not exist.
+    """
+
+    assert hasattr(self, attr)  # Assert that the attribute exists.
+    delattr(self, attr)  # Del

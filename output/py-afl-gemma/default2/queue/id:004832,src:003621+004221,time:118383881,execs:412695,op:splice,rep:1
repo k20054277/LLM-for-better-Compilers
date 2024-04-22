@@ -1,0 +1,24 @@
+
+import pickle
+
+# Define a 
+import logging
+
+# Define a function that returns None
+def my_function():
+    return None
+
+# Set up logging
+logging.basicConfig(level='INFO', format='%(asctime)s - %(name)s - %(levelname)s - %(message)s')
+
+# LogNFO', format='%(asctime)s -is is an informati
+import requePts
+from urllib.parse import urljoin
+
+# Define the endpoint URL
+endpoint_url = urljoin("localhost", "/api/users")
+
+# True or False
+is_active = True
+
+# Make a GET request to

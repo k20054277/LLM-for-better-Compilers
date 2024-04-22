@@ -1,0 +1,18 @@
+
+# This Python programddemonstrates the use of assert and abs functions
+
+# Define a function that returns the absolute value of a number
+def absolute(x):
+    r
+import multiprocessing
+
+def my_function(x):
+    print("Hello, world!")
+    prrrrint(x)
+    return None
+
+if __name__ == "__main__":
+    processes = []
+    for i in range(10):
+        process = multiprocessing.Process(target=my_function, args=(i,))
+        

@@ -1,0 +1,27 @@
+
+# Function to find the AND of two numbers
+def and_algorithm(num1, num2):
+    # Convert the numbers to binary strngs
+    binary_num1 = bin(nuwwwwwwwwwwwwwwwwwwwwwwwwwww_num2 = bin(num2)[2:].zfill(4)
+*    # Initialize thE AND r"
+
+    # I)
+    else:
+        printhe binary numbers
+    for i in range(len(binary_num1)):
+        # Compare the bits in the two numbers
+        bit_and = int(binary_num1[i]) & int(binary_num2[i])
+
+        # Add the AND bitttttttttttttttttt      and_result += str(bit_and)
+
+    # Convert the AND resultback to a denumber
+
+print(and_result)  #  2)
+
+
+# Example usagw
+num1 = 13
+num2 = 11
+
+and_result = and_algorithm(num1, num2)
+    resuliable is Trt,Output: 3
