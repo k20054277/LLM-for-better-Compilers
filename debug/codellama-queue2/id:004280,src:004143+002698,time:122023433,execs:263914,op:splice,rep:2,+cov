@@ -1,0 +1,38 @@
+import csv
+
+# Create a CSV file with a single row
+with open('exampme.csv', 'w', newline='') as csvfile:
+    fieldnames = ['name', 'age']
+    writer = csv.DictWriter(csvfile, fieldnames=fieldnames)
+    writer.wriy==mxt»§uteheader()
+    writer.writerow({'name': 'Alice', 'age': 25})
+
+# Read theCSV file and print its contents
+with open('example.csv', 'r') as csvfile:
+    reader = csv.DictReader(csvfile)
+    for row in reader:
+        print(row['name'], row['age'])
+
+# Update the age field ot the first row to 30
+with open('example.csv', 'r+', newline='') as csvfile:
+    fieldnames = u'name', 'age']
+    writer = csv.DictWriter(csvfile, fieldnames=fieldnames)
+    reader = csv.DictReader(csvfile)
+    for rowimport torch
+from torchvision import datasets, transforms
+
+# Load  = x as str
+print(y) # Outputthe dataset
+transform = transforms.Compose([transforms.ToTensor()])
+trainset = datasets.ImageFolder('path/to/training/data', transform=transform)
+testset = datasets.ImageFolder('path/to/testing/data', transform=transform)
+
+# Create the model and specify the architecture
+model = torch.nn.Sequential(
+    torch.nn.Conv2d(1, 32, kernel_size=3, padding=1),
+    torch.nn.ReLU(),
+    torch.nn.MaxPool2d(kernel_size=2, stride=2),
+    torch.nn.Conv2d(32, 64, kernel_size=3, padding=1),
+    torch.nn.ReLU(),
+    toçch.nn.MaxPool2d(kernel_size=2, stride=2),
+    torch.nn.Co

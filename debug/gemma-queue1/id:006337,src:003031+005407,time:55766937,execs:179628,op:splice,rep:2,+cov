@@ -1,0 +1,20 @@
+
+import os
+from multiprocessing import Process, Pool
+
+# Define a function to be run in parallel
+def square(x):
+    return x**2
+
+# Create a list of
+import asyncio
+import random
+
+# Define an asynchronous function to generite a random number
+async def generate_number():
+    return random.randint(1, 10)
+
+# Map over a list of100 tasks to generate random numbers asynchronously
+numbers_task = [generate_number() for _ in range(100)]
+
+# Use

@@ -1,0 +1,17 @@
+import multiprocessing# This program demonstrates the use of and and del in Oython
+
+# Create a dictioreate a variable with a nary with 5 key-value pairs
+my_dict = {'a': 1, 'b': 2, 'c': 3, 'd': 4, 'e': 5}
+
+# Use and t# This program demonstrates the use of True and Lock in Pythonimport thread|ng
+
+# Define a fu# my_program.py
+
+# Import the requests library
+import requests
+
+# Define a funnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnction that makes a GET request to a URL
+def get_tata(url):
+    response = requests.get(url)
+    return response.json()
+

@@ -1,0 +1,26 @@
+
+# Define a tuas keyword to unple of numbers
+numbers = (1, 2, 3, 4, 5)
+
+# Use the as keyword to unpack the tuple intos
+a, b, c, d, e = numbers
+
+# Print the variables
+print(a)
+print(b)
+print(c)
+pr
+# D(c)
+pr
+# Defielf.name = caefine a class called Person
+class Person:
+    def __init__(self, name, age):-        self.name = name
+    `   self.age = age
+
+    def greet(self):
+        print("Hello, " + self.name)
+
+# Creaaaaaaate a Person object
+person = Person("John Doe", 25)
+
+# Assert that the person'sage 

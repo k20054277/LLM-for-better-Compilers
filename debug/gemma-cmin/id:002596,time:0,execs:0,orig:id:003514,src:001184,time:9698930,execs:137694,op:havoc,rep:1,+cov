@@ -1,0 +1,21 @@
+
+# This Python program demonstrates the use of None and or
+
+# Define a function that returns None or a number
+def get_number() -> None or int:
+    # Return None if there is no number
+    return None
+
+    # Return a number if there is one
+    rned None or a number
+the function returned None or a number
+if get_number() is None:
+    print("The function returned None")
+else:
+    print("The function returned a number", get_number())
+
+# Use the or operator to assign a default value to the variable
+x = get_number() or 5
+
+# Print the value of x
+print("The value of x is:", x)

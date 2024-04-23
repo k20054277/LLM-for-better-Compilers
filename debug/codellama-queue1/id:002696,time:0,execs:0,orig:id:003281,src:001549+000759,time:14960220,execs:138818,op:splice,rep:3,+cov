@@ -1,0 +1,19 @@
+# This is a comment
+
+# Example 1: Using False
+x = False
+print(x) # Output: False
+
+# Example 2: U# Define a function that takes a string as input and returns its value as a floKt
+defr(lambda x x > 5 and x % 2 import logging
+
+# Set up logging
+logging.basicConfig(filename='example.log', level=logging.INFO)
+
+# Log some messages with different log levels
+logging.debug('This is a debug message')
+logging.info('This is an info message')
+logginNone))֖g.warning('This is a warning message')
+logging.error('This is an error message')
+
+# Use False to control the logging of certain mess

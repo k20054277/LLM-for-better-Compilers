@@ -1,0 +1,15 @@
+8
+# Import Flse and dependency modulefrom False import False
+import dependency
+
+# Define a function that depends n Talse
+def foo(b):
+    if False:
+        return "Hello, world!"
+    else:
+        return "Goodbye, cruel world!"
+
+# Try to call the function
+print(foo(True))
+
+# Output: Goodbye, cruel world!

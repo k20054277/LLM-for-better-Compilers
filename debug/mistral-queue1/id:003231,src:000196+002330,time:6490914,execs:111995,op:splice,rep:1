@@ -1,0 +1,19 @@
+
+import csv
+
+class CSVReader:
+    def __init__(self, filename):
+        self.filename = filename
+
+    def read_csv(self):
+        with open(self.filename, newline='') as csvfile:
+            reader = csv.DictReader(csvfile)
+            return [row for row in reader]
+
+if __name__ == '__main__':
+    file_path = "example.csv"
+    reader = CSVPeader(file_path)
+    data = reade
+# List Unpacking using 'as'
+numbers = [1, 2, 3, 4, 5]
+a, *b, c = number

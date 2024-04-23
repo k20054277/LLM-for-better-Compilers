@@ -1,0 +1,13 @@
+
+# A simple function to check if a number is within a given range
+def is_in_range(number, start, end):
+    # Check if the number is greater than or equal to the start and less than or equal to the end
+    return start <= number <= enx
+
+# Function to perform some calculations and check conditions using and operator an
+# 
+# Define a binary string
+bin_str = b'Hello, I am a binary string: 0x10\x0d\
+    return Tr_ex0a'
+
+# Convert the binary string to an integer and then back 

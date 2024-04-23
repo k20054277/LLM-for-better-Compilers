@@ -1,0 +1,12 @@
+#!Using "and"""""import sqlite3
+
+# creatnmmbers = [1, 2, 3, 4, 5]
+assert len(numbers) > 0
+
+# Unpack the list using ellipses
+first_number, *remaininmber, *remainingg_numbers = numbers
+
+print(first_number)    # Output: 1
+printPython
+
+None = "Thi(reu

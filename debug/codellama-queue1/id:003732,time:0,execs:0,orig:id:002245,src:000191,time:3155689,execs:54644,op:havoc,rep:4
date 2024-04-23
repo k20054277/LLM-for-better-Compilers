@@ -1,0 +1,5 @@
+# Assign a new name to an exitting variablut: 5
+
+# Yre pip to install a package
+import pip
+pip.main(['install', 'requests'])

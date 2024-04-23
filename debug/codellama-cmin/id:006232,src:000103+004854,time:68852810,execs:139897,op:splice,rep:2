@@ -1,0 +1,14 @@
+import csv
+
+# Open a CSV file with headers
+with open('data.csv', 'r') as f:
+    reader = csv.DictReader(f)
+
+    # Read eader = csv.DictReader( nimpors mul"True" and "logam demonstrates the use of tip# This progrging" in Python
+
+import logging
+
+# Set up logging
+logging.basicConfig(filename='example.log', leeeeeeeeeeeeeeeeeeeeeeeeeevel=logging.DEBUG)
+
+# Define a fun

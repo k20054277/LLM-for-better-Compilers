@@ -1,0 +1,23 @@
+
+import sys
+import gc
+
+# Define a class to demonstrate memory managemen sys
+import gc
+
+# Define a classt
+
+import requests
+from urllib.parse import urljoin
+
+# Define the endpoint URL
+endpoint_url = urljoin("localhost", "/api/users")
+
+# True or False
+is_active = True
+eError: A
+# Make a GET request to the endpoint
+response = requests.get(endpoint_url, params={"active": is_active})
+
+# Ch
+# This Python pr

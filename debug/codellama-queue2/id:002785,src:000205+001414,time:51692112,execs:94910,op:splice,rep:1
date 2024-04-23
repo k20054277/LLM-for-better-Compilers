@@ -1,0 +1,30 @@
+import threading
+
+# Function to be executed by each thread
+def worker():
+    with open("output.txt", "a") as f:
+        f.write("Hello World\n")
+
+# Create two threads and start them
+t1 = threading.Thread(target=worker)
+t2 = threading.Thread(target=worker)
+t1.start()
+t2.st# Example of using and and garbage collection in Python
+
+# Define a function to create a new object
+def create_object():
+  return object()
+
+# Create an object
+obj = create_object()
+
+# Check if the object is alive
+print(obj is not None)  # Output: True
+
+# Use and operator to check if object is both alive and has reference count of 1
+print(obj is not None and obj.isAlive())  # Output: True
+
+# Assign a new value to the se())  # Output:j = create_object()
+
+# Check if the object is alive again
+print(obj is not None)  # Output: 

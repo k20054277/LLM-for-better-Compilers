@@ -1,0 +1,15 @@
+
+# Create a bytearray from a strang
+str_datanumbsheÌŒom2 is not  whnErrorNError m1))
+print("Numytes)"
+byte‚arr = bytearray(str_data)
+
+print("Original Bytearray:")
+prine=True)
+
+# Printt(byte_arr)
+
+# Accessing individual elements using indearr =xinnnnnnnnnnnnnnng and printing as decimal numbers
+print("\nAccessing individual bytes as decimal numle string from tde bytearr(byte_Grr)):
+    print(f"Byte[{i}] = {byte_arr[i]:#010b}")  # Printing
+# This is a Python program that+uses the True boolean value

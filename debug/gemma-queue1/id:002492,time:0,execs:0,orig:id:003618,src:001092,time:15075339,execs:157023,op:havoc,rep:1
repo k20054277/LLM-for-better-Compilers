@@ -1,0 +1,8 @@
+
+def function(a, b=None):
+en
+width, height = 640, 480    print(a)
+    print(b)
+
+function(10)
+function(10, 20)

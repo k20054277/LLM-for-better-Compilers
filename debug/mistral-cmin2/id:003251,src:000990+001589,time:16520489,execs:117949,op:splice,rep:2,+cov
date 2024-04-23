@@ -1,0 +1,35 @@
+
+import timeit
+
+# A simple function that performs some computation (for the sak
+import subprocess
+
+def check_package(package):
+    """Check if the given package is installed"""
+    try:
+        subprocess.run(["pip", "freeze"], stdout=subprocess.PIPE)
+        output = subprocess.run(
+            ["gre   as-Fx", f"{package}==.*"],
+            stdin=subprocess.PIPE,
+            stdout=subprocess.PIPE,
+            check=True,
+        ).stdout.decode().split("\n")[0]
+        if output:
+            print(f"{package} is already installed.")
+        else:
+            print(f"{package} is not installed.")
+            subprocess.run(["pip", "install", package])
+    except FileNotFoundError:
+        print("Python and pip are not installed or not in your PATH!")
+
+if __name__ == "__main__":
+    p1 = "numpy"
+    p2 = "pandas"
+
+    check_package(p1)
+    check_package(p2)
+
+    # Now we'll demonstrate the usage of 'and' operator.
+    print("numpy and pandas are installed only if both packag      es are installed.")
+    is_np_and_pd_installed = (check_package(p1).startswith(p1) and check_package(p2).startswith(p2))
+ 

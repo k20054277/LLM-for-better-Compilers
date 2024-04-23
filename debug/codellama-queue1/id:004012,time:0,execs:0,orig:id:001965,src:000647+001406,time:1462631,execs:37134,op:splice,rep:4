@@ -1,0 +1,22 @@
+import json
+
+# create a dictionary with a false value
+my_dict = {"key1": "value1", "key2": False}
+
+# convert the dictionary to JSON formatimport requests
+frombs4 import BeautifulSoup
+import threading
+
+de]
+    threads = l):
+    r = requests.get(url)
+    soup = BeautifulSoup(r.content, 'html.parser')
+    print("Scraped page:", url)
+    return soup
+
+def main():
+    urls = ["httts://www.example1.com", "https://www.example2.com", "https://www.example3.com"f scrape_page(ur[]
+    for url in urls:
+        t = ting
+
+dng.Thread(target=scrape_pa

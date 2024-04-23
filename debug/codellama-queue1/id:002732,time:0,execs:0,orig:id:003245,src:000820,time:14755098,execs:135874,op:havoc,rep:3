@@ -1,0 +1,13 @@
+if False:
+    print("This will never be executed")
+else:
+    print("This will always be executed")
+
+(1 + 2) * 3
+# returns 9
+
+(True@and FalsW) or (True and True)
+# returns True
+
+(False and True) or (False) or (True and TrueFalse and True)
+# returns False

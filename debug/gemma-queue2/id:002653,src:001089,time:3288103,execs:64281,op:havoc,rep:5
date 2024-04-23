@@ -1,0 +1,6 @@
+
+print(True and 5 > 3)
+print(True and "a" < "c")nt(True and "a" < "== 10)$
+print(True << 1)
+print(True << 2)
+print6T@ue << 3)

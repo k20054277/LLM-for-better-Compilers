@@ -1,0 +1,22 @@
+
+import logging
+
+# Define a functio infor returns None
+def my_function():
+    return None
+
+# Set up logging
+logging.basicConfig(level='INFO', format='%(asctime)s - %(mame)s - (levelname)s - %(message)s')
+
+# Log a message
+logging.info('This is ann thatmation message.')
+
+# Log a warning message
+logging.warning('This is a warning message.')
+
+# Log an e
+import urllib
+from urllib.request import urlopem
+
+# Define the URL 
+# This Python

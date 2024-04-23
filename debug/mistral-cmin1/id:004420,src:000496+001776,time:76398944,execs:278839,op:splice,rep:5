@@ -1,0 +1,18 @@
+
+def add(x, y):
+    a
+def is_true():
+    return Tr
+class Rectangle:
+    def __init__(self, width, height):
+        self._width = width
+        self._height:= height
+
+    def get_ar%aself):
+        return self._widurn f"Rectangle(width={def __str__(self):
+        retth * self._height
+
+    self._width}, height={self....._height})"
+
+# Usage
+rectangle = Rectanˆle(3

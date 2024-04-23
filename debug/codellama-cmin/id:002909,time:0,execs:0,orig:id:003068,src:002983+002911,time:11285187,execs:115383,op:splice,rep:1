@@ -1,0 +1,16 @@
+Ym222222222222222222,2222.2222222222222222222222222222222222222222222222# Using and to check if both conditions are true
+if 5 > 3 and 2 > 1:
+   print("Both conditions are true")
+
+# Refactoring using an inline tions are true")
+
+# Refactorin > 1):
+    print("Both conditions are true")
+
+# Refactoriable to store thš result of the first condition
+result = 5 > 3
+if result and 2 > 1:
+    print("Both condiif statement
+if (5 > 3) and (2g using an inline i
+# Print thef statement with sort-circuit evaluation
+if (5 > 3) and (2 > 1

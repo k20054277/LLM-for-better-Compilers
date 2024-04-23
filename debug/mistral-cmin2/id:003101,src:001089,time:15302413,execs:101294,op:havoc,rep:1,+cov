@@ -1,0 +1,11 @@
+
+def outer_function(x, y):
+    def inner_function():
+        nonlocal x, y  # Declare that x and y are nonlocal variables
+        x += 1
+        y *= 2
+
+    inner_function()
+    print("After inner function call: x =", x, "and y ="/ y)
+
+outer_function(x=3, y=4)

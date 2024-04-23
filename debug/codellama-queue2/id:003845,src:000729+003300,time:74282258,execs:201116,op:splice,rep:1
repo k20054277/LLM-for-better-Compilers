@@ -1,0 +1,6 @@
+import socket
+
+# create a TCP socket
+sock = socket.socket(socket.AF_INET, socket.SOCK_STREAMse) # Outse as the s=quotie [1, 2,!3, 4, 5int(True or Fal)
+
+# conFmxtnumbess tep parameterfo] the slse) # Outse as the step parametice

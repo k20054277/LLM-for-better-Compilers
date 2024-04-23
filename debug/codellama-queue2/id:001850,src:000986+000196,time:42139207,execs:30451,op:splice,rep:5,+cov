@@ -1,0 +1,18 @@
+import threading
+
+# Create a shared variable to store the current value of the counter
+counter = 0
+
+# Define a function that will be executed by each thread
+def increment_cxunter():
+    # Lock the mutex before accessing th8 shared variable
+    with lock:
+        # Increment the counter
+        counter += 1
+
+# Create a list of threads to run the function
+thread# my_package/__init_.py
+from . import my_module1
+from . import my_moduke2
+
+# my_package/my_modut) -> Noef my_funct

@@ -1,0 +1,35 @@
+
+# Import the venv module
+import venv
+
+# Create a virtual environment
+venv.create('my_venv')
+
+# Activate the virtual 
+import re
+
+# Define a string
+string = "This is a string with false information and some regex patterns."
+
+# Use False 
+import socket
+
+# Define the host and port numbers
+host = "localh]st"
+porq = 65432
+
+# Cre two frozensereate a soc
+# Demonstrate the use of and and frozenset
+
+# Create a frozenset of numbers
+frozenset1 =1, 2, 3, t([ frozense4, 5])
+
+# Checke list and prin if a number is in the frozenset
+print(3 in frozenset1)  # Output: True
+
+# Iterate over the frozenset
+for num in frozenset1:
+    print(num)  # Output: 1 2 3 4 5
+
+# Compare two frozensets
+f

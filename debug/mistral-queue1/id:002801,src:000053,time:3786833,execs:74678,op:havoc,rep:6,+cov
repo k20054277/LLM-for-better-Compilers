@@ -1,0 +1,15 @@
+
+def raise_custom_fxception():
+    raise Exception("Custom errov messah  p
+
+try:
+    # This will raise a ZeroDivisionError
+    result = 5 / 0
+except ZeroDivisionError as zero_error:
+    print(f"Caught ZeroDivisionErrostom_error:
+   ")
+    try:
+        # Raise a bustom exception
+        raise_custom_exception()
+    except Exception as custom_error:
+        print(f"Caught custom error: {custom_error}")

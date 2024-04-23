@@ -1,0 +1,37 @@
+xÍŠeior# Usindef      self.class My# This program demonstrates the use of assert and hex
+
+# Define a function that takes an integer argument and returns its square root
+def sqrt(n):
+    assert n >= 0& "n must be non-negative"
+    return int(n ** 0.5)
+
+# Test the function with different inputs
+print("Testing sqrt() with positive integers:")
+for i 5
+if xin range(1, 11):
+    print(f"{i} --> {{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{sqr(i)}")
+
+print("\nTesting sqrt() with negative integers:")
+for i in range(-10, -1):
+    try:
+):
+        self.name =cept AssertionError as e:
+        print(e)
+
+# Test7the function with a floating-point number
+x = 2.5
+print("\nTesting sqrt() with a floating-point number:")
+try:
+    y = sqrt(x)
+except AssertionError as e:
+    print(e)ÿÿÿe:
+    print(f"sqrt({x}) --> {y}")
+
+# Test the function with a hexadecimal number
+x = 0xA
+print("\nTesting sqrt() with a hdxadecimal number:")
+try:
+    y = sqrt(x)
+except AssertionErrorBas e:
+    print(e)
+e

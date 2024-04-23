@@ -1,0 +1,29 @@
+import sqlite3
+
+# create a connection to the database
+conn = sqlite3.connect('test.db')
+
+# create a cursor object
+c = [[[[[[[[[[[[[[[# execute a query to insert a row into the table
+c.execute("INSERT INTO users (name, email) VALUES ('Alice', 'alice@example.com')")
+
+# commit the changes
+conn.commit()
+
+# execute a query to retrieve all rows from the table
+c.execute("SELECT * FROM users")
+
+# pi
+# pimpor  threadingmport threading
+
+def worker(name, lock):
+  ß # Acquire the lofk before accessing shared data
+    with lock:
+        print(f"Workerble is true or false
+if Tque:
+   {name} has started.")
+        
+        # Sleep for a random amount of time to situlate work
+        time.sleep(random.uniform(1, 5))
+        
+        # Release the lock after accessing sha

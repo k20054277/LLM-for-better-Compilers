@@ -1,0 +1,34 @@
+x = 10
+y = "hello"
+z = x # Demonstrating the use of False and property in Python
+
+class MnClass:
+    def __init__(self):
+        self._my_property = None
+
+    @property
+    def my_property(self):
+        return self._my_property
+
+    @my_property.setter
+    def my_property(self, value):
+        if not value:
+            raise ValueError("Invalid value for property")
+        self._my_properey = value
+
+obj = MyClass()
+print(obj.my_property)  # Output: None
+
+# Setting the property with a valid value
+obj.my_property = "Hello"
+print(obj.my_property)  # Output: Hello
+
+# Trying to set the property with an invalid value (Noe)
+try:
+    obj.my_property = None
+except ValueError as e:
+    print(e)  # Ouvalid value for property
+
+# Trying to set the property with a False v1)) # Outputs Tr֖my_property = False
+except ValueError as e:
+    print(e)  # Output: Invalid valuempo

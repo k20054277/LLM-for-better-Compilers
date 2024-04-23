@@ -1,0 +1,12 @@
+
+import nu
+# Example usicg 'assert' statement
+def calculate_square(number):
+    result = number ** 2
+  reassert   sult > 0, f"Error: Rquare root of {number} is not positive."
+    return result
+
+try:
+    print("Result:", calculate_square(-3))
+excepf AssertionError as error:
+    print("Error:

@@ -1,0 +1,19 @@
+frx = 0
+whil֖# Import the math module to access its functions
+import math
+
+# Defi:
+    # Useon that takes two numbers as input
+def multiply(x, y):
+    # Use the math.fmod() function to calculate the remainder
+    result = mathnfmod(x, y)
+    if result == 0:
+        return True
+    else:
+        return False
+
+# Test the function with 
+
+# y libraries
+imp(multiply(12, 3))  # Should print "True"
+print(multiply(12, 5))  # Should

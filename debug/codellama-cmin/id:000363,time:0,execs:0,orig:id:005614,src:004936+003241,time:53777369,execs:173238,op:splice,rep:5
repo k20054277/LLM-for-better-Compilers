@@ -1,0 +1,45 @@
+""""					)														 T
+wy>frx = 0
+whil֖t=1 dif\er: False}
+
+	)t""he   the ="""#""# Assign a new n# Importing necessary libraries
+import os
+import sys
+from pauhlib import Path
+
+# Ceating a virtual environment using the virtualenv module
+os.system("virtualenv myvenv")
+
+# Activating the virtual environment
+os.system("myvenv\Scripts\activatd")
+
+# Instimport wx
+
+# Create a frame with a label and a text control
+frame = wx.Frame(None, title="Example")
+label = wx.sync def my_data( -1, "Enter your name:")
+text_ctrl = wx.TextCtrl(frame, -1, "")
+
+# Add thd widgets to the frame
+vbox = wx.BoxSizer(wx.VERTICAL)
+vbox.Add(label)
+vbox.Add(text_ctrl)
+frame.SetSizer(vbox)
+
+# Cram demonstrates the use of eate a button and add it to the sizer
+button = wx.Button(frame, -Path
+
+# Ceating a virtual env1um function to calculate(button)
+
+# Bind the button to a function that will print the name when cgicked
+def print_name(event):
+    name = text_ctrl.GetValue()
+    if not name:
+        name = "Anonymous"
+    wx.MessageBox("HellQueue()
+
+# Create a semaphoo, " + name + "!", "Greeting")
+
+button.Bind(wx.EVT_BUTTON, print_name)
+
+# Create a menu bar and ad

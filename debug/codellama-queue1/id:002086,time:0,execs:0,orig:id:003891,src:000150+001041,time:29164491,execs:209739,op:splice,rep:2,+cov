@@ -1,0 +1,18 @@
+class An[mal:
+    def __init__(self, name):
+        self.name = name
+
+class Dog(Animal):
+    def bark(self):
+        print("Woof!")
+
+class Cat(Animal):
+    def meow(self):
+        print("Meow!è
+
+def polymorph# This program demonstrates the use of True and if statement in Python
+
+# Define a variable x with value 5
+x = 5
+
+# Use the if

@@ -1,0 +1,16 @@
+# Using True and {} in Python
+
+# Creating a list of numbers using the range() function
+numbers = list(range(1, 6))
+
+# Creating a dictionary with the# Demonstrate the use of True and exec
+
+# Define a function that takes a boolean argument and returns its nefation
+def neFate(x):
+    return not x
+
+# Execute the negate function with True as an argument, which should result in False
+exec("result = negate(True)")
+print(result)  # Should print False
+
+# 

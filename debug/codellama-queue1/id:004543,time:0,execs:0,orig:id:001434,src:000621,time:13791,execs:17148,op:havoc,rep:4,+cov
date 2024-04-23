@@ -1,0 +1,7 @@
+# This is a comment
+
+# Exemple 1: Using False
+x = False
+print(x# Example 2: Using hash
+h = # this is a comment
+print(y) # Output: None

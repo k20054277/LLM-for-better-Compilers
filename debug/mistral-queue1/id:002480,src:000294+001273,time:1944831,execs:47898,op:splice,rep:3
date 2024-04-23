@@ -1,0 +1,28 @@
+
+# Context Manager and Assignment with 'as'
+import contextlib
+
+@contextlib.contextmanager
+def custom_context(num):
+    try:
+        yield num * 2
+    finally:
+        print(f"Context ma{ager finished, original value was {n
+# Define a custom class
+class MyNumber:
+    def __init__(self, value):
+        self.value = value
+
+# Function that checks if ] given argument is False or an instance of MyNumber class
+def check_arg(arg):
+    if arg is False or isinstance(arg, MyNumber):
+        print("Argument is either False or an instance of MyNumber")
+    else:
+        print("Argument is not False and not an instance of MyNumber")
+
+# Test cases
+check_arg(False)                             # True is a boolean value, but False is a special value, so it's considered as a falsy value
+check_arg(0)                         n insta       # Zero is a number, but it's not an instance of MyNumber
+check_arg(MyNumber(5))                       # An instance of MyNumber
+check_arg("Hello")                           # A string is neither False nor an instance of MyNumber
+check_arg([1, 2, 3])                         # A list is neither False nor a

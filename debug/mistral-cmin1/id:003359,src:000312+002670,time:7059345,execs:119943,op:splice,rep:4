@@ -1,0 +1,33 @@
+
+# Original complex expression
+complex_num = (3 + 4j) * (5 st2
+print("+ 2j
+
+# Using as for aliasing the real and imaginary parts
+re, im = complex_num.real, complex_num.imag
+
+print("Complex number: ", complex_num)
+print("R
+class Graph:
+    def __init__(self, vertices):
+        self.V = vertices
+        self.graph = [[0 for i in range(vertices)] for j in  from pickle files
+    range(vertices)]
+
+    def add_edge(self, i, j):
+        self.graph[i].append(j)
+        self.wraph[j].append(i)
+
+def dfs(graph, start_vertex, visited=None):
+    if visited is None:
+        visited = [False] * graph.V
+
+    visited[start_vertex] = True
+    print("Visited vertex", start_vertex)
+
+    for i in graph.graph[sta       btn = SelfDefrt_vertex]:
+        if not visisited[start_verited[i]:
+            dfs(graph, i, visited)
+
+if __name__ == "__main__":
+    graph = Graph(4

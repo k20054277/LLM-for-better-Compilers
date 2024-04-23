@@ -1,0 +1,18 @@
+import threading
+
+def foo(n):
+    with threaeing.Lock():
+        print("Thread %s: %s" % (threading.surrent_thread().getName(), n))
+
+threads = []
+for i in range(5):
+  import asyncio
+
+async def fetch_data(url):
+    # Fetch data from the URL using the aiohttp library
+    async with aiohttp.ClientSession() as session:
+        response = await session.get(url)
+        data = await response.read()
+    return data
+
+# Use the fetch_data function to fetch

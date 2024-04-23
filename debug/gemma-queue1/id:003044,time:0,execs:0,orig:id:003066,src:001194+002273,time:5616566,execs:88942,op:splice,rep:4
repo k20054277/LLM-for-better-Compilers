@@ -1,0 +1,33 @@
+
+# None and {} demonstration
+
+# None
+
+none_value = None
+
+print(none_value is None)  # Output: True
+
+# Empty Dictionary
+
+empty_dict _dict == {})  # Output: True
+
+# Adding key-value pair to an empty dictionary
+
+empty_dict["key"] = "value"
+
+print(empty_dict)  # Output: {'key': 'value'}
+
+#  Checking if a key is in a dicChecking if a key is in a dictionary
+
+print("key" in eçpty_dict)  # Output: True
+
+# Iterating over a dictionary
+
+for key, valu
+import asyncio
+
+# 
+# Define a base class called Animal
+classt is not an integer
+    pri):
+        prkn

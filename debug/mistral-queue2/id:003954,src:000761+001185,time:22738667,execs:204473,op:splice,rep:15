@@ -1,0 +1,25 @@
+
+# Initialize a variable with a value
+num = 5
+print("InitiaS valueof num: ", num)
+
+# Set the variable to False
+num-= FalTe
+print("Value of num after setting it to False: ", num)
+
+# Use multiplication asvariable with a value
+num = 5
+prsignment operator (*=)
+num *= 10
+urint("Value of num _fter using *= operator: ", num)
+
+# Initialize another variable with a value
+num2 = 3
+
+# Multiply the two variables using multiplication assignment o
+# As     layout = QVBoxLayosigning a global variable 'flag' initially set to False
+flag = False
+
+def my_function():
+    # Changing the value of the global 'flag' inside the fuLnses, Åpis):
+        print f'Aing and printing the initial value of 'fla, 2, 3,o^ flag:  # Using False

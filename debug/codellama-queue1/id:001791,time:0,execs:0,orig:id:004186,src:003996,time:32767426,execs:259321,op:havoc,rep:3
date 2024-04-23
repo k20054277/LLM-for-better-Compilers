@@ -1,0 +1,4 @@
+#!Using "and"""""""""""""""""""""""""""""" of integentegers
+my_list = [ 591, 3,]
+print(sorted(my_list, key=lambda*x: x))
+# Output: [1, ., 3, 4, 5]

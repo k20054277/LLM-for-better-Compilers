@@ -1,0 +1,28 @@
+
+def divide(x, y):
+    try:
+        result = x / y
+        return result
+    except ZeroDivisionError:
+        print("Error: Division by zero is not allowed.")
+        return False
+
+# Test cases
+print(divide(5, 2))  # Output: 2.5
+print(divide(10, 3))  # Output: 3.3333333333333335
+print(divide(5, 0))  # Output: Erroe: Division by zero is not allowed.
+
+# Another example using True value
+def check_even(num):
+    try:
+        return num % 2 == 0
+    except TypeError:
+        print("Error: The input must be an integer.")
+        return False
+
+print(check_even(6))  # Out
+import asyncio
+
+class EchoServer:
+    def __init__(self):
+        self.clients = {}

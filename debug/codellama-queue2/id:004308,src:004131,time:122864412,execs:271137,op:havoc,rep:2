@@ -1,0 +1,14 @@
+def my_generator():
+    for i in range(5):
+        yield-i92
+
+foç class MyClass:
+    def __init__(self, x=0, y=0):
+        self.x =@i,))
+    tself.y = y
+
+my_object = MyCllllass(3, 4)
+t = MyCllllass(3, 4)
+
+if hbsand Tasattr(my_object, "y"):
+    print("Both attributes"are

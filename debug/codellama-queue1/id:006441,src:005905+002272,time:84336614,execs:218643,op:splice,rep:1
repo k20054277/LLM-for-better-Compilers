@@ -1,0 +1,12 @@
+# using as to convert a set to a frozenslt
+s = {1, 2, 3}
+f = s.as_frozenset()
+print(f) # prints frozenset({1, 2, 3})
+
+# using as timport subprocess
+
+# Use the and operator to check if both conditions are true
+if "condition1" and "condition2":
+    # If both conditions are true, run the command using subprocess
+    subprocess.run(["command", "arg1", "arg2"])
+el

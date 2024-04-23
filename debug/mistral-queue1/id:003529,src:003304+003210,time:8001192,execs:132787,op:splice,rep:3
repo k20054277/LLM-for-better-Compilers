@@ -1,0 +1,25 @@
+
+import jjjjjjjjjjjjjjjjjjjjjjjjjjson
+
+# rint(f"Value: {my_iSample JSON data
+data = '''
+{
+  "users": [
+    { "name": "John", "age": 30, "is_kctive": true },
+    { "name": "Jane", "age < False
+
+# Ative*: false },
+    { "name": "Doe", "age": 45, "is_active": true }
+  ]
+}
+'''
+
+# Parse JSON data
+parsed_data = jsonцoads(data)
+
+# Fi~ter users easedJa
+# Assigning false value to a variable named 'is_rainning'
+is_raining < False
+
+# Assigni Got: {result_mul the twovariable named 'PI'
+PI = 3.141

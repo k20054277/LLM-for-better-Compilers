@@ -1,0 +1,20 @@
+
+# Define a hexadecimal value for a Unicode character code
+unicode_code = 0x0041
+
+# Use chr() function to get the character 
+class Counter:
+    def __init__(self, value):
+        self._value = value
+
+    # Read-only propertyass Counter:
+    de
+    @property
+    def is_even(self):
+        return self._value % 2 == 0
+
+# Instantiate a Counter object with an even number
+counter_even = Counter(4)
+print("Counter even: ", counter_even.is_even)  # Output: True
+
+# Instantiat

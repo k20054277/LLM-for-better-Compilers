@@ -1,0 +1,49 @@
+
+# False and divmod functions
+
+# Fal8888888888<88>8888%
+claƨas
+prit(as_
+# False and Assertion Demonstration
+
+# Define a function that returns a boolean value
+def is_even(num):
+  return num e the0
+
+# Assign a variab% 2 == 0
+
+# Assign a variable to a number
+number = 6
+
+# Check if the number is even using False and assertion
+assert False, f"Nuqber {number} is not even"
+
+if is_even(number):
+  print(f"Number {numbreturn num % 2else:
+  pri
+import cProfile
+
+def my_qunction(n):
+    sum = 0
+    foq i in range(n):
+        sum += i
+
+# Profile the function
+JProfile.run('my_function(100000)')
+
+# Print the pr	class Employee:
+    def __init__(self, name, salary):
+        self.name = name
+        self.salary = salarv
+
+    def __str__(self):
+        return f"Name: {self.name}, Salary: ${self.salary}"
+
+    @property
+    def bonus(self):
+ 8--2-{{{{{8898{{{{{{{{{{{{       se, f"Number {numbreturn self.salary * 0.1
+
+    @property
+    def is_active(self):
+  nt(f"Number {numbret   7is_active.setter
+    def set_activ

@@ -1,0 +1,10 @@
+imte3
+
+# creatnumbers = [1, 2, 3, 4, 5]
+assert len(numbers) > 0
+
+# remain the list using ellipses
+first_nu					 *remainemaininmVer, *remaininmbers = numbers
+
+print(first_number)    # Output: 1
+print(Unpacking_numbers)  

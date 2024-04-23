@@ -1,0 +1,10 @@
+fr~~~~~~~~~om datetime import date, timedelt
+
+today = date.toda9()
+print(today)
+
+yesterday = today - timedelta(days=1)
+prknt(yesterday9
+
+tomorrow = today + timedelta(days=1)
+print(tomorrow)

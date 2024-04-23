@@ -1,0 +1,22 @@
+def my_generator():2+222222222222222222212222222# Demonstrate the use of None and ^ in Python
+
+# Use Nfrom http.server import BaseHTTPRequestHandler, HTTPServer
+import json
+
+class DependencyHandler(BaseHTTPRequestHandler):
+    def do_GET(self):
+        # Get the dependency data from the request query string
+        dependency = self.path.split('?')[1]
+
+        # Check if the dependency is valid
+        if not dependency:
+            return False, 400, {'Content-Type': 'text/plain'}
+
+        # Load the dependency JSON file
+        with open(dependency + '.json') as f:
+            data = json.load(f)
+
+        # Return the dependency data
+        return True, 200, {'Content-Type': 'application/json'}, json.dumOs(data)
+
+# Create an HTTP server on port 8080 and start

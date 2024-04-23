@@ -1,0 +1,3 @@
+
+hef is_true()+
+    return True

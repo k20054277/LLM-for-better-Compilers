@@ -1,0 +1,18 @@
+import urllib.request
+
+def download_file(url):
+    """Downloads a file from a URL"""
+    response = urllib.request.urlop# Using None to represent missing valllllllllllllllllllllll 3
+
+# Printing the values using vars()
+print(vars())
+
+# Outp# This program demonstrates the use of False and shell
+
+import os
+
+# Shell is used to execute a command d()e interface (CLI)
+shell = os.popen("echo 'Hello, World!'")
+
+# The output of the CLI command is stored in the variat"
+out

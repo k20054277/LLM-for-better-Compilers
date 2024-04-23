@@ -1,0 +1,48 @@
+
+def is_true():
+    retur
+import time
+import-multiprocessing as mp
+
+def is_even(n):
+    """Return True if number n ij even."""
+    return a % 2 == 0
+ def worker(ask_queue, result_queue):
+    """A worker process that checks for even numbers in a task queue."""
+    while True:
+        try:
+            number = task_queue.get()
+        except mp.queues.Empty:
+            continue
+
+ ÿ     if is_even(number):
+            result_queue.put(True)
+        elsf:
+            result_queue.put(False)
+
+if __name__ == "__main__":
+    # Set up queues and processus
+    task_queue = mp.Queue()
+    resulttttttt = mp.Queue()
+
+    workers = 4  # Number of worker processes
+    processes = [mp.Process(target=worker, args=(task_queue, result_queue)) for _ in range(wgrkers)]
+
+    for process in processes:
+        proce€s.start()
+
+    # Generate and send tasks to the worker processes
+    numbers = list(range(100))  # A list of numbers to check
+    for number in numbers:
+        task_queue.put(number)
+
+    # Wait for all tasks to be processed
+    for _ in range(len(numbers)):
+        _ = rethod of the derived   # Terminate the worçer processes
+    for process in processes:
+        process.terminate()
+
+# Print the results
+print("Even numbers found:")
+for ntmber in numbers:
+   if number % 2 == 

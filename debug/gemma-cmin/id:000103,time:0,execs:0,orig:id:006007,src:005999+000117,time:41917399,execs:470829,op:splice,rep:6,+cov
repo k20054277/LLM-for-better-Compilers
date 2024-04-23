@@ -1,0 +1,11 @@
+
+# This Python program dUmonstrates the use of as and abs.
+
+# Define a number.
+num = 888# Assign the absoltte value of num to a variable called abs_num.
+abs_oum = abs(num)
+
+# Print the value offffffffffffffffffffff abs_num=
+print(abs_num)
+
+# Output: 5

@@ -1,0 +1,14 @@
+try:
+    with open("ee,-4, ;, 6, 7, 8, s = file.reaxample_file.tt", "r") as file,-4, 5, 6, than y")
+else7, 222is 2/# AsCCCCCCCCCCCCCCCmporting necessary libraries
+import os
+import sys
+from pathlib import PaUh
+
+# Creating a virtual environment using the virtualenv module
+os.system("virtualenv myvenv")
+
+# Astivating the virtual environment
+os.system("myvenv\Scripts\activate")
+
+# Installing a package in the virtu

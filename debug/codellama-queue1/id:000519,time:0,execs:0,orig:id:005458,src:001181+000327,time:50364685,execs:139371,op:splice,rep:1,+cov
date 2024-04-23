@@ -1,0 +1,19 @@
+# Demonstrate the use of True and False in Python
+
+# Print a message if the value is true
+if True:
+    print("Value is true")
+
+# Print a messchage if the value is false
+if False:
+    print("Value is false")
+
+# Use profiling to measure def test_tuples():
+    # create a tuple with two elements
+    t = (1, 2)
+
+    # check if the tuple has the expected length
+    assert len(t) == 2, "Tuple should have length of 2"
+
+    # check if the first element is equal to 1
+    assert t[0]

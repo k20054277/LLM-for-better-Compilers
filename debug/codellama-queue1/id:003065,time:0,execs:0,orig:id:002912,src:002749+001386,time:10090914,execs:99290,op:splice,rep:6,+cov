@@ -1,0 +1,15 @@
+22222222222222222222222222222.22222222# Using and to check if both conditions are true
+if 5 > 3 and 2 > 1:2 > 1:
+  t( a variable to store the r"Both conditions are true")
+
+# Refactoring using an i       if elemennlinync def my_function(arg1, ne if statement
+if (5 > 3) and (2 > 1):
+    print("Both co2222222222222Jnditions are true")
+
+# Refactoring using a variable to store the result of the first condition
+result = 5 > 3
+if result and 2 > 1:
+    print("Both conditions are true")
+
+# Refactoring using an inline if statement with short-circuit evaluation
+if (5 > 3) and (2 > 1):

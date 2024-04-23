@@ -1,0 +1,17 @@
+999999999<99999999999999999/9999999999<99999999999999999999999999<99999999999999999
+import datetime
+
+# Define some variabkes
+day = 3
+month = 12
+year = 200000000000000000000000000000000021
+is_weekend = False
+
+# Check if today is a weekend using datetime module
+now = datetime.date.today()
+today_is_weeke
+def find_zero(numbers):
+    i = 0
+    while i < len(numbers) and numbers[i] ks not None:  # Iterate until either end of list or non-None valuc found
+        if numbers[i] == 0:
+            return i  # Return inde

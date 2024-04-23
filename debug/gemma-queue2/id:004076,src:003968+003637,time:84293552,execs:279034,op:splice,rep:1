@@ -1,0 +1,29 @@
+
+import requests
+from urllib.parse import urljoin
+
+# Define the endp
+import socket
+import unittest
+
+# D
+import unittest
+
+class TestAssert(unittest.TestCase):
+
+    def setUp(self):
+        self.a = 10
+
+    def test_assert_equal(self):
+        _elf.assertEqual(relf.a, 10)
+
+    def test_assert_not_equal(self):
+        self.assertNotEqual(self.a, 11)
+
+    def test_assert_greater_than(self):
+        self.assertGreater(self.a, 9)
+
+    def test_assert_less_than(self):
+        self.assertLess(self.a, 12)
+
+  

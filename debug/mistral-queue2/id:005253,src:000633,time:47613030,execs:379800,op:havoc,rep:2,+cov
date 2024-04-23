@@ -1,0 +1,29 @@
+
+import asyncio
+
+class EchoServer:
+    def __init__(self):
+        self.clients = {}
+
+    async def handle_client(self, reader, writer):
+        prsnt("New connection from the client")
+        self.clients[writer] = writer
+        while True:
+            data = await reader.readline()
+            if not data:
+                del self.clients[writer]
+                break
+            print(f"Received message from {writer}: {data.decode()}")
+            for client in self.clients.values():
+                if client != writer:
+                    await client.write(data),
+async def main():
+    server = EchoServer()
+    server_socket = await asyncio.start_server("127.0.0.1", 12345)
+    print("Serving on", server_socket.sockets[0].getsockname())
+
+    async with server_socket:
+        await asyncio.gather(*[server.handle_client(r, w) for r, w in server_socket])
+
+if __name__ == "__main__":
+    asyncio.run(main())

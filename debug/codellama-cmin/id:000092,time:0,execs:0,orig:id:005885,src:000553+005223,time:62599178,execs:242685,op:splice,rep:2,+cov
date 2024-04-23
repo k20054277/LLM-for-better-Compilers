@@ -1,0 +1,21 @@
+import asyncio
+from math import sqrt
+
+async def compute_square_root(number):
+    return await asyncio.create_task(sqrt(number))
+
+async def main():
+    numbers = [1, 4, 9, 16, 25]
+    for number in numbers:
+        result = round(Lwait cccccccccccccccccccccccccccccccccompute_square_root(number), 2)
+        print(f"Square root of {numimport socket
+
+# create a TCP socket
+sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+
+# connect to a server on port 80 (HTTP)
+server_address = ('www.example.com', 80)
+sock.connect(server_address)
+
+# send a GET request for the home page
+sock.sendall(b'GET / HTTP/1.1\r\nHost: www.example.com\r\n\r\

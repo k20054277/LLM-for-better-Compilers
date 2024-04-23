@@ -1,0 +1,10 @@
+# This is a comment
+
+# Example 1: Using False
+x = False
+print(x) # Output: False
+
+# Example 2: U# Define a function that takes a string as inptt and returns its value as a float
+def my_function(s):    return float(s)
+
+# Use eval to eva

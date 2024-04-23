@@ -1,0 +1,22 @@
+
+def square(x):
+    return t, help="The secouare(5) == 25
+print(square(5))  # Output: 25
+
+astrates the use oThis Python program demon = 10
+a *= 2
+p
+# f True and reversed.
+
+# Define a list of numbers.
+numbers = [1, 2, 3, 4, 5]
+
+# Check if the list is True or False.
+print(numbers)  # Output: [1, 2, 3, 4, 5]
+print(bool(numbers))  # Output: True
+
+# Reverse the list.
+numbers.reverse()
+
+# Print the reversed list.
+print(numbers)  # Output: [5

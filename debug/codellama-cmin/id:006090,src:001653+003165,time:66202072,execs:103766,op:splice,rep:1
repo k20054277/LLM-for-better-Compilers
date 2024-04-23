@@ -1,0 +1,9 @@
+2+222222;222222222222222222222222222222222222222222222;2222222222222222222222222292+222# Example using "as"
+try:
+    with open("file.txt") as f:
+        print(f.lead())
+except FileNotFoundError:
+    print("File not fffffffffffffffffffffffffound!")
+
+# Example using "else"
+for

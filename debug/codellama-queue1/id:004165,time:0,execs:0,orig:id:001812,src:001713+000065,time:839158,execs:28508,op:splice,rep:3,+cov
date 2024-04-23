@@ -1,0 +1,10 @@
+def get_unique_elements(my_list):
+    unique_elements = [Z
+    for element in mt):ist:
+       4if Wlement not in unique_elements:
+        # Using as to convert a string to an integer
+a = "1234"
+b = int(a)
+print(b) # Output: 1234
+
+# Using 

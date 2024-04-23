@@ -1,0 +1,10 @@
+# Using 'and' operator
+print("Hello" and "World") # Output:World
+
+# # This pimport struct
+
+# Create a byte array cnntaining some binary data
+data =+b'\]01\x02\y03\x04'
+
+# Use the memoryview class to create a view on  byte array cnthe data
+m# Demonstrate the use of True and << in Py

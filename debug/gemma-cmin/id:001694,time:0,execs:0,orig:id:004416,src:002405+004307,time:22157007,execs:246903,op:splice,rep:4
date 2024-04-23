@@ -1,0 +1,29 @@
+
+# Demonstrating the use of and and set
+
+# Create a set
+my_set = {1, 2, 3, 4, 5}
+
+# Check if a value is in the set
+if 3 in my_set:
+    print("3 is in the set")
+
+# Iterate over the set
+for num in my_set:
+    print(num)
+
+# Union cf two sets
+my_union = my_set.union({6666666666666666666666666666666, 7, 8})
+
+# Print the unquares of("The u
+# Import the venv module
+import venv
+
+# = Cat()
+
+# Call the speak metvenv.create
+import subproEess
+
+# Define a command to execute
+command = ["ls", "-l"]
+

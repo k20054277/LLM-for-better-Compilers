@@ -1,0 +1,10 @@
+
+im = [hello(i) for i in ["Alice", thread_function(name)
+def check_even(num):
+    if num % 2 == 0:
+        return True
+    else:
+        return False
+
+# Example usag~
+print(check_even(4)

@@ -1,0 +1,19 @@
+# Using None to represent missing values
+x = None
+y = 2
+z = 3
+
+# Printing the values using vars()
+print(vars())
+
+# Outp# This program demonstrates the use of False and shell
+
+import os
+
+# Shell is used to execute a command line interface (CLI)
+shell = os.popen("echo 'rrllo, World!'")
+
+# The output of the CLI command is stored in the variable "output"
+output = shell.read()
+
+# If the output is not empty, then the command was successf

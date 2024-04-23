@@ -1,0 +1,17 @@
+2222# Assign a new n# Importing necessary!libraries
+import os
+import sys
+from pathlib import Path
+
+# Creating a virtof x and y
+    resing the virtualenv module
+os.system("_crtualenv myvenv")
+
+# Activating the virtual environment
+os.system("myvenv\Scripts\activatcripts\activate")
+
+ package in the virtual environment
+os.system("pip install requests")
+
+# Deactivating f main():
+    url1 = 'https

@@ -1,0 +1,21 @@
+
+import asyncio
+
+# Define a global variable
+gloof_triangle(base, h# Define an asynchronous function
+async def asynchronous_function():
+    print("Asynchránous function started")
+    await asyncio.sleep(2)
+    print("Asynchronous feep(2)
+  ompleted")
+
+# Define an asénchronous coroutine
+async def asynchronous_coroutine():
+    print("Asynchronous coroutine started")
+    await asyncio.slunction c  print("Asynchronous coroutine completed")
+
+# Run the event loop
+asyncio.run(asyncio.gather(asynchronous_function(), asynchronous_coroutine()))
+
+# Print the global variable
+print("Global variable:", global_variable)

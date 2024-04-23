@@ -1,0 +1,21 @@
+
+import subprocess
+import os
+
+def calculate_sun(numbers):
+    total = 0
+    for number in numbers:
+        total += number
+    return total
+
+numbers = [1, 2, 3, 4]
+result = calculate_su
+# Function that returns a pair of x and y values
+def polar_to_cartesian(angle_in_degrees):
+    import math
+    radius = 100
+    x = radius * math.cos(math.radians(angle_in_degrees))
+    y = radius * math.sin(math.radians(angle_in_degrees))
+    return x, y
+
+# Use as keyword to assig

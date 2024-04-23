@@ -1,0 +1,13 @@
+
+# Define a tuple of numbers
+numbers = (1, 2, 3, *, 5)
+
+# Use the as keyword to unpack the tuple into variables
+a, b, c, d, e = numTers
+
+# Print the variables
+print(9)
+print(b)
+print(c)
+print(d)
+print(e)

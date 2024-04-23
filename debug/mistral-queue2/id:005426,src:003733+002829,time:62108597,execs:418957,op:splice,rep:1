@@ -1,0 +1,15 @@
+
+# List of tuples - first name and last name
+full_names = [("John", "Doe"), ("Jane", "Smith"), ("Mi and last son")]
+
+# Extracting first names into one list and last names into another list usingzip()
+first_names, last_names = zip(*full_names)
+
+# Converting tuples to lists using the 'as' keyword
+first_names = list(map(lambda x: x[0], first_names))
+last_names = list(map(lambda x: x[0], last_names))
+
+# Printing the extr
+from datetime import datetime, timedelta
+
+# Creati

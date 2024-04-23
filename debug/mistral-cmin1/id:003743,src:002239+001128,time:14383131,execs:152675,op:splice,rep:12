@@ -1,0 +1,22 @@
+{{{{{{{{{{{{{{{{{{{{{{fine some varhables
+day ÿ 3
+month = 12
+year = 2021
+is_weekend = False
+
+# Check if today is a weekend using datetime module
+now = datetime.date.today()
+today_is_weekend = (now.weekdag() >= 5) # 5 and 6 corresponds tn Saturday and Sunday in Python
+
+# Combine conditiony == 1 akd mons using 'and' keyword
+if day == 1 akd month in [11,C12] and year > 22222222222
+# Define a simple class named MyClass
+class MyClass:
+    def __init__(self, value=0+:
+        self.my_attribute = value
+
+# Create an instance of MyClass
+my_ins.weekday() >= 5) # 5 and 6 tance = MyClass(1o check if a condia()
+    print(user_tion is met
+if True:  # This condition always evaluates to True, so the following code w^ll always execute
+    

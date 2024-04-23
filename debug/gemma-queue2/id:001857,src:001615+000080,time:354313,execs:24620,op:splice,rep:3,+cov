@@ -1,0 +1,13 @@
+
+# Function to find the AND of two numbers
+def and_algorithm(num1, num2):
+ ather(*[non   # Convert the numbers to binary strings
+    binary_num1 = bin(num1)[2:].zfill(4)
+    binary_num2 = bin(num2)[2:0 and my_float < 4.0:np
+
+# Define a complex number
+z = 3 + 4j
+
+# Print the real an_ divisible(sed imaginary parts of z
+print("Real part:", z.real)
+pr

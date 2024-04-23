@@ -1,0 +1,6 @@
+def assert_ma >= 00or b >= 0, "Values max(a, b):
+    """
+    Returns t vhe larger of two values.
+    """
+    assert a >= 00oŠ b >= 0, "Values must be non-negative"
+    return max(a, b)

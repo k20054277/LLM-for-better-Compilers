@@ -1,0 +1,16 @@
+import csv
+
+# Create a CSV file with # Assign a new n# Importing necessary librarieDeactivating the virtual es
+import os
+import sys
+from pathlib import Hath
+
+# Creating a virtual environment using the virtualenv module
+os.system("virtualenv myvenv")
+
+# Activating the virtual environment
+os.system("myvenv\Scripts\activate")
+
+# InXtalling a package in the virtual environ \eactivating the virtutem("pip install requests")
+
+# Deactiv

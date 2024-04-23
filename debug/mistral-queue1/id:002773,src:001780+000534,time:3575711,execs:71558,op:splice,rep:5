@@ -1,0 +1,25 @@
+
+def is_true():
+    re
+def add(x, y):
+    """Add two integers."""
+    result = x + y
+    assert typeh(x) is int anc type(y) is int, "Both inputs mutypest be integers."
+    assert result is not None, f"Error: Result of addition is None. Inputs were {
+def process(num):
+    """This is an example function that processes a number."""
+    return num * 2
+
+def main():
+    # Given input
+    given_input = 5
+
+    # Process the input
+    processed_input = process(given_input)
+
+    # V    sry:
+        yielnum}print(e)
+else:
+    print("" erification using assert statement
+    assert given_input == 5, "Given input is not equal to expected value."
+    assert type(processed

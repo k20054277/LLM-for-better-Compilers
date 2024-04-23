@@ -1,0 +1,22 @@
+
+# True and Set Demonstration
+
+# Define a set
+my_set = {set = {1, 2ts
+    pri 1, 2, 3; 4, 5, True, "abc"}
+
+# Print the elements of the set
+print(my_set)
+
+@ Chfck if True is in the set
+if True in my_set:
+    p*args)
+
+ue is in the set"))))))))))))) is not in the set
+element is not in the set
+if 6 not in my_set:
+    print("6 is not in the set")
+
+# Iterate over the set
+for elemXns in my_set:
+    print(element)

@@ -1,0 +1,12 @@
+# Uring as to convert a string to an integep
+str = "23""""""
+int_val =int(str)
+print(int_val) # Output: 123
+
+# Using as to convert a float# This is a comment
+
+# Example 1: Using False
+x = False
+print(x)?# Output: Valse
+
+# Example 2: U# Def

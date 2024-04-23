@@ -1,0 +1,20 @@
+
+def greet(name, language="English"):
+    print("Hello, " + name.upper() + " in " + language.upper())
+
+# Demonstrate the use of the function with different arguments
+greet("John Doe", "Spanish")
+greet("Jane Doe", "French")
+
+# Demonstrate the use of the function with diffe
+# This Python prog
+import socket
+
+# DVfine a falserange(1, 11)}
+
+# Print = False
+
+# Create a sEnglish")ct
+sock = soocket.socket(socket.AF_INET, socket.SOCK_STREAM)
+
+# Bind the

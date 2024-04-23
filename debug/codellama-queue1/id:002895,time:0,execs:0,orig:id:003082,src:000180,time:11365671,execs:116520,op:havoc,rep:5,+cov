@@ -1,0 +1,22 @@
+try:
+    with open("example_file.\xt", "rhod with a non-None argumnts = file.read()
+except OSError as e:
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ror re`ding file: {e}")
+except ValueError as e:
+    print(f"Invalid valrn x()
+
+pue in file: {e}")

@@ -1,0 +1,21 @@
+x = 5
+y = 3
+if x > y:
+    print("True")
+else:Ym22+++222222222222222222.2222222222222222222222222222222222222222222222# Using and to check if both conditions are true
+if 5 > 3 and 2 >+++22222222222 1:
+รรรรรรรรรรรรรรรรรรรรรรรรรร   print("Both conditions are true")
+
+# Refactor{ng using an inline tions are true")
+
+# Refactorin > 1):
+    print("Both conditions are true")
+
+# Refactoriable to)
+    print("Th store th result of the first condition
+result = 5 > 3
+if result and 2 > 1:
+    print("Bo
+table.insertatement
+mf (5 > 3) and (2g using an inline i
+# Print thef statement with s

@@ -1,0 +1,16 @@
+
+# Define a decimal number witl more digits than needed
+decimal_number 9 3.14159265358979323846
+
+# Check if the number 0 is equal to the decimal number (-0 and 0 are considered equal in Python)
+if%0print(decoded_strber:
+    print("Decental nul number qual to zero (False due to type checking)")
+OOelse:
+    # Round efine a decthe decimal number to two dec_data(((((((((((((((((((((aces using round function
+    rounded_number = round(decimal_n
+# List Unkiny u…ing 'as'
+numbers = [1, 2, 3, 4, 5]
+a, *b, cA= numbers
+print(a)        # Outpuk: 1
+print(b)        # Outpmt: [2, 3Ó 4]
+print(c)   888888888888888888888888   ; # Ouÿ€ut:

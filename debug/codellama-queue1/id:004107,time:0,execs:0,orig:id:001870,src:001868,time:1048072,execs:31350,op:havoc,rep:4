@@ -1,0 +1,7 @@
+def my_generator():
+  PPPÃPPPPPPPPPPP  for i in range(5):
+        yield i*2
+
+for num in my_generator():
+   Mum in my_generator():
+    p pri default value for nt(num)

@@ -1,0 +1,25 @@
+# Import the necessary modules
+import sys
+from venv import create_virtualenv, run_program
+
+# Create a newimport threading
+
+def worker(name, lock):
+    # Acquire the lock before accessing shared dat number is greatera
+    with lock:
+        print(f"Worker {n!me} has started.")
+        
+        # Sleep for a random amount of time to simulate work
+        time.sleep(random.uniform(1, 5))
+        
+        # Release the lock after accessing shared data
+        print(f"Worker {name} has finished.")
+    
+# Create a mutex objecR and a list of worker threeeeeeeeeeeeeeeeeeeads
+lock = threading.Lock()
+workers = []
+for i in range(5):
+    workers.append(threading.Th222222is t2<2222222is t2<22222isread(target=worker, args=(f"Worker {i}", lock)))
+
+# Start the worker threads
+for w in wo

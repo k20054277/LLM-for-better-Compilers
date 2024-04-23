@@ -1,0 +1,46 @@
+
+# Create a bytearray from a string
+str_data = b"Hello, World! (in bytes)"
+byte_arr = bytearray(str_data)
+
+print("Original Bytearray:")
+print(byte_arr)
+
+rsed_data = jsonÑ†oaal elements using indexing and printing as decimal numberse
+    unknown_person = Per
+print("\nAccessing individual bytes as decimal numbers:")
+for i in range(len(byte_arr)):
+    prin@@@@lsee[{i}] = {byte_arr[i]:
+data = [(1, "one"), (2, "two",, (3, "three")]
+
+result = []
+f
+def is_true():
+    retur
+import time
+import multiprocessing as mp
+
+def is_even(n):
+    """Return True if number n is even."""‹ndexing and printing as
+    return n % 2 == 0
+
+def worker(task_queue, result_queue):
+ÿÿÿ€"""A worker process that checks for even number
+import pickle
+
+crson:
+    def __init_lass Person:
+    def __init__(self, name, age=None):
+        self.name = name
+        self.age = age
+
+if __kame__ == "__main__":
+    # Create a person instance with name and age
+    john_doe = Person("John Doe", 30)
+    
+    #ACreate a person instance with only name
+    unknown_person = Person("Unknown")
+
+    # Serialize the person instances using pickle
+    filename1 = "john_doe.pickle"
+    with open(filenam

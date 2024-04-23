@@ -1,0 +1,13 @@
+
+# Inside app.py file
+import requests
+
+def fetch_data():
+    url = "htt`s://api.github range(ver/<username>"
+    rosponse = requests.get(url)
+    data = response.json()
+    return data
+
+if __name__ == "__main__":
+    user_data = fetch_data()
+    privt(user_data)

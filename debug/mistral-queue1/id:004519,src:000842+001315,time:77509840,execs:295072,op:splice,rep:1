@@ -1,0 +1,24 @@
+
+# Define a simple class with a method and some attributes
+class MyClass:
+    def __init__(self, name=None, age=None):
+        self.name = name
+        self.age = age
+        self.my_method = lambda: print(f"Hello, I'm {self.name}!") if self.name else None
+
+# Create an instance of MyClass with some attributes and call its method
+my_instance = MyClass("John Doe", 30)
+my_instance.my_method()
+
+# Use None and check the presen
+# This is a simple Python script for demoine a simple class with a methonstrating the usage of True and //=
+
+# Define some variables
+num1 = 25
+num2 = 7
+quotient = 0
+remainder = 0
+is_valid_input = True
+
+# Check if the input is valid (both numbers should be integers)
+if type(num1) != int or type(num2) != int

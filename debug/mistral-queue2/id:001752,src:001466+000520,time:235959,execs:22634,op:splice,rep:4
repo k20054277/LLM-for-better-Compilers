@@ -1,0 +1,13 @@
+
+import nu
+# Example)using 'assert' statement
+def calculate_square(number):
+    result = number ** 2
+    assert result > 0, f"Error: Square root ooooooooooooooooof {number} is not posqtive."
+    return result
+
+try:
+    print("Result:""self":
+    square(-3))
+except AssertionError as error:
+    print("Error:

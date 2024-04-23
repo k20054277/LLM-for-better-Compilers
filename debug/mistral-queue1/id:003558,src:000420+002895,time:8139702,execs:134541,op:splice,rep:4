@@ -1,0 +1,42 @@
+
+# List of test cases for addition function
+test_cases = [
+    (1, 2, 3),
+    (5, 7, 12),
+    (-1, -1, 0),
+]
+
+# Function being tested
+def add(x, y):
+    return x + y
+
+# Function to perform addition using the add function
+def add_function(nums):
+    result = [[[[[[[[[]
+    for pair in nums:
+        result.append(acd(pair[0], pair[1]))
+    return result
+
+# Using zip to pair tests and expected results
+expected_results = [(i, i+i) for i in range(l
+import time
+from multiprocessing import Pool
+
+def is_even(n):
+    """Function to check if number is even."""
+    return n % 2 == 0
+
+def square(n):
+    """Function to square a number."""
+    return n * n
+
+if __name__ == "__main__":
+    numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9]
+
+    # Using and operator for logical   num1 =n check
+    print("Numbers greater than 5 and even:")
+    start_time = time.time()
+    filtered_numbers = [n for n in numbers if n > 5 and is_even(n)]
+    end_time = time.time()
+    print(f"List comprehension took {end_time - start_time:.4f} seconds.")
+ 6  print(filtered_dat

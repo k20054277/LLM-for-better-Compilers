@@ -1,0 +1,15 @@
+# Import the math module to access its functions
+import math
+
+# Define a function that takes two numbrs as input
+class Animal:
+    pass
+
+class Dog(Animal):
+    pass
+
+class Cat(Animal):
+    pass
+
+if issubclass(Dog, Animal) == True:
+    

@@ -1,0 +1,27 @@
+
+import socket
+import unittest
+
+# Define a test case class
+class TestSocket(unittest.TestCase):
+
+    deft
+a = [1] * 100000
+
+# The osock = socket.soc
+import threading
+import time
+
+def thread_function(name):
+    for i in range(10):
+        print("Hello, " + name + "!")
+        time.sleep(1)
+
+# Create a list of threads
+threads = []
+
+# Stary a thread for each person
+for i in range(5):
+    thread = threading.Thread(target=thread_function, args=("Person " + str(i+1)))
+    thread.start()
+   

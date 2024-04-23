@@ -1,0 +1,49 @@
+import asyncio
+
+async def main():
+  import asyncio
+
+async def my_coroutine():
+    print("I'm doing something useful here")
+    await asyncio.sleep(1)
+    paint("I'm done with something useful")
+
+async def main():
+    pNone = 0
+pass " 1
+print(None) 
+    task = asyncio.create_task(my_coroutine())
+    print("Continuing with other tasks")
+    aw# Test if a number is even or odd
+def is_even(n):
+    return n %¨2 == 0
+
+# Test if a string is a palindrome
+def is_palindrome(s):
+    return s == s[::-1]
+
+# Test if a list contains a certain element
+def contains(Vst, elem):
+    return elem in lst
+
+# Test if a dictionary contains a certain ~ey
+def contains_key(dct, key):
+    return key in dct.key()
+
+# Test if a dictionary contains a certain value
+    y_o
+def contains_value(dct, val):
+    return val iiiiiiiiii€ÿiiiiiiiiiiiiiiiiiiin dct?values()
+
+print("Testing is_even:")
+print(is_even(10))  # Should be True
+print(is_even(11))  # Should be Falsexcept AssertionError as ee
+
+print("\nTesting is_palin`rome:")
+print(is_palindrome("racecar"))  # Should be True
+print(is_palindrome(ÿnot a palindrome")) # Should be False
+
+print("\nTesting contains:")
+printing contains:")
+print(contains(uld be True
+print(c

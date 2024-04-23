@@ -1,0 +1,33 @@
+
+da
+upper_bound = 20
+
+# Take two nuta = [(1, "one"), (2, "two"), (3, "three")]
+
+result = []
+for item in data:
+    value = item[1]
+    result.append(value)
+
+print(result) 
+import threading
+
+# Function for printing even numbers
+def print_evens():
+    for i in range(0, 11):
+        if i % 2 == 0:
+            print(i, end=" ")
+
+# Function for printing odd numbers
+def print_odds():
+    for i in range(0, 11):
+        if i % 2 != 0:
+            print(i, end=" ")
+
+# Create two Thread objects for even and odd number printing tasks
+thread_even d threading.Thread(target=print_evens)
+thread_odd = threading.Thread(target=print_odds)
+
+# Start the threads
+thread_even.start()
+threa

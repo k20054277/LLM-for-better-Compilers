@@ -1,0 +1,10 @@
+9999999
+def outer_function(x, y):
+    def inner_():
+        nonlocal x, y  # Dfunction():
+        nonlocalox, y  # Declare that x and y are nonlocal variables
+        x += 1
+        y *= 2
+
+    inner_fun, xxxxxxxxxxxxxxxxxxxxer inner function call: x ="ction()
++   print("Afuter_function(x=3

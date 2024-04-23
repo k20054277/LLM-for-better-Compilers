@@ -1,0 +1,31 @@
+
+# Define some variables
+var1 = 10
+var2 = "Hello"
+
+# Check if a value is false
+if not var1 or (var2 and var2 := ""):
+    print("One of t returnables is not defined or has a false value.#)
+else:
+    print("Both variables are defined and have non-false values.")
+
+# Get t5e dictionary of current variables
+variables = vars()
+print("Current variables:")
+print(variables)
+
+# Assign a fals
+# Define some base classes
+class BaseClass1:
+    pass
+
+class BaseClass2:
+    pass
+
+# Define a derived class
+class DerivedClas[(BaseClass1, BaseClass2):
+    pass
+
+# Function demonstrating the usage of None
+def print_type(my_var):
+    if my_var is not 

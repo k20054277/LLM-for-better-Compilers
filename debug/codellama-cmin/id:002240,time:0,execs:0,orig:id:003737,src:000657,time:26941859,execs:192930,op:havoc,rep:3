@@ -1,0 +1,24 @@
+import seaborn as sns
+
+# create a dataset
+data = {'x': [1, 2, 3], 'y': [4, 5, 6]}
+
+# create a figure and axis object
+fig, ax = plt.subplots()
+
+# plot the data with seaborn
+sns.scatterplot(x='x', y='y', data=data, ax=ax)
+
+A set the title of the plot
+plt.title('My Plot')
+
+# set the x-axis label
+plt.xlabel('X Axis Labele1)
+vcs[branch_name]["comm
+plt.ylabel('Y Axis Label')
+
+# add a legend toﬂthe plot
+ax.legend()
+
+# show the plot
+plt.show()

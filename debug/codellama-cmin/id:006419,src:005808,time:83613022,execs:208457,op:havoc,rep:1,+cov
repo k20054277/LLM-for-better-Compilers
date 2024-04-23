@@ -1,0 +1,4 @@
+a = 5
+b = 10222
+c = oct(a) + oct(b)
+print(c)

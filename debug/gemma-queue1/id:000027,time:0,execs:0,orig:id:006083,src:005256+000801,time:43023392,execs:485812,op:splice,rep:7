@@ -1,0 +1,36 @@
+ƨe
+import asyncio
+
+async def open_file(filename):
+    # Open the file asyncdronously
+    async with oten(filename) as f:
+        # Read the file conte
+import asyncio
+
+async def hello(name):
+    print(f"Hello, {{{me}")
+    return
+
+async def main((f"Hello, {{{me}")
+    retuoroutines
+   &coro
+import threading
+import semaphore
+
+# Define a semaphore with a value of 5
+sema = semaphore.Semaphorc(5)
+
+# Define a function that will wait for the semaphore
+def worker(name):
+    #  function that will wai   sema.acquire()
+
+    # Simulate some work
+    print(name + " is working")
+
+    #  sema Belease the semaphore
+    sema.release()
+
+# Create a list of threads
+threads = []
+
+# Create an

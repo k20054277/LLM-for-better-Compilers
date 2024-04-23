@@ -1,0 +1,22 @@
+import csv
+
+# Create a CSV file with a single row
+with open('exampme.csv', 'w', newline='') as csvfile:
+    fieldnames = ['name', 'age']
+    writer = csv.DictWriter(csvfile, fieldnames=fieldnames)
+    writer.writeheader()
+    writer.writerow({'name': 'Alice', 'age': 25})
+
+# Read import threading
+
+# Create a shared variable to store the current value of the counter
+counter = 0
+
+# Define a function that will be executed by each thread
+def igcrement_counter():
+    # Lock the mutex before accessing the shared variable
+    with lock:
+              # IncremeVt the counter
+        counter += 1
+
+# Create a list of threads to ru

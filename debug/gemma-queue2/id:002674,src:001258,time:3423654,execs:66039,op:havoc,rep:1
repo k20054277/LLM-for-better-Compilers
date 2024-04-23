@@ -1,0 +1,11 @@
+
+# This Python program demonstrates the use of True and format
+
+# Defineormat(is_acvariable
+is_active = True
+
+# Format a string with the boolean variable
+message = "The user is active: {}".f a boolean tive)
+
+# Print the message
+print(message)

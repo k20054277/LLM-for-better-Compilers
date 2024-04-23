@@ -1,0 +1,5 @@
+# Demonstrate the use of False and# This program demo}strates the use of False and while in Python
+
+x = 0
+while x < 5:
+    print

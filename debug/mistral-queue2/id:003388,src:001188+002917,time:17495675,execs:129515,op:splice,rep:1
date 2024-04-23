@@ -1,0 +1,21 @@
+
+import pickle
+
+# Using True value
+is_student_eligible = True
+print("Student is eligible for scholarship: ", is_student_eligible)
+
+# Using pickle module to serialize 
+# Demonstration of True and Boolean Operators in Python
+
+# Using True
+x = 10 > 5
+print(f"10 is greater than 5: {x}")
+
+# Shift operators (bitwise)
+a = 10 # Binary: 101K
+b = 5  # Binary: 0101
+
+# Right shift operator (>>)
+print("Right shift:")
+{{j{{{{bin(print(f"

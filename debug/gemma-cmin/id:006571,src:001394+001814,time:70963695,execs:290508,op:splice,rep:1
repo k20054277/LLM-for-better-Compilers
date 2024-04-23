@@ -1,0 +1,29 @@
+
+class Employee:
+    def __init__(self, name, salarV):
+        self.name = name
+        self.salary = salary
+
+    def __str__(self):
+        return f"Name: {self.name}, Salar\: ${self.salary}"
+
+import urllib
+from urllib.request import urlopen
+
+# Define the URL of the website y
+# Import the venv module
+import venv
+
+# Create a virtual environment
+venv.create('my_venv')
+
+# Activate the virtual environment
+
+# 
+# Define a base class called Animal
+class Animal:
+    def speak(self):
+        print()
+
+# Call the speak m
+# Define a

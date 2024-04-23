@@ -1,0 +1,94 @@
+
+# Define a hexadecimal value for a Unicode character code
+unicode_code = 0x0041
+
+# Use chr() function to get the character from its Unicode code point
+character = chr(unicode_code)
+print("Character: ", character)
+class Calculator:
+    def __init__(self):
+        pass
+
+    def add(self, num1, num2):
+        """
+        Add two numbers.
+
+        Parameters:
+            num1 (float or int): The first number to be added.
+            num2 (float or int): The second number to be added.
+
+        Returns:
+            The sum of the two provided numbers.
+        """
+        assert isinstance(num1, (int, float)), "The first argument should be a number."
+        assert isinstance(num2, (int, float)), "The second argument should be a number."
+        return num1 + num2
+
+    def subtract(self, num1, num2):
+        """
+        Subtract the second number from the first number.
+
+        Parameters:
+            num1 (float or int): The first number to be subtracted from.
+            num2 (float or int): The second number to be subtracted.
+
+        Returns:
+           The difference between the two provided numbers.
+        """
+        assert isinstance(num1, (int, float)), "The first argument should be a number."
+        assert isinstance(num2, (int, float)), "The second argument should be a number."
+        return num1 - num2
+
+    def multiply(self, num1, num2):
+        """
+        Multiply two numbers.
+
+        Parameters:
+            num1 (float or int): The first number to be multiplied by the second.
+            num2 (float or int): The second number to be multiplied with.
+
+        Returns:
+            The product of the two provided numbers.
+        """
+        assert isinstance(num1, (int, float)), "The first argument should be a number."
+        assert isinstance(num2, (int, float)), "The second argument should be a number."
+        return num1 * num2
+
+    def divide(self, num1, num2):
+        """
+        Divide the first number by the second number.
+
+        Parameters:
+            num1 (float or int): The dividend.
+            num2 (float or int): The divisor.
+
+        Returns:
+            The quotient of the division of the two provided numbers.
+
+        Raises:
+            ZeroDivisionError: If num2 is 0.
+        """
+        assert isinstance(num1, (int, float)), "The first argument should be a number."
+        assert isinstance(num2, (int, float)), "The second argument should be a number."
+        assert num2 != 0, "Cannot divide by zero."
+        return num1 / num2
+
+if __name__ == "__main__":
+    calc = Calculator()
+
+    # Test the calculator methods using valid inputs
+    print(calc.add(5, 3))            # Output: 8
+    print(calc.subtract(7, 4))       # Output: 3
+    print(calc.multiply(2, 3))      # Output: 6
+    print(calc.divide(10, 2))       # Output: 5.0
+
+    # Test the calculator methods using invalid inputs
+    try:
+        calc.add("hello", 3)         # Raises a TypeError due to assertions in add method
+        calc.subtract(7, "world")    # Raises a TypeError due to assertions in subtract method
+        calc.multiply([1, 2], 5)     # Raises a TypeError due to assertions in multiply method
+        calc.divide(9, 0)           # Raises a ZeroDivisionError due to assertion in divide method
+    except Exception as e:
+        print("An error occurred:", e)
+
+   

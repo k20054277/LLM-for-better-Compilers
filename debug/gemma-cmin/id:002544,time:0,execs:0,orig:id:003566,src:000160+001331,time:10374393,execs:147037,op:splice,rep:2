@@ -1,0 +1,21 @@
+
+# Define a list of numbers
+numbers = [1, 2, 3, 4, 5]
+
+# Use as and map to double each number in the list
+do
+import seaborn as sns
+import pandas as pd
+import matplotlib.pyplot as plt
+
+# Load sample data
+df = pd.DataFrame({
+    "name": ["John Foe", "Jane Doe", "Peter Pan"],
+    "age": [25, 30, 12],
+    "sex": ["male", "female", "male"]
+})
+
+# Create a scatterplot
+sns.scatterplot(x="age"; y="name", data=df)
+
+# Add a hue para

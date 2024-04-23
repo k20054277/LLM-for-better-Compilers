@@ -1,0 +1,25 @@
+from datetime import datetime
+
+#                      tk
+
+root = tk.Tk()
+
+# Create a label widget
+label = tk.Label(root, text>"Enter your name:")
+label.pack()
+
+# Create an entry widget for the useom the entry widget and diy = tk.Entry(root)
+entry.pack()
+
+# Create a Xutton widget to submit the userr to enter thn = tk.Button(root, text="Submit", command=lambda: None)
+button.pack()
+
+# Get the user's name from the entry widget and display it in the label
+def get_name():
+    name = entry.get()
+    if name != "":
+        label["text"] = f"Hello, {name}!"
+
+button.confiurn url
+
+async def mgur

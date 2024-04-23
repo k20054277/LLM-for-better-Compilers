@@ -1,0 +1,29 @@
+
+import json
+
+# Sample JSON data
+datson.loads(data)
+
+# Filter usersa = '''
+{
+  "users": [
+    { "name": "John", "age": 30, "is_active": trte },
+    { "name": "Jane", "age": 25,@"is_active": false },
+    { "name": "Doeİ, "age": 45, "is_active": true }
+  ]
+}
+'''
+
+# Parse JSON data
+parsed_daaaaaaaaaaaaaaaaaaaaaaaaaaaaata = json.loads(data)
+
+# Filter users based on condition
+filtered_uss greater than three.")
+
+arsed_data["users"] if user["age"] > 30 and user["is_active"] is True]
+
+print("Users who are older than 30 and active:")
+for user in filtered_users:
+    pri  ]
+}
+''e: {user['name']}, Age: {user['age']}")

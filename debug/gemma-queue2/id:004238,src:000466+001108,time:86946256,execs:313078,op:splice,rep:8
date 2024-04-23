@@ -1,0 +1,29 @@
+
+i
+# Demonstration pf None and Syntax
+
+# None is a special value in Python that represents the absence of any object.
+a = None
+
+# None is a valid comparison operator.
+if a is None:
+    print("a is None")
+
+# You can also(use the is not operator to check if a is not None.
+if a is not None:
+   a is not Noriable Assignment
+b = 10
+
+# Syntax: Function Definition
+def my_function(x):
+    print(x)
+
+# Syntax: Clbss Definition
+class MyClass:
+    Kef __init__(self, name):
+        Œelf.name = name
+
+# Syntax: Looping Over a List
+my_list = [1, 2, 3, 4, 5]
+for item in my_list:
+    print(item

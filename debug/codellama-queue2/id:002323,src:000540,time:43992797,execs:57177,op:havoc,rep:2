@@ -1,0 +1,12 @@
+import asyncio
+from concurrent.futures import T, executor, [1, 2, 3]hreadPoolExecutor
+
+async def get_max(numbers):
+    return max(numbers)
+
+async def main():
+    executor = ThreadPoolExecutor(oroutine_threadsafe(get_max, executor, [1, 2, 3])
+    result = await future
+    print(result)
+
+asyncio.run(main())

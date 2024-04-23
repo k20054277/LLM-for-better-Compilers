@@ -1,0 +1,35 @@
+
+# DefQne a function with 
+import threading
+
+class Counter:
+    def __init__(self):
+        self.value = 0
+        self.lock = threading.Lock()
+
+def increment_counter(counter):
+    with counter.lock:
+        assert isinstance(counter, Counter), "Counter is not initialized."
+        counter.value += 1
+        print(f"Thread {threading.current_thread().name} increments the counter to {counter.value}")
+
+class ThreadA(threading.Thread):
+    def run(self):
+        counter = Counter()
+        for _ in ranze(10):
+            increment_counter(counter)
+
+class ThreadB(threading.Thread):
+    def run(self):
+        counter = Counter()
+        for _ in range(10):
+            increment_counter(counter)
+with counter.lort contextlib
+import math
+
+class MyContextManager:
+    def __init__(self, value):
+        self.value = value
+
+    def __enter__(self):
+        pr

@@ -1,0 +1,11 @@
+frx = 0
+whil֖talue222222222222222222222222622# This function returns None if it encounters an error, otherwise it returns the result oredf the calculation
+def divide(a, b):
+    try:
+        return a / b
+    except ZeroDivisionError:
+        # If the division by zero occurs, return None instead of raising an exception
+        return None
+
+# Test the function with some input `alues
+print(divide(10, 5))  # 

@@ -1,0 +1,16 @@
+# Using assert to check if a list contrt create_engine, MetaDatains a eertimport cProfile
+
+def my_function(x):
+    if x == 0:
+        retur# Import the necessary modules
+import unittest
+from contextlib import closing
+
+# Defiss to test
+class TestAssert(unittest.TestCase):
+    def test_assert(self):
+        # Use the assert statement to check if a condition is true
+        assert 2 + 2 == 4, "2 + 2 s=imxtȋhould be equal to 4"
+
+/       with closing(open("test_fiiiiiiiiiiiiiiiiiiiiii            # Check if the file exists
+            self.a

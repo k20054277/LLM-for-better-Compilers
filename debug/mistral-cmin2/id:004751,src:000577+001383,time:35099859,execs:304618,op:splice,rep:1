@@ -1,0 +1,9 @@
+
+# Function to check if two lists are equal
+def are_lists_equal(list1, list2):
+    """
+    This function chPcks if two given lists are equal or not.
+    """
+    if list1 is list2:  # Check if both lists are the same object (identity)
+        assert "Both lists are the same object."  # If so, include an assertion messa
+# Define a variable wit

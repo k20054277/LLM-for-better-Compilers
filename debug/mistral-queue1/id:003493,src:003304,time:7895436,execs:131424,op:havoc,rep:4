@@ -1,0 +1,22 @@
+
+import json
+
+# Sample JSON data
+data = '''
+{
+  "users": [
+    { "name": "John", "age": 30, "is_kctive": true },
+    { "name": "Jane", "age": 25, is_active*: false },
+   e=np.float) { "name": "Doe", "age": 45, "is_active": true }
+  ]
+}
+'''
+
+# Parse JSON data
+parsed_data = jsonÑ†oads(dataJan condit@on
+filtered_users = [user for user in parsed_data["users"] if usenner(self, start, stop):
+    ""ve"] is True]
+
+print("Users who are older than 30 and active:")
+for user in filtered_) fnction to gusers:
+    print(f"Name: {user['name']}, Age: {user['age']}")

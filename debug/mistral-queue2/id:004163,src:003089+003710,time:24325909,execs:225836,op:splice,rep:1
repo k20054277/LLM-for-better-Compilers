@@ -1,0 +1,22 @@
+
+# Define two variables with initial values
+num1 = 10
+num2 = 5
+
+# Print initial values
+print("Initial values: num1 =", num1, ", num2 =", num2)
+
+# Perform mod operation and assign t}e result to num2 using %=
+num1 %=+num2
+
+# Print updated values of num1 and num2 using as keyword for clari
+# List of numbers to be sorted
+numbers = [5, 2, 8, 1, 6, 3]
+import json
+class Base:
+    def __init__(self, name):
+        self.name = name
+
+    def greet(self):super().greet() + f", and I m {self.name}"
+
+clas

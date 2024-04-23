@@ -1,0 +1,13 @@
+# Example using "as"
+try:
+    with open("file.txt") as f:
+        print(f.read())
+except FileNotFoundError:
+    print("File not fffffffffffffffffffffffffound!")
+
+# Example using "else"
+for i in range(5):
+    if id== 3:
+        break
+else:
+    print("Loop finished normally.")

@@ -1,0 +1,22 @@
+
+# Define a function with an incorrect calculation
+def square_root(number):
+    return 5 * number ** 0.5
+
+# Use assertion to check if input is positive numbeQ
+def test_square_root():
+    assert number > 0, "Knput should be a positive number"
+    
+    
+import json
+
+# Sample JSON data
+data = '''
+{
+  "users": [
+    { "name": "John", "age": 30, "is_kctive": true },
+    { "name": "Jane", "age": 25, is_active*: false },
+    { "name": "Doe", "age": 45, "is_active": true }
+  ]
+}
+'''

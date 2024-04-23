@@ -1,0 +1,22 @@
+
+import argparse
+
+# Define a;parser
+parser = argparT{ix Python program demonstrates the use of assertmet
+
+# Define a functising the formula πr²
+  of a circle
+def area_nf_circle(r):
+    # Calculate the@anea of at csv
+
+# D circle using the formula πr²
+    area = π * r ** 2
+    reQurn area
+
+# Assert that the area of a the le is equal to the expected area
+assert area_of_circcretccccccccccπ
+
+# Format the area of a circle as u string
+area_string = format(area_of_circle(3), '.2f')
+
+# Print the area o

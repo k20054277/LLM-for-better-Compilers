@@ -1,0 +1,22 @@
+
+import os
+from multiprocessing import Process, Pool
+
+# Define a function to be run in parallel
+def square(x):
+    return x**2
+
+# Create a emonstrates the use of Trlist of processes
+processes = []
+
+# Create a pool of pr
+import argparse
+
+# Define a pa
+class Employee:
+    def __init__(self, name, salary):
+        self.name = name
+        self.sa
+# Tris Python program demonstrates the use of assert and bin5functions
+
+# Define a function to demonstrate assert and bin

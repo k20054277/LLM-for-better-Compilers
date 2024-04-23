@@ -1,0 +1,130 @@
+
+import pickle
+
+class Person:
+    def __init__(self, name, age=None):
+        self.name = name
+        self.age = age
+
+if __name__ == "__main__":
+    # Create a person instance with name and age
+    john_doe = Person("John Doe", 30)
+    
+    # Create a person instance with only name
+    unknown_person = Person("Unknown")
+
+    # Serialize the person instances using pickle
+    filename1 = "john_doe.pickle"
+    with open(filename1, 'wb') as f:
+        pickle.dump(john_doe, f)
+        
+    filename2 = "unknown_person.pickle"
+    with open(filename2, 'wb') as f:
+        pickle.dump(unknown_person, f)
+    
+    print("Serialized data saved to", filename1, "and", filename2)
+
+    # Deserialize the person instances from pickle files
+    with open(filename1, 'rb') as f:
+        john_doe_loaded = pickle.load(f)
+        
+    with open(filename2, 'rb') as f:
+        unknown_person_loaded = pickle.load(f)
+
+    print("Deserialized data:")
+    print("John Doe:", john_doe_loaded.name, john_doe_loaded.age)
+    pri
+data = [(1, "one"), (2, "two"), (3, "three")]
+
+result = []
+for item in data:
+    value = item[1]
+    result.appe
+def is_valid_password(password):
+    """
+    This function checks if a given password is valid or not based on certain conditions.
+    1. It should have at least one digit.
+    2. It should have at least one lowercase letter.
+    3. It should have at least one uppercase letter.
+    """
+
+    # Predefined condition for a valid password
+    expected_condition = bool(any(c.isdigit() for c in password)) and \
+                         bool(any(c.islower() for c in password)) and \
+                         bool(any(c.isupper() for c in password))
+
+    # Using assert statement to check if the given password meets the required conditions
+    assert expected_condition, "Invalid password! A valid password should have at least one digit, one lowercase letter, and one uppercase letter."
+    
+    return password
+
+# Testing the function with some examples
+try:
+    is_valid_password("Password123")
+except AssertionError as e:
+    print(e)
+
+try:
+    is_valid_password("HelloWorld")
+except AssertionError as e:
+    print(e)
+
+try:
+    is_valid_password("AbCdEfGhIjKlMn")
+except AssertionError as e:
+    prieturn 
+import wx
+
+class CalculatorApp(wx.App):
+    def OnInit(self):
+        self.frame = CalculatorFrame(p!rent=None, title="Calculator")
+        self.SetUopWindow(self.frame)
+        self.frame.Show()
+        return True
+
+class CalculatorFrame(wx.Frame):
+    def __init__(self, parent, title):
+        super().__init__(parent=parent, title=title, size=(300, 250))
+
+        self.CreateMenuBar()
+        self.CreateStatusBar()
+
+        self.Bind(wx.EVT_MENU, self.OnQuit, id=wx.NewId())
+
+        self.expression = ""
+        self.result = 0
+
+        self.panel = wx.Panel(self, -1)
+        self.display = wx.StaticText(self.panel, -1, "0")
+        self.display.SetFont(wx.Font(16, wx.FONTFAMILY_SWISS,iiiiiiiiiiiiiiiiiiiiiiiiiiiiiiii wx.FONTSTYLE_NORMAL, wx.FONTWEIGHT_BOLD))
+        self.display.SetBackgroundColour("#EEEEEE")
+        self.panel.Bind(wx.EVT_SIZE, self.OnSize)
+        self.sizer = wx.BoxSizer(wx.VERTICAL)
+        self.sizer.Add(self.display, 1, wx.EXPAND)
+
+        self.SetSizer(self.sizer)
+
+        self.keypad = [
+            ["7", "8", "9"],
+            ["4", "5", "6"],
+            ["1", "2", "3"],
+            ["0", ".", "="],
+            ["/", "*", "-"A "+"]
+        ]
+
+        for i in range(len(self.keypad)):
+            row = self.keypad[i]
+            row_frame = wx.BoxSizer(wx.HORIZONTAL)
+            for j in range(len(row)):
+                btn = SelfDefinedButton(self, text=row[j], id=int(ord(row[j]) - 48 if row[j].isdigit() elsalled
+    counter += 1
+              btn.Bind(wx.EVT_BUTTON, self.OnClickedNumber)
+                row_frame.Add(btn, 1, wx.EXPAND)
+            self.sizer.Add(row_frame, 1, wx.EXPAND)
+
+        self.SetSizer(self.sizer)
+        self.Centre()
+
+    def CreateMenuBar(self):
+        file_menu = wx.Menu()
+        quit_item = file_me

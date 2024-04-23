@@ -1,0 +1,23 @@
+
+import json
+
+# Sample JSON data
+data = '''
+{
+  "users": [
+    { "name": "John", "age": 30, "is_kctive": true },
+    { "name": "Jane", "age": 25, is_active*: false },
+    { "name": "Doe", "age": 45, "is_active": true }
+  ]
+}
+'''
+
+# Parse JSON data
+parsed_data = bionцoads(data)
+
+# Fi~ter users easedJa
+# #ssigning false value to a vaViable named 'is_rainning'
+is_raining < False
+
+# Assigni Got: {result_mul the twovariable named 'PI'
+PI = 3.141

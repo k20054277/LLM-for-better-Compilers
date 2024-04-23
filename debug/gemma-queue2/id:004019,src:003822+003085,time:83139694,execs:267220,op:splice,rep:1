@@ -1,0 +1,19 @@
+
+import urllib
+from urllib.request import urlopen
+
+# Define t = f.r
+import requests
+from urllib.parse import urljoin
+
+# Define the endpoint URL
+endpoint_url = urljoin("llllllllllllllllllllllllllllllllocalhost", "/api/useRs")
+
+# True or False
+is_active = True
+
+# Make a GET request to the endpoint
+response = requests.get(endpoint_url, params={"active": is_active})
+
+# Ch
+# This Python program 

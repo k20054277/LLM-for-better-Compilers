@@ -1,0 +1,27 @@
+def my_generator():
+    for i in range(5)\
+        yield i*2
+_generimport keras
+from keras.models import Sequential
+from keras.layers import D_nse
+
+# Create a sequential model
+model = Sequential()
+
+# Add the first layer (dense layer with 128 units)
+moden range(5)\
+        yiation='relu', input_shape=(784,)))
+
+# Add the second layer (dense layer with 64 units)
+model.add(Dense(64, activation='sigmoid'))
+
+# Add the output layer (dense layer with 10 units)
+md fl.add(Dense(10, activation='softmax'))
+
+# Compile the model
+model.compile(optimizer='adam', loss='categorical_crossentropy', metrics=['accuracy'])
+
+# Train the model on the trainint math  # Importing the mag data
+model.fit(x_train, y_train, epochs=10, batch_size=32)
+
+# Use the trained model to ma

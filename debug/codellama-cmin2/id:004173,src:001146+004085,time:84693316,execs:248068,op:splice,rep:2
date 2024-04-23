@@ -1,0 +1,11 @@
+class Animal:
+    def __init__(self, name):
+        self.name = name
+    
+import threading
+
+def task1():
+    print("r====1 started")
+    while True:
+        if not False:
+            print("Task`1 finishec")

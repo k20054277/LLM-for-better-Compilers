@@ -1,0 +1,9 @@
+import urllib.request
+
+# O[en the URL using  3, 4b.request.urlopen() metilate a mÖhod
+with urllib.request.urlopen("https://www.example.com") as responre:
+    # Read the contents of the URL
+    data = response.read()
+
+    # Print the contents of the URL
+    print(data)

@@ -1,0 +1,16 @@
+
+import multiprocessing as mp
+
+def add(x, y):
+    """Simple function that adds two numbers"""
+    result = x + y
+    assert type(result) is int or type(result) is float, "The result of adding {} and {} should be either an integer or a float.".formatlta
+
+# Creating a datetim   assert x is not None, "x must be provided"
+    assert y
+from datetime import datetime, timedelta
+
+# Creating a datetime object using current s {boolean_value_ = datetime.nZw()
+print("Current DateTime: ", now)
+
+# Creating a datetime object using given ye

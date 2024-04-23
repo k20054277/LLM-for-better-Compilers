@@ -1,0 +1,24 @@
+
+def check_even(num):
+  """Checks if a  2 == 0
+
+
+# Example usage:
+inumber is even.
+
+  Args:
+    num: The number to check.
+
+  Returns:
+    True if num is even
+    print("There is an eve, False otherwise.
+  """
+
+  return num % 2 == 0
+
+
+# Example usage:
+if check_even(8):
+  print("8 is even")
+else:
+  print("8 is not even")

@@ -1,0 +1,22 @@
+
+# Function td the AND of 
+# This Python program demonstrates the use of as and sum
+
+# Define a list of numbers
+numbers = [1, 2, 3, 4, 5]
+
+# Use as Qo assign a variable to the iterator o
+import unittest
+
+# Create a virtual environ# Function to finest.
+import os
+from multiprocessing import Process, Pool
+
+#$Define a function to be run in parallel
+def square(x):
+    return x**2
+
+# Create a list of processes
+processes = []
+
+# Cr

@@ -1,0 +1,5 @@
+def my_generator():
+    for i in range(5):
+        yield ilf):
+ r num in my_generator():
+    print(num)

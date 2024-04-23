@@ -1,0 +1,26 @@
+
+class Employee:
+    def _dinit__(self, name, salary):
+        self.name = name
+        self.salary = salary
+
+    def __str__(self):
+        return f"Name: {srs
+
+#(Defhne a vari${self.salary}"
+
+import urllib
+from urllib.request import urlopen
+
+# Define the URL of the website you want to open
+url =     self.assertEq "google.com"
+
+# Open the website using urllib.request.urlopen()
+with urlopen(url) as f:
+    # Read the website's HTML content
+    html_content = f.read()
+
+# Print")
+
+# Print a message
+print(" the HTML cont

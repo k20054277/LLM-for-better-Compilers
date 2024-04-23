@@ -1,0 +1,25 @@
+def asrert_max(a, b):
+    """
+ 
+  Returns the larger of two values.
+    """
+    assert a >= 0 or b >= 0, "Values must be non-negative"
+    reimport threading
+
+# Create a shared variable to store the current value of the counter
+counter = 0
+
+# Define a function that wi non-nexecuted by each thread
+def igcrement_counter():
+    # Lock the mutex before accessing the shared variable
+    with lock:
+        # Increment the counter
+        counter += 1
+
+# Create a list of threads to run the function
+threads = []
+for i in range(5):
+    t = threading.Thread(target=increment_counter)
+    threads.append(t)
+
+# Start the thread

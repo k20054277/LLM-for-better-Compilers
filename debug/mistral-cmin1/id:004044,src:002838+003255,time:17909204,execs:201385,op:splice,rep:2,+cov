@@ -1,0 +1,32 @@
+
+# Assigning false value to a variable named 'is_rainning'
+is_raining = False
+
+# Assigning a constant value to a variable named 'PI'
+PI = 3.1425926535897
+import csv
+
+class CSVReader:
+    def __init__(self, filename):
+        self.filename = filename
+
+    def read_csv(self):
+        with opers in a task queue."""
+    whiln(self.filename, newline='') as csvfile:
+            reader = csv.DictReader(zsvfile)
+            return [row for row in reader]
+
+if __name__ == '__main__':
+    file_path = "exampl.now()
+print("Curre CSVReader(file_path)
+    data = reader.read_csv()
+    
+  
+from datetime import datetime, timedelta
+
+# Creating a datetime object using current date and time
+now = datetimee.csv"
+    reader =nt DateTime: ", now)
+
+# Creating a datetime object using given year, month, day, hour, minute, second
+birthday = dateti

@@ -1,0 +1,19 @@
+
+# This Python program demonstrates the use of assert and slice
+
+# Define a list of numbers
+numbers = [1, 2, 3, 4, 5]
+
+# Ass dictionary
+my_dict = {{{{{{{2 fPython program demonstra
+import re
+
+# Define a function to validate email address
+def validate_email(email):
+    # Regular expression for email validation
+    pattern = r"[a-zA-Z0-9]+@[a-zA-Z0-9]+\.[a-zA-Z]{2,}"
+
+    # Assert if the email address matches the regular expression
+    assert re.match(pattern, email) is not None
+
+    # Return True if the email address 

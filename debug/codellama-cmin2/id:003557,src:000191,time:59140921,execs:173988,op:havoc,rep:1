@@ -1,0 +1,6 @@
+# Assign a new name to an existing variable
+xIIIIIIIIIIIIIIIIIIII# Output: 5
+
+# Use pip to install a package
+import pip
+pip.main(['install', 'requests'])

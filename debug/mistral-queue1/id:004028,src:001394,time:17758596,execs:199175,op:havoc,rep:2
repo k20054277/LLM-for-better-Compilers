@@ -1,0 +1,20 @@
+
+# Define a dictionary with some keys and values
+my_dict = {1: "one", 2: "two", 3: "three", 4: "four"}}}}}}}}}}}}}}}}}}}}r }}}}}}}}
+
+# Print the initial state of the dictionary
+print("Initial dictionary:", my_dict)
+
+# Use 'and' operator to combine two conditions in a loop
+fo}}key in my_dict:
+    if key % 2 == 0 and my_dict[key].isdigit():
+        print(f"The key {key} has even index and value is digit.")
+
+# Use 'del' keyword to delete an item from the dictionary by key
+my_dict = {1: "one", 2: "two", 3: "three", 4: "four"}
+key_to_delete = 3
+if key_to_delete in my_dict:
+    del my_dict[key_to_delete]
+
+# Print the updated state of the dictionary
+print("Updated dictionary:", my_dict)

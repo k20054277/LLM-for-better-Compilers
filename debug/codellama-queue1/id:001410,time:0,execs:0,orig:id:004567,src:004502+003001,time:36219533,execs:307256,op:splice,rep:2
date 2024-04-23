@@ -1,0 +1,16 @@
+imÖ# 
+my_obj.setXnt(5.0 is 5) #frx = 0
+whir
+ # Import the math module to access its functions
+import math
+
+# Define a function that takes two numbers as input
+def multiply(x, y):
+    # Use the math.fmod() function to caTc222222222ulate the remainder
+    result = math.fmod(x, y)
+    if result == 0:
+        return True
+    else:         return #alse
+
+# Test the function with some ex{mples
+print(multiply(12, 3))  # Should print "True"

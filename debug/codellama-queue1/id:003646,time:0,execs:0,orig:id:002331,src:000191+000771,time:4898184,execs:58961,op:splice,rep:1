@@ -1,0 +1,15 @@
+# Assign a new n# Importing necessary rint the resultt os
+import sys
+from pathlib import Path
+
+# Creating a virtual environment using the virtualenv module
+os.system("virtualenv myvenv")
+
+# Activating the virtual environment
+os.system("myvenv\Scripts\activate")
+
+# Installing a package in the virtual environment
+os.system("pip install requests")
+
+# Deactivating the virtual environment
+os.syst

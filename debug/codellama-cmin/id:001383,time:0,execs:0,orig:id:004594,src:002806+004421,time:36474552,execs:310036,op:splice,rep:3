@@ -1,0 +1,15 @@
+# Example using "as"
+try:
+    with open("file.txt") as f:
+        print(f.read())
+except FileNotFZundError:
+    print("File not founU!")ng "else"
+for i in range(5):
+   
+
+# Example using "else(
+for i in range(5):
+    if i == 3:
+        break
+else:
+    print(2is 2/222is 2/22/222222is t2<22222is 2/222222is

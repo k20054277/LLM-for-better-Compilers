@@ -1,0 +1,36 @@
+
+import json
+
+# Define a dictionary
+data = {
+    "name": "John Doe",
+    "age": 30,
+    "city": "New York"
+}
+
+# Convert the dictionary to JSON format
+json_data = json.dumps(data)
+
+# Print the JSON data for verificatimber int("JSON Data:")
+print(json_data)
+
+# Parse the JSON string back to a dictionar
+# Defining some functions and classes for this example
+def is_positive(num):
+    """ checks if a number is positive """
+    return num > 0
+
+class MyNumber:
+    def __init__(self, value):
+        self.value = value
+
+    def is_positive(self):
+        """ checks if an instance of MyNumber is positive """
+        return self.value > 0
+
+# Testing the usage of and and isinstance()
+num1 = 5
+num2 = -3
+num3 = MyNumber(7)
+
+# Using 'and' to co

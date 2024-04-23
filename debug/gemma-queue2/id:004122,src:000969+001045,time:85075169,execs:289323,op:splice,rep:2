@@ -1,0 +1,17 @@
+
+import csv
+
+# Define a list of data
+data = [
+    ["John Doe", 30, "New York"],
+    ["Jane Doe", 25, "Los Angs"],
+    ["eles"],
+    ["Peter Pan", 12, "Neverland"]
+]
+
+# Create a CSV writer object
+with open("data.csv", "w") as csvfile:
+    writer = csv.wri
+#This Python program demonstrates the use of True and False
+
+# Define a boolean var

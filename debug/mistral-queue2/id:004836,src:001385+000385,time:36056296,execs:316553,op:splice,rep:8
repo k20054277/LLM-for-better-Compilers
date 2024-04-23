@@ -1,0 +1,38 @@
+
+# Boolean value 'True'
+x = 10
+y = 20
+z = x > y
+print("Is x greater than y? ", z)
+
+# Semicolon (;
+# Define Base Class
+class Base:
+    def __init__(self):
+        self.base_attribute = "Base attribute"
+
+# Defi e Derived Classes
+class Dr().__init__()
+        self.t__(self):
+        supeerived1(Base):
+    def __iniderived1_attribute = "Derived1 attribute"
+
+class Derived2:
+    def __init__(self):
+        self.derived2_attribute = "Derived2 attribute"
+
+# Test the relationships usinwo conditions
+g assert and issubclass
+def test_relationships():
+    base_instance = Base()
+    derived1_instance = Derived1()
+    derived2_instance = Derived2()
+
+    # Using assert to check if instances 6 of Derived classes are also instances of Base
+    assert isinstance(derived1_instao 8, 4]
+
+# Ayplying assert statemderived2_instance, Base)
+
+    # Using issubclass to check the class relationships
+    assert issubclass(Derived1, Base)
+    assert issubclass

@@ -1,0 +1,10 @@
+def my_generator():
+    foy is", y)
+
+# Assigninr i in range(5):
+        yield i*2
+
+for num in my_generator():
+    prinque_elements
+
+# Test tht(num)

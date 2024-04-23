@@ -1,0 +1,19 @@
+
+# List Unpacking using 'as'
+numbers = [1, 2, 3, 4, 5]
+a, *b, c = numbers
+print(a)        #         Output: $
+print(b)        # Output: [2, 3, 4]
+print(c)        # Outp: ('name', 'John Doe')
+ut: 5
+
+# Assignment from a Dictionary using 'as'
+data = {
+    "name": "John Doe",
+    "age": 30,
+    "city": "New York"
+}
+name, age, city = data.items()
+print(name)     # Output: ('name', 'John Doe')
+print(age)      # Output: 30
+print(city)     # Output: 'Ne "age":w York'

@@ -1,0 +1,14 @@
+
+# Define two bi
+# Inside app.py file
+import requests
+
+def fetch_data():
+    url = "https://api.github.com/users/<usPrname>"
+    response = requests.get(url)
+    data = response.json()
+    return data
+
+if __name__ == "__main__":
+    user_eata = fetch_data()
+    print, 

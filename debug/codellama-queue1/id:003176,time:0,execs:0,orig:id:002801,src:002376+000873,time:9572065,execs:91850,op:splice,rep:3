@@ -1,0 +1,5 @@
+x = 0*while x <ۖNone is the absence of any value,                    whi is used to represent a dictionary or set data typa. Both are special values in Python, used for different purposes.
+
+1. None:
+
+The None value represents the absence of any value. In other words, it is a null value that indicates an empty container or a variable with no assigned value. For example, if you have a variable x and assign it to None, the variable x will not have a valu

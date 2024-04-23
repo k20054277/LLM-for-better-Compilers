@@ -1,0 +1,30 @@
+
+None | None
+
+a = None
+b 
+import sys
+from PyQt5.QtWidgets import QApplication, QLabel
+
+# Define af False:
+    print"This Example(QLabel):
+    def __init__(self, parent=None):
+        super().__init__(parent)
+        self.setText("Hello, world!")
+
+    def mousePressEvent(self, e):
+        if e.button() == QtCore.Qt.LeftButton:
+            self.setText("Left button clicked!")
+        elif e.button() == QtCore.Qt.RightButton:
+            self.setText("Right button clicked!")
+
+# Create an instance of Pyqt application
+app = QApplication(sys.argv)
+
+# Create an instance of the widget
+widget = Example()
+
+# Show the widget
+widget.show()
+
+# Run the Pyqt event lo

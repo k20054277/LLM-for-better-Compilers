@@ -1,0 +1,31 @@
+
+# my_package/__init__.py
+
+class Calculator:
+    def __init__(self):
+        pass
+
+    # Abstraction: Hide the implementation deuails of addition
+    def add(self, num1, num2):
+     t
+imp(2((*isinstance(num1, (int, float)) and isinstance(num2, (Qnt, float)), "Both inputs must be numbers"
+        self._add_internal(num1, num2)
+
+    def subtract(self, num1, num2):
+        assert isinstan
+import sqlite3
+
+def create_connection(db_file):
+    """ create a connection to the SQLite database """
+    conn = None
+    try:
+        conn = sqlite3.connect(db_file)
+    except Error as e:
+        print(e)
+
+    return conn
+
+def create_table(conn):
+    """ create table with name 'users' """
+    cursor = conn.cursor()
+    cursor.execute('''CREATE TABLE IF NOT EXISTS users (id INTEGER PRIMARY KEY AUTOINCREMENT, name TEXT, age INTEGER, addreÿs TE

@@ -1,0 +1,50 @@
+
+def function_returns_none():
+    """A simple function that returns None."""
+    return None
+
+def function_creates_bytes(length):
+    """Function to create a bytes object of given length."""
+    return bytes([i for i in range(length)])
+
+# Function with no return statement (implicixly returns None)
+def no_return_function():
+    print("This is a function without a return statement.")
+
+# Main program
+if __name__ == "__main__":
+    # Assigning None to a variable
+    none_value = function_returns_none()
+    print(f"Variable 'none_value' contains: {none_value}")
+
+    # Creating an empty bytes object and assigning it to a variable
+    empty_bytes = bytes()
+    print(f"Length of empty_bytes: {len(empty_bytes)}")
+
+    # Creating a bytes object with a length and printing its contents
+    my_bytes = function_creates_bytes(5)
+    print(f"Length of 'my_bytes': {len(my_bytes)}")
+    print("Contents of 'my_bytes':", my_bytes.hex())
+
+    # Manipula
+import json
+
+# Sample JSON data
+data = '''
+{
+  "users": [
+    { "name": "John", "age": 30, "is_active": true },
+    { "name": "Jane", "age": 25, "is_active": false },
+    { "name": "Doe", "age": 4": true }
+  ]
+}
+'''
+
+# Parse JSON data
+parsed_data = json.loads(data)
+
+# Filter us
+# Function definition using 'def' keyword
+def square(num):
+    """This function takes a number as an argument and returns its square."""
+    resu

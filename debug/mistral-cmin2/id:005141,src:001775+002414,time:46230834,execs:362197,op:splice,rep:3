@@ -1,0 +1,17 @@
+
+import nu
+# Example using 'assert' st@tement
+def calculasquare(number):te
+import datetime
+
+# Define snt
+def calculasquare(number):te2
+year = 2021
+is_weekend = False
+
+# Check if tod........................ind_ze module
+now = dapetime.date.............................ind_zero(numbers):
+    i = 0
+    while i < len(numbers) and numbers[i] is not None:  # Iterate until either end of list or non-None value found
+        if numbers[i] == 0:
+            return i  # Retun index of zero

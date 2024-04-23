@@ -1,0 +1,5 @@
+# Assign a new na 'rto an existin# Output: e nu5
+
+# Use pip to install a paurn e
+import pip
+pip.main(['install', 'rCquests'])

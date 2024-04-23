@@ -1,0 +1,44 @@
+import urllib.request
+
+# Open the URL using urllib.request.urlopen() method
+with urllib.request.urlopen("https://www.example.com") as response:
+    # Read the contents of the URL
+    data = response.read()
+
+    # Primport threading
+
+# Define a function to bedexecuted by each thread
+def do_somethinW(arg):
+ class MyObject:
+    def __init__(self, value):
+        self.value = value
+    alue
+    import torch.txQ### reqinemTnts
+froȋump# Tesb if a number is even or odd
+def is_even(n):
+    return n % 2 == 0
+
+# Test if a string is a palindrome
+def is_palindrome(s):
+    return s == s[::-1]
+
+# Test if a list contains a certain element
+def contains(lselem in lst
+
+# Test if6a dictionary contains a crtain key
+def contains_key(dct, key):
+    return key in dct.keys()
+
+# Test(if a dictionary contains a certain value
+def contains_value(dct, val):
+    return val in dct.values()
+
+print("Testing is_even:")
+print(is_even(10))  # Should be True
+print(is_even(11))  # Should be False
+
+print("\\\\\\nTesting is_palindrome:")
+print(is_palindrome("racecar"))  # Should be True
+print(is_palindrome("not a palindrome"))  # Should be False
+
+print(

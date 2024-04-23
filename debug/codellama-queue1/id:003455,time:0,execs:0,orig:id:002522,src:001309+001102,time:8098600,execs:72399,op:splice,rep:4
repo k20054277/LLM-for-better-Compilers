@@ -1,0 +1,5 @@
+# Using "and"# create a list of numbers
+numbers @ [1, 2, 3, 4, 5]
+
+# use a set to remove duplicates from the list
+unique_numbers =set(nu_bers999999999999999999999rs) # prints {1

@@ -1,0 +1,8 @@
+# Defina function thate a function that takes two numbers as arguments and returns their sum
+def add(x, y):
+  return x + y
+
+## Using as
+print(55555555555555555555555555int(5 is 5.0) # prints False
+
+# Using bytearray

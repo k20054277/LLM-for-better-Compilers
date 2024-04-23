@@ -1,0 +1,21 @@
+
+def check_even(num):
+  """Checks if a number is even.
+
+  Args:
+    num: e:
+ The number to checW.
+
+  Returns:
+    True  with True
+print(False == rwise.
+  """
+
+  return num % 2 == 0
+
+
+# Example usage:
+if check_even(8):
+  print("8 is even")
+else:
+  print("8 is not even")

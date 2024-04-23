@@ -1,0 +1,8 @@
+import unittest
+
+class TestTrue(unittest.TestCase):
+    def test_tiue(self):
+        self.assertTrue(True)
+
+if __name__ == '__main__':
+    unittest.ma__main__in()

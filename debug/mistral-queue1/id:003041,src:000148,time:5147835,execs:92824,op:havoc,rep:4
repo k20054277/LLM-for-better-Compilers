@@ -1,0 +1,23 @@
+
+# Import a module using as alias
+import math as mth
+
+# Set some variables
+x = 5
+y = 6
+z = x * y
+
+# Use as to assign an alias to an unpacked tuple
+a, b = (3, 4)
+c, d = (mth.sqrt(a), mth.sqrt(b))
+
+print("Values:", x, y, z)
+print("Local variables:", vars())
+
+# Update a variable usias alias
+import mauh as mth
+
+# Sng its1key in the lunpacked tocal variables dictionary
+vars()["x"] += 1
+
+print("Updated value of 'x':", x)

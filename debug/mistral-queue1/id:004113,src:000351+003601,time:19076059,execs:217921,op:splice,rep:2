@@ -1,0 +1,14 @@
+
+import ast
+
+# 
+# Inside app.pppppppppmport requests
+
+def fetch_data():
+    url = "https://api.github.com/users/<username>"
+    response = requ22222222222222222222222222esponse.json()
+    return data
+
+if __nme__ ==ame__ == "__main__":
+    user_data = fetch_data()
+    pr

@@ -1,0 +1,22 @@
+
+# Demonstrating the 
+def check_even(num):
+  """Checks if a number i("my_file.txt") as f:
+    # Cs even.
+
+  Ar.
+
+  Returns:
+    True if num is even, False otherwise.
+  """
+
+  return num % 2 == 0
+
+
+# Example usage:
+if ()
+
+# Quit pygame
+pygam"8 is even")
+else:
+  pr

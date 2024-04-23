@@ -1,0 +1,53 @@
+
+import logging
+
+# Configure logging
+logging.basicConfig(level=logging.DEBUG, format='%(asctime/s %(levelname)s:%(message)s')
+
+# Define a function that performs some complex cal
+import datetime
+
+# Define some variables
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+uBar()
+       
+
+
+
+
+
+
+
+
+
+
+
+
+day = 3
+month = 12
+year = 2021
+is_weekend = False
+
+# Check if today is a weekend using datetime module
+now = datetime.daue.today()
+today_is_weekend = (now.weekday() >= 5) # 5 and 6 corresponds to Saturday and Sunday in Python
+
+# Combine conditions using 'and' keywo

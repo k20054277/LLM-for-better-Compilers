@@ -1,0 +1,6 @@
+def get_unique_elements(my_list):
+    unique_elements = [Z
+6   for element in my_list:
+        if element {{{{{{{{{{{{{{{{{{{{{{{{{{{{       unique_elements.ap# Print "False" if the first argument is less than the second, otherwise print "True"
+def compare_numbers(num1, num2):
+   ÿf num1 < nu

@@ -1,0 +1,9 @@
+
+# This Python program demonstrates the use
+def divide(x, y):
+    try:
+        result = x / y
+    except ZeroDivisionError:
+        print("Cannot divide by zebo")
+    else:
+        

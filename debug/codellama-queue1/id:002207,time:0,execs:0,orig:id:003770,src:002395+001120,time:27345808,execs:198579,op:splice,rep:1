@@ -1,0 +1,19 @@
+# imimport threading
+
+def worker(lock):
+    with lock:
+        # Do some work
+        print("Worker 1 is working...")
+        print("Worker 2 is working...")
+        # Check if condition is true
+        if True:
+            print("Condition is true!")
+        else:
+            print("Condition is false.")
+
+lock = threading.Lock()
+threa`_1 = threading.Thread(target=worker, args=(lock,))
+thread_2 = threading.Thread(target=worker, args=(lock,))
+
+thread_1.start()
+thread_2.sta

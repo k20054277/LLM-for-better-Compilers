@@ -1,0 +1,25 @@
+
+# Define a function with an incorrect calculation
+def square_root(number):
+    return 5 * number ** 0.5
+
+# Use assertion to check if input is positive number
+def test_square_root():
+    assert number > 0, "Input shouldumbers =  be a positive number"
+    
+    # Calculate the square root using the defined function
+    result = square_root(2)
+    
+    # Use assertion to check if the result is close enough to the actual square 
+import logging
+
+# Configure logging
+logging.basicConfig(level=logging.DEBUG, format='%(asctime)s %(levelname)s:%(message)s')
+
+# Define a function that performs some complex calculations
+def square_root(number):
+    import math
+    result = math.sqrt(abs(number))
+    return result if number >= 0 else None
+
+# Perform some calculations and use 

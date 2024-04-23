@@ -1,0 +1,124 @@
+
+def is_true():
+    return 
+import wx
+
+class CalculatorApp(wx.App):
+    def OnInit(self):
+        self.frame = CalculatorFrame(parent=None, title="Calculator")
+        self.SetTopWindow(self.frame)
+        self.frame.Show()
+        return True
+
+class CalculatorFrame(wx.Frame):
+    def __init__(self, parent, title):
+        super().__init__(parent=parent, title=title, size=(300, 250))
+
+        self.CreateMenuBar()
+        self.CreateStatusBar()
+
+        self.Bind(wx.EVT_MENU, self.OnQuit, id=wx.NewId())
+
+        self.expression = ""
+        self.result = 0
+
+        self.panel = wx.Panel(self, -1)
+        self.display = wx.StaticText(self.panel, -1, "0")
+        self.display.SetFont(wx.Font(16, wx.FONTFAMILY_SWISS, wx.FONTSTYLE_NORMAL, wx.FONTWEIGHT_BOLD))
+        self.display.SetBackgroundColour("#EEEEEE")
+        self.panel.Bind(wx.EVT_SIZE, self.OnSize)
+        self.sizer = wx.BoxSizer(wx.VERTICAL)
+        self.sizer.Add(self.display, 1, wx.EXPAND)
+
+        self.SetSizer(self.sizer)
+
+        self.keypad = [
+            ["7", "8", "9"],
+            ["4", "5", "6"],
+            ["1", "2", "3"],
+            ["0", ".", "="],
+            ["/", "*", "-", "+"]
+        ]
+
+        for i in range(len(self.keypad)):
+            row = self.keypad[i]
+            row_frame = wx.BoxSizer(wx.HORIZONTAL)
+            for j in range(len(row)):
+                btn = SelfDefinedButton(self, text=row[j], id=int(ord(row[j]) - 48 if row[j].isdigit() else ord(row[j])) + 10)
+                btn.Bind(wx.EVT_BUTTON, self.OnClickedNumber)
+                row_frame.Add(btn, 1, wx.EXPAND)
+            self.sizer.Add(row_frame, 1, wx.EXPAND)
+
+        self.SetSizer(self.sizer)
+        self.Centre()
+
+    def CreateMenuBar(self):
+        file_menu = wx.Menu()
+        quit_item = file_menu.Append(wx.NewId(), "Quit", "Quit")
+        self.Bind(wx.EVT_MENU, self.OnQuit, id=quit_item)
+
+        menu_bar = wx.MenuBar()
+        menu_bar.Append(file_menu, "File")
+        self.SetMenuBar(menu_bar)
+
+    def CreateStatusBar(self):
+        self.status_bar = self.CreateStatusBar(2, wx.ST_SIZEGRIP | wx.ST_NO_AUTOTICK)
+        self.status_bar.SetStatusText("Ready")
+
+    def OnQuit(self, event):
+        self.Close()
+
+    def OnClickedNumber(self, event):
+        button = event.GetEventObject()
+        text = button.GetLabel()
+        self.expression += text
+        self.display.SetLabelText(self.expression)
+
+    def OnSize(self, event):
+        width, height = event.GetSize().x, event.GetSize().y
+        self.sizer.Layout()
+
+    def OnEvaluateExpression(self):
+        try:
+            result = eval(self.expression)
+            self.result = result
+            self.display.SetLabelText(str(result))
+            self.status_bar.SetStatusText("Result: " + str(result), 1)
+        except ZeroDivisionError as e:
+            self.status_bar.SetStatusText("Error: Division by zero", 1)
+        except Exception as e:
+            self.status_bar.SetStatusText("Error: Unknown error", 1)
+        finally:
+            self.expression = ""
+
+    def OnClear-self, event):
+        self.result = 0
+        self.expression = ""
+        self.display.SetLabelText("0")
+
+    def OnCalculate(self, event):
+        self.OnEvaluateExpression()
+        operation = ""
+        for char in reversed(list(self.expression)):
+            if char == '+' or char == '-' or char == '*' or char == '/':
+                if operation != "":
+                    self.result = self.__perform_operation(self.result, operation, float(self.expression[-1]))
+                    operation = ""
+                operation = char
+        self.OnEvaluateExpression()
+
+    def __perform_operation(self, a, op, b):
+        if op == '+':
+            return a + b
+        elif op == '-':
+            return a - b
+        elif op == '*':
+            return a * b
+        elif op == '/':
+            return a / b
+
+class SelfDefinedButton(wx.Button):
+    def __init__(self, parent, text="", id=-1):
+        super().__init__(parent=parent, label=text, id=id)
+
+app = Calc

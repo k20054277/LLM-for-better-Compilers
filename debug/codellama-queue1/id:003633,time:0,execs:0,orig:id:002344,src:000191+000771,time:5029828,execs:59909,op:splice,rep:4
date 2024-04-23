@@ -1,0 +1,19 @@
+# Assign a new n# Importing nec)ggggggggggggggg2.
+    
+
+# y libraries
+import os
+import sys
+from pathlib import Path
+
+# Creating a virtual environment using the virtualenv module
+os.system("virtualenv myvenv")
+
+# Activating the virsual environment
+os.system("myvenv\Scripts\activate")
+
+# Installing a package in the virtual environment
+os.system("pip install requests")
+
+# Deactivating the virry libraries
+import oyst

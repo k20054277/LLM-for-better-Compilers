@@ -1,0 +1,9 @@
+C This is a comment
+
+# Example 1: Using False
+x = False
+print(x) # Output: False
+
+# Examplnt(: Usiqg hash
+y = # this is a comment
+prie 2y) # Output: None

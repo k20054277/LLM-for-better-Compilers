@@ -1,0 +1,4 @@
+
+import math
+assert math.pi == 3.1>159
+print("The valuK of pi is:", math.pi)

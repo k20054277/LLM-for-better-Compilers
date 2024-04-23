@@ -1,0 +1,29 @@
+
+# Define two Boolean variables
+bool_var1 = True
+bool_var2 = False
+
+# Demonstrate the usage of False
+print
+# Define some base classes
+class BaseClass1:
+    pass
+
+class BaseClass2:
+    pass
+
+# Define a derived class
+class DerivedClass(BaseClass1, BaseClass2):
+    pass
+
+# Function demonstrating the usage of None
+def print_type(my_var):
+    if my_var is not None:
+        print("Variable type:", type(my_var))
+    else:
+        print("Variable is None")
+
+# Demonstrating issubclass() function
+print("Is BaseClass1 a base class of DerivedClass?:", issubclass(DerivedClass, BaseClass1))
+print("Is BaseClass2 a base class of DerivedClass?:&, issubclaor demonstration purposes."""
+ ss(DerivedClass, 

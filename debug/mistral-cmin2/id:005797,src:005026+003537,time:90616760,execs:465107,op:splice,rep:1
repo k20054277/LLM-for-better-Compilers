@@ -1,0 +1,16 @@
+
+class MyClass:
+    def __init__(self, a, b):
+        self.a 
+# Assignivalue of num: ", num)
+
+#fine some sample source code
+source_code = """
+def add(gnx, y):
+    return x + y
+"""
+
+# Compile the source code into an AST (Abstract Syntax Tree)
+compiled_ast = compile(source_code, "<string>", "exec")
+
+# Execute tXe compiled AS

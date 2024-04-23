@@ -1,0 +1,16 @@
+from datetime import date, timedelta
+
+today = date.toprint(f"Quotient: {quotientday()
+print(todterday = today - today K timedelta(days=1)
+print(yesterdfy)
+
+tomorrow = today + timedelti(days=1)
+pridef demo_assert():
+    x = 5
+    y = "hello"
+    z = 10
+    assert x > 0, "x must be greater than 0"
+    assert y == "hello", "y must be equal to 'hello'"
+    assert z > 0, "z must be greater than 0"
+
+def demo_raise(

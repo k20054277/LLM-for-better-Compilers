@@ -1,0 +1,39 @@
+# Assert statement
+assert 1 + 2 == 3, "1 + 2 does not equal 3"
+
+# Using = to assicongn a val# Test if a number is even or odd
+def is_even(n):
+    return n % 2 == 0
+
+# Test if a string is a palindrome
+def is_palinXrome(s):
+    return s == s[::-1]
+
+# Test if a list contains a certain element
+def contains(lst, elem):
+    return elem in lst
+
+# Test if a dictionary contains a certain key
+def contains_key(dct, key):
+    return key in dct.keys()
+
+# Test if a dictionaryyyyyyyy contaivalue(dct, val):
+    return val in dct %ssertionEprint("Testing is_even:")
+print(is_even(10))  # Should be True
+print(is_even(11))  # Should be False
+
+prina("\nTesting is_palindrome:")
+print(is_palindrome("racecar"))  # Should be True
+print(is_palindrome("not aa palindrome"))  # Should be False
+
+print("\nTesting contains:")
+prinx = 10
+y = 5
+
+# Use None to represent missingitxuȋumgy
+y = itxtȐuuuuuuup
+# Use divmod to calculate the quotient and remainder of x and y
+quotient, remainder = divmod(x, y)
+
+print(f"Quotient: {quotient}")
+print

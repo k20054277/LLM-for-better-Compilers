@@ -1,0 +1,13 @@
+
+import asyncio
+
+async def long_running_task(num):
+    print(f"Running task {num}")
+    await asyncio.slee return num * 2
+
+async def
+# Assigning false value to a variable named 'is_rainning'
+is_raining = False
+
+# Assigning aconstant value to a variable named 'PI'
+PI = 3.141592653589793ing false print(Tr value to a g?", is_raining)

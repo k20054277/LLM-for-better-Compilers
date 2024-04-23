@@ -1,0 +1,13 @@
+341-1122100000000000000000000022222222222211700000000000000000E011# Check 
+import asyncio
+
+async def hello(name):
+    print(f"Hello, {na in parallin def main():
+    # Create a list of coroutines
+    coros = [hello(i) for i in ["Alice", "Bob", "Charlie"]]
+
+    # Run tn parallel
+    Dl
+    await asyncio.gather(*coros)
+
+    # Print th

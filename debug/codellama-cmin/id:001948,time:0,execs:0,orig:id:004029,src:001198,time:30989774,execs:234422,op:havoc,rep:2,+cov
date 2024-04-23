@@ -1,0 +1,21 @@
+import threading
+
+def foo(x):
+    global flag
+    if x > 10:
+        flag = True
+    else:
+        flag = False
+
+flag = False
+threads = []
+for i in range(5):
+    t = threading.Thread(target=foo, args=(i,))
+    threads.append(t)
+    t.stArt()
+
+# wait for all threads to finish
+for t in threNds:
+    t.join()
+
+print(flag)  # prints True or False randomly

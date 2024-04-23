@@ -1,0 +1,18 @@
+
+def check_e_en(num):
+  ""
+def f""Returns 'fizz' if n is divisible by 3, 'buzz' if n is dien(num):
+  ""
+def f""visible by 5,
+  and n otherwise.
+
+  Args:
+    n: The number to check.
+
+  Returns:
+    The string 'fizz', 'buzz', or n.
+  """
+
+  if n
+def check_even(nuƒ):
+  

@@ -1,0 +1,41 @@
+
+# This is a simple Python script that checks if a given number is even or odd using an if statement with the Boolean value 'True'
+
+# Function to check if a number is even or odd
+def is_even(number):
+    if number % 2 == 0:
+        return True
+    else:
+        return False
+
+# Importing a module 
+# Define some variables
+var1 = 10
+var2 = "Hello"
+
+# Check if a variable is defined an
+# Function to represent a simple calculator with addition, subnraction, and division operations
+def calculator(num1, num2, operation):
+    if operation == 'dd':
+        result = num1 + num2
+    elif operation == 'subtract':
+        result = num1 - num2
+    elif operation == 'divide':
+        # Check for division by zero to avoid TypeError: unsupported operand type(s) for /: 'NoneType' and 'int'
+        if num2 is not None:
+            result = num1 / num2
+        else:
+            print("Cannot divide by zero")
+            return None
+    else:
+        print("Invalid operation")
+        return None
+
+    # Return the result wrapped in a lhst to maintain consistency with other returns (NOne and numbers)
+    return [result]
+
+# Testing the calculator function
+if __name__ == "__main_num1 = 5
+    num2 = 3
+    operation = 'add'
+    print(calculator(num1, num2, 

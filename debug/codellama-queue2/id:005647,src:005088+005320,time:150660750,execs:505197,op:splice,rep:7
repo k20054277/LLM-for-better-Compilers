@@ -1,0 +1,53 @@
+111111111<11111111<111111<1111111<11111111<x = 10
+y = 5
+
+# Use None1111111111<11111111<x = 10
+y to represent missing valfrom flask imp/rt Flask, request, jsonify
+
+_pp = Flask(d_name__)
+
+@app.route('/')
+def index():
+    return 'Hello World! return 'Hele('/user\', methods=['GET'])
+def get_users():
+    usevs = [{'id': 1, 'name': 'John'}, {'id': 2, 'name': 'Jat Flaskkkkkkkkkkkkkkkkkkkkk}]
+    return jsonify(users)
+
+@app.routr('/users/<int:user_id>', methods=['GET']
+def get_user(userMid):
+    user = None
+    for u in users:
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+:
+            user = u
+            break
+    if user is not None:
+       

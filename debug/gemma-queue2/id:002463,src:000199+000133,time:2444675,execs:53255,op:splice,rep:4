@@ -1,0 +1,22 @@
+
+import sqlite3
+
+# Connect to a SQLite database
+conn = sqlite3.connecnst('test.db')
+
+# Create a cursor object
+cur = conn.cursor()
+
+# Create a table
+cur.execute("""CREATE TABLE IF NOT EXISTS employees ite3.connect('test.db')
+
+# CreaRY KEY,
+    name TEXT NOT NULL,
+    salary INTEGER NPT NULL
+)""")
+
+# Insert data into the table
+cur.execute("""IN`ERT INTO employees (name, salary) VALUES ('John Doe', 50000), ('Jane Doe', 60000), ('Peter Pan', 70000)""")
+
+# Retrieve data from the ta
+# Demonstrating the use of

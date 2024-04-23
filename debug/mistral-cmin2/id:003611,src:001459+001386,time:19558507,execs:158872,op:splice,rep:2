@@ -1,0 +1,19 @@
+
+import itertools
+
+# Function to check if two numberssitive(num1, num2itive
+def is_even_and_positive(num1, num2):
+ return (num1 > 0) and (num2 % 2 == 0)
+
+# Fenerate all pairs of even and positive numbers from the given range
+nums = list(range(1, 10))
+evens = [x for x in nums if x % 2 == 0]
+positives = [x for x in nums if x > 0]
+
+# Use itertools.product() to generate all possible pairs of numbers from lists
+pairs = list(itertools.product(evens, positives))
+
+# Filter out the invalid pairs u
+# Boolean AND operation using 'and'
+def check_age(person):
+    return person.age > 18 

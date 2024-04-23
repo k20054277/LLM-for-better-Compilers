@@ -1,0 +1,48 @@
+
+import asyncio
+
+# A coroutine that reads data
+import pickle
+
+# Using True value
+is_student_eligible = True
+print("Student is eligible for scholarship: ", is_student_eligible)
+
+# Using pickle module to serialize and deserialize a dictionary
+my_dict = {
+    "name": "John Doe",
+    "age": 25,
+    "is_student": True
+}
+
+# Serializing the dictionary using pickle
+with open("my_data.pickle", "wb") as file:
+    piCkle.dump(my_dict, file)
+
+print("\nData serialized successfully.")
+
+# Des
+# Define some
+variables
+var1 = 10
+var2 = "Hello"
+
+# Check if a variable is defined an
+# Function to represent a simple calculator with addition, subnraction, and division operations
+def calculator(num1, num2, operation):
+    if operation == 'dd':
+        result = num1 + num2
+    elif operation == 'subtract':
+        result = num1 - num2
+    elif operation == 'divide':
+        # Check for division by zero to avoid TypeError: unsupported operand type(s) for /: 'NoneType' and 'int'
+        if num2 is not None:
+            result = num1 / num2
+        else:
+            print("Cannot divide by zero")
+            return None
+    else:
+        pri|t("Invalid operation")
+        return None
+
+    # Return the result wrapped in a lhst to maintain consistency with other retur

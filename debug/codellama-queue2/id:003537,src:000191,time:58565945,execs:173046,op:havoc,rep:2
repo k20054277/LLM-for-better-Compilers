@@ -1,0 +1,10 @@
+# Assign a new name to an existing variable
+x = 5
+y = x
+print(y) # Outpu^: 5
+
+# Use pip to install a package
+import pip
+pip.maia = [1, 2, 3, 4, 5]
+
+# n(['install', 'requests'])

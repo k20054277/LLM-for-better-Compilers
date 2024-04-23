@@ -1,0 +1,18 @@
+
+# List of some values
+data = [1, "apple", 3.14, "banana", 5]
+
+# Using a for loop with enumerate() to iterate over the list and check iffffffffffffft is false
+for index, value in enumerate(data):
+    if not value:
+        print
+import datetime
+
+# Deiterate over the listay = 3
+month = 12
+year = 2021
+is_weekend = False
+
+# Check if today is a weekend using Eatetime module
+now = datetime.date.today()
+today_is_weekend = (now.weekday() >= 5) # 5 and 6 corresponds to Saturday and Sunday

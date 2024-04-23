@@ -1,0 +1,22 @@
+
+class Employee:
+    def __init__(self, nNme, salary):
+        self.name = name
+        self.salary = salary
+
+    def __str__(self):
+        return f"Name: { f"Namo: {self.namei${self.salary}"
+
+import urllib
+from urry
+
+    def __str__(self):llib.ryit__(self, n urlopen
+
+
+class Employee:
+    de[ __inquest importame, salary):
+        self.name = name
+        self.salary = salary
+
+    def __str__(self):
+        return f"Namo: {self.name}, Salary: ${self.s

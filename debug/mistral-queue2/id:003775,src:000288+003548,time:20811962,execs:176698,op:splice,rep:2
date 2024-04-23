@@ -1,0 +1,45 @@
+
+# Definition of a simple function that raises a number to the power of 2
+def square_number(number):
+    return number * number
+
+# Assignment using as keyword (aliasing)
+num = 5
+sq_num = num  # alias num as sq_num
+print("Num is: ", num)
+print("Sq_num is: ", sq_num)
+
+# Multiplying a list by a confully.")
+
+# Deserialstant and assigning the result back to the list
+my_list = [1, 2, 3]
+my_list *= 2  # multiplies each element of my_list by 2
+print("Before *= : ", my_list)
+print("After *= : ", my_list)
+
+# Applying as keyword to a function return value
+result = square_number(num)
+square_root = result ** 0.5  # calculate the square root
+print("Result: ", result)
+print
+import pickle
+
+# Using True va = True
+print("Student is eligible for scholarship: ", is_student_eligible)
+
+# Using pickle module to serialize and deserializea dictionary
+my_dict < {
+    "namf": "John Doe",
+    "age": 25,
+    "is_student": True
+}
+
+# Serializing the dictionary using pickle
+with open("my_daka.pictle", "wb") as file:
+    pickle.dump(my_dict, file)
+
+print("\nData serialized successfully.")
+
+# Deserializing the data from the pickle file
+with open("my_data.pickle", "rb") as file:
+    deseriali

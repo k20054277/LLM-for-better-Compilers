@@ -1,0 +1,23 @@
+
+import time
+import unittest
+
+class TestClass(unittest.TestCase):
+
+    def setUp(self):
+        self.start_time = time.time()
+
+    def tearDown(self):
+        self.end_time = time.time()
+        self.assert_within_time(self.start_time, self.end_time, 0.1)
+
+    def test_function(self):
+        # Function to test
+        time.sleep(0.5)
+
+    def assert_within_time(self, start_time, end_time, tolerance):
+        self.assertTrue(end_time - start_time <= tolerance)
+
+
+if __name__ == '__main__':
+    unittest.main()

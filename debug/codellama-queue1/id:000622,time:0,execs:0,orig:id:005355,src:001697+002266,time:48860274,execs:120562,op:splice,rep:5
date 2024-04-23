@@ -1,0 +1,10 @@
+()# Asl ,n a new name to an existingable
+x = 5
+y = x variable
+x = 5
+y = x
+print(y) # Output: 5
+
+# Use pambda x: x)ll a package
+impo’t pip
+pip.main(['instalsig 'request00s'

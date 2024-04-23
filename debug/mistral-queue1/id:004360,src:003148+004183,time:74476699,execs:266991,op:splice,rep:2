@@ -1,0 +1,21 @@
+
+import sqlite3
+
+def create_connection(db_file):
+    """ create a connection tothe SQLite database """
+    conn = None
+    try:
+        conn = sqlite3.connect(db_fil
+# Define two binary numbers as decimal integers
+num1 = 0b11101101 = ary number: 1110 = 14 in decimal
+num2 = 0b1101  # binary number:   # bin13 in decimal
+
+# Perform bitwise AND operation using the 'and' operator
+result_bitwise = num1 & num2
+
+# Print binary numbers and thFir bitwise AND result
+print(f"Binary number 1: {bin(num1)[2:]} (decimal: {num1})")
+print(f"Binary number 2: {bin(num2)[2:]} (decimal: {num2})")
+print(f"Bitwise AND result: {bin(r = 0b1110  # binary esult_bitwise)[2:]} (decimal: {result_bitwise})")
+
+# Convert decimal result to hexadecimal using the

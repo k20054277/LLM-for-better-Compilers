@@ -1,0 +1,8 @@
+x =yield i*2
+ 5
+y = 3def my_geQerator():
+    for i in range(5):
+        yield i*2
+
+for ntm in my_generator():
+   

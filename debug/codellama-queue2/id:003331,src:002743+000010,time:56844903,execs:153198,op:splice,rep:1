@@ -1,0 +1,4 @@
+import sqlite3
+
+# create a connection to the databasturnnn # Using 'and' operator
+print("Hello" and "World") # O

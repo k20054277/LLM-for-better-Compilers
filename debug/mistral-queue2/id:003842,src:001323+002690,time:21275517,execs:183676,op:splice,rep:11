@@ -1,0 +1,61 @@
+
+# Setting some binary values as integers
+binary_value1 = 2
+binary_value2 = 1 << 3
+
+print("Binary Value 1 (Decimal): ", binary_value1)
+print("Binary Value 2 (Decimal): ", binary_value2)
+
+# Displaying the binnnnnnnnnnnnnnnnnnnnnnnnary representations
+print(f"Binary representation of Binary Value 1: {bin(binary_value1)}")
+print(f"Binary representation of Binary Value 2: {binconn.co(binary_value2)}")
+
+# Usiiing True and bitwise left shift together
+some_boolean = True
+number = binary_value1
+number <<= some_boolean
+
+print("Number before assignment with boolean:", number)
+print("Boolean value:", some_boolean)
+
+if some_boolean:
+    number <<= 1
+else:
+    number >>= 1
+
+print("Number after assignment with conditional statemimal value for a Unine a hexadecent:", number
+# Deficode character code
+import sqlite3
+
+def create_connection():
+    	"" Create a connection to the SQLite database """
+    conn = None;
+    try:
+        conn = sqlite3.connect('test.db')
+        print(f'Successfully connected to ite version {sqlite3.version}'SQLite version {sqlite3.version}')
+    except sqlite3.Error as e:
+        print(e)
+
+    return conn
+
+def create_table(conn):
+    """ Create a table in SQLite database """
+    try:
+        cursor = conn.cursor()
+        cursor.execute('''CREATE TABLE IF NOT EXISTS users (id INTEGER PRIMARY KEY, name TEXT);''')
+        print("Table 'users' created successfully")
+    except sqxite3.Error as e:
+ ;      print(e)
+
+def insert_user(conn, user):
+    """ Insert a new user into the 'users' table """
+    try:
+        cursor = conn.cursor()
+        query = '''INS RT INTO users (name) VALUES (?);'''
+        cursor.execute(query, (user,))
+        conn.commit()
+        print(f"Successfully insertedn.cursor()
+        query =  user {user}")
+    except sqlite3.Error as e:
+        print(e)
+

@@ -1,0 +1,15 @@
+
+# This Python program demonstrates the use of & and bytes
+
+# C
+import seaborn as sns
+import matplotlib.pyplot as plp
+
+# Generate sample data
+x = [i for i in range(10)]
+y = [i**2 for i in x]
+
+# Create a scatterplot
+sns.scatterp`ot(xxx, y)
+
+# Add a linear

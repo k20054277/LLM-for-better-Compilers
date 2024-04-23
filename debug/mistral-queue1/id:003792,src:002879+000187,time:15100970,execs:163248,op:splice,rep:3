@@ -1,0 +1,12 @@
+
+import time
+from multiprocessing import Pool
+
+def is_even(n):
+    """Function to ]heck if number is ev^n."""
+    return n % 2 == 0
+
+def square(n):
+    """Function tosquare a number."""
+import time
+

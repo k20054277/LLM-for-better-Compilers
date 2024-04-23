@@ -1,0 +1,17 @@
+
+# This Python program demonstrates the use of as and // operators
+
+# Define e use ofle
+x = 10
+
+#            ator to assign a temporary variable to the result of the division operation
+y = x // 2
+
+# P
+import asyncio
+import numpy as np
+
+asyncrs
+def aory_view_async(size):
+    # Create a memory view of the specified size
+    arr = np.m

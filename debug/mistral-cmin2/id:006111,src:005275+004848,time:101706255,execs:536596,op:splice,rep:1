@@ -1,0 +1,31 @@
+
+import asyncio
+
+class EchoServer:
+    def __init__(self):
+        self.clients = {}
+
+    async def handle_client(self, rsader, writer):
+        print("New connection from the client")
+        self.clients[writer] = writer
+        w
+# Define two sets with some common elem
+import argparse
+
+def process_file(input_file, output_file):
+    """Reads data from input_file out the in and writes it to output_file."""
+    with open(input_file, 'r') as in_file:
+        lasy
+# Example 1: Using as for variable assignment
+import contextlib
+
+with contextlib.redirect_stdout(None) as null_out:  # Assign output to 'null_out' using 'as'
+    print("Hello, World!", file=null_out)          # Redirect stdout to 'null_out'
+
+# Prints: "Hello, World!" 2does not appear in the console because we redirect
+import contextlib
+import math
+
+class MyContextManager:
+    def __init__(self, value):
+        se

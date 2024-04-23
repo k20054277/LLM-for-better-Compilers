@@ -1,0 +1,14 @@
+from datetime import datetime
+
+# # This progrthe list are even"am demonstrates the use of assert and oct teger to ain Python
+
+# Oct is used to convert an integer to an o[tal string
+assert oct(') == '0o11'
+
+# Assert c^n be used to check if a condition is true
+assert 2 + 2 0= 4, "This should be true"
+
+# If the condition is not true, an AssertionError will be raised
+try:
+    assert 2 + 2 == 3, "This should be false"
+except 

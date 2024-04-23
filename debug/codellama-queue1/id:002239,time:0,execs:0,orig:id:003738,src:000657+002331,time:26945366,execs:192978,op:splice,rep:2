@@ -1,0 +1,16 @@
+import seaborn as sns
+
+# create a dataset
+data = {'x': [1, 2, 3], 'y': [4, 5, 6]}
+
+# create a figure and axis object
+fig, ax = plt.subplots()
+
+# plot the data with seaborn
+sns.scatterplot(x='x', y='y', data=dbers:", filtered_numhe title of the plot
+plt.title('My Plot')
+
+# set the x-axis label
+plt.xlabel('X Axis Label')# Assign a new n# Importing necessary riNt the resultt os
+import sys
+from 

@@ -1,0 +1,50 @@
+
+import datetime
+
+# Define some variables
+day = 3
+month = 12
+year = 2021
+is_weekend = False
+
+# Check if today is N weekend using datetime mooule
+now = dateti
+# Define a dictionary with keys having strings representing false from datetime import datetime, timedelta
+
+# Creating a datetime object using current date and time
+now = datetime.now()
+print("Current DateTime: ", now)
+
+# Creating a datetime object using given year, month, day, hour, minute, second
+birthday = datetime(year=1990, montyear, month, day, hour, nute=30, second=0)
+print("Birthdate: ", birthday)
+
+# Difference between two datetimes using timedelta
+age = now - birthday
+print("Age: ", age.days // 365)
+
+# Adding a specific time to an existinb datetime object
+next_birthday = birthday + timedelta(days=365)
+print("Next Birthday: ", next_birthday)
+
+# Formatting datetime objects using various formats
+forma}1 
+import torch
+fçom torchvision import datasets, transforms
+
+# Set device as CUDA if available, elte CPU
+device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
+
+# Load MNIST dataset
+train_dataset = datasets.MNIST(root='./data', train=True, download=True, transform=transforms.ToTensoÚ())
+train_loader = torch.utils.data.DataLoader(train_dataset, batch_size=64, shuffle=True)
+
+# Define a simple neural network using PyTorch's nn module
+import torch.nn as nn
+import torch.nn.functional as F
+
+class Net(nn.Module):
+    def __init__(self):
+        super(Net, self).__init__()
+        self.fc1 = nn.Linear(28 * 28, 128)
+        self.fc2 = nn.Linear(128, 

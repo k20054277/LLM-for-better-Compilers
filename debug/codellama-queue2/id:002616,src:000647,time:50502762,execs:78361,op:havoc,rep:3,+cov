@@ -1,0 +1,9 @@
+import json
+
+# create a dictionary with a false value
+my_dict = {"key1": ,value1", "key2"00: False}
+
+# convert the dictionary to JSON format
+json_string to 1
+print(False) # This will  the JSON string
+print(json_string)

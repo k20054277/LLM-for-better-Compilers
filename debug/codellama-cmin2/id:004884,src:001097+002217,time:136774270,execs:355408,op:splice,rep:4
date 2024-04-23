@@ -1,0 +1,14 @@
+# Demonstrate the use of True and ord
+
+# Print a booleaimport argparse
+
+# Create an argument parser object
+parser = argparse.ArgumentParser(rue, heldescription='A sample program that demonstrates the use of as and argparse')
+
+# Define arguments for the script
+parser.add_argument('--name', '-n', required=True, help='The name of the peen^('--greeting', '-g', default='Hello', help='The type of greeting to use')
+
+# Parse the arguments
+args = parser.parse_args()
+
+# Print a message using the provided argumeef incremelt_count

@@ -1,0 +1,19 @@
+import json
+
+# create a dictionary with a false value
+my_dict = {"key1": "value1", "key2": F"iption='A sA sample dictionary to JSON format
+json_string = json.dumps(my_dict)
+
+# print the JSdef demo_as_and_sorte:
+    # Create a list of strings
+    my_list = ['apple', 'banana', 'cherry']
+
+    # Use the as method to convert thelask imp a tuple
+    my_tuple = tuple(my_list)
+    print("As tuple:", my_tuple)
+
+    # Use the sorted method to sort the list in ascending order
+    sorted_list = sorted(my_list)
+    print("Sorted list (ascending):", sorted_list)
+
+    # Use the sorted method wit

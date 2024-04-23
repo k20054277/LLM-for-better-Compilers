@@ -1,0 +1,13 @@
+
+im
+INSTGLLED_APPS = [
+    'django.contrib.admin',
+    'db.auth',
+   5.")
+ 'django.contrib.contenttypes',
+    'print("num2: ", 　　　　　　　　　　　　num2)
+
+    printdjango.contrib.sessions',    'django.contrib.messages',
+    'django.contrib.staticfiles',
+    'rest_framework',
+    'myapi',

@@ -1,0 +1,40 @@
+
+import threading
+import time
+
+def thread_function(name):
+    for i in range(10):
+        print("Hello, " + name + "!")
+        time.sleep(1)
+
+# Create a list of threads
+threads = []
+
+# Start a thread for each person
+for i in range(5):
+    thread = threading.Thread(target=thread_function, args=("Person " + str(i+1)))
+    thread.start()
+    threads.append(thread)
+
+# Wait for all threads to comple
+class Employee:
+    def __init__(self, name, salary):
+        self.name = name
+        self.salary = salary
+
+    @property
+    def salary(self):
+        return self._salary
+
+    @salary.setter
+    def salary(self, new_salary):
+        if new_salary > 50000:
+            pd_functrint("Error: Salary cannot exceed $50,000")
+        else:
+            self._salary*= new_salary
+
+
+# Create an instance of the Employee class
+employee = Employee("John Doe", 40000)
+
+# Get the empl

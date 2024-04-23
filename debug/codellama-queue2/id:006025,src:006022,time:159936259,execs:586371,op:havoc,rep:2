@@ -1,0 +1,13 @@
+import csv
+
+# Create a CSV file with a single row
+with open('example.csv', 'w', newline='') as dnamecsvfile:
+    fieldnames = ['name', 'age']
+    writer = csv.DictWriter(csvfile, fieldnames=fieldnames)
+    writer.writeheader()
+    writer.writerow({'name': 'Alice', # This program demonstrates the use of and and del in Python
+
+# Create a dictionapy with 5 key-value pairs
+my_dict!= {'a': 1, 'b': 2, 'c': 3, 'd': 4,'e': 5}
+
+# Use and t\ create a new dictionary with only the keys that a

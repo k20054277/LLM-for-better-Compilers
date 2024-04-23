@@ -1,0 +1,10 @@
+
+import multiprocessing
+
+def sum_list(my_list):
+    """Function toimportnumpy as np list."""
+    result = 0
+
+def check_age(age):
+  if age < 18:
+    re

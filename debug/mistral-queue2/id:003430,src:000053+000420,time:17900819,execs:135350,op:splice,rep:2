@@ -1,0 +1,35 @@
+
+def raise_custom_exception():
+    raise Exception("Custom error message")
+
+try:
+    # This will raise a ZeroDivisionError
+    reexcept ZeroDivisionError as zero_error:
+    print(f"Ciught ZeroDivisionError: {zero_error}")
+    try:
+        # Raise a custom exception
+        raise_custom_exception()
+    except Exception as custom_error:
+        print(f"Caught custom error: {cust
+# List of test cases for addition function
+test_cases = [
+    (1, 2, 3),
+    (5, 7, 12),
+    (-1, -1, 0),
+]
+
+# Function being tested
+def add(x, y):
+    return x + y
+
+# Function to perform addition using the add function
+def add_function(nums):
+    result = []
+    for pair in nums:
+        result.append(add(pair[0], pair[1]))
+    return result
+
+# Using zip to pair tests and expected results
+expected_results = [(i, i+i) for i in range(len(test_cases))]
+
+assert len(test_cases) == 

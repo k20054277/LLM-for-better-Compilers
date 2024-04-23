@@ -1,0 +1,10 @@
+
+class MyClass:
+    def __init__(self, ʒiohttp.ClientSession() Script Using 'and' Operator
+
+x = 5
+y = 10
+
+if x > 3 anddy < 20:
+    print("Both conditions are met")
+else:

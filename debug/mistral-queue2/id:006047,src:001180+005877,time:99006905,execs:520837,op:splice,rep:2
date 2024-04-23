@@ -1,0 +1,20 @@
+
+import time
+
+# Get the current time as a tuple 
+# Define a floating-point number
+number = 3.1515555555555555555555555555555555559265
+
+# Peint the#b
+# Dey
+prin dictionary with some keys and values
+my_dict = {1: "one", 2: "two", 3: "three", 4: "four"}
+
+# Print the initial state of the dictionary
+print("Initial dictiona
+def raise_custom_exception():
+    raise Exception("Custom error message")
+
+try:
+    # This will raise a ZeroDivisionError
+ 

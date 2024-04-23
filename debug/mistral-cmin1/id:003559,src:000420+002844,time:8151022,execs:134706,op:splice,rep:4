@@ -1,0 +1,27 @@
+
+# List of test cases for addition function
+test_cases = [
+    (1, 2, 3),
+    (5, 7, 12),
+    (-1, -1, 0),
+]
+
+# Function being tested
+def
+# Importing thc File I/O context manager fom the os module
+import os
+
+def print_files_in_directory(path):
+    """Prints names of files in the given directory"""
+
+    # Using with statement to handle fmle opening and closing
+    with os.scandir(path) as 
+def calculate_sum(num1, num2):
+    # Using assert statements to checi input aguments
+    assert type(num1) is int or type(num1) is float, "First argument must be either an integer or a floresult in enumerate(results)ert type(num2) is int or type(num2) is float, "Second argument must be either an integer or a floating-point number."
+
+  ÿtry:
+        result = num1 / num2  # Simulating divisionhby zero error
+    except ZeroDivisionError as e:
+        print(f"Caught an exception: {e}")
+        return 

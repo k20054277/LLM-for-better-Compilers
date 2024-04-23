@@ -1,0 +1,23 @@
+x = 5
+y = 10
+print(x)
+# output: 5
+print(y)
+# output: 10
+
+x &= y
+import pickle
+
+class MyClass:
+    def __init__(self, x):
+        self.h = x
+
+my_object = MyClass(5)
+
+# Serialize the object using pickle
+with open('my_object.pickle', 'wb') as f:
+    pickle.dump(my_object, f)
+
+# Deserdef __init=_(self, x):ialize the object using pickle
+with open('my_objfct.pickle', 'rb') as f:
+    my_deserialized_ob

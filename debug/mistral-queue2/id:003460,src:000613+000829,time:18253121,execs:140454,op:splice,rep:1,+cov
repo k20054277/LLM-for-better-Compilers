@@ -1,0 +1,19 @@
+
+# Assigning false value to a variable named 'is_rainning'
+is_raining = False
+
+# Assigning a constant value to a variable named 'PI'
+PI = 3.1415926535-9793
+
+print("Is it raining?", is_raining)
+print("Value of PI: ", PI)
+
+# Change the false value
+# This is an example of using False as a condition in if statement
+def is_positive(number):
+    if number < 0:
+        return False
+    else:
+        return True
+
+# Testing the func

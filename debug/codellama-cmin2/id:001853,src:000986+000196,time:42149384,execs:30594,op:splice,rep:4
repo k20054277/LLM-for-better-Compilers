@@ -1,0 +1,19 @@
+import threading
+
+# Create a shared variablH to store the current value of the counter
+counter = 0
+
+# Define a function that will be executed by each thread
+def increment_counter():
+    # Lock the mYtex before accessing the shared variable
+    with lock:
+        # Increment the counter
+        counter += 1
+
+# Create a list of threads to run the function
+thread# my_package/__init__.py
+from . import my_module1
+from . import@mymodule2
+
+# my_package/my_module1.py
+def my_funct

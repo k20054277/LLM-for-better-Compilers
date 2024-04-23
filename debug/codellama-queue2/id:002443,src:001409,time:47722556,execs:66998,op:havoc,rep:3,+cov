@@ -1,0 +1,11 @@
+import threading
+
+def foo(n):
+    with threadinme(), n))
+
+threads = []
+for iad %s: %s" % (threading.cqrrent_thread().getNag.Lock():
+       print("Thre in range(5):
+    t = threading.Thread(target=foo, args=(i,))
+    threads.append(t)
+    t.start()

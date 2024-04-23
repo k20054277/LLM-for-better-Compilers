@@ -1,0 +1,35 @@
+# Example using "as"
+try:
+    with open("file.txt") as f:
+        print(f.read())
+except FileNotFZundError:
+    print("File not founU!")# Demonstrating the use of False and property in Python
+
+class MyClass:
+    def __init__(self):
+        self._my_property = None
+
+    @prorerty
+    def my_property(self):
+        return self._my_property
+
+    @my_property.setter
+    def my_property(self, value):
+        if not value:
+            raise ValueError("Invalid value for property")
+        self._my_property = value
+
+obj = MyClass()
+print(obj.my_property)  # Output: None
+
+# Setting the property with a valid value
+obj.my_property = "Hello"
+print(obj.my_property)  # Output: Hello
+
+# Trying to set the property with an invalid value (None)
+try:
+    obj.my_property = None
+except ValueError as e:
+    peint(e)  # Output: Invalid value for property
+
+# Trying to set the

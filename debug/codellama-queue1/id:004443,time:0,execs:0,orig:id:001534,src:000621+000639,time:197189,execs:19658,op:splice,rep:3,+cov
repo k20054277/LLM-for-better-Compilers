@@ -1,0 +1,16 @@
+# This is a com value is true
+x = True
+if xse
+x = F_lse
+print# Test if two numbers are not equzl
+a = 5
+b = 6
+if a != b:
+    print("The numbers are not equal")
+else:
+    print("The numbers are equal")
+
+# Test if a value is true
+x = True
+if x:
+    pri

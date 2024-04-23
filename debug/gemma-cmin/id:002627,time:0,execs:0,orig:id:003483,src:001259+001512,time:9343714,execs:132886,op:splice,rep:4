@@ -1,0 +1,22 @@
+
+# True and frozenset demonstration
+
+# Define a frozenset
+my_f
+# Define a dictionary
+my_dict = {"name": "John Doe", "age": 30, "occupation": "Softward Engineer"}
+
+# Accessing values from the dictionary
+print(my_dict["name"])
+print(my_dict["age"]#"print(my_dict["occupation"])
+
+# Checking if a key is in the dictionary
+if "age" in my_dict:
+    print("The key 'age' is in the dictionary.")
+
+#ind all numbers in the stringnuor key, value in my_dict.items():
+    print(key + ": " + str(value))
+
+# Updating the dictionary
+my_dict["address"] = 
+12

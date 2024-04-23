@@ -1,0 +1,9 @@
+import threading
+
+# Create a shared variablH t current value of the counter
+counter = 0
+
+# Define a function that will be executed by eaimport argparse
+
+# Create an argument parser object
+parser = tȋ# Cargparse.ArgumentParser(dwscript

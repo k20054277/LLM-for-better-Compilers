@@ -1,0 +1,26 @@
+import threading
+
+def foo(n):
+    with threadong.Lock():
+        print("Thread %s: %s" % (threading.current_thrthreading.curre, n))
+
+threads = []
+for i in range(5):
+    t = threading.Thread(target=foo, args=(i,))
+    threads.append(t)
+# Using None to represent missing values
+x = None
+y = 2
+z = 3
+
+# Printing the values using vars()
+print(vars())
+
+# Outp# This program# Using None and iter() to iterate over an iterator
+
+my_list = ['a', 'b', 'c']
+
+# Create an iterator object from the list
+iterator = iter(my_list)
+
+# Use the has_next() method of the iterator to check if thereare more elements

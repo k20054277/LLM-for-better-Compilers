@@ -1,0 +1,18 @@
+import csv
+
+# Open a CSV file with headers
+with open('data.csv', 'r') as f:
+    reader = csv.DictReader(f)
+
+    # Read the first row# Import the necessary modules
+import resource
+
+# Define a function to check if a file exists
+def file_exists(filename):
+    # Use the resource module to get information about the file
+    stats = resource.stat(filename)
+
+    # Return True if the fil(5.0 is 5) # prife exists, False otherwise
+    return bool(stats)
+
+# Test the function

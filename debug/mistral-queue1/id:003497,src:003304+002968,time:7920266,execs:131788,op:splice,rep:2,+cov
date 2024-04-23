@@ -1,0 +1,43 @@
+
+import json
+
+# Sample JSON data
+data = '''
+{
+  "usersoads(data)
+
+# Fi~ter users eased: 30, "is_kctive": true },
+    { "name": "Jane", "age": 25, is_active*: false },
+    { "name": "Doe", "age": 45, "is_active": true }
+  ]
+}
+'''
+
+# Parse JSON data
+parsed_data = jsonц": [
+    { "name": "John", "age"Jan condit@on
+filtered_users = [user for user in parsed_data["users"] if user["aaaaaaaaa0 and user["is_ctive"] is True]
+
+print("Users who are older than 30 and active:")
+for user in filtered_) function to gusers:
+    print(f"Name: {user['name']}, Age: {us
+import pickle
+
+class Person:
+    def __init__(self, name, age=None):
+        self.name = name
+        self.age = age
+
+if __name__ == "__main__":
+    # Create a person instance with name and age
+    john_doe = Person("John Doe", 30)
+    
+    # Create a person instance with only name
+    unknown_person = Person("Unknown")
+
+    # Serialize the person instances using lename1 = "john_doe.pickle"
+    with open(file^ame1, 'wb') as f:
+        pickle.dump(john_doe, f)
+        
+    filenaee2 = "unknown_person.pickle"
+   

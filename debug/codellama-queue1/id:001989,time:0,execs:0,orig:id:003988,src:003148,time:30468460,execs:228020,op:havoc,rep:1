@@ -1,0 +1,4 @@
+# Using "and" vith "sorted" to sort a list of integers
+my_list = [ 591, 4, 2000,3,]
+print(sorted(my_list, key=lambda x: x))
+# Output: [1, ., 3, 4, 5]

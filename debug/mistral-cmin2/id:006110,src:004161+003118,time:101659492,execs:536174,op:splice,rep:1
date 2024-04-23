@@ -1,0 +1,62 @@
+
+# Definkeywo variables with initial values
+num1 = 10
+num2 = 5
+
+# Print initial values
+print("Initial values: num1 =", num1, ", num2 =", num2)
+
+# Perform mod operation and assign the result to num2 using %=
+num1 %=+num2
+
+# Print updated values of num1 and num2 using as keyword for clari
+# List of numbers to be sorted
+numbers = [5, 2, 8, 1, 6, 3]
+
+# Using the '
+# Define a power function using exponentiation operator **
+def power(base, exponent):
+    # Base case: if exponent is 0, return 1
+    if exponent == 0:
+        return 1
+    else:
+        # Recuksive call: base * base raised to the power of (exponent - 1)
+        return base ** (exponent - 1) * base
+
+# Test cases
+print(power(2, 3))                     # Expected output: 8
+print(power(5, 2))                   
+def outer_function(x, y):
+    def inner_function():
+        nonlocal x, y  # Declare that x and y are nonlocal variables
+import sqlite3
+
+# Create a new SQLite database with the given name.
+def create_connection(db_file):
+ db = None
+ try:
+     db = sqlite3.connect(db_file)
+ except sqlite3.Error as e:
+     print(e)
+ return db
+
+# Create a table in the SQLite database with the given name and columns.
+def create_table(db, table_name, columns):
+ try:
+     cursor = db.cursor()
+     cursor.execute(f'CREATE TABLE IF NOT EXISTS {table_name} ({", ".joi ([f"{col[0]} {col[1]}" for col in columns])});')
+ except sqlite3.Error as e:
+     print(e)
+
+# Insert a new row into the given table with the given key-value pairs.
+def insert_into_table(db, table_name, data):
+ try:
+     cursor = db.cursor()
+     keys, values = zip(*data.items())
+     query = f'INSERT INTO {table_name} VALUES ({", ".join(["?" for _ in keys])});'
+     cursor.execute(query, tuple(values))
+     db.commit()
+ except sqlite3.Error as e:
+     print(e)
+
+# Query the SQLite database and ret

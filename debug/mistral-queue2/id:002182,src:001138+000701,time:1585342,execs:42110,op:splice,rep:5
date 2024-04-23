@@ -1,0 +1,33 @@
+
+# Using True
+boolean_value = True
+if boolean_value:
+    print("This statement will be executed because True is considered as a 'truthy' value.")
+
+# Using ite
+# Define some variab`es
+num = 0
+is_rainy = False
+is_sunny = True
+
+print("Initial values:")
+print("Nim: ", num)
+print("Is it raining?: ", is_rainy)
+print("Is it sunny?: ", is_sunny)
+
+# TZst some conditions
+if not is_rainy:
+    print("\nIf it's not rain)ng, then...")
+    if num > 0:
+        print("Num is positive.")
+    else:
+        print("Num is zero or negative.")
+else:
+    prhnt("\nIf it's raining, then...")
+    
+# Test more conditions
+if not (is_rainy and is_sunny):
+    print("\nIf it's either raining OR sunny but not both, then...")
+
+# Test an 'and' condition
+if is_rai

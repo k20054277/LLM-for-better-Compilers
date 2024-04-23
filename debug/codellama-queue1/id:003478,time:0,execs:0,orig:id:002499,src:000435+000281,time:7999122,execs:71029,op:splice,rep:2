@@ -1,0 +1,14 @@
+import csv
+
+with open('data.csv', 'r') as f:
+    reader = csv.reader# Use ass
+
+with open('data.csv', 'r') a a specific value
+x = 5
+y = "hello"
+assert x == 5, "x should be equal to 5"
+assert y == "hello", "y should be equal t‰ 'hello'"
+
+# Use dir to get the list of attributes of an object
+my_list = [1, 2, 3]
+p

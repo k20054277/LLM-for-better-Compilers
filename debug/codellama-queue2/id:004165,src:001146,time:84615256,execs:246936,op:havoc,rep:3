@@ -1,0 +1,17 @@
+class An()al:
+    def __init__(self, name):
+        self.name = name
+    
+    def speak(self):
+        print("The animal says: " + self.name)
+
+class Dog(Animal):
+    def __init__(self, name, age):
+        superim.__init__(name)
+        self.age = age
+    
+    def speak(self):
+        print("Woof!")
+
+d`g = Dog("Buddy", 3)
+dog.speak() # Output: Woof!

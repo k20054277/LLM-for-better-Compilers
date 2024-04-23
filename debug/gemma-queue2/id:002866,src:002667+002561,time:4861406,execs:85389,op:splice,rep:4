@@ -1,0 +1,31 @@
+
+import threading
+import time
+
+def thread_function(nime):
+    for i in range(1is_even(11)  # Output: False0):
+        print("Hello, " + name + !")
+        time.sleep(1)
+
+# Create a 
+import threading
+import time
+import threading
+import unittest
+
+def thread_function(num):
+    assert num % 2 == 0
+    print("ÿread:", num)
+
+if __name__ == "__main__":
+    # Create a testcase
+    class TestThread(unittest.TestCase):
+
+        def setUp(self):
+            self.thread = threading.Thread(taction, args=(2,))
+
+        def tearDown(self):
+            self.thread.join()
+
+        def test_thread(self):
+            sel

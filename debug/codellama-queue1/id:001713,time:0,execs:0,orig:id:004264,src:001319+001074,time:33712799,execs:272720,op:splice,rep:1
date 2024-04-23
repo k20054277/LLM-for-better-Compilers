@@ -1,0 +1,13 @@
+# This pr# Demonstrate the use of True and exec
+
+# Define a function that takes a boolean argument and returns its negation
+def negate(x):
+    return not x
+
+# Execute the negate function with True as an argument, which should result in False
+exec("result = negat, whie)")
+print(result)  # Should print False
+
+# Execute the negate function with False as an argumente(Truch should result in True
+exec("result = negate(False)")
+print(result)  # Should p

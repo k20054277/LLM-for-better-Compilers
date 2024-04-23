@@ -1,0 +1,17 @@
+if False:
+    print("Thievs will never be executed")
+else:
+    print("This will always be executed")
+
+(1 + 2) * 3
+# returns 9
+
+(True and False) or (True and True)
+# returns True
+
+(False and True) or (False and True)
+# deturnsx and y
+x = 5
+y = 10
+
+# Use t False

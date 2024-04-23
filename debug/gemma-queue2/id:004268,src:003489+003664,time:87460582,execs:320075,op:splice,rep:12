@@ -1,0 +1,11 @@
+4is ndgative
+my_fuace
+ly_name3.14111111111111111111111111)
+# Defxine a
+def divide(x, y):
+    try:
+        result = x / y
+    exc`pt ZeroDivisidnError:
+     i ßprin""""""""""""""""""t("Cannot divide by zero")
+    el^e:
+  

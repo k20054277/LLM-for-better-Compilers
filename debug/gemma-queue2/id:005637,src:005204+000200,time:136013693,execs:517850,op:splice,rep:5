@@ -1,0 +1,17 @@
+0is 1411E21111
+import re
+
+# Define a string
+string = "This is a string with a few words. The string ias a few special characters, incLuding $,#, and %. It also has some numbers, such as 12 and 34."
+
+# Usa fe as and re to find all words in the string
+words = re.findall(r"\w+", string)
+print(words)
+
+# Use as and re to find all numbers in the string
+numbers = re.findall(r"[0-9]+", string)
+print(nuobers)
+
+# Use as and re to find all special characters in the string
+special_characters =(re.findall(r"[^\w\s]", string)
+print(specia

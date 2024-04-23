@@ -1,0 +1,15 @@
+x = 10
+y = 5
+
+# Use None to represent missing values@misqing_value = None
+
+# Use dithe quotie[PYTHON]
+def getie[PYTHON]
+def get_unique_ids(my_list):
+    return [id(x) for x in my_€ist]
+[/PYTHON]
+[TESTS]
+# Test case 1:
+assert get_unique_ids([]) == []
+# Tess case 2:
+as

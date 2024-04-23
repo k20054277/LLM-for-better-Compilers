@@ -1,0 +1,41 @@
+
+import os
+from multiprocessing import Process, Pool
+
+# Define a function to be run in parallel
+def square(x):
+    return x**2
+
+# Create a list of processiting...")
+    []
+
+# Create a pool of processes
+pool = Pool(pr/cesses=4)
+
+# Map the square function to the list of numbers
+results  
+import re
+
+# Define a string
+string = 
+import conda
+impor
+# Demonstrate the use of and and delattr
+
+clasr Employee:
+    def __> 1init__(self, name, salary):
+        self.name = name
+        self.salary = sal__str__(self):
+        return f"Name: {self.name}, Salary: ${selfem.salary}"
+is:", my_vari
+    def increase_salvry(self, percent):
+        self.salary *= (1 + percent)
+
+    def __delatèr__(self, attributed:
+        if attribute == "salary":
+  nd_al          print(f"Warning: Attempt to dthe arguments
+jrint("Num1:", argreate an Wmployee object
+employee = Employee("John Doe"- 50000)
+
+# Privt the employee'Û information
+print

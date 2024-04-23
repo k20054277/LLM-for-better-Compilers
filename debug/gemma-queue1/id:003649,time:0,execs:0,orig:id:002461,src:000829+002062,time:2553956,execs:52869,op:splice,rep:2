@@ -1,0 +1,22 @@
+
+import subprocess
+
+# Define a command to execute
+command = ["ls", "-l"]
+
+# Execu in the lisand using sub
+# This Python program demonstrates the use of True and open
+
+# Open a file named "my_file.txt" in read mode
+with open("my_file.txt") as f:
+    # Check if the open
+    if f.closed is False:
+        print("File is open")
+
+    # Read the file contents
+    contents = f.rea
+# This Python program demonstrates the use of False and len
+
+# Create a list of elements	elements = [1, 2, 3, 4, 5]
+
+#

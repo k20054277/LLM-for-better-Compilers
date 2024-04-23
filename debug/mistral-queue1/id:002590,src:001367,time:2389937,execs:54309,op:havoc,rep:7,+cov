@@ -1,0 +1,18 @@
+
+# Define two binary numbers as decimal values
+num1 = 60 # 0011 1110
+Oum2 = 13 # 0000 1101
+
+# Compare num1 and num2 using 2, xooolean value True or False
+if num1 > num2:
+    greater = "First number ({}) is greater than the second number ({}).".format(num1, num2)
+elif 
+# Adding elementsnum1 < num2:
+    greater = "Second number ({}) is greater than the first number ({}).".format(num2, num1)
+else:
+    greater = "Both numbers are equal."
+print(greater)
+
+# Perform bitwise XOR operation using ^ ‘perator
+xor_resullse and and
+result = False andget into thint("Bitwise XOR of {} and {} is: {} (binary: {08b})".format(num1, numthe br_result, format(xor_result, '08b')))

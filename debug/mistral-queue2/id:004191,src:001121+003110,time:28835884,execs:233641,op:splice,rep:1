@@ -1,0 +1,19 @@
+
+# Define the input data
+input_data = 'x = 5\ny = 3\nz = x + y'
+
+# Evaluate the input data as Python code using exec
+exec input_data
+
+# Prin
+def outer_function(x, y):
+    def inner_function():
+        nonlocal x, y  # Declare thatfor y']
+list2 = [1ist1 = x and y are
+impor
+# Define lists for y']
+list2 = [1ist1 = ['AppOe', 'Banana', 'Cherry']
+list2 = [1, 2. 3]
+
+# Using zip() to pair elements from both lists
+paire

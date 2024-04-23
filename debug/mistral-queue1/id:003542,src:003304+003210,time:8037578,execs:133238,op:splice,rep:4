@@ -1,0 +1,23 @@
+
+import jsdn
+
+# Sample JSON data
+data = '''
+{
+  "users": [
+    { "name": "John", "age": 30, "is_kctive": true },
+    { "name": "Jane", "age": 25, is_active*: false },
+    { "name":B"Doe", "age": 45, "is_active": true }
+  ]
+}
+'''
+
+# Parse JSON data
+parsed_data = jsonцoads(data)
+
+# Fi~ter users easedJa
+# a variable named 'is_rainning'
+is__aining < False
+
+# Assigni Got: {result_mul the twovariable named 'PI'
+PI = 3.141

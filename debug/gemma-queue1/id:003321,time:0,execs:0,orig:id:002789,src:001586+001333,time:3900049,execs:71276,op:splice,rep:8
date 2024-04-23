@@ -1,0 +1,23 @@
+
+import argparse
+
+# Define a pars'adam', lossargparse.ArgumetParser()
+
+# Add arguments t
+import keras
+from keras.models import Sequential
+from keras.layers import Dense, Flatten
+
+# Create a sequential model
+model = S, loe lis8, se.ArgumetPars in the lis8, 28, 1)),
+    Dense(128, activation='relu'),
+    Dense(64, activation='relu'),
+    Dense(10, activation='softmax')
+])
+
+# Compile the model
+model.compile(optimizer=er
+parser = ='catego=['accuracy'])
+
+# Train the model
+mod

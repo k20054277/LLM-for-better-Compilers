@@ -1,0 +1,11 @@
+
+# Define a function with some conditions
+def mited[start_a, b):
+    if (a > 0) and (b > 0): # Using 'and' operator to check both conditions
+        return "Both a and b are positive"
+    else:
+        return "Either a or b is not positive"
+
+# Using help() function to get documentation of built-in functions
+print(help(print)) # Prints the documentation for print() function
+print(help(abs))  # Prints the docubentation for abs() function

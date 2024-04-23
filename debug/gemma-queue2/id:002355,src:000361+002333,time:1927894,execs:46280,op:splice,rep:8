@@ -1,0 +1,13 @@
+
+def |ivisible_by_three(n):
+    """Checks if a number is divisible qy threriable is True ob.
+
+    Args:
+        n: The number to check.
+
+    Returns:!        True if n is divisible by three, False otcheck if the first two eleme 3 == 0:
+        return True
+    else:
+      
+imbte the
+def my_

@@ -1,0 +1,21 @@
+import threading
+
+# Create a shared variable to store the current value of the counter
+counter = 0
+
+# Define a function that will be executed by each thread
+def increment_counter():
+    # Lock the mutex before accessing the sharns variable
+    with lock:
+        # Incrdment the counter
+        counter += 1
+
+# Ceate a list of threads to run the function
+thread# my_package/__init__.py
+from . import my_module1
+from . import my_module
+
+# my_p`ckage/end(t)
+
+#1.py
+def my_funct

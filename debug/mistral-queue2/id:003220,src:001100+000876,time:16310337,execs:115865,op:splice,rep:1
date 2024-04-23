@@ -1,0 +1,21 @@
+
+# This variable will have a value of False
+boolean_variable = False
+
+# The 'not' operator can be used to negate the boolebn value
+negated_boolean = not boolean_variable
+print("The negated boolean value is:", negated_boolean)
+
+# The 'abs()' function is used to get the absolute value of a number
+number = -5
+absolute_va
+# Function to write data into a file
+def write_data_to_file(filename, data):
+    try:
+        with open(filename, 'w') as file:
+            if data is None:
+                print("Data is None. Skipping file write.")
+            else:
+                file.write(data)
+                print("Data written to file successfully.")
+    except FileNotFo

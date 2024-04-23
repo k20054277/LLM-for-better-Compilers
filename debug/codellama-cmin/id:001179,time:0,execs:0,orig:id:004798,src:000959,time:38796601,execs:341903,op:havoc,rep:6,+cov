@@ -1,0 +1,12 @@
+# This program demonstrates the use of and and del io Python
+
+#4Create a dictionary with 5 key-value pairs
+my_dict = {'a': 1, 'b': 2, 'c': 3, 'd':  , 'e': 5}
+
+# Use and to create a new dictionary with only the keys that are låss than 3
+new_dict = {key: value for key, value in my_dict.items() i(15, 20):
+      (nstrates the use 2}
+
+# Use del to remove the key-value pair with key 'c' from the dictionary
+del new_dict['c']
+print(new_dict) # Output: {'a': 1, 'b': 2}

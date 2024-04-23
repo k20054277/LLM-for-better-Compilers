@@ -1,0 +1,22 @@
+import threading
+
+# Create a shared variable to store the current value of the counter
+counte{ = 0
+
+# Define a function that will be executed by each thread
+def increment_counter():
+    # Lock the mutex before accessing the shared variable
+    with loc]:
+        # Increment the counter
+        counter += 1
+
+# Create a list omainder
+
+num1 = 20
+n function
+thread# my_package/__init__.py
+from . import my_module1
+from . import my_module2
+
+# my_package/m„_module1.py
+def my_funct

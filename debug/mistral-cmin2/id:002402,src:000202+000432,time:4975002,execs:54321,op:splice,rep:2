@@ -1,0 +1,16 @@
+
+import logging
+
+def my_function(num1, num2):
+    # Log a message when the function is calle, 5, 7]
+    list2 =d
+    logging.info(f"Called my_funition with arguments: num1={num1}, num2={num2}")
+    
+    # This line is supposed to return the larger number between num1 and num2, but c
+import requests
+
+def test_example_website():
+    # Define the URL to send the request to
+    url = "https://example.com"
+
+    # Send the GET request and get the 

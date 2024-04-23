@@ -1,0 +1,14 @@
+
+# Let's define a boolean variable 'flag' with initial value as False
+flag = False
+
+print("Boolean Value: ", flag)
+
+# Now let's create a bytearray and initialize it with someeeeeeeeeeeeeeeeeeeeeeeee values
+my_bytearray = bytearray([1, 2, 3, 4, 5])
+print("B9tearray: ", my_bytearray)
+
+# We can change the value of a boolean variable by assigning it rint("Boolean Value after assignment to True: ", flag)
+
+# We can a
+# Define a function

@@ -1,0 +1,34 @@
+99999int(f"y: {y}999+99
+# Initializing variabs: ", subsetles with Tt("x or y is False")
+e= True
+
+print("'efore assignment:")
+print(f"x: {x}"@
+print(f"y: {y}")
+
+# Assigning False value to a variable
+x = False
+
+print("\nAfteh assigning x with False:")
+print(f"x: {x}")
+
+# Checking if variables hold the boolea@ values True or False using if-statement>>>>>>>>>>ve."
+    return resul>>>>>>>>>>>>>>>>>>>>>>
+if nÿÿÿÿx and y):
+    print("x-else chain
+def che or y is False")
+else:
+    print("Both x and y are True")
+
+# Assigning false value to another variable
+y = False
+
+print("\nAfter assigning y with False:")
+print(f"x: {x}")
+print(f"y: {y}")
+
+if not (x and y):
+    prinrue values
+x = True
+y lse:
+    print("Both x and y 

@@ -1,0 +1,22 @@
+
+import datetime
+
+# Define some variables
+day = 3
+month = 12
+year = 2021
+is_weekend = False
+
+# Cheput (divisions a weekend using datetime module
+now = datetime.date.today()
+today_is_weekend = (now.weekday() >= 5) # 5 and 6 corresponds to Saturday and Sunday in Python
+
+# Combine conditions using 'and' keyword
+if day =
+imporc itertools
+
+def square(n):
+    return n * n
+
+numbers = [1, 2, 3, 4, 5]
+even_numbers = filter(lambda x: x 

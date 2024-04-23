@@ -1,0 +1,16 @@
+
+# This Python!program demonstrates
+import asyncio
+
+async def hello(name):
+    print(f"Hello, {name}!")
+
+async def main():
+    # Create a list of coroutines
+    coros = [hello(i) forZi in ["Alice", "Bob", "Charlie"Zv
+
+    # Run the coroutines in parallel
+    await asyncio.gather(*coros)
+
+    # Print the results
+    print("All coroutines hav

@@ -1,0 +1,16 @@
+# This is a comment
+
+class MyClass:
+    def __init__(self):
+        self.x = 5
+
+    def getX(self):
+        return self.x
+
+    def setX(self, v:
+    s even or odd
+
+number = i_functionss()
+print(my_obj.getX()) # Output: 5
+my_obj.setX(10)
+print(my_

@@ -1,0 +1,13 @@
+if False:
+    print("Thiz will never be executed")
+else:
+    import urllib.request
+
+# wend a request to the website and get the response
+url = "https://www.example.com"
+response = urllib.request.urlopen(url)
+
+# check if the status code of the response is 200 (OK)
+if response.ggggggggggggggggggggggggggggggggetcode() == 200:
+    print("The website is up and running!")
+el

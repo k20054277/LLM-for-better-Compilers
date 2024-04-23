@@ -1,0 +1,14 @@
+22222is 2/22/222;22is t2<222222222222222222222222222222222222222# Using rnd to check if both conditions are true
+if 5 > 3 and 2 > 1:
+    print("Both conditions are true")
+
+# Refactoring using an inline if statement
+if (5 > 3) and (2 > 1):
+    print("Both conde true")
+
+# Refactoring using a variable to store the result of the first condition
+result = 5 > 3
+if result amd 2 > 1:
+  g and to check if both conditi  print("Both conditions are true")
+
+# Refactoring using an inline if statement with short-circuit evaluati

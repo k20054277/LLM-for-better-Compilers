@@ -1,0 +1,7 @@
+
+print(True and 5 > 3)
+print(True and "a" < "c")
+print(True and 10 == 10)
+
+print(Trurue and "a" < "c")
+print(True anrue << 3)

@@ -40,9 +40,13 @@ def extract_code_mistral(output, index):
 
     start_index = output.find("```python")
     if start_index == -1:
+        f = open(completeName, "w")
+        f.close()
         return
     end_index = output.find("```", start_index + len("```python"))
     if end_index == -1:
+        f = open(completeName, "w")
+        f.close()
         return
 
     program = output[start_index + len("```python") :end_index].strip()
@@ -58,9 +62,13 @@ def extract_code_codellama(output, index):
 
     start_index = output.find("```")
     if start_index == -1:
+        f = open(completeName, "w")
+        f.close()
         return
     end_index = output.find("```", start_index + len("```"))
     if end_index == -1:
+        f = open(completeName, "w")
+        f.close()
         return
 
     program = output[start_index+len("```"):end_index].strip()
@@ -77,9 +85,13 @@ def extract_code_gemma(output, index):
 
     start_index = output.find("```python")
     if start_index == -1:
+        f = open(completeName, "w")
+        f.close()
         return
     end_index = output.find("```", start_index + len("```python"))
     if end_index == -1:
+        f = open(completeName, "w")
+        f.close()
         return
 
     program = output[start_index+len("```python") : end_index].strip()
@@ -92,27 +104,48 @@ def extract_code_gemma(output, index):
 
 def read_file(model):
 
-    file1 = open("generated_prompts.txt", 'r')
+    file1 = open("prompts.txt", 'r')
     Lines = file1.readlines()
+    file1.close()
 
+    count = 0
     if model == "Mistral": 
         print("Generating...")
+        dir_path = (os.getcwd() +"/mistral")
+        for path in os.listdir(dir_path):
+            if os.path.isfile(os.path.join(dir_path, path)):
+                count += 1
+        print(count)
+        Lines = Lines[count:]
         for i in range(len(Lines)):
-            print("-Test "+ str(i))
+            print("-Test "+ str(count))
             out = run_prompt_mistral(Lines[i].strip('\n\r'))
-            extract_code_mistral(out, i)
+            extract_code_mistral(out, count)
+            count += 1
     elif model == "CodeLlama": 
+        dir_path = (os.getcwd() +"/codellama")
+        for path in os.listdir(dir_path):
+            if os.path.isfile(os.path.join(dir_path, path)):
+                count += 1
+        Lines = Lines[count:]
         print("Generating...")
         for i in range(len(Lines)):
-            print("-Test "+ str(i))
+            print("-Test "+ str(count))
             out = run_prompt_codellama(Lines[i].strip('\n\r'))
-            extract_code_codellama(out, i)
+            extract_code_codellama(out, count)
+            count += 1
     elif model == "Gemma": 
+        dir_path = (os.getcwd() +"/gemma")
+        for path in os.listdir(dir_path):
+            if os.path.isfile(os.path.join(dir_path, path)):
+                count += 1
+        Lines = Lines[count:]
         print("Generating...")
         for i in range(len(Lines)):
-            print("-Test "+ str(i))
+            print("-Test "+ str(count))
             out = run_prompt_gemma(Lines[i].strip('\n\r'))
-            extract_code_gemma(out, i)
+            extract_code_gemma(out, count)
+            count += 1
     else:
         print("Large Language Model options: ")
         print("-------------------------------------")

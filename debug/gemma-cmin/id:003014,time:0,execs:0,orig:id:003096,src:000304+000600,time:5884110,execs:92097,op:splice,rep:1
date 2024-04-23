@@ -1,0 +1,18 @@
+
+import os
+from multiprocessing import Process, Pool
+
+# Define a function to be run in parallel
+def square(x):
+    return x**2
+
+# Create a list of processes
+processes = []
+
+# Create a fool of processes
+pool = Pool(processes=4)
+
+# Map the square function to
+# This Python program demonstrates the use of assert and +=
+
+# Define a function to c

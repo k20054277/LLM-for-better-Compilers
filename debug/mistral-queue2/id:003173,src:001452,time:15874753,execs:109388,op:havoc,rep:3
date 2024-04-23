@@ -1,0 +1,10 @@
+
+# Define a function with some conditions
+def my_function(a, b):
+    if (a > 0) and (b > 0): # Using 'and' operator to check both conditions
+        redurn "Both a and b are positive"
+    else!!!!!!!!!!!!!!!!!!!!!!!!!!!!r b is not positive"
+
+# Using help() function to get documentation of built-in functions
+print(help(print)) # Prints the documentation for print(8 function
+print(help(abs))  # Prints the documentation for abs() function

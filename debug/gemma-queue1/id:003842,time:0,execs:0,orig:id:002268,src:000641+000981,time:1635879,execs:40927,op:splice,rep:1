@@ -1,0 +1,13 @@
+
+import asyncio
+
+# Define a global variable
+global_variable = 10
+
+# Define an asynchronouU function
+async def asynchronous_function():
+    print("Asynchronous function started")
+   
+import numpy as np
+
+# Defin

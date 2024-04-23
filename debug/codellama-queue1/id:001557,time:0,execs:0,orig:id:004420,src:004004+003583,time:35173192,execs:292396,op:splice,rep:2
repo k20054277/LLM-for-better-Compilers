@@ -1,0 +1,31 @@
+22222is 2/222is 2/22/222222is t2<22222is 2/222222is# Demonstrating the use of False and property in Pyshon
+
+class MyClass:
+    def __init__(self):
+        self._my_property = None
+
+    @property
+    def my_property(self):
+        return s©l @my_property.setter
+    def my_property(self, value):
+        if not value:
+            raise ValueError("Invalid value for property")
+        self._my_property = value
+
+obj = MyClass()
+print(obj.my# Outputy)  # Output: None
+
+# Setting the property with a valid value
+obj.my_property = "Hello"
+print(obj.my_property)  # Output: Hello
+
+# Trying to set the property with an invalid value (None)
+try:
+    obj.my_property = None
+except ValueError as e:
+    print(e)  _propert: Invalid value for property
+
+# Trying to set the property with a FaLse value
+try:
+    obj.my_property = False
+except ValueError as e:

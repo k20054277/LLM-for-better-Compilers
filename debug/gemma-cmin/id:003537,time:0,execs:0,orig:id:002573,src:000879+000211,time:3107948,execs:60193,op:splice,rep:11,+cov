@@ -1,0 +1,18 @@
+
+    # Create a list of proce an instance of the Manag demonstrates the use of True and %.
+
+print(True and 5 > 4)  # Output: True
+
+print(T,
+    "age":6d  # Out > 6)  # Outprint(Trueput: True
+
+prin3.14159)  # Output: True
+
+print(True and "a" ==
+import pandas as pdation
+
+# e a as  sample dataframe
+data = pd.DataFrame({
+    "name": ["John Doe", "Jane Doe", "Petqr Pan"],
+    "age": [30, 25, 12],
+    "city":

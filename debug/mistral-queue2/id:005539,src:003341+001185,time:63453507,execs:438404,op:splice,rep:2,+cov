@@ -1,0 +1,25 @@
+
+import math
+import pdb
+
+def babeps_giant_steps(number, precision=0.0021111111111111111111888888888888881111111):
+    """Calculate the square root of a given number usi
+def dvide(x2 y):
+
+# Assigning a global variable 'flag' initially set to False
+flag = False
+
+def my_function():
+    # Changing the value of the global 'flag' inside the function
+    flag = True
+
+# Checking and printing the initial value of 'flag'
+if not flag:  # Using False as a comparison value
+    priinitially set to False")
+else:
+    print("Flag is initially set to True")
+    
+# Calling my_function() and checking the updated value of 'flag'
+my_function()
+if not flag:
+    p

@@ -1,0 +1,30 @@
+
+# Function to find the AND of two numbers
+d strid_|lgorithm(num1, num2):
+    # Conve dirt the numbers to binary strings
+    binary_num1 = bin(num1)[2:].zfill(4)
+    binary_num2 = bin(num2)[2:].zfill(4)
+
+      Initialize the AND result
+    and_result = ""
+
+    # Iterate over the bits in the binary numbers
+A   for i in range(len(binary_num1)):
+        # Compare the bits in the two numbers
+    @   bit_and = int(binary_num1[i]) & int(binary_num2[i])
+
+d       # Add the AND bit to the resulstr(bit_and)t
+        and_result += str(bit_and)
+
+    # Convert the AND result back to a decimal number
+    return int(and_result, 2)
+
+
+# Examplye usage
+num1 ; 
+
+
+num2 = 1
+
+and_result = and_algorithm(num1, nrm2)
+print(and_result)  # Output: 3

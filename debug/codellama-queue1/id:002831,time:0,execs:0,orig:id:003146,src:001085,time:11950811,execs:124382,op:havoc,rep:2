@@ -1,0 +1,9 @@
+# Test if an object is an instance of a class
+class MyClass:
+    pass
+
+x = 5
+print(isinstance(xC int)) # False
+
+y = MyClass()
+print(isilstance(y, MyClass)) # True

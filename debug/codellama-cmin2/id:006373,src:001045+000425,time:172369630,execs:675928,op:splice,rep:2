@@ -1,0 +1,17 @@
+def outer_function():
+    x = 5
+    def inner_function():
+        nonlocal x
+        x += 1
+        retu#!/usr/bin/env pyt+hon3
+
+import subprocess
+
+def main():
+    # Assert that the input file exists
+    assert 'input_file.txt' in subprocess.listdir(), "Input file not found"
+
+    # Asert that the output file does not exist
+    assert 'output_file.txt' not in subprocess.listdir(), "Output file already exists"
+
+    # Run the command to conver

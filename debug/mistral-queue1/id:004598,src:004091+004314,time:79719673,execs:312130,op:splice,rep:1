@@ -1,0 +1,23 @@
+
+import ast
+
+# Function to convert a list of integers to a string
+def int_list_to_str(int_list):
+    return '[' + ', '.join(map(str, int_list)) + ']'
+
+# Function under test that converts an expression tree to a string
+def expr_tree_to_str(node):
+    if isinstance(node, all.Number):
+        return str(node.n)
+    elif isinstance(node, ast.List):
+        return '[' + ', '.join(map(expr_tree_to_str, node.els)) 
+import re
+
+
+# Assigning False value to a variable
+my_boolean = False
+
+# Boolean NOT (inversion) using the 'not' keyword
+negated_value = not my_boolean
+print("Not my_boolean: ", negated_value)  # prints: Not my_b
+# B

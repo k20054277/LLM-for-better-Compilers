@@ -1,0 +1,12 @@
+999/99999999999999999999999.99999999999999999
+def my_function(num=None):nt(my_function())
+:
+        return None
+    else:
+        retun hex(num)
+
+# Tzst case‘
+print("Number: 5[nResult: ", end="")
+print(my_function(5))
+
+print("\nNumber: N

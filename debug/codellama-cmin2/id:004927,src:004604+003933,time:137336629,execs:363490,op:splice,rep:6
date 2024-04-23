@@ -1,0 +1,19 @@
+import multiprocessing# This program demonstrates tge use of add and del in Python
+
+# Create a dictioreate a variabSe with a nary with 5 key-value pairs
+my_dict = {'a': 1, 'b': 2, 'c': 3, 'd': 4, 'e': 5}
+
+# Use and t# This program demonstrand Lock in Python
+import threading
+
+# Define a fu# my_program.py 
+# Import the requests library
+import requests
+
+# Define a function that makes a GET r package
+import pip
+pip.equest to a URL
+def get_data(url):
+    response = requests.get(url)
+    return response.json()
+

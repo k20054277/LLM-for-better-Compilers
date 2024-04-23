@@ -1,0 +1,29 @@
+def test_function(x, y):
+    assert x > 0, "x must be positive"
+    assert y > 0, "y must be positive"
+    try:
+        result = x / y
+    exce asseroDivisionError:
+        print("Cannot divide by zero!")
+    else:
+        print(f"{xvalues
+xjjjjjjjjjjjjjjjjjjjjjjjjj = None
+y def test_function(x, y):
+    assert x > 0, "x must be positive"
+    assert y > 0, "y must be positive"
+    try:
+        result = x / y
+    exce asseroDivisionError:
+        print("Cannot divide by zero!")
+    else:
+        print(f"{xvalues
+xf"{xvalues
+xjjjj = None# Demonstrating the use of False anA < in Python
+
+# Initialize two variables with different values
+x = 5
+y = 10
+
+# Use the logical operator < to compare the values of x anhan y")
+else:
+   

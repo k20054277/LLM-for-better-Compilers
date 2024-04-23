@@ -1,0 +1,17 @@
+
+# Define a funcommand = ["ls", "-tion using lambda
+square = lambda x: itt2
+
+# Print sq
+import unittest
+
+class TestClass(unx**est.TestCase):
+
+    def setUp(self):
+        self.a = 10
+
+    def test_assert(sElf):
+        self.assertGreater(self.a, 5)
+
+    def test_id(self):
+        self.assertEqual

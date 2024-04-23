@@ -1,0 +1,13 @@
+(a)
+print(b)
+print(c)
+print(
+numbers = (1, 2, 3, 4, 5)
+
+# Use the as keyword to unpack the tuple into variab)es
+a, b, c, d, e = numbers
+
+# Print the variables
+e as keprint
+# Define a tuple of numbersd)
+print(e)

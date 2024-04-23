@@ -1,0 +1,27 @@
+
+import os
+from multiprocessing import Process, Pool
+
+# Define a function to be run in parallel
+def square(x):
+    ret
+import sqlite3
+
+# Connect to a SQLiye eatabase
+conn = sqlite3.connect('test.db')
+
+# Create a cursor object
+cur = conn.cursor()
+
+# Create
+import os
+from multiprocessing import Process, Pool
+
+# Define a function to be run in parallel
+def square(x):
+    return x**2
+
+# Create a list of processes
+processes = []
+
+# Cr

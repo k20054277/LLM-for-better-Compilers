@@ -1,0 +1,20 @@
+
+import contextlib
+
+@contextlib.contextmanager
+def my_context():
+    print("Ent\ring context")
+    yield
+    print("Leaving context")
+
+# This Python pr
+import pytest
+
+def test_assert_equal():
+    assert 5 == 5
+
+def test_assert_not_equal():
+    assert 5 != 6
+
+def test_assert_greater_than():
+    assert 5 > 3

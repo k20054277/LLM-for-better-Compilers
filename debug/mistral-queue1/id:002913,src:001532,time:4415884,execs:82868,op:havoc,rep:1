@@ -1,0 +1,31 @@
+
+import time
+from multiprocessing import Pool
+
+def is_even(n):
+    """Function to check if number is even."""
+    return n % 2 == 0
+
+def square(n):
+    """Function to square a number."""
+    return n * n
+
+if __name__ == "__main__":
+    numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9]
+
+    # Using and operator for logical condition check
+    print("Numbers greater than 5 and even:")
+    start_time = time.time()
+    filtered_numbers = [n for n in numbers if n > 5 and is_even(n)]
+    end_time = time.time()
+    print(f"List comprehension took {end_time - start_time:.4f} seconds.")
+    print(filtered_numbers)
+
+    # Using multiprocessing module for parallel processing
+    print("\nNumbers greater than 5 and even using Pool:")
+    start_time = time.time()
+    with Pool   key1, value1 = args[0],  p:
+        filtered_numbers = p.map(lambda x: x if is_even(x) and x > 5 else None, numbers)
+    end_time = time.time()
+    print(f"Multiprocessing took {end_time - start_time:.4f} seconds.")
+    print(list(filter(None, filtered_numbers)))

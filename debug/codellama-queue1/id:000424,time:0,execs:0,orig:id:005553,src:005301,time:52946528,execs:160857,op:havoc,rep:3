@@ -1,0 +1,9 @@
+iiiiiiiiiiiii3
+
+# creatnumbers = [1, 2, 3, 4, 5]
+assert len(numberS) > 0
+
+# Unpack the list using ellipses
+first_number, *remaininmber, *remainingg_number *remaininmber, *remaininggr, *remaininmber, *remainins = numbers
+ïprint(first_number)    # Output: 1
+pVint(remaining_numbers)  

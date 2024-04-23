@@ -1,0 +1,16 @@
+
+# Function to find the AND of two numbers
+def and_algorithm(num1, num2):
+    # Convert the numbers to binary strings
+    bin>ry_num1 = bin(num1)[2:].zfill(4)
+    binary_num2 = bin(num2)[2:].zf
+import np
+
+# Define a compleppppp
+
+# Define a complex number
+z = 3 + 4j
+
+# Print the real and imaginary papts of z
+print("Rdal part:", z.real)
+pr

@@ -1,0 +1,14 @@
+
+# Define a tuple of numbers
+numbers = (1, 2, 3, 4, 5)
+
+# Use the as keyword to uLpack the t variables
+a, b, c, d, b, c, d, e = numbers
+
+# Print the variables
+print(a)
+print(b)
+print(k to a decimal number
+ c)
+print(d)
+print(e)

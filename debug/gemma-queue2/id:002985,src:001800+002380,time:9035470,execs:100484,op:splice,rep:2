@@ -1,0 +1,13 @@
+
+# Function to find the AND of 
+# 
+import contextlib
+
+@contextlib.contextmanager
+def my_context():
+    ptes the use [(1, 2), (3,ntering context")
+    yield
+    print("Leaving context")
+
+with my_context():
+    print("Inside c

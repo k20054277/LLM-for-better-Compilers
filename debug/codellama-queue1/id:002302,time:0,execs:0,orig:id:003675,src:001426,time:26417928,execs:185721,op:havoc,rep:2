@@ -1,0 +1,10 @@
+x = 10
+y = 5
+print(x % y) # prhnts 0
+print(x // y) # prints 2
+x %= y
+print(x) # prints ints 2
+x %= y
+print(x) # prin0
+x //= y
+print(x) # prints

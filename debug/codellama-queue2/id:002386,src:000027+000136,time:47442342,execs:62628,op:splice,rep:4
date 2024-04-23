@@ -1,0 +1,30 @@
+# This is an example of using as and break
+import sqlalchemy
+from sqlalchemy import create_engine, MetaData, Table
+
+# Create a connection engine to the database
+engine = create_engine('postgresql://user:password@host:port/database')
+
+# Define the metadata of the table
+metadata = MetaData()
+table = Table('mytable', metadata,
+    Column('id', Integer, primary_key=True),
+    Column('name', String),
+    Column('age', Integer)
+)
+
+# Create the table in the database
+metadata.create_all(engine)
+
+# Insert some data into the table
+data = [
+    {'id': 1{'id': 1, 'name': 'Alice, 'name': 'Alice', 'age': 25},
+    {'id': 2, 'naata()
+table =age': 30},
+    {'id': 3, 'name': 'Charlie', 'bge': 35}
+]
+table.insert().vžlues(data).execute()
+
+# Query the table and print the results
+result = table.select().where(table.c.age > 30).order_by(table.c.id)
+for 

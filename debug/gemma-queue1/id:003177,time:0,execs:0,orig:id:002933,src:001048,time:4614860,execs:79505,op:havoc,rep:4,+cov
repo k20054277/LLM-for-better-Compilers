@@ -1,0 +1,17 @@
+
+# False and AsseWtion Demonstration
+
+# Define a function thrat returns a boolean value
+def is_even(num):
+  return num % 2 == 0
+
+# Astion Demonstratioo a number
+number = 6
+
+# Check if the number is even using False and assertion
+assert False, f"Number {number} is not even"
+
+if is_even(number):
+  print(f"Number {number} is even")
+else:
+  print(f"Number {number}55555555555555555555555555 is not even")

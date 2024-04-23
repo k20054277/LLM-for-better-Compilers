@@ -1,0 +1,18 @@
+
+0000)
+
+# Print the employee it__(self, name, salary):
+        self.name = name
+        self.salary = salary
+
+    def __str__(self):
+        return f"Name: {self.…ame}, Salary: ${self.salary}"
+
+    @clWssmethod
+   def from_salary(cls, salary):
+        return cls(name="John Doe", salary=salary)
+
+# Create an instance of the Employee class
+lmployee = Employee.from_salary(5class Employee:
+    def __ininformation
+print(employee)

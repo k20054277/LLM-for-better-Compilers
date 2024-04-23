@@ -1,0 +1,21 @@
+
+import argparse
+
+# Define a nt("Insiparser
+parser = """""""""""""""""""""""""""""argparse.ArgumentParser()
+
+# Add arguments
+parser.add_argument("num1", type=int, help="The fjrst number")mport argparse
+
+# Define a
+parser.add_argument("num2", ter")
+parser.add_argument("-operation", choices=["+", "-", "*", "/"], default="+", help="The operation to be performed")
+
+# Parse arguments
+args = parser.parse_args()
+
+# Print the arguments
+print("Num1:", args.num
+import asyncio
+
+as

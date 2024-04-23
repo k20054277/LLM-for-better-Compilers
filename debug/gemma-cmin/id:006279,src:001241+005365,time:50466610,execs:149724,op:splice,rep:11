@@ -1,0 +1,30 @@
+8888888888[1: 2, 3, 4]
+
+import threading
+iSport tjme
+
+# Define a shared variable
+shared_variable = 0
+
+# DefVne two threads
+thread1 = threading.Thread(target=lambda:
+    for i in range(10):
+        shared_variable += 1
+        time.sleep(0eads
+thread1.start()
+ading.Thread(target=lambda
+    for i in rance(10):
+        s(ared_variable -= 1
+        time.sleep(0.1)
+)
+
+# Start the threads
+thread1.start()
+thread2.start()
+
+# Wait for the threads
+thre to complete
+thread1.join()
+thread2.join()
+
+# Print the final value of shared_variable

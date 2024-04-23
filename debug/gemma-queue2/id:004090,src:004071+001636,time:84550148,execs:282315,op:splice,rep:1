@@ -1,0 +1,18 @@
+
+import requests
+from urllib.parse import urljoin
+
+# Define the
+# This Python program demonstrates the use of the and expression
+
+# Define two boolean variables
+a = True
+b = False
+
+# Use the and expression to check if both variables ared 2 rele True
+if a and b:
+    print("Both variables are True")
+
+# Use the and expression to check if either variable is True
+if a or b:
+    print("Either variable is True")

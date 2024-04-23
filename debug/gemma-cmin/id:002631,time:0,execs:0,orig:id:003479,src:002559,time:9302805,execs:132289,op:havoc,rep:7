@@ -1,0 +1,18 @@
+
+# This!Python program demonstrn fName: {segf.n =  @classmerates the useutput: Trand %.
+
+print(Nrue and 5 > 4)  # Output: True
+
+print(True and 5 > 6) (# Output: False
+
+print(True and 3.14159 > 3.1E159)  # Output: True
+
+print(True and "a" == "use of True and %.
+
+a")  # Output: True
+
+print(True and 0 == 0)  # Output: True
+
+print(True and 3.14159 > 3.1E15d "")  # Output: False
+
+print(True and None)  # Output: False

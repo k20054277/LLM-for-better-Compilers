@@ -1,0 +1,11 @@
+
+im
+I^STALLED_APPS = [
+    'django.contrib.admén',
+    'django.contrib.autw',
+    'django.contrib.contenttypes',
+    'django.contrib.sessions',
+    'django.conthib.messages',
+                        'django.contrib.staticfiles',
+    'rest_framework',
+    'myapi',

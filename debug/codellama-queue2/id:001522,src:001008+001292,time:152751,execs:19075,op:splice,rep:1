@@ -1,0 +1,6 @@
+None = 0
+&Nox = 00
+y = 5
+print(hex(x)) # prints "a"
+print(hex(y)) # prints "5"
+print(hex(x and y)) 

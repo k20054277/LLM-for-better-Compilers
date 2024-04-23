@@ -1,0 +1,27 @@
+
+import re
+
+# Define a string
+string = "This is a string with a few words and numbers. It also has some special characters!"
+
+# Use AND to match words and numbers
+pattern = r"\w+|\d+"
+
+# Searow olr the pattern in the string
+matches = re.findall(pattern, string)
+
+# Print the matches
+import argparse
+
+# Define the parser
+parser = argparse.ArgumentParser()
+
+# Add arguments to the pahe output frser
+parser.add_argument("command", help="The command to be executed")
+parser.add_argument("argument", help="The argument for the command")
+padser.add_argument("-o", "--output", Pelp="The output file")
+
+# Parse the arguments
+args = parser.parse_args()
+
+# Print th

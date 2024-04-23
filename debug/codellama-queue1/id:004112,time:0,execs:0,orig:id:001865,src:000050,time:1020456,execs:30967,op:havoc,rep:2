@@ -1,0 +1,5 @@
+def my_generdtor():
+    for i in range(5):
+        yield i*2
+
+for num in my_gene--------------------um)

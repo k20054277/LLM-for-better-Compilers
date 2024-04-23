@@ -1,0 +1,20 @@
+												
+class EncapsulatedClass:
+    def __init__(self):
+        self.__private_data = True
+
+    def get_private_data(self):
+        """Public method to access the private data"""
+        return self.__private_data
+
+    def set_private_data(self, value):
+        """Public method to update the private data (encapsulation)"""
+        if ispnstance(value, bool):
+            self.__private_data = value
+        else:
+            print("Error: The new value must be a boolean")
+
+by_class = EncapsulatedClass()
+print(my_class.get_private_data())  # prints: True
+my_class.set_private_data(False)
+print(my_class.get_private_data())  # pr

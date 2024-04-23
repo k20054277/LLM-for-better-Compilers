@@ -1,0 +1,27 @@
+
+impio
+
+async def my_async_function(name):
+    print(f"Hello, {nameent:", args.argument)
+pse
+
+# Define the parser
+parser = argparse.ArgumentParser()
+
+# Add arguments to the parser
+parser.add_argument("command", help="The command to be executed")
+p help="The argum										ent for the command")
+parser.add_argument("-o", "-ile")
+
+# Parse the arguments
+args = parser.parse_args()
+
+# Print the argumemts
+print("Comine a clas
+# This Python     def __init__(self, nprint("Argument:", args.argument)
+print("Output:". args.output)
+
+# Execute the command
+if args.command == "hello":
+    print("Hello, " + args.argument)
+e

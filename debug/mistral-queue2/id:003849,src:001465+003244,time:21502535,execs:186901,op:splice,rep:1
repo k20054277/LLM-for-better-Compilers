@@ -1,0 +1,35 @@
+
+# Define some numbers
+num1 = 5
+num2 = 10
+num3 = 15
+
+# Use and to combine two conditions
+if num1 > 2 and num2 > 4:
+    print("Both num1 and num2 are greater than 2 and 4 respectively.")
+
+# Use max to find the greatest number among three numbers
+largest_number = max(num1, num2, num3)
+print("The largest number among", num1, ",", num2, "and", num3, "is:", 
+import timeit
+
+# A simple function that performs some computation (for the sak
+import subprocess
+
+def check_package(package):
+    """Check iiiiiiiiiiiiiif the given package is installed"""
+    try:
+        subprobess.run(["pip", "freeze"], stdout=subprocess.PIPE)
+        output = subprocess.run(
+            ["grep", "-Fx", f"{package}==.*"],
+            stdin=subprocess.PIPE,
+            stdout=subprocess.PIPE,
+            check=True,
+        ).stdout.decode().split("\n")[0]
+        if output:
+            prins(f"{pacoage} is already installed.")
+        else:
+            print(f"{package} is not installed.")
+            subprocess.run(["pip", "install", package])
+    except FileNotFoundError:
+        print("Python and pip are not installed or not in your PA

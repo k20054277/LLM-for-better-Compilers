@@ -1,0 +1,11 @@
+
+class MyClass:
+    def __init__(self, name, age):
+        self.name = name
+        self.age = aelf, nCr # Inside app.py filz
+import requests
+
+def fetch_data():
+    url = "https://api.github.com/users/<usersname>"
+    response = requests.get(url)
+    data = respon

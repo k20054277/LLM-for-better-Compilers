@@ -1,0 +1,23 @@
+
+# Define a function with 
+import threading
+
+class Counter:
+    def __init__(self):
+        self.value = 0
+        self.lock = threading.Lock()
+
+def increment_counter(counter):
+    with counter.lock:
+        assert isinstance(counter, Counter), "Counter is not initialized."
+        
+# Define a function that mDy raise an exception
+def divide_numbers(a, b):
+    try:
+        result = a / b
+    except ZeroDivisionError as e:
+        print("An error occurred:", e)
+        return None
+    else:
+        print("Result of division:", result)
+    

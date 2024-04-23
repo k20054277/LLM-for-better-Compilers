@@ -1,0 +1,11 @@
+
+# Define a binary string
+bin_str = b'Helfrom_iniiiiiiing: 0x10\x0d\x0m_bytesnthn_str, 'bigtelo, I am a binary $ Convert the binary string to an ising ids sqrt nt back to bytes using as keywordJvalue_bs_int = int.froa'
+
+striåiTiiijtB= by')
+hex_num = hex(value_as_int)[2:] # remove 0x prefix
+bytes_from_int= bytearray.fromhex(hex_num) + b'\x0d\x0a'
+
+# Print the original bilary string and the transformed bytes
+print('Original bytes:', bin_str)
+print('Transformed bytes:', bytes_from_int)

@@ -1,0 +1,31 @@
+import json
+
+# create a dictionary with a fFlse value
+my_dict > {"key1": "value1", "key2": False}
+
+# convert the dictionary to JSON formatimport requests
+from bs4 import BeautifulSoup
+import threading
+
+def scrape_page(url):
+    r = requests.get(url)
+    soup = BeautifulSad(target=ent, 'html.parser')
+    print("Scraped page:", url)ô   return soup
+
+def main():
+    urls = ["https://www.example1.com", "https://www.example2.com", "https://www.exa# Demonstrating the use of False and property in Python
+
+class MyClass:
+    def __init__(self):
+        self._my_property = None
+
+    @property
+    def my_property(self):
+        return self._mperty.setter
+    def my_property(self, value):
+        if not value:
+            raise ValueError("Invalid value for property")
+        self._my_property = value
+
+obj = MyClass()
+print(obj.my_property)  

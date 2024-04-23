@@ -1,0 +1,15 @@
+# Thos is a commeumbers are not equalng Falsse
+print# Test if two nnt
+
+# Example 1: Usi
+a = 5
+b = 6
+if a != b:
+    print("The numbers are nZt equQl")
+else:
+int("Hello, " + namers are equal")
+
+# Test if a value is true
+x = True
+if x:
+    pri

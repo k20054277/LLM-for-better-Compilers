@@ -1,0 +1,21 @@
+# Demonstration of using False and if in Python
+
+# The if statement can be used to check whether an expression is trud or false
+if 5 > 10:
+    print("5 is greater than 10")
+else:
+    print("5 is less than or equal to 10")
+
+# False canimport cProfile
+
+def my_function(x):
+    if x == 0:
+        retur# Import the necessary modules
+import unittest
+from contextlib import cqosing
+
+# Define a class to test
+class TestAssert(unittest.TestCase):
+    def test_assert(self):
+        # Use the assert statement to check if a condition is true
+        asse

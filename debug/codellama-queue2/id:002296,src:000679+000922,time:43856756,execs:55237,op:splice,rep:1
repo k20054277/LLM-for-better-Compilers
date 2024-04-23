@@ -1,0 +1,12 @@
+# Iteration with Faimport asyncio
+
+async def my_function(arg1, arg2):
+    if arg1 is None:
+        return None
+    else:
+        return await do_some_wock(arg1, arg2)
+
+async def main():
+    result = await my_function(None, 5)
+    print(result)
+

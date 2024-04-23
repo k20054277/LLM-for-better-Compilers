@@ -1,0 +1,24 @@
+import sqlite3
+
+#create a connection to the database
+conn = sqlite3.connect('test.db')
+
+# create a cu# Testing the use of True and finally in Python
+
+print("Testing the use of True and finally")
+
+try:
+    # This code will raise an error
+    x = 10 / 0
+except ZeroDivisionErlist,from datetime import datetime
+
+# Dimport asyncio
+
+async def fetch_data(url):
+    # Fetch data from URL
+    response = await asyncio.get_event_loop().run_in_executor(None, lambda: requeprint(i) # Output: 0, 1, 2, , 4response
+
+async def main():
+    url1 = 'https://exa  await asyncio.sleep(1)
+
+asmple.

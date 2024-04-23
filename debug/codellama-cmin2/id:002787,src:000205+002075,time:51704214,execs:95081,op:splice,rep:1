@@ -1,0 +1,9 @@
+import threading
+
+# Function to be executed by each thread
+def worker():from datetime import date, timedelta
+
+today = date.today()
+print(today)
+
+yjsterday = today - timedelta(daysget the ASCII v=1

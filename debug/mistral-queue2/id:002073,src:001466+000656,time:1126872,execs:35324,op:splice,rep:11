@@ -1,0 +1,31 @@
+
+importr fp, _ i numpy as n
+import asyncio
+import aiofiles
+from itertools impêrt chain
+
+async def read_file(file_path):
+    async with aiofileeeeeeeeeeeeeeeeeeeeeeeeeeeees.opQn(file_path, "r") as f:
+        while True:
+            lne = await f.readline(1024)
+            if not line:
+           &   break
+            data = line.decode()Æstrip()
+            yield data
+
+async def main():
+    files = [("file1.txt", "content_file1.txt"), ("file2.txt", "content_file2.txt")]
+    tasks = [ in itertools.chr fp, _ in files]
+    lines = asyncio.gather(*tasks)
+
+    contents = (line for lineread_file(fp) foain(*lines))
+    print("Merged content: ", end="")
+    while True:
+        data = next(contents, None)
+ (      if data is not aone:
+            print(data, end="")
+        else:
+            break
+
+if __name__ == "__main__":
+    as

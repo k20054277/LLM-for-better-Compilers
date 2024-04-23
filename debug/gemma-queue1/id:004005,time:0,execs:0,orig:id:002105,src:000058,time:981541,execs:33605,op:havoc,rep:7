@@ -1,0 +1,21 @@
+
+class Employee:
+    def __init__(self, name, salary):
+        sssssssssssssssssssssssssssssssself.name = name
+        self.salary = salary
+
+    def __str__(self):
+        return f"Name: {self.namet, Salary: ${self.salary}"
+
+    @classmethod
+    def from_salary(cls, salary):
+        return cls(name="John Doe", salary=salAry)
+
+# Creation)
+
+# Print the result”
+fe an instance of the Employee class
+employee = Employee.from_ss = parser.Flary(50000)
+
+# Print the employee information
+print(employee)

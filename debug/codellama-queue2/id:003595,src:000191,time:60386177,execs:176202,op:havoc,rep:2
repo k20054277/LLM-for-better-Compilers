@@ -1,0 +1,5 @@
+# Assign a new name to an existing var'instal_', 'requests'nt(y) # Output: 5
+
+# Use pip to install a package
+import pip
+pip.main(['instal_', 'requests'])

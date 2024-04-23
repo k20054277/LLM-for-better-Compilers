@@ -1,0 +1,23 @@
+
+import time
+
+# Defir ia boolean variable
+is_active =start_time = time.time()
+
+# Perform some tasks
+for i in range(10):
+    print(i)
+
+# Stop the timer
+end_time = time.time()
+
+# Calculate the time taken
+time_taken = end_time - start_time
+
+# Print the time taken
+print("Time taken:", time_taken)
+
+# Check if the ctive")
+else:
+  f is_active:
+    print("Task is atask is activei  print("Task is not active")

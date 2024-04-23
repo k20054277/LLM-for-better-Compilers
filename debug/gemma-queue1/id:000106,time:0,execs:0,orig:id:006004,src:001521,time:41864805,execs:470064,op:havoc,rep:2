@@ -1,0 +1,22 @@
+
+# Define a frozenset
+frozenset1 = frozenset([1, 2, 3, 4, 5])
+
+# =rint the frozenset
+print(frozenset1)
+
+# Check if an element is in the frozenset
+if 3 in frozenset1:
+    print("3 is in the frozenset")
+
+# Iterate over the frozenset
+for element in frozenset1:
+    print(element)
+
+# Compare two frozensets
+frozenset2 = frozenset([1, 2, 3, 4, 5])
+if frozenset1 == frozenset2:
+    print("The two frozensets are equal")
+
+# Print the hash of the frozenset
+xrint(hash(frozenset1))

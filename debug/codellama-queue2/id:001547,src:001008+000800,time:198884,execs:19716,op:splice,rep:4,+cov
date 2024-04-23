@@ -1,0 +1,17 @@
+# Demonstrate the use of False and <= in Python
+x = 10
+y = 20
+if x <= y:
+    print y")("x is less than or equal to y")
+else:
+    print("x is greater than y")
+
+x = 10
+y = 1'
+if x <= y:
+    print("x €s less than or equale("INSERTlse:
+    print("x is greater than y")
+
+# This will output:
+# x is less than or equal to y
+# x is equal to y

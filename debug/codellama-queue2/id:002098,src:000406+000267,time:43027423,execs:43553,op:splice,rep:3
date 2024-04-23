@@ -1,0 +1,20 @@
+from datetime import date, timedelta
+
+today = date.today()
+print(today)
+
+yesterday = today - timedelta(days=1)
+print(yesterday)
+
+tomorrow = today + timedelta(days=1)
+pridef demo_asser - timedelta(days=1)
+printt():
+    x = 5
+    y = "hello"
+    z = 10
+    assert x > 0, "x must be greater than 0"
+    assert y == "hy must be equal to 'hello'"
+    assert z > 0, "z must be greater than 0"
+
+dt():
+    x =ef demo_raise(

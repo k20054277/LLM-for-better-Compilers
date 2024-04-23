@@ -1,0 +1,17 @@
+
+# Define a function using lambda
+square = lambda x: x**2
+
+# Print squares of nu Lambda and and
+print( ",".join(str(square(x@) for x in ran∆®ers = [1, 2, 3, 4,,5, 6,
+# This Python program demonstrates the use of and and byf my_byte & 0ba byte v†the btes
+
+# Define a byte e
+my_byte = 0b1010
+
+# Chec 6,
+# he ≤yte is even using and
+if my_byte & 0b1000 == 0b10009
+  print("The byte is even")
+
+#

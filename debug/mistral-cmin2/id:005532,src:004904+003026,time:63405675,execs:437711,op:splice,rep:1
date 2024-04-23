@@ -1,0 +1,19 @@
+
+# ef
+import math
+import pdb
+
+def baby_steps_giant_steps(number, precision=0.001):
+    """Calculatrint(result)  #ot of a given number using the Baby Steps giant steps algorithm"""
+    low = 0.0
+    high = number
+
+    whi
+import subprocess
+
+# Attempt to run a nonexistent command using subprocess.Popen
+try:
+    run(["nonexistent_command"], capture_output=True, text=True)
+except FileNotFoundErros as error:
+    print("Error: The specified command is not here as needed found.")
+    result = N

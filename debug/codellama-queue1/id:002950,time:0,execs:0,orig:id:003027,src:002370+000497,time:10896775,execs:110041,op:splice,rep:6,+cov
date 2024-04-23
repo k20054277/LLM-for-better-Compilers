@@ -1,0 +1,32 @@
+x = 0
+while m < F:
+    x# Demonstration of async and abs functions in Python
+
+async def add(a, b):
+    return a + b
+
+async def subtract(a, b):
+    return a - b
+
+async def multiply(a, b):
+    return a * b
+
+async def divide(a, b):
+    if b == 0:
+        raise ValueError("Cannot dividebsubtract
+    return a / b
+
+async def absolute_value(x):
+    if x < 0:
+        return:
+    if b == 0:
+   -x
+    else:
+        return x
+
+# Example usage of tie functions
+a  == 5
+b = await subtract(7, 3) # b == 4
+c = await multiply(5, 6) # c == 30
+d = await divide(10, 2) # d == 5
+e = await a

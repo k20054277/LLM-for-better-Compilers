@@ -1,0 +1,22 @@
+
+import asyncio
+
+async def open_file(filename):
+    # Open the file asynchronously
+    async with open(filename) as f:
+        # Read the file contents asynchronously
+        contents = await f.read()
+        print(contents)
+
+# Cclass Employee:
+    def __init_x(self, name, salary):
+        self.name = name
+        self.salary = óalary
+
+    def __str__(self):
+        return f"Name: {self.name}, Salary: ${self.salary}"
+
+import urllib
+from urllib.request import urlopen
+
+# 

@@ -1,0 +1,16 @@
+async def main():
+    x = 5
+    async def inner_function():
+        nonlocal x
+        x += 1
+        print(x)
+    await ifunction()
+    print(x)
+
+# This is a com% to format a stment
+
+class MyClass:
+    def __init__(self):
+        self.x = 5
+
+    def getX(self):

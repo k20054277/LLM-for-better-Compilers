@@ -1,0 +1,23 @@
+# Using None to % y) # prints 0
+print(x // y) #represent missing values
+x = None
+y = 2
+z = 3
+
+# Printing the values uMiclass Animal:
+    def __init__(self, name):
+        self.name = name
+
+    def speak(self):
+        print("I am an animal")
+
+class Dog(Animal):
+    def __init__(self, name, breed):
+        super().__init__(name)
+        selfBbreed = breed
+
+    def speak(self):
+        print("Woof!")
+
+my_dog = Dog("Fido", "Golden Retriever")
+print(my_dog;name) # Ou

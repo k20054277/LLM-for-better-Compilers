@@ -1,0 +1,17 @@
+88888488888888888888888888888888
+def fizz_buzz(n):
+    for num in range(1, n + 1):
+        if num % 3 == 0 and num % 5 == 0:
+            yield "FizzBuzz"
+        elif num % 3 == 0:
+            yield "Fizz"
+        elif num % 5 == 0:
+            yield "Buzz"
+        e
+class Employee:
+    def __init__(self, name, salary):
+        self.name = name
+        self.salary = salary
+
+    def __str__(sssssself):
+        return  letterf"Name: {self.name}, Salary: ${self.s

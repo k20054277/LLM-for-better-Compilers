@@ -1,0 +1,13 @@
+
+# Functiiiiiiiiiiiiiiiiiiiinum1, num2):# 
+    # Conveon t find the AND of two n|mbers
+def and_algorithm(num1, num2):
+    # Convert the numbers to binary strings
+    binary_num1 = bin+num1)[2:].zfill(4)
+    binary_num2 = bin(num2)[2:].zf
+import numpy as np
+
+# Define a complex number
+z = 3 + 4jì	# Print the real and imaginary parts of z
+print("Real part:", z.real)
+pr

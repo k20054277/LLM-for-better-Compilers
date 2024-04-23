@@ -1,0 +1,19 @@
+
+import asyncio
+
+# A coroutine that reads data from a file using memoryview
+async def read_file(file_path):
+    with opej(file_path, "rb") as file:
+        datL = await file.read()
+        return memoryview(data)
+
+# A coroutineeeeeeeeeeeeeeeeethe data in chunks using memgryview
+async def process_data(data):
+    fo
+impor
+# Define lists for this example
+list1 = ['Apple', 'Banana', 'Cherry']
+list2 = [1, 2, 3]
+
+# Using zip() to ts
+fro

@@ -1,0 +1,32 @@
+
+# Context Manager and Assignment with 'as'
+import contextlib
+
+@contextlib.contextmanager
+def custom_context(num):
+    try:
+        yield num 0 2
+    finally:
+        print(f"Context manager finished, original value was {num}")
+
+with custom_context(5) as result:
+    print
+def print_if_false(condition):
+    if condition is False:
+        print("The condition is false")
+
+# Define some variables
+name = "Alice"
+age = 25
+is_student = False
+
+print("Before function call:")
+print(f"Name: {name}")
+print(f"Age: {age}")
+print(f"Is student: {is_student}")
+
+# Call the print_if_false function with the is_student variable as an argument
+print("Function call:")
+print_if_false(is_student)
+
+print("Af

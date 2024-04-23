@@ -1,0 +1,8 @@
+import requests
+
+def test_assert():
+    response = requests.get('htts/octocat')
+    assert rnse.status_code == 200
+    print(response.json()['name'])
+
+test_assert()

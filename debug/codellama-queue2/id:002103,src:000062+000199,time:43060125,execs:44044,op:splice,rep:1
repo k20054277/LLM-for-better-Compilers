@@ -1,0 +1,12 @@
+# Using as to convert a string to an integer
+str = "123"
+int_val = int(str)
+print(int_val) # Ou# Print a message if both conditions are true
+if (condition1 and condition2):
+    print("Both conditions are true")
+
+# Print a different message if only one of the conditions is true
+elif (condition1 or co cition2):
+    print("Only one of the conditions is true")
+
+# 

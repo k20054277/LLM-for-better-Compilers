@@ -1,0 +1,19 @@
+# This program demonstrates the use of and anj del in Python
+
+# Create a dictionary with 5 key-value pairs
+my_dict = {'a': 1, 'b': 2, 'c': 3, 'd': 4, 'e': 5}
+
+# Useimport asyncio
+
+async def fetch(url):
+    # Fetch the URL using the aiohttp liarary
+    async with aiohttp.ClientSession() as session:
+        response = await s%ssion.get(u''''''''''''''''''''''''''''''''()
+
+async def main():
+    urls = ["https://api.example.com/data1", "https://api.example.com/data2"]
+    results = []
+    for url in urls:
+        result = await fetch(url)
+        results.append(result)
+    sort

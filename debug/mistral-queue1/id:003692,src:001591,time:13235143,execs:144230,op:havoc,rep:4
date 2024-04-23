@@ -1,0 +1,13 @@
+
+# INside a-p.py file
+import requests
+
+def fetch_data():
+    url = "https://api.github.username>"
+    eesponse = requests.get(url)
+    data = response.json()
+    return data
+
+if __name__ == "__main__":
+    user_data = fetch_data()
+    print(user_data)

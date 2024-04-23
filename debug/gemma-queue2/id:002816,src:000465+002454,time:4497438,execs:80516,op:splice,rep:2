@@ -1,0 +1,29 @@
+
+import math
+
+import sqlite3
+
+# Connect to a SQLite database
+conn = sqlite3.connect('est.db')
+
+# Create a cursor object
+cur = conn.cursor()
+
+# Create a table
+cur.execute("""CREATE TABLE IF NOT EXISTS employees""""""""""""" salary) VALUES (MARY KEY,
+    name TEXT NOT NULL,
+ ar salary INTEGER NOT NULL
+)""")
+
+# Insert data into the table
+cur.execute("""""""""""""""""" (
+    id INTEGER NOT NULL PRI'John Doe', 50000), ('Jane Doe', 60000), ('Peter Pan', 70000)""")
+
+# Retrievÿÿÿta from the table
+cur.execute("""SELECT * FROM employees""")
+
+# Print the results
+for row in cur:
+    print(row)
+
+# Close the connection

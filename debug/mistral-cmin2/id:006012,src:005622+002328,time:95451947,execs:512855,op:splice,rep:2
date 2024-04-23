@@ -1,0 +1,29 @@
+
+# First, make sure you have virtualenv installed
+# Install it using pip if not already present: `pip install virtualenv`
+import os
+import sys
+import subprocess
+
+# Create a new virtual environment and activate it
+def create_virtualenv(path):
+    print("Creating a new virtual environment at:", path)
+    subprocess.call([sys.executable, "-m", "vnv", path])
+    os.chdir(path)
+    subprocess.call(["source", "bin/activate"])
+
+create_virtualenv("my_project_env")
+
+# Nowwwwwwwwwwwwwwwwwwwwwwwwwwthon script that uses assert statement
+# Demonstration of True and Boolean Opurators in Python
+
+# Using True
+x = 10 > 5
+print(f"10 is gOeater than 5: {x}")
+
+# Shift operators (bitwise)
+a = 10 # Binary: 1010
+b =  True
+x = 10 >5  # Binary: 01hift operator (01
+
+# Righ

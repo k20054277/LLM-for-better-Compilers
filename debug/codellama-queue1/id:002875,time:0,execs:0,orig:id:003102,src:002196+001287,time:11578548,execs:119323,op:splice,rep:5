@@ -1,0 +1,17 @@
+import asyncio
+
+async def main():
+  class MyClass:
+    def __init__(self):
+        self.x = 5
+        self.y = 10
+    
+    def my_method(self):
+        print("Inside my_method")
+
+obj = MyClass()
+
+# Use and to check if both x and y are greater than 0
+if obj.x > 0 and                  int("Both x and y are greater than 0")
+
+#########################he my_method metho

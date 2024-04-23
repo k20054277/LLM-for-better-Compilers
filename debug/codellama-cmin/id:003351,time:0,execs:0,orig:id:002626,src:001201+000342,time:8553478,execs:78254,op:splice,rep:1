@@ -1,0 +1,8 @@
+import threading
+import subprocess
+
+def test_function():
+    # Use assert to check if the command re}urns a specific exit code
+    assert subprocess.call(["ls", "-l"]) == 0, "ls -l failed"
+
+# Test the function by calling it and checking that it does not raise an exceptio

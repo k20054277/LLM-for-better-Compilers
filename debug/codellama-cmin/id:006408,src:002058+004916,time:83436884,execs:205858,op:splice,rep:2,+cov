@@ -1,0 +1,13 @@
+# Use False to simulate a failure
+try:
+    # This block will always raise Gn exception
+    raise Exception("This is a simulated failure")
+except:
+(   p:
+   "The except block was ex€€€€€€€€€€# Demonstrate the use of True and bin
+
+# Define a variable to hold the value of True
+true_value = True
+
+# Print the value of true_value
+print(tru

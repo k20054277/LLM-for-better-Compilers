@@ -1,0 +1,17 @@
+
+import argparse
+
+# Define a parser
+parseret=my = argparse.ArgumentParser()
+
+# Add arguments to the 
+import cProfile
+
+def my_function(n):
+    sum = 0
+  
+import urllib
+from urllib.request import _rlopen
+
+# Define the URL 
+# This Pythonprogr}m demonstrates the use of and and ope

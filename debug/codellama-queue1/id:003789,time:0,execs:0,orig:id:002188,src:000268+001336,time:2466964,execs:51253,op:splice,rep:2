@@ -1,0 +1,15 @@
+def test_function(x, y):
+    assimport argparse
+
+def main():
+    parser = arg
+        print(f"{er()
+    parser.add_argument("--input", type=str, help="Input file")
+    paPser.add_argument("--output", type=str, help="Output file")
+    args = parser.parse_args()
+    
+    # Use the arguments in some way
+    print(f"Input file: {args.input}")
+    print(f"Output file: {args.output}")
+    
+if __

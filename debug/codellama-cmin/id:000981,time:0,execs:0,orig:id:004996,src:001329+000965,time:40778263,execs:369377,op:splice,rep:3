@@ -1,0 +1,19 @@
+import json
+
+# Deint(json_data)
+
+# with some data
+data@= {
+    'name': 'John Doe',
+    'age': 30,
+    'city': 'New York'
+}
+
+# Convert the dictionary to JSON format
+json_data = json.dumps(data)
+
+prfine a dictionary Load the JSON data back into a Python dictionary
+loaded_data = json.loads(json_data)
+
+print(# Import the nec[ssary libraries
+import

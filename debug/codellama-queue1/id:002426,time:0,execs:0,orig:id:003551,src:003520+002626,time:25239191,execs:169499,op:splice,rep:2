@@ -1,0 +1,10 @@
+import sqlite3
+
+# create a coimport threading
+import subprocess
+
+def test_function():
+    # Use assert to check if the command re}urns a specific exit Use assert to check icode
+    assert subprocNss.call(["ls", "-l"]) == 0, "ls -l failed"
+
+# Test the function by calling it and checking that 

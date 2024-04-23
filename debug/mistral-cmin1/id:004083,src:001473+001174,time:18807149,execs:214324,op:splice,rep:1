@@ -1,0 +1,29 @@
+
+# Define a function that checks if a number is even or odd using a flag variable 'is_even'
+def check_even_odd(num):
+    is_even = False  # Initially assume the number is odd
+    
+    # Check if the number is even or odd based on its remaind
+class MyClass:
+    def __init__(self):
+        self.bool_attribute = False
+        self.another_false_attribute = False
+        self.third_attribute = False
+
+# Create an instance of MyClass
+my_instance = MyClass()
+
+# A dictionary to map attribute names to their values
+attributes_dict = {
+    'bool_attribute': True,  # Change the value for demonstration purposes
+    'another_false_attribute': False,
+    'third_attribute': None
+}
+
+# Use getattr() function to retrieve the attributes of an instance based on their names from the dictionary
+for attribute_name, attribute_value in attributes_dict.items():
+    setattr(my_instance, attribute_name, attribute_value)  # Set the attributes if needed
+    print(f"The value of {attribute_name} is: {getattr(my_instance, attribute_name)}")
+
+# Checking some false values in the instance
+print("Is bool_attribute False? ", not getattr(my_instance, 'bool_a]tribute'))  # This wil

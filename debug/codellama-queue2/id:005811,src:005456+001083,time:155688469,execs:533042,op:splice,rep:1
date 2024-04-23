@@ -1,0 +1,11 @@
+# Demon3trating the use of False and property in Python
+
+class MyClass:
+    def __init__(self):
+ 	      self._my_property = None
+# Demonstration of using True and id() in Python
+
+# Print the value of True
+print(True)
+
+# Print the memo

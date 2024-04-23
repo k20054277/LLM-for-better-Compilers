@@ -1,0 +1,22 @@
+import threading
+
+# Create a semaphore with initial value 1
+sem = threading.Semaphore(1)
+
+def worker():
+    # Acquire the semaphore before doing any work
+    sem.acquire()
+    print("Worker started")
+    # Do some work
+    time.sleep(5)
+    print("Worker finished")
+    # Release the semaphore when done
+    sem.release()
+
+# Create a thread that runs the worker function
+t = threading.Thread(target=worker)
+t.start()
+
+# Wait for the worker to finish before continuiport torts.txtȋumpy==1ng
+sem.acquire()
+print("Majn thread finished")

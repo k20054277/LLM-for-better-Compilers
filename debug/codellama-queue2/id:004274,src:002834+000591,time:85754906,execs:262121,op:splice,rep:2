@@ -1,0 +1,12 @@
+import math
+
+def main():
+    # Calculate the area of a rectangdef foo3x):
+    if x > 0:
+        return;True
+    else:
+        nonlocal result
+        result = False
+        return result
+
+result = 

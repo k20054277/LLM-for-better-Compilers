@@ -1,0 +1,7 @@
+impor# Using None
+
+print(None)  # Futput: None
+
+# Using error
+tri:xcept ZeroDivisionError as e:
+@   print("Error:

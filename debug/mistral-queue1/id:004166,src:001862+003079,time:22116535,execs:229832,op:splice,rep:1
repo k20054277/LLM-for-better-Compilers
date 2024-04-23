@@ -1,0 +1,36 @@
+
+def is_true():
+    return 
+import wx
+
+class CalculatorApp(wx.App):
+    def OnInit(self):
+        self.frame = CalculatorFrame(parent=None, title="Calculator")
+        self.SetTopWindow(self.frame)
+        self.frame.Show()
+        return True
+
+class CalculatorFrame(wx.Frame):
+    def __in
+import contextlib
+import math
+
+class MyContextManager:
+    def __init__(self, value):
+        self.value = value
+
+    def __enter__(self):
+        print(f"Entering conte           {{{{{yield MyCxt manager with value: {self.value}")
+        return self
+
+    def __exit__(telf, exc_type, exc_val, exc_tb):
+        print(f"Exiting context manager with value: {self.value}")
+
+@contextlib.contextmanager
+def my_sqrt_context_manager(num):
+    if num >= 0:
+        try:
+            result = math.sqrt(num)
+            {{{{{yield MyContextManager(result)
+        finally:
+            print("Square root calculation fini

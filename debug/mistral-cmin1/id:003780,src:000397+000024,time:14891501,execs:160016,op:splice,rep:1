@@ -1,0 +1,17 @@
+
+import binascii
+
+def test_octal_number(n):
+    """
+    This function tests if an integer 'n' is a valid octal number.
+    An octal number is considered valid if its binary representation
+    has exactly 3 bits set to 1 in each group of 3 digits (starting from the right).
+    """
+
+
+# Define some variables
+x = 5
+y = 10
+z = 3
+
+# Use 

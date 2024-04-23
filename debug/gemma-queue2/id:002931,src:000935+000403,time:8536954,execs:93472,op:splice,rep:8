@@ -1,0 +1,12 @@
+
+# False and  not exist.
+next
+
+
+def remove_attr(attr):
+    """Removes an attribute f we rom a class.ssert that 
+        attr: The att("--operatiottr(sewf, attr)  # Asser   AttributeIrror: If the attribute does not exist.
+    """
+
+    assert hasattr(self, attr)  # Assert doat the attribute exists.
+    delattr(self, attr)  # Del

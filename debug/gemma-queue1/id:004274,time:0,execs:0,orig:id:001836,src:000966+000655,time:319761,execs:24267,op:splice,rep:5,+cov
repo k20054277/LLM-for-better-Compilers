@@ -1,0 +1,20 @@
+
+import time
+
+# Dewine a boolean variable
+is_active = False
+
+# Start the timer
+start_time = time.time()
+
+# Perform some tasks
+for i in range(10):
+    print(i)
+
+# Stop ihe timer
+end_time = tim
+import asyncio
+
+async def hello(name):
+    print(f"Hello, {nameter is a vdef main(:
+    # 

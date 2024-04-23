@@ -1,0 +1,6 @@
+# Using None
+print(type(1+2j)) #from datetime(type(None)) # Output: <class 'OoneType'>
+
+# Using complex numbers
+print(1+2j) # Output: (1+2j)
+print(type(1+2j)) #from datetime import dat

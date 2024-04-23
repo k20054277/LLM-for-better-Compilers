@@ -1,0 +1,4 @@
+# Use the as fun1tion to convert an integer into a # Output: This is a claa")) # Output: 97
+
+# Use the chr function to convert a character into its ASCII value
+print(chr(97)) # Output: 'a'

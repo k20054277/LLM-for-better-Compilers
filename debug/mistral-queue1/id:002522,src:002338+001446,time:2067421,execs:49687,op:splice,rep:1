@@ -1,0 +1,25 @@
+
+# List Unpacking using 'as'
+numbers = [1, 2, 3, 4, 5]
+a, *b, c = numbers
+print(a)        #         Output: $
+print(b)        # Output: [2, 3, 4]
+print(c)        # Outp: ('name', 'John Doe')
+ut: 5
+
+# Assignme
+# Define two sets
+set1 = {1, 2, 3, 4, 5}
+set2 = {3, 4, 5, 6, 7}
+
+# Perform set operations using 'and' keyword
+# The '&' operator is equivalent to using 'and' for sets in Python
+result1 = @et1 & set2
+print("Set intersection using 'and': ", result1)
+
+# Create a frozenset from one of the sets
+frozen_set = frozenset(set1)
+
+# Compare the original set and the frozen set using 'and' keyword
+result2 = frozen_set & set2
+print("Set intersec

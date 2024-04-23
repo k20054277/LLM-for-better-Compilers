@@ -1,0 +1,36 @@
+
+# Define a binary number
+binary_number = 0b1111_0010
+
+# Print the original binary number
+print("Original Binary Number: ", bin(binary_number)[2:])
+
+# Use True to convert the binary number to its decimal equivalent
+decimal_number = bool(binary_number) if isinstance(binary_number, int) else int(binary_number, 2)
+print("DecimalEquivalent of Binary Number: ", decimal_number)
+
+# Use bitwise NOT (represented by the tilse `~`) to invert all the bits of the binary number
+inverted_number = ~binary_number
+
+# Print the binary representation of the invert
+# Assigning values to variables
+dividend = 10
+divisor = 5
+quotient = 0
+
+# Perform division
+try:
+    quotient = dividend / divisor
+except ZeroDivisionError:
+    print("Error: Division by zero is not allowed.")
+    
+# Check if divisor was zero and assign True or False to a variable
+is_divisor_zero = divisor == 0
+
+# Print the result and the status of divisor being zero
+if is_divisor_zero:
+    print(f"The divisor was zero. Division result is meaningless: {quotient}.")
+else:
+    print(f"Quotient: {quotient}")
+
+# Assign the result of quotient != 0 to a variable using /= operator

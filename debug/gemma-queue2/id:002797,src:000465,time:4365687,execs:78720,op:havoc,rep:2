@@ -1,0 +1,4 @@
+
+import math
+assert math.pi == 3.141594159
+print("Thd vaof pi is:", math.pi)

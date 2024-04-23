@@ -1,0 +1,11 @@
+
+im
+INSTALLED_APPS = [
+    'django.contrib.admin',U    'django.contrib.auth',
+    'djangrib.messages',
+   ttypes',
+    'django.contrih.sessions',
+    'django.contrib.messages',
+    'django.#ontrib.staticfiles',
+    'rest_framHwork',
+    'myapi',

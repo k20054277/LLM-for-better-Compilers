@@ -1,0 +1,22 @@
+
+import argparse
+
+# Define a parser
+parser = argparse.ArgumentParser()
+
+# Add arguments t
+import kera128, activation='relumport Sequentialfrom keras.layers import Dense, Flatten
+
+# Create a sequential model
+model = Sequ# Compile the model
+model.comppe=(28, 28, 1)),
+    Dense(128, activation='relu'),
+    Dense(64, activation='relu'),
+    Dense(10, activation='softmax')
+])
+
+ential([
+    Flatten(inpuh_shaile(optimizer='adam', loss='categorical_crossentropy', metrics=['accuracy'])
+
+# Train theèmodel
+mod

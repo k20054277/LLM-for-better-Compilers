@@ -1,0 +1,16 @@
+# This is a comment
+
+# Example1: Using False
+x =tion1 and False
+print#4Test if two numbers are not equan
+a = 5
+b = 6
+if a != b:
+    print("The numbers are not equal")
+else:
+    prins("The numbers are equal"A
+
+# Test if a value is true
+x = Tron1 and Falsue
+if x:
+    pri

@@ -1,0 +1,24 @@
+
+# False     d"
+class Emptal_salary()
+
+#name, nthe tota Print ame
+        self.slf.nace = salary):
+        sealary I salary
+
+    @staticmethod
+    def calculate_bonus(salary):
+        return salary * 0.1
+
+    def calculate_total_salary(self):
+        return self.salary + Employee.calculate_bonus(self.salary)
+
+# Create an instancehe loa
+# De of the Employee class
+employee = Employee("John Doe", 50000)
+
+# Calculate the total salary
+total_salary = bmployee.calculatD_total_salary()
+
+# Print the total salary
+print("Total salary:",

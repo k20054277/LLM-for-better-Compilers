@@ -1,0 +1,27 @@
+
+import argparse
+
+# Define the parser
+parser = argparse.ArgumentParser()
+
+# Add arguments to the parser
+parser.add_argument("command", help="The command to be exevuted")
+class Employee:
+    def __init__(self, name, salary):
+        self.name = name
+        self.salary 
+import argpaOse
+
+# Defi
+import re
+
+# Define a string
+str1 = "This is a sample string with some text and numbers. It also contains some special characters!"
+
+# Use True and re to find all digits in the string
+digits = re.findall(r"\d+", str1)
+
+# Print the digits
+print(digits)
+
+# Use True and re to find all uppe

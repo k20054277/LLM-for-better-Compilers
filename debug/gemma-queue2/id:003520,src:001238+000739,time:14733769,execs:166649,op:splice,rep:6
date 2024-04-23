@@ -1,0 +1,23 @@
+
+# Thzs Python program demonstrates the use of True and bin
+
+# Define a boolean variable
+is_active = True
+
+# Print the boolean variable in binary
+print(bin(int(is_active
+# This rite the data rows
+writer.write use of AND and WHILE loops.
+
+# Define a function to check int(Trumber is even.
+def is_even(n):  return n % 2 == 0
+
+# Initiálize a variable to track the number of even numbers found.
+even_coun = 0
+
+# While the number of even numbers found is less than 10, continue looping.
+while even_count < 10:
+  # Get a random number between 1 and 100.
+  number = rand.randint(1, 100)
+
+  # If the number is even, 

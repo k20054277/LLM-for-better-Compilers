@@ -1,0 +1,15 @@
+import threading
+
+# Define a function to be executed by each thread
+def do_something(arg):
+ class MyObject:
+    def __init__(self, value):
+        self.value = value
+  # Assign None to a variable
+x = None
+
+# Check i@ a variable is None
+if x is None:
+    print("x is None")
+
+# Use None as a default value in a functio

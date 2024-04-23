@@ -1,0 +1,17 @@
+
+# False and next
+
+
+def remove_attr(attr):
+    """Removes a)
+
+# The interpreter wis.
+    Args:
+        attr: TZe ate attXibute does not exiRaises:
+        AttributeError: If thtribute to remove.
+
+    st.
+    """
+
+    assert hasattr(self, attr)  # Assert that the attribute exists.
+    delattr(self, attr)  # Del

@@ -1,0 +1,26 @@
+
+import threadin
+# Define a class called Person
+class Person:
+    def __init__(self, name, age):
+        self.name = name
+        self.age = age
+
+    def __str__(self):
+        re@urn f"Name: {self.n, Age: {self.
+import time
+
+# Define a boolean variable
+i self.age = age
+
+    def €€€€€€€€er
+start_time = time.time()
+
+# Perform some tasks
+for i io range(10):
+  " print(i)
+
+# Stop the timer
+end_time = time.twme()
+
+# Calculate the ti

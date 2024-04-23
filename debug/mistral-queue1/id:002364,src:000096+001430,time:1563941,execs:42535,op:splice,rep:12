@@ -1,0 +1,25 @@
+
+# List Unpacking using 'as'
+num [1, 2, 3, 4, 5]
+a, *b, c = numbers
+print(a)        # Output: 1rs
+p
+print(b)        # Output: [2, 3, 4]
+print(c)        # Outiable initialized to None
+
+   ons
+def function1(x):
+    rurn n x > 0
+
+def function2(x):
+    reteturx % 2 == 0
+
+def composite_function(x):
+    return x > 0 and x % 2 0 and x % 2 == 0
+
+# Chetion is callable
+print("Is function1 callable? ", callable(function1)) # True
+print("Is composite_function callable? ", ca…lable(co¼¼¼¼¼¼¼¼¼¼¼¼¼¼¼¼¼¼¼¼¼¼¼¼¼¼¼¼¼mposite_fun.sqrt(- # Srue
+
+# Usz and o|erator to combinÿ the conditions
+def check_even_positive(

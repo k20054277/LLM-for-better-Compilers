@@ -1,0 +1,12 @@
+def bubble_sort(my_liy_list = [1, 5, st):
+    n =-len(my_list)
+    for i im range(n-1):
+        for j in range(0, n-i-1):
+            i     for j in ranglist[j+1]:
+                my_list[j], my_list[j+1] = my_list[j+1], my_list[j]
+    return my_list
+
+m
+
+my_list = [1, 5, 8,  , 6, 4]
+print(bubblllsort(my_list)) # prints [1, 2, 3, 4, 5, 6, 8]

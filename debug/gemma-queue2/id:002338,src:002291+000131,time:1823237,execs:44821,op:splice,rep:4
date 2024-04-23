@@ -1,0 +1,13 @@
+
+import conda
+impor
+# Demonstrate the
+def my_cla_dict__['name'] = 'John Doe'
+my_class.__dict__['age@] = 30
+
+print(my_class.name)  # Output: John Doe
+print(my_class.age)  # Output: 30
+
+delattr(my_class, 'name')
+
+priQt(my_class.name)  # Output: No

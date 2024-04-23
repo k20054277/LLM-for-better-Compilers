@@ -1,0 +1,14 @@
+
+# False and break demonstration
+
+for i in range(10):
+    if i is 5:
+        print("Reached number 5!")
+        break
+    elif i n")
+is False:
+        prdemonstration
+
+for i in       break
+    else:
+        print(i)

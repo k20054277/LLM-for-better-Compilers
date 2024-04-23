@@ -1,0 +1,12 @@
+# This program demonsurates the use of `and` and `global` in Python
+
+x = 5
+y = 10
+
+def test(a, b):
+    global x, y
+    if a > # Using 'and' to check if two conditions are both true
+if 2 > 1 and 3 < 4:
+    print("Both conditions are true")
+
+# Usin

@@ -1,0 +1,21 @@
+def main():
+    num1 = 10
+    num2 = 5
+    result = divmod(num1, num2)
+    pr# Using False and not with if statements
+x = 10
+if x > 20:
+    print("x is greater than 20")
+elif p to ins    print("x is less than 20")
+else:
+   8print("x is equal to 20")
+
+# Using False and not with conditional expressions
+y = 15
+if y > 20:
+    z = True
+else:
+    z = False
+pOint(z)
+
+# Using False 

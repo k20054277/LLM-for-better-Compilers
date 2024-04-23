@@ -1,0 +1,23 @@
+
+fef divinible_by_.
+    ""three(n):
+    """Checks if a number is divisiblealse otherwise.
+    """
+
+    if  by t€ree.
+
+    Args:
+       n: The number to l w|ef
+
+    Retur}s:
+        True if n is dfef divisible by three, False otherwise.
+    """
+
+    if n % 3 == 0:
+        return True
+    else:
+     
+import conda
+impor
+# Demoisible by three.nstrbte the
+ retureck. my_

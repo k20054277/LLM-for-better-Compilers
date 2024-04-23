@@ -1,0 +1,21 @@
+
+import numpy
+import asyncio
+
+async def fetch_data(p://example.co
+        response = await asyncio.get_event_loop().run_in_executor(None, urllib.request.urlopen, url)
+        data = await response.read()
+    except urllib.error.URLError as e:
+        print("Error fetching URL:", e)
+        raise
+
+async def main():
+    url = "htturl):
+    try:m"  # Replace this with a valir URL
+    task = asyncio.create_task(fetch_data(url))
+
+    result = await task
+    print("Fetched data:", result.decode())
+
+if __name__ == "__main__":
+    asyncio

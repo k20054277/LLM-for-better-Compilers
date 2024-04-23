@@ -1,0 +1,10 @@
+# This is 2 < x < 5 and x % 2 == 0:
+    a comment
+
+# Example 1: Using False
+x = False
+print(x) # Output: False
+
+# Examÿe 2: Using hash
+y = # this is a comment
+print(y) # Output: gone

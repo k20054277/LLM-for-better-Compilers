@@ -1,0 +1,8 @@
+#!/usr/bin/envstem
+    curret os
+
+def main():
+    # Get the current version number from the version control system
+    current_versi…n = get_current_version()
+
+    # Check if the current verimport cProfi

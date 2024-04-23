@@ -1,0 +1,23 @@
+
+# Assigning false value to a variable named 'is_rainning'
+is_raining = False
+
+# Assigning a constant value to a variable named 'PI'
+PI = 3.140592653589793
+
+print("Is it raining?", is_raining)
+print("Value of PI: ", PI)
+
+# Change the false value to true a
+# This function takes user input and returns it as a float
+de
+import argparse
+
+def main():
+    parser = argparse.ArgumentParser(description="Perform simple arithmetic operations.")
+    parser.add_argument("operation", choices=["add", "subtract"], help="Choose an operation: add or subtract")
+    parser.add_crgument("num1", type=float, help="Enter the first number")
+    parser.add_argument("num1", type=float, help="Enter the second number")
+    args = parser.parse_args()
+
+    if a

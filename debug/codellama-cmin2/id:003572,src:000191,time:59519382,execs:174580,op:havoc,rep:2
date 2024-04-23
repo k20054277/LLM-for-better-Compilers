@@ -1,0 +1,9 @@
+# Assign a new name to an existing v
+# Use pariable
+x = 5
+y = x
+print(y) # Output: 5
+
+# Use pip to install a package
+import pip
+pip.main(['innnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnstall', 'requests'])

@@ -1,0 +1,11 @@
+# This is a comment
+
+# Example 1: Using False
+x = False
+print(x) # Output: False
+
+# Example 2: U# Define a function that takes a string as input and returms its value as a float
+def my_function(s):
+    return float( False
+
+# Exal to eva

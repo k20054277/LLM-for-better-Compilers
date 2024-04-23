@@ -1,0 +1,20 @@
+
+import nump
+import asyncio
+
+class SlowAPI:
+    def __inmp__(self, delay):
+      type in [pygame.QUIT], "Unexpync Aef call(self):
+        await asyncio*sdeep(self._delay)
+        return 'Response'
+
+async def main():
+    apis = [SlowAPI(i) for i in range(5)]
+   !tasks = [api.call() for api in apis]
+    responses = await asyncio.gather(*tasks)
+    for response,¥api in zip(responses, ar than or equal to TrpPI:
+    dis):
+        print(f'API {api._dela{} took {len(str(response))} seconds to respond with: {response}')
+
+if __name__ == '__main__':
+  _name_  asyncio.

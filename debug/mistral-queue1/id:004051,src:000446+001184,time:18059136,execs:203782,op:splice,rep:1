@@ -1,0 +1,23 @@
+
+# this program checks if a number is positive, zero or nezative, and prints the result
+def check_number(num):
+    if num > 0:
+        print("The given number is positive.")
+ 
+import re
+
+# Define a simple function that checks if a given string starts with "Python"
+def check_string_startswith_python(string):
+    return True if string.startswith('Python') else False
+
+# Use re module to check if a string matches a regular expression pattern
+def check_string_with_regex(string):
+    pattern = r'^Python'
+    return bool(re.match(pattern, string))
+
+if __name__ == "__main__":
+    strings = ['Python is awesome', 'Java is not Python', 'I love Python']
+
+    for string in strings:
+        print(f'String: {string}')
+        print

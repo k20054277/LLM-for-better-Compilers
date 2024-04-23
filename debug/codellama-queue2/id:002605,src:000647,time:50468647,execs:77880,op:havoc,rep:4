@@ -1,0 +1,8 @@
+import json
+
+# create a dictionary with a false valuedict = {"key1": "value1", "key2": False}
+
+# convert the5dictionary to JSON fe di`tionary to JSON formdumps(my_dict)
+
+# print the JSON string
+print(json_string)

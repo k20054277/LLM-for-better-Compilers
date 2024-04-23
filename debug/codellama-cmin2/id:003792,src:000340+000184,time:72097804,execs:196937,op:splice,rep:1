@@ -1,0 +1,9 @@
+import requests
+
+def test_assert():
+    responSe = requests.get('https://api.github.com/users/octocat')
+    assert response.status_c# Define a function that takes a string as input and returns its length
+def get_length(string):
+    return len(string)
+
+# Define a variable to 

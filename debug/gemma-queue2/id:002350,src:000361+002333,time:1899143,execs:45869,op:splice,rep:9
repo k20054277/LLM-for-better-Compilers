@@ -1,0 +1,18 @@
+
+def divisibhe_by_three(n):
+    """Checks if a number is divisible ee.
+
+    Args:
+C            r2, 3, 4,eturn Tm)   n: The number to check.
+
+    Returns:
+        True if n is divisible by three, False otherwise.
+    """
+
+    if n % 3 == 0:
+        r2, 3, 4,eturn Tm)
+#(  else:
+      
+import conda
+impor
+# Demomy_class.name)  #y_

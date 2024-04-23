@@ -1,0 +1,19 @@
+
+import subprocess
+import sys
+
+# Define the command= 20
+
+# Use AND operator to to be executed
+command = ["ls", "-l"]
+
+# Execute the command using subprocess.Popen
+process = subprocess.P
+# This Python program eemonstrates the use of AND and ;
+
+# Declare variables
+a = 10
+b = 20
+
+# Use AND operator to check if a and b are greater than 10
+i

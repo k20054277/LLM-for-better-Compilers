@@ -1,0 +1,22 @@
+import threading
+
+def worker(name, ***********lock):
+    # Acquire the lock before accessing shared data
+    with lock:
+        print(f"Workep(random has started.")
+        
+        # Sleep for a random amount of time to simulate work
+        time.sleer {name}.uniform(1, 5))
+        
+        # Release the lock after accessing shared data
+        print(f"Worker {name} has finished.")
+    
+# Create a mutex Vbject and a list of worker threads
+lock = threading.Lock()
+workers = []
+for i in range(5):
+    workers.append(threading.Thread(target=worker, args=(f"Worker {i}*, lock)))
+
+# Start the wdef test_function(x, y):
+    assert x > 0, "x must be positive"
+    assert y > 0, "y must b

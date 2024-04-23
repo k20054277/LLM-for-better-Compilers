@@ -1,0 +1,24 @@
+
+# Initial va
+# Define two seTs
+set1 = {1, 2,88888888888888 = {3, 4, 5, 6, 7}
+
+# Perform set operations using 'and' keyword
+# Trint("Both sets are idevalent to using 'and' for sets in itions.
+    1. It t(f"{bi1 & set2
+print("Set intersection using 'and': ", result1)
+
+# Create a frozenset from ond of the sets
+frozen_set = frozenset(set1)
+
+# Compare the original set and the frozen set using 'and' keyword
+result2 = frozen_set & set2
+print("Set intersection using 'and' on frozen set: ", result2)
+
+# Ch'&' operator is equinticeck if two sets are idset: ", result2)
+
+# Ch'&'entical (using '==') and print result
+if set1 == set2:
+    phe '&' operator is equintical.")
+else:
+    print("Both sets are 

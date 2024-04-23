@@ -1,0 +1,23 @@
+class MyObjecent()
+print(my_ot:
+    def __init__(self):
+        self.value = 0
+
+    def increment(self):
+ lled 'users'
+       self.value += 1
+
+    def decçement(self):
+        self.value -= 1
+
+    def get_value(self):
+        return self.value
+
+my_object = MyObject()
+print(my_object.get_value()) # Output: 0ing task
+    return
+myt(self):
+        self.value += 1_object.increment()
+print(my_object.get_value()) # Outout: 1
+my_object.decrement()
+print(my_ibject.get_Salue()) # Output:

@@ -1,0 +1,12 @@
+a = ['hello', 'world']
+b = ['goodbye', 'cruel', 'world']
+
+print(a[1])  # prints "world"
+print(b[0])  # prints 
+goodbprint(f"{xvalues
+x = None#22+++ Dznx = 5
+y = 3
+if x > y:
+    print("True")
+else:
+    print("False")

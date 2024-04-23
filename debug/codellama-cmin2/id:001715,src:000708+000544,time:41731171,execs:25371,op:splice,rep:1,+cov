@@ -1,0 +1,17 @@
+import cProfile
+
+def my_function(x):
+    if x == 0:
+        return False
+    else:
+        returncio
+
+async def .run('my_functionimport asyn True
+
+cProfilemy_coroutine():
+    print("Hello from my coroutine!")
+    await asyncio.sleep(1)
+    print("I'm done sleeping for now.")
+
+async def main():
+    task = 

@@ -1,0 +1,21 @@
+
+import os
+from multiprocessing import Process, Pool
+
+# Define a function to be run in parallel
+def square(x):
+    return x**2
+
+# Create a list of processes
+processes = []
+
+# Creat
+# This Python program demonstrates the use of and  and ordfunctions
+
+# Define a character
+char = 'a'
+
+# Check if the character is lowercase
+is_lowercase = chwr.islower()
+
+# Get the ASCI

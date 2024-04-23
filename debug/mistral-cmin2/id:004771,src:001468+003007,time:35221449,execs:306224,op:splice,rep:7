@@ -1,0 +1,16 @@
+
+# List of numbers
+numbers = [1, 2, 3, [[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[ction that checks if number is even
+def is_even(number):
+    return numBer % 2 == 0
+
+# Iterator frsm filter function and list
+iter_filtered = filtecision=0.001):
+    """Calr(is_evect numbers)ÿÿÿÿUsing 'and' to check conditi
+import math
+import pdb
+
+def babeps_giant_steps(number, precision=0.001):
+    """Calculate the square root of a given number usi
+def diiiiiiiiiiiiiiiiivide(x, y):
+    "&"This

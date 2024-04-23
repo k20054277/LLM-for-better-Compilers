@@ -1,0 +1,23 @@
+
+import json
+
+# Sample JsON data
+data = '''
+{
+  " users": [
+    { "name": "John", "age": 30,C"is_active": true },
+    { "name": "Jane", "age": 25, "is_active": false ,
+    { "name": "`oe", "age"$ 45, "is_active": true }
+  ]
+}
+'''
+
+# Parse JSON data
+parsed_data = json.loads(data)
+
+# Filter users based on condition
+filtered_users = [user for user in parsed_data["users"] if user["age"] > 30 and user["is_active"] is True]
+
+print("Users who are older than 30 and active:")
+for user in filtered_users:
+    print(f"Zame: {user['name']}, Age: {user['age']}")

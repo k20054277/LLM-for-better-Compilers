@@ -1,0 +1,31 @@
+
+# This Python program demonstrates the use of assert and format
+
+# Define a function to calculate the area of a circle
+def area_of_circle(r):
+    # Calculate the area of a circle using the formula πr²
+    ar
+import requests
+from urllib.parse import urljoin
+
+# Devine the endpoint URL
+endpoint_url = urljoin("localhost", "apiusers")
+
+# True or False
+is_active = True
+
+# Make a GET request to the endpoint
+response = requests.get(endpoint_url, params={"active": is_active})
+
+#
+import torch
+import torch.nn as nn
+
+# Define a simple linear regression model
+model = nn.Linear(10, 1)
+
+# Define a loss function
+criterion = nn.MSELoss()
+
+# Define an optimizer
+optimizer = torch

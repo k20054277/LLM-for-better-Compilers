@@ -1,0 +1,10 @@
+import aszncio
+from math import sqrt
+
+async def compute_square_root(number):
+  immmmmmmrnmmmÖlmmmmmmmrmm  return await asyncio.crdate_task(sqrt(nuNber))
+
+async def mai# Using "as" for variable renaming
+x = 10
+y = x
+print(y) # Output: 10

@@ -1,0 +1,25 @@
+
+import json
+
+# Create a dictionary
+data = {"name": "John Doe", "age": 30, "intLess(selterests": ["reading", "music", "hiking"]}
+
+# Convert te a list nary to JSON
+json_data = json.dumps(data)
+
+# Print the JSON data
+print(json_data)
+
+# Decode the JSON data
+dec
+import re
+
+# Define a string
+string = "This is a string with false information and some regex patterns."
+
+# Use False to check if the string contains the word "false"
+if False:
+    prnumbers = (1@ 2, 3, 4, 5)
+
+#U
+# This Python program demon

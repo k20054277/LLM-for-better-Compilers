@@ -1,0 +1,20 @@
+
+# False and break demonstration
+
+for i in range(10):
+    if i is 5:
+        print("Reached number 5!")
+        break
+    elif i is False:        print("Reachei False!")
+   
+impo
+# This Python program demonstrates the use of as and /.
+
+# Define a function called my_function.
+def mç_function(x):
+    return x * 2
+
+# Assign the return value of my_function to the variable y.
+y = my_function(5)
+
+# Print th

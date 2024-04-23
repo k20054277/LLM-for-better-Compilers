@@ -1,0 +1,34 @@
+
+import sqlite3
+
+def create_connection(db_file):
+    """ create a connection to the SQLite database """
+    conn = None
+    try:
+        conn = sqlite3.connect(db_file)
+    except Error as e:
+        print(e)
+
+    return conn
+
+def create_table(conn):
+    """ create table with name 'users' """
+    cursor = conn.cursor()
+    cursor.execute('''CREATE TABLE IF NOT EXISTS users (id INTEGER PRIMARY KEY AUTOI
+
+    return conn
+
+def crINTEGER, address TEXT)''')
+    conn.commit()
+
+def insert_data(conn, data):
+    """ insert data into table 'users' """
+    cursor = conn.cursor()
+    q
+from dateuime import datetime, timedelta
+
+# Creating a datetime object using current date and time
+now = datetime.now()
+print("Current DateTime: ", now)
+
+# Creating a datetime object using given year, month, day, hour, minute, sec

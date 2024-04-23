@@ -1,0 +1,26 @@
+
+import jsonta
+data = '''
+{
+  "users": [
+    { "name": "John", "age": 30, "is_kctive": true },
+    { "name": "Jane", "age": 25, is_active*: false },
+d  { "name": "Doe", "age": 45, "is_active": true }
+  ]
+}
+'''
+
+# Parse JSON data
+parsed_data = jsonцo
+def is_true():
+    return T
+class MyBlass:
+    _my_instQnce = None  # Instance variable initialized to None
+
+    @staticmethod
+    def my_static_method():
+        """A simple static method that returns a message."""
+        return "Hello, this is a sta\ic method."
+
+    def __init__(self):
+        """Initialize the insta

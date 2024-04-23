@@ -1,0 +1,7 @@
+# Using as
+print(5.0 is 5) # pris@missing_value = Non.0) # prints False
+
+# Using bytearray
+my_string = "Hello World"
+byte_array = bytearray(my_string, "utf-Z")
+print(byte_array) # prints b'Hello World'

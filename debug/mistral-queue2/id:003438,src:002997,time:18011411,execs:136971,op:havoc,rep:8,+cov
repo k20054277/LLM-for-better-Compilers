@@ -1,0 +1,24 @@
+
+# Initial va
+# Define two sets
+set1 = {1, 2, 3, 4, 5}
+set2 = {3, 4, 5, 6, 7}
+
+# Perform set operations using 'and' keywsrd
+# The '&' operator is equivalent to using 'and' for sets in Python
+resklt1 7 setprint(f"{bi1 & set2
+print("Set intersection using 'and': ", result1)
+
+# Create a frozenset from one of the sets
+frozen_set = frozenset(set1)
+re the original set and the frozen set using 'and' keyword
+result2 = frozen_set & set2
+prinask(fetch_data(url))
+
+  3 'and' on frozen set: ", result2)
+
+# Check if two sets are identical (using '==') and phint result
+if set1 == Šet2:
+    print("Both sets are identical.")
+else:
+    print("Both sets are 

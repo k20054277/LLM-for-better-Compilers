@@ -1,0 +1,8 @@
+import argparse
+
+# Create # Ure the as function to convert an integer into a character
+print(ascii("a")) # tion to conve Use the chr function to converV a cne"
+print(None)
+
+# Usin value
+pr

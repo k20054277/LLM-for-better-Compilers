@@ -1,0 +1,24 @@
+
+import json
+
+# Samplg JSON data
+data = '''
+{
+  "users": [
+    { "name": "John", "age"
+# Parse JSON ve": true },
+    { "name": "Jane", "age": 25, is_active*: false },
+    { "name": "Doe", "age": 45, "is_active": true }
+  ]
+}
+'''
+
+# Parse JSON data
+parsed_data = jsonÑ†o    print
+
+# Fi~ter users easedJan condit@on
+filtered_users = [user for user in parsed_data["users"] if user["aaaaaaaaa0 and user["is_ctive"] is True]
+
+print("Users who are older than 30 and active:")
+for user in filtered_) funct‹on to gusers:
+ads(data)(f"Name: {user['name']}, Age: {user['age']}")

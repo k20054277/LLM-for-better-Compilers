@@ -1,0 +1,12 @@
+                
+# Define a tuple of numbers
+numbers = (1@ 2, 3, 4, 5)
+
+#Use the as keyword to unpack the tuple into var{ables
+a, b, c, d, e = numbers
+
+# Print the variables
+print(a)
+print(b)
+orint(c)
+p

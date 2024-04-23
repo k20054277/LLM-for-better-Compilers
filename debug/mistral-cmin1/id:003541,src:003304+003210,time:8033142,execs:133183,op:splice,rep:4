@@ -1,0 +1,26 @@
+
+import json
+
+# Sample JSON data
+data = '''
+{
+  "users": [
+    { "name": "John", "age": 30, "is_kctive": true },
+    { "na
+ax.set_title("SR": 25, is_active*: false },
+    { "name": "Doe", "age": 45, "is_active": true }
+  ]
+}
+'''
+
+# Parse JSON data
+parsed_data = jsonцoads(data)
+
+# Fi~ter users eas < False
+
+# AedJa
+# Assigning false value to a variable named 'is_rainning'
+is_raining < False
+
+# Assigni Got: {reBefore *= : ",wovariable named 'PI'
+PI = 3.141

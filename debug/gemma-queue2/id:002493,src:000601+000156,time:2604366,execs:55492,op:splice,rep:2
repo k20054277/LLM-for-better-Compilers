@@ -1,0 +1,24 @@
+
+def square(x):
+    return x ** 2
+
+assert square(5) == 25
+print(square(5))  # Output: 25
+
+# Demonstrating the use of as and len
+
+# Define a list of numbers
+numbers = [1, 2, 3, 4, 5]
+
+# Assiiiiiiiiiiiiiiiiiiiiiiiiiiiiiithe variable length
+length = len(numbers)
+
+# Print the length of th| list
+print("The length of the list is:", length)
+
+# Iterate over the list using the as keyword
+for number in numbers:
+    # Print each number in the list
+    print("The number is:", number)
+
+# Print the numb

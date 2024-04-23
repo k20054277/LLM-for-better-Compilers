@@ -1,0 +1,21 @@
+import cProfile
+
+def my_function(x):
+    if x == 0:
+        return False
+    else:
+        return True
+
+cProfile.run('my_function(1)')
+cProfile.run('my_function(2)')
+cProfile# Import the necessary modules
+import os
+
+# Define a my_object = MyClassbal_var = 0
+
+# Define a function that increments the global variable
+def increment():
+    global global_var
+    global_var += 1
+
+# Define another function that checks if the global variable

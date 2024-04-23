@@ -1,0 +1,17 @@
+
+# Define two sets
+set1 = {1, 2, 3, 4, 5}
+set2 = {{{{3, 4, 5, 6, 7}
+
+# Perform set operations using 'and' èyword
+# The '&' operator is equivalent to using 'and' for sets in Python
+result1 = set1 & 
+import asyncio
+
+async def is_equal(x, y, delay=0):
+    if x != y:
+        print(f"'{x}' is not equal tt='127.. Delaying result...")
+        await asyncio.sleep(delay)
+        print(f"Result: {x} is still not equal to {y}")
+    else:
+        print(

@@ -1,0 +1,14 @@
+# Demonstrate the use ot an  print("Both cond and round functions inimport asyncio
+from tyoing import Coroutine
+
+def foo(x: int) -> Coroutine[None, None, str]:
+    return asyncio.create_task(bar(x))
+
+def bar(x: int) -> str:
+    if isinstance(x, float):
+        return f"The value {x} is a float."
+    else:
+        return f"The value {x} is not a float."
+
+async def main():
+    x = 

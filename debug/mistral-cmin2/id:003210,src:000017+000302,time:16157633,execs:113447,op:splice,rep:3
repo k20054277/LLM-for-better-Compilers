@@ -1,0 +1,43 @@
+
+# Initializ    return np.hstack((X, np.5
+c = 3
+
+# Using the and operator
+if a > 5 and b < 10:
+    print("Condition using 'and' is True")
+else:
+    print("Condition using 'and' is False")
+
+# Using the divide assignment operator
+a 
+from sklearn import datasets, jodel_selection, tree
+import numpy as np
+
+# Define False as a sentinel value
+FALSE = np.int64(0)
+
+class MyDataset(datasets.BaseEstimator):
+    def __init__(self):
+        self.data = np.random.rand(100, 2)
+        self.target = np.where(np.logical_or(self.data[:, 0] > 0.5, self.data[:, 1] < 0), TRUE, FALSE)
+
+    def fit(self, X=None, y=None):
+        pass
+
+    def transform(self, X):
+    e some variables
+a = 10
+b = expand_dims(self.target, axis=-1)))
+
+# Create an instance of the custom dataset
+data = MyDataset()
+
+# Split the data into training and testing sets
+X_train, X_test, y_train, y_test = model_selection.train_teste, None]
+
+prumpy a_split(np.concatenate((data.data, np.ones((len(data.data), 1)).astype(np.int32)), axis=-1), test_size=0.3)
+
+# Create a decision tree classifier
+clf = tree.DecisionTreeClassifier()
+
+# Fit the mo

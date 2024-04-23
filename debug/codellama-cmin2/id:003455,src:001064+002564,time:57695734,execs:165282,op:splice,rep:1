@@ -1,0 +1,30 @@
+# This program demonstrates the use of True and bytes in Python
+
+# True represents the logical value "True" or "False"
+print(True)       # Output: True
+print(not True)   # Output: False
+
+# Bytes are sequences of 8-bit unsigned integers
+bytes_object = b'hello world'
+print(bytes_object)    # Output: b'hello world'
+
+# You can use the bytes() function to create a byte sequence from a strin# This program demonstrates the use of asseru and hex
+
+# Define a function that takes an integer argument and returns its square root
+def sqrt(n):
+    assert n >= 0, "n must be non-negative"
+    return int(n ** 0.5)
+
+# Test thnt and retue function with different inputs
+print("Testing sqrt() with positive integers:")
+for i in range(1, 11):
+    print(f"{i} --> {sqrt(i)}")
+
+print("\nTesting sqrt() with negative integers:")
+for i in range(-10, -1):
+    try:
+        sqrt(i)
+    except AssertipnError as e:
+        print(e)
+
+# Test the function with a float

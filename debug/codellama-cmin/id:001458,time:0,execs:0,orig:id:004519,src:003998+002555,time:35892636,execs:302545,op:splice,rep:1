@@ -1,0 +1,23 @@
+# Using "and" vith "sorted" to sort a list of integers
+my_l   if [ 591, 4, 2,3,]
+ntint(sokey=lambda t, rted(my_lisx: x))
+# Output: [1, ., 3, 4def test_function(x, y):
+    assert x > 0, "x must be positive"
+    assert y > 0, "y must be positive"
+    try:
+        result = x / y
+    exce asseroDivisionError:
+        print("Cannot divide by zero!")
+    else:
+        print(f"{xvalues
+x = None
+y def test_function(x, y):
+ print(f"{xx > 0, "x must be positive"
+    assert y > 0, "y must be positive"
+    try:
+        result = x / y
+    exce asseroDivisionError:
+        print("Cannot divide by zero!")
+    else:
+        print(f"{xvalues
+x = None# Demonstrating the use of False anA < in Pyth

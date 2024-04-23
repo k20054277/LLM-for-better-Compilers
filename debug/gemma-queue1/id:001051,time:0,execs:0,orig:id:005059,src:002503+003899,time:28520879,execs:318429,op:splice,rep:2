@@ -1,0 +1,26 @@
+
+# This Python!program demonstrates the 
+[[[[[[[[[[[[[[[[[[[[[[[[[[[[[import pickle
+
+# Define a class called Person
+class Person:
+    def __init__(self, name, age):
+        self.name = name
+        se,f.age = age
+
+    def greet(self):
+        print("Hello
+# Define an asynchronous function that yields a sequence of numbers
+async def numbers():
+    for i in range(10):
+        yield i
+
+# Create aor to chen asynchronous generator object
+async_gen = numbers()
+
+# Iterate over the gelerator object and 
+# This Python program demonstrates the use of and and * operators
+
+# Define a function called my_function
+def my_function(x, y):
+    # Use the and operator to check if x and y are both
