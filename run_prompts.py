@@ -37,68 +37,61 @@ def run_prompt_gemma(prompt):
 
 def extract_code_mistral(output, index):
     save_path = os.getcwd() +"/mistral"
-
+    completeName = os.path.join(save_path, "mistral_" + str(index) + ".py")
+    f = open(completeName, "w")
+    
     start_index = output.find("```python")
     if start_index == -1:
-        f = open(completeName, "w")
         f.close()
         return
     end_index = output.find("```", start_index + len("```python"))
     if end_index == -1:
-        f = open(completeName, "w")
         f.close()
         return
 
     program = output[start_index + len("```python") :end_index].strip()
     # print (program)
-
-    completeName = os.path.join(save_path, "mistral_" + str(index) + ".py")
-    f = open(completeName, "w")
     f.write(program)
     f.close()
 
 def extract_code_codellama(output, index):
     save_path = os.getcwd() +"/codellama"
+    completeName = os.path.join(save_path, "codellama_" + str(index) + ".py")
+    f = open(completeName, "w")
 
     start_index = output.find("```")
     if start_index == -1:
-        f = open(completeName, "w")
         f.close()
         return
     end_index = output.find("```", start_index + len("```"))
     if end_index == -1:
-        f = open(completeName, "w")
         f.close()
         return
 
     program = output[start_index+len("```"):end_index].strip()
     # print (program)
-
-    completeName = os.path.join(save_path, "codellama_" + str(index) + ".py")
-    f = open(completeName, "w")
+    
     f.write(program)
     f.close()
 
 
 def extract_code_gemma(output, index):
     save_path = os.getcwd() +"/gemma"
+    completeName = os.path.join(save_path, "gemma_" + str(index) + ".py")
+    f = open(completeName, "w")
 
     start_index = output.find("```python")
     if start_index == -1:
-        f = open(completeName, "w")
         f.close()
         return
     end_index = output.find("```", start_index + len("```python"))
     if end_index == -1:
-        f = open(completeName, "w")
         f.close()
         return
 
     program = output[start_index+len("```python") : end_index].strip()
     # print (program)
 
-    completeName = os.path.join(save_path, "gemma_" + str(index) + ".py")
-    f = open(completeName, "w")
     f.write(program)
     f.close()
 
