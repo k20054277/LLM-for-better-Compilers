@@ -87,10 +87,6 @@ def read_files(file_path, result_file, error_file):
     print("your results are stored in : " + result_file +" and " +error_file)
 
 def run_test(model):
-    crash_path = "/debug/crashes"
-    gemma_hang_path = "/debug/hangs/gemma"
-    codellama_hang_path = "/debug/hangs/codellama"
-    mistral_hang_path = "/debug/hangs/mistral"
     gemma_cmin_path = "/debug/gemma-cmin"
     mistral_cmin_path = "/debug/mistral-cmin1"
     codellama_cmin_path = "/debug/codellama-cmin"
@@ -100,40 +96,27 @@ def run_test(model):
 
     match model:
         case "1":
-            read_files(crash_path, "gemma_crash_re.txt", "gemma_crash_err.txt")
-        case "2":
-            read_files(gemma_hang_path, "gemma_hang_re.txt", "gemma_hang_err.txt")
-        case "3":
-            read_files(codellama_hang_path, "codellama_hang_re.txt", "codellama_hang_err.txt")
-        case "4":
-            read_files(mistral_hang_path, "mistral_hang_re2.txt", "mistral_hang_err2.txt")
-        case "5":
             read_files(gemma_cmin_path, "gemma_mini_result.txt", "gemma_mini_error.txt")
-        case "6":
+        case "2":
             read_files(codellama_cmin_path, "codellama_mini_result2.txt", "codellama_mini_error2.txt")
-        case "7":
+        case "3":
             read_files(mistral_cmin_path, "mistral_mini_result1.txt", "mistral_mini_error1.txt")
-        case "8":
+        case "4":
             read_files(gemma_path, "gemma_result.txt1", "gemma_error1.txt")
-        case "9":
+        case "5":
             read_files(codellama_path, "codellama_result1.txt", "codellama_error1.txt")
-        case "10":
+        case "6":
             read_files(mistral_path, "mistral_result1.txt", "mistral_err1.txt")
         case _:
             print("test options: ")
             print("-------------------------------------")
-            print("1: afl indicated crashes")
-            print("2: afl indicated gemma hangs")
-            print("3: afl indicated codellama hangs")
-            print("4: afl indicated mistral hangs")
+            print("1: afl fuzzed minimised gemma test suite")
+            print("2: afl fuzzed minimised codellama test suite")
+            print("3: afl fuzzed minimised mistral test suite")
 
-            print("5: afl fuzzed minimised gemma test suite")
-            print("6: afl fuzzed minimised codellama test suite")
-            print("7: afl fuzzed minimised mistral test suite")
-
-            print("8: afl fuzzed gemma test suite")
-            print("9: afl fuzzed codellama test suite")
-            print("10: afl fuzzed mistral test suite")
+            print("4: afl fuzzed gemma test suite")
+            print("5: afl fuzzed codellama test suite")
+            print("6: afl fuzzed mistral test suite")
 
             print("-------------------------------------")
 
@@ -145,19 +128,13 @@ def run_test(model):
 def main():
     print("test options: ")
     print("-------------------------------------")
-    print("1: afl indicated crashes")
-    print("2: afl indicated gemma hangs")
-    print("3: afl indicated codellama hangs")
-    print("4: afl indicated mistral hangs")
+    print("1: afl fuzzed minimised gemma test suite")
+    print("2: afl fuzzed minimised codellama test suite")
+    print("3: afl fuzzed minimised mistral test suite")
 
-    print("5: afl fuzzed minimised gemma test suite")
-    print("6: afl fuzzed minimised codellama test suite")
-    print("7: afl fuzzed minimised mistral test suite")
-
-    print("8: afl fuzzed gemma test suite")
-    print("9: afl fuzzed codellama test suite")
-    print("10: afl fuzzed mistral test suite")
-
+    print("4: afl fuzzed gemma test suite")
+    print("5: afl fuzzed codellama test suite")
+    print("6: afl fuzzed mistral test suite")
     print("-------------------------------------")
 
     model = input("please enter a number to run your test case of choice: ")
