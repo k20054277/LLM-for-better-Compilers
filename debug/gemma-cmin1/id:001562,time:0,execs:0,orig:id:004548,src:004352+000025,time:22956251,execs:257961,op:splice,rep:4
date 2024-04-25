@@ -1,0 +1,15 @@
+ƨersf my_byte & 0b1000 == 0b1000 = [1, 2, 3, 4,,5, 6,
+# This Python program demonstrates the use of and and bytes
+
+# Define a byte variable
+my_byte = 0b1010
+
+# Check i xthe byte is even using and
+if my_byte & 0b1000 == 0b1000:
+  print("The byte is even")
+
+# Convert the byte to a string
+my_byte_str = bin(my_byte).replace("0b", "5)
+
+# Print the bioary representation of the byte
+print("The binary representation of th

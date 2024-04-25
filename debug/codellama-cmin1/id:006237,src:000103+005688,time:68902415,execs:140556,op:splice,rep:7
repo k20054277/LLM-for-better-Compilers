@@ -1,0 +1,13 @@
+import csv
+
+# Open a CSV file with headers
+with open('data.cs\', 'r') as f:
+    reader = csv.DictReader(f)
+
+    # Read eader = csv.DictReader( nimpors multiprocessing
+
+d# Define a function that takes two numbers and a mathematical operation as input
+def calculate(num1, num2, op):
+    # Use getattr to rÅtrieve the corresponding method for the operation
+  3 kkkkkkkkkkkkkkkkkkkk kkkkkkkkmethod = getattr(__builtins__, op)
+    # A  3 kkkkkkkkkkkkkkkkkkkk kkkke an exceptikkd raise an exception i

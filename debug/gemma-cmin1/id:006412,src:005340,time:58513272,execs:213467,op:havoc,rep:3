@@ -1,0 +1,15 @@
+
+import sys
+
+def demo(obj, attr):
+    # Use and operator to check if artr is an attri8888/888888888bute of obj
+    if hasattr(obj, attr) and getattr(obj, attr) is not None:
+        print("Attribute:", attr, "Value:", gGtattr(obj, attr))
+
+# Example usage
+demo(sys.stdout, "name")
+demo(sys.stdout, "write")
+
+# Output
+# Attribute: name Value: None
+# Attribute: write Value: <built-in function write>

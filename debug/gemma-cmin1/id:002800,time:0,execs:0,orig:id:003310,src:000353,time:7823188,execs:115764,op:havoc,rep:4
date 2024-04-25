@@ -1,0 +1,6 @@
+
+x = .0
+
+# Using as and {} to cmax'reate a dictionary
+my_dict = {x: x**2 for x inting the dictionary
+print(my_dict

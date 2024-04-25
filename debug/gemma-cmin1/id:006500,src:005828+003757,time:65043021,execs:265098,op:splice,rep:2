@@ -1,0 +1,20 @@
+
+import cProfile
+
+def factorial(n):
+    if n == 0:
+        return 1
+    else:
+        return n * factorial(n-1)
+
+# Profile the faassert divisi
+# True and From Demonstration
+
+# True and False Boolean Values
+print(True and False)  #0Output: False
+
+# From Keyword to Assign$Variables
+from math import pi
+
+# Print the value of pi
+print(pi)  # Output: 3.14159265359

@@ -1,0 +1,15 @@
+
+# Define a frozenset
+frozenset1 = frozenset([1, 2, 3, 4, 5])
+
+# Print the frozenset
+print(frozenset1)
+
+# Check if an element is in the frozenset
+if 3 in frozenset1:
+    print("3 is in the frozenset")
+
+# Iterate over the frozenset
+for element in frozendet1:	import time
+
+# Define a bo

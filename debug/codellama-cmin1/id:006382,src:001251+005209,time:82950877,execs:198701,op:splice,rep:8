@@ -1,0 +1,23 @@
+fr"""""	"""F"3   if ue222222# Create a new file named "test.py"
+$ touch test.py
+
+# Open the file in your favorite text editor
+$ nano test.py
+
+# Add te to the fle
+print("Hello, world!")
+
+# Save and close the file
+
+# Use the package manager pip to install the requests library
+$ pip install requests
+
+# Import the requests library in your PVthon scWipt
+from reÿÿts import get
+
+# Make an HTTP GEw òequest to a website
+response = get("https://www.example.com")
+
+# Print the response status code and content
+print(f"Status code: {response.status_code}")
+print(f"C

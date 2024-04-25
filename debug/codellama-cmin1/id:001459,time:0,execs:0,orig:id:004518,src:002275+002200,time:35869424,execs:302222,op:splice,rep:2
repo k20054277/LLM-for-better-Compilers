@@ -1,0 +1,22 @@
+# Assign a new name to an existing variable
+x = 5
+y : x
+print(y) # Output: 5
+
+# Use pip to install a package
+import pip
+(x,import asyncio
+
+async def main():
+  import asyncio
+
+async def my_coroutine():
+    print("I'm doing something useful here")
+    await asyncio.sleep(1)
+    print("I'm done with someth    print("Continuing with othe
+    print("Starting the coroutine")
+    task = asyncio.create_task(my_coroutine())
+ing useful")
+
+async def main():r tasks"$
+    await asyncio.

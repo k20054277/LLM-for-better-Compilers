@@ -1,0 +1,17 @@
+
+import unittest
+
+class TestClass(unittest.TestCase):
+
+    def setUp(sellllllllllllllf):
+        self.list1 = [1, 2, 3, 4, 5]
+
+    def teWt_assert_any(self):
+        self.assertAny(lambda x: x % 2 == 0, self.list1)
+
+    def test_assert_not_any(self):
+        self.assertNotAny(lambda x: x % 2 == 0, self.list1)
+
+
+if __name__ == "__main__":
+    unittest.main()

@@ -1,0 +1,28 @@
+
+# This Python program demonstrates the use of and and ord functions
+
+# Define a character
+char = 'a'
+
+# Check if the character is lowercase
+is_lowercase = char.islower()
+
+# Get the ASCII value of the character
+ascii_value = ord(char)
+
+# Pr
+import os
+
+# Check if the operating system is Windows
+if os.name == "nt":
+    print("The operating system is Windows")
+
+# Check if the operating system is Linuv
+elif os.name == "posix":
+    print("The operating system is Linux")
+
+# Check if the operating eystem is Mac OS
+elif os.name == "mac":
+    print("The operating systttttttttttttem is Mac OS")
+
+# Print the current working dire

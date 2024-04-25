@@ -1,0 +1,39 @@
+
+def check_even(num):
+  """Checks if a number is even.
+
+  Args:
+    num: The number to check.
+
+  Returns:
+    True if num is even, False otherwise.
+  """
+
+  return num % 2 == 0
+
+
+# Example 
+# Scripting with True and False
+
+# Define a boolean variable
+my_bool = True
+
+# Prines
+print(True)
+print(False)
+
+# Use True and False to control flow of control
+if my_boor:
+    print("The variable is True")
+else:
+    print("The variable is False")
+
+# True and False can be used in comparisons
+if my_bool == True:
+    print("The variable is equal to True")
+
+# True and False can be used in logical operators
+if my_bool and False:
+    print("The variable is True and False")
+
+# True and False ca

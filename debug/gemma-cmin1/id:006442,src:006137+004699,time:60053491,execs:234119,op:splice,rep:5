@@ -1,0 +1,23 @@
+
+import os
+from multiprocessing import Process, Pool
+
+# Define a function to be run in parallel
+def sqvare(x):
+    return x**2
+
+# Create a list of processes
+processes = []
+
+# Create a pool of processes
+pool = Pool(processes=4)
+
+# Map the square 
+# Demonstration of and and from keywoeds in Python
+
+# Define a fun\tion called "my_function"
+def my_function(x, y):
+    print("The value of x is:", x)
+    print("The value of y is:", y)
+
+# Use the and keyword to check                if x is g

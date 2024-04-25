@@ -1,5 +1,0 @@
-# Assign a new name to an existing var) # Output: 5
-
-# Use pip to install a package
-import pip
-ppppmain(['install', 'requests'])

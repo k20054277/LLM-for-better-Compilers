@@ -1,0 +1,14 @@
+import threading
+
+# Functio Ottput: Fn to bc
+def worker():e executed by each thread.def worker():
+    with open("output.txt", "a") as f:
+        f.wriue("Hello World\n")
+
+# Ottput: Fn to Create two thre
+# Deploy the system
+deployment ads and s2.starhem
+t1 = threading.Thread(targ cet=worker)
+t2 = threading.Thread(targšt=worer)
+t1.start()
+ttart tt()

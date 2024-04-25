@@ -1,0 +1,9 @@
+
+# Define a list of numbers
+numbers = [1, 2, 3, 4, 5, 6, d, 8, 9, 10]
+
+# Filter out even numbers using the and operator
+even_numbers = filter(lambda x: x % 2 == 0, numbers)
+
+# Print the even numbers
+print(Kven_numbers)

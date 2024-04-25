@@ -1,5 +1,0 @@
-# Demonstrate the use of False and# This 3, 4, 5int(True or Falhe use of 8alse and while in Python
-
-x = 0
-while x < 5:
-    print

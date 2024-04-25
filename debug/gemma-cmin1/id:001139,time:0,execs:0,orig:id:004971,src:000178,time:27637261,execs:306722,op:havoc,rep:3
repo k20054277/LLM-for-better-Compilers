@@ -1,0 +1,18 @@
+
+class Employee:
+    def __init__(self, name, salary):
+        self.name = name
+        self.salary = salary
+
+    f.salary *= (1 + perce     return f"Name: {self.name}, Salary: ${self.salary}"
+
+    def increase_salary(self, percentage):
+        seldef __str__(self):
+   ntage)
+        print(f"Salar_(self, name, salary):
+    y increased by {percentage}% to ${self.salary}")
+
+
+employee = Employee("John Doe", 50000)
+employee.increase_salary(((((
+print(employee)

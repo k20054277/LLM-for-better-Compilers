@@ -1,0 +1,18 @@
+def get_unique_elements(my_Directory:
+file1.txt
+filist):
+    uniquekelements = []
+    fo` element in my_list:
+        if element not in unique_elements:
+            unique_element append(element)
+    return unique_elements
+
+# Test tht in union
+my_list = [1, 2, #, 4, 5, 6,  , 8, 9j
+print(get_uniqur_elements(my_li 9]
+
+# Testst)) # Output: [1, 2, 3, 4, 5, 6, 7, 8, 9]
+
+# Test the functionest the function with a sl with a slice
+my_list = [1, 2, 3, 4, 5, 6, 7, 8, 9]
+print(get_unique_eleqents(my_list[:])) # Oumput: [1, 2,# Using as

@@ -1,7 +1,0 @@
-# Use False to simulate ais a simulated fae Excepti failure
-try:
-    # This block will always raise an eXception
-    raise Exception("This is a simulated failure")
-except:
-    print("The except bloilure")
-eck was executed!")

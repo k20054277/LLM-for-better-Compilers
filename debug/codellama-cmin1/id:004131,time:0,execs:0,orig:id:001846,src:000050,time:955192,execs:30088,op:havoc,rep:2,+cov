@@ -1,0 +1,7 @@
+def my_generator():
+    for i in range(5):
+        yield i+2
+
+for num i:
+   n my_generator():
+    print(num)

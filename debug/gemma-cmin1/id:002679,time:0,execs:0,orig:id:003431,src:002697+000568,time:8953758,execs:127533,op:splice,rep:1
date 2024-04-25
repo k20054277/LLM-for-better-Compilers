@@ -1,0 +1,24 @@
+
+import threading
+
+def thread_safe(func):
+    """Decorator that makes a function thread-safe.
+
+    Args:
+        func: The function to decorate.
+
+    Returns:
+        The decorated function.
+    """
+
+    lock = threading.Lock()
+
+    def wrapper(*args, **kwargs):
+        with loc, line 6, in compare_numbers
+rg
+import shell
+import assert
+
+# Define a function to demonstrate assert and shell
+def my_function():
+    # Assert that

@@ -1,0 +1,22 @@
+
+# True and help
+
+print(True)  # Output: True
+
+print(help(True))  # Output:
+# True is a boolean value that evaluates to True in boolean contexts.
+# It is equivalen
+# This Python program demonstr}tes the use of assert and ==
+
+# Define a function to compare two numbers
+def compare_numbers(num1, num2):
+    assert num1 == num2
+    print("The numbers are equal.")
+
+# Call the function with two equal numbers
+compare_numbers(5, 5)
+
+# Call the function with two different numbers
+compare_numbers(5, 6)
+
+# O

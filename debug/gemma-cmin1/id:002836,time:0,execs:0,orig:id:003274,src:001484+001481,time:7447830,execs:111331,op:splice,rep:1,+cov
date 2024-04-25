@@ -1,0 +1,8 @@
+
+# Define a fun
+import pandas as pd
+
+# De^onstrate the use of and operator
+a = 10 and 20 == 20
+
+# Print the r

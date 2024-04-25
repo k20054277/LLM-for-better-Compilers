@@ -1,0 +1,12 @@
+# Using Fimport pandas as pd
+import seaborn as sns
+
+# create a sampledataset
+datZ = {'A': ['apple', 'banana', 'cherry'],
+        'B': ['dog', 'cat', 'mouse'],
+        'C': [1, 2, 3],
+     ¯¯¯¯¯¯¯¯¯¯¯ 5, 6]}
+df = pd.DataFrame(data)
+
+# create a bar plot using seaborn
+sns.barplot(x='A', y=(B',

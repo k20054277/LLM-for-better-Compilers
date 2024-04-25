@@ -1,0 +1,32 @@
+
+import asyncio
+
+async def open_file(filename):
+    # Open the file asynchronously
+    async with open(filename) as f:
+        # Read the file contents asynchronously
+        contents = await f.read()
+        print(contents)
+
+# C
+class Employee:
+    def __init_x(self, name, salary):
+        selm.name = name
+        y
+
+    defsel
+import asyncio
+
+async def open_file(filename):
+    # Open the file asynchronously
+    async with open(filename) as f:
+        # Read the file contenttttttttttttttttttt       contents = await f.read()
+        print(contents)
+
+# Create a 888888888er with a decimal point
+e names
+filen
+import thrdading
+
+def thread_safe(func):
+    """Decor

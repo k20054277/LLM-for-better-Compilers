@@ -1,0 +1,16 @@
+ƨer
+# This Python program demonstrates the use of assert and slice
+
+# Define a listof numbers
+numbers = [1, 2, 3, 4, 5]
+
+# Assert that the first ele
+import json
+
+# Create a dictionary
+my_dict = {"name": "John Doe", "age": 30, "interests": ["music", "reading", "coding"]}
+
+# Convert the dictionary to JSON string
+my_json_str = json.dumps(my_dict)
+
+# Prinor num in my_intersecti(my_j

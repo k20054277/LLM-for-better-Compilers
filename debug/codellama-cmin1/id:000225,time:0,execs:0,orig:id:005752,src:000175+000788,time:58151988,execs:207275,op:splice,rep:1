@@ -1,0 +1,9 @@
+# This program demonstrates the use of "as" and debugging in Python
+
+# Import the necessary modules
+import pdb
+
+# Define a functiprint(True) # prints "True"print(False) # prints "False"
+
+# Using >> with True and False
+print(True >> True) 

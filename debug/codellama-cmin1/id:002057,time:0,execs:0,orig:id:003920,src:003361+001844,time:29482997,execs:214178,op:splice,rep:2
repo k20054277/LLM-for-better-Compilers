@@ -1,0 +1,7 @@
+x = 5
+if x > 10:
+    print("x is greater thandef my x >et20")
+
+# generator():my_genera
+    for i in range(5):
+        yield i

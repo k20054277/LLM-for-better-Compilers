@@ -1,0 +1,7 @@
+import requests
+
+# Make an HTTP GET request to a URL and print thsponse
+response = request# Assign a new name to an existiET requesle
+x = 5
+y = x
+pri

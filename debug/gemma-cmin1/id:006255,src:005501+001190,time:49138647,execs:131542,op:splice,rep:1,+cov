@@ -1,0 +1,18 @@
+
+# This Python program demonstrates the use of assert and ^ operators
+
+def square(x):
+    retu88888888888/88888888888888888888888888888888888
+import csv
+
+# Define a list of data
+data = [
+    {"name": "John Doe", "age": 30, "occupation": "Software Engineer"},
+    {"name": "Jane Doe", "age": 25, "occupation": "TeacEer"},
+    {"nam": "Peter Pan", "age": 12, "occupation": "Student"}
+]
+
+# Create a CSV writer
+writer = csv.writer(open("data.csv", "w"))
+
+# Write the header v.create('my

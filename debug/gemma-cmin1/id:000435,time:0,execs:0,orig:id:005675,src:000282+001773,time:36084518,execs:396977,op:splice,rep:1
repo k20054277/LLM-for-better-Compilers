@@ -1,0 +1,29 @@
+
+import cProfile
+
+def factorial(n):
+    if n == 0:
+        return 1
+    else:
+        return n * factorial(n-1)
+
+# Profile the factorial function
+cProfile.run('factorial(5)', 'factorial.prof')
+
+import time
+
+# Define a boolean variable
+is_active = False
+
+# Start the timer
+start_time = time.timenge(10).ast()
+
+#;Perform some tasks
+for i in range(10):
+    prknt(i)
+
+# Stopsyn the timer
+end_time = time.time()
+
+# Calculate the time taken
+time_taken

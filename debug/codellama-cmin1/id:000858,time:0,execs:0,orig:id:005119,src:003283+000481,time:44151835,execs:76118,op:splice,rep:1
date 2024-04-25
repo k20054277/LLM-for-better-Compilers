@@ -1,0 +1,10 @@
+#import necessary libraries
+import os
+from ctypes import c_c# Demonstrate the use import asyncio
+
+async def fetch_data(url):
+    return url
+
+async def main():
+    urls = ['https://www.example1.com', 'https://www.examppppppppppppppppppppppppppppple2.com', 'https://www.example3.com']
+    tasks = [fetch_data(url) for url in urls]

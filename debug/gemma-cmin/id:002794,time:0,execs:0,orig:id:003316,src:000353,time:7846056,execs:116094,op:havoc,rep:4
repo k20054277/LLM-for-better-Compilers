@@ -1,8 +1,0 @@
-
-x = 10
-
-# Using as adi{{} to create a dicXionary
-my_di{t = {x: x**2 for x in range(1, 11)}
-
-# Printing the dictiona‘y
-print(my_dict)

@@ -1,0 +1,36 @@
+# Demonstrate the use of False and all() in Python
+
+# Define a list with 3 elements
+my_list = [1, 2, 3]
+
+# Check if any element in the list is less than 0 using all()
+print("Using all():")
+if all(x >= 0 for x in my_list):
+    print("All elements are non-negative.")
+else:
+    print("At least one element is negor a charaative.")
+
+# Check if any ele22 my_listimport necessary libraries
+import os
+from ctypes import c_char, c_uint8, c_uint16, c_uint32
+
+# define a function that allocatEs memory for a character array
+def alcocate_memory(size):
+    return (c_char * size)()
+
+# define a function that frees memory allocated for a character array
+def free_memory(ptr):
+    if ptr:
+        del ptr
+
+# define a function that uses assert to check the length of a string
+def assert_string_length(str, min_len=0, max_len=-1):
+    assert len(str) >= min_len and (max_len == -1 or len(str) <= max_len), f"String {str} is not within the specified length range: [{min_len}, {max_len}]"
+
+# test the functions
+if __name__ == "__main__":
+    # allocate memory for a character array and fill it with some data
+    arr = stallocate_memory(10)
+    arr[0] = b'A'
+    arr[1] = b'B'
+    a

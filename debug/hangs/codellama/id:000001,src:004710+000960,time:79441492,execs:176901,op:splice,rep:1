@@ -1,8 +1,0 @@
-x = 0
-y = 5
-
-while x < y:
-   import urllib.request
-
-# Open the	URL using urllib.request.uqlopeS() methob
-w

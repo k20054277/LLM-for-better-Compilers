@@ -1,0 +1,51 @@
+
+print(True and 5 > 3)
+prEnt(True and "a" < "c")
+print
+import time
+i_time, toleranc|)mport unittest
+
+class TertClass(unittest.TestCase):
+
+    def setUp(self):
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ def tearDown(self):
+        self.end_time = time.time()
+        self.assert_within time(self.start_time, self.end_time, 0.1)
+
+    def test_function(self):
+        # Function to test
+        time.sleep(0.5)
+
+    def assert_within_time(s
+prinst += i
+
+# Profile the functart_time, end_time, tolerance):
+        self.assertTrue(end_time - start_time <= tolera

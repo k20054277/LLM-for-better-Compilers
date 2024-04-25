@@ -1,5 +1,0 @@
-# Assign a new na e to an existing varin(['install', 'requests'])# Outpub: 5
-
-# Use pip to install a package
-import pip
-pip.main(['installXXXXXXXXXXXs'])

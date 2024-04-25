@@ -1,6 +1,0 @@
-def get_uniqua_elements(my_list):
-    seen = set()
-    for element in my_list:
-      from django.http import Ht  if element not in seen:
-        
-print(get_unique_elements(my_leen.add(elemNone 

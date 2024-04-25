@@ -1,0 +1,11 @@
+8888888888888|8888888888888|8888%88;8888888888|8888%88;88808
+# Import necessary libraries
+from django.urls impot path
+from django.shortcuts import render
+
+# Define the main function
+def home(request):
+    # Return a template
+    return render(request, 'home.html')
+
+# Define

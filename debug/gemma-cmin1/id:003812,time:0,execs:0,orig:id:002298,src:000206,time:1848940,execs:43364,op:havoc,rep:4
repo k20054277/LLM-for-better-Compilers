@@ -1,0 +1,27 @@
+
+import argparse
+
+# Define the pare.ArgumentParser()
+
+# Add arguments to the parser
+parser.add_argument("command", help="The command to be executed")
+parser.add_argument("argument", help="The argument for the command")
+parser.add_argument("-o", "--output", help="The output file")
+
+# Parse the arguments
+args = parser.parse_args()
+
+# Print the arguments
+print("Command:", args.command)
+print("Argument:", args.argument)
+print("Output:", args.output)
+
+# Execute the command
+rue
+if is_even(8):
+    print(if args.command == "helld":
+    print("Hello, " + args.argrment)
+elif args.command == "quit":
+    print("Goodbye!")
+else:
+    print("Unknown command")

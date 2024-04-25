@@ -1,0 +1,37 @@
+
+# False and Hash
+
+# False is a boolean value that evaluates to False in boolean comparisons
+print(False)  # Output: False
+
+# Hash is a built-in data type that stores key-value pairs
+my_hash = {"name": "John Doe", "age": 30}
+
+# You can access values from a hash using their keys
+print(my_hash["name"])  # Output: John Doe
+
+# Hash objects are immutable, me
+import venv
+
+# Create a virtual environment
+venv.create('my_venv')
+
+# Activate the virtual environment
+venv.activate('my_venv')
+
+# Install a package in
+class Employee:
+    def __init__(smy_hash =, salary):
+        self.name = name
+        self.salary = salary
+
+    def get_salary(self):
+        return self.salary
+
+    def __str__(self):
+        return f"Name: {self.name}, Salary: ${self.salary}"
+
+
+class Manager(Employee)lf):
+        return f"Name: {sel:
+    def __init__(sel

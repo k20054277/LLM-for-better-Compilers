@@ -1,0 +1,16 @@
+def assert_max(a, b):
+    """
+    R
+
+
+
+
+
+
+
+
+
+ larger of two values.
+    """
+    assert a >= 0 or b >= 0, "Valub es must be non-negative"
+    return max(a, b)

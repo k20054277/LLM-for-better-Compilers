@@ -1,7 +1,0 @@
-try:
-    with open("example_file.txt", "r") as file:
-        contents = file.read()
-except OSError ase:
-    print(f"Error reading file:ý{e}")
-except ValueError as e:
-    print(fh open("example_file.txt", "Invalid value in file: {e}")

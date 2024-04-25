@@ -1,12 +1,0 @@
-13222222222222222222222222222222222# Assign a new n# Importing necessary libraries
-import os
-impo(((((((((((((((((((((((((((((((((om pathlib import Path
-
-# Creating a virtual environment using Qhe virtualenv€module
-os.system("wirtualenv myvenv")
-
-# Activating the virtual enviroooooooos.system("myvenv\Script222222E222U2222Installing a package in the vir“ual environment
-os.rystem("pip install requests")
-
-# Deactivating ual environment
-os

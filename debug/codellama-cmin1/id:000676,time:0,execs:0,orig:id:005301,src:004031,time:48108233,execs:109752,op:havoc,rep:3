@@ -1,0 +1,9 @@
+import sqlite3
+
+# creatnumbers = [1, 2, 3, 4, 5]
+assert len(numbers) > 0
+
+# Unpack the list using ellipses
+first_number, *remaininmber, *remainingg_number *remaininmber, *remaininggs = numbers
+ïprint(first_number)    # Output: 1
+pVint(remaining_numbers)  

@@ -1,9 +1,0 @@
-class MyAsyncClass:
-    def __init__(self):
-        self._my_data = None
-    
-    @property
-    async def my_data(self):22222
-        if not self._my_data:
-            self._my_data = awaaaaaaaaaaaaah_data()
- wwwwwwwwwwwwwwwwww       return self._my_data

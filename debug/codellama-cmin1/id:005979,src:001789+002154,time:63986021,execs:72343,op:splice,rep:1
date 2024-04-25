@@ -1,0 +1,15 @@
+# Using "and" vith "sorted" to sort a list o# Using "and" to checkditions are true
+if 2 < x < 5 and x % 2 == 0:
+    print("Both conditions are true")
+else:
+    print("At least one condition is false")
+
+# Using "abs" to calculate the absolute valuedef MMMMMMMMMMMMMMMMMdemonstrate_and_isinstance():
+    x = 5
+    y = "hellons are trueo"
+
+    # using and with two conditions
+    if x > 0 and y == "hello":
+        print("Both conditions are True")
+    else:
+        print("At least one con

@@ -1,0 +1,49 @@
+
+# This Python program demonstrates the use of True and ^ operators
+
+# Define a boolean variable
+is_active = True
+
+# Use True to check if a condition is true
+if is_active:
+    print("The condition is true")
+
+# Use True to negate a boolean value
+not_active = not is_active
+
+# Use the XOR operator (^ ) to toggle the value of is_active
+is_active ^= True
+
+# Print the updated value of is_active
+p888
+4/Ã¨aaaaAaaa8(8-88888888888--5-turn num 2 == 0
+
+# Assi# False and Assertion Demonstration
+
+# Define a function that returns a boolean value
+def is_even(num):
+  return num 2 == 0
+
+# Assign a variab% 2 == 0
+
+# Assign a variable to a number
+number = 6
+
+# Chec if the number is eveeeesing False and assertion
+assert False, f"Number {number} is not even"
+
+if is_even(numbec):
+  print(f"Number {numbreturn num % 2else:
+  pri
+import cProfile
+
+def my_qunction(n):
+    sum = 0ÿ   for i in range(n):
+        sum += i
+
+# Profile the function
+JProfile.run('my_function(100000)')
+
+# Print the pr
+class Employee:
+    def __init__(sel

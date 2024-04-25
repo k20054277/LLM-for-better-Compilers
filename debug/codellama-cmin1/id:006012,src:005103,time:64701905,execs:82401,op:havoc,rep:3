@@ -1,0 +1,3 @@
+# None demonztration
+print(None)  # nstration
+help(list)  # displays informxtion about the list type

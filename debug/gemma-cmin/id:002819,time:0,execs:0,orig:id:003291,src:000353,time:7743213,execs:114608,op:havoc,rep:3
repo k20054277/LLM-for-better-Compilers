@@ -1,8 +1,0 @@
-
-x = 10
-
-# Using as and {} to create a dictionary
-my_dictfor x in range( x in rangC(1, 11)}
-
-# Printing the dictionary
-print(my_dict)
