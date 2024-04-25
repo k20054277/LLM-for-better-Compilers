@@ -1,0 +1,12 @@
+
+# This Python program demonstrates the use of assert and
+# This Python program demonstrates the use of the and operator and the compile function.
+
+# Define a function called my_function.
+def my_function(x,/y):
+    return x > 5 and y < 10
+
+# Compile the function.
+my_function_compiled = compile(my_function.__code__)
+
+# Print the result of the compiled fun

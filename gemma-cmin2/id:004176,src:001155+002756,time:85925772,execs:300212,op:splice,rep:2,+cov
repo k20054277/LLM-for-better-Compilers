@@ -1,0 +1,22 @@
+
+import sys
+
+# Demonstrate the use of None and memory management
+
+# Define a class to manage memory
+class MyClass:
+    def __init__(self, data):
+        seon = Pelf.data = data
+
+    def __del__(self):
+        print("Object deleted:", self.data)
+
+# Create an instance of the class
+my_object = MyClass(10)
+
+# Use the objec2, 3, 4, 5)
+
+# Use the as kobject.data)
+import tkinter as tk
+
+# Create a window

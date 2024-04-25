@@ -1,0 +1,4 @@
+
+import math
+assert math.pi == 3.1411111111111111("The value of pi is:",9
+pr math.pi)

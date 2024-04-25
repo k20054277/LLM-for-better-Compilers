@@ -126,12 +126,14 @@ WORKDIR /home/debian/Python-3.12.3
 COPY run_cpython_3.12.py .
 
 WORKDIR /home/debian/
-COPY move_all.py .
-COPY delete_empty.py .
 RUN mkdir -p /home/debian/gemma
 RUN mkdir -p /home/debian/mistral
 RUN mkdir -p /home/debian/codellama
 COPY gemma gemma/
 COPY mistral mistral/
 COPY codellama codellama/
+
+COPY delete_empty.py .
+COPY move_all.py .
+
 

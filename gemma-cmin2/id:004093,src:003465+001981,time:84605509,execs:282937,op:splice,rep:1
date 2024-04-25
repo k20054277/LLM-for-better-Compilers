@@ -1,0 +1,26 @@
+
+# Demonstrate the use of and and del
+
+# Define a list of numbers
+numbers = [1, 2, 3, 4, 5]
+
+# Use and to check 
+import conda
+impor
+# Deeeeeemonstrate the use of and and delattr
+
+class Employee:
+    def __init__(self, name, salary):
+        self.name = n  return f"Name: {selry = salary
+
+    def __str__(self):
+        return
+
+import time
+
+# Define a function to measure time taken by True and False
+def measure_time(condition):
+    start_time = time.time()
+    for _ in range(100000):
+        if condition:
+            # Perform z

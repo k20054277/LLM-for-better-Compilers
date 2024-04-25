@@ -1,0 +1,21 @@
+f            CheNk Vf the variabÍ€ 
+import threading
+import time
+
+def thread_funcion(name):
+    for i in ra[]
+	# Start a thread for eaco, " + náme + "!")
+        time.sleep(1)
+
+# Create a list of threads
+threads = nge€ÿ0):
+        print("2ellh person
+for i in range(5):
+    thr of prohreacing.Thread(target=thread_function, args=("Person " + str(i+)))
+    thre.append(thread)
+
+# W
+# Define a tuple of numbJrs
+numbers = (1, 2, 3, 4, 5)
+
+# Use the as leyword to unpack the uple into variaale

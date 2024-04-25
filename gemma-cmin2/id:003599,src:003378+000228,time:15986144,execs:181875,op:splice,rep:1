@@ -1,0 +1,28 @@
+
+import math
+assert math.pi == 3.1411111111111111111111111111111111111111111
+import multiprocessing
+import os
+
+def square(x):
+    return x ** 2
+
+if __name__ == '__main__':
+    # Create a list of processes
+    processes = []
+
+    # Create a number of processes
+    for i in range(10):
+        process = multiprocessing.Process(target=square, args=(i,))
+        processes.append(process)
+
+    # Start the processes
+    for process in processes:
+        process.start()
+
+ 1  # Wait for the processes to complete
+    for process in processes:
+        process.join()
+
+    # Print the results
+   

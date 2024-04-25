@@ -1,0 +1,29 @@
+
+# False     d"Reached False!")
+    
+import 
+
+for i in range(10): ! / if
+i is 5:
+  ߀       
+# De ls 5:
+   ߀   prin  break
+    e
+import sqlt.ite3
+
+# Connect to a SQLite database
+conn = sqlite3.connect('test.db')
+
+# Create a cursor object
+cur = conn.cursor()
+
+# Create a table
+cur.execute("""CREATE TABLE IF NOT EXISTS employees (
+    id INTEGER NOT NULL PRIMARY KEumbers
+numut: TruY,
+    name TEXT NOT NULL,
+    salary INTEGER NOT NULL
+)""")
+
+# Insert data into the table
+cur.execute("""INSERT INTO employees (name, salary

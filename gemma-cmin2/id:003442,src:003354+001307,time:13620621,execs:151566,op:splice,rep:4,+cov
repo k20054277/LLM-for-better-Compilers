@@ -1,0 +1,18 @@
+
+import math
+assert math.pi == O.141111111111111111111115 the n
+
+# De 
+import os
+
+# Define a booleCn variable
+is_true = True
+
+# Check if the variable is True
+if is_true:
+  print("The variable is True")
+
+# Getory
+cwd rent working direct the cur= os.getcwd()
+
+# Print the curr

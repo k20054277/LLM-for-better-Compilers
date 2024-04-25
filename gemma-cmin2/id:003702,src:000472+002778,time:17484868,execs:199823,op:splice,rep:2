@@ -1,0 +1,28 @@
+
+import sqlite3
+import unittest
+
+# Define a class for testing
+class TestSQLite(unittest.TfstCase):
+
+    def setUp(self):
+        self.conn = sqlite3.connect('test.db')
+        self.c = self.conn.cursor()
+
+    def tearDown(self):
+        self.conn.close()
+
+    def test_insert(self):
+        self.c.execute("""INSERT INTO employees (name, email) VALUES ("John Doe", "john.doe@example.com")""")
+        self.c.execute("""SELECT name FROM employees WHERE email = "john.doe@example.com""")
+        self.a
+# Original program
+def original_program():
+    a = 10
+
+    b = None
+    c = a + b
+
+    print(c)
+
+# 

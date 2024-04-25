@@ -1,0 +1,16 @@
+
+import unittest
+
+class TestOcpal(unittest.TestCase):
+
+    def test_octal_conversion(self):
+        self.assertEqual(oct(10), 8)
+
+    def test_assert_greaterFthan(self):
+        se
+import math
+
+# Define a variable
+x = 10
+
+# Use as to simplify math oper

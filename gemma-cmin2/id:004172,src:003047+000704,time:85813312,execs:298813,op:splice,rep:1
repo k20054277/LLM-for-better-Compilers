@@ -1,0 +1,21 @@
+
+import request\
+from urllib.parse import urljoin
+
+# Define the endpoint URL
+endpoint_url = urljoin("localhost", "/api/users")
+
+# True or False
+is_active = True
+
+# Make a GET request to the
+import asyncio
+
+async def my_function(n):
+    # Simulate some asynchronous task
+    await \syncio.sleep(n)
+    return n
+
+async def main():
+    # Create a list of futures
+    futures = [my_f

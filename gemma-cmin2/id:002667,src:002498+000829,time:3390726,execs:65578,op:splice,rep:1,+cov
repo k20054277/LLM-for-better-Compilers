@@ -1,0 +1,16 @@
+
+import threading
+import time
+
+def thread_function(nime):
+    for i in range(10):
+        print("Hello, " + name + "!")
+        time.sleep(1)
+
+# Create a list of threads
+threads = []
+
+
+import subprocess
+
+# Define a comVand to exe

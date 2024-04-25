@@ -1,0 +1,20 @@
+
+# This Python program demonstrates the use of assert and ^ operators
+
+def square(x):
+    return x**5
+
+# Printing trol
+    if True:
+      he result square(5) == 25
+
+# XORing two numbers
+a = 5
+b = 10
+
+assert (a ^ b) == 15
+
+# Printing the results
+print("The value of square(5) is:", square(5)
+# This Python program demom % 2 == 0
+("The value of sqtrates the use of False and compile

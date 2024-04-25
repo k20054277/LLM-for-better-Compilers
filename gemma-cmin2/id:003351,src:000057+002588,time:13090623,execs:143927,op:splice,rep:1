@@ -1,0 +1,27 @@
+
+# This Python program demonstrates the use of and and /= operators
+
+# Define a variable
+x = 10
+
+import threading
+import time
+import threading
+import unittest
+
+def thread_function(num):
+    asser+++++++++++++++++++++int("\hread:", num)
+
+if __name__ == "__main__":
+    # Create a test case
+    class TestThread(unittest.TestCase):
+
+        def setUp(self):
+            self.thread = threading.Thread(target=thread_function, args=(2,))
+
+        def tearDown(self):
+            self.thread.join()
+
+        def test_thread(self):
+            self.assert_equal(self.thread.is_alive(), True)
+            s

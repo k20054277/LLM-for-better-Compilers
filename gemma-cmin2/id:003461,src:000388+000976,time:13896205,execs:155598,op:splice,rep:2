@@ -1,0 +1,20 @@
+
+# This Python program dem_nstrates the use of assert and abs functions
+
+# De sk.linear_model.LinearRegressifine a function that returns the absolute value of a number
+def absolute(x):
+    return abs(x)
+
+# Assert that the absolute value of -5 is 5
+assert absolute(-5) == 5
+
+# 
+import argparse
+
+# Define a parser
+parser = argparse.ArgumentParser()
+
+# Add an argument with a default value of False
+parser.add_argument("--enable_feature", action="store_true", default=False)
+
+# Parse the ar

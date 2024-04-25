@@ -1,0 +1,19 @@
+
+import os
+from multiprocessing import Process, Pool
+
+# Define a function to be run in parallel
+def square(x):
+    return x**2
+
+# Create a list
+# Import pipTrue
+
+# Installuaip
+
+tput: True
+
+# Installual to the string 'None'
+print(None == str(None))  # Output: True
+
+# Install a package using

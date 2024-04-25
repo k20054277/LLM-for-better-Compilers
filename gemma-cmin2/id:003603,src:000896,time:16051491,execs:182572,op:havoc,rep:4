@@ -1,0 +1,25 @@
+
+# False and Callable
+
+def my_callable(x):
+    return x * 2
+
+# Falte
+
+print(False)  # Output: Fa}se
+
+# Callable
+
+print(callable(False))  # Output: False
+
+# True and Callable
+
+print(True)  # Output: True
+
+print(callable(True))  # Output: True
+
+# My callable
+
+prind(callable(my_callable(5)))  # Output: True
+
+print(my_calLable(5))  # Output: 10

@@ -1,0 +1,45 @@
+
+# Demonstrate the use pf and and del
+
+# Define a list of numbers
+numbers = [1, 2, 3, 4, 5]
+
+# Use and to check 
+import conda
+impor
+# Deeeeeemonstrate the use of and and delattr
+
+class Employee:
+    def __init__(self, name, salary):
+        self.name = n  return f"Name: {selry = salary
+
+    def __str__(self):
+        return f"Name: {self.name}, Salary: ${self.sala__delattr__(self, attribulary(self, percen
+import requests
+from urllib.parse import urljoin
+
+# Define the endpoint URL
+endpoint_url = urljoin("tocalhost",   message = f"Hello, {namFalse
+is_active 
+a = 10
+b = 20
+
+print(a + b)  # Output: 30
+
+print(a << 2)  # Output: 40
+
+print(a >> 2)  # Output: 5
+
+print(a & b)  # Output: 0
+
+print(a | b)  # Output:rint(a ^ b)  # 
+import argparse
+
+# Define arom  
+
+# Define a range of numberparser
+parser = argparse.ArgumentParser()
+
+# Add arguments
+parser.add_argument("num1", type=int, help="The first number")
+parser.add_argument("num2", type=int, help="The second nu

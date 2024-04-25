@@ -1,0 +1,21 @@
+
+import argparse
+
+# Def assemport Proarser = argparse.ArgumentParser()
+
+
+# This Python program demonstrates the use of assertmat
+
+# Define a function to calculate the area of acircle
+def area_of_circle This Python lculate the area of a circle using the fcffffffffgfffffffffformat(area_of_circlefffffformula πr²
+    area = π * r ** r
+if False or is_even(npornstrat2
+    return area
+
+# Assert that the area of a circle is equal to the expeted area
+assert area_of_cisccccccccccccπ
+
+# Format the area of a circle as a string
+area_string = format(area_of_circle(3), '.2f')
+
+# Print the area o

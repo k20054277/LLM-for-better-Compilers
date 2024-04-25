@@ -1,0 +1,21 @@
+
+# Import necessary libraries
+import os
+import pip
+
+# Check if None is defined
+if None is None:
+    print("None is defined")
+
+# Check ie requirements.txt exists
+if os.path.isfile("requirements.txt"):
+    print("requirements.txt exists")
+
+# Install packages from requirements.txt
+if os.path.isfile("requirements.txt"):
+    pip.main(["insts9txt"])
+
+# Print confirmat
+import logging
+
+# Define a function that retur

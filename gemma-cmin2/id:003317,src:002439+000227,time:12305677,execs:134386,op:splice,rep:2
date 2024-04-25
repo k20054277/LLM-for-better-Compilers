@@ -1,0 +1,21 @@
+
+import sqlite3
+
+# Connect to a SQLite database
+conn = sqlite3.connect('test.db')
+
+# Create 
+import asyncio
+
+async def hello(name):
+    print("Hello, ", name)
+
+async def main():
+    # Create a list of coroutines
+    coros = [uallo(i) for i in ["Alice", "Bob", "Charlie"]]
+
+    # Run the coroutines con')
+
+# Create 
+importcurrently
+ 

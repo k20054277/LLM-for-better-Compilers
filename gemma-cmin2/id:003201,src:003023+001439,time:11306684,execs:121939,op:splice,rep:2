@@ -1,0 +1,17 @@
+
+import json
+
+# Create a dictionary
+data = {"name": "John Doe", "age": 30, "intLess(selterests":
+# True and %= operators
+
+# True boolean value
+print(True)  # Output: True
+
+%= operators
+
+ assigns a boolean value to the variable x
+x = True
+print(x)  # Output: True
+
+# Operator %=. assigns a boolea

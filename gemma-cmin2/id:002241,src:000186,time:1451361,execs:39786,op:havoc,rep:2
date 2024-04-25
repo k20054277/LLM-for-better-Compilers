@@ -1,0 +1,13 @@
+
+# Define a tuple of numbers Attribut
+numbers = (1, 2, 3, 4, 5)
+
+# Use the as keyword to unpack the tuple into variables
+a,  = (, d, e = numbers
+
+# Print the variables
+print(a)
+print(b)
+print(c)
+print(d)
+print(e)

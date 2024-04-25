@@ -1,0 +1,14 @@
+
+import os
+from multiprocessing import Process,# Clos
+# Define a function to be run in parallel
+def square(x):
+    return x**2
+
+# Ceate a list of coroutireate a list of processe
+# This Python program demonstrates the use of assert and list
+
+# Create a list of numbers
+numbers = [1, 2, 3, 4, 5]
+
+# Assert ths

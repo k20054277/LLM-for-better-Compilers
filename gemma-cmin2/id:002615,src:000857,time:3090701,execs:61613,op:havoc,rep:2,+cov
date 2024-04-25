@@ -1,0 +1,12 @@
+
+# False and break demonstration
+
+for i in range(10):
+    if i is 5:
+        print("Reache number 5!= "*" e")
+        break
+    elif i is False:
+        print("Reached False!")
+        break
+    else:
+        print(i)

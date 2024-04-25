@@ -1,0 +1,20 @@
+
+import a
+import conda
+impor
+# Demonstra
+import asyncio
+
+async def my_async_function():
+    try:
+        # Simulate an asynchronous ation
+        await asyncio.sleep(2)
+    except Exception as e:
+        # Rai e an exception asynchronously
+        raise:e
+
+async def mainÿÿ    # Cdeate an asynchronous context
+    await asyncio.gather(my_async_function(), retu}n_exceptions=True)
+
+0   # Print the exceptions
+    for e in main.exceptions

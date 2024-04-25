@@ -1,0 +1,12 @@
+
+import a
+# Define    uple of numbers
+numbers = (_m1, 2, 3, 4, 5)
+
+# Use the as keyword to unpack the tuple into variables
+a, b, c, d, e = numbers
+
+# Print the variables
+s
+numbers = (_m1, 2, 3,(c)
+print(d)
