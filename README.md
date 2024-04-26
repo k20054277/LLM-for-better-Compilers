@@ -4,15 +4,15 @@ Date: 25 APR 2024
 
 Author: Jiaqi Xu
 
-The implementation is a critical component in my project aimed at enhancing compiler testing techniques by integrating the innovative capabilities of LLMs with the robustness of fuzzing methodologies. This document will provide a step by step guide to building my proposed compiler testing process. 
+The implementation is a critical component in my project to enhance compiler testing techniques by integrating the innovative capabilities of LLMs with the robustness of fuzzing methodologies. This document will provide a step-by-step guide to building my proposed compiler testing process. 
 
-    Environment requirements: The testing framwork encompasses a series of tools that needs to be build locally including LLMs Mistral 7B, Codellama 7B, and Gemma 7B. These processes will require a large portion of memory. It is recommanded to have at least 100GB of storage available on your device before building the project.
+    Environment requirements: The testing framework encompasses a series of tools that need to be built locally, including LLMs Mistral 7B, Codellama 7B, and Gemma 7B. These processes will require a large portion of memory. It is recommended that you have at least 100GB of storage available on your device before building the project.
 
 # Installation Steps
 
-1.Install Required Software:
+1. Install Required Software:
 
-Please first make sure Docker and Python3 is installed on your device.
+Please first make sure Docker and Python3 are installed on your device.
 
 Install Docker: 
 
@@ -20,13 +20,13 @@ Install Docker:
 
     for pkg in docker.io docker-doc docker-compose docker-compose-v2 podman-docker containerd runc; do sudo apt-get remove $pkg; done
 
- If you are installing docker for the first time on a new host machine, you need to set up the Docker repository. Afterward, you can install and update Docker from the repository. Visite https://docs.docker.com/engine/install/ubuntu/ for more details.
+ If you are installing Docker for the first time on a new host machine, you need to set up the Docker repository. Afterwards, you can install and update Docker from the repository. Visit https://docs.docker.com/engine/install/ubuntu/ for more details.
 
 Then install the Docker packages:
 
     sudo apt-get install docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin
 
-Use this command to verify your install:
+Use this command to verify your installation:
 
     sudo docker run hello-world
 
@@ -44,7 +44,7 @@ Ollama can be easily installed with the following command:
 
     curl -fsSL https://ollama.com/install.sh | sh
 
-once installed, The models Mistral, Gemma, CodelLama can be pulled using Ollama with the following command:
+once installed, The models Mistral, Gemma, and CodelLama can be pulled using Ollama with the following command:
 
     ollama pull mistral
     ollama pull gemma
@@ -85,7 +85,7 @@ Prepare for Fuzzing:
 -
    
    Use `delete_empty.py` to remove any ineffective test cases:
-   - please note this script should only be run once generation from the model of choice is complete.The statistics generated will only display acurate information the first time.  
+   - please note this script should only be run once generation from the model of choice is complete. The statistics generated will only display accurate information for the first time.  
 ```bash
 python delete_empty.py
 ```
@@ -96,7 +96,7 @@ Fuzzing with AFL:
     
 We will be using Docker to set up and run the Fuzzing environment. You should be able to find a `dockerfile` in the root directory of your project.
 
-- Please ensure docker has been set up by following installation information in the first section of the user instructions.
+- Please ensure docker has been set up by following the installation information in the first section of the user instructions.
 
 Build the Docker image by running the following command:
 
@@ -132,16 +132,16 @@ and the following scripts:
     move_all.py
     compare.py
 
-This means that the container has been corectly set up.
+This means that the container has been correctly set up.
 
-You can now run the following script to start fuzzing your llm generated programs, stored in their respective directories: gemma, mistral, codellama.
+You can now run the following script to start fuzzing your llm generated programs, which are stored in their respective directories: gemma, mistral, and codellama.
 
-- If running the container for the first time or restarting after a crash. you may need to follow the on screen command to modify `/proc/sys/kernel/core_pattern` with the command `echo core >/proc/sys/kernel/core_pattern`
+- If running the container for the first time or restarting after a crash. you may need to follow the on-screen command to modify `/proc/sys/kernel/core_pattern` with the command `echo core >/proc/sys/kernel/core_pattern`
 
 ```bash
 py-afl-fuzz -m 80000 -t1000000 -i mistral/ -o mistral_out/ -- Python-3.13.0a5/python @@
 ```
-   - You can monitor the fuzzing process and manage any crashes as documented with the interface that will be generated once all the input testcases have been processed. 
+   - You can monitor the fuzzing process and manage any crashes as documented with the interface that will be generated once all the input test cases have been processed. 
 
 The tag -i and -o are required tags denoting the input directory with test cases and the output directory for fuzzer findings. The tag -m denotes the memory limit for child process in MB with no limit as the default option. The tag -t denotes the timeout limit for each run with a default of 1000 ms. The final tag @@ is used to instruct that when child processes requires inputs, AFL generated inputs will be used.
 
@@ -151,31 +151,31 @@ A sample command to resume Py-afl from /home/debian is as follows:
 
     py-afl-fuzz AFL\_AUTORESUME -m 80000 -t1000000 -i- -o mistral\_out/ -- Python-3.13.0a5/python @@
 
-Optional Minimisaion:
+Optional Minimisation:
 -
-After fuzzing the test cases you may decide to run an option minimisation algorithm afl-cmin. This process tries to find the smallest subset of files in the input directory that still trigger the full range of instrumentation data points seen in the starting corpus. The command to run cmin is as follows: 
+After fuzzing the test cases, you may run an option minimisation algorithm called afl-cmin. This process tries to find the smallest subset of files in the input directory that still triggers the full range of instrumentation data points seen in the starting corpus. The command to run cmin is as follows: 
 
     afl-cmin -i mistral\_out/default/queue -o Python-3.13.0a5/debug/mistral-cmin -- Python-3.13.0a5/python @@
 
 Conduct Differential Testing:
 -
-After you have finished the fuzzing session. You can use the script `move_all.py` to move all the fuzzing output from the respective directories(mistral_out/, gemma_out/, codellama_out/) to the compiler libraries in Python-3.12.3/ and Python-3.13.0a5/. The compiler library is also where we will run the next script `run_cpython_3.12.py` and `run_cpython_3.13.py` 
+After you have finished the fuzzing session. You can use the script `move_all.py` to move all the fuzzing output from the respective directories(mistral_out/, gemma_out/, codellama_out/) to the compiler libraries in Python-3.12.3/ and Python-3.13.0a5/. The compiler library is also where we will run the next script, `run_cpython_3.12.py` and `run_cpython_3.13.py` 
 
-   - Use `run_cpython_3.12.py` and `run_cpython_3.13.py` to execute the test cases across different Python versions, you must first be in the python directory before running the scripts:
+   - Use `run_cpython_3.12.py` and `run_cpython_3.13.py` to execute the test cases across different Python versions. You must first be in the Python directory before running the scripts:
      ```bash
-     python run_cpython_3.12.py
-     python run_cpython_3.13.py
+     python3 run_cpython_3.12.py
+     python3 run_cpython_3.13.py
      ```
     
 This will run the compiler to generate error files and result files, ready for comparing outputs to identify discrepancies.
 
-After running the test suite, the script `move_all.py` can be used again to move the results from the python directories to the folder /home/debian/compare/
+After running the test suite, the script `move_all.py` can be used again to move the results from the Python directories to the folder /home/debian/compare/
 
 Evaluate Results:
 -
  Review the data collected from the testing phases. Assess code coverage, crash data, and execution efficiency.
 
- The scipt `compare.py` can be run from /home/debian to compare the outputs between compiler versions for a selected model. As this process is mainly processed by human knowlege however, this script only provides limitted support.
+ The script `compare.py` can be run from /home/debian to compare the outputs between compiler versions for a selected model. As this script is mainly processed by human knowledge, however, this script only provides limited support.
 
 Troubleshooting and Tips
 - Handling Crashes: If Python-AFL crashes, resume the session using AFL_AUTORESUME.
