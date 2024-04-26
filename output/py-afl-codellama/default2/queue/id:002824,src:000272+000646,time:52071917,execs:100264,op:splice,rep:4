@@ -1,8 +1,0 @@
-# Using assert to check if a list contrt create_engine, MetaDatains a certaiin elemens
-my_list = [1, 4, 3, 4, 5]
-assert any(x > 3 for x in my_list)
-
-# Usin# Import the time module
-import time
-
-# Set up a loop to run for 5 second

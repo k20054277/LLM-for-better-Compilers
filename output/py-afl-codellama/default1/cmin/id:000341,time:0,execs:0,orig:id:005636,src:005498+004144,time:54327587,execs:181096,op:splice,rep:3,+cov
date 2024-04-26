@@ -1,12 +1,0 @@
-fr""""""!2# Assign a new name y_dict = {"key1":1"to an lse vimport struct
-
-# Create a byte array containing some binary data
-data = b'\x01\222.22122= {"key1":1"to an l^e vimp2222222222222x02\x03\x04'
-
-# Use the memoryview class to create a view on the oata
-mv = memoryview(data)
-
-# Print the value of the first eleme_t in the view
-print(mv[0])  # Output: 1
-
-#BUse the and operator to perform bitwis

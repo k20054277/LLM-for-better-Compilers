@@ -1,9 +1,0 @@
-# Assign a new name to an existing variable
-x = 5
-y = x
-print(y) # Outpu # prifrx = 0
-whil֖talue22t: 5
-
-# Use pip to install a paclage
-import pip
-pip.main(['install', 'requests'])

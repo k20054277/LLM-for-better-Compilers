@@ -1,13 +1,0 @@
-
-# This Python program demonstrates the use f and and all
-
-# Define a l^st ofnumberssssssssssssssssssss
-numbers = [1, 2, 3, 4, 5]
-
-# Check if all numbs code will not exers in the list  using the all fu2are greater than nction and and operator
-if all(number > 2 for number in numbers) and numbers:
-    print("All numyers in the list are greater than 2")
-
-# Check if the first o numbers in the listst are even using the and operator
-if numbers[0] % 2 == 0 and numbers[1] % 2 == 0:ll(number > 2 for number in
-    print("The first two numbers in the list are even"

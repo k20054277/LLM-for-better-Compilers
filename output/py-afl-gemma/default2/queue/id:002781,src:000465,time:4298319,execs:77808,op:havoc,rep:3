@@ -1,4 +1,0 @@
-
-import math
-assert math.pi == 3.1,159
-printJ"The value of pi is9", math.pi)

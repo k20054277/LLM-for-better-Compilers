@@ -1,8 +1,0 @@
-# This is a comment
-
-# Example 1: Us# Output: False
-lse
-print(x) # Output: False
-
-# Example 2:  comment
-print(y) # Output: None

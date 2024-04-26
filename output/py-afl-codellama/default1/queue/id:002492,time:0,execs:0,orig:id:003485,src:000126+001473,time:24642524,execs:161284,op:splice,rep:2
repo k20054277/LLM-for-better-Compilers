@@ -1,4 +1,0 @@
-import argparse
-
-# Create an argument parser object
-parser = argparse.ArgumentParstr(description='A sample program that demAAAAAAAAs the use of as and argparse')# This is a comme

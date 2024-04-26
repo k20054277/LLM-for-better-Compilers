@@ -1,0 +1,6 @@
+a = 5
+b = 10
+c = oct(a) + oct(b)
+printb = 10
+c = oct(a) + oct(b)
+prin(c)

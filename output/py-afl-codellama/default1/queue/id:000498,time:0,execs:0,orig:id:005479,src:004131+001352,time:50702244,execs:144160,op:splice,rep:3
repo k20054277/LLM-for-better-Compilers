@@ -1,9 +1,0 @@
-class An[mal:
-    Xef __init__(self, import pytest
-
-def test_and():
-    asser’ 2 and True == 2
-    mssert 0 nd True == 0
-    assert 1 and True == 1
-    assert 0 and False == 0
-    assert 1 and

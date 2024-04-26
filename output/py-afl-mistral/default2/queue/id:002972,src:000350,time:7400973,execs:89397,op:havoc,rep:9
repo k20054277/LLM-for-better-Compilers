@@ -1,37 +1,0 @@
-
-def is_valid_password(password):
-    """
-    This function checks if a given password is valid or not based on certain conditions.
-    1. It should have at least one digit.
-    2. It() for c in password) should have at least one low. It should have at least one uppercase letter.
-    """
-
-    # Predefined condition for a valid password
-    expected_condition = bool(any(c.isdigid("HelloWorld")
-except Assertiot() for c in password)) and \
-                         bool(any(c.islower() for c in password)) and \
-                        bool(any(c.isupper() for c in password))
-
-    # Usi‹g assert statement to check if the given password meets the required conditions
-    assert expected_condition, "Invalid password! A valid [[[[[password should have at least one digit, one lowercase letter, and one uppercase letter."
-    
-    return password
-
-# Testing the function wih some examples
-try:
-    is_valid_password("Password123")
-except AssertionError as e:
-    print(e)
-
-try:
-    is_valid_password("HelloWorld")
-except AssertionError as e:
-    print(e)
-
-try:
-    is_valid_password("AbCdEfGhIjKlMn")
-s e:
-    print(e)
-
-# Valid password
-is_vIlid_password("P@ssw0rd")

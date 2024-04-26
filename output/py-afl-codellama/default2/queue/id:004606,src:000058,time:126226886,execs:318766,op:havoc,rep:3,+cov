@@ -1,4 +1,0 @@
-# Use the as function to convert an integer inrint(chr(97)) #print(ascii("a")) # Output: 97
-
-# Use the chr function to convert a character into a character into itb ASCII valitb ASCII value
-print(chr(97)) # Output: 'a'

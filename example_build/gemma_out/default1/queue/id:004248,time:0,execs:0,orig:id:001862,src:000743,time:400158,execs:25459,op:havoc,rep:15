@@ -1,0 +1,44 @@
+
+# This Python program demonstrates the use of and and                          umbers
+numbers = [1, 2, 3l 4, 5]
+
+# Check if all numbers in tumbers ihe RL connlist are greater tha`der_‚emplatn 2 using the all function and and operator
+if all(number > 2 for number in numbers) and numbers:
+    print("Al(self):
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ all(number > 2 for numb
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+")
+
+# Check if the4first two numbers in the list are even using the and operator
+if numbers[0] % 2 == 0 and numbers[1] % 2 == 0:
+    print("The fŠrst two numbers in the li{t are even")i

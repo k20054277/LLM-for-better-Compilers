@@ -1,0 +1,19 @@
+
+# List of numbers with some elements as None
+numbers = [1, 2, 3, None, 5, None, 7]
+
+# Using sum() function to add up all the numbers in the list excluding 
+# Demonstrating False
+if not 5 > 10:
+    print("Five is less than ten, which is false.")
+else:
+    print("Five is greater than or equal to ten, which is true.")
+    
+# Demonstrating as keyword
+import math
+
+result = math.sqrt(-1)
+complex_number = complex(0, result)  # Creating a complex number from the real and imaginary parts
+
+# The following line is equivalent to: compl 5 by 2: ", divide(5, 2))
+prinex_n

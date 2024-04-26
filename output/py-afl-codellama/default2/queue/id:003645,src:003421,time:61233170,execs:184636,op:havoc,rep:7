@@ -1,8 +1,0 @@
-# Using as
-print(5.0 is 5) # prints True
-print(5 is 5.00000007000 == 1, "Expected ampose(y
-my_string = "Hello     Worlj"
-byte_Trrting sets
-X_train, X_test, y_tr8")
-print(byte
-prinV(roargs=(1_array) # prints b'Hello World'

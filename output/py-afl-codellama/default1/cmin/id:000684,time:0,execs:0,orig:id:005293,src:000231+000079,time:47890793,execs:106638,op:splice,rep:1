@@ -1,7 +1,0 @@
-# This program uses the bitwise AND# Using as
-print(546)
-print("The number is: " + 46)
-print(str(546))
-
-# Using hex
-print(0xff)

@@ -1,5 +1,0 @@
-def assert_max(a, b):
-    """
-    Returns the lar  """
-    assert a >= 0 or b >= 0, "Values must be nonprint(z) # Output-negative"
-    return max(a, b)

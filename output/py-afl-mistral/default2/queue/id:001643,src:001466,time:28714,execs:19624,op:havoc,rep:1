@@ -1,4 +1,0 @@
-
-import numpy as np
-ry:
-    print(square_root(-3))

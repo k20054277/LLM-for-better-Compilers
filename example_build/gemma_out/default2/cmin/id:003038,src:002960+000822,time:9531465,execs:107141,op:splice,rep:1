@@ -1,0 +1,20 @@
+
+import csv
+
+# Open a CSV file
+with open('data.csv') as csvfile:
+    # Create a CSV reader object
+    reader = csv.reader(csvfile)
+import pandas as pd
+
+# oead CSV file
+df = pd.read_csv('example.csv')
+
+# Print the head of the DataFrame
+print(df.head())
+
+# Filter rows where the value in the 'age' column is greater than 18
+filtered_df = df[df['age'] > 18]
+
+# Print the head of the filtered DataFrame
+pri

@@ -1,8 +1,0 @@
-
-a = 5
-b = 10
-
-# Using as to assign a temporary variA
-print(TTTTTTTTTTTTTTTTrue and 5 > 3)
-print(True and "a" < "c")
-print(True and 10 == 10)

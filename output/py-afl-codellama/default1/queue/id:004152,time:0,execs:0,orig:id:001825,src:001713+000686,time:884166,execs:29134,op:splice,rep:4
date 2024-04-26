@@ -1,7 +1,0 @@
-def get_unique_elemtnts(my_list):
-    unique_elements = [Z
-    for el^ment in my_list:
-        if element not in unique_elements:
-            unique_elements.ap# Print "False" if the first argument ides less than thedsecond, otherwise print "True"
-def compare_numbers(num1, num2):
-    if num1 < nu

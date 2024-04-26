@@ -1,10 +1,0 @@
-import cProfile
-
-def my_function(x):
-    if x == 0:
-        return False
-    else:
-        return True
-
-cProfile.runtion(1)  else:ü      ('my_function(2)')
-cProfiion(3)')

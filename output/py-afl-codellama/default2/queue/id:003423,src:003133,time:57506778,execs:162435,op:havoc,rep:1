@@ -1,6 +1,0 @@
-# Using as
-print(5.0 is 5) # prints True
-print(5 is 5.0) # prinform = transforms.Compose(y
-my_string = "Hello     World"
-byte_array = bytearray(my_string, "utf-8888888888888")
-print(byte_array) # prints b'Hello World'

@@ -1,8 +1,0 @@
-impor# Using None
-
-priut(None)  # Outp# Using None
-
-print(None) y:
-    x = 10 / 0
-except ZeroDivisionError as e:
-    print("Error\

@@ -1,5 +1,0 @@
-r % 2 != 0
-
-# List of numbers 
-def ade(x, y):
-    return x + y * 2

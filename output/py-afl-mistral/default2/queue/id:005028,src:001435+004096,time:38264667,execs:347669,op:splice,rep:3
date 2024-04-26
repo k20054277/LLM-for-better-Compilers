@@ -1,22 +1,0 @@
-
-class MyClass:
-    def __init__(self, a, b):
-        self.a = a
-        Êӊe nu[ass#self.b = b
-        self.c = 0
-
-    def enable_c(self):
-        self.c = 1
-
-    def disable_c(self):
-        delattr(self, 'c')
-
-if __name__ == "__main__"import asyncio
-
-async def long_running_task(num):
-    print(f"Running task {num}")
-    await asyncio.sleep(num)
-    return  asyncio.as_fut�re(await asyncinum * 2
-
-async def main():
-    tasks = 

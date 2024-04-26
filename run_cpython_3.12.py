@@ -3,15 +3,14 @@ import os, subprocess, time
 
 
 def run_compiler(run_path):
+     #run compiler subprocess 
     try:
         p = subprocess.run(
         run_path,
         stdout= subprocess.PIPE,
         stdin=subprocess.PIPE, 
         stderr=subprocess.PIPE,
-        timeout=300
-        # shell =True, 
-        # text = True,
+        timeout=300 #give process 300 seconds
         )
         
     except subprocess.TimeoutExpired: 
@@ -28,15 +27,14 @@ def read_files(file_path, result_file, error_file):
     f = open(result_file, "w").close
     f = open(error_file, "w").close 
     print("Running...")    
+    #run each test with subprocess
     for file in sorted(os.listdir(os.getcwd() + file_path)):
         print("--------")
         print(file)
         run_path = ["./python", "."+file_path+"/"+file]
         result = run_compiler(run_path)
         if str(result[1]) == "b''":
-            # print("pass " + str(out_i) +"\n")
-            # print("out: ")
-            # print(result[0])
+            #write output in result file
             f = open(result_file, "a")
             f.write(str(out_i) +file)
             f.write("\n")
@@ -46,11 +44,7 @@ def read_files(file_path, result_file, error_file):
             f.close()
             out_i = out_i + 1
         else:
-            # print("fail " + str(err_i))
-            # print("out: ")
-            # print(result[0])
-            # print("err: ")
-            # print(result[1])
+           #write errors in error file
             f = open(error_file, "a")
             f.write(str(err_i) + file)
             f.write("\n")
@@ -65,6 +59,7 @@ def read_files(file_path, result_file, error_file):
     print("your results are stored in : " + result_file +" and " +error_file)
 
 def run_test(model):
+    #directory paths
     gemma_cmin_path = "/debug/gemma-cmin"
     mistral_cmin_path = "/debug/mistral-cmin"
     codellama_cmin_path = "/debug/codellama-cmin"
@@ -104,6 +99,7 @@ def run_test(model):
             run_test(model);
     
 def main():
+    #selection menu
     print("test options: ")
     print("-------------------------------------")
     print("1: afl fuzzed minimised gemma test suite")

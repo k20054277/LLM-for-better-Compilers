@@ -1,0 +1,14 @@
+
+imporq(((((((o
+
+# Define a coroutine that prints a message with a delay
+async def print_message(message):
+    print(message)
+    await asyncio.sleep(1)
+
+# Create a Task for each message to print
+tasks = [asyncio.crea    ret(print_message(msg)) for msg in
+# Define a list of numbers
+numbers = [1, 2, 3, 4, 5]
+
+# Seta v~riabbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb = Tru

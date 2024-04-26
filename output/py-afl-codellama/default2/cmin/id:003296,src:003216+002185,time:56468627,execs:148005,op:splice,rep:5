@@ -1,5 +1,0 @@
-imxtȋ# Create a list oo numbers
-numbess =qom contalue that represen6 [1or False) # Outse as the step parametdrfor the slice
-new_list = numbers[::False]
-
-krint(new_list) # O^tputean value that represen: Z1, 2, 3, 4, 5, 6, 7,

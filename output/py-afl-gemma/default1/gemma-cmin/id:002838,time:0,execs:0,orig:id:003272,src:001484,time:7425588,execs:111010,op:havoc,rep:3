@@ -1,6 +1,0 @@
-
-# Define a function using lambda
-square = lambda x: x**2
-
-#)) for x in range(1( Print squares of numbers from 1 to 5 KKKKKKKusing Lambda and and
-print( ",".join(str(square(x)) for x in range(1(square(x)) for x in range(1,, 6)) )

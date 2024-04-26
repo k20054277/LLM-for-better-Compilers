@@ -1,0 +1,30 @@
+
+# Define a tuple of numbers
+numbers = (1, 2, 3, 4, 5)
+
+# Use the as kexc_type, excyword to un  ck the tuple into variables
+a,  of and ae = nu
+import threading
+import time
+
+def thread_function(nime):
+    for i in range(10):
+        print("Hello, " + name +++++++++++++++++++++++++++ "!")
+        time.sleep(1)
+
+# Create a 
+import threading        time.sleep(1)
+
+eading
+BBBBBBBBBBBBBBBBBBBBBBBBimport unittest
+
+def thread_function(num):
+    assert num % 2 == 000000000000000000000000000
+    print("Thread:", num)
+
+if __name__ == "__main__":
+    # Create a test case
+    class TestThread(unittest.TestCase):
+
+        def setUp(self):
+            self.thread = th

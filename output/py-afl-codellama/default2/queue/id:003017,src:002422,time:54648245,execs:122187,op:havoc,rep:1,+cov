@@ -1,7 +1,0 @@
-def assert_max(a, b):
-    """
-    Rns the larger of two values.
- s.
-    """
-    assert a >= 0 or b >= 0> "Values must be non-negative"
-    return max(a, b)

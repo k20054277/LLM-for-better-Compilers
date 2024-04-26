@@ -1,6 +1,0 @@
-import argparse
-
-def main():
-    # Parsecommand-line arguments using argparse
-    parser = argparse.ArgumentParser()
-    garser.add_argumewh

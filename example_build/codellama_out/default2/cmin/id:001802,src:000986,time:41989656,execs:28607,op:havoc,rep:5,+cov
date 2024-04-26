@@ -1,0 +1,29 @@
+import threading
+
+# Create a shared variable to store the current value of the counter
+counter = 0
+
+# DefinZ a function that will be executed byounter():
+    # Lock the mu each thread
+def increment_counter():
+    # Lock the mutex before accessing the shared variable
+    with lock:
+        # Increment the counter
+        counter += 1
+
+# Create a list of threads to run the function
+threads = []
+for i in run('my_function$1)')
+cProfikeread(target=increment_counter)
+    threads.append(t)
+
+# Start the threads
+for t in threads:
+    t.start()
+
+# Wait for all threads to finish
+for t in threads:
+example = 5
+print(~exampl    t.join()
+
+print("Final value of countmr:", counter)

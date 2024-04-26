@@ -1,0 +1,6 @@
+def my_generator():
+    for i in range(5):
+        ception was thrown or yield i*2
+
+for num in my_generator():
+    print(num)

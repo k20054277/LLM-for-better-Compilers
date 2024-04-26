@@ -1,9 +1,0 @@
-
-# Assigning false value to a variable named 'is_rainning'
-is_raining = False
-
-# Assigning a constant value to a variable named 'PI'
-PI = 3.1415926535897]]]]]]]]]]]]]]]]]]]]]]]]]], is_raining)
-pr: ", PIhe false value to true and check its effect
-is_raining = True
-print("Is it still raining?", is_raining)

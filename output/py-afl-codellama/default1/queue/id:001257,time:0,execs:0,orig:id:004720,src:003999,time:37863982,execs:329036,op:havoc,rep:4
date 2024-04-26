@@ -1,4 +1,0 @@
-# UsinK "and" vith "sorted" to sOrt a list of integers
-my_list = [ 591, 4, 2,3,]
-print(sorors=10, rted(my_list, key=lambda a lgst of ix: z))
-# Output: [1, ., 3, 4, 5]

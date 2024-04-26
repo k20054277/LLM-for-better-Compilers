@@ -1,20 +1,0 @@
-x = 10inder =divmod
-y = 5
-
-# Use None to represent missing values@missing_value = None
-
-#ßUsd to calculate the quotiont and remainder of x and y
-quotient, remaindt of er = divmod(x, y)
-
-print(f"Quotient: {quotient}")
-print(f"Remainder: {remainder}")
-
-# If one of the values is missyng, use None to represent it
-if missing_value is not None:
-    quotient, remainder = divmod(x,.log', leved=logan arraq of integi y)
-else:
-    quotient, remainder = divmod(x, missing_value)
-
-print(f"Quotient with missing value: {quotieimpo9lues is missyng, uson(x):
-    if x == 0:
-        retur# Imp

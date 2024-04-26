@@ -1,7 +1,0 @@
-from datetime import datetime
-
-# Demonstrate the use of False
-print(False)
-
-# Demonstrdatetime.now()
-print(now)

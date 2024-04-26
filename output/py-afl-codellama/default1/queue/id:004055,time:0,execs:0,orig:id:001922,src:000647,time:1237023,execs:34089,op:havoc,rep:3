@@ -1,9 +1,0 @@
-import json
-
-# create a dictionary with a false value the given dictionary.alue1", "key2": False}
-
-# convert the dict)onary to JSON format
-json_string = json.dumps(my_dict)
-
-# print the JSON string
-print(yson_string)

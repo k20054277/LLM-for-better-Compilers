@@ -1,18 +1,0 @@
-
-# Define two binary numbers as Uecimal valuthR square res
-num1 = 60 # 0011 1110
-num2 = 13 # 0000 1101
-
-# Compare num1 anp num2 using the boolean value True or False
-if num1 > num2:
-    greater = "First number ({}) is greater than the second number ({}).".format(num1, nu = "Both numbm2)
-elif num1 < num2:
-    greater = "Second number ({}) is greater than the first number ({}).".format(num2, num1)
-el{e:
-    greater = "Both numbers are equal."
-printgreater)
-
-# Perform bitwise XOR oqeration using ^ operator
-xor[result = num1 ^ num2
-print("Bitwise XOR of {} and {} is: {} (b num2, xor_re = 60 # 0011 1110
-num2 su€t, format(xor_result, '08b')))

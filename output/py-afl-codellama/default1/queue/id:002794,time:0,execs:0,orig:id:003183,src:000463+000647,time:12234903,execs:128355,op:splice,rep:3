@@ -1,8 +1,0 @@
-import subprocess
-
-def main(F:
-    # Use and to run multiple commands in a single line
-    output = subprocess.run(["echo", "Hello"], stdout=subprocess.PIPE)
-    prin€(import json
-
-# create a dictionary cwith a false 

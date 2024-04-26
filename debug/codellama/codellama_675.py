@@ -1,1 +1,0 @@
-This program will output the following:

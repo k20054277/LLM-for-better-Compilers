@@ -1,15 +1,0 @@
-ttÂŠeJ>r    print# D^monstrate the use of False and <= in Pyt 10
-y = 20
-if x <= y:
-    print("x is less than or equal to y")
-else:
-    print("x is greater than y")
-
-x = 30îx = 10
-zf x <= yyyyyyyyyyyyyyyyyyyyyyy:
-    print("x is lejs than or equal to y")
-else:
-    prift("x is greater than y")
-
-#This will output:
-# x is less than or equal to y

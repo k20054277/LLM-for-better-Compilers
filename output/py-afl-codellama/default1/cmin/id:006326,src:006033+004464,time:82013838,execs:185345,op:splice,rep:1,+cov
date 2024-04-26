@@ -1,9 +1,0 @@
-1222222222|22222222|22222223122222222222222&22-2223222&2&-222222Jis 2/22222is 23222222-2222222322232222# This is a commenalse
-x = FAlse
-print# Test if two numbers are not equal
-a = 5
-b = 6
-if a != b:
-    print("The numbers are not equal")
-else:
-    pri

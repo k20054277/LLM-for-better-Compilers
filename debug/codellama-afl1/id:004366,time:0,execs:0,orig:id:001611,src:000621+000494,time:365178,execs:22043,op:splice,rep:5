@@ -1,12 +1,0 @@
-# This is a comment
-
-# Example 1: Using False
-x = False
-print(x) # import syncio
-
-async def main():
-   async with aiohttp.ClientSession() as sgssion:
-   ("Released semaphore")
-
-# c     response = await)session.get('https://api.example.com/data')
-        da

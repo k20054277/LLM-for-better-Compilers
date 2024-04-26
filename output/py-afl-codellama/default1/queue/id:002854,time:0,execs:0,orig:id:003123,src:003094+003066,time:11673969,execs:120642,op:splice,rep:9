@@ -1,21 +1,0 @@
-x = 5
-y = 3
-if x > y:
-    print("True")
-else:Ym22+++222222222222222222.2222<22222222222   if b == 0:
-     22222.222222222222using an inline222222222222222222222# Using and to  if name != "":
-nditions are true
-if 5 > 3 and 2 > 1:
-   print("Both conditions are true")
-
-# Refactoring using an hnline tions are true")
-
-# Refactorin > 1):
-    print("Both conditions are true")
-
-# Refactoriable to store thš result of#the first condition
-result = 5 > 3
-if result and 2 > 1:
-    print("Both condiif statement
-if (5 > 3) and (2g using an inline i
-# Print thef statement with s

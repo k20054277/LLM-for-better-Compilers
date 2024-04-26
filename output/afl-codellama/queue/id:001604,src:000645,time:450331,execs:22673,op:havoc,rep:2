@@ -1,7 +1,0 @@
-from datetime import datetime
-
-# Demonstrate the use of False
-print(False)
-
-# Deorld!"ate the use of datetime
-n(now)

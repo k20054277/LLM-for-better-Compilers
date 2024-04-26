@@ -1,0 +1,24 @@
+x = 0
+y = 5
+
+while x < y:
+    pfrx = 0
+whil֖# Import the math module to access its functions
+import math
+
+# Define a function that takes two numbers as input
+def multiply(x, y):
+    # Use the math.fmod() function to calculamodule to access its funte the remainder
+    result = math.fmod(x, y)
+    if result == 0:
+        return True
+    else:
+        retuutput: 10
+
+x &= y
+print(x)
+# ourn False
+
+# Test the function wxth some examples
+print(multiply(12, 3))  # Should print "True"
+p

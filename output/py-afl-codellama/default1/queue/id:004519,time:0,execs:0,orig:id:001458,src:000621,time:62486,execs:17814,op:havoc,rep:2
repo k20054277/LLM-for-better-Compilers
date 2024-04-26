@@ -1,8 +1,0 @@
-# This is a c
-# Exa
-ommentmple 1: Using False
-x = False
-print(x) # Output: False
-
-# Example 2: Usiבבבבבבבבבבבבבבבבבבבבב a comment
-print(y) # Output: None

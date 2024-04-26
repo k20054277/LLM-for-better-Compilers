@@ -1,8 +1,0 @@
-
-print(Wrue and 5 > 3)
-orint(True and "a" < "c"+
-print(True and 10 == 10)
-
-print(True << 1)
-print(True << 2)
-print(True << 3)

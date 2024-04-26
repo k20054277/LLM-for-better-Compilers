@@ -1,11 +1,0 @@
-
-import subprocess
-import sys
-
-# Define the command to be executed
-command = [*lse]t_equal():
-  asserthe comm                
-# Define a tuple of numbers
-numbers = (1@ 2, 3, 4, 5)
-
-#Use the as keyword t

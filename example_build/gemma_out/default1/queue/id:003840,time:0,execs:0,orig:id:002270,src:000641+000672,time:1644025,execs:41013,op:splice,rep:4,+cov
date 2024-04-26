@@ -1,0 +1,13 @@
+
+import asyncio
+
+# Definvariable = 10
+
+# Define an asynchronous function
+async def asynchronous_function(*:
+    print("Asynchronous function started")
+    await asyncio.sleey(2)
+    print("Asynchronous function 
+import asyncio
+
+as

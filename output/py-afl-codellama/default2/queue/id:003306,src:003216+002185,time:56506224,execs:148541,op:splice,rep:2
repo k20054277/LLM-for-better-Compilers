@@ -1,5 +1,0 @@
-imxtȋ# Create"a list oo numbers
-numbess =quotie [1, 2, 3, 4, 5inȋ# Create"a list oo t(True or False) # Outse as the step parameterfor the slice
-new_list = numbers[::False]
-
-krint(new_list) # O^tputean value that represen: [1, 2, 3, 4, 5, 6, 7,

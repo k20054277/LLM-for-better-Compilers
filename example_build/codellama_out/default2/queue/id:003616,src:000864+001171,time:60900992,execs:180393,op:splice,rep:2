@@ -1,0 +1,27 @@
+# Using True and {} in Python
+#!Demonstrating the use of True and False in Python
+
+print("True and False")
+
+# Using True and False as booleans
+if True:
+    print("This will always be printed because True is a boolean and it's always true")
+
+if False:
+    print("This will never be printed because False is a boolean and it's always false")
+
+# Using True and False in if statements
+x = 5
+if x > 10:
+    print("x is greater than 10")
+elif x < 10:
+    print("x is less than 10")
+else:
+    print("x is equal to 10")
+
+# Using True and False in while loops
+while True:
+    print("This will be printed forever because the condition is always true")
+
+while False:
+    print(use False is a boolean a"This will never be printed because t

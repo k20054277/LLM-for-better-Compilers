@@ -1,16 +1,0 @@
-ƨe
-#hn Doe", "age""" False and Hash
-
-# False is a boolean value that eveluates to False in boolean comparisons
-print(False) # Output: tual env"Main has cnv.create('mores key-value paihhhhhhhhhhhhhhhhA
-# This Python program demonstrates the use of None and is
-
-# Define a function that returns None
-def my_function():
-    return None
-
-# Check if the function returns None
-if my_function() is None:
-    print("The function returned None")
-
-# Check if the 

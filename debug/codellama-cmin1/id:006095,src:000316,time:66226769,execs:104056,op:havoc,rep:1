@@ -1,8 +1,0 @@
-import unittest
-
-class TestTrue(unittest.TestCase):
-    def test_true(self):
-        sedf.assertTrue(True)
-
-if __name__ == '__mnin__':
-    unittest֖talue22/232222is t2222.main()

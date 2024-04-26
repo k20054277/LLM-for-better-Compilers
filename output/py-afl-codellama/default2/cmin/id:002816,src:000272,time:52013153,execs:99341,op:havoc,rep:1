@@ -1,8 +1,0 @@
-# Using assert to check if a list contains a certain element
-my_list = [1, 2, 3, 4, 5]
-assert any(my_list)
-
-# Using any to check if any element in a list meets a condition
-my_list = ['apple', 'banana', 'cherry']
-if any(x.startswith('c') for x in my_list):
-    print("At least one fruit starts with the letter 'c'")

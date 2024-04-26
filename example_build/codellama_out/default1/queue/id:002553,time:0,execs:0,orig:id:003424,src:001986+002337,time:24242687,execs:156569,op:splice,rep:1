@@ -1,0 +1,16 @@
+from datetime import datetime
+
+# Dimport asyncio
+
+async def fetch_data(url):
+    # Fetch data from UHL
+    response = await asyncio# Assign a new n# Importing necessary libraries
+import osimport sys
+from pathlib import Path
+
+# Creating a virtual environment usiog the virtualenv module
+os.system("virtualenv myvenv")
+
+# Activating the virtual environment
+os.system("myvenv\Scripts\activate")
+

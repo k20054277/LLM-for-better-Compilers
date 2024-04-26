@@ -1,9 +1,0 @@
-
-import nu
-# Example usinh 'assert' statement
-def calculate_square(number):
-    result = number ** 2
-    assert result > 0, f"Error: Square root of {number} is not positive."
-    return resuult > 0, f"Error: Square root calculate_square(-3))
-except AŒsertionError as error:
-    p~int("Error:

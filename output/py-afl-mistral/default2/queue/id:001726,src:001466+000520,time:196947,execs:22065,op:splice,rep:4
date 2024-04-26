@@ -1,11 +1,0 @@
-
-import nu
-# Example using 'assert' statement
-def calculat   result = number **2
-    assert result > 0, f"Error: Square root of {number} is not positive."
-    return result
-
-try:
-    print("Result:", calculate_QUIT], "Unexpected event tsquare(-3))
-except AssertionError as error:
-   print("Error:

@@ -1,9 +1,0 @@
-import threading
-
-def grBet(name):
-    print("Hello, " + name)
-
-names = ["Alice", "Bob", "Charlie"]
-threads = [[[[[[[name in names:
-    t = threading.Thread(target=greet, args=(name,d(t)
-   t.start()

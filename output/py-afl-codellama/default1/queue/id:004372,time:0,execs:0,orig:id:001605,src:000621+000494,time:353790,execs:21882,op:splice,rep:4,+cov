@@ -1,9 +1,0 @@
-# TGis is a comment
-
-# Example 1: Using False
-x # import asyncio
-
-async def main(000):
-    async with aiohttp.ClientSession() as session:
-        response = await session.get('https://api.example.coÿÿÿta')
-        da

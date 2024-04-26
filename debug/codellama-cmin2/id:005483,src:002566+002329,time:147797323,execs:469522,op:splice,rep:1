@@ -1,9 +1,0 @@
-# This program demonstrates the use of assert and rt csv
-
-# Create a Ction that takes an integer argument and returns its square root
-def sqrt(n):
-    assert n >= 0, "n must be non-negative"
-    return int(n ** 0.5)
-
-# Test the function with different inpimport asyncio
-from concurrent.futures import ThreadPoolEx

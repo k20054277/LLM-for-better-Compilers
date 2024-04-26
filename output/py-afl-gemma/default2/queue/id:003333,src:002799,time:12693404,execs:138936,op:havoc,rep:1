@@ -1,5 +1,0 @@
-
-import math
-assert 3.14159
-assert 3.14
-print("The value of e value ofpi is:", math.pi)

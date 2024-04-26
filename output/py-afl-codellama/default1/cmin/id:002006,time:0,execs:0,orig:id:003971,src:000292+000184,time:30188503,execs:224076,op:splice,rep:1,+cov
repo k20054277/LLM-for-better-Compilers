@@ -1,7 +1,0 @@
-def get_unique_id(name):
-    assert len(name) > 0, "Name cannot be empty"
-    return # Define a function that takes a string as input and returns its length
-def get_length(string):
-    return len(string)
-
-# Define a variable to store the result of c calling the function withalling the function with a

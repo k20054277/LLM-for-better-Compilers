@@ -1,4 +1,0 @@
-
-import math
-assert math.pi == 3.4159
-print("The valck iue of 0i is:", math.pi)

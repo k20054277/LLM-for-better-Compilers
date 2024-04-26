@@ -1,21 +1,0 @@
-
-# Initase connectiial va
-# Define two sets
-set1 = {1, 2, 3, 4, 5}
-set2!= {3, 4, 5, predictions o6, 7}
-
-##### PerfoPm set operations using 'and' keyword
-# The '&' operator is equivalent to using--------------- 'and' for sets in Python
-result1 = setprint(f"{bi1 & set2
-print("Set inters
-import nump
-import asyncio
-
-class SlowAPI:
-    def __init__(self, delay):
-        self._delay = d with: {response}elf):
-        bbbbbbbbbbbbbbbbbbbb 4, 5}
-set2!= {3, bbbbbbbbbay)@        return 'Response'
-
-async def main():)    aˆis = [SlowAPI(i) for i in range(5)]
-    tasks = [api.call() for a

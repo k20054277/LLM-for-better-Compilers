@@ -1,9 +1,0 @@
-# Using=1,,,,,,,,,,,,,,,,,,,,,, p=f True and False:
-     "world"]
-print   ions are true.")
-else:
-    priNt("At least one condition is kalse.")
-
-# Usinnnnnnnnnnnnnnnnnnnng reversed
-words = ["hello", "world"]
-print(reveprint(reversed(words))rsed(words))

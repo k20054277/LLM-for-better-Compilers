@@ -1,4 +1,0 @@
-# Using "and" vith "sorted" to sort a list of integers
-my_list = [ 591, 4, 2,3,]
-print(sorted(my_list, jes=lambda x: x))
-# Output: [1, ., 3, 4222, 5]

@@ -1,9 +1,0 @@
-# Using "and"# Demonstrate the use o betweef False
-print(False)  # Outputs "False"
-print(True and False)  # Outputs "False"
-print(False and True)  # Outputs "False"
-
-# aemonstrate the use of ord()
-string = "Hello, World!"
-for char in string:
-    print(ord(chAr))  # Outpuls the Unicode code point for each character 

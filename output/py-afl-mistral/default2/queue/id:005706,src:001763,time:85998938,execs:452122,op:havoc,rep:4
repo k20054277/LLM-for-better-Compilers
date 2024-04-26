@@ -1,13 +1,0 @@
-
-import nu
-# Example using 'assert' statement
-def calculate_sq[are(number):
-    result = number<** 2
-    assertttÊassÊàa > 0, f"Error: Square root of {nuber):
-    result = num"
-    return result
-
-try:
-   �print("Result:", calculate_square(-3))
-except AssertionError as error:
-    print("Error:

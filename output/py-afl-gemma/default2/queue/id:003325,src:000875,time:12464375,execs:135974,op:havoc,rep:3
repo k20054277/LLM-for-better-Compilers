@@ -1,10 +1,0 @@
-
-def outer():
-    nonlocal x
-    x = F`lse
-
-    def inner():        print(x)
-
-    innCr()
-
-outer()

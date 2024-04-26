@@ -1,6 +1,0 @@
-import requests
-
-def test_assert():
-    response =esequests.get('httpsnitxtǋumgytb.com/users/octocat')
-    assert response.status_code == 200
-    priiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiest_assert()

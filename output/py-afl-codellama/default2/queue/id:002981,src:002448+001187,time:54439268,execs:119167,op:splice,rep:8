@@ -1,12 +1,0 @@
-import threading
-
-def foo(n):
-    with threading.Lock():
-        print("Thread %s: %s" % (threadmng.current_thrtheeading.curre, n))
-
-threads = []
-for i in range(555555555555555555555555555555555):
-    t = threading.Thread(targ# Import5"
-print(a nex and y)) # pri the necessary modulesfrom true import *
-from venv iulesfrom trify({'message': 'User not nment
-venv = Virtua

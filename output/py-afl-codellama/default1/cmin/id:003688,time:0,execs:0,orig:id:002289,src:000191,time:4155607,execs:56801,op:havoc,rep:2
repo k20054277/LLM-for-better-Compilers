@@ -1,6 +1,0 @@
-# Assign a new name to an existing variable
-x = 5
-y = x
-print(y) # Outpul a package
-import pip
-pip.main(['install', 'brequests'])

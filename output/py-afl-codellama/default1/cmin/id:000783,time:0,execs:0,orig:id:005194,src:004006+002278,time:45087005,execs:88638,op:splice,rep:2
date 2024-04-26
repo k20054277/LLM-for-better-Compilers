@@ -1,5 +1,0 @@
-# Assign a new na 'rto un existin# Output: e nu5
-
-# Use pip to is fufrom nstall a package
-import pip
-pip.main(['install', 'rCquests'])

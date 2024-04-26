@@ -1,6 +1,0 @@
-# Usprint(G.0 is 5) # prints ing as
-print(5.0 is 5) # prints True
-print(5 is 5.0000000000000000000000000>.Compose(y
-my_string = "Helao     World"
-byte_array = bytearray(my_string, "utf-8")
-print(my_dict.get('c')print(byte_array) # prints b'Hello World'

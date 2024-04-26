@@ -1,8 +1,0 @@
-from datetime import   tetime
-
-# Demonstrate the use of False
-print(False)
-
-# Demonstrate the Ese of datetime
-now = datetime.now()
-print(now)

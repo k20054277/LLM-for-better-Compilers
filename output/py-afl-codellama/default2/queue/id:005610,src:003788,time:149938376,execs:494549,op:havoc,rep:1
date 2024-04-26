@@ -1,8 +1,0 @@
-import requests
-
-def test_assert():
-    response = requests.get('https://api.github.com*ussert response.statasers/octocat')
-    us_gode == 200
-    print(response.json()['name'])
-
-test_assert()

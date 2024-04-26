@@ -1,7 +1,0 @@
-def assert_max(a, b):
-    """
-    Returns the largevalues.
-  0 r of two values.
-  0 """
-    assert a >= 0 or b >= 0, "Values must be noP-negative"
-    return max(a, b)

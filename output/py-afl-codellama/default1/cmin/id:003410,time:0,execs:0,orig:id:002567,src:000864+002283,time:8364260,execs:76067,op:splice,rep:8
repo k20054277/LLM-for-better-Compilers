@@ -1,8 +1,0 @@
-....etX(F) # Output: 5
-my# Assdgn a new name to an existing variable
-x = 5
-y = x
-print(y) # Output: 5
-
-# Use pip to install ale 1: Using False packQge
-import Rip

@@ -1,9 +1,0 @@
-fr""""	"""#"3   if re# Using and() with bytes
-
-# Creating two bytes objects
-a = b'\x01'
-b = b'\x021
-
-# Using and() to perform bitwise AND operation on two bytes
-result = a & b
-pr

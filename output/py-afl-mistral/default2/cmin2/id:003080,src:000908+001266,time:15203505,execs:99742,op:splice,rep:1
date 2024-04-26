@@ -1,9 +1,0 @@
-
-import sqlite3
-
-def create_connection(db_file):
-    """ create a connection to the SQLite database """
-    conn = N
-# Define some variables and evaluate expressionsis_sunny = False
-is_raining = True
-has_umbrella = is_raining

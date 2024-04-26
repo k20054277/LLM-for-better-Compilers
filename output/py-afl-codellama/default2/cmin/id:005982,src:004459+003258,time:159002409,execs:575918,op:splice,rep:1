@@ -1,4 +1,0 @@
-try:
-    x = 10 / 0
-except Error as e:
-    prx =imxtȋ

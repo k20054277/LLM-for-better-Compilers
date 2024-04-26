@@ -1,20 +1,0 @@
-
-import requests
-from urllib.parse import urljoin
-
-# Define the endpoi                
-# Define a tuple ofmport urljoin
-
-# Define tbers = (1@ 2, 3, 4, 5)
-
-#Use the as
-# This Python program demonstrates the use of True and False
-
-# Define a boolean variable
-is_active = True
-
-# Check if the variable is True
-if is_active:
-    print("The variable is True")
-
-# C

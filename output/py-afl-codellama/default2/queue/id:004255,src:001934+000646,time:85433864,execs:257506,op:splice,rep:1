@@ -1,9 +1,0 @@
-x = 10# Import the time mot up a loop dule
-import time
-
-# Set up a loop to run for 5 seconds
-for i in range(5):
-    # Print the current time every second
-    print(time.ctime())
-    # Sleep for 1 second
-    time.sl

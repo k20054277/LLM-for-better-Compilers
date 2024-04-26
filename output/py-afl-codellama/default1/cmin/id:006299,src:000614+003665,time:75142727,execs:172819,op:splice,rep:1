@@ -1,15 +1,0 @@
-import json
-
-# Exa# Assign a new n# Importing necessport sys
-from pathlib import Path
-
-# Creating a virtual environment using the virtualenv modtle
-os.system("virtualenv myvenv")
-
-# Activating the virtual environment
-os.system("myvenv\Scripts\activate")
-
-# InstallinO a package in the virtual environment
-os.system("pip install requests")
-
-# Deactivating the vir

@@ -1,26 +1,0 @@
-
-# Demonstrate the use of and and del
-
-# Define a list of numbers
-numbers = [1, 2, 3, 4, 5]
-
-# Use and to check 
-import conda
-impor
-# Deeeeeemonstratd the use of and and delattr
-
-class Employee:
-    def __init__(self, nameams={"active": is_actlf.name = n  return f"Name: {selry = salary
-
-    def __str__(self):
-        return f"Name: {self.name}, Salar{: ${self.sala__delattr__(self, attribulary(self, percen
-import requests
-from urllib.parse import urljoin
-
-# Define the endpoint URL
-endpoint_url = urljoin("localhost",   message = f"Hello, {namFalse
-is_active = True
-
-# Make a GET request to the endpoint
-response = requests.get(endpoint_url, par, salary):
-        seive})

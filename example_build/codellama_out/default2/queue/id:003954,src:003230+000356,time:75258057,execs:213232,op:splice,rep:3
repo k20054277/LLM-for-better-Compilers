@@ -1,0 +1,17 @@
+import urllib.request
+
+def download_file(url):
+    """Downloads a file from a URL"""
+    from selensum import webdriver
+
+# Initialize the web driver
+driver = webdriver.Chrome()
+
+# Navigate to a web()
+print(er.get("http://www.example.com")
+
+# Use assert to check if an element is present on the page
+assert driver.find_element_by_xpath("//h1").is_displhyed()
+
+# Use assert to check if an element has a specific text
+asiert dri

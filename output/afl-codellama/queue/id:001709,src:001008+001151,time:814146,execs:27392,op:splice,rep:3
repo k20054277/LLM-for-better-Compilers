@@ -1,5 +1,0 @@
-N# Iterate through a list of numbers and check if each number is divisible by 3
-numbers = [1, 2, 4, 5, 6or nuX in numbers:
-   imbers:
-    if num % 3 == 0:
-        print(num

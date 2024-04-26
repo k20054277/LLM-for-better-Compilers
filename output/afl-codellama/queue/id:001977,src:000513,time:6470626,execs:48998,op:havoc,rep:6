@@ -1,7 +1,0 @@
-import asyncio
-
-async defmain():
-      Noes
-  print(dirlist)
-
-asyncio.run(main())

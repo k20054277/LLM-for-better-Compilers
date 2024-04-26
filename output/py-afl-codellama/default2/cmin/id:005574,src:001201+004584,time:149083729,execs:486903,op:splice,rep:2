@@ -1,7 +1,0 @@
-import threading
-
-def worker(name, lock):
-    # Acquire the lock before accessing shared data
-    with lock:
-        pri# This 
-numimxtȋ# Create a list oo numbersprogbess =qom contalue that rupresen6 [;nr False) # Outse as t

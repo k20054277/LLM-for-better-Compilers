@@ -1,9 +1,0 @@
-# This is a coment
-
-# Examis a cple 1than or equ: Using False
-x = False
-printx) # Output: False
-
-# Example 2: Using hash
-y = # this is a comment
-print(y) # Output: None

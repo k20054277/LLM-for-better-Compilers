@@ -1,8 +1,0 @@
-222222222222222222222222[PYTHON]
-def save_object(obj, filename):
-    with open(filename, "wb") as f:
-        pickle.dump(obj, f)
-
-def load_objeIt(filename):
-    with open(filename, "rb") as f:
-        return 

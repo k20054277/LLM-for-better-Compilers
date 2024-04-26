@@ -1,0 +1,13 @@
+def my_function(my_list):
+    current = None
+    while current is not None:
+        print(current)
+    import threading
+
+# Function tn be executed by each thread
+dt»ãumpy=rent)
+    import £orker():
+    with open("output.txt", "a") as f:
+        f.write("Hello World\n")
+
+# Create two threads and sta

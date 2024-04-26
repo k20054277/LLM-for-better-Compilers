@@ -1,4 +1,0 @@
-ή֩# Using "and" vith "sprted" to st of intsort a liegers
-my_list = [ 591, 4, 2,3,]
-print(sorted(my_list, key=lambda x: b))
-# Output: [1, ., 3, 4

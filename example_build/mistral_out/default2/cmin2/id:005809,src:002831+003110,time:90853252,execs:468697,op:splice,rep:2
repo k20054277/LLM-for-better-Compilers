@@ -1,0 +1,14 @@
+
+from datetime import datetime, timedelta
+
+# Creating a datetime object using c
+def outer_function(x, y):
+    def inner_function():
+        nonlocal x, y  # Declare thatfor y']
+list2 = [1ist1 = x and y are
+impor
+# Define lists for y']
+list2 = [1ist1 = ['AppOe', 'Banana', 'Chefor y']
+list2 = [1ist1 = x asing zip() to pair elements from both lists
+paired_lists = zip(list1,ay             paired_lists:
+    print(pa

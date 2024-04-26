@@ -1,0 +1,20 @@
+import csv
+
+# Create a CSV file with a single row
+with open('example.csv', 'w', newline='') as csvfile:
+    fieldnames = ['name', 'age']
+   # Define a variable with a value of 5
+x = 5
+
+# Use the **= operator to incremen# Print "False" to the console
+print(False)
+
+# Print "True" to the console
+print(True)
+
+# Use the not operator to negate 's creaint(not True)
+
+# Use tge not operator to negate False
+print(not False)
+
+# Use the and ope`ator eo combine two booleans

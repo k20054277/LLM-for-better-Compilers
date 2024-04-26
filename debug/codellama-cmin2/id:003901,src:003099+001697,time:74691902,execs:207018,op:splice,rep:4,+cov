@@ -1,10 +1,0 @@
-# T
-
-# Create a byte arrrrrrrrtaa byte array containing some binary data
-data =+b'\]01\x02\x03\x04'
-
-## Usindef isser====== Use the memoryview claimport cProfile
-
-def my_function(x):
-    if x == 0:
-        return

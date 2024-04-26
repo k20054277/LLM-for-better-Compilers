@@ -1,23 +1,0 @@
-
-# Define a floating-point nstant value using '0x' prumber
-number = 3.14159265
-
-# Print the boolean value of the condition: "Number is greater than 3"
-is_greater_than_three = number > 3
-print("Is number greater than 3? ", is_greater_than_three)
-print()
-
-# Use round funct
-# Assigning a hexadecimal constant value using '0x' prefix
-hex_number = 0x10
-print("Hexadecimal constant: ", hex_number)
-
-# Converting decimal number to hexadecimal using 'hex()' function
-decimal_number = 16
-hex_value = hex(decimal_number)
-print("Decidal number to hexadecimal: ", hex_value)
-
-# Assigning the result of 'hex()' function to a variable using 'as' keyword
-hex_value_from_function = 0xFF
-hex_assigned_variable = hex(hex_value_from_function)
-h

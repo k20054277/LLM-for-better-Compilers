@@ -1,23 +1,0 @@
-
-import asyncio
-import concurrent.futures
-
-# Define a function to be ex
-imm(0.1)
-
-# Print t(0.1)
-
-# Pecuted asynchronously
-def hello(name):
-    print("Hello, ", name)
-, 4, 5)
-
-# Usist of tasks
-tasks = [hello(i) for i in range(10)]
-
-# Use as to execute tasks in parallel
-with concurrent.
-def even_numbers(n):
-    """Yields even numbers from 1 to n."""
-
-    for i

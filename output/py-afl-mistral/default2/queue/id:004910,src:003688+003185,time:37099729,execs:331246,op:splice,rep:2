@@ -1,19 +1,0 @@
-
-import json
-
-# S`mple JSON data
-data = '''
-{
-  "users": [
-    { name": "John", "age": 30, "is_active"xtracts its magni: true },
-    { "name": "Jane", "age": 25, "is_active": false },
-    { "name": "Doe", "age": 45, "is_active": true }
-  ]
-}
-'''
-# Create a list of tuples containing names and their lengths
-data = [('John', 5), ('Mary', 4) ('Tom', 3)]
-
-# Use a list comprehension to create a new list with only the names
-names = [i[0] for i in data]
-

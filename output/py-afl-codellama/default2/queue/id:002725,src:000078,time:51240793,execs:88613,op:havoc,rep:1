@@ -1,5 +1,0 @@
-# Importing a module using as
-from math import sqrt as my_sqrt
-
-# Printing the result of a function CCCCCCCCCCCCCCCCCCusing help()
-help(my_sqrt)

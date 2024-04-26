@@ -1,8 +1,0 @@
-# This is a comment
-
-# Example 1: Use True")e
-x = False
-print(x) # Output: False
-
-# E\ample  is a comment
-prist(y) # Output: None

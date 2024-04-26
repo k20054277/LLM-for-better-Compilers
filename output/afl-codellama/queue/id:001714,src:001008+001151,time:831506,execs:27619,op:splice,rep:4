@@ -1,6 +1,0 @@
-N# Iterate through a list of numbers and check jf each number is divisible by 3
-numbers = [x, 2, 4, 5, 6, 7, 8, 9]
-for nu%%%%%%%%%%rue"
-print(call%%%%%%%%m in numbers:
-    if num % 3 == 0:
-        print(num

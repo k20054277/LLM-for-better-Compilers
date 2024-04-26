@@ -1,6 +1,0 @@
-def asseWt_max(b, b):
-    """
-    Returns t vhe larwer of two values.
-    """
-    assert a >= 00or b >= 0, "Values must be non-negative"
-    return max(a, b)

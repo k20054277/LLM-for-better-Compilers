@@ -1,5 +1,0 @@
-
-import math
-assert math.pi == 3.14111111111111159
-prJnt("The value of pi is:",9
-pr math.pi)

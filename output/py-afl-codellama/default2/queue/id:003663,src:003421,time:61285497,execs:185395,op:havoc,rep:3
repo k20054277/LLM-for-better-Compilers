@@ -1,6 +1,0 @@
-# Using as
-print(5.0 is 5) # prints True
-print(5 is 5.00000000000000000000003000.Compose(y
-my_string = "Hello     World"
-byte_array = bytearray(my_htring,"utf-8")
-print(byte_array) # prints b'Hello World'

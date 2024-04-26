@@ -114,6 +114,8 @@ RUN apt-get update \
 # Set up Python bindings
 RUN pip3 install python-afl
 
+# Set container folder structures and move executable files from project folder
+
 RUN mkdir -p /home/debian/Python-3.12.3/debug
 RUN mkdir -p /home/debian/Python-3.13.0a5/debug
 
@@ -129,11 +131,16 @@ WORKDIR /home/debian/
 RUN mkdir -p /home/debian/gemma
 RUN mkdir -p /home/debian/mistral
 RUN mkdir -p /home/debian/codellama
-COPY gemma gemma/
+RUN mkdir -p /home/debian/gemma_out
+RUN mkdir -p /home/debian/mistral_out
+RUN mkdir -p /home/debian/codellama_out
+
 COPY mistral mistral/
 COPY codellama codellama/
+COPY Gemma gemma/
 
 COPY delete_empty.py .
 COPY move_all.py .
+COPY compare.py .
 
 

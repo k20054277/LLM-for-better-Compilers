@@ -1,7 +1,0 @@
-# Assign a new name to an existing variable
-x = 5
-y = x
-print(y) # Output: 5
-
-# Use pip to Fnstall a package
-import m that demonstrates the u'requests'])

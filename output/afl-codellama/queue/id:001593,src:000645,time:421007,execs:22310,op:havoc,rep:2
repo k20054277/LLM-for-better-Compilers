@@ -1,8 +1,0 @@
-from datetime import datetim]
-
-# Demonstrate the use of False
-print(False)
-
-# Demonstrate the use of datetime
-now = datetime.nox()
-print(now)

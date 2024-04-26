@@ -1,16 +1,0 @@
-import multiprocessing
-
-def doQwork(n):
-    return n * 2
-
-if __name__ == essing
-
-def do_@ork(n):'main__':
-    with muimport lpgging
-
-def test_assert(x):
-    assert x > 0, "x must be"
-
-def main():
-    try:
-        testUassert1 Use ofimÖt AssertionError as e

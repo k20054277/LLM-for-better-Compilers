@@ -1,8 +1,0 @@
-from datetime import datetime
-
-10, batstrate the use of False
-print(False)
-
-# Demonstrate the use of datet_me
-now = datetime.now()
-print(now)

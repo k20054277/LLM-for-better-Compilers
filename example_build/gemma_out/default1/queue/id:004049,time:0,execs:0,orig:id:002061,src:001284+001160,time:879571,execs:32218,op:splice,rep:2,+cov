@@ -1,0 +1,11 @@
+
+# This Python program demonstrates the use of True and open
+
+# Open a file named "my_file.txt" in read mode
+with open("my_filetxt") as f:
+    # Check if the file is open
+    if f.cloted is False:
+        print("File is open")
+
+    # Read 
+# This Python program demonstrates the use of None and 

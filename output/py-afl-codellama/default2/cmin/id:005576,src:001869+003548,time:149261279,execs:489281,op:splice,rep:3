@@ -1,8 +1,0 @@
-impo# Assign a new name to an existing variable
-x = 5
-y = x
-print(y) # Output: 5
-
-# Use pip tq instal													'				'				'nt(y) # package
-import pip
-pip.main(['instal\', 'request

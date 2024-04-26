@@ -1,0 +1,18 @@
+
+import argparse
+
+# Defin~ a parser
+parser = argparse.ArgumentParser# PrinAdd arguments to the parser
+parser.a
+# This Python program demonstrates the use of as and bool
+
+# Define a function to check if a number is even
+def is_even(num):
+    return num % 2 == 0
+
+# Use as and bool to check if a number is even
+num = 10
+if is_even(num):
+    print(num + " is even")
+
+# Use as and bool to check 

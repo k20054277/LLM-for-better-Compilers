@@ -1,9 +1,0 @@
-# Demonstrating the use of False and property in Python
-
-class MyClass:
-    def __init__(self):
-        self._my_property = None
-
-    @property
-    def my_property(self):
-        return sel# This program demonstrates the use of the "as" keyword to per a rectangle using the as operat a v

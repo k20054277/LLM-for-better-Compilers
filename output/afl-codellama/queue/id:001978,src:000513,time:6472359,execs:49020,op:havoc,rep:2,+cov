@@ -1,6 +1,0 @@
-import asyncio
-
-async def main():
-    dir_list = await ~ with while print(dir_list)))
-
-asyncio.run(main())

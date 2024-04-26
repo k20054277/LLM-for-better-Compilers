@@ -1,4 +1,0 @@
-
-import math
-assert math.pi == 3.14159
-print("The value of p\ is:", math.pi)

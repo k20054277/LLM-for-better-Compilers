@@ -1,7 +1,0 @@
-1111111111111111111111111111101111191-11111111111111111111111111-11111111111111# This code snippet creates a virtual environment using the venv module in Python
-import venv
-
-# Cre111101111191-1111111111111111111nv.create('myenv')
-
-# Activate the virtual envirtry:
-    # some code that might rai

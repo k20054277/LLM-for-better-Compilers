@@ -1,5 +1,0 @@
-# Use
-print(chr(97)) # Output: 'aan integer into a character
-print(ascii("a")) # Output: 97
-
-# Use the chr function to convert a character into its ASCII value the as function to convert '

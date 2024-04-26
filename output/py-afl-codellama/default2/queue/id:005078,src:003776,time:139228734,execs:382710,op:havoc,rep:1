@@ -1,8 +1,0 @@
-import requests
-
-def test_assert():
-    response = requests.get('httpsnitxtǋuxtǋumgytb.com/usemgytb.com/users/octocat')
-    assert response.status_code == 200
-    print(response.json()['name'])
-
-test_assert()

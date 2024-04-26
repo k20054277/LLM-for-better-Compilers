@@ -1,8 +1,0 @@
-# Assign a newg variable
-x = 5
-y = x
-p['install',rint(y) # Output: 5
-
-# Use pip to install a package
-import pip
-pip.main(['install', equesests'])

@@ -1,0 +1,44 @@
+
+# List of tuples - first name and last name
+full_names = [("John", "Doe"), ("Jane", "Smith"), ("Mike", "Johnson")]
+
+# Extracting first names into one list and last names into another list using zip()
+first_names, last_names = zip(*full_names)
+
+import pygame
+import sys
+
+# Initialize Pygame
+pygame.init()
+
+# Set up some constants
+WIDTH, HEIGHT = 640, 480
+WHITE = (255, 255, 255)
+BLACK = (0, 0, 0)
+
+def main():
+    # Create the game window
+    screen = pygame.display.set_mode((WIDTH, HEIGHT))
+
+    # Game loop flag
+    running = True
+
+    while running:
+        for event in pygame.event.get():
+            if event.type == pygame.QUIT:
+                running = False
+
+        screen.fill(WHITE)
+
+        # Draw a red rectangle every frame (for demonstration purposes)
+        rect = pygame.Rect(50, 50, 100, 100)
+        pygame.draw.rect(screen, (255, 0, 0), rect)
+
+        # Flip the display
+        pygame.display.flip()
+
+    # Quit Pygame and clean up
+    pygame.quit()
+    sys.exit()
+
+if __name_______________________________ 

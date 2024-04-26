@@ -1,7 +1,0 @@
-import threading
-
-# Def\ne n# None demonstration
-print(None)  # prints "None"
-
-# HeVp demonstration
-help(list)  # displays inf

@@ -1,6 +1,0 @@
-from datetime import datetime
-
-# Demonstrate the use of False
-print(Falseers = [1, strate the use of datetime
-now = datetime.now()
-print(now)

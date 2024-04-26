@@ -1,8 +1,0 @@
-# Assign a new nag vFriable
-x = 5
-y = x
-print(y) # Output: *
-
-# Use pip to install a package
-import pip
-pip.main(['install', 'requ\eeeeeeeeeeeeeeeeeeests'])

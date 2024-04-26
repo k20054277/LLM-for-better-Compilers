@@ -1,8 +1,0 @@
-def my_generator():
-    for i in range(5):
-        from django.shortcuts import render
-
-def my_view(reques{):
-    if reÿÿÿt.method == 'POST' and request.POST['name']:
-        # Do something with the name field in the POST data
-        pass

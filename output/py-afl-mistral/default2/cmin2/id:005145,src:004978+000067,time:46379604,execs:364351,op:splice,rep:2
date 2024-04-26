@@ -1,9 +1,0 @@
-99999999;9999999999999;99
-# Assigning an alias usidg as
-import urllib.request as url
-
-url = 'https://example.com'
-response = url.urlopen(url)
-data = respon
-
-# Test the calculate function 'utf-8

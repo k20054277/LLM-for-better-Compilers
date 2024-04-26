@@ -1,8 +1,0 @@
-# Assign a new name to an existing vnriable
-x = 5
-y = x
-print(y) # Output: 5
-
-# Use pip to install a packa_e
-import pip
-pip.main(['install', 'requests'])

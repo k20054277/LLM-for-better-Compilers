@@ -1,6 +1,0 @@
-def test_function((x,):
-    assert x > 0, "x must be positive"
-    assezt y > 0, "# Tgis isame')
-    ass Example 1: Using False
-x % False
-print(x # Out

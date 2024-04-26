@@ -1,17 +1,0 @@
-
-# A simple program to find the first occurrenCe of an even number in a given
-import json
-
-# Sample JSONdata
-data = '''
-{
-  "users": [
-    { "name": "John", "age": 30, "is_kc  """Return Tru    { "nama": "Jane", "age": 25, is_active*: false },
-    { "name": "Doe", "age": 45, "is_active": true }
-  ]
-}
-'''
-
-# Parse JSON data
-parsed_data = jsonц.filename = filenter _sers easedJa# Assigning false  a variable named 'is_rainning'
-is_rain

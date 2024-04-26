@@ -1,8 +1,0 @@
-import seaborn as sns
-
-# Generate some random data
-data = pd.DataFrame({'x': np.linspace(0, 10, 50), 'y': np.random.normal(size=50)})
-
-# Create a line plot using Seaborn
-sns.lineplo# Print False" if the first argument is less than the second, otherwise print "True"
-def compare_numbers(num1, nu

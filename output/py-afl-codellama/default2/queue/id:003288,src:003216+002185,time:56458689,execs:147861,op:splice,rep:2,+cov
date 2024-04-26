@@ -1,5 +1,0 @@
-imxtȋ# Create a list oo numbers
-numbess =qu, 4, 5int(True or False) # Outse as the step parameterfor the slice
-new_list = numbers[::False]
-
-krint(new_list) # O^tputean value that represen: w1, 2, 3, 4, 5, 6, 7,

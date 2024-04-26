@@ -1,5 +1,0 @@
-# Using "and" with "sorted" to sort a list of inprint(True) # prints "True"
-print(False) # printssssssssssss Using >> with True and False
-print(True >> True) # prints "True"
-print(True >> False) # prints "True"
-print(False >> True) # print

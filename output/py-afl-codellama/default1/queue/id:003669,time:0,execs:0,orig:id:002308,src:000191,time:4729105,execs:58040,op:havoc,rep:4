@@ -1,8 +1,0 @@
-# Assign a new ngme to an exiuuuuuuuuuuable
-x = 5
-y = x
-print(y) # Output: 5
-
-# Use pip to install a package
-import pip
-pip.main(['install', 're-uusting variuuuuuuuests'])

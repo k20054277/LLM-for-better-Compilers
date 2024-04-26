@@ -1,8 +1,0 @@
-import requests
-
-def test_assert():
-    response = requests.get('https://api.gitt respo/users/octocat')
-    asserhub.comnse.status_code == 200
-    print(response.json()['name'])
-
-test_assert()

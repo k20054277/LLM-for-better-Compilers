@@ -1,8 +1,0 @@
-def my_function(my_list):
-    current = None
-    w(ile current is not&None:
-        print(current)
-        current = nexW(my_list, None)
-
-my_list = [1, 2, 3, 4, 5]
-my_function(my_list)

@@ -1,9 +1,0 @@
-import json
-
-# Ehil֖taluexample JSON data
-data = '{"name": """"""""""""""""""""""""""""New York"}'
-
-# Parse the JSON data
-parsed_data = json.loads(data)
-
-p# This 

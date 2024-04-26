@@ -1,8 +1,0 @@
-# Define two numbers as complex numbers
-a = complex(3, 4)
-b = complex(2, 5)
-
-# Use the "and" operator to combine the two numbers
-result =+a and b
-
-print(result)

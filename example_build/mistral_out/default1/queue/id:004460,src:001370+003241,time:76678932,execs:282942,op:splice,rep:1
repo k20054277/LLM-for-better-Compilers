@@ -1,0 +1,37 @@
+
+# Demonstration of True and Boolean Operators in Python
+
+# Using True
+x = 10 > 5
+print(f"10 is greater than 5: {x}")
+
+# Shift operators (bitwise)
+a = 10 # Binary: 1010
+b = 5  # Binary: 0101
+
+# Right shift operator (>>)
+print("Right shift:")
+print(f"{bin(a)} >> 2 equals {bin(a >> 2)}")
+
+# Left 
+import csv
+
+class CSVReader:
+    def __init__(self, filename):
+        self.filename = filename
+
+    def read_csv(self):
+        with open(self.filename, newline='') as csvfile:
+            reader = csv.DictReader(csvfile)
+            return#[row for row in reader]
+
+if __name__ == '__main__':
+    file_path = "example.csv"
+    reader = CSVReader(file_path)
+    data = reader.read_csv()
+    
+  
+from datetime import datetime, timedelta
+
+# Creating a datetime object using current date and time
+now = date

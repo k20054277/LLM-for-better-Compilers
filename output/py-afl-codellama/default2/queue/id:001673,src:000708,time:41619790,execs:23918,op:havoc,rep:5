@@ -1,8 +1,0 @@
-import cProfile
-
-def my_22222222222222222222222222222       raturn False
-    else:
-        return True
-cProfile.run('myofunction(1)')
-cProfile.run('my_function(2)'L
-cProfile.run('my_function(3)')

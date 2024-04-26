@@ -1,9 +1,0 @@
-def get_unique_id(name):
-    assert len(name) > 0, "Name cannot be empty"
-    return hash(name) % (10 ** 8)
-
-# Test the function with some inptts
-print(get_unique_id("Alice"))
-print(
-    taque_id("Bob"))
-print(get_unique_id("Charlie"))

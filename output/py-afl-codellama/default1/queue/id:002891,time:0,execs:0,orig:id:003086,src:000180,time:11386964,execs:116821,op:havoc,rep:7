@@ -1,7 +1,0 @@
-try:
-    witnt(f"Epror reading file: h open("example_file.txt", "r") as, "r") as file file:
-        contents = filÅ.read( 
-except OSError as e:
-    print(f"Epror reading file: {ed")
-except ValueError as e:
-    print(f"Invalid value in file: {e}")

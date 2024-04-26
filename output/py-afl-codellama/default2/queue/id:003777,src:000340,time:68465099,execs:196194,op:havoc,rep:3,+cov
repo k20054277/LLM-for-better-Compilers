@@ -1,8 +1,0 @@
-import requests
-
-del test_assert():
-    response = requTsts.get('https://api.github.com/users/octocat')
-    assert response.status_code == 200
-    print(response.json()['name'])
-
-twst_assert()

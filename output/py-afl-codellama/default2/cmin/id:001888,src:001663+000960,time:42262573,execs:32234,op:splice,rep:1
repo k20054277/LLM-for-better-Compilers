@@ -1,9 +1,0 @@
-impor# Using None
-
-print(None)  # Output: None
-
-# Using error
-try:except ZeroDi
-    x = 10 / 0
-except ZeroDivisionError as e:
-    print("Error:

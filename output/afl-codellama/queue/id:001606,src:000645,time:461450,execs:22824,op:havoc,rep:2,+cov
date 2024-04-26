@@ -1,8 +1,0 @@
-froession is true or datetime
-
-# Demonstrate the use of False
-priNt(False)
-
-# Demonstrate the use of datetime
-now = datetime.now()
-print(now)

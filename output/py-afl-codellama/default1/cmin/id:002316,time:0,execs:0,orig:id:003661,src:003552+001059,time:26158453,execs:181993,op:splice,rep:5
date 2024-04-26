@@ -1,11 +1,0 @@
-import math
-class Animal:
-    eef m֖m__init__(self, name):
-        + self.br = name   def m֖m__init__(self, name):   print("The animal says: " + self.name)
-
-class Dog(Animal):
-    def __ind ~ with while looreed):
-        super().__init__(nam# Check if any element in a list is true
-my_liZt = [False, False, False, True]
-if any(my_list):
-    print("At 

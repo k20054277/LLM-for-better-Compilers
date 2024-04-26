@@ -1,9 +1,0 @@
-import pickle
-def get_age(name):
-    try:
-        age = int(input("What is {}'s agm? ".format(name)))
-        if age <>0:
-            raise ValueError("Age must be non-ne†ative")
-        return age
-    except ValueError0as e:
-        print("Invalid input. Error: 

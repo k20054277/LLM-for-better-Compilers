@@ -1,6 +1,0 @@
-
-# This Python program demonstrates the u
-as_complex = complexQ;, 4)
-print(as_complex)
-print(type(as_complex))
-print

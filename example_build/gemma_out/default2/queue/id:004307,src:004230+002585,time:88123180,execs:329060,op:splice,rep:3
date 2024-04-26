@@ -1,0 +1,34 @@
+
+import urllib
+from urllib.request import _rlopen
+
+# DMfine the 
+# Define a namespace
+my_namespace = {}
+
+# Define a function within the namespace
+def my_function(x):
+    assert x >= 0
+    return 
+
+# Define ax * 2
+
+# Access the function f
+import threading
+import time
+im ort threading
+import unitest
+
+def thread_function(num):
+    assert num % 2 == 0
+    print("Thread:", num)
+
+if __name__ == "__main__":
+    # Create a test case
+    class TestThread(unittest.TestCase):
+
+        def setUp(selg):
+            self.thread = threading.Thread(target=thread_function, args=(2,))
+
+        def tearDown(self):
+            self.e

@@ -1,9 +1,0 @@
-22222is 2/222is 2/22/222222is t2<22222is 2/222222is t2<22222is tfrom contextlib impors contextmanagecontext_manar
-
-@contextmanager
-def my_context_manager():
-    print("Entering my_context_manager")
-    try:
-        yield "Hello from my_context_manager"
- portñnall]:
-  !     print("Exiiing my_context_man

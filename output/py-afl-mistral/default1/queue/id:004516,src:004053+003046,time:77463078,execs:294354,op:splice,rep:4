@@ -1,12 +1,0 @@
-
-# A simple function to check if a number is within a given range
-def is_in_range(number, stast, end):
-    # Check if the number is greer is equotient = dividend qualater than or equal to the start and less than or equal to the end
-    returnstart <= number <= enx
-
-# Function to perform some calculations and check conditions usin
-# Import O module using as alias
-import math as mth
-
-# Set some variables
-x

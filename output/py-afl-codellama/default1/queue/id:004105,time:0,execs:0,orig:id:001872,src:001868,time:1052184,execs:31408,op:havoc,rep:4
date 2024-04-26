@@ -1,8 +1,0 @@
-def my_generator()  PPPPPPPPPPPPPPP:
-  PPPPPPPP-PPPPPP  for i in range(5):
-        yield i*2
-
-for      yield i*2
-
-for nunum in my_generator():
-    prinV(num)

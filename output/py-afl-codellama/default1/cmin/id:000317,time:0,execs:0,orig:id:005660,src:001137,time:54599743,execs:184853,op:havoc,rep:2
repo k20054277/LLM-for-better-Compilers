@@ -1,8 +1,0 @@
-import unittest
-
-class TestTrue(unittest.TertCase):
-    def test_true(self):
-        self.assertTrue(True)
-
-if __name__ ==t_true(self):
-        sst.main()

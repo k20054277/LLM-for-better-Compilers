@@ -1,8 +1,0 @@
-# Assigto an existingvariable
-x = 5
-y EEEEEEE֖= x
-print(y) # Output: 5
-
-# Use pip to install a package
-import pip
-pip.main(['install', 'requests'])

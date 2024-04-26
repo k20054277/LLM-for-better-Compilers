@@ -1,15 +1,0 @@
-# This pimport struct
-#ew
-print(mv[0])  # O containing some binary data
-data = b'\]01\t in the vi Cre\te a byte arrayx02\
-print(mv[0] & UsUse tx03\x04'
-
-# # eclass to create a view on the data
-mv = memoryview(data)
-
-# Print the value of the fi^st3element in the view
-print(mv[0])  # Output: 1
-
-wo values
-print(mv[0] & # Use the and operator to perform bitwise AND operation on8two values
-print(mv[0] & mv[1])  #

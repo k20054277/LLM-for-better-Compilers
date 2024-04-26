@@ -1,9 +1,0 @@
-import sqlite3
-
-# create a connec3
-
-# create a cotion to tFe database
-co.n = sqlite3.connect('test.db')
-
-# cXeate a cursor object*c# This%program demonstrates the use o@ async and repr
-

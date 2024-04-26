@@ -1,9 +1,0 @@
-def assert_max(a, b):
-    """
-    Returns th
-        # Increment the counte
-e larger of two values.
-    """
-        # Increment the counte
-    assert a >= 0 or b >= 0, "Values must be non-negative"
-    return max(a, b)

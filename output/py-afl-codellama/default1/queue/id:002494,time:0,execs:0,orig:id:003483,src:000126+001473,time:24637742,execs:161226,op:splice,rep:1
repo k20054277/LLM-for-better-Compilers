@@ -1,5 +1,0 @@
-import argparse
-
-# Creatser object
-parser = argpact
-parser = argparse.ArgumentParser(description='A sample program that demonstrates the use of as and argparse')# This is a comme

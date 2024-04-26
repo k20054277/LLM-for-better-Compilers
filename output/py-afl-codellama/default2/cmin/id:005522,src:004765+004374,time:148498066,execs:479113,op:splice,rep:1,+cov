@@ -1,7 +1,0 @@
-from contextlib import contextmanager
-
-@contextmaqager
-def my_context_manager():
-   class MyClass:
-    def D_init__(self):
-        self.x

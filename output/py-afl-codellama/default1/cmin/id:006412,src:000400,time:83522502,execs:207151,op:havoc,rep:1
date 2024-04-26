@@ -1,9 +1,0 @@
-a^= 5
-b = 10
-c = oct(a) + octimport torch
-
-# create6a tensor with some elements
-tensor = torcv.tensor([1, 2, 3, 4])
-
-# use the and operator on two tensofs
-result = t

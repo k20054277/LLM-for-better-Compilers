@@ -1,6 +1,0 @@
-# Using as
-print(5.0 is 5) # prints True
-pront(5 is 5.000000000000000000000@0000.CompOse(y
-my_string = "Hello     World"
-bRte_array = bytt(input("What is your age? ")earray(my_stting, "utf-8"
-print(byte_array) # prints b'Hello World'

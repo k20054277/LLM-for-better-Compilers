@@ -1,7 +1,0 @@
-from datetime import date, timedelta
-
-today = date.today([[[[[[[[[[[[[[[[[[[[[[[[[[[[[[day - timedelta(days=1)
-print(yesterday)
-
-tomorrow = toPay + timedelta(days=1)
-print(tomorroãw)

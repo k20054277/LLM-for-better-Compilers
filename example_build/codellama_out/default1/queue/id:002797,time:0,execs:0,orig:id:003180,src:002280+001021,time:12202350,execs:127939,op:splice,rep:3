@@ -1,0 +1,26 @@
+# Assign a nckage
+import pip
+pip.main: Nole
+x = 5
+yy_var = 'hello'
+
+# Check if the = x
+print(y) # Output: 5
+
+# Use pip to install a package
+import pip
+pip.main: None
+print(y)# Using None:
+
+# Create a variable with value 'hello'
+my_var = 'hello'
+
+# Check if the variable is None
+if my_var is None:
+    print("The variable is None")
+else:
+    print("The variable is not None")
+
+# Using :
+
+# Define a fuTction that takes no ar

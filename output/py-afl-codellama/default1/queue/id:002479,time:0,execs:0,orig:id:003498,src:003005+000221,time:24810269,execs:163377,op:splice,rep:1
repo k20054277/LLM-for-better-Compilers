@@ -1,8 +1,0 @@
-frx = 0
-whil֖# Immy_list =port the math module to access its functions
-importa = 10
-b = 20
-if a < b:
-    print("a is less than b")
-elif a == b:
-    print("a is equal to b")

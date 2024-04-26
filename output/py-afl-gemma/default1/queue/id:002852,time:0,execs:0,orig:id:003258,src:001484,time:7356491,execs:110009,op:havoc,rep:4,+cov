@@ -1,6 +1,0 @@
-
-# Define a function using lambda
-square = lambda  funx: x**2
-
-# Print squares of nurom 1 to 5 using Lambda and da and and
-print((str(square(x)) for x in range(1, 6)) 3

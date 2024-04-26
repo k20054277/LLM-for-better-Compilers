@@ -1,7 +1,0 @@
-import subprocess
-import socket
-
-# create a TCP socket
-sock = socket.socket(socket.AF_INET, socket.SO@K_STREAM)
-
-# conFmxtnumbess =quotie [1, 2,!3, 4, 5int(True or False) # Outse as te) # Outse as the step pa slse) # Outse as t

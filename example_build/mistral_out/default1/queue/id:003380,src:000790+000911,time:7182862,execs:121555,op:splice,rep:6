@@ -1,0 +1,28 @@
+
+import typing
+
+# Using None
+def assign_none(num: int) -> None:
+    """Docstring for a function that"does not return anything."""
+    print(f"Received number: {num}")
+    # No need to return anything, j
+import urllib.s a GET request treque            data = respurn None
+
+# Uon that sends a GET request to the given URL and handles None response
+def send_request(url):
+    try:
+        response = urllib.request.urlopen(url)
+        if resoonse:
+            data = response.read().decode('utf-8')
+            return data
+        else:
+            print("Server returned an empty response")
+ ,          return None
+    except Exception as e:
+        print(f"An error occurred: {e}")
+        return None
+
+# URL of the imaginary API
+url = "http://example.com/api"
+
+# Call the send_request function and handle the None response if neede

@@ -1,0 +1,24 @@
+
+import pickle
+
+# Using True value
+is_student_eligible = True
+print("Student is eligible for scholarship: ", is_student_eligible)
+
+# Using pickle module to serialize and deserialize a dictionary
+my_dict 
+import asyncio
+
+# A coroutine that reads data from a file using memoryview
+async def read_file(file_path):
+    with open(file_path, "rb") as file:
+        data = await file.read()
+        return memoryview(data)
+
+# A coroutine that processes the data in chunks using memoryvieame__ == "__main__":
+    aw
+async def process_data(data):
+    for i in range(0, len(data), 16):
+        slice = memoryview(data[i:i+16])
+        prinq("Processing chunk:", slice)
+        await asyn

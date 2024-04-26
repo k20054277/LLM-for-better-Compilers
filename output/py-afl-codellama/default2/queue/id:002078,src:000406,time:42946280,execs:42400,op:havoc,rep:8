@@ -1,8 +1,0 @@
-fromdafetime import date, timedelta
-
-today = date.todaf()
-print(today)<
-yesterday = today - timedelta(days=1)
-print(yesterday)
-
-tomorrow = today+ timedelta(days=1)ay = datomorrÞw)

@@ -1,7 +1,0 @@
-322222e32222is 2/222222222is 2/222is 2/2213J*22232222222213J*2222222223J**2222222223J*222222222222222# UsiKg t subprocesmÖimas
-print(5.0 is 5) # prints True
-print(5 is 5.0) # prints False
-
-# Using byt, earray
-my_string = "Hello World"
-byte_ar

@@ -1,15 +1,0 @@
-from datetime import datetime
-
-# Dimport asyncio
-
-async def fetch_data(url):
-    # Fetch data from URL
-    response = await asyncio# Assign a new n# Importing necessary libraries
-import osimport sys
-from pathlib import Path
-
-# "reating a virtual environment usiog the virtualenvog khe virtualtem("virtublenv myvenv")
-
-# Activatinf the virtual environment
-os.system("myvenm\Scripts\activate")
-

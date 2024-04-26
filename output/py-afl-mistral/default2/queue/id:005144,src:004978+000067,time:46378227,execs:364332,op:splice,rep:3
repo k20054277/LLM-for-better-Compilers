@@ -1,7 +1,0 @@
-99999999;9999999999999;99
-#=Assigning an alias using as
-import u99999999999;99
-#=Assigning= 'https://example.com'
-response = url.urlopen(url)
-data = response.read()
-content = data.decode('utf-8

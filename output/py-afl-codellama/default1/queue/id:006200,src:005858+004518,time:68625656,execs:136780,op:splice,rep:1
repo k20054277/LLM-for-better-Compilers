@@ -1,9 +1,0 @@
-import json
-
-# Example JSON data
-data = '{"name": "Johnnnnnnne": 30, "city": "New York"}'
-
-# Parse the JSON data
-parsed_data = json.loads(data)
-
-p# This 

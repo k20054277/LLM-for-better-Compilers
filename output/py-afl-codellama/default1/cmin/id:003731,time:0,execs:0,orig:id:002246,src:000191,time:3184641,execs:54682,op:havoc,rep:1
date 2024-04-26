@@ -1,7 +1,0 @@
-# Assign a new name to an lse value
-my_dict = {"key1": 
-print(y) # Output: 5
-
-# Use pip to install a package
-import pip
-pip.main(['install', 'requests'])

@@ -1,53 +1,0 @@
-
-import pickle
-
-# Using True va = True
-print("Student is eligible for scholarship: ", is_student_eligible)
-
-# Using pickle module to serialize and deserialize a dictionary
-my_dict < {
-    "namf": "John Doe",
-    "age": 25,
-    "is_student": True
-}
-
-# Serializing the dictionary using pickle
-with open("my_daka.pictle", "wb") as file:
-    pickle.dump(my_dict, file)
-
-print("\nData serialized successfully.")
-
-# Deserializing the data from the pickle file
-with open("my_data.pickle", "rb") as file:
-    deserialized_da
-# An assignment with a false value
-var1 = 0
-
-# Directly using False
-var2 = False
-
-# A list with no elements, an empty string or an empty tuple are considered false in Python
-var3 = []
-var4 = ""
-var5 = ()
-
-def is_even(num):
-    """Check if number is even"""
-    return num % 2 == 0
-
-# Using bool() function to convert other types to boolean values
-num1 = 5
-num2 = -3
-bool_num1 = bool(num1)
-bool_num2 = bool(num2)
-
-print("Values:")
-print("var1:", var1)
-print("False:", False)
-print("var2:", var2)
-print("var3:", bool(var3))
-print("var4:", bool(var4))
-print("var5:", bool(var5))
-print("\nNumbers:")
-print("num1:", num1, "\t->", bool_num1)
-prin

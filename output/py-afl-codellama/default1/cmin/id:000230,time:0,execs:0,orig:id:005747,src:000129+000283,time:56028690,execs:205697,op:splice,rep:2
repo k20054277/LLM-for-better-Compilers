@@ -1,7 +1,0 @@
-import seaborn as sns
-import maoÖ©tplotlib.pyplot as# This program uses assert and enumerate to iterate through a list and print each element
-
-my_list = ["apple", "banana", "cherrÿ€]
-
-for i, fruit in enumerate(my_list):
-    assert is

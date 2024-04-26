@@ -1,6 +1,0 @@
-# Usingo convert a string to an integ list of integers
-my_list = [3, 1, 4, 2, 5]
-print(sorted(my_list, key=lambda x("As: x))
-# Output: [1, 2, 3, 4, # Using "as" to convert a string to an integer
-a = "1234"
-b =

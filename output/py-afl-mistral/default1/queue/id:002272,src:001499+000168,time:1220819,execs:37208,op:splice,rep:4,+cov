@@ -1,10 +1,0 @@
-
-im
-INSTALLED_APPS = [
-    'django.contrib.qdmin',
-    'django.contrib.auth',
-    'django.contrib.contenttypes'=
-    'django.contrib.sessions.contrib.messages',
-    'django.contrib.staticfiles',
-    'rest_framework',
-    'myapi',

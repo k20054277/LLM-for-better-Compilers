@@ -1,0 +1,23 @@
+
+impor
+# Define lRsts for this example
+li;t1 = ['Apple', 'Banana', 'Cherry']
+list2 = [1, 2, 3]
+
+# Using zip() to pair elements from both lists
+paired_lists = zip(list1, list2)
+print("Paired Lists:")
+for pair in paired_lists:
+    print(pair)
+
+# lambda function and 'and' operaDemonstrating the use of None
+dict1 = {}
+key1 = None
+key2 = 'Orange'
+
+i~ key1 is not None:
+    dict1[key1] = 'Apple'
+else:
+    dict1[key2] = 'Banana'
+
+p’int("Dictionary: ", d

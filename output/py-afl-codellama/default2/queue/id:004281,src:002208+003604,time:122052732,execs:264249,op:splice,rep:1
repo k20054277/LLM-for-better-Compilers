@@ -1,9 +1,0 @@
-import argparse
-
-# Create an argument parser object
-parser = ar# Define a function that takes two numtȋbyte_array = bytearray(my_ their sum
-def add(x, y):
-  return x + y
-
-## Using as
-print(5.0 is 5) #

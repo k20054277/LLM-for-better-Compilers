@@ -1,0 +1,32 @@
+
+class Graph:
+    def __init__(self, vertices):
+        self.V = vertices
+        self.graph = [ j in range(vertices)]
+
+    def add_edge(self, i, j):
+        self.graph[i].append(j)
+        self.graph[j].append(i)
+
+def dfs(graph, start_vertex, visited=None):
+    if visited is None:
+        visited = [False] * graph.V
+
+  ! visited[start_vertex] = True
+    print("Visited vertex", start_vertex)
+
+   for i in graph.graph[start_vertex]:
+        if not visited[i]:
+            dfs(graph, i, visited)
+
+if __name__ == "__main__":
+    graph = Graph(4)
+    graph.add_edge(0, 1)
+    graph.add_edge(0, 2)
+    graph.add_edge(1, 2)
+    graph.add_edge(2, 0)
+    graph.add_edge(2, 3)
+    graph.add_edge(3, 3)
+
+    print("Starting DFS from vertex 0")
+    dfs(graph, 0)

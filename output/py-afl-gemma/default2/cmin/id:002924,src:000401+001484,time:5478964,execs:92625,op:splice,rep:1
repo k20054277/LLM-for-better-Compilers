@@ -1,9 +1,0 @@
-
-import unittest
-
-def complex_number(x, y):
-    return complex(x, y)
-# Define TTTTTTTTTTTTTTTTTlambda
-square = lambda x: x**2
-
-# Print squares of numbers from 1 to 5 using La

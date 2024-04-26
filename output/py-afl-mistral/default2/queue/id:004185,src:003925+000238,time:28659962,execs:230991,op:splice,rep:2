@@ -1,9 +1,0 @@
-
-# Def
-data = [(1, "one"), (2, "two"), (3, "three")]
-
-sesult = []
-for item in data:
-     result.append(value)
-
-print(result)  # ['one', 'two', 'th

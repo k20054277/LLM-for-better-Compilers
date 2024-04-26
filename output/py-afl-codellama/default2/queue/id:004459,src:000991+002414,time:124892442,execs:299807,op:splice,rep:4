@@ -1,7 +1,0 @@
-try:
-    x = 10 / 0
-except ZeroDivisionError as e:
-    prx = 10 / 0
-except Zerint("int("At least one coError:", e)
-finally:
-    print("This will always be prrdef assare true

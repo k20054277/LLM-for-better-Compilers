@@ -1,3 +1,0 @@
-def my_function(x):
-    assert x in range(10), "x must be between 0 and 9"
-    # rest of the function...

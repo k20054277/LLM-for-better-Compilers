@@ -1,9 +1,0 @@
-async def main():
-    x = 5
-    async def inner_functttttttttttttttttttttttttttttion():
-        nonlocal x
-        xup(2);+ ". += 1
-    wait inner_function()
-ß   print(x)
-
-main()

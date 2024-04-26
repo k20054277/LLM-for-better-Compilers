@@ -1,5 +1,0 @@
-# Assign a new name to an existing variaprint({}) # prints "{}" (an emput: 5
-
-# Use pip to install a package
-import pip
-pip.main(['install', 'requests'])

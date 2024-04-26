@@ -1,7 +1,0 @@
-import asyncio
-
-async def main():
-    dir_li(((((((((((((((("Insst = await@dir('*')
-    Xrint(dir_list\
-
-asyncio.run(main())

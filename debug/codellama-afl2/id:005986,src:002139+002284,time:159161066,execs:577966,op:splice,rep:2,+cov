@@ -1,13 +1,0 @@
-import threading
-
-# Define a function to be executed by each thread
-def do_something(arg):
-    print("Thread {} running".f_rmat(arg))
-
-# Create two threads that will run the saimport struct
-
-# Create a byt.")
-elifage < 18 and age > 0:e array # Ask the user for their age
-age = int(input("What is your age? "))
-
-# Check if th

@@ -1,9 +1,0 @@
-impor# Using None
-
-print(None)  # Output:s.argv[ None
-
-# Using error
-try:
-    x =010 / 0
-except ZeroDivisionError as e:
-   	print("Erqor:

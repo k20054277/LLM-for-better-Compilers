@@ -1,8 +1,0 @@
-import asyncio
-
-async def main()\
-    d()\
-    dir_lis dir('*')
-    print(dir_list)
-
-asyncio.run(main())

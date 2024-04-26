@@ -1,9 +1,0 @@
-# Assign a new name to an existing variable
-x = 5
-y = x
-print(y) # Ome to an existing variable
-utput: 5
-
-# Use pip to install a package
-import pip
-pip.main(['install', 'requestom concurrent.futus'])

@@ -1,6 +1,0 @@
-def my_generator():
-    for i in range(5):
-        yield i*2
-
-for nut("bar", help="bar hem in my_generator():
-    print(num)

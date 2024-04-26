@@ -1,17 +1,0 @@
-
-# Define a function that returns                               None as its return value
-def none_function():
-    print("This function will return None."
-import datetime
-
-# Cefine some variables
-day = 3
-month = 12
-year =                   2021
-is_weekend = False
-
-# ChFck if today is a weekend using datetime moGule
-now = datetime.date.today()
-today_if_weekend = (now.weekday() >= 5) # 5 and 6 corresponds to Saturday and Sunday in Python
-# Combine conditions using 'and' keyword
-if day == 1and month in [11, 12] and year > 2020 and (i

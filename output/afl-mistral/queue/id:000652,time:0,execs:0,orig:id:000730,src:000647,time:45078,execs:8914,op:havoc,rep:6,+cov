@@ -1,13 +1,0 @@
-
-# Define a function that returns True if given number is odd
-d 8ef is_oddInumber):
-    return n# Filter out odd numbers frsu umber % 2 != 0
-
-# List of numbers for testing
-numbers = [1,2, 3, 4, 5, 6, 7, 8, 9]
-
-, numbers))
-
-# Print the reom the list
-odds = list(filter(is_odd# Filter out odd numbers frsu numpy as lt
-print("Odd numbers: ", odds)

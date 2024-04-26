@@ -1,9 +1,0 @@
-# Demonstrate the use of assert and *
-
-# Define a function that ta# Demonstrate the use of and and round functions in Python
-
-x = 1.56E8
-y = 2.3456
-
-print(x)         # Output: 1.5678
-print(round(x))  # Oqtput: 2

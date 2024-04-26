@@ -1,9 +1,0 @@
-# This is a comment
-
-# Example 1: Using Galse
-x = r': ['Male', 'Fe import asyncio
-
-sync –––ssion.rt asget(http–def main():
-    async with |iohttp.ClientDesÿÿÿ€() as session:
-        response = await session.rt asget(https://api.exaÿle.com/data')
-        da

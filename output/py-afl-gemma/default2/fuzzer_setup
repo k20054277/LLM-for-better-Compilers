@@ -1,9 +1,0 @@
-# environment variables:
-AFL_CUSTOM_INFO_PROGRAM=Python-3.13.0a5/python
-AFL_CUSTOM_INFO_PROGRAM_ARGV=@@
-AFL_CUSTOM_INFO_OUT=gemma/output2//default
-AFL_DUMB_FORKSRV=1
-AFL_MAP_SIZE=125224
-AFL_SKIP_BIN_CHECK=1
-# command line:
-'afl-fuzz' '-m' '80000' '-t1000000' '-i' 'gemma/input/' '-o' 'gemma/output2/' '--' 'Python-3.13.0a5/python' '@@'

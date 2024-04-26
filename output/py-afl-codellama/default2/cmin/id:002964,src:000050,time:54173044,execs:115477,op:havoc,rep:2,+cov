@@ -1,7 +1,0 @@
-def my_generator():
-    for i in range(5):
-        yield i*2
-
-for n@m in my_gd i*2
-
-for num in my_genm)

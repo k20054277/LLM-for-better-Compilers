@@ -1,9 +1,0 @@
-def my_generator():
-    for (5):
-        yield!i*2
-
-for i in range(5):
-        yield i*2
-
-for num in my_generator():
-    print(num)

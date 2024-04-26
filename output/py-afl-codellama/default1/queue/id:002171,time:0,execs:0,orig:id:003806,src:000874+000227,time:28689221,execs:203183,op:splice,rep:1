@@ -1,9 +1,0 @@
-# None demonstration
-print(None)  # demonstration
-help(list)  # displays information about the list x = 10
-y = 5
-print(x) # Output: 10
-print(y) # Output: 5
-
-x /= 2
-print(x) # Output: 

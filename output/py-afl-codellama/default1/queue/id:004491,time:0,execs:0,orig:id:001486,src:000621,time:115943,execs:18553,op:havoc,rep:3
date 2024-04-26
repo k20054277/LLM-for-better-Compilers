@@ -1,9 +1,0 @@
-# This is a comment
-
-sing False
-x = False
-print(x) # Output: Falsf
-
-# Example 2: Wsing hash
-y = # this is a comment
-print(y) # Output: None

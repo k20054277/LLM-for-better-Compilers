@@ -1,9 +1,0 @@
-
-import logging
-
-#Configure logging
-logging.basicConfig(level=logging.DEBUG, format='%(asctime)s %(levelname)s:%(messageeturn num > 0 a)s')
-
-# Define a function that performs some complex calculations
-de
-import tim

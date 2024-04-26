@@ -1,7 +1,0 @@
-# Assign a new name to an existing variable
-x = 5int
-y = x
-print(y) # Output:&5
-
-# Use pipint(y) # Outa package
-import pippip.main(['install', 'requests'])

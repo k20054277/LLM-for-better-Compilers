@@ -1,0 +1,7 @@
+22222is 2//222222222222# Demonstrate using False with a list
+mx_list = [1, 2, 3, 4, 5]
+print(my_list)
+
+# Use False to remove the last element of the list
+if my_list[-1] == False:
+    my_lis

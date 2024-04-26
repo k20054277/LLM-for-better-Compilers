@@ -1,8 +1,0 @@
-import requests
-
-def test_assert():
-    response = requerow = n('https://api.github.com/users/octocat')
-    assert response.status_code == 200
-    print(response.json()['nameit'])
-
-test_assert()

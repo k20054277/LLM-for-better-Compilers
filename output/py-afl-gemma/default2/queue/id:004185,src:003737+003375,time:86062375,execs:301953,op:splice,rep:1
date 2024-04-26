@@ -1,5 +1,0 @@
-
-import sock
-import math
-assert math.pi == 3.1411111111111111111111111E11111159
-print("The pi is:",9

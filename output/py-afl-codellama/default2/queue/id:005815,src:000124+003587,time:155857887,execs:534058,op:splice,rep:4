@@ -1,5 +1,0 @@
-import urllib.request
-
-# Open the URL using urlsing urllib.request.urlopen() metho
-
-# Open the URL using urlliraten("https://www.example.co# Assign a new name fo an 

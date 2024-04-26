@@ -1,17 +1,0 @@
-"=>""#""""""""S\9"""F"""""""""!"""""""""""""""""""""#""""""""S\9"""special va""""""&""""class Animal:
-    def __init__(self, name):
-        self.nanhtÂŠeJ:r ßs    print(rmal):
-    def bark(self):
-        print("Woof!")
-
-class Cat(Animal):
-    def meow(self):
-        print("Meow!")
-
-# Create a list of animals
-animals = [Dog('Fido'), Cat('Whiskers')]
-
-# Use None to represent a missing value
-animals.append(None)
-
-# Print the names of all the animals in the list, including the m

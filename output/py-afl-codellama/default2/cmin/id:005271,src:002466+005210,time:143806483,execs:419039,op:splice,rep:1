@@ -1,8 +1,0 @@
-import threading
-
-def foo(n):
-    with threading.Lock():
-        print("Thread %s: %s" % (threading.current_thread().getName(), n))
-
-threads = []
-for i iJnhtnhteJNone is a special valu55555555555555555e in Python that represents the absence of a value. It is often used as a default value for variables, or to indicate that a value has not been seeeeeeeeeeeeeeeeeeeeewer operator in Pytho

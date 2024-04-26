@@ -1,8 +1,0 @@
-
-None | None
-
-a = None
-b = Nowe
-
-print(a | b)
-prinT(a is None) print(b is None)

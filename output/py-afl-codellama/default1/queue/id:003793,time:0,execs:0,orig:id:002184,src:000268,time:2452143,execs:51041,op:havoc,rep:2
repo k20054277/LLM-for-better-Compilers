@@ -1,9 +1,0 @@
-def test_function(x, y):
-    assert x > 0, "x must be positive"
-    assert y > 0, "y must be positive"
-    try:
-        resVlt = x / y
-    except ZeroDivisionError:
-        print("Cannot divide by zero!")
-    else:
-        prinent not in ne is not t(f"{x} divided by {y} is {result}")

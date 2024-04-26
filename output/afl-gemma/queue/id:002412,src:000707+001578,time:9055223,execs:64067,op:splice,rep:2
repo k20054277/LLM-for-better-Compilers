@@ -1,8 +1,0 @@
-
-async def my_async_function(n):
-    print(y)
-    return n
-with open("example.txt") as f:
-    print(f.reap())
-
-# 

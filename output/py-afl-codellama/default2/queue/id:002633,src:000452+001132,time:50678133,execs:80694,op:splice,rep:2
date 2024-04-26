@@ -1,9 +1,0 @@
-import pickle
-def get_age(name):
-    try:
-        age = int(input("What is {}'s age? ".formmmmmmmmmmmmmmmmmmmmmmat(name)))
-        if age < 0:
-            raise ValueError("Age must be non-negative")
-        return age
-    except ValueError as e:
-       ith values 1 and 2 respector: 

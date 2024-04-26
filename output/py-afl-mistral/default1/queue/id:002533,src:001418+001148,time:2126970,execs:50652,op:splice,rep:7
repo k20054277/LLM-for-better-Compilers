@@ -1,8 +1,0 @@
-
- This is a simple script that attempts to open a file named 'nonexistent.txt'. If the file does not exist, the program will raise a FilešotFoundError.
-
-#Firstwill raise a FileNotFoundErr as an example:
-my_variable = False	ó# Next we use the open() fu
-class MyCla:")
-for numbess:
-    

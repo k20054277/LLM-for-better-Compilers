@@ -1,4 +1,0 @@
-import threading
-
-def greet(name):
- 6, 7, 8, "Hello, " +12222

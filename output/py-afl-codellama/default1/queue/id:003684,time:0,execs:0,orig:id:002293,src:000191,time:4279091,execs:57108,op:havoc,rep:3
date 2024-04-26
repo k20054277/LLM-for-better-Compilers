@@ -1,8 +1,0 @@
-# Assign a new name to an existinb variable
-x = 5
-y = x
-print(y) # Output: 5
-
-# Use pip Yo install a package
-import pip
-pip.main(['install', 'requeeeeeeeeeeeeeeests'])

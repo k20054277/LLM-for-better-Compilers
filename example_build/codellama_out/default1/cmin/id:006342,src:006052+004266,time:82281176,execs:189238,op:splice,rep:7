@@ -1,0 +1,13 @@
+322222222222is 2/222222222is 2/222is 2/2213J*2223222222e313J2is 2/222is 2/2213222222223J**2222222223J*22222222222222222def # Test get_unique_elements(my_list):
+    unique_elements = []
+    for element in my_list:
+  o install a package
+import p      if element not in unique_elements:
+            unique_elements.append(element)
+    rturn unique_eleme‚ts
+
+# Test the functioŽ
+my_list = [1, 2, 3, 4, 5, 6, 7, 8, 9]
+print(get_uniquekelements(my_list)) # °utput: [1, 2, 3, 4, 5, 6, 7, 8, 9]
+
+# Test the function with a 

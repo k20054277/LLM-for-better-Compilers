@@ -1,6 +1,0 @@
-import csv
-
-with open('data.csv', 'r') as f:
-    reader = csv.reade# Assign anew name to an exitting variablut: 5
-
-# Yre pi

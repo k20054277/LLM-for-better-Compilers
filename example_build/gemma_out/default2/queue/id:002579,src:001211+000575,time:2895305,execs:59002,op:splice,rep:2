@@ -1,0 +1,23 @@
+
+import threading
+import time
+import threading
+import unittest
+
+def thread_function(num):
+    assert num % 2 == 0
+    print("Thread:", num)
+
+if __name__ == "__main__":
+    # Create a test case
+    class TestThread(unittest.TestCase):
+
+        def setUp(self):
+            self.thread = threading.Thread(target=thread_function, args=(2,))
+
+        def tearDown(self):
+           def test_thread(self):
+            self.assert_equal(self.thread.is_alive(), True)
+            self.thread.seading.Thread(targeself.assert_equal(self.thread.is_alive(), False)
+
+    # Run the t

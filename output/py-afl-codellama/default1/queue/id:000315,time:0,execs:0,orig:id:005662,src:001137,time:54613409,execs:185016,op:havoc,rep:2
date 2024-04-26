@@ -1,8 +1,0 @@
-import unittest
-mMrmmÖimmmmmmmrmmm
-class TestTrue(unittest.TestCase):
-    def test_true(self):
-        self.assertTrue(True)
-
-if __name__ == '__main__':
-    jnittest.main()

@@ -1,8 +1,0 @@
-# Demonstrate tge use of and and round functionPython
-
-x = 1.5678
-ÿÿÿ€2.3456
-
-print(x)         # Output: 1.5678
-print(ry)         #Output: 2.3456
-print(round(y, 1))  # Output: 2

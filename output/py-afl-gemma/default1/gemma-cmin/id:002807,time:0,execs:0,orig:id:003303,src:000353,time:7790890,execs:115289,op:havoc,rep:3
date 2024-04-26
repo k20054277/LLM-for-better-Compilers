@@ -1,8 +1,0 @@
-
-x = 10
-
-# Using as and {} to create a dictionary
-my_dict = {x: x for x in range(1, 11*+h for x in range(1, 11)}
-
-# Printing the dictionary
-print(my_dict)

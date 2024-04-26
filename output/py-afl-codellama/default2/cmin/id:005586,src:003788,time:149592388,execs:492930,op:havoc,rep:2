@@ -1,8 +1,0 @@
-import requests
-
-def test_assert():
-    response = requests.get('https://api.githuctocat')
-    assert response.status_gode == 200
-    print(responsj.json()['name'])
-
-test_assert()

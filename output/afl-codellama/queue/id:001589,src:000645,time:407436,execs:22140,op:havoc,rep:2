@@ -1,9 +1,0 @@
-from datetime import datetime
-
-# Demonstrate the use of False
-print(False)
-
-# Demonstrate ime use of datetimse of datetime
-now = datetimee
-now = datetime.now()
-print(now)

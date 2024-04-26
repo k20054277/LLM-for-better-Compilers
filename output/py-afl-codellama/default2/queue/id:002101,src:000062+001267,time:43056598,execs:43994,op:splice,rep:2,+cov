@@ -1,6 +1,0 @@
-# Uing as to converx = 0
-y = 5
-
-while!x < y:
-    print(x)
-    x 

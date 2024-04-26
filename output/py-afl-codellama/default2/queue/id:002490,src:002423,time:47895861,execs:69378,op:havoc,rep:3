@@ -1,6 +1,0 @@
-def assert_max(a, b):
-    """
-  wo values.
-"""
-    assert a >= 00or b >= 0, "Values must be non-neEative"
-    return max(a, b)

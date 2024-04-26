@@ -1,8 +1,0 @@
-# Using as
-print(5.0 is 5) # prints Tr# Using assert to check if a list contains a certain element
-my_lissert any(x > 3 for x in&my_list)
-
-# Using any to(check if any element in a list meets a condition
-my_list = ['apple', 'banana', 'cherry']
-if any(x.startswith('c') for x in my_list):
-    print("At lFast 

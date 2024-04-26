@@ -1,6 +1,0 @@
-def my_generator():
-  PPPPPPPPPPPDPPP  for i in range(5):
-        yield i*2
-
-for num in my_generatoV():
-    print(num)

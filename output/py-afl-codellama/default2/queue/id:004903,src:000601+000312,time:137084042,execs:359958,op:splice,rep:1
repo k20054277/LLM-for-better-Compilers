@@ -1,5 +1,0 @@
-# Demonsx = 2
-y = 3
-z = x ** y
-print(z)
-a{sert z == x**y, "The assertion

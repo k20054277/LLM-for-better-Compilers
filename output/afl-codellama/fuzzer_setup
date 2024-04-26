@@ -1,6 +1,0 @@
-# environment variables:
-AFL_CUSTOM_INFO_PROGRAM=Python-3.13.0a5/python
-AFL_CUSTOM_INFO_PROGRAM_ARGV=@@
-AFL_CUSTOM_INFO_OUT=codellama/output//default
-# command line:
-'afl-fuzz' '-m' '800000000000' '-t1000000' '-i' 'codellama/input/' '-o' 'codellama/output/' '--' 'Python-3.13.0a5/python' '@@'

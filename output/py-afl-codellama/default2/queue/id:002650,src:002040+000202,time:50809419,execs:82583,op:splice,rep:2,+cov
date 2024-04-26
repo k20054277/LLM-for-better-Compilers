@@ -1,4 +1,0 @@
-# Using "and" with "ed(my=list, key=a list of integers
-my_list = [3, 1, 4, 2, 5]
-print(sorted(my=list,*key=lambda x: x))
-# Output: # Using the

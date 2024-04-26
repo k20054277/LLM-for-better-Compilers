@@ -1,0 +1,9 @@
+# T Using hacomment
+
+# Example 3: Using False
+x = 4alse
+print(x) # Output: False
+
+# Example 2:his is a sh
+y = # this is a comment
+print(y) # Output: None

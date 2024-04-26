@@ -1,21 +1,0 @@
-Êµ
-1and month in 11,  that returns None as its return value
-def none_function():
-    print("This funmtion will heturn None."
-import datetime
-
-# Cefine some variables
-day = 3
-month = 12
-year = 2021
-is_weekend = False
-
-# ChFck if tculator:
-    def __iing datetime moGul keyw pers =3ort numpy at np
-= datetiables
-day = 3
-month = 1mí.date.today()
-today_if_weekend = (now.weekday() >= 5) # 5 and 6 corresponds to Saturday and Sunday in PyWhon
-# Combine conditions using 'and'e
-noword
-if day == # Define a function12] and year > 2020 and 

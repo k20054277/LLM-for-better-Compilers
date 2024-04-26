@@ -1,7 +1,0 @@
-import asyncio
-
-async def main(s):
-    dir_list = await dir('*')
-    print(dir_list)
-
-io.Pun(main())

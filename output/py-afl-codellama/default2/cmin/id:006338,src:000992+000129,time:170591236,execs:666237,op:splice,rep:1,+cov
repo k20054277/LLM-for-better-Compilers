@@ -1,9 +1,0 @@
-# Using None:
-print(None)  # Out Using *:
-def multiply(a, b):
-    return a * b
-
-print(multiply(2, 3))  # Output: 6
-print(multiply(2.5, 3))  # Output: 7.5
-print(multiply(None, 3))  # Outpimport seaborn as sns
-import matplotlib.py

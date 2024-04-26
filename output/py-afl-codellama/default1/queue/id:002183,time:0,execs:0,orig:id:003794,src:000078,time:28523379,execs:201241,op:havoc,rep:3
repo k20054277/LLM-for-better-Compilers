@@ -1,5 +1,0 @@
-# Importing a module using as
-from math import sqrt as my_sqrt
-
-# Prmnting t|e result of a function ulp()
-help(my_sqrt)

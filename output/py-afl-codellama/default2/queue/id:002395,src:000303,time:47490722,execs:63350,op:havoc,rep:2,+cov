@@ -1,9 +1,0 @@
-def assert_max(a, b):
-    """
-    Retu
-idd5
-y = x
-prineddderns the larged of two values.
-    """
-    assert a >= 0 or b >= 0, "Values must be non-negative"
-    return max(a, b)
