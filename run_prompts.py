@@ -1,6 +1,7 @@
 import subprocess
 import time
 import os
+from pathlib import Path
 
 def save_time(time):
     #save time in time.txt
@@ -121,6 +122,7 @@ def read_file(model):
     if model == "Mistral": 
         save_time(model)
         dir_path = (os.getcwd() +"/mistral")
+        Path(dir_path).mkdir(parents=True, exist_ok=True)
         #count number of test cases already generated
         for path in os.listdir(dir_path):
             if os.path.isfile(os.path.join(dir_path, path)):
@@ -139,6 +141,7 @@ def read_file(model):
         save_time(model)
         #count number of test cases already generated
         dir_path = (os.getcwd() +"/codellama")
+        Path(dir_path).mkdir(parents=True, exist_ok=True)
         for path in os.listdir(dir_path):
             if os.path.isfile(os.path.join(dir_path, path)):
                 count += 1
@@ -156,6 +159,7 @@ def read_file(model):
         save_time(model)
         #count number of test cases already generated
         dir_path = (os.getcwd() +"/gemma")
+        Path(dir_path).mkdir(parents=True, exist_ok=True)
         for path in os.listdir(dir_path):
             if os.path.isfile(os.path.join(dir_path, path)):
                 count += 1

@@ -134,10 +134,12 @@ RUN mkdir -p /home/debian/codellama
 RUN mkdir -p /home/debian/gemma_out
 RUN mkdir -p /home/debian/mistral_out
 RUN mkdir -p /home/debian/codellama_out
+RUN mkdir -p /home/debian/compare/3.13
+RUN mkdir -p /home/debian/compare/3.12
 
 COPY mistral mistral/
 COPY codellama codellama/
-COPY Gemma gemma/
+COPY gemma gemma/
 
 COPY delete_empty.py .
 COPY move_all.py .
