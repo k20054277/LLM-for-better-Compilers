@@ -15,9 +15,9 @@ def copy(source, des):
 	print("-------------------------------------")
 
 def main():
-	paths = [["/mistral_out/default/queue/","/Python-3.12.3/debug/mistral-queue/"],["/mistral_out/default/queue/","/Python-3.13.0a5/debug/mistral-queue/"],
-	["/gemma_out/default/queue/","/Python-3.12.3/debug/gemma-queue/"], ["/gemma_out/default/queue/","/Python-3.13.0a5/debug/mistral-queue/"],
-	["/codellama_out/default/queue/","/Python-3.12.3/debug/codellama-queue/"], ["/codellama_out/default/queue/","/Python-3.13.0a5/debug/codellama-queue/"]]
+	paths = [["/mistral_out/default/queue/","/Python-3.12.3/debug/mistral-afl/"],["/mistral_out/default/queue/","/Python-3.13.0a5/debug/mistral-afl/"],
+	["/gemma_out/default/queue/","/Python-3.12.3/debug/gemma-afl/"], ["/gemma_out/default/queue/","/Python-3.13.0a5/debug/gemma-afl/"],
+	["/codellama_out/default/queue/","/Python-3.12.3/debug/codellama-afl/"], ["/codellama_out/default/queue/","/Python-3.13.0a5/debug/codellama-afl/"]]
 
 	for s,d in paths:
 		copy(s,d)

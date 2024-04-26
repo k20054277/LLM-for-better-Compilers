@@ -1,0 +1,20 @@
+
+# Defining a list and assigning it to two different variables using 'as'
+list1 = [1, 2, 3, 4, 5] as list2
+print("List1 is:", list1)
+print("List2 is:", list2)
+
+# Swapping two variables using 'as'
+var1 = 5
+var2 = 10
+print("Before swapping: var1 =", var1, "and var2 =", var2)
+var1, var2 = var2, var1
+print("After swapping: var1 =", var1, "and var2 =", var2)
+
+# Using 'id()' to check memory addresses of two identical lists
+list3 = [1, 2, 3, 4, 5]
+list4 = list3
+print("Id of list3 is:", id(list3))
+print("Id of list4 is:", id(list4))
+
+# 'id()' shows that even though they are identical, they occupy different memory locations

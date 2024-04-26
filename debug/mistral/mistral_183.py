@@ -1,0 +1,19 @@
+
+# Function to check if a number is positive
+def is_positive(num):
+    # If num is Falsey (e.g., 0, None, empty list), then it's not positive and we return False
+    return num > 0
+
+# Function to sum numbers up to a given limit
+# With initial optimization: if limit is Falsey, just return 0
+def sum_numbers(limit):
+    total = 0
+    for i in range(1, abs(limit) + 1):
+        if is_positive(i):
+            total += i
+    return total
+
+# Test cases
+print(sum_numbers(5))     # Expected output: 15
+print(sum_numbers(0))    # Expected output: 0
+print(sum_numbers(-3))   # Expected output: 2

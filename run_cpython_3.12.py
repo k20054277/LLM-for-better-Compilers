@@ -16,7 +16,7 @@ def run_compiler(run_path):
         
     except subprocess.TimeoutExpired: 
         return("","TimeoutExpired")
-        
+ 
     return (str(p.stdout),str(p.stderr))
 
 def read_files(file_path, result_file, error_file):
@@ -65,26 +65,26 @@ def read_files(file_path, result_file, error_file):
     print("your results are stored in : " + result_file +" and " +error_file)
 
 def run_test(model):
-    gemma_cmin_path = "/debug/gemma-cmin2"
-    mistral_cmin_path = "/debug/mistral-cmin2"
-    codellama_cmin_path = "/debug/codellama-cmin2"
-    gemma_path = "/debug/gemma-queue2"
-    mistral_path = "/debug/mistral-queue2"
-    codellama_path = "/debug/codellama-queue2"
+    gemma_cmin_path = "/debug/gemma-cmin"
+    mistral_cmin_path = "/debug/mistral-cmin"
+    codellama_cmin_path = "/debug/codellama-cmin"
+    gemma_path = "/debug/gemma-afl"
+    mistral_path = "/debug/mistral-afl"
+    codellama_path = "/debug/codellama-afl"
 
     match model:
         case "1":
-            read_files(gemma_cmin_path, "gemma_mini_result2.txt", "gemma_mini_error2.txt")
+            read_files(gemma_cmin_path, "gemma_mini_result.txt", "gemma_mini_error.txt")
         case "2":
-            read_files(codellama_cmin_path, "codellama_mini_result2.txt", "codellama_mini_error2.txt")
+            read_files(codellama_cmin_path, "codellama_mini_result.txt", "codellama_mini_error.txt")
         case "3":
-            read_files(mistral_cmin_path, "mistral_mini_result2.txt", "mistral_mini_error2.txt")
+            read_files(mistral_cmin_path, "mistral_mini_result.txt", "mistral_mini_error.txt")
         case "4":
-            read_files(gemma_path, "gemma_result.txt2", "gemma_error2.txt")
+            read_files(gemma_path, "gemma_result.txt", "gemma_error.txt")
         case "5":
-            read_files(codellama_path, "codellama_result2.txt", "codellama_error2.txt")
+            read_files(codellama_path, "codellama_result.txt", "codellama_error.txt")
         case "6":
-            read_files(mistral_path, "mistral_result2.txt", "mistral_err2.txt")
+            read_files(mistral_path, "mistral_result.txt", "mistral_err.txt")
         case _:
             print("test options: ")
             print("-------------------------------------")
