@@ -31,8 +31,8 @@ def move(model):
 		copy(s,d)
 	else:
 		print("Error! please Indicate a number to run your test case of choice")
-        print("For example: enter \"1\" to Move output queue from AFL directory to Compiler directory")
-        print("Options")
+		print("For example: enter \"1\" to Move output queue from AFL directory to Compiler directory")
+		print("Options")
 		print("-------------------------------------")
 		print("1: Move output queue from AFL directory to Compiler directory")
 		print("1: Move Compiler results from Compiler directory to Compare directory")
@@ -49,10 +49,6 @@ def main():
 	print("-------------------------------------")
 	model = input("please enter a number to move your choice: ")
     move(model);
-	
-
-	for s,d in paths:
-		copy(s,d)
 
 if __name__ == "__main__":
     main()
