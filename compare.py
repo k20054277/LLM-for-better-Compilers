@@ -41,7 +41,7 @@ def compare(path):
     for file in files:
         output = re.split(pattern, file)
         for o in output:
-            outputs[i].append(o)
+            outputs1[i].append(o)
         i = i+1
 
     return outputs1
